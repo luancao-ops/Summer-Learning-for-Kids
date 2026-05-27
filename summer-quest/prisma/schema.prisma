@@ -1,0 +1,248 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Student {
+  id                  String    @id
+  displayName         String
+  currentGrade        Int
+  nextGrade           Int
+  themeId             String
+  rewardStyle         String
+  feedbackStyle       String
+  xp                  Int       @default(0)
+  coins               Int       @default(0)
+  streak              Int       @default(0)
+  readingStreak       Int       @default(0)
+  lastActiveDate      String?
+  accessCodeHash      String?
+  accessCodeUpdatedAt DateTime?
+  createdAt           DateTime  @default(now())
+
+  theme            ThemeConfig       @relation(fields: [themeId], references: [id])
+  attempts         Attempt[]
+  mistakes         Mistake[]
+  studentBadges    StudentBadge[]
+  studentRewards   StudentReward[]
+  choreAssignments ChoreAssignment[]
+  readingEntries   ReadingEntry[]
+}
+
+model ThemeConfig {
+  id               String @id
+  name             String
+  visualDirection  String
+  feedbackExamples String
+  rewardTypes      String
+  colors           String
+
+  students Student[]
+  rewards  Reward[]
+}
+
+model Subject {
+  id         String @id
+  label      String
+  emoji      String
+  orderIndex Int
+
+  lessons Lesson[]
+}
+
+model Lesson {
+  id                String   @id
+  subjectId         String
+  studentTarget     String
+  grade             Int
+  phase             String
+  orderIndex        Int
+  title             String
+  learningObjective String
+  shortExplanation  String
+  content           String
+  storyContext      String?
+  rewardConfig      String
+  approved          Boolean  @default(true)
+  createdAt         DateTime @default(now())
+
+  subject   Subject    @relation(fields: [subjectId], references: [id])
+  questions Question[]
+  attempts  Attempt[]
+  mistakes  Mistake[]
+
+  @@index([studentTarget, subjectId, grade, phase])
+}
+
+model Question {
+  id            String  @id
+  lessonId      String
+  orderIndex    Int
+  type          String
+  text          String
+  options       String
+  correctAnswer String
+  explanation   String
+  hint          String?
+
+  lesson         Lesson          @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  attemptAnswers AttemptAnswer[]
+  mistakes       Mistake[]
+
+  @@index([lessonId, orderIndex])
+}
+
+model Attempt {
+  id             String   @id @default(cuid())
+  studentId      String
+  lessonId       String
+  score          Int
+  totalQuestions Int
+  percentage     Int
+  xpEarned       Int
+  coinsEarned    Int
+  completedAt    DateTime @default(now())
+
+  student Student         @relation(fields: [studentId], references: [id])
+  lesson  Lesson          @relation(fields: [lessonId], references: [id])
+  answers AttemptAnswer[]
+
+  @@index([studentId, completedAt])
+  @@index([lessonId])
+}
+
+model AttemptAnswer {
+  id             String  @id @default(cuid())
+  attemptId      String
+  questionId     String
+  selectedAnswer String
+  isCorrect      Boolean
+
+  attempt  Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id])
+  mistake  Mistake?
+
+  @@index([attemptId])
+  @@index([questionId])
+}
+
+model Mistake {
+  id              String   @id @default(cuid())
+  studentId       String
+  lessonId        String
+  questionId      String
+  attemptAnswerId String?  @unique
+  selectedAnswer  String
+  correctAnswer   String
+  explanation     String
+  resolved        Boolean  @default(false)
+  createdAt       DateTime @default(now())
+
+  student       Student        @relation(fields: [studentId], references: [id])
+  lesson        Lesson         @relation(fields: [lessonId], references: [id])
+  question      Question       @relation(fields: [questionId], references: [id])
+  attemptAnswer AttemptAnswer? @relation(fields: [attemptAnswerId], references: [id])
+
+  @@index([studentId, resolved, createdAt])
+}
+
+model Badge {
+  id          String @id
+  name        String
+  description String
+  icon        String
+  condition   String
+  xpReward    Int    @default(0)
+
+  studentBadges StudentBadge[]
+}
+
+model StudentBadge {
+  id        String   @id @default(cuid())
+  studentId String
+  badgeId   String
+  earnedAt  DateTime @default(now())
+
+  student Student @relation(fields: [studentId], references: [id])
+  badge   Badge   @relation(fields: [badgeId], references: [id])
+
+  @@unique([studentId, badgeId])
+}
+
+model Reward {
+  id              String @id
+  themeId         String
+  name            String
+  type            String
+  icon            String
+  unlockCondition String
+
+  theme          ThemeConfig     @relation(fields: [themeId], references: [id])
+  studentRewards StudentReward[]
+}
+
+model StudentReward {
+  id         String   @id @default(cuid())
+  studentId  String
+  rewardId   String
+  unlockedAt DateTime @default(now())
+
+  student Student @relation(fields: [studentId], references: [id])
+  reward  Reward  @relation(fields: [rewardId], references: [id])
+
+  @@unique([studentId, rewardId])
+}
+
+model ChoreTemplate {
+  id          String @id @default(cuid())
+  name        String
+  icon        String @default("🧹")
+  description String @default("")
+
+  assignments ChoreAssignment[]
+}
+
+model ChoreAssignment {
+  id           String   @id @default(cuid())
+  choreId      String
+  studentId    String
+  assignedDate String
+  createdAt    DateTime @default(now())
+
+  chore      ChoreTemplate    @relation(fields: [choreId], references: [id])
+  student    Student          @relation(fields: [studentId], references: [id])
+  completion ChoreCompletion?
+
+  @@unique([choreId, studentId, assignedDate])
+  @@index([studentId, assignedDate])
+}
+
+model ChoreCompletion {
+  id           String   @id @default(cuid())
+  assignmentId String   @unique
+  level        String
+  description  String
+  completedAt  DateTime @default(now())
+
+  assignment ChoreAssignment @relation(fields: [assignmentId], references: [id])
+}
+
+model ReadingEntry {
+  id        String   @id @default(cuid())
+  studentId String
+  readDate  String
+  bookTitle String
+  pagesRead Int      @default(0)
+  summary   String
+  feelings  String
+  createdAt DateTime @default(now())
+
+  student Student @relation(fields: [studentId], references: [id])
+
+  @@unique([studentId, readDate])
+  @@index([studentId, readDate])
+}

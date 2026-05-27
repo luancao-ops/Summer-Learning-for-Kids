@@ -1,0 +1,14 @@
+{
+  "name": "project-learning-for-kids",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix summer-quest run dev:local",
+    "dev:local": "npm --prefix summer-quest run dev:local",
+    "build": "npm --prefix summer-quest run build",
+    "lint": "npm --prefix summer-quest run lint",
+    "test": "npm --prefix summer-quest run test",
+    "prisma:migrate": "npm --prefix summer-quest run prisma:migrate",
+    "prisma:seed": "npm --prefix summer-quest run prisma:seed",
+    "prisma:studio": "npm --prefix summer-quest run prisma:studio"
+  }
+}
