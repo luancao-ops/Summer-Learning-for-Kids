@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MistakeReviewList } from "@/components/MistakeReviewList";
+import { ParentResetDataPanel, type ResetDataCounts } from "@/components/ParentResetDataPanel";
 import { ParentSummary } from "@/components/ParentSummary";
 import { choreLevelRewards, recentDateCutoff, todayKey, type ChoreLevel } from "@/lib/habits";
 import { subjectProgress } from "@/lib/progress";
@@ -12,6 +13,14 @@ export default async function ParentPage() {
   const readingCutoff = recentDateCutoff(7);
   const students = await prisma.student.findMany({ orderBy: { id: "asc" } });
   const pendingReviewCount = await prisma.lesson.count({ where: { approved: false } });
+  const resetDataCounts: ResetDataCounts = {
+    attempts: await prisma.attempt.count(),
+    mistakes: await prisma.mistake.count(),
+    choreAssignments: await prisma.choreAssignment.count(),
+    readingEntries: await prisma.readingEntry.count(),
+    studentBadges: await prisma.studentBadge.count(),
+    studentRewards: await prisma.studentReward.count(),
+  };
   const subjects = await prisma.subject.findMany({
     orderBy: { orderIndex: "asc" },
     include: {
@@ -214,6 +223,8 @@ export default async function ParentPage() {
           <h2 className="mb-4 text-2xl font-black">Câu cần ôn gần đây</h2>
           <MistakeReviewList mistakes={mistakes} showStudentName={true} />
         </section>
+
+        <ParentResetDataPanel counts={resetDataCounts} />
       </div>
     </main>
   );
