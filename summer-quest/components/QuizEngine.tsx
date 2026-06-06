@@ -1,7 +1,7 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
 import { calculateRewards, isAnswerCorrect, scoreQuiz, type AnswerInput, type QuizQuestion } from "@/lib/quiz";
 import type { AppTheme } from "@/lib/themes";
 import { FeedbackMessage } from "@/components/FeedbackMessage";
@@ -26,7 +26,6 @@ type QuizEngineProps = {
 };
 
 export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme }: QuizEngineProps) {
-  const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [fillValue, setFillValue] = useState("");
@@ -45,7 +44,11 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
   if (result) {
     return (
       <div className="mx-auto max-w-3xl rounded-2xl p-6 shadow-md" style={{ backgroundColor: "#ffffff", color: "#1e1b4b" }}>
-        <RewardBanner theme={theme} title="Hoàn thành bài kiểm tra!" subtitle={`${result.score}/${result.totalQuestions} câu đúng · ${result.percentage}%`} />
+        <RewardBanner
+          theme={theme}
+          title="Hoàn thành bài kiểm tra!"
+          subtitle={`${result.score}/${result.totalQuestions} câu đúng · ${result.percentage}%`}
+        />
         <div className="mt-6 grid gap-3 md:grid-cols-3">
           <div className="rounded-xl p-4 text-center" style={{ backgroundColor: "#ecfdf5", color: "#064e3b" }}>
             <div className="text-3xl font-black">{result.xpEarned}</div>
@@ -61,12 +64,20 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
           </div>
         </div>
         <div className="mt-6 flex flex-wrap gap-3">
-          <button type="button" onClick={() => router.push(`/student/${studentId}`)} className="h-12 rounded-xl px-5 font-black text-white" style={{ backgroundColor: theme.palette.primary }}>
+          <Link
+            href={`/student/${studentId}`}
+            className="inline-flex h-12 items-center rounded-xl px-5 font-black text-white"
+            style={{ backgroundColor: theme.palette.primary }}
+          >
             Về dashboard
-          </button>
-          <button type="button" onClick={() => router.push(`/student/${studentId}/lesson/${lessonId}`)} className="h-12 rounded-xl px-5 font-black" style={{ border: "2px solid #e2e8f0", color: "#334155", backgroundColor: "#ffffff" }}>
+          </Link>
+          <Link
+            href={`/student/${studentId}/lesson/${lessonId}`}
+            className="inline-flex h-12 items-center rounded-xl px-5 font-black"
+            style={{ border: "2px solid #e2e8f0", color: "#334155", backgroundColor: "#ffffff" }}
+          >
             Xem lại bài học
-          </button>
+          </Link>
         </div>
       </div>
     );
@@ -123,6 +134,8 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
   }
 
   async function submitQuiz(finalAnswers: AnswerInput[]) {
+    if (isSubmitting) return;
+
     setIsSubmitting(true);
     const response = await fetch("/api/quiz/submit", {
       method: "POST",
@@ -143,7 +156,6 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
     const data = (await response.json()) as QuizResult;
     setResult(data);
     setIsSubmitting(false);
-    router.refresh();
   }
 
   function handleNext() {
@@ -227,7 +239,7 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
             className="h-12 rounded-[8px] px-5 font-black text-white disabled:opacity-50"
             style={{ backgroundColor: theme.palette.accent }}
           >
-            {currentIndex + 1 >= questions.length ? "Lưu kết quả" : "Câu tiếp theo"}
+            {currentIndex + 1 >= questions.length ? (isSubmitting ? "Đang lưu..." : "Lưu kết quả") : "Câu tiếp theo"}
           </button>
         )}
       </div>
