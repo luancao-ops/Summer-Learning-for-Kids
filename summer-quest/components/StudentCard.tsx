@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getLevel } from "@/lib/quiz";
 import { getTheme } from "@/lib/themes";
+import { StudentAvatar } from "@/components/StudentAvatar";
+import { getAvatarTierName } from "@/lib/avatar";
 
 type StudentCardProps = {
   student: {
@@ -19,6 +21,7 @@ type StudentCardProps = {
 export function StudentCard({ student }: StudentCardProps) {
   const theme = getTheme(student.themeId);
   const level = getLevel(student.xp);
+  const tierName = getAvatarTierName(student.xp, student.themeId);
 
   // Secondary deco emojis shown inside the card hero panel
   const heroDeco = theme.decorations.slice(1, 4);
@@ -62,25 +65,26 @@ export function StudentCard({ student }: StudentCardProps) {
         {/* Main character emoji + level badge */}
         <div className="relative z-[2] flex items-start justify-between">
           <div>
-            {/* Big character avatar */}
-            <div
-              className="text-8xl leading-none drop-shadow-xl select-none"
-              style={{
-                filter: `drop-shadow(0 4px 20px rgba(255,255,255,0.5)) drop-shadow(0 0 10px ${theme.palette.accent})`,
-              }}
-            >
-              {theme.emoji}
+            {/* Tiered character avatar */}
+            <div className="select-none drop-shadow-xl">
+              <StudentAvatar xp={student.xp} themeId={student.themeId} size={96} />
             </div>
 
-            {/* Level badge */}
+            {/* Level badge + tier name */}
             <span
-              className="game-badge mt-3 inline-flex"
+              className="game-badge mt-2 inline-flex"
               style={{
                 background: `linear-gradient(135deg, ${theme.palette.accent}, ${theme.palette.primary})`,
               }}
             >
               ⭐ Level {level.level}
             </span>
+            <div
+              className="mt-1 text-xs font-black text-white/90 text-center leading-tight"
+              style={{ textShadow: "0 1px 4px rgba(0,0,0,0.4)" }}
+            >
+              {tierName}
+            </div>
           </div>
 
           {/* Theme name tag */}

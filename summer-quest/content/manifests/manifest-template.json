@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "batchId": "2026-girl-english-flyers-batch-01",
+  "description": "Template for safe append-only lesson imports.",
+  "defaults": {
+    "approved": false,
+    "rewardType": "doll_accessory",
+    "coins": 10,
+    "bonusCoins": 5,
+    "minimumQuestions": 20
+  },
+  "lessons": [
+    {
+      "id": "girl-expansion-english-001",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "title": "Flyers vocabulary: travel and places",
+      "learningObjective": "Practice Flyers-level place and travel vocabulary in short contexts.",
+      "shortExplanation": "Review common place words, travel actions, and simple matching clues.",
+      "content": "Write the lesson content here using the same paragraph-based style as the existing app.",
+      "storyContext": "The princess is planning a long trip across different places in the kingdom.",
+      "metadata": {
+        "contentTrack": "core",
+        "examLevel": "flyers",
+        "estimatedDurationMinutes": 25,
+        "skillsCovered": ["vocabulary", "reading"]
+      },
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Replace this sample question with a real one.",
+          "options": ["Option A", "Option B", "Option C", "Option D"],
+          "correctIndex": 0,
+          "explanation": "Every real question needs a child-friendly explanation.",
+          "hint": "Use hints to guide thinking without giving away the answer."
+        }
+      ]
+    }
+  ]
+}

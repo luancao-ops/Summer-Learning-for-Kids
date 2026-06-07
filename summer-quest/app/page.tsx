@@ -2,6 +2,8 @@ import Link from "next/link";
 import { StudentCard } from "@/components/StudentCard";
 import { prisma } from "@/lib/prisma";
 
+export const dynamic = "force-dynamic";
+
 // ── Home-screen background: blends princess-purple (left) + robot-blue (right)
 // Top layer: sparkle dot star-field (two offset grids)
 // Mid layers: atmospheric glow blobs for each theme

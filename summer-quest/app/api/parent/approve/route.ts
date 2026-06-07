@@ -13,15 +13,23 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, message: "Thiếu thông tin duyệt nội dung." }, { status: 400 });
   }
 
-  if (body.action === "approve") {
-    await prisma.lesson.update({
-      where: { id: body.lessonId },
-      data: { approved: true },
-    });
-  }
+  try {
+    if (body.action === "approve") {
+      await prisma.lesson.update({
+        where: { id: body.lessonId },
+        data: { approved: true },
+      });
+    }
 
-  if (body.action === "reject") {
-    await prisma.lesson.delete({ where: { id: body.lessonId } });
+    if (body.action === "reject") {
+      await prisma.$transaction([
+        prisma.mistake.deleteMany({ where: { lessonId: body.lessonId } }),
+        prisma.attempt.deleteMany({ where: { lessonId: body.lessonId } }),
+        prisma.lesson.delete({ where: { id: body.lessonId } }),
+      ]);
+    }
+  } catch {
+    return NextResponse.json({ ok: false, message: "Lưu thao tác thất bại." }, { status: 500 });
   }
 
   return NextResponse.json({ ok: true });

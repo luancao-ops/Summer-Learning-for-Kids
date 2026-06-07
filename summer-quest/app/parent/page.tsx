@@ -1,12 +1,23 @@
 import Link from "next/link";
+
 import { MistakeReviewList } from "@/components/MistakeReviewList";
 import { ParentResetDataPanel, type ResetDataCounts } from "@/components/ParentResetDataPanel";
 import { ParentSummary } from "@/components/ParentSummary";
 import { choreLevelRewards, recentDateCutoff, todayKey, type ChoreLevel } from "@/lib/habits";
-import { subjectProgress } from "@/lib/progress";
 import { prisma } from "@/lib/prisma";
+import { subjectProgress } from "@/lib/progress";
 
 export const dynamic = "force-dynamic";
+
+type TodayChoreRow = {
+  id: string;
+  createdAt: Date;
+  studentDisplayName: string;
+  choreName: string;
+  choreIcon: string;
+  completionLevel: string | null;
+  completionDescription: string | null;
+};
 
 export default async function ParentPage() {
   const today = todayKey();
@@ -21,6 +32,7 @@ export default async function ParentPage() {
     studentBadges: await prisma.studentBadge.count(),
     studentRewards: await prisma.studentReward.count(),
   };
+
   const subjects = await prisma.subject.findMany({
     orderBy: { orderIndex: "asc" },
     include: {
@@ -58,15 +70,22 @@ export default async function ParentPage() {
   });
 
   const [todayChores, readingEntries] = await Promise.all([
-    prisma.choreAssignment.findMany({
-      where: { assignedDate: today },
-      orderBy: { createdAt: "asc" },
-      include: {
-        student: { select: { displayName: true } },
-        chore: true,
-        completion: true,
-      },
-    }),
+    prisma.$queryRaw<TodayChoreRow[]>`
+      SELECT
+        ca.id,
+        ca.createdAt,
+        s.displayName AS studentDisplayName,
+        ct.name AS choreName,
+        ct.icon AS choreIcon,
+        cc.level AS completionLevel,
+        cc.description AS completionDescription
+      FROM "ChoreAssignment" ca
+      INNER JOIN "Student" s ON s.id = ca.studentId
+      INNER JOIN "ChoreTemplate" ct ON ct.id = ca.choreId
+      LEFT JOIN "ChoreCompletion" cc ON cc.assignmentId = ca.id
+      WHERE COALESCE(ca.dueDate, ca.assignedDate) = ${today}
+      ORDER BY ca.createdAt ASC
+    `,
     prisma.readingEntry.findMany({
       where: { readDate: { gte: readingCutoff } },
       orderBy: [{ readDate: "desc" }, { createdAt: "desc" }],
@@ -130,21 +149,21 @@ export default async function ParentPage() {
             {todayChores.length > 0 ? (
               <div className="divide-y divide-slate-100">
                 {todayChores.map((assignment) => {
-                  const level = assignment.completion?.level as ChoreLevel | undefined;
+                  const level = assignment.completionLevel as ChoreLevel | undefined;
                   const reward = level ? choreLevelRewards[level] : null;
 
                   return (
                     <div key={assignment.id} className="grid gap-3 p-4 md:grid-cols-[140px_1fr_160px_1.4fr]">
-                      <div className="font-black text-slate-900">{assignment.student.displayName}</div>
+                      <div className="font-black text-slate-900">{assignment.studentDisplayName}</div>
                       <div className="font-bold text-slate-700">
-                        {assignment.chore.icon} {assignment.chore.name}
+                        {assignment.choreIcon} {assignment.choreName}
                       </div>
                       <div>
                         <span className="rounded-full px-3 py-1 text-xs font-black text-white" style={{ backgroundColor: reward?.color ?? "#64748b" }}>
-                          {assignment.completion ? reward?.label ?? "Đã xong" : "Chưa làm"}
+                          {assignment.completionLevel ? reward?.label ?? "Đã xong" : "Chưa làm"}
                         </span>
                       </div>
-                      <div className="text-sm font-semibold text-slate-600">{assignment.completion?.description ?? "Chưa có báo cáo."}</div>
+                      <div className="text-sm font-semibold text-slate-600">{assignment.completionDescription ?? "Chưa có báo cáo."}</div>
                     </div>
                   );
                 })}

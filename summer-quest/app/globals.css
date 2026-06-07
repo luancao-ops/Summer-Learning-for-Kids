@@ -55,7 +55,7 @@ input {
   opacity: 0.26;
   animation: float-drift 16s ease-in-out infinite;
   user-select: none;
-  /* Soft glow matching the theme's primary colour */
+  pointer-events: none; /* explicit — some browsers ignore inherited pointer-events on animated elements */
   filter: drop-shadow(0 0 12px var(--sq-deco-glow, rgba(255, 255, 255, 0.5)));
 }
 

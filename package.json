@@ -7,6 +7,7 @@
     "build": "npm --prefix summer-quest run build",
     "lint": "npm --prefix summer-quest run lint",
     "test": "npm --prefix summer-quest run test",
+    "content:import": "npm --prefix summer-quest run content:import --",
     "prisma:migrate": "npm --prefix summer-quest run prisma:migrate",
     "prisma:seed": "npm --prefix summer-quest run prisma:seed",
     "prisma:studio": "npm --prefix summer-quest run prisma:studio"

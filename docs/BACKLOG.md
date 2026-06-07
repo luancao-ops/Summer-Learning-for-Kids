@@ -854,3 +854,233 @@ const totalCount = choreAssignments.length
 - [ ] Progress "X/Y việc" hiện trên header section trong dashboard
 - [ ] Mobile-friendly: circle đủ lớn để touch (min 32x32px)
 - [ ] `npm run build` không lỗi
+
+---
+
+## Epic 19 — English Pronunciation & Weak Question Practice (Sprint 6)
+
+> **Yêu cầu từ phụ huynh (2026-06-07):**
+> 1. Bài tiếng Anh cần có nút phát âm để bé click nghe và học cách đọc
+> 2. Cần có phần hiển thị những câu bé hay sai nhất (tất cả bài) để luyện tập lại
+
+---
+
+**P1** `TICKET-050` ✅ **English Pronunciation — Voice Button (🔊)** *(Done — Sprint 6)*
+
+Dùng **Web Speech API** (`window.speechSynthesis`) — built-in trên Chrome/Edge, không cần API key, không cần internet, hoàn toàn offline.
+
+**Files cần tạo/sửa:**
+
+1. `components/SpeakButton.tsx` ← NEW client component
+```tsx
+"use client";
+export function SpeakButton({ text }: { text: string }) {
+  function speak() {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US";
+    u.rate = 0.8; // hơi chậm cho bé dễ nghe
+    window.speechSynthesis.speak(u);
+  }
+  return (
+    <button
+      type="button"
+      onClick={speak}
+      title="Nghe phát âm tiếng Anh"
+      style={{ touchAction: "manipulation" }}
+      className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-xl transition-transform hover:scale-110"
+      aria-label="Nghe phát âm"
+    >
+      🔊
+    </button>
+  );
+}
+```
+
+2. `app/student/[studentId]/lesson/[lessonId]/page.tsx`
+   - Lesson query đã include `subject`. Khi `lesson.subject.id === "english"`:
+   - Wrap mỗi paragraph trong `<div className="flex items-start gap-2">` với `<SpeakButton text={paragraph} />` ở cuối dòng
+   - **Không hiện SpeakButton trên bài Toán hay Tiếng Việt**
+
+3. `app/student/[studentId]/lesson/[lessonId]/quiz/page.tsx`
+   - Thêm `subjectId={lesson.subjectId}` vào `<QuizEngine ...>` props
+
+4. `components/QuizEngine.tsx`
+   - Thêm `subjectId?: string` vào `QuizEngineProps`
+   - Truyền `isEnglish={subjectId === "english"}` xuống `<QuestionRenderer>`
+
+5. `components/QuestionRenderer.tsx`
+   - Thêm `isEnglish?: boolean` prop
+   - Khi `isEnglish`:
+     - Thêm `<SpeakButton text={question.text} />` bên cạnh text câu hỏi trong header
+     - Thêm `<SpeakButton text={option.text} />` nhỏ inline trong mỗi option label (sau text option)
+
+**Acceptance criteria:**
+- [ ] Bài Tiếng Anh: mỗi đoạn nội dung có nút 🔊 bên cạnh — click → nghe đọc tiếng Anh
+- [ ] Quiz Tiếng Anh: câu hỏi có nút 🔊 — click → nghe câu hỏi; mỗi đáp án có nút 🔊 nhỏ
+- [ ] Bài Toán và Tiếng Việt: không có nút 🔊 nào
+- [ ] Không crash nếu browser không support speechSynthesis (kiểm tra `if (!window.speechSynthesis)`)
+- [ ] `npm run build` không lỗi
+
+---
+
+**P1** `TICKET-051` **Frequently Wrong Questions — Câu Hay Sai Nhất**
+
+Hiển thị danh sách câu bé hay làm sai nhất (sai ≥ 2 lần) để luyện tập có mục tiêu.
+
+**Files cần tạo/sửa:**
+
+1. `lib/progress.ts` — thêm helper function:
+```ts
+import { prisma } from "@/lib/prisma";
+
+type FrequentMistake = {
+  questionId: string;
+  questionText: string;
+  correctAnswer: string;
+  explanation: string;
+  lessonId: string;
+  lessonTitle: string;
+  subjectLabel: string;
+  wrongCount: bigint; // SQLite COUNT returns bigint via $queryRaw
+};
+
+export async function getFrequentMistakes(
+  studentId: string,
+  minCount = 2,
+  limit = 8
+): Promise<FrequentMistake[]> {
+  return prisma.$queryRaw<FrequentMistake[]>`
+    SELECT
+      aa.questionId,
+      q.text           AS questionText,
+      q.correctAnswer,
+      q.explanation,
+      l.id             AS lessonId,
+      l.title          AS lessonTitle,
+      (subj.emoji || ' ' || subj.label) AS subjectLabel,
+      COUNT(*)         AS wrongCount
+    FROM "AttemptAnswer" aa
+    INNER JOIN "Attempt"  a    ON a.id    = aa.attemptId
+    INNER JOIN "Question" q    ON q.id    = aa.questionId
+    INNER JOIN "Lesson"   l    ON l.id    = q.lessonId
+    INNER JOIN "Subject"  subj ON subj.id = l.subjectId
+    WHERE a.studentId = ${studentId}
+      AND aa.isCorrect = 0
+    GROUP BY aa.questionId
+    HAVING COUNT(*) >= ${minCount}
+    ORDER BY wrongCount DESC
+    LIMIT ${limit}
+  `;
+}
+```
+⚠️ `$queryRaw` trả về `COUNT(*)` dưới dạng `bigint` trong JavaScript — dùng `Number(row.wrongCount)` khi render.
+
+2. `app/student/[studentId]/review/page.tsx`
+   - Thêm query: `const frequentMistakes = await getFrequentMistakes(student.id)`
+   - Nếu `frequentMistakes.length > 0`, render một section mới **trước** danh sách "Ôn câu sai" hiện tại:
+   ```tsx
+   <section className="rounded-[8px] p-6 shadow-sm" style={{ backgroundColor: "#ffffff", color: "#1e1b4b" }}>
+     <div className="text-sm font-black uppercase" style={{ color: theme.palette.accent }}>
+       Chú ý đặc biệt
+     </div>
+     <h2 className="mt-2 text-2xl font-black" style={{ color: theme.palette.text }}>
+       🎯 Câu hay sai nhiều lần
+     </h2>
+     <p className="mt-1 text-sm font-semibold" style={{ color: theme.palette.muted }}>
+       Những câu này {student.displayName} đã làm sai từ 2 lần trở lên. Ôn kỹ nhé!
+     </p>
+     <div className="mt-4 space-y-3">
+       {frequentMistakes.map((m) => (
+         <div key={m.questionId} className="rounded-xl p-4" style={{ backgroundColor: "#fff7ed", border: "1px solid #fed7aa" }}>
+           <div className="flex items-start justify-between gap-3">
+             <div className="flex-1">
+               <div className="text-xs font-black uppercase" style={{ color: "#9a3412" }}>
+                 {m.subjectLabel} · {m.lessonTitle}
+               </div>
+               <p className="mt-1 font-bold" style={{ color: "#1e293b" }}>{m.questionText}</p>
+               <p className="mt-2 text-sm font-semibold" style={{ color: "#334155" }}>
+                 ✅ Đáp án đúng: <span className="font-black">{m.correctAnswer}</span>
+               </p>
+               <p className="mt-1 text-sm" style={{ color: "#475569" }}>{m.explanation}</p>
+             </div>
+             <span
+               className="shrink-0 rounded-full px-3 py-1 text-xs font-black text-white"
+               style={{ backgroundColor: "#dc2626" }}
+             >
+               Sai {Number(m.wrongCount)}×
+             </span>
+           </div>
+           <Link
+             href={`/student/${student.id}/lesson/${m.lessonId}/quiz`}
+             className="mt-3 inline-flex h-9 items-center rounded-lg px-4 text-sm font-black text-white"
+             style={{ backgroundColor: theme.palette.accent }}
+           >
+             Làm lại quiz này →
+           </Link>
+         </div>
+       ))}
+     </div>
+   </section>
+   ```
+
+3. `app/parent/page.tsx`
+   - Thêm query cho từng student: `getFrequentMistakes(student.id, 2, 5)`
+   - Chạy song song: `const [girl, boy] = await Promise.all([getFrequentMistakes("girl"), getFrequentMistakes("boy")])`
+   - Thêm section mới "🎯 Câu hay sai của từng bé" bên dưới "Khu vực cần hỗ trợ":
+     - Mỗi student: tên + số câu hay sai + bảng top 5 (câu hỏi, môn, số lần sai)
+     - Nếu student chưa có dữ liệu: hiện "Chưa đủ dữ liệu — cần làm bài nhiều hơn"
+
+**Acceptance criteria:**
+- [ ] Student review page: section "Câu hay sai nhiều lần" xuất hiện khi có câu sai ≥ 2 lần
+- [ ] Mỗi câu hiển thị: text câu hỏi, đáp án đúng, giải thích, đếm số lần sai (đỏ), link quiz lại
+- [ ] Nút "Làm lại quiz này" dẫn đúng về `/student/[id]/lesson/[lessonId]/quiz`
+- [ ] Parent page: section mới "Câu hay sai của từng bé" hiển thị top 5 câu hay sai/bé
+- [ ] Không crash khi student chưa làm bài nào (frequentMistakes = [])
+- [ ] `npm run build` không lỗi
+
+---
+
+## Epic 20 — Student Avatar Evolution System (Sprint 6)
+
+> **Yêu cầu từ phụ huynh (2026-06-07):** Mỗi bé cần có icon nhân vật riêng (robot cho Johnny, princess cho Yumi). Khi bé lên level hoặc đạt thành tích tốt, icon sẽ nâng cấp lên dạng hấp dẫn hơn theo 5 cấp.
+
+**P1** `TICKET-052` ✅ **Student Avatar SVG Evolution System** *(Done — Sprint 6)*
+
+**Files created/modified:**
+- `lib/avatar.ts` ← NEW — pure helpers: `getAvatarTier()`, `getAvatarTierName()`, tier name arrays (no `"use client"`)
+- `components/StudentAvatar.tsx` ← NEW — client component, 10 distinct inline SVG designs (5 robot + 5 princess)
+- `components/StudentCard.tsx` — replaced `theme.emoji` (`text-8xl`) with `<StudentAvatar size={96}>` + tier name label
+- `components/DashboardHeader.tsx` — added `<StudentAvatar size={56}>` next to player name in header
+
+**Avatar tier thresholds (both characters):**
+
+| Tier | Level | Robot name | Princess name |
+|---|---|---|---|
+| 1 | 1–5 | Robot Tập Sự | Công Chúa Nhỏ |
+| 2 | 6–10 | Kỹ Sư Robo-X | Công Chúa Sáng Tạo |
+| 3 | 11–15 | Chiến Binh X | Công Chúa Vương Quốc |
+| 4 | 16–20 | Chỉ Huy X | Nữ Hoàng |
+| 5 | 21+ | Huyền Thoại X | Nữ Hoàng Huyền Thoại |
+
+**Current student tiers (2026-06-07):**
+- Yumi: 1180 XP → Level 12 → Tier 3 "Công Chúa Vương Quốc"
+- Johnny: 690 XP → Level 7 → Tier 2 "Kỹ Sư Robo-X"
+
+**Bug introduced + fixed during this sprint:**
+`getAvatarTierName` was initially exported from the `"use client"` component file, causing homepage 500.
+Fixed by extracting pure helpers to `lib/avatar.ts`. See `docs/INCIDENTS.md` 2026-06-07.
+
+**Also fixed in this sprint:**
+- Homepage (`/`) was pre-rendered statically — student stats were stale until server restart.
+  Fixed: added `export const dynamic = "force-dynamic"` to `app/page.tsx`.
+  See `docs/INCIDENTS.md` 2026-06-07.
+
+**Acceptance criteria:** ✅ All met
+- [x] Home page: each student card shows their SVG avatar (96px) with tier name below level badge
+- [x] Dashboard header: small avatar (56px) beside student name
+- [x] Avatar changes automatically as XP crosses level thresholds
+- [x] Robot and Princess designs are visually distinct at each tier
+- [x] `lib/avatar.ts` has no `"use client"` — safe to call from Server Components
+- [x] `npm run build` zero errors

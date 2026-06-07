@@ -2,6 +2,7 @@ import Link from "next/link";
 import { StudentLockButton } from "@/components/StudentLockButton";
 import { getLevel } from "@/lib/quiz";
 import type { AppTheme } from "@/lib/themes";
+import { StudentAvatar } from "@/components/StudentAvatar";
 
 type DashboardHeaderProps = {
   student: {
@@ -62,10 +63,13 @@ export function DashboardHeader({ student, theme }: DashboardHeaderProps) {
               {theme.name}
             </div>
 
-            {/* Player name + big emoji */}
-            <h1 className="mt-2 text-4xl font-black text-white drop-shadow-md">
-              {theme.emoji} {student.displayName}
-            </h1>
+            {/* Player avatar + name */}
+            <div className="mt-2 flex items-center gap-3">
+              <StudentAvatar xp={student.xp} themeId={theme.id} size={56} />
+              <h1 className="text-4xl font-black text-white drop-shadow-md">
+                {student.displayName}
+              </h1>
+            </div>
 
             <p className="mt-1 text-base font-bold text-white/70">
               {theme.title} · Lớp {student.currentGrade} ôn tập, chuẩn bị lớp {student.nextGrade}

@@ -202,6 +202,7 @@ model ChoreTemplate {
   name        String
   icon        String @default("🧹")
   description String @default("")
+  active      Boolean @default(true)
 
   assignments ChoreAssignment[]
 }
@@ -211,14 +212,17 @@ model ChoreAssignment {
   choreId      String
   studentId    String
   assignedDate String
+  dueDate      String
+  dueSession   String   @default("evening")
   createdAt    DateTime @default(now())
 
   chore      ChoreTemplate    @relation(fields: [choreId], references: [id])
   student    Student          @relation(fields: [studentId], references: [id])
   completion ChoreCompletion?
 
-  @@unique([choreId, studentId, assignedDate])
+  @@unique([choreId, studentId, dueDate, dueSession])
   @@index([studentId, assignedDate])
+  @@index([studentId, dueDate])
 }
 
 model ChoreCompletion {

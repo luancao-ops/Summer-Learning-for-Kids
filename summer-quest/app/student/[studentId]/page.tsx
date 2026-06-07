@@ -16,6 +16,23 @@ type StudentPageProps = {
   params: Promise<{ studentId: string }>;
 };
 
+type StudentChoreRow = {
+  id: string;
+  studentId: string;
+  assignedDate: string;
+  dueDate: string | null;
+  dueSession: string | null;
+  createdAt: Date;
+  choreId: string;
+  choreName: string;
+  choreIcon: string;
+  choreDescription: string;
+  completionId: string | null;
+  completionLevel: string | null;
+  completionDescription: string | null;
+  completionCompletedAt: Date | null;
+};
+
 export default async function StudentPage({ params }: StudentPageProps) {
   const { studentId } = await params;
   const student = await prisma.student.findUnique({
@@ -61,15 +78,57 @@ export default async function StudentPage({ params }: StudentPageProps) {
         },
       },
     }),
-    prisma.choreAssignment.findMany({
-      where: { studentId: student.id, assignedDate: today },
-      include: { chore: true, completion: true },
-      orderBy: { createdAt: "asc" },
-    }),
+    prisma.$queryRaw<StudentChoreRow[]>`
+      SELECT
+        ca.id,
+        ca.studentId,
+        ca.assignedDate,
+        ca.dueDate,
+        ca.dueSession,
+        ca.createdAt,
+        ct.id AS choreId,
+        ct.name AS choreName,
+        ct.icon AS choreIcon,
+        ct.description AS choreDescription,
+        cc.id AS completionId,
+        cc.level AS completionLevel,
+        cc.description AS completionDescription,
+        cc.completedAt AS completionCompletedAt
+      FROM "ChoreAssignment" ca
+      INNER JOIN "ChoreTemplate" ct ON ct.id = ca.choreId
+      LEFT JOIN "ChoreCompletion" cc ON cc.assignmentId = ca.id
+      WHERE ca.studentId = ${student.id}
+        AND COALESCE(ca.dueDate, ca.assignedDate) = ${today}
+      ORDER BY ca.createdAt ASC
+    `,
     prisma.readingEntry.findFirst({
       where: { studentId: student.id, readDate: today },
     }),
   ]);
+
+  const mappedChoreAssignments = choreAssignments.map((assignment) => ({
+    id: assignment.id,
+    studentId: assignment.studentId,
+    assignedDate: assignment.assignedDate,
+    dueDate: assignment.dueDate ?? assignment.assignedDate,
+    dueSession: assignment.dueSession ?? "evening",
+    createdAt: assignment.createdAt,
+    chore: {
+      id: assignment.choreId,
+      name: assignment.choreName,
+      icon: assignment.choreIcon,
+      description: assignment.choreDescription,
+    },
+    completion: assignment.completionId
+      ? {
+          id: assignment.completionId,
+          assignmentId: assignment.id,
+          level: assignment.completionLevel ?? "okay",
+          description: assignment.completionDescription ?? "",
+          completedAt: assignment.completionCompletedAt ?? assignment.createdAt,
+        }
+      : null,
+  }));
 
   const nextLesson = subjects
     .flatMap((subject) => subject.lessons.map((lesson) => ({ lesson, subject })))
@@ -141,8 +200,8 @@ export default async function StudentPage({ params }: StudentPageProps) {
           <div className="mb-4 flex items-center gap-3">
             <h2 className="text-2xl font-black">🏠 Công việc nhà hôm nay</h2>
             {(() => {
-              const done = choreAssignments.filter((assignment) => assignment.completion).length;
-              const total = choreAssignments.length;
+              const done = mappedChoreAssignments.filter((assignment) => assignment.completion).length;
+              const total = mappedChoreAssignments.length;
 
               return (
                 <span className="rounded-full px-3 py-1 text-sm font-black text-white" style={{ backgroundColor: total > 0 && done === total ? "#047857" : "#64748b" }}>
@@ -151,8 +210,8 @@ export default async function StudentPage({ params }: StudentPageProps) {
               );
             })()}
           </div>
-          {choreAssignments.length > 0 ? (
-            <ChoreChecklist studentId={student.id} assignments={choreAssignments} theme={theme} />
+          {mappedChoreAssignments.length > 0 ? (
+            <ChoreChecklist studentId={student.id} assignments={mappedChoreAssignments} theme={theme} />
           ) : (
             <p className="rounded-2xl p-4 text-sm font-bold shadow-sm" style={{ backgroundColor: "#ffffff", color: "#1e1b4b" }}>
               Hôm nay chưa có việc nhà được giao. Con có thể hỏi ba mẹ xem mình giúp gì nhé.

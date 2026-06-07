@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { calculateRewards, isAnswerCorrect, scoreQuiz, type AnswerInput, type QuizQuestion } from "@/lib/quiz";
 import type { AppTheme } from "@/lib/themes";
 import { FeedbackMessage } from "@/components/FeedbackMessage";
@@ -23,9 +23,64 @@ type QuizEngineProps = {
   lessonTitle: string;
   questions: QuizQuestion[];
   theme: AppTheme;
+  subjectId?: string;
 };
 
-export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme }: QuizEngineProps) {
+function speakEnglish(text: string) {
+  if (!("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US";
+  u.rate = 0.8;
+  window.speechSynthesis.speak(u);
+}
+
+// Renders English question text. Quoted phrases ('like this') become inline speak buttons.
+// The full question also gets a standalone 🔊 button beside it.
+function EnglishQuestionText({ text, theme }: { text: string; theme: AppTheme }) {
+  const hasQuotes = /['"][^'"]+['"]/.test(text);
+  const parts = hasQuotes ? text.split(/('(?:[^']+)'|"(?:[^"]+)")/) : [text];
+
+  return (
+    <span className="flex flex-wrap items-start gap-3">
+      <span className="flex-1">
+        {parts.map((part, i) => {
+          const m = hasQuotes ? part.match(/^['"]([^'"]+)['"]$/) : null;
+          if (m) {
+            const phrase = m[1];
+            return (
+              <button
+                key={i}
+                type="button"
+                onClick={() => speakEnglish(phrase)}
+                title={`Nghe phát âm: ${phrase}`}
+                style={{ color: theme.palette.primary, touchAction: "manipulation" }}
+                className="inline-flex items-center gap-1 rounded-lg px-1 font-black underline decoration-dotted underline-offset-4 transition-transform active:scale-95"
+              >
+                {part}<span className="text-sm">🔊</span>
+              </button>
+            );
+          }
+          return <span key={i}>{part}</span>;
+        })}
+      </span>
+      {/* Always show a button to hear the full question */}
+      <button
+        type="button"
+        onClick={() => speakEnglish(text)}
+        title="Nghe toàn bộ câu hỏi"
+        style={{ touchAction: "manipulation" }}
+        className="mt-1 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-xl transition-transform active:scale-90 hover:scale-110"
+        aria-label="Nghe câu hỏi"
+      >
+        🔊
+      </button>
+    </span>
+  );
+}
+
+export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme, subjectId }: QuizEngineProps) {
+  const isEnglish = subjectId === "english";
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [fillValue, setFillValue] = useState("");
@@ -137,11 +192,23 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
     if (isSubmitting) return;
 
     setIsSubmitting(true);
-    const response = await fetch("/api/quiz/submit", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ studentId, lessonId, answers: finalAnswers }),
-    });
+
+    let response: Response;
+    try {
+      response = await fetch("/api/quiz/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ studentId, lessonId, answers: finalAnswers }),
+      });
+    } catch {
+      setFeedback({
+        tone: "reveal",
+        message: "Mất kết nối. Thử bấm 'Lưu kết quả' lại một lần nữa nhé.",
+        explanation: "Bài làm vẫn còn trên màn hình, chưa mất đâu.",
+      });
+      setIsSubmitting(false);
+      return;
+    }
 
     if (!response.ok) {
       setFeedback({
@@ -194,7 +261,11 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
 
       <div className="mt-8">
         <p className="text-2xl font-black leading-9" style={{ color: theme.palette.text }}>
-          {currentQuestion.text}
+          {isEnglish ? (
+            <EnglishQuestionText text={currentQuestion.text} theme={theme} />
+          ) : (
+            currentQuestion.text
+          )}
         </p>
         {currentQuestion.hint ? (
           <div className="mt-3 rounded-[8px] p-3 text-sm font-bold" style={{ backgroundColor: theme.palette.accentSoft, color: theme.palette.text }}>
@@ -211,6 +282,7 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
           disabled={readyForNext || isSubmitting}
           onSelect={setSelectedAnswer}
           onFillChange={setFillValue}
+          isEnglish={isEnglish}
         />
       </div>
 
@@ -220,17 +292,25 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme 
         </div>
       ) : null}
 
-      <div className="mt-6 flex flex-wrap justify-end gap-3">
+      <div className="mt-6 flex flex-wrap items-center justify-end gap-3">
         {!readyForNext ? (
-          <button
-            type="button"
-            onClick={handleCheck}
-            disabled={!selectedValue().trim() || isSubmitting}
-            className="h-12 rounded-[8px] px-5 font-black text-white disabled:opacity-50"
-            style={{ backgroundColor: theme.palette.primary }}
-          >
-            Kiểm tra
-          </button>
+          <>
+            {!selectedValue().trim() && (
+              <span className="text-sm font-bold text-slate-400">← Chọn đáp án trước nhé</span>
+            )}
+            <button
+              type="button"
+              onClick={handleCheck}
+              disabled={!selectedValue().trim() || isSubmitting}
+              className="h-12 rounded-[8px] px-5 font-black text-white"
+              style={{
+                backgroundColor: selectedValue().trim() ? theme.palette.primary : "#94a3b8",
+                cursor: selectedValue().trim() ? "pointer" : "default",
+              }}
+            >
+              Kiểm tra
+            </button>
+          </>
         ) : (
           <button
             type="button"

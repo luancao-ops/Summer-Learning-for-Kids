@@ -63,7 +63,7 @@ export default async function QuizPage({ params }: QuizPageProps) {
           ← Xem lại bài học
         </Link>
         <div className="mt-5">
-          <QuizEngine studentId={student.id} lessonId={lesson.id} lessonTitle={lesson.title} questions={questions} theme={theme} />
+          <QuizEngine studentId={student.id} lessonId={lesson.id} lessonTitle={lesson.title} questions={questions} theme={theme} subjectId={lesson.subjectId} />
         </div>
       </div>
     </main>

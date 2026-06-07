@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { SpeakButton } from "@/components/SpeakButton";
 import { requireStudentAccessOrRedirect } from "@/lib/student-access";
 import { getTheme, themeStyle } from "@/lib/themes";
 import { prisma } from "@/lib/prisma";
@@ -93,17 +94,21 @@ export default async function LessonPage({ params }: LessonPageProps) {
           {/* Content paragraphs — white cards with a subtle border, dark text */}
           <div className="mt-6 space-y-3">
             {paragraphs.map((paragraph) => (
-              <p
+              <div
                 key={paragraph}
-                className="rounded-xl p-4 text-lg leading-8"
+                className="flex items-start gap-2 rounded-xl p-4"
                 style={{
                   backgroundColor: "#f8fafc",
-                  color: "#1e293b",
                   border: "1px solid #e2e8f0",
                 }}
               >
-                {paragraph}
-              </p>
+                <p className="flex-1 text-lg leading-8" style={{ color: "#1e293b" }}>
+                  {paragraph}
+                </p>
+                {lesson.subject.id === "english" && (
+                  <SpeakButton text={paragraph} />
+                )}
+              </div>
             ))}
           </div>
 

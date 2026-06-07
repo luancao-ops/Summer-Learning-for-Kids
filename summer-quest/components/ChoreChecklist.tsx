@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-import { choreLevelRewards, type ChoreLevel } from "@/lib/habits";
+import { choreLevelRewards, sessionLabel, type ChoreLevel } from "@/lib/habits";
 import type { AppTheme } from "@/lib/themes";
 
 type Completion = {
@@ -18,6 +18,9 @@ type ChoreAssignmentForChecklist = {
   id: string;
   studentId: string;
   assignedDate: string;
+  dueDate: string;
+  dueSession: string;
+  createdAt: Date | string;
   chore: {
     id: string;
     name: string;
@@ -147,6 +150,7 @@ export function ChoreChecklist({ studentId, assignments, theme }: ChoreChecklist
                 </div>
 
                 <p className="mt-1 text-sm font-semibold text-slate-500">{assignment.chore.description}</p>
+                <p className="mt-2 text-xs font-bold text-slate-500">Cần hoàn thành: {assignment.dueDate} · {sessionLabel(assignment.dueSession)}</p>
 
                 {assignment.completion ? (
                   <p className="mt-2 rounded-xl p-3 text-sm font-semibold leading-6" style={{ backgroundColor: theme.palette.primarySoft, color: theme.palette.text }}>

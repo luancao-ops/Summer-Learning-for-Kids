@@ -58,7 +58,9 @@ const choreTemplates = [
   { name: "Gấp quần áo", icon: "👕", description: "Gấp gọn quần áo đã phơi khô và xếp vào tủ." },
   { name: "Dọn phòng ngủ", icon: "🛏️", description: "Dọn dẹp và sắp xếp lại phòng ngủ của mình." },
   { name: "Đổ rác", icon: "🗑️", description: "Mang túi rác ra thùng rác ngoài cửa." },
-  { name: "Cho thú cưng ăn", icon: "🐾", description: "Cho thú cưng ăn đúng giờ và đổi nước sạch." },
+  { name: "Phụ mẹ giao hàng", icon: "🛵", description: "Đi cùng mẹ giao đồ hoặc hỗ trợ mang đồ đến đúng nơi cần gửi." },
+  { name: "Phơi đồ", icon: "🧺", description: "Mang quần áo ra phơi gọn gàng và kiểm tra đồ đã được treo chắc chắn." },
+  { name: "Dọn vệ sinh toilet", icon: "🚽", description: "Cọ rửa và lau sạch khu vực toilet theo hướng dẫn của ba mẹ." },
 ];
 
 function mc(text: string, options: string[], correctIndex: number, explanation: string, hint?: string): Check {

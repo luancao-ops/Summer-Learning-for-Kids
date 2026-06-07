@@ -1,199 +1,136 @@
 # Summer Quest — Agent Rules
 
-Đây là file quy tắc cho **tất cả AI agents** làm việc trong project này.  
-Claude Code đọc file này qua `CLAUDE.md`. Codex đọc trực tiếp.
+Rules for ALL AI agents (Claude Code and Codex) working in this codebase.
+For team workflow, content generation, and onboarding: read `docs/AGENTS.md`.
 
 ---
 
-## 1. Project Context
+## 1. Project at a Glance
 
-**Summer Quest** là ứng dụng học hè local-first cho 2 bé người Việt:
-- **Bé gái** — hoàn thành Lớp 4, chuẩn bị Lớp 5 — Theme: Princess Craft Kingdom 👑
-- **Bé trai** — hoàn thành Lớp 3, chuẩn bị Lớp 4 — Theme: Robot Sport Lab 🤖
-
-App chạy trên máy gia đình, SQLite local, không cần internet hay tài khoản.  
-Tài liệu đầy đủ: [`docs/`](docs/) — đặc biệt [`docs/BACKLOG.md`](docs/BACKLOG.md) và [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md).
-
----
-
-## 2. Team Roles
-
-### Claude Code — Product Manager (PM)
-- Nhận yêu cầu từ phụ huynh (Product Owner)
-- Phân tích yêu cầu, thiết kế giải pháp
-- Viết tickets vào `docs/BACKLOG.md` (đầy đủ: mô tả, code mẫu, acceptance criteria)
-- Cập nhật `docs/DATA_MODEL.md`, `docs/ROADMAP.md` khi có thay đổi schema/roadmap
-- Giao việc cho Codex dưới dạng **PM Brief** (xem Section 5)
-- Verify deliverable sau khi Codex hoàn thành: đọc file, smoke-test routes, check DB
-- Phát hiện bug, đề xuất sprint tiếp theo
-
-### Codex — Developer (Dev)
-- Đọc tickets trong `docs/BACKLOG.md` trước khi bắt đầu
-- Implement đúng theo acceptance criteria
-- Chạy `npm run build` sau mỗi task — không giao việc khi build lỗi
-- Báo cáo kết quả theo format **PM Brief** (xem Section 6)
-- Hỏi PM nếu ticket không rõ ràng thay vì tự đoán
-
-### Phụ huynh — Product Owner
-- Đặt yêu cầu tính năng mới
-- Dùng app thực tế và phản hồi
-- Duyệt/từ chối nội dung AI tại `/parent/review`
+Local-first learning app for two Vietnamese children on a family Windows PC.
+- **Yumi** (`girl`) — Grade 4→5, Princess Craft Kingdom theme
+- **Johnny** (`boy`) — Grade 3→4, Robot Sport Lab theme
+- SQLite database at `prisma/dev.db`. No cloud. No accounts.
+- Production server at http://127.0.0.1:3000 (LAN: http://192.168.0.7:3000)
 
 ---
 
-## 3. Quy tắc kỹ thuật bắt buộc
+## 2. Team Roles (brief)
 
-### 3.1 Framework — Đọc docs trước khi code
-> Next.js version này có breaking changes so với training data.  
-> Đọc `node_modules/next/dist/docs/` trước khi viết bất kỳ code nào liên quan đến routing, params, hay API.
+- **Claude Code** = PM — writes tickets, verifies deliverables, reads `docs/`
+- **Codex** = Developer — reads tickets, implements, runs build, reports
+- **Parent** = Product Owner — approves content at `/parent/review`
 
-- `params` trong App Router là **Promise** — phải `await params`
-- API routes dùng `export async function GET/POST(request: Request)`
-- Server Components mặc định — thêm `"use client"` chỉ khi cần state/effect
+Full workflow in `docs/AGENTS.md`.
+
+---
+
+## 3. Mandatory Coding Rules
+
+### 3.1 Next.js App Router
+- `params` is a **Promise** — always `await params` before reading properties
+- API routes: `export async function GET/POST(request: Request)`
+- Server Components by default — add `"use client"` only when you need state or effects
 
 ### 3.2 Tailwind CSS v4
-- Import: `@import "tailwindcss"` — **không** dùng `@tailwind base/components/utilities`
-- Màu sắc themed dùng CSS custom properties (`--sq-primary`, v.v.) — không hardcode
+- Import: `@import "tailwindcss"` — NOT `@tailwind base/components/utilities`
+- Theme colors via CSS vars (`--sq-primary`, etc.) — don't hardcode hex outside `lib/themes.ts`
 
-### 3.3 Database — Prisma
-- **Tất cả query bài học phía học sinh PHẢI có:** `where: { approved: true }` — đây là safety gate, không bao giờ bỏ
-- Mọi thao tác ghi nhiều bảng cùng lúc: dùng `prisma.$transaction`
-- Ngày tháng lưu dạng `"YYYY-MM-DD"` string — không dùng `DateTime` cho date-only fields
-- Tạo date string: `new Date().toLocaleDateString("sv")` (Swedish locale → YYYY-MM-DD, không lỗi timezone)
+### 3.3 Database (Prisma + SQLite)
+- **ALL student-facing lesson queries MUST have:** `where: { approved: true }` — safety gate, never remove
+- Multi-table writes: always `prisma.$transaction([...])`
+- Date-only fields: `"YYYY-MM-DD"` string — use `new Date().toLocaleDateString("sv")`
+- Never call `prisma.lesson.delete()` directly — always delete Mistake + Attempt records first in a transaction
 
 ### 3.4 TypeScript
-- Strict mode — không dùng `any`
-- Mọi props phải có type rõ ràng
-- Dùng `as const` cho union type literals
+- Strict mode — no `any`
+- All props must have explicit types
+- Use `as const` for union type literals
 
-### 3.5 CSS và Contrast
-- White card trên themed background: **bắt buộc** dùng `style={{ backgroundColor: "#ffffff", color: "#1e1b4b" }}` — **không** dùng `bg-white` (bị Chrome forced dark mode invert)
-- Tương tự: `bg-slate-50` → `style={{ backgroundColor: "#f8fafc" }}`
-- `color-scheme: light` đã có trong `:root` của `globals.css` — không xoá
-- Text body trong card: `#1e293b` hoặc `#334155` — không dùng theme purple cho body text
+### 3.5 CSS and Contrast
+- White card on themed background: `style={{ backgroundColor: "#ffffff", color: "#1e1b4b" }}` — NOT `bg-white`
+- Same for `bg-slate-50` → `style={{ backgroundColor: "#f8fafc" }}`
+- `color-scheme: light` is set in `:root` of `globals.css` — do not remove
+- Body text inside cards: `#1e293b` or `#334155` — not theme purple
 
 ### 3.6 Theme System
-- Theme ID: `"princess_craft_kingdom"` | `"robot_sport_lab"` — lưu trong `Student.themeId`
-- Resolve theme: `getTheme(student.themeId)` từ `lib/themes.ts`
-- Set CSS vars: `style={themeStyle(theme)}` trên `.page-shell`
-- Decoration layer: `<div className="deco-layer">` với `theme.decorations.map()`
-- Content wrapper: `<div className="page-content">` — luôn đặt trên deco-layer (z-index)
+- Theme ID: `"princess_craft_kingdom"` | `"robot_sport_lab"` — stored in `Student.themeId`
+- Resolve: `getTheme(student.themeId)` from `lib/themes.ts`
+- Apply CSS vars: `style={themeStyle(theme)}` on `.page-shell`
+- Deco layer: `<div className="deco-layer">` with `theme.decorations.map()`
+- Content wrapper: `<div className="page-content">` — always above deco-layer (z-index 1)
+- `pointer-events: none` must be **explicit** on `.deco-layer span` — not just inherited
 
-### 3.7 API Routes
-- Validate input trước khi query DB
-- Trả về `NextResponse.json({ ok: false, message: "..." }, { status: 4xx })` khi lỗi
-- Không bao giờ expose stack trace hoặc Prisma error raw ra client
-- Dùng `export const dynamic = "force-dynamic"` cho parent pages (không cache)
+### 3.7 Interactive Elements
+- Answer options: `<label><input type="radio" onChange>` — NOT `<button onClick>`
+- Touch targets: add `touchAction: "manipulation"` on all tappable elements
+- For server mutations: prefer Server Actions + `useActionState` over manual `fetch()`
+- If using `fetch()`: always wrap in try-catch to prevent permanently stuck loading states
 
----
-
-## 4. Cấu trúc file quan trọng
-
-```
-docs/BACKLOG.md          ← PM viết ticket vào đây, Dev đọc từ đây
-docs/DATA_MODEL.md       ← Source of truth cho schema + data flow
-prisma/schema.prisma     ← Source of truth cho database
-lib/themes.ts            ← Theme system — không hardcode màu ngoài file này
-app/globals.css          ← CSS utilities — card-hero, deco-layer, page-shell, page-content
-```
+### 3.8 Build & Launcher
+- `distDir: ".next-build5"` in `next.config.ts` — do NOT change back to `.next` through `.next-build4`
+- `Start Summer Quest.cmd` uses `next start` (production) — never change to `next dev`
+- Dev mode (`npm run dev:local`) is for Claude/Codex only, never for family use
 
 ---
 
-## 5. PM Brief (Claude Code gửi cho Codex)
+## 4. Key Files
 
-Khi giao việc cho Codex, Claude Code phải viết đầy đủ:
+```
+prisma/schema.prisma          ← DB source of truth
+lib/themes.ts                 ← All colors / theme config
+app/globals.css               ← CSS utilities (page-shell, deco-layer, card-hero)
+docs/TECHNICAL.md             ← Routes, schema summary, setup
+docs/AGENTS.md                ← Workflow, content prompts, PM briefs
+docs/BACKLOG.md               ← Current tickets
+docs/INCIDENTS.md             ← Bug history — read before touching quiz/buttons
+```
+
+---
+
+## 5. PM Brief format (Codex → PM)
 
 ```markdown
-## Codex Sprint [N] — [Tên sprint]
-
-### Task [N] — [Tên task] ([ước lượng thời gian])
-**File cần sửa/tạo:** `path/to/file.tsx`
-
-[Mô tả cụ thể: cần làm gì, tại sao, pattern nào dùng]
-
-[Code mẫu nếu cần — đặc biệt cho schema, API body, component props]
-
-**Acceptance criteria:**
-- [ ] Mô tả hành vi cụ thể có thể test được
-- [ ] `npm run build` không lỗi
-```
-
-**Nguyên tắc viết ticket:**
-- Mỗi task có file path cụ thể — không nói chung chung "tạo component mới"
-- Code mẫu cho schema changes, API contracts, và component props
-- Acceptance criteria là hành vi observable, không phải "code trông có vẻ đúng"
-- Thứ tự thực hiện rõ ràng khi có dependencies (ticket A trước ticket B)
-
----
-
-## 6. PM Brief (Codex báo cáo lại cho Claude Code)
-
-Sau mỗi sprint, Codex gửi báo cáo theo format:
-
-```markdown
-## PM Brief — Sprint [N]
+## PM Brief — Sprint N
 **Status:** Complete | Partial | Blocked
 
 **Delivered:**
-- TICKET-XXX: [tên] — [ghi chú ngắn nếu có deviation]
+- TICKET-XXX: name — deviation note if any
 
-**Verification:** [cách đã verify: build pass, route check, DB count, v.v.]
+**Verification:** build pass / route checked / DB count
 
-**Risks/Notes:**
-- [Bug phát hiện, deviation từ spec, quyết định kỹ thuật quan trọng]
+**Risks/Notes:** bugs found, key decisions
 
-**Suggested next step:** [ticket nào nên làm tiếp]
+**Suggested next:** ticket recommendation
 ```
 
 ---
 
-## 7. Workflow phối hợp
+## 6. Content Rules
 
-```
-Phụ huynh đặt yêu cầu
-       ↓
-Claude Code (PM) phân tích
-  → Cập nhật docs/BACKLOG.md (tickets mới)
-  → Cập nhật docs/DATA_MODEL.md (nếu có schema mới)
-  → Cập nhật docs/ROADMAP.md (nếu có milestone mới)
-  → Viết PM Brief giao Codex
-       ↓
-Codex (Dev) implement
-  → Đọc BACKLOG.md + DATA_MODEL.md
-  → Code → test → npm run build
-  → Báo cáo PM Brief
-       ↓
-Claude Code (PM) verify
-  → Đọc file đã thay đổi
-  → Smoke-test routes (http://localhost:3000)
-  → Kiểm tra DB counts
-  → Viết PM Brief sprint tiếp theo
-```
+- All lesson content in Vietnamese, child-friendly language (age 8–10)
+- Never copy from school textbooks — use original examples, real-life context
+- Quiz feedback always follows theme tone (Princess vs Robot) — use `theme.feedback`
+- AI-generated lessons: `approved: false` — parent must approve before children see
 
 ---
 
-## 8. Quy tắc nội dung (Content Rules)
+## 7. Pre-Delivery Checklist (Codex)
 
-- Nội dung bài học: tiếng Việt, ngôn ngữ thân thiện với trẻ 8–10 tuổi
-- **Không** sao chép từ sách giáo khoa — dùng ví dụ gốc, ngữ cảnh đời thực
-- Câu hỏi quiz: không có đáp án "brutal" — luôn có explanation
-- Feedback đúng/sai phải theo theme (Princess vs Robot language) — dùng `theme.feedback`
-- Bài học mới từ AI: `approved: false` mặc định — phụ huynh phải duyệt trước khi bé thấy
-
----
-
-## 9. Checklist trước khi merge/giao việc
-
-**Codex phải check trước khi báo cáo done:**
+### Code quality
 - [ ] `npm run build` — zero errors
 - [ ] `npm run lint` — no new warnings
-- [ ] Tất cả student queries có `approved: true`
-- [ ] Multi-write DB operations dùng `$transaction`
-- [ ] Không có `any` type mới
-- [ ] White cards dùng inline style, không dùng `bg-white`
+- [ ] All student lesson queries have `approved: true`
+- [ ] Multi-write DB operations use `$transaction`
+- [ ] No `any` types
+- [ ] White cards use inline style, not `bg-white`
+- [ ] `touchAction: "manipulation"` on new tappable elements
+- [ ] Pure utility functions live in `lib/*.ts`, NOT exported from `"use client"` files
 
-**Claude Code phải check sau khi nhận PM Brief:**
-- [ ] Đọc file thay đổi — không chỉ tin báo cáo
-- [ ] Smoke-test ít nhất 5 routes: `/`, `/student/girl`, `/student/boy`, `/parent`, route mới
-- [ ] Kiểm tra DB counts nếu có migration/seed
-- [ ] Phát hiện bug → thêm vào BACKLOG.md trước khi giao sprint mới
+### Documentation — MANDATORY, same priority as build passing
+
+- [ ] **Bug fix** → add entry to `docs/INCIDENTS.md` (symptoms · root cause · fix · rule)
+- [ ] **New/changed feature** → ticket added or updated in `docs/BACKLOG.md`, marked ✅ Done when delivered
+- [ ] **distDir bumped** → update ALL SIX files: `next.config.ts` · `.gitignore` · `Start Summer Quest.cmd` · `docs/TECHNICAL.md` · `AGENTS.md` · `README.md`
+- [ ] **Schema changed** → update DB summary table in `docs/TECHNICAL.md`
+- [ ] Never skip doc updates — undocumented bugs WILL be repeated in future sessions
