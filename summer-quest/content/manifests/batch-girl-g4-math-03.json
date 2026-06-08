@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-math-b03",
+  "description": "Bài ôn Toán Lớp 4 cho Yumi - Phân số - cộng và trừ phân số cùng mẫu; quy đồng v",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-math-x011",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 18,
+      "title": "Cộng phân số cùng mẫu số",
+      "learningObjective": "Học sinh biết cách cộng hai phân số có cùng mẫu số bằng cách giữ nguyên mẫu và cộng các tử số.",
+      "shortExplanation": "Khi cộng hai phân số cùng mẫu, em giữ nguyên mẫu số và cộng các tử số lại với nhau.",
+      "content": "Phân số gồm có tử số (số trên) và mẫu số (số dưới). Khi cộng hai phân số có cùng mẫu số, ta giữ nguyên mẫu số và chỉ cộng các tử số lại. Ví dụ: 2/7 + 3/7 = (2+3)/7 = 5/7. Nếu kết quả là phân số tối giản được thì ta nên rút gọn. Ví dụ: 3/8 + 1/8 = 4/8 = 1/2.",
+      "storyContext": "Công chúa Yumi đang chia kho ngọc quý trong vương quốc: cô đã dùng 2/7 túi ngọc để thêu áo và 3/7 túi ngọc để trang trí vương miện.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 3/9 + 4/9 = ?",
+          "options": ["6/9", "7/18", "7/9", "1/9"],
+          "correctIndex": 2,
+          "explanation": "Vì hai phân số cùng mẫu 9, ta giữ mẫu và cộng tử: 3 + 4 = 7, kết quả là 7/9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1/5 + 2/5 = ?",
+          "options": ["3/5", "3/10", "2/5", "4/5"],
+          "correctIndex": 0,
+          "explanation": "Hai phân số cùng mẫu 5, ta cộng tử: 1 + 2 = 3, mẫu giữ nguyên là 5, kết quả là 3/5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi dùng 2/8 cuộn vải để may váy và 2/8 cuộn vải để may khăn choàng. Hỏi cô dùng tất cả bao nhiêu phần cuộn vải?",
+          "options": ["2/8", "4/16", "3/8", "4/8"],
+          "correctIndex": 3,
+          "explanation": "2/8 + 2/8 = 4/8 (cùng mẫu 8, cộng tử: 2 + 2 = 4), kết quả là 4/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 2/11 + 5/11 = ?",
+          "options": ["6/11", "7/11", "7/22", "3/11"],
+          "correctIndex": 1,
+          "explanation": "Hai phân số cùng mẫu 11, ta cộng tử: 2 + 5 = 7, mẫu giữ nguyên là 11, kết quả là 7/11."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào sau đây cho kết quả bằng 6/10?",
+          "options": ["3/10 + 4/10", "2/10 + 5/10", "1/10 + 5/10", "4/10 + 2/10"],
+          "correctIndex": 2,
+          "explanation": "1/10 + 5/10 = 6/10 vì 1 + 5 = 6 và mẫu số giữ nguyên là 10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 4/12 + 4/12 = ?",
+          "options": ["8/12", "8/24", "4/12", "12/12"],
+          "correctIndex": 0,
+          "explanation": "Cùng mẫu 12, ta cộng tử: 4 + 4 = 8, kết quả là 8/12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nàng tiên trong vương quốc đã tô màu 1/6 bức tranh vào buổi sáng và 2/6 bức tranh vào buổi chiều. Tổng cộng đã tô màu bao nhiêu phần bức tranh?",
+          "options": ["2/6", "3/12", "1/6", "3/6"],
+          "correctIndex": 3,
+          "explanation": "1/6 + 2/6 = 3/6 vì cùng mẫu 6, cộng tử: 1 + 2 = 3, kết quả là 3/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 3/10 + 3/10 = ?",
+          "options": ["3/10", "6/10", "9/10", "6/20"],
+          "correctIndex": 1,
+          "explanation": "Cùng mẫu 10, ta cộng tử: 3 + 3 = 6, kết quả là 6/10."
+        },
+        {
+          "type": "true_false",
+          "text": "2/7 + 4/7 = 6/7 là phép tính đúng.",
+          "correct": true,
+          "explanation": "Đúng! Vì hai phân số cùng mẫu 7, ta cộng tử 2 + 4 = 6 và giữ mẫu là 7, được 6/7."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 3/8 + 2/8 = ___",
+          "answer": "5/8",
+          "explanation": "3/8 + 2/8 = 5/8 vì cùng mẫu 8, ta cộng tử: 3 + 2 = 5."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x012",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 19,
+      "title": "Trừ phân số cùng mẫu số",
+      "learningObjective": "Học sinh biết cách trừ hai phân số có cùng mẫu số bằng cách giữ nguyên mẫu và trừ các tử số.",
+      "shortExplanation": "Khi trừ hai phân số cùng mẫu, em giữ nguyên mẫu số và lấy tử số thứ nhất trừ đi tử số thứ hai.",
+      "content": "Để trừ hai phân số cùng mẫu số, ta giữ nguyên mẫu số và lấy tử số của phân số thứ nhất trừ đi tử số của phân số thứ hai. Ví dụ: 5/8 - 2/8 = (5-2)/8 = 3/8. Chú ý: tử số của phân số đầu phải lớn hơn hoặc bằng tử số của phân số sau để kết quả không âm. Ví dụ: 7/10 - 3/10 = 4/10 = 2/5.",
+      "storyContext": "Công chúa Yumi có 7/9 túi đá quý để trang trí lâu đài, sau khi dùng 3/9 để xây tháp canh, cô muốn biết còn lại bao nhiêu phần.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 7/9 - 3/9 = ?",
+          "options": ["3/9", "5/9", "4/18", "4/9"],
+          "correctIndex": 3,
+          "explanation": "Cùng mẫu 9, ta trừ tử: 7 - 3 = 4, mẫu giữ nguyên là 9, kết quả là 4/9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 6/7 - 2/7 = ?",
+          "options": ["3/7", "4/7", "5/7", "8/7"],
+          "correctIndex": 1,
+          "explanation": "Cùng mẫu 7, ta trừ tử: 6 - 2 = 4, kết quả là 4/7."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa cắt 8/11 mét dải lụa, sau đó dùng 3/11 mét để thêu. Hỏi còn lại bao nhiêu mét dải lụa?",
+          "options": ["5/11", "11/11", "3/11", "4/11"],
+          "correctIndex": 0,
+          "explanation": "8/11 - 3/11 = 5/11 vì cùng mẫu 11, trừ tử: 8 - 3 = 5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 10/12 - 4/12 = ?",
+          "options": ["4/12", "3/12", "6/12", "5/12"],
+          "correctIndex": 2,
+          "explanation": "Cùng mẫu 12, ta trừ tử: 10 - 4 = 6, mẫu giữ nguyên là 12, kết quả là 6/12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây có kết quả bằng 2/6?",
+          "options": ["5/6 - 2/6", "4/6 - 3/6", "6/6 - 4/6", "5/6 - 3/6"],
+          "correctIndex": 3,
+          "explanation": "5/6 - 3/6 = 2/6 vì 5 - 3 = 2 và mẫu giữ nguyên là 6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 10/13 - 4/13 = ?",
+          "options": ["5/13", "6/13", "7/13", "4/13"],
+          "correctIndex": 1,
+          "explanation": "Cùng mẫu 13, ta trừ tử: 10 - 4 = 6, kết quả là 6/13."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vương quốc có 9/10 kho vàng. Phù thủy đã lấy đi 2/10 kho vàng. Còn lại bao nhiêu phần kho vàng?",
+          "options": ["7/10", "6/10", "8/10", "9/10"],
+          "correctIndex": 0,
+          "explanation": "9/10 - 2/10 = 7/10 vì cùng mẫu 10, trừ tử: 9 - 2 = 7."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 8/15 - 5/15 = ?",
+          "options": ["4/15", "2/15", "3/15", "1/15"],
+          "correctIndex": 2,
+          "explanation": "Cùng mẫu 15, ta trừ tử: 8 - 5 = 3, kết quả là 3/15."
+        },
+        {
+          "type": "true_false",
+          "text": "7/8 - 3/8 = 4/0 là phép tính đúng.",
+          "correct": false,
+          "explanation": "Sai! 7/8 - 3/8 = 4/8 (không phải 4/0). Khi trừ phân số cùng mẫu, ta giữ nguyên mẫu số 8, chỉ trừ tử số."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 9/11 - 4/11 = ___",
+          "answer": "5/11",
+          "explanation": "9/11 - 4/11 = 5/11 vì cùng mẫu 11, trừ tử: 9 - 4 = 5."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x013",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 20,
+      "title": "Cộng và trừ phân số cùng mẫu (hỗn hợp)",
+      "learningObjective": "Học sinh thành thạo cả cộng và trừ phân số cùng mẫu, nhận biết được quy tắc và áp dụng vào bài toán thực tế.",
+      "shortExplanation": "Nhớ quy tắc: phân số cùng mẫu thì giữ nguyên mẫu, chỉ cộng hoặc trừ tử số với nhau.",
+      "content": "Khi cộng hoặc trừ hai phân số cùng mẫu, ta luôn giữ nguyên mẫu số và thực hiện phép cộng hoặc trừ trên tử số. Ví dụ cộng: 3/10 + 4/10 = 7/10. Ví dụ trừ: 9/10 - 5/10 = 4/10. Trong bài toán thực tế, cần đọc kỹ đề để biết dùng phép cộng hay phép trừ. Rút gọn kết quả nếu có thể.",
+      "storyContext": "Công chúa Yumi đang quản lý kho đồ thủ công trong vương quốc: cô cộng thêm và trừ bớt các phần nguyên liệu mỗi ngày để tạo ra những trang phục phép thuật tuyệt đẹp.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 5/12 + 3/12 = ?",
+          "options": ["8/12", "2/12", "8/24", "6/12"],
+          "correctIndex": 0,
+          "explanation": "Cùng mẫu 12, ta cộng tử: 5 + 3 = 8, mẫu giữ nguyên là 12, kết quả là 8/12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 11/13 - 5/13 = ?",
+          "options": ["5/13", "7/13", "6/13", "4/13"],
+          "correctIndex": 2,
+          "explanation": "Cùng mẫu 13, ta trừ tử: 11 - 5 = 6, kết quả là 6/13."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa có 3/7 kg bột phép thuật, mua thêm 2/7 kg. Hỏi tổng cộng có bao nhiêu kg bột?",
+          "options": ["4/7", "5/7", "5/14", "6/7"],
+          "correctIndex": 1,
+          "explanation": "3/7 + 2/7 = 5/7 vì cùng mẫu 7, cộng tử: 3 + 2 = 5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 8/9 - 2/9 = ?",
+          "options": ["5/9", "7/9", "4/9", "6/9"],
+          "correctIndex": 3,
+          "explanation": "Cùng mẫu 9, ta trừ tử: 8 - 2 = 6, kết quả là 6/9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 4/15 + 7/15 là bao nhiêu?",
+          "options": ["11/15", "3/15", "11/30", "12/15"],
+          "correctIndex": 0,
+          "explanation": "Cùng mẫu 15, ta cộng tử: 4 + 7 = 11, kết quả là 11/15."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 10/11 - 7/11 = ?",
+          "options": ["4/11", "2/11", "3/11", "5/11"],
+          "correctIndex": 2,
+          "explanation": "Cùng mẫu 11, ta trừ tử: 10 - 7 = 3, kết quả là 3/11."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vương quốc dùng 2/8 lượng đá quý trang trí cổng và 3/8 để trang trí tháp. Tổng cộng dùng bao nhiêu phần đá quý?",
+          "options": ["4/8", "6/8", "5/8", "1/8"],
+          "correctIndex": 1,
+          "explanation": "2/8 + 3/8 = 5/8 vì cùng mẫu 8, cộng tử: 2 + 3 = 5, kết quả là 5/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 7/16 - 3/16 = ?",
+          "options": ["5/16", "3/16", "10/16", "4/16"],
+          "correctIndex": 3,
+          "explanation": "Cùng mẫu 16, ta trừ tử: 7 - 3 = 4, kết quả là 4/16."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi trừ hai phân số cùng mẫu, ta giữ nguyên mẫu số và chỉ trừ tử số. Ví dụ: 5/9 - 2/9 = 3/9.",
+          "correct": true,
+          "explanation": "Đúng! Khi trừ phân số cùng mẫu, ta giữ nguyên mẫu 9 và trừ tử số: 5 - 2 = 3, kết quả là 3/9."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 6/14 + 4/14 = ___",
+          "answer": "10/14",
+          "explanation": "6/14 + 4/14 = 10/14 vì cùng mẫu 14, ta cộng tử: 6 + 4 = 10."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x014",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 21,
+      "title": "Quy đồng mẫu số hai phân số",
+      "learningObjective": "Học sinh biết cách quy đồng mẫu số của hai phân số đơn giản để chuẩn bị cộng và trừ phân số khác mẫu.",
+      "shortExplanation": "Quy đồng mẫu số là tìm một mẫu số chung rồi đổi cả hai phân số về cùng mẫu đó bằng cách nhân tử và mẫu với cùng một số.",
+      "content": "Để cộng hoặc trừ hai phân số khác mẫu, trước tiên ta cần quy đồng mẫu số (tức là đổi về cùng mẫu). Cách đơn giản nhất là lấy mẫu số chung bằng cách nhân hai mẫu số lại. Ví dụ: quy đồng 1/2 và 1/3 — mẫu chung là 6; ta được 3/6 và 2/6. Ví dụ khác: quy đồng 1/4 và 1/2 — mẫu chung là 4; 1/2 = 2/4, vậy hai phân số là 1/4 và 2/4.",
+      "storyContext": "Công chúa Yumi cần quy đồng các phần vải khác nhau trong kho phép thuật để ghép lại thành tấm vải hoàn chỉnh cho chiếc áo dạ hội.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Quy đồng mẫu số của 1/3 và 1/4, ta được:",
+          "options": ["1/12 và 1/12", "4/12 và 3/12", "3/12 và 4/12", "2/6 và 2/8"],
+          "correctIndex": 1,
+          "explanation": "Mẫu chung là 3 × 4 = 12. Ta có: 1/3 = 4/12 (nhân cả tử và mẫu với 4) và 1/4 = 3/12 (nhân cả tử và mẫu với 3)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để quy đồng 2/5 và 1/3, mẫu số chung nhỏ nhất là bao nhiêu?",
+          "options": ["8", "10", "6", "15"],
+          "correctIndex": 3,
+          "explanation": "Mẫu số chung của 5 và 3 là 5 × 3 = 15, vì 5 và 3 không có ước chung nào khác ngoài 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quy đồng 3/4 và 1/2, ta được hai phân số nào?",
+          "options": ["6/8 và 4/8", "6/8 và 2/8", "3/4 và 2/4", "4/8 và 2/8"],
+          "correctIndex": 2,
+          "explanation": "Mẫu chung là 4 (vì 4 chia hết cho 2). Ta có: 3/4 giữ nguyên, 1/2 = 2/4 (nhân tử và mẫu với 2). Kết quả là 3/4 và 2/4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa có 1/2 cuộn lụa đỏ và 1/6 cuộn lụa vàng. Quy đồng mẫu số hai phân số này, ta được:",
+          "options": ["3/6 và 1/6", "2/12 và 1/12", "1/6 và 3/6", "6/12 và 2/12"],
+          "correctIndex": 0,
+          "explanation": "Mẫu chung là 6 (vì 6 chia hết cho 2). Ta có: 1/2 = 3/6 (nhân tử và mẫu với 3), 1/6 giữ nguyên. Vậy ta được 3/6 và 1/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quy đồng 2/3 và 3/6, ta được:",
+          "options": ["2/6 và 3/6", "4/6 và 3/6", "6/9 và 3/6", "12/18 và 9/18"],
+          "correctIndex": 1,
+          "explanation": "Mẫu chung là 6 (vì 6 chia hết cho 3). Ta có: 2/3 = 4/6 (nhân tử và mẫu với 2), 3/6 giữ nguyên. Vậy ta được 4/6 và 3/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để quy đồng 1/4 và 1/6, mẫu số chung nhỏ nhất là:",
+          "options": ["24", "10", "8", "12"],
+          "correctIndex": 3,
+          "explanation": "Mẫu số chung nhỏ nhất của 4 và 6 là 12 (vì 12 chia hết cho cả 4 và 6, và 12 là số nhỏ nhất như vậy)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quy đồng 1/2 và 2/5, ta được:",
+          "options": ["5/10 và 3/10", "2/10 và 4/10", "5/10 và 4/10", "3/10 và 2/10"],
+          "correctIndex": 2,
+          "explanation": "Mẫu chung là 10 (2 × 5). Ta có: 1/2 = 5/10 (nhân với 5), 2/5 = 4/10 (nhân với 2), được 5/10 và 4/10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào bằng 3/4 khi đổi sang mẫu số 12?",
+          "options": ["9/12", "4/12", "8/12", "6/12"],
+          "correctIndex": 0,
+          "explanation": "3/4 = 9/12 vì 4 × 3 = 12, nên ta nhân cả tử và mẫu với 3: 3 × 3 = 9. Vậy 3/4 = 9/12."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi quy đồng 1/2 và 1/3, mẫu số chung là 5 (vì 2 + 3 = 5).",
+          "correct": false,
+          "explanation": "Sai! Mẫu số chung của 2 và 3 là 6 (tức 2 × 3 = 6), không phải 5. Ta không cộng hai mẫu số mà phải tìm bội chung của chúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Quy đồng mẫu số: 1/2 = ___/6",
+          "answer": "3/6",
+          "explanation": "1/2 = 3/6 vì ta nhân cả tử và mẫu với 3: 1×3 = 3, 2×3 = 6."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x015",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 22,
+      "title": "Cộng và trừ phân số khác mẫu đơn giản",
+      "learningObjective": "Học sinh biết cách cộng và trừ hai phân số khác mẫu đơn giản bằng cách quy đồng mẫu số trước, rồi cộng hoặc trừ như phân số cùng mẫu.",
+      "shortExplanation": "Bước 1: Quy đồng mẫu số. Bước 2: Cộng hoặc trừ tử số, giữ nguyên mẫu. Bước 3: Rút gọn nếu có thể.",
+      "content": "Để cộng hoặc trừ hai phân số khác mẫu, ta thực hiện 3 bước: Bước 1 — quy đồng mẫu số (tìm mẫu chung). Bước 2 — cộng hoặc trừ tử số, giữ nguyên mẫu chung. Bước 3 — rút gọn nếu có thể. Ví dụ: 1/2 + 1/3 = 3/6 + 2/6 = 5/6. Ví dụ trừ: 3/4 - 1/2 = 3/4 - 2/4 = 1/4.",
+      "storyContext": "Công chúa Yumi đang ghép các mảnh vải phép thuật từ nhiều cuộn khác nhau để hoàn thành chiếc váy huyền bí cho lễ hội vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1/2 + 1/4 = ?",
+          "options": ["2/6", "2/8", "3/4", "1/4"],
+          "correctIndex": 2,
+          "explanation": "Quy đồng: 1/2 = 2/4. Rồi: 2/4 + 1/4 = 3/4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1/3 + 1/6 = ?",
+          "options": ["1/2", "2/9", "2/6", "1/6"],
+          "correctIndex": 0,
+          "explanation": "Quy đồng: 1/3 = 2/6. Rồi: 2/6 + 1/6 = 3/6 = 1/2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi dùng 1/2 cuộn vải xanh và 1/3 cuộn vải tím để may áo. Tổng cộng dùng bao nhiêu phần cuộn vải?",
+          "options": ["2/5", "2/6", "1/5", "5/6"],
+          "correctIndex": 3,
+          "explanation": "Quy đồng: 1/2 = 3/6, 1/3 = 2/6. Rồi: 3/6 + 2/6 = 5/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 3/4 - 1/2 = ?",
+          "options": ["2/4", "1/4", "3/8", "1/2"],
+          "correctIndex": 1,
+          "explanation": "Quy đồng: 1/2 = 2/4. Rồi: 3/4 - 2/4 = 1/4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 2/3 - 1/6 = ?",
+          "options": ["1/3", "3/9", "1/2", "1/6"],
+          "correctIndex": 2,
+          "explanation": "Quy đồng: 2/3 = 4/6. Rồi: 4/6 - 1/6 = 3/6 = 1/2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1/4 + 1/2 = ?",
+          "options": ["3/4", "2/6", "1/2", "1/4"],
+          "correctIndex": 0,
+          "explanation": "Quy đồng: 1/2 = 2/4. Rồi: 1/4 + 2/4 = 3/4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vương quốc có 5/6 kho bạc. Công chúa dùng 1/3 để xây tháp phép thuật. Còn lại bao nhiêu phần kho bạc?",
+          "options": ["3/6", "2/6", "1/3", "1/2"],
+          "correctIndex": 3,
+          "explanation": "Quy đồng: 1/3 = 2/6. Rồi: 5/6 - 2/6 = 3/6 = 1/2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1/2 - 1/6 = ?",
+          "options": ["1/4", "1/3", "0", "1/6"],
+          "correctIndex": 1,
+          "explanation": "Quy đồng: 1/2 = 3/6. Rồi: 3/6 - 1/6 = 2/6 = 1/3."
+        },
+        {
+          "type": "true_false",
+          "text": "Để tính 1/2 + 1/3, ta quy đồng mẫu về 6, được 3/6 + 2/6 = 5/6.",
+          "correct": true,
+          "explanation": "Đúng! Mẫu chung của 2 và 3 là 6. Ta đổi: 1/2 = 3/6 và 1/3 = 2/6. Cộng lại: 3/6 + 2/6 = 5/6."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 1/3 + 1/3 = ___",
+          "answer": "2/3",
+          "explanation": "1/3 + 1/3 = 2/3 vì cùng mẫu 3, ta cộng tử: 1 + 1 = 2."
+        }
+      ]
+    }
+  ]
+}

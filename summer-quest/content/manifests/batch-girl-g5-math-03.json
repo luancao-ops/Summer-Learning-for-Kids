@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-math-b03",
+  "description": "Bài ôn Toán Lớp 5 cho Yumi - Số thập phân - nhân và chia số thập phân với số tự",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-math-x011",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 43,
+      "title": "Nhân số thập phân với số tự nhiên",
+      "learningObjective": "Học sinh biết cách nhân một số thập phân với một số tự nhiên và áp dụng vào tính toán thực tế.",
+      "shortExplanation": "Nhân như số tự nhiên, sau đó đặt dấu phẩy sao cho số chữ số thập phân của tích bằng số chữ số thập phân của số thập phân ban đầu.",
+      "content": "Khi nhân một số thập phân với một số tự nhiên, ta nhân như hai số tự nhiên rồi đặt dấu phẩy vào kết quả. Số chữ số sau dấu phẩy của tích bằng số chữ số sau dấu phẩy của số thập phân. Ví dụ: 2,4 × 3 = 7,2 (vì 24 × 3 = 72, rồi đặt 1 chữ số sau dấu phẩy). Ví dụ khác: 1,25 × 4 = 5,00 = 5 (vì 125 × 4 = 500, rồi đặt 2 chữ số sau dấu phẩy).",
+      "storyContext": "Công chúa Yumi cần tính lượng đá quý cần mua để xây tháp mới cho Vương quốc Thủ Công.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 3,2 × 4 = ?",
+          "options": ["11,8", "13,2", "14,0", "12,8"],
+          "correctIndex": 3,
+          "explanation": "3,2 × 4: ta tính 32 × 4 = 128, rồi đặt 1 chữ số sau dấu phẩy, được 12,8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1,5 × 6 = ?",
+          "options": ["8,0", "9,0", "7,5", "10,5"],
+          "correctIndex": 1,
+          "explanation": "1,5 × 6: ta tính 15 × 6 = 90, rồi đặt 1 chữ số sau dấu phẩy, được 9,0 = 9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 2,3 × 5 = ?",
+          "options": ["11,5", "10,5", "12,5", "13,5"],
+          "correctIndex": 0,
+          "explanation": "2,3 × 5: ta tính 23 × 5 = 115, rồi đặt 1 chữ số sau dấu phẩy, được 11,5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 0,8 × 7 là bao nhiêu?",
+          "options": ["4,9", "5,9", "5,6", "6,6"],
+          "correctIndex": 2,
+          "explanation": "0,8 × 7: ta tính 8 × 7 = 56, rồi đặt 1 chữ số sau dấu phẩy, được 5,6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi mua 9 túi cát, mỗi túi nặng 1,4 kg. Tổng trọng lượng là bao nhiêu?",
+          "options": ["11,4 kg", "11,6 kg", "13,4 kg", "12,6 kg"],
+          "correctIndex": 3,
+          "explanation": "1,4 × 9: ta tính 14 × 9 = 126, rồi đặt 1 chữ số sau dấu phẩy, được 12,6 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 4,5 × 2 = ?",
+          "options": ["8,0", "9,0", "8,5", "10,0"],
+          "correctIndex": 1,
+          "explanation": "4,5 × 2: ta tính 45 × 2 = 90, rồi đặt 1 chữ số sau dấu phẩy, được 9,0 = 9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1,25 × 4 = ?",
+          "options": ["5,0", "4,75", "5,25", "4,50"],
+          "correctIndex": 0,
+          "explanation": "1,25 × 4: ta tính 125 × 4 = 500, rồi đặt 2 chữ số sau dấu phẩy, được 5,00 = 5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 3,6 × 5 là bao nhiêu?",
+          "options": ["16,0", "17,0", "18,0", "19,0"],
+          "correctIndex": 2,
+          "explanation": "3,6 × 5: ta tính 36 × 5 = 180, rồi đặt 1 chữ số sau dấu phẩy, được 18,0 = 18."
+        },
+        {
+          "type": "true_false",
+          "text": "2,7 × 3 = 8,1",
+          "correct": true,
+          "explanation": "Đúng! 2,7 × 3: ta tính 27 × 3 = 81, rồi đặt 1 chữ số sau dấu phẩy, được 8,1."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 5,4 × 2 = ___",
+          "answer": "10,8",
+          "explanation": "5,4 × 2: ta tính 54 × 2 = 108, rồi đặt 1 chữ số sau dấu phẩy, được 10,8."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x012",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 44,
+      "title": "Chia số thập phân cho số tự nhiên",
+      "learningObjective": "Học sinh biết cách chia một số thập phân cho một số tự nhiên và thực hiện phép chia chính xác.",
+      "shortExplanation": "Chia như số tự nhiên, giữ nguyên dấu phẩy theo đúng vị trí trong số bị chia.",
+      "content": "Khi chia một số thập phân cho một số tự nhiên, ta thực hiện phép chia từ trái sang phải. Khi gặp dấu phẩy trong số bị chia, ta đặt dấu phẩy vào thương. Ví dụ: 8,4 ÷ 4 = 2,1 (chia 8 cho 4 được 2, hạ 4 chia 4 được 1, thương là 2,1). Ví dụ khác: 7,5 ÷ 5 = 1,5 (chia 7 cho 5 được 1 dư 2, hạ 5, chia 25 cho 5 được 5, thương là 1,5).",
+      "storyContext": "Công chúa Yumi chia đều nguyên liệu xây tháp cho các thợ thủ công trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 8,4 ÷ 4 = ?",
+          "options": ["2,1", "1,9", "2,3", "2,0"],
+          "correctIndex": 0,
+          "explanation": "8,4 ÷ 4: chia 8 cho 4 được 2, chia 4 cho 4 được 1, thương là 2,1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 9,6 ÷ 3 = ?",
+          "options": ["2,9", "3,1", "3,2", "2,8"],
+          "correctIndex": 2,
+          "explanation": "9,6 ÷ 3: chia 9 cho 3 được 3, chia 6 cho 3 được 2, thương là 3,2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 7,5 ÷ 5 = ?",
+          "options": ["1,4", "1,5", "1,6", "2,5"],
+          "correctIndex": 1,
+          "explanation": "7,5 ÷ 5: chia 7 cho 5 được 1 dư 2, hạ 5 thành 25, chia 25 cho 5 được 5, thương là 1,5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 12,6 ÷ 6 là bao nhiêu?",
+          "options": ["2,0", "2,3", "2,5", "2,1"],
+          "correctIndex": 3,
+          "explanation": "12,6 ÷ 6: chia 12 cho 6 được 2, chia 6 cho 6 được 1, thương là 2,1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi có 15,5 kg vàng chia đều cho 5 thợ rèn. Mỗi thợ nhận được bao nhiêu kg?",
+          "options": ["3,1 kg", "2,9 kg", "3,5 kg", "4,1 kg"],
+          "correctIndex": 0,
+          "explanation": "15,5 ÷ 5: chia 15 cho 5 được 3, chia 5 cho 5 được 1, thương là 3,1 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 14,4 ÷ 6 = ?",
+          "options": ["2,2", "2,0", "2,4", "2,6"],
+          "correctIndex": 2,
+          "explanation": "14,4 ÷ 6: chia 14 cho 6 được 2 dư 2, hạ 4 thành 24, chia 24 cho 6 được 4, thương là 2,4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 5,6 ÷ 7 = ?",
+          "options": ["0,7", "0,8", "0,9", "1,0"],
+          "correctIndex": 1,
+          "explanation": "5,6 ÷ 7: chia 56 cho 7 được 8, thương là 0,8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 10,8 ÷ 4 là bao nhiêu?",
+          "options": ["2,5", "2,3", "2,9", "2,7"],
+          "correctIndex": 3,
+          "explanation": "10,8 ÷ 4: chia 10 cho 4 được 2 dư 2, hạ 8 thành 28, chia 28 cho 4 được 7, thương là 2,7."
+        },
+        {
+          "type": "true_false",
+          "text": "4,2 ÷ 7 = 0,7",
+          "correct": false,
+          "explanation": "Sai! 4,2 ÷ 7: chia 42 cho 7 được 6, thương là 0,6 (không phải 0,7)."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 18,9 ÷ 9 = ___",
+          "answer": "2,1",
+          "explanation": "18,9 ÷ 9: chia 18 cho 9 được 2, chia 9 cho 9 được 1, thương là 2,1."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x013",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 45,
+      "title": "Nhân hai số thập phân đơn giản",
+      "learningObjective": "Học sinh biết cách nhân hai số thập phân và xác định đúng vị trí dấu phẩy trong tích.",
+      "shortExplanation": "Nhân hai số thập phân: nhân như số tự nhiên, rồi đếm tổng số chữ số thập phân của cả hai thừa số để đặt dấu phẩy vào tích.",
+      "content": "Khi nhân hai số thập phân, ta thực hiện nhân như hai số tự nhiên. Số chữ số sau dấu phẩy của tích bằng tổng số chữ số sau dấu phẩy của hai thừa số. Ví dụ: 1,2 × 1,3 = 1,56 (vì 12 × 13 = 156, tổng 1+1=2 chữ số thập phân, nên tích là 1,56). Ví dụ khác: 2,4 × 0,5 = 1,20 = 1,2 (24 × 5 = 120, 1+1=2 chữ số thập phân).",
+      "storyContext": "Công chúa Yumi tính diện tích các ô gạch hình chữ nhật để lát sàn tháp mới trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1,2 × 1,5 = ?",
+          "options": ["1,7", "1,8", "1,6", "2,0"],
+          "correctIndex": 1,
+          "explanation": "1,2 × 1,5: ta tính 12 × 15 = 180, tổng 2 chữ số thập phân, được 1,80 = 1,8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 2,4 × 0,5 = ?",
+          "options": ["1,0", "1,5", "2,0", "1,2"],
+          "correctIndex": 3,
+          "explanation": "2,4 × 0,5: ta tính 24 × 5 = 120, tổng 2 chữ số thập phân, được 1,20 = 1,2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 1,3 × 1,3 là bao nhiêu?",
+          "options": ["1,59", "1,49", "1,69", "1,79"],
+          "correctIndex": 2,
+          "explanation": "1,3 × 1,3: ta tính 13 × 13 = 169, tổng 2 chữ số thập phân, được 1,69."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 3,5 × 0,2 = ?",
+          "options": ["0,7", "0,6", "0,8", "0,5"],
+          "correctIndex": 0,
+          "explanation": "3,5 × 0,2: ta tính 35 × 2 = 70, tổng 2 chữ số thập phân, được 0,70 = 0,7."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ô gạch có chiều dài 1,6 m và chiều rộng 0,5 m. Diện tích ô gạch là bao nhiêu?",
+          "options": ["0,70 m²", "0,80 m²", "0,90 m²", "1,00 m²"],
+          "correctIndex": 1,
+          "explanation": "1,6 × 0,5: ta tính 16 × 5 = 80, tổng 2 chữ số thập phân, được 0,80 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 2,1 × 1,2 = ?",
+          "options": ["2,42", "2,62", "2,32", "2,52"],
+          "correctIndex": 3,
+          "explanation": "2,1 × 1,2: ta tính 21 × 12 = 252, tổng 2 chữ số thập phân, được 2,52."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1,4 × 1,5 = ?",
+          "options": ["1,90", "2,00", "2,10", "2,20"],
+          "correctIndex": 2,
+          "explanation": "1,4 × 1,5: ta tính 14 × 15 = 210, tổng 2 chữ số thập phân, được 2,10 = 2,1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 0,6 × 0,4 là bao nhiêu?",
+          "options": ["0,24", "0,34", "0,44", "0,14"],
+          "correctIndex": 0,
+          "explanation": "0,6 × 0,4: ta tính 6 × 4 = 24, tổng 2 chữ số thập phân, được 0,24."
+        },
+        {
+          "type": "true_false",
+          "text": "1,5 × 1,5 = 2,25",
+          "correct": true,
+          "explanation": "Đúng! 1,5 × 1,5: ta tính 15 × 15 = 225, tổng 2 chữ số thập phân, được 2,25."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 2,2 × 0,5 = ___",
+          "answer": "1,1",
+          "explanation": "2,2 × 0,5: ta tính 22 × 5 = 110, tổng 2 chữ số thập phân, được 1,10 = 1,1."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x014",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 46,
+      "title": "Chia số thập phân cho số tự nhiên - bài toán thực tế",
+      "learningObjective": "Học sinh vận dụng phép chia số thập phân cho số tự nhiên để giải các bài toán thực tế.",
+      "shortExplanation": "Đọc kỹ đề bài, xác định phép tính cần thực hiện, sau đó chia số thập phân như đã học.",
+      "content": "Phép chia số thập phân cho số tự nhiên được dùng nhiều trong thực tế. Khi giải bài toán, cần xác định đâu là số bị chia và số chia. Ví dụ: Chia đều 16,8 lít nước cho 8 bình, mỗi bình chứa 16,8 ÷ 8 = 2,1 lít. Cần lưu ý đặt dấu phẩy đúng vị trí và kiểm tra lại bằng cách nhân kết quả với số chia.",
+      "storyContext": "Công chúa Yumi phân phối nguyên liệu quý hiếm đồng đều cho các thợ thủ công xây tháp trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 16,8 ÷ 8 = ?",
+          "options": ["2,0", "1,8", "2,1", "2,3"],
+          "correctIndex": 2,
+          "explanation": "16,8 ÷ 8: chia 16 cho 8 được 2, chia 8 cho 8 được 1, thương là 2,1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi có 21,6 viên ngọc chia đều cho 9 hộp. Mỗi hộp chứa bao nhiêu viên?",
+          "options": ["2,4 viên", "2,6 viên", "2,2 viên", "3,0 viên"],
+          "correctIndex": 0,
+          "explanation": "21,6 ÷ 9: chia 21 cho 9 được 2 dư 3, hạ 6 thành 36, chia 36 cho 9 được 4, thương là 2,4 viên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 25,5 ÷ 5 = ?",
+          "options": ["5,0", "5,2", "5,3", "5,1"],
+          "correctIndex": 3,
+          "explanation": "25,5 ÷ 5: chia 25 cho 5 được 5, chia 5 cho 5 được 1, thương là 5,1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 13,6 ÷ 4 là bao nhiêu?",
+          "options": ["3,2", "3,4", "3,6", "3,0"],
+          "correctIndex": 1,
+          "explanation": "13,6 ÷ 4: chia 13 cho 4 được 3 dư 1, hạ 6 thành 16, chia 16 cho 4 được 4, thương là 3,4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "5 thợ thủ công làm được 18,5 m vải trong một ngày. Mỗi người làm được bao nhiêu mét?",
+          "options": ["3,5 m", "4,0 m", "3,7 m", "4,2 m"],
+          "correctIndex": 2,
+          "explanation": "18,5 ÷ 5: chia 18 cho 5 được 3 dư 3, hạ 5 thành 35, chia 35 cho 5 được 7, thương là 3,7 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 24,0 ÷ 8 = ?",
+          "options": ["3,0", "2,8", "3,2", "2,6"],
+          "correctIndex": 0,
+          "explanation": "24,0 ÷ 8: chia 24 cho 8 được 3, thương là 3,0 = 3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 11,2 ÷ 7 = ?",
+          "options": ["1,5", "1,4", "1,3", "1,6"],
+          "correctIndex": 3,
+          "explanation": "11,2 ÷ 7: chia 11 cho 7 được 1 dư 4, hạ 2 thành 42, chia 42 cho 7 được 6, thương là 1,6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi đổ 22,8 lít nước vào 6 bình bằng nhau. Mỗi bình chứa bao nhiêu lít?",
+          "options": ["3,6 lít", "3,8 lít", "4,0 lít", "3,4 lít"],
+          "correctIndex": 1,
+          "explanation": "22,8 ÷ 6: chia 22 cho 6 được 3 dư 4, hạ 8 thành 48, chia 48 cho 6 được 8, thương là 3,8 lít."
+        },
+        {
+          "type": "true_false",
+          "text": "17,5 ÷ 5 = 3,0",
+          "correct": false,
+          "explanation": "Sai! 17,5 ÷ 5: chia 17 cho 5 được 3 dư 2, hạ 5 thành 25, chia 25 cho 5 được 5, thương là 3,5 (không phải 3,0)."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 27,3 ÷ 3 = ___",
+          "answer": "9,1",
+          "explanation": "27,3 ÷ 3: chia 27 cho 3 được 9, chia 3 cho 3 được 1, thương là 9,1."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x015",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 47,
+      "title": "Tổng hợp: Nhân và chia số thập phân",
+      "learningObjective": "Học sinh vận dụng tổng hợp các phép nhân và chia số thập phân để giải bài toán phức hợp.",
+      "shortExplanation": "Kết hợp nhân và chia số thập phân: xác định đúng phép tính cần dùng, thực hiện theo thứ tự và đặt dấu phẩy chính xác.",
+      "content": "Trong thực tế, ta thường gặp bài toán kết hợp cả nhân lẫn chia số thập phân. Cần đọc kỹ đề để chọn đúng phép tính. Ví dụ: Mua 3 m vải, giá 2,5 nghìn đồng/m, tổng tiền là 2,5 × 3 = 7,5 nghìn đồng. Hoặc có 8,4 kg gạo chia cho 6 người, mỗi người được 8,4 ÷ 6 = 1,4 kg. Cũng có thể gặp nhân hai số thập phân như 1,2 × 2,5 = 3,0.",
+      "storyContext": "Công chúa Yumi hoàn thành tháp cao nhất trong Vương quốc Thủ Công bằng cách tính toán chính xác mọi nguyên liệu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 2,5 × 4 = ?",
+          "options": ["9,5", "10,5", "11,5", "10,0"],
+          "correctIndex": 3,
+          "explanation": "2,5 × 4: ta tính 25 × 4 = 100, rồi đặt 1 chữ số sau dấu phẩy, được 10,0 = 10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 9,6 ÷ 4 = ?",
+          "options": ["2,2", "2,4", "2,6", "2,0"],
+          "correctIndex": 1,
+          "explanation": "9,6 ÷ 4: chia 9 cho 4 được 2 dư 1, hạ 6 thành 16, chia 16 cho 4 được 4, thương là 2,4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 1,6 × 1,5 = ?",
+          "options": ["2,4", "2,2", "2,8", "3,0"],
+          "correctIndex": 0,
+          "explanation": "1,6 × 1,5: ta tính 16 × 15 = 240, tổng 2 chữ số thập phân, được 2,40 = 2,4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi mua 7 viên đá quý, mỗi viên nặng 1,8 g. Tổng trọng lượng là bao nhiêu?",
+          "options": ["11,6 g", "13,0 g", "12,6 g", "14,0 g"],
+          "correctIndex": 2,
+          "explanation": "1,8 × 7: ta tính 18 × 7 = 126, rồi đặt 1 chữ số sau dấu phẩy, được 12,6 g."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 15,6 ÷ 6 = ?",
+          "options": ["2,4", "2,8", "3,0", "2,6"],
+          "correctIndex": 3,
+          "explanation": "15,6 ÷ 6: chia 15 cho 6 được 2 dư 3, hạ 6 thành 36, chia 36 cho 6 được 6, thương là 2,6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 0,9 × 0,9 = ?",
+          "options": ["0,72", "0,81", "0,90", "0,63"],
+          "correctIndex": 1,
+          "explanation": "0,9 × 0,9: ta tính 9 × 9 = 81, tổng 2 chữ số thập phân, được 0,81."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 4,8 ÷ 3 = ?",
+          "options": ["1,6", "1,4", "1,8", "2,0"],
+          "correctIndex": 0,
+          "explanation": "4,8 ÷ 3: chia 4 cho 3 được 1 dư 1, hạ 8 thành 18, chia 18 cho 3 được 6, thương là 1,6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một mảnh vải dài 3,6 m được cắt thành 4 đoạn bằng nhau. Mỗi đoạn dài bao nhiêu mét?",
+          "options": ["0,7 m", "0,9 m", "0,8 m", "1,0 m"],
+          "correctIndex": 1,
+          "explanation": "3,6 ÷ 4: chia 36 cho 4 được 9, thương là 0,9 m."
+        },
+        {
+          "type": "true_false",
+          "text": "2,5 × 1,4 = 3,5",
+          "correct": true,
+          "explanation": "Đúng! 2,5 × 1,4: ta tính 25 × 14 = 350, tổng 2 chữ số thập phân, được 3,50 = 3,5."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 8,1 ÷ 9 = ___",
+          "answer": "0,9",
+          "explanation": "8,1 ÷ 9: chia 81 cho 9 được 9, thương là 0,9."
+        }
+      ]
+    }
+  ]
+}

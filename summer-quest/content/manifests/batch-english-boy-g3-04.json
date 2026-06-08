@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "batchId": "batch-english-boy-g3-04",
+  "description": "Boy Grade 3 English — Batch 4: Food, Jobs, Action Verbs, Numbers 20-100, Telling Time",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-en-x016",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 27,
+      "title": "Food and Meals",
+      "learningObjective": "After this lesson, Johnny will know 3 meal names and 8 food words in English.",
+      "shortExplanation": "Learn food and meal words in English. Con học tên các bữa ăn và thức ăn bằng tiếng Anh!",
+      "content": "## The Three Meals\n- **breakfast** (bữa sáng) — the first meal of the day, usually eaten in the morning\n- **lunch** (bữa trưa) — the midday meal, eaten around noon\n- **dinner** (bữa tối) — the evening meal, usually the biggest meal\n\n## Food Words\n- **rice** (cơm / gạo) — a white grain eaten with chopsticks in Vietnam\n- **egg** (trứng) — a food from chickens, can be fried or boiled\n- **bread** (bánh mì) — a baked food made from flour\n- **milk** (sữa) — a white drink that makes bones strong\n- **noodle soup** (phở / bún) — a Vietnamese dish with broth and noodles\n- **mango** (quả xoài) — a sweet yellow tropical fruit\n- **fish** (cá) — a popular food in Vietnam, eaten at lunch or dinner\n\n## Useful Phrases\n- I eat **breakfast** at 7 a.m.\n- I have **rice** and **fish** for **lunch**.\n- I drink **milk** every morning.\n- **Mango** is my favourite fruit!\n\n## Summary\nWe eat three meals every day: breakfast, lunch, and dinner. Rice, eggs, bread, and noodle soup are common foods. Eat a healthy breakfast to have energy for school!",
+      "storyContext": "ROBO prepares a meal plan for Johnny to fuel his training at the Robot Sport Lab and they learn all the food names in English.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "What is the first meal of the day?",
+          "options": ["Dinner", "Breakfast", "Lunch", "Snack"],
+          "correctIndex": 1,
+          "explanation": "Breakfast is the first meal. You eat it in the morning. Breakfast = bữa sáng.",
+          "hint": "This meal happens right after you wake up."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the midday meal called?",
+          "options": ["Breakfast", "Dinner", "Lunch", "Supper"],
+          "correctIndex": 2,
+          "explanation": "Lunch is the midday meal eaten around noon. Lunch = bữa trưa.",
+          "hint": "You eat this meal in the middle of the day."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'cơm' in English?",
+          "options": ["Noodles", "Bread", "Soup", "Rice"],
+          "correctIndex": 3,
+          "explanation": "Cơm = Rice in English. It is a staple food in Vietnam, eaten with chopsticks.",
+          "hint": "Vietnamese people eat cơm with almost every meal."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'trứng' in English?",
+          "options": ["Egg", "Milk", "Rice", "Fish"],
+          "correctIndex": 0,
+          "explanation": "Trứng = Egg in English. Eggs come from chickens and can be fried, boiled, or scrambled.",
+          "hint": "Trứng is round and can be fried for breakfast."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Phở' is a type of Vietnamese ___.",
+          "options": ["Bread", "Fried rice", "Noodle soup", "Cake"],
+          "correctIndex": 2,
+          "explanation": "Phở is a Vietnamese noodle soup with broth and herbs. It is very popular for breakfast.",
+          "hint": "Phở has noodles in a warm, flavoured broth."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What drink helps make your bones strong?",
+          "options": ["Juice", "Milk", "Water", "Tea"],
+          "correctIndex": 1,
+          "explanation": "Milk contains calcium which helps build strong bones. Milk = sữa.",
+          "hint": "This white drink comes from cows."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which of these is a fruit?",
+          "options": ["Mango", "Carrot", "Potato", "Onion"],
+          "correctIndex": 0,
+          "explanation": "Mango is a sweet tropical fruit. Mango = quả xoài. Carrots, potatoes, and onions are vegetables.",
+          "hint": "This sweet yellow tropical food grows on trees."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which meal do most people eat in the evening?",
+          "options": ["Breakfast", "Snack", "Lunch", "Dinner"],
+          "correctIndex": 3,
+          "explanation": "Dinner is the evening meal. Dinner = bữa tối. It is usually the biggest meal of the day.",
+          "hint": "This meal happens in the evening, usually after 5 p.m."
+        },
+        {
+          "type": "true_false",
+          "text": "Breakfast is the first meal of the day.",
+          "correct": true,
+          "explanation": "True! Breakfast is the first meal eaten in the morning. Breakfast = bữa sáng.",
+          "hint": "Which meal do you eat first when you wake up?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "I eat ___ with chopsticks in Vietnam.",
+          "answer": "rice",
+          "explanation": "Rice is the main food eaten with chopsticks in Vietnam. Rice = cơm.",
+          "hint": "The white grain that Vietnamese people eat at every meal."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x017",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 28,
+      "title": "Jobs and Community Helpers",
+      "learningObjective": "After this lesson, Johnny will know 7 job names in English and can describe what each person does.",
+      "shortExplanation": "Learn the names of jobs and what each person does. Con học tên các nghề nghiệp bằng tiếng Anh!",
+      "content": "## Job Words\n- **teacher** (giáo viên) — teaches students at school\n- **doctor** (bác sĩ) — helps sick people at a hospital\n- **farmer** (nông dân) — grows food on a farm\n- **cook** (đầu bếp) — prepares food in a kitchen or restaurant\n- **driver** (tài xế) — drives vehicles to take people places\n- **police officer** (cảnh sát) — protects people and keeps streets safe\n- **shopkeeper** (người bán hàng) — sells things in a shop\n\n## What Do They Do?\n- A **teacher** teaches. (Giáo viên dạy học.)\n- A **doctor** treats patients. (Bác sĩ chữa bệnh.)\n- A **farmer** grows vegetables and rice. (Nông dân trồng rau và lúa.)\n- A **cook** cooks meals. (Đầu bếp nấu ăn.)\n\n## Useful Phrases\n- What do you want to be? (Bạn muốn làm nghề gì?)\n- I want to be a **teacher**. (Tôi muốn làm giáo viên.)\n- My dad is a **driver**. (Ba tôi là tài xế.)\n\n## Summary\nCommunity helpers do important jobs for everyone. Teachers help us learn. Doctors keep us healthy. Farmers grow our food. What job do you want to have when you grow up?",
+      "storyContext": "ROBO introduces Johnny to workers at the Robot Sport Lab and Johnny learns the English job title for each person.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Who teaches students at school?",
+          "options": ["Teacher", "Doctor", "Cook", "Driver"],
+          "correctIndex": 0,
+          "explanation": "A teacher teaches students at school. Teacher = giáo viên.",
+          "hint": "This person works at a school and explains lessons."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Who helps sick people at a hospital?",
+          "options": ["Teacher", "Cook", "Farmer", "Doctor"],
+          "correctIndex": 3,
+          "explanation": "A doctor helps sick people at a hospital. Doctor = bác sĩ.",
+          "hint": "This person works at a bệnh viện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What does a farmer do?",
+          "options": ["Sells clothes", "Grows food", "Drives buses", "Teaches children"],
+          "correctIndex": 1,
+          "explanation": "A farmer grows food like rice, vegetables, and fruit on a farm. Farmer = nông dân.",
+          "hint": "A farmer works on a farm in the countryside."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What does a cook do?",
+          "options": ["Drives buses", "Teaches students", "Prepares food", "Grows vegetables"],
+          "correctIndex": 2,
+          "explanation": "A cook prepares food in a kitchen or restaurant. Cook = đầu bếp.",
+          "hint": "You find a cook in a kitchen or restaurant."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Who drives a bus to take people around the city?",
+          "options": ["Farmer", "Doctor", "Teacher", "Driver"],
+          "correctIndex": 3,
+          "explanation": "A driver drives vehicles. A bus driver takes passengers to different places. Driver = tài xế.",
+          "hint": "This person's job is to drive a vehicle."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Thầy giáo / cô giáo' means what in English?",
+          "options": ["Teacher", "Doctor", "Cook", "Police officer"],
+          "correctIndex": 0,
+          "explanation": "Thầy giáo / cô giáo = Teacher in English. They teach students every day.",
+          "hint": "The person who teaches at a trường học."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Who protects our streets and catches criminals?",
+          "options": ["Doctor", "Cook", "Police officer", "Farmer"],
+          "correctIndex": 2,
+          "explanation": "A police officer protects people, keeps streets safe, and catches criminals. Police officer = cảnh sát.",
+          "hint": "This person wears a uniform and keeps us safe."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What job works in a shop and sells things to customers?",
+          "options": ["Teacher", "Shopkeeper", "Doctor", "Farmer"],
+          "correctIndex": 1,
+          "explanation": "A shopkeeper works in a shop and sells goods to customers. Shopkeeper = người bán hàng.",
+          "hint": "You meet this person when you go to buy something."
+        },
+        {
+          "type": "true_false",
+          "text": "A doctor works at a hospital.",
+          "correct": true,
+          "explanation": "True! A doctor works at a hospital. Doctor = bác sĩ, hospital = bệnh viện.",
+          "hint": "Where does a bác sĩ work?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "My mum is a ___. She teaches students every day.",
+          "answer": "teacher",
+          "explanation": "Someone who teaches students is called a teacher. Teacher = giáo viên.",
+          "hint": "The job that involves teaching students."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x018",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 29,
+      "title": "Action Verbs",
+      "learningObjective": "After this lesson, Johnny will know 8 action verbs in English and can use them to describe physical activities.",
+      "shortExplanation": "Learn action verbs like run, jump, swim, fly. Con học các động từ hành động trong tiếng Anh!",
+      "content": "## Action Verbs\n- **run** (chạy) — to move quickly on your feet\n- **jump** (nhảy) — to push yourself off the ground into the air\n- **swim** (bơi) — to move through water using your arms and legs\n- **climb** (leo / trèo) — to go up something using hands and feet\n- **kick** (đá) — to hit something with your foot\n- **throw** (ném) — to send something through the air with your hand\n- **catch** (bắt) — to grab something moving through the air\n- **fly** (bay) — to move through the air (birds, planes, insects)\n\n## Sentences with Action Verbs\n- I **run** every morning. (Tôi chạy mỗi sáng.)\n- She can **jump** very high. (Cô ấy có thể nhảy rất cao.)\n- He **swims** in the pool. (Anh ấy bơi ở hồ bơi.)\n- Birds can **fly** in the sky. (Chim có thể bay trên bầu trời.)\n\n## Sport Connections\n- Football: **kick**, **run**, **throw** (for goalkeeper)\n- Basketball: **throw**, **catch**, **jump**\n- Swimming: **swim**\n- Gymnastics: **jump**, **climb**\n\n## Summary\nAction verbs describe things we do with our bodies. Johnny loves sports, so he uses action verbs every day: run, jump, kick, throw, catch!",
+      "storyContext": "ROBO coaches Johnny through a sports challenge, calling out action verb commands that Johnny must perform.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Which verb means to move quickly on foot?",
+          "options": ["Swim", "Fly", "Run", "Climb"],
+          "correctIndex": 2,
+          "explanation": "Run means to move quickly on your feet. Run = chạy in Vietnamese.",
+          "hint": "You do this faster than walking, using your legs."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which verb means to go up something high?",
+          "options": ["Jump", "Climb", "Swim", "Kick"],
+          "correctIndex": 1,
+          "explanation": "Climb means to go up something using your hands and feet. Climb = leo / trèo.",
+          "hint": "You do this to go up a tree or a ladder."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which verb is done in water?",
+          "options": ["Swim", "Run", "Jump", "Fly"],
+          "correctIndex": 0,
+          "explanation": "Swim is done in water. Swim = bơi. You move through water using your arms and legs.",
+          "hint": "You need a pool or the sea to do this."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "In football, what do players do to the ball?",
+          "options": ["Throw", "Climb", "Swim", "Kick"],
+          "correctIndex": 3,
+          "explanation": "In football, players kick the ball with their feet. Kick = đá.",
+          "hint": "You use your foot to send the ball into the goal."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Nhảy' in English is?",
+          "options": ["Run", "Jump", "Swim", "Fly"],
+          "correctIndex": 1,
+          "explanation": "Nhảy = Jump in English. You jump by pushing yourself off the ground into the air.",
+          "hint": "Nhảy = push yourself up into the air."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do birds do that most humans cannot?",
+          "options": ["Run", "Swim", "Fly", "Jump"],
+          "correctIndex": 2,
+          "explanation": "Birds can fly because they have wings. Most humans cannot fly without a machine. Fly = bay.",
+          "hint": "Birds have wings for this special action."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "In basketball, what do you do with the ball to score?",
+          "options": ["Kick", "Swim", "Fly", "Throw"],
+          "correctIndex": 3,
+          "explanation": "In basketball, you throw the ball into the hoop to score. Throw = ném.",
+          "hint": "You use your arm to send the ball through the air."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the opposite action of 'catch'?",
+          "options": ["Throw", "Run", "Jump", "Climb"],
+          "correctIndex": 0,
+          "explanation": "Throw is the opposite of catch. Throw = ném (send away), catch = bắt (grab it).",
+          "hint": "One person throws, another person ___."
+        },
+        {
+          "type": "true_false",
+          "text": "A fish can swim.",
+          "correct": true,
+          "explanation": "True! Fish swim in water. It is their main way of moving. Swim = bơi.",
+          "hint": "How does a fish move through water?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "I ___ into the pool every morning.",
+          "answer": "swim",
+          "explanation": "You swim in a pool. Swim = bơi. It is a great morning exercise.",
+          "hint": "The action verb for moving through water."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x019",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 30,
+      "title": "Numbers 20 to 100",
+      "learningObjective": "After this lesson, Johnny will know the English words for tens numbers from 20 to 100.",
+      "shortExplanation": "Learn to say and write numbers from 20 to 100 in English. Con học đếm số từ 20 đến 100!",
+      "content": "## The Tens\n- 20 = **twenty** (hai mươi)\n- 30 = **thirty** (ba mươi)\n- 40 = **forty** (bốn mươi) ← note: no 'u' in forty!\n- 50 = **fifty** (năm mươi)\n- 60 = **sixty** (sáu mươi)\n- 70 = **seventy** (bảy mươi)\n- 80 = **eighty** (tám mươi)\n- 90 = **ninety** (chín mươi)\n- 100 = **one hundred** (một trăm)\n\n## Numbers In Between\n- 21 = twenty-**one**\n- 35 = thirty-**five**\n- 48 = forty-**eight**\n- 99 = ninety-**nine**\n\nPattern: say the tens, then add a hyphen and the ones.\n\n## Example Sentences\n- There are **forty** students in the hall.\n- The robot scored **seventy** points!\n- The price is **fifty** thousand đồng.\n- Johnny ran **one hundred** metres in 14 seconds.\n\n## Summary\nNumbers 20–100 follow a pattern. Learn the tens: twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, one hundred. Then add the ones: twenty-one, thirty-five, and so on. Watch out for 'forty' — there is no 'u'!",
+      "storyContext": "ROBO keeps score at the Robot Sport Lab Olympics and reads out the numbers in English for Johnny to practise.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "How do you say '20' in English?",
+          "options": ["Twelve", "Thirty", "Two hundred", "Twenty"],
+          "correctIndex": 3,
+          "explanation": "20 = Twenty in English. Twenty = hai mươi. Not twelve (12) or thirty (30).",
+          "hint": "20 = hai mươi. What is the English word?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "How many tens make '50'?",
+          "options": ["Five", "Fifty", "Fifteen", "Five hundred"],
+          "correctIndex": 0,
+          "explanation": "50 = five tens. There are five groups of ten in fifty. Five = năm.",
+          "hint": "50 ÷ 10 = ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is '70' in English?",
+          "options": ["Seventeen", "Seven hundred", "Seventy", "Seven"],
+          "correctIndex": 2,
+          "explanation": "70 = Seventy in English. Seventy = bảy mươi. Not seventeen (17) or seven (7).",
+          "hint": "70 = bảy mươi. What is the English word?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What comes next? 10, 20, 30, ___",
+          "options": ["35", "40", "50", "60"],
+          "correctIndex": 1,
+          "explanation": "The pattern is +10 each time: 10, 20, 30, 40. The next number is 40 = forty.",
+          "hint": "Add 10 to 30."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "How do you write 'forty-five' as a number?",
+          "options": ["45", "54", "405", "450"],
+          "correctIndex": 0,
+          "explanation": "Forty-five = 45. Forty = 40, five = 5, so forty-five = 40 + 5 = 45.",
+          "hint": "Forty = 40, five = 5. Put them together."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'100' in English is?",
+          "options": ["Ten", "One thousand", "One million", "One hundred"],
+          "correctIndex": 3,
+          "explanation": "100 = One hundred in English. One hundred = một trăm. Not one thousand (1000).",
+          "hint": "100 = một trăm. What is the English word?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 30 + 20?",
+          "options": ["32", "50", "52", "23"],
+          "correctIndex": 1,
+          "explanation": "30 + 20 = 50. Thirty plus twenty equals fifty. Fifty = năm mươi.",
+          "hint": "Thirty + twenty = ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which number is between 60 and 80?",
+          "options": ["90", "100", "70", "50"],
+          "correctIndex": 2,
+          "explanation": "70 is between 60 and 80. 60 < 70 < 80. Seventy = bảy mươi.",
+          "hint": "Which number is greater than 60 but less than 80?"
+        },
+        {
+          "type": "true_false",
+          "text": "'Sixty' is the English word for the number 60.",
+          "correct": true,
+          "explanation": "True! Sixty = 60. Sixty = sáu mươi in Vietnamese.",
+          "hint": "Is sixty the correct word for 60?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "10 × 8 = ___ (write the number in digits)",
+          "answer": "80",
+          "explanation": "10 × 8 = 80. Eighty = tám mươi. Ten times eight equals eighty.",
+          "hint": "Count 8 groups of 10."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x020",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 31,
+      "title": "Telling Time",
+      "learningObjective": "After this lesson, Johnny will be able to say and understand the time in English using o'clock, half past, and quarter.",
+      "shortExplanation": "Learn how to tell the time in English. Con học cách nói giờ bằng tiếng Anh!",
+      "content": "## Telling the Time\n**O'clock** — exact hour:\n- 3:00 = three **o'clock**\n- 9:00 = nine **o'clock**\n\n**Half past** — 30 minutes after the hour:\n- 4:30 = **half past** four\n- 7:30 = **half past** seven\n\n**Quarter past** — 15 minutes after the hour:\n- 5:15 = **quarter past** five\n- 8:15 = **quarter past** eight\n\n**Quarter to** — 15 minutes before the next hour:\n- 5:45 = **quarter to** six (15 minutes before 6)\n- 9:45 = **quarter to** ten\n\n## Time in Daily Life\n- 7:00 → I wake up at **seven o'clock**.\n- 7:30 → I eat breakfast at **half past seven**.\n- 8:15 → School starts at **quarter past eight**.\n- 12:00 → Lunch is at **twelve o'clock**.\n\n## Summary\nTelling time in English uses four main patterns: o'clock (exact hour), half past (30 minutes after), quarter past (15 minutes after), and quarter to (15 minutes before). Practice saying the time every morning!",
+      "storyContext": "ROBO shows Johnny a clock and helps him practise saying the time in English so he is never late for Robot Sport Lab training.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "How do you say '3:00' in English?",
+          "options": ["Three thirty", "Three o'clock", "Half past three", "Quarter to three"],
+          "correctIndex": 1,
+          "explanation": "3:00 = Three o'clock. 'O'clock' is used for exact hours with no extra minutes.",
+          "hint": "When the minute hand points to 12, it is ___ o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "How do you say '4:30'?",
+          "options": ["Four o'clock", "Quarter to four", "Half past four", "Quarter past four"],
+          "correctIndex": 2,
+          "explanation": "4:30 = Half past four. 'Half past' means 30 minutes after the hour.",
+          "hint": "30 minutes = half an hour = half ___."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Quarter past five' means which time?",
+          "options": ["5:15", "5:30", "5:45", "5:00"],
+          "correctIndex": 0,
+          "explanation": "Quarter past five = 5:15. 'Quarter' = 15 minutes. Quarter PAST = 15 minutes AFTER the hour.",
+          "hint": "Quarter = 15 minutes. Past = after the hour."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Quarter to six' means which time?",
+          "options": ["6:00", "6:15", "6:30", "5:45"],
+          "correctIndex": 3,
+          "explanation": "Quarter to six = 5:45. 'Quarter to' = 15 minutes BEFORE the next hour. 15 minutes before 6:00 = 5:45.",
+          "hint": "Quarter TO six = 15 minutes BEFORE six."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "How many minutes are in one hour?",
+          "options": ["50", "30", "60", "100"],
+          "correctIndex": 2,
+          "explanation": "There are 60 minutes in one hour. 60 phút = 1 giờ.",
+          "hint": "Count the minutes on a clock from 12 all the way around."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'It is seven thirty.' What does this mean?",
+          "options": ["7:00", "7:30", "7:15", "7:45"],
+          "correctIndex": 1,
+          "explanation": "Seven thirty = 7:30. Thirty minutes = half an hour, so 7:30 = half past seven.",
+          "hint": "Thirty = 30 minutes past the hour."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Half past' always means how many minutes past the hour?",
+          "options": ["15", "20", "45", "30"],
+          "correctIndex": 3,
+          "explanation": "Half past = 30 minutes past. Half of one hour (60 minutes) = 30 minutes.",
+          "hint": "Half of 60 minutes = ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'It is nine o'clock.' What is the time?",
+          "options": ["9:00", "9:15", "9:30", "9:45"],
+          "correctIndex": 0,
+          "explanation": "Nine o'clock = 9:00. O'clock means exactly on the hour, with zero extra minutes.",
+          "hint": "O'clock = exactly on the hour, no extra minutes."
+        },
+        {
+          "type": "true_false",
+          "text": "'Half past seven' means 7:30.",
+          "correct": true,
+          "explanation": "True! Half past seven = 7:30. Half past = 30 minutes after the hour.",
+          "hint": "Half past seven: 30 minutes after 7:00 = ?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "'8:00' in words is 'eight ___'.",
+          "answer": "o'clock",
+          "explanation": "8:00 = eight o'clock. 'O'clock' is used when the time is exactly on the hour.",
+          "hint": "The word used when there are no extra minutes."
+        }
+      ]
+    }
+  ]
+}

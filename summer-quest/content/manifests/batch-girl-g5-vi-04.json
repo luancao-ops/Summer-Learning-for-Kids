@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-vi-b04",
+  "description": "Bài ôn Tiếng Việt Lớp 5 cho Yumi - Liên kết câu trong đoạn văn - phép nối (quan hệ từ), phép thế (đại từ thay thế), phép lặp",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "scroll"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-vi-x016",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 47,
+      "title": "Phép lặp từ ngữ trong đoạn văn",
+      "learningObjective": "Học sinh nhận biết và sử dụng phép lặp từ ngữ để liên kết các câu trong đoạn văn. Học sinh hiểu tác dụng của việc lặp lại từ ngữ giúp đoạn văn mạch lạc, chặt chẽ hơn.",
+      "shortExplanation": "Đọc kỹ đoạn văn và tìm những từ ngữ được lặp lại ở nhiều câu. Nhớ rằng phép lặp là dùng lại chính xác từ ngữ đã xuất hiện ở câu trước.",
+      "content": "Phép lặp từ ngữ là cách dùng lại một từ hoặc cụm từ đã xuất hiện ở câu trước để liên kết các câu trong đoạn văn. Ví dụ: 'Công chúa có mái tóc vàng óng. Mái tóc vàng óng ấy luôn tỏa sáng như ánh nắng.' - cụm từ 'mái tóc vàng óng' được lặp lại để liên kết hai câu. Phép lặp giúp người đọc dễ theo dõi chủ đề đang được nói đến. Tuy nhiên, dùng quá nhiều phép lặp sẽ làm đoạn văn trở nên nhàm chán. Trong văn kể chuyện, phép lặp thường dùng để nhấn mạnh hình ảnh hoặc đặc điểm quan trọng của nhân vật.",
+      "storyContext": "Yumi đang sáng tác câu chuyện về công chúa phép thuật và cần dùng phép lặp để làm nổi bật những chi tiết kỳ diệu trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn văn: 'Cây phép thuật tỏa sáng rực rỡ. Cây phép thuật ban phép màu cho tất cả dân làng.' - Câu thứ hai sử dụng phép liên kết nào?",
+          "options": [
+            "Phép nối bằng quan hệ từ",
+            "Phép thế bằng đại từ",
+            "Phép lặp từ ngữ",
+            "Phép liên tưởng"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cụm từ 'cây phép thuật' được lặp lại nguyên vẹn từ câu 1 sang câu 2, đây chính là phép lặp từ ngữ dùng để liên kết hai câu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ ngữ nào được lặp lại trong đoạn: 'Nàng công chúa học may vá mỗi ngày. Mỗi ngày nàng thêu thêm một bông hoa lên tấm áo phép thuật.'?",
+          "options": [
+            "Mỗi ngày",
+            "Công chúa",
+            "Phép thuật",
+            "Bông hoa"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cụm từ 'mỗi ngày' xuất hiện ở cuối câu 1 và đầu câu 2, tạo nên phép lặp liên kết hai câu với nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép lặp từ ngữ có tác dụng gì trong đoạn văn?",
+          "options": [
+            "Làm cho đoạn văn thêm nhiều từ mới lạ",
+            "Thay thế từ ngữ đã dùng bằng từ khác có nghĩa tương tự",
+            "Giúp liên kết các câu và nhấn mạnh nội dung quan trọng",
+            "Nối các câu bằng từ chỉ quan hệ như 'và', 'nhưng', 'vì'"
+          ],
+          "correctIndex": 2,
+          "explanation": "Phép lặp dùng lại từ ngữ đã có để liên kết câu sau với câu trước, đồng thời nhấn mạnh thông tin quan trọng trong đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn nào sau đây sử dụng phép lặp từ ngữ?",
+          "options": [
+            "Trời mưa to. Vì vậy, buổi lễ hội bị hoãn lại.",
+            "Phù thủy tốt bụng giúp đỡ mọi người. Bà ấy được cả vương quốc yêu mến.",
+            "Con rồng bay lên trời cao. Sau đó, nó biến mất sau những đám mây.",
+            "Chiếc đũa phép sáng lên. Chiếc đũa phép ban phép màu cho công chúa."
+          ],
+          "correctIndex": 1,
+          "explanation": "Sai - đáp án B dùng phép thế ('bà ấy' thay cho 'phù thủy tốt bụng'). Đáp án D mới là phép lặp vì 'chiếc đũa phép' được lặp lại nguyên vẹn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống để tạo phép lặp: 'Vương quốc băng giá đẹp như tranh. _______ luôn thu hút các nàng tiên từ xa đến thăm.'",
+          "options": [
+            "Nơi đây",
+            "Họ",
+            "Vương quốc băng giá",
+            "Cảnh vật đó"
+          ],
+          "correctIndex": 2,
+          "explanation": "Điền 'Vương quốc băng giá' để lặp lại cụm từ từ câu 1, tạo phép lặp từ ngữ liên kết hai câu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn văn: 'Phép màu giúp mọi người sống hạnh phúc. Phép màu xua tan mọi nỗi buồn. Phép màu là điều quý giá nhất vương quốc.' - Đây là ví dụ của?",
+          "options": [
+            "Phép lặp từ ngữ liên tiếp để nhấn mạnh",
+            "Phép nối bằng quan hệ từ",
+            "Phép thế bằng đại từ chỉ định",
+            "Phép liên kết bằng từ đồng nghĩa"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cụm từ 'phép màu' được lặp lại ở đầu mỗi câu liên tiếp, đây là phép lặp từ ngữ dùng để nhấn mạnh tầm quan trọng của phép màu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào KHÔNG sử dụng phép lặp từ ngữ để liên kết?",
+          "options": [
+            "Cây đào nở hoa rực rỡ. Cây đào là niềm tự hào của vườn thượng uyển.",
+            "Nàng tiên cá hát rất hay. Nàng tiên cá được vua mời vào cung.",
+            "Chiếc gương thần biết nói chuyện. Tuy nhiên, chiếc gương chỉ nói sự thật.",
+            "Con ngựa trắng phi nhanh. Chú ấy mang theo thư của hoàng tử."
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu D dùng 'chú ấy' để thay thế cho 'con ngựa trắng' - đây là phép thế chứ không phải phép lặp. Ba câu còn lại đều lặp lại từ ngữ từ câu trước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi nào nên dùng phép lặp từ ngữ trong bài văn?",
+          "options": [
+            "Dùng ở tất cả các câu trong đoạn văn để tạo nhịp điệu",
+            "Khi muốn nhấn mạnh một hình ảnh hoặc ý tưởng quan trọng",
+            "Khi không biết dùng từ nào khác để thay thế",
+            "Chỉ dùng ở câu đầu và câu cuối đoạn văn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Phép lặp được dùng có chủ đích để nhấn mạnh thông tin quan trọng hoặc tạo sự liên kết chặt chẽ, không phải dùng tràn lan hay vì hết từ."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Bông hoa phép thuật nở rộ vào ban đêm. Bông hoa phép thuật tỏa ra ánh sáng màu vàng.' - hai câu này được liên kết bằng phép lặp từ ngữ.",
+          "correct": true,
+          "explanation": "Đúng. Cụm từ 'bông hoa phép thuật' được lặp lại nguyên vẹn từ câu 1 sang câu 2, đây chính là phép lặp từ ngữ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ ngữ lặp lại để hoàn thành đoạn văn: 'Công chúa Hoa Tuyết có đôi bàn tay khéo léo. _______ đã thêu nên tấm thảm thần kỳ nhất vương quốc.' (Lặp lại cụm chủ ngữ từ câu trước)",
+          "answer": "Đôi bàn tay khéo léo ấy",
+          "explanation": "Lặp lại 'đôi bàn tay khéo léo' (có thể thêm 'ấy') từ câu 1 để tạo phép lặp liên kết hai câu."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x017",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 48,
+      "title": "Phép thế bằng đại từ thay thế",
+      "learningObjective": "Học sinh nhận biết và sử dụng phép thế bằng đại từ để liên kết câu trong đoạn văn. Học sinh phân biệt được phép thế với phép lặp và biết chọn đại từ thay thế phù hợp.",
+      "shortExplanation": "Tìm những từ như 'anh ấy', 'cô ấy', 'họ', 'đó', 'này', 'đây' thay thế cho người hoặc vật đã nhắc đến ở câu trước. Đó chính là phép thế.",
+      "content": "Phép thế là cách dùng đại từ hoặc cụm từ để thay thế cho một từ ngữ đã xuất hiện ở câu trước, giúp tránh lặp từ và liên kết các câu. Các đại từ thay thế thường dùng: anh ấy, cô ấy, họ, chúng, nó, đó, này, đây, điều đó. Ví dụ: 'Hoàng tử dũng cảm cứu công chúa. Anh ấy được cả vương quốc ca ngợi.' - 'anh ấy' thay thế cho 'hoàng tử dũng cảm'. Phép thế giúp đoạn văn tự nhiên hơn, tránh lặp từ nhàm chán. Khi dùng phép thế cần chú ý chọn đại từ đúng giới tính, số lượng và vai vế của đối tượng được thay thế.",
+      "storyContext": "Trong câu chuyện Yumi đang viết cho vương quốc, cô bé dùng phép thế để kể về hành trình của công chúa mà không cần nhắc đi nhắc lại tên nhân vật.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Phù thủy già sống trong rừng sâu. Bà ấy biết rất nhiều phép thuật.' - Từ 'bà ấy' thay thế cho từ ngữ nào?",
+          "options": [
+            "Rừng sâu",
+            "Phép thuật",
+            "Già",
+            "Phù thủy già"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Bà ấy' là đại từ thay thế cho cụm từ 'phù thủy già' ở câu trước - đây là phép thế bằng đại từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đại từ nào phù hợp để điền vào chỗ trống: 'Hai nàng tiên xinh đẹp bay xuống trần gian. _______ mang theo những hạt giống phép thuật.'?",
+          "options": [
+            "Nó",
+            "Họ",
+            "Anh ấy",
+            "Tôi"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Họ' là đại từ phù hợp thay thế cho 'hai nàng tiên' vì chỉ số nhiều, phù hợp với ngữ cảnh câu chuyện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sử dụng phép thế bằng đại từ?",
+          "options": [
+            "Con rồng vàng bay lên. Con rồng vàng phun lửa sáng rực.",
+            "Trời bỗng tối sầm. Đó là dấu hiệu phù thủy đang làm phép.",
+            "Công chúa buồn bã. Vì thế, hoàng tử đi tìm thuốc thần.",
+            "Lâu đài nguy nga hiện ra. Sau đó, cổng lâu đài mở ra."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu B dùng 'đó' thay cho toàn bộ sự kiện 'trời tối sầm' - đây là phép thế bằng đại từ chỉ định. Câu A dùng phép lặp, không phải phép thế."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn: 'Chiếc nhẫn thần kỳ rơi xuống hồ. Công chúa rất lo lắng khi mất nó.' - Từ 'nó' thay thế cho?",
+          "options": [
+            "Hồ nước",
+            "Công chúa",
+            "Sự lo lắng",
+            "Chiếc nhẫn thần kỳ"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sai - 'nó' thay thế cho 'chiếc nhẫn thần kỳ' (đáp án D). Đại từ 'nó' dùng để chỉ đồ vật đã được nhắc đến ở câu trước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép thế khác phép lặp ở điểm nào?",
+          "options": [
+            "Phép thế dùng từ đồng nghĩa, phép lặp dùng từ trái nghĩa",
+            "Phép thế dùng quan hệ từ, phép lặp dùng đại từ",
+            "Phép thế và phép lặp hoàn toàn giống nhau",
+            "Phép thế thay từ ngữ bằng đại từ khác, phép lặp dùng lại chính xác từ đó"
+          ],
+          "correctIndex": 3,
+          "explanation": "Điểm khác biệt cốt lõi: phép lặp dùng lại nguyên từ ngữ đã có, còn phép thế dùng đại từ hoặc từ ngữ khác để thay thế."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đại từ thay thế SAI (không phù hợp)?",
+          "options": [
+            "Công chúa Ngọc Hà xinh đẹp. Cô ấy có mái tóc đen dài.",
+            "Ba chú lùn sống trong rừng. Họ rất tốt bụng với Bạch Tuyết.",
+            "Con ngựa trắng chạy nhanh. Anh ấy vượt qua mọi chướng ngại vật.",
+            "Chiếc gương thần nói: 'Bạch Tuyết đẹp nhất.' Điều đó làm hoàng hậu tức giận."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu C dùng 'anh ấy' để chỉ con ngựa (vật) là không phù hợp; phải dùng 'nó'. Câu B dùng 'họ' chỉ ba chú lùn là đúng, không sai."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đại từ 'điều đó' trong câu 'Nàng tiên ban phép màu cho làng. Điều đó khiến mọi người vui mừng.' thay thế cho?",
+          "options": [
+            "Nàng tiên",
+            "Mọi người",
+            "Làng",
+            "Việc nàng tiên ban phép màu cho làng"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sai - 'điều đó' thay thế cho toàn bộ sự kiện 'nàng tiên ban phép màu cho làng' (đáp án D), không phải chỉ một từ đơn lẻ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn đại từ phù hợp: 'Hoàng tử và công chúa kết hôn trong lễ hội rực rỡ. _______ sống hạnh phúc mãi mãi sau đó.'",
+          "options": [
+            "Anh ấy",
+            "Cô ấy",
+            "Đôi uyên ương",
+            "Họ"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sai - 'Họ' (đáp án D) là đại từ phù hợp nhất vì thay thế cho hai người ('hoàng tử và công chúa'). 'Đôi uyên ương' là cụm danh từ thay thế, không phải đại từ thuần túy."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong đoạn văn: 'Chiếc thảm bay kỳ diệu đưa công chúa qua bảy ngọn núi. Nó hạ cánh nhẹ nhàng trước cổng lâu đài.' - Từ 'nó' là phép lặp từ ngữ.",
+          "correct": false,
+          "explanation": "Sai. 'Nó' không phải phép lặp vì không lặp lại từ ngữ cũ. 'Nó' là đại từ thay thế cho 'chiếc thảm bay kỳ diệu' - đây là phép thế."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Dùng đại từ thích hợp điền vào chỗ trống: 'Công chúa Băng Tuyết có phép thuật điều khiển tuyết. _______ dùng phép thuật ấy để bảo vệ vương quốc.' (Điền đại từ thay thế cho 'Công chúa Băng Tuyết')",
+          "answer": "Cô ấy",
+          "explanation": "'Cô ấy' là đại từ phù hợp thay thế cho 'Công chúa Băng Tuyết' (nhân vật nữ), tạo phép thế liên kết hai câu."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x018",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 49,
+      "title": "Phép nối bằng quan hệ từ",
+      "learningObjective": "Học sinh nhận biết và sử dụng phép nối bằng quan hệ từ để liên kết các câu trong đoạn văn. Học sinh biết phân biệt các loại quan hệ từ (nhân quả, tương phản, bổ sung, thời gian) và dùng đúng ngữ cảnh.",
+      "shortExplanation": "Tìm những từ đứng đầu câu hoặc giữa câu như 'vì', 'nên', 'nhưng', 'và', 'tuy nhiên', 'do đó', 'vì vậy' - đó là các quan hệ từ dùng để nối câu.",
+      "content": "Phép nối là cách dùng quan hệ từ để liên kết các câu trong đoạn văn. Quan hệ từ chỉ nguyên nhân-kết quả: vì, do, bởi, nên, vì vậy, do đó, vì thế. Quan hệ từ chỉ tương phản: nhưng, tuy nhiên, mặc dù, dù vậy. Quan hệ từ chỉ bổ sung: và, hơn nữa, ngoài ra. Ví dụ: 'Công chúa luyện tập phép thuật mỗi ngày. Vì vậy, cô trở thành phù thủy giỏi nhất vương quốc.' - 'vì vậy' nối hai câu theo quan hệ nguyên nhân-kết quả. Chọn đúng quan hệ từ sẽ giúp đoạn văn rõ ý, mạch lạc.",
+      "storyContext": "Yumi sử dụng phép nối để kết nối các sự kiện trong câu chuyện cổ tích của mình, giúp người đọc hiểu mối liên hệ giữa các phép thuật xảy ra trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Quan hệ từ nào phù hợp điền vào chỗ trống: 'Phù thủy xấu xa tung phép thuật độc ác. _______, công chúa vẫn dũng cảm đối mặt.'?",
+          "options": [
+            "Tuy nhiên",
+            "Vì vậy",
+            "Do đó",
+            "Vì thế"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Tuy nhiên' là quan hệ từ chỉ sự tương phản, phù hợp nhất vì câu 2 thể hiện ý trái ngược (mặc dù bị tấn công nhưng công chúa vẫn dũng cảm)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Hoàng tử học phép thuật chăm chỉ. Vì vậy, anh đã giải được lời nguyền cổ đại.' - 'vì vậy' thể hiện quan hệ gì giữa hai câu?",
+          "options": [
+            "Quan hệ tương phản",
+            "Quan hệ bổ sung",
+            "Quan hệ nguyên nhân - kết quả",
+            "Quan hệ thời gian"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Vì vậy' chỉ quan hệ nguyên nhân-kết quả: vì chăm chỉ học phép thuật (nguyên nhân) nên mới giải được lời nguyền (kết quả)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sử dụng phép nối bằng quan hệ từ chỉ thời gian?",
+          "options": [
+            "Trời mưa to nên lễ hội bị hoãn.",
+            "Sau khi phép thuật được giải, vương quốc trở lại bình yên.",
+            "Công chúa buồn nhưng vẫn mỉm cười.",
+            "Phù thủy tốt bụng và nàng tiên cùng nhau giúp dân làng."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Sau khi' là quan hệ từ chỉ thời gian, nối hai sự kiện xảy ra theo trình tự thời gian trong câu chuyện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn quan hệ từ phù hợp: 'Cây phép thuật bị chặt ngã. _______, phép màu trong vương quốc biến mất hoàn toàn.'",
+          "options": [
+            "Tuy nhiên",
+            "Mặc dù",
+            "Hơn nữa",
+            "Do đó"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Do đó' chỉ quan hệ nguyên nhân-kết quả, phù hợp nhất: vì cây bị chặt (nguyên nhân) nên phép màu biến mất (kết quả)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng quan hệ từ SAI (không phù hợp với nghĩa)?",
+          "options": [
+            "Công chúa luyện phép thuật hàng ngày. Vì vậy, cô ngày càng giỏi hơn.",
+            "Trời bỗng nổi bão tố. Tuy nhiên, phù thủy vẫn bay được.",
+            "Hoàng tử dũng cảm. Vì vậy, anh rất nhút nhát trước kẻ thù.",
+            "Lâu đài đẹp lộng lẫy. Ngoài ra, vườn hoa cũng rất thơm ngát."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu C dùng 'vì vậy' nhưng nghĩa mâu thuẫn (dũng cảm mà lại nhút nhát). Đây là cách dùng quan hệ từ sai. Câu A, B, D đều dùng quan hệ từ đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Xác định phép nối trong đoạn: 'Công chúa đọc sách phép thuật cả đêm. Nhờ vậy, sáng hôm sau cô tìm ra cách phá lời nguyền.'",
+          "options": [
+            "Phép lặp từ 'đêm - sáng'",
+            "Phép nối bằng quan hệ từ 'nhờ vậy'",
+            "Phép thế bằng đại từ 'cô'",
+            "Cả B và C đều đúng"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn này có CẢ phép nối ('nhờ vậy' - quan hệ từ) VÀ phép thế ('cô' thay cho 'công chúa'). Vì vậy đáp án D (cả B và C) là đúng nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quan hệ từ nào thể hiện sự bổ sung thêm thông tin?",
+          "options": [
+            "Vì, do, bởi vì",
+            "Nhưng, tuy nhiên, mặc dù",
+            "Ngoài ra, hơn nữa, bên cạnh đó",
+            "Sau khi, trước khi, khi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sai - các từ chỉ bổ sung thêm thông tin là 'ngoài ra, hơn nữa, bên cạnh đó' (đáp án C). Đáp án B chỉ sự tương phản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền quan hệ từ phù hợp: 'Nàng tiên mệt mỏi sau hành trình dài. _______, nàng vẫn không bỏ cuộc.'",
+          "options": [
+            "Và",
+            "Mặc dù vậy",
+            "Do đó",
+            "Sau khi"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Mặc dù vậy' thể hiện sự tương phản: dù mệt (câu 1) nhưng không bỏ cuộc (câu 2), là quan hệ từ chỉ tương phản phù hợp nhất."
+        },
+        {
+          "type": "true_false",
+          "text": "Quan hệ từ 'và' có thể dùng để nối hai câu thể hiện quan hệ nguyên nhân - kết quả.",
+          "correct": false,
+          "explanation": "Sai. 'Và' là quan hệ từ chỉ sự bổ sung, không dùng để thể hiện quan hệ nguyên nhân-kết quả. Cần dùng 'vì vậy', 'do đó', 'nên'... cho quan hệ nhân quả."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền quan hệ từ phù hợp vào chỗ trống: 'Công chúa học thuộc tất cả bài thần chú. _______, nàng có thể gọi được rồng thần.' (Điền quan hệ từ chỉ kết quả)",
+          "answer": "Vì vậy",
+          "explanation": "'Vì vậy' (hoặc 'do đó', 'nhờ vậy') là quan hệ từ chỉ kết quả, phù hợp để nối câu 1 (nguyên nhân: học thuộc thần chú) với câu 2 (kết quả: gọi được rồng thần)."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x019",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 50,
+      "title": "Phân biệt ba phép liên kết câu",
+      "learningObjective": "Học sinh phân biệt được ba phép liên kết câu: phép lặp, phép thế và phép nối. Học sinh nhận diện chính xác từng loại phép liên kết trong các đoạn văn cụ thể.",
+      "shortExplanation": "Khi đọc đoạn văn, hỏi: 'Câu sau dùng lại từ cũ không?' (phép lặp), 'Có từ thay thế cho từ trước không?' (phép thế), 'Có quan hệ từ nối câu không?' (phép nối).",
+      "content": "Ba phép liên kết câu trong đoạn văn: (1) Phép lặp - dùng lại chính xác từ ngữ đã có ở câu trước. (2) Phép thế - dùng đại từ như anh ấy, cô ấy, nó, họ, đó, này... thay cho từ ngữ ở câu trước. (3) Phép nối - dùng quan hệ từ như vì, nên, nhưng, và, do đó, tuy nhiên... để nối câu. Ví dụ so sánh: 'Cây gậy phép sáng lên. - Cây gậy phép (lặp) / Nó (thế) / Và nó (nối+thế) đã ban phép màu cho công chúa.' Một đoạn văn hay thường kết hợp cả ba phép liên kết.",
+      "storyContext": "Yumi học cách dùng kết hợp ba phép liên kết để những câu chuyện cổ tích của mình trong vương quốc trở nên liền mạch và hấp dẫn hơn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Xác định phép liên kết trong câu: 'Hòn đá phép thuật phát sáng. Hòn đá phép thuật đã tồn tại hàng ngàn năm.'",
+          "options": [
+            "Phép nối bằng quan hệ từ",
+            "Phép lặp từ ngữ",
+            "Phép thế bằng đại từ",
+            "Phép liên tưởng"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cụm từ 'hòn đá phép thuật' được lặp lại nguyên vẹn từ câu 1 sang câu 2 - đây là phép lặp từ ngữ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Đôi cánh tiên tỏa sáng rực rỡ. Chúng đưa nàng bay qua những đám mây.' sử dụng phép liên kết nào?",
+          "options": [
+            "Phép lặp từ ngữ",
+            "Phép nối bằng quan hệ từ",
+            "Phép thế bằng đại từ",
+            "Không có phép liên kết"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sai - 'chúng' là đại từ thay thế cho 'đôi cánh tiên' - đây là phép thế bằng đại từ (đáp án C)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn: 'Trời đổ mưa to. Tuy nhiên, buổi lễ phép thuật vẫn diễn ra đúng giờ.' - phép liên kết được sử dụng là?",
+          "options": [
+            "Phép lặp từ 'trời'",
+            "Phép thế từ 'buổi lễ'",
+            "Phép nối bằng quan hệ từ 'tuy nhiên'",
+            "Phép lặp từ 'mưa'"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Tuy nhiên' là quan hệ từ chỉ sự tương phản, đứng đầu câu 2 để nối với câu 1 - đây là phép nối bằng quan hệ từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn: 'Công chúa Sao Mai luyện tập phép thuật (A). Cô ấy không bao giờ bỏ lỡ buổi tập (B). Vì vậy, nàng trở thành chiến binh phép thuật mạnh nhất (C).' - Xác định phép liên kết từ câu A sang câu B:",
+          "options": [
+            "Phép nối bằng 'vì vậy'",
+            "Phép lặp từ 'phép thuật'",
+            "Phép thế bằng 'cô ấy'",
+            "Phép nối bằng 'không bao giờ'"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sai - từ câu A sang câu B, 'cô ấy' thay thế cho 'Công chúa Sao Mai' - đây là phép thế (đáp án C). 'Vì vậy' nối từ câu B sang câu C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn: 'Chiếc gương thần có thể thấy mọi việc trong vương quốc. Điều này giúp nữ hoàng trị vì công bằng.' - 'Điều này' là phép liên kết gì?",
+          "options": [
+            "Phép lặp từ 'gương thần'",
+            "Phép thế bằng đại từ chỉ định",
+            "Phép nối bằng quan hệ từ",
+            "Phép thế bằng đại từ nhân xưng"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Điều này' là đại từ chỉ định thay thế cho toàn bộ ý câu 1 ('chiếc gương thần có thể thấy mọi việc') - đây là phép thế bằng đại từ chỉ định."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào trong đoạn văn SAU không dùng phép liên kết: 'Rồng thần xuất hiện trên bầu trời. (1) Rồng thần phun ra lửa xanh. (2) Ngọn lửa xanh ấy thiêu rụi lâu đài của kẻ thù. (3) Tất cả dân làng vui mừng. (4)'",
+          "options": [
+            "Câu 2 (không liên kết với câu 1)",
+            "Câu 3 (không liên kết với câu 2)",
+            "Câu 4 (không liên kết với câu 3)",
+            "Câu 1 (không liên kết với câu nào)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu 4 'Tất cả dân làng vui mừng' không dùng phép lặp, thế hay nối rõ ràng để liên kết với câu 3 - cần thêm 'vì vậy' hoặc từ liên kết khác."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn hay thường dùng bao nhiêu loại phép liên kết?",
+          "options": [
+            "Chỉ dùng một loại để nhất quán",
+            "Chỉ dùng phép nối vì rõ ràng nhất",
+            "Chỉ dùng phép thế để tránh lặp từ",
+            "Kết hợp cả ba loại tùy theo ngữ cảnh"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sai - đoạn văn hay kết hợp linh hoạt cả ba phép liên kết (đáp án D): dùng phép lặp để nhấn mạnh, phép thế để tránh lặp nhàm, phép nối để thể hiện quan hệ ý nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân tích đoạn: 'Phép thuật tình bạn là phép mạnh nhất. Phép thuật đó đã cứu cả vương quốc.' - Câu 2 dùng phép liên kết nào?",
+          "options": [
+            "Phép nối bằng 'đó'",
+            "Phép lặp + phép thế (lặp 'phép thuật', thế 'tình bạn' bằng 'đó')",
+            "Chỉ phép lặp từ 'phép thuật'",
+            "Chỉ phép thế từ 'đó' thay cả cụm"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu 2 vừa lặp 'phép thuật' vừa dùng 'đó' thay thế cho 'tình bạn', nên kết hợp phép lặp và phép thế (đáp án B). Tuy nhiên đây là câu hỏi nâng cao."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong ba phép liên kết, chỉ phép nối mới dùng các từ thuộc về loại quan hệ từ (như vì, nhưng, và, do đó).",
+          "correct": true,
+          "explanation": "Đúng. Quan hệ từ (vì, nên, nhưng, và, do đó, tuy nhiên...) chỉ dùng trong phép nối. Phép lặp dùng chính từ ngữ đó, phép thế dùng đại từ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Xác định phép liên kết được dùng trong đoạn sau: 'Bình nước thần kỳ có thể chữa mọi bệnh. Bình nước thần kỳ là báu vật quý nhất trong cung điện.' - Đây là phép _______.",
+          "answer": "lặp",
+          "explanation": "Cụm từ 'bình nước thần kỳ' được lặp lại nguyên vẹn từ câu 1 sang câu 2, đây là phép lặp từ ngữ."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x020",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 51,
+      "title": "Vận dụng phép liên kết để viết đoạn văn",
+      "learningObjective": "Học sinh vận dụng thành thạo ba phép liên kết câu (lặp, thế, nối) khi viết và chỉnh sửa đoạn văn. Học sinh nhận ra và sửa lỗi thiếu phép liên kết trong đoạn văn.",
+      "shortExplanation": "Khi viết đoạn văn, hãy kiểm tra: câu sau có liên kết với câu trước chưa? Dùng phép lặp để nhấn mạnh, phép thế để tránh lặp nhàm, phép nối để thể hiện quan hệ ý nghĩa.",
+      "content": "Khi viết đoạn văn, cần sử dụng linh hoạt ba phép liên kết để bài văn mạch lạc và sinh động. Phép lặp dùng khi muốn nhấn mạnh một chi tiết quan trọng. Phép thế dùng sau khi đã giới thiệu nhân vật/sự vật, tránh lặp lại tên liên tục. Phép nối dùng để thể hiện rõ quan hệ giữa các sự kiện. Ví dụ đoạn văn hay: 'Nàng tiên Ánh Sao luyện phép thuật mỗi ngày. Cô ấy không bao giờ từ bỏ. Nhờ vậy, ánh sao của nàng ngày càng sáng rực rỡ hơn.' - đoạn này dùng đủ cả ba phép liên kết.",
+      "storyContext": "Yumi đang hoàn thiện chương cuối câu chuyện cổ tích cho vương quốc - cô bé áp dụng tất cả những gì học được về phép liên kết để câu chuyện trở nên hoàn hảo nhất.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn nào sau đây sử dụng phép liên kết TỐT NHẤT?",
+          "options": [
+            "Công chúa đẹp. Hoàng tử đến. Phép thuật xảy ra. Mọi người vui.",
+            "Công chúa đẹp và hoàng tử đến và phép thuật xảy ra và mọi người vui.",
+            "Công chúa Ngọc Bích xinh đẹp tuyệt trần. Cô ấy được hoàng tử dũng cảm yêu mến. Nhờ tình yêu ấy, phép thuật tối tăm tan biến và mọi người sống hạnh phúc.",
+            "Công chúa Ngọc Bích xinh đẹp tuyệt trần. Công chúa Ngọc Bích được hoàng tử yêu. Công chúa Ngọc Bích sống hạnh phúc."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn C kết hợp cả ba phép liên kết: phép thế ('cô ấy'), phép thế chỉ định ('tình yêu ấy'), và phép nối ('nhờ'). Đoạn A thiếu liên kết, B lạm dụng 'và', D lặp nhàm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn sau mắc lỗi gì: 'Chiếc đũa phép sáng lên. Chiếc đũa phép rung lên. Chiếc đũa phép bay vút lên trời. Chiếc đũa phép biến mất.'?",
+          "options": [
+            "Lạm dụng phép lặp, đoạn văn bị nhàm chán",
+            "Thiếu phép lặp, các câu không liên kết",
+            "Dùng quá nhiều phép nối",
+            "Thiếu phép thế và phép nối"
+          ],
+          "correctIndex": 0,
+          "explanation": "Đoạn văn lặp 'chiếc đũa phép' ở tất cả 4 câu gây nhàm chán. Nên xen kẽ phép thế ('nó', 'chiếc đũa ấy') và phép nối ('rồi', 'sau đó') để làm đoạn văn sinh động hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sửa đoạn văn: 'Nữ phù thủy tốt bụng giúp đỡ dân làng. Nữ phù thủy tốt bụng được mọi người yêu mến. Nữ phù thủy tốt bụng sống hạnh phúc.' - Chỉnh sửa nào là TỐT NHẤT?",
+          "options": [
+            "Xóa hết đoạn và viết lại",
+            "Thay câu 2 bằng: 'Vì vậy, bà được mọi người yêu mến.'",
+            "Thêm dấu phẩy giữa các câu",
+            "Đổi câu 3 thành: 'Nữ phù thủy tốt bụng sống rất là hạnh phúc.'"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sai - sửa tốt nhất là thay câu 2 bằng 'Vì vậy, bà được mọi người yêu mến.' (đáp án B): dùng phép thế ('bà' thay 'nữ phù thủy') và phép nối ('vì vậy') để tránh lặp và thể hiện quan hệ nhân quả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống để đoạn văn liên kết chặt chẽ: 'Hoàng tử tìm được chiếc chìa khóa thần kỳ. _______ mở được cánh cửa bí ẩn của lâu đài.'",
+          "options": [
+            "Hoàng tử dùng chìa khóa thần kỳ đó và",
+            "Chiếc chìa khóa thần kỳ ấy",
+            "Cánh cửa bí ẩn bị",
+            "Sau khi đó lâu đài"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Chiếc chìa khóa thần kỳ ấy' kết hợp phép lặp ('chìa khóa thần kỳ') và phép thế chỉ định ('ấy'), tạo liên kết tự nhiên và không bị lặp nhàm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn: 'Công chúa mất chiếc vòng phép thuật. Cô ấy tìm kiếm khắp nơi. Tuy nhiên, chiếc vòng đã bị phù thủy đánh cắp.' - Đoạn này dùng những phép liên kết nào?",
+          "options": [
+            "Chỉ phép nối",
+            "Chỉ phép thế",
+            "Phép thế và phép nối",
+            "Phép lặp và phép nối"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn dùng: phép thế ('cô ấy' thay 'công chúa') từ câu 1 sang câu 2; phép lặp ('chiếc vòng') và phép nối ('tuy nhiên') từ câu 2 sang câu 3. Vì vậy có cả ba phép, nhưng đáp án C đúng nhất trong các lựa chọn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi viết câu chuyện, nên dùng phép thế sau khi nào?",
+          "options": [
+            "Sau khi đã giới thiệu nhân vật/sự vật ở câu trước",
+            "Chỉ dùng ở câu đầu tiên của đoạn văn",
+            "Khi muốn nhấn mạnh đặc điểm của nhân vật",
+            "Khi không biết tiếp tục viết gì"
+          ],
+          "correctIndex": 0,
+          "explanation": "Phép thế được dùng sau khi đã giới thiệu nhân vật/sự vật, để tránh lặp lại tên liên tục. Ví dụ: giới thiệu 'Công chúa Băng' trước, rồi dùng 'cô ấy' ở câu sau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn đoạn văn có lỗi liên kết câu:",
+          "options": [
+            "Bông hoa thần kỳ nở rộ. Nó tỏa hương thơm ngát khắp vương quốc.",
+            "Hoàng tử học phép thuật. Vì vậy, anh giải được lời nguyền.",
+            "Phép màu giúp dân làng. Phép màu chữa bệnh. Phép màu mang lại hạnh phúc.",
+            "Nàng tiên mệt nhoài sau trận chiến. Dù vậy, cô vẫn không bỏ cuộc bảo vệ vương quốc."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đoạn C lặp 'phép màu' ba lần liên tiếp mà không xen kẽ phép thế hay phép nối, gây nhàm chán và thiếu đa dạng trong liên kết câu. Đây là đoạn có lỗi liên kết."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để viết đoạn văn mạch lạc về hành trình của một nhân vật, nên dùng phép nối nào để thể hiện trình tự sự kiện?",
+          "options": [
+            "Vì vậy, do đó, nhờ vậy (chỉ kết quả)",
+            "Nhưng, tuy nhiên (chỉ tương phản)",
+            "Trước tiên, tiếp theo, sau đó, cuối cùng (chỉ trình tự)",
+            "Và, ngoài ra, hơn nữa (chỉ bổ sung)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sai - để thể hiện trình tự sự kiện theo thời gian, dùng các quan hệ từ chỉ thứ tự: 'trước tiên, tiếp theo, sau đó, cuối cùng' (đáp án C)."
+        },
+        {
+          "type": "true_false",
+          "text": "Một đoạn văn kể chuyện hay chỉ cần dùng phép thế (đại từ thay thế) là đủ, không cần phép lặp hay phép nối.",
+          "correct": false,
+          "explanation": "Sai. Đoạn văn hay cần kết hợp cả ba phép liên kết: phép lặp để nhấn mạnh, phép thế để tránh lặp nhàm, và phép nối để thể hiện quan hệ ý nghĩa giữa các câu."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành đoạn văn bằng cách điền vào hai chỗ trống: 'Công chúa Ngọc Ánh tìm thấy cuốn sách phép thuật cổ đại. _______ đọc hết cuốn sách trong một đêm. _______, nàng học được tất cả phép thuật trong đó.' (Chỗ 1: đại từ thay thế. Chỗ 2: quan hệ từ chỉ kết quả)",
+          "answer": "Cô ấy / Nhờ vậy",
+          "explanation": "Chỗ 1 dùng 'Cô ấy' (phép thế, thay cho 'Công chúa Ngọc Ánh'). Chỗ 2 dùng 'Nhờ vậy' (phép nối, quan hệ từ chỉ kết quả tích cực)."
+        }
+      ]
+    }
+  ]
+}

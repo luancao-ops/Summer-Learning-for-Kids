@@ -1083,4 +1083,51 @@ Fixed by extracting pure helpers to `lib/avatar.ts`. See `docs/INCIDENTS.md` 202
 - [x] Avatar changes automatically as XP crosses level thresholds
 - [x] Robot and Princess designs are visually distinct at each tier
 - [x] `lib/avatar.ts` has no `"use client"` — safe to call from Server Components
+
+---
+
+## Epic 21 — Parent Dashboard Security (Bảo mật bảng phụ huynh)
+
+### EPIC-21.1 — Parent PIN access code
+
+**P0** `TICKET-053` **Mã vào bảng phụ huynh** ✅ Done (Sprint 7)
+
+Protect all `/parent/*` routes with a PIN code so children cannot accidentally access the parent dashboard.
+
+**UX flow:**
+1. No PIN configured → all parent pages open (backward compatible)
+2. Parent visits `/parent/settings` → sets a PIN (4–24 characters)
+3. Cookie `sq_parent_access` set on success (valid 8 hours)
+4. Any visit to `/parent`, `/parent/chores`, `/parent/review`, `/parent/settings` without the cookie → redirect to `/parent/unlock`
+5. `/parent/unlock` — PIN entry form; correct PIN sets cookie + redirects to `/parent`
+6. Parent can change or remove PIN at `/parent/settings`
+
+**Files created:**
+- `lib/parent-access.ts` — pure server helpers: `hashParentPin`, `parentAccessToken`, `getParentPinHash`, `hasParentAccess`, `requireParentAccess`
+- `components/ParentUnlockForm.tsx` — client form component for PIN entry
+- `components/ParentPinSetup.tsx` — client form component for set/change/remove PIN in settings
+- `app/parent/unlock/page.tsx` — PIN entry page
+- `app/api/parent/unlock/route.ts` — POST: validate PIN, set cookie
+- `app/api/parent/set-pin/route.ts` — POST: set/change PIN; DELETE: remove PIN
+
+**Files modified:**
+- `prisma/schema.prisma` — added `SiteConfig` model (key-value store)
+- `prisma/migrations/20260607120000_add_site_config/migration.sql` — CREATE TABLE SiteConfig
+- `app/parent/page.tsx` — `await requireParentAccess()` guard
+- `app/parent/chores/page.tsx` — same guard
+- `app/parent/review/page.tsx` — same guard
+- `app/parent/settings/page.tsx` — same guard + `ParentPinSetup` section added
+
+**Notes:**
+- `SiteConfig` operations use `prisma.$queryRaw` / `$executeRaw` (raw SQL) to avoid needing `prisma generate` while the production server holds the binary locked. Works correctly — migration created the table.
+- distDir bumped to `.next-build6` (`.next-build5` was locked by a failed build)
+
+**Acceptance criteria:** ✅ All met
+- [x] `/parent` redirects to `/parent/unlock` when PIN is set and cookie is absent
+- [x] Correct PIN sets cookie and redirects to dashboard
+- [x] Wrong PIN shows error message
+- [x] No PIN configured → dashboard is accessible (backward compatible)
+- [x] Settings page shows PIN status (set/unset) + set/change/remove UI
+- [x] All 4 parent pages are protected
+- [x] Build passes zero TypeScript errors
 - [x] `npm run build` zero errors

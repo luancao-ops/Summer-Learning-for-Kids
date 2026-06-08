@@ -14,7 +14,7 @@
 | Database | SQLite | local file `prisma/dev.db` |
 | Testing | Vitest | ^4 |
 
-**Important config:** `distDir: ".next-build5"` in `next.config.ts` — `.next` through `.next-build4` all have NTFS permission issues (locked by running server at time of build). Do NOT change back to any of those.
+**Important config:** `distDir: ".next-build6"` in `next.config.ts` — `.next` through `.next-build5` all have NTFS permission issues (locked by running server at time of build). Do NOT change back to any of those.
 
 **Launcher:** `Start Summer Quest.cmd` uses `next start` (production mode). See `docs/INCIDENTS.md` for why dev mode cannot be used on LAN devices.
 
@@ -95,6 +95,7 @@ summer-quest/
 | `ChoreAssignment` | Daily chore assigned to a student |
 | `ChoreCompletion` | Student's self-report on a completed chore |
 | `ReadingEntry` | Daily reading journal entry |
+| `SiteConfig` | Key-value app settings (e.g. `parentPinHash`) |
 
 **Key schema facts:**
 - `Lesson.approved` defaults to **`true`** (seed data is pre-approved). AI-imported content must explicitly set `approved: false`.

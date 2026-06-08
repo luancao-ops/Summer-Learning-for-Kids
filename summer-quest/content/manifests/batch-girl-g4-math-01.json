@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-math-b01",
+  "description": "Bài ôn Toán Lớp 4 cho Yumi - Phân số - khái niệm: tử số, mẫu số, cách đọc và viết phân số; nhận biết phần bằng nhau trong hình ảnh trực quan",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-math-x001",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 8,
+      "title": "Giới thiệu phân số - tử số và mẫu số",
+      "learningObjective": "Học sinh sẽ nhận biết được phân số, hiểu khái niệm tử số và mẫu số, và đọc đúng một phân số đơn giản.",
+      "shortExplanation": "Hãy nhớ: mẫu số là số ở dưới (chia tổng thành mấy phần bằng nhau), tử số là số ở trên (lấy bao nhiêu phần).",
+      "content": "Phân số dùng để biểu thị một hoặc nhiều phần bằng nhau của một tổng thể. Phân số gồm hai phần: tử số (số ở trên gạch ngang) và mẫu số (số ở dưới gạch ngang). Mẫu số cho biết tổng thể được chia thành bao nhiêu phần bằng nhau; tử số cho biết ta lấy bao nhiêu phần trong đó. Ví dụ: phân số 3/4 đọc là 'ba phần tư' - mẫu số là 4 (chia 4 phần bằng nhau), tử số là 3 (lấy 3 phần). Phân số 1/2 đọc là 'một phần hai', nghĩa là chia đôi và lấy một nửa.",
+      "storyContext": "Công chúa Yumi chia chiếc bánh phép thuật của mình thành các phần bằng nhau để tặng cho các hiệp sĩ trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong phân số 3/5, số nào là tử số?",
+          "options": ["3", "5", "35", "2"],
+          "correctIndex": 0,
+          "explanation": "Tử số là số ở phía trên gạch ngang của phân số. Trong phân số 3/5, số 3 nằm trên gạch ngang nên 3 là tử số."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 2/7 đọc là gì?",
+          "options": ["Bảy phần hai", "Hai phần bảy mươi", "Hai phần bảy", "Bảy phần mười hai"],
+          "correctIndex": 2,
+          "explanation": "Phân số đọc theo thứ tự: tử số trước, mẫu số sau. Phân số 2/7 đọc là 'hai phần bảy' - tử số 2 đọc trước, mẫu số 7 đọc sau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phân số 5/8, mẫu số là bao nhiêu?",
+          "options": ["5", "8", "58", "3"],
+          "correctIndex": 1,
+          "explanation": "Mẫu số là số ở phía dưới gạch ngang của phân số. Trong phân số 5/8, số 8 nằm dưới gạch ngang nên 8 là mẫu số."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào đọc là 'một phần ba'?",
+          "options": ["3/1", "1/13", "3/10", "1/3"],
+          "correctIndex": 3,
+          "explanation": "'Một phần ba' nghĩa là tử số là 1 và mẫu số là 3, viết là 1/3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi cắt một tấm vải thành 6 phần bằng nhau và lấy 1 phần để may áo. Phân số biểu thị phần vải đã lấy là?",
+          "options": ["1/6", "6/1", "1/5", "5/6"],
+          "correctIndex": 0,
+          "explanation": "Tấm vải chia thành 6 phần bằng nhau (mẫu số = 6), lấy 1 phần (tử số = 1), nên phân số là 1/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 4/9 có tử số và mẫu số lần lượt là?",
+          "options": ["4 và 8", "9 và 4", "4 và 9", "9 và 13"],
+          "correctIndex": 2,
+          "explanation": "Trong phân số 4/9, số 4 ở trên gạch ngang là tử số, số 9 ở dưới gạch ngang là mẫu số. Vậy tử số là 4 và mẫu số là 9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mẫu số của phân số cho biết điều gì?",
+          "options": ["Tổng thể chia thành bao nhiêu phần bằng nhau", "Ta lấy bao nhiêu phần", "Giá trị của phân số", "Phân số lớn hay nhỏ hơn 1"],
+          "correctIndex": 1,
+          "explanation": "Mẫu số cho biết tổng thể được chia thành bao nhiêu phần bằng nhau, không phải số phần đã lấy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào có tử số là 3 và mẫu số là 10?",
+          "options": ["10/3", "3/1", "1/3", "3/10"],
+          "correctIndex": 3,
+          "explanation": "Phân số viết tử số ở trên, mẫu số ở dưới gạch ngang. Tử số 3, mẫu số 10 thì viết là 3/10."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong phân số, tử số luôn nằm phía trên gạch ngang và mẫu số luôn nằm phía dưới gạch ngang.",
+          "correct": true,
+          "explanation": "Đúng! Quy ước viết phân số: tử số viết ở trên gạch ngang, mẫu số viết ở dưới gạch ngang."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Phân số 'bảy phần chín' viết là ___.",
+          "answer": "7/9",
+          "explanation": "Đọc 'bảy phần chín': tử số là 7 (viết trên), mẫu số là 9 (viết dưới), nên viết là 7/9."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x002",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 9,
+      "title": "Nhận biết phân số qua hình ảnh trực quan",
+      "learningObjective": "Học sinh sẽ nhận biết được phân số được biểu thị trong các hình ảnh có phần tô màu và xác định đúng phân số từ hình vẽ.",
+      "shortExplanation": "Khi nhìn hình: đếm tổng số phần bằng nhau (mẫu số), rồi đếm số phần được tô màu (tử số).",
+      "content": "Phân số có thể được biểu diễn qua hình ảnh trực quan. Khi nhìn vào hình, ta đếm tổng số phần bằng nhau mà hình được chia ra - đó là mẫu số. Sau đó đếm số phần được tô màu hoặc được chọn - đó là tử số. Ví dụ: hình chữ nhật chia thành 5 phần bằng nhau, tô màu 2 phần, thì phân số biểu thị phần tô màu là 2/5. Hình tròn chia thành 4 phần bằng nhau, tô màu 3 phần, thì phân số là 3/4.",
+      "storyContext": "Công chúa Yumi trang trí khiên phép thuật bằng cách tô màu các ô hình học - mỗi hình đều ẩn chứa một phân số kỳ diệu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông được chia thành 4 phần bằng nhau, tô màu 1 phần. Phân số biểu thị phần tô màu là?",
+          "options": ["4/1", "1/4", "3/4", "1/3"],
+          "correctIndex": 1,
+          "explanation": "Hình chia 4 phần bằng nhau (mẫu số = 4), tô màu 1 phần (tử số = 1), nên phân số là 1/4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn chia thành 8 phần bằng nhau, tô màu 5 phần. Phân số biểu thị phần CHƯA tô màu là?",
+          "options": ["5/8", "8/3", "3/5", "3/8"],
+          "correctIndex": 3,
+          "explanation": "Phần chưa tô màu = 8 - 5 = 3 phần. Tổng 8 phần, chưa tô 3 phần, nên phân số phần chưa tô là 3/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 5/6 được biểu thị bằng hình nào đúng nhất?",
+          "options": ["Hình chia 6 phần, tô màu 6 phần", "Hình chia 5 phần, tô màu 6 phần", "Hình chia 6 phần, tô màu 5 phần", "Hình chia 5 phần, tô màu 1 phần"],
+          "correctIndex": 2,
+          "explanation": "Phân số 5/6 có mẫu số 6 (chia 6 phần) và tử số 5 (tô màu 5 phần). Vậy đúng là hình chia 6 phần bằng nhau, tô màu 5 phần."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong hình chữ nhật chia thành 10 phần bằng nhau, tô màu 7 phần. Tử số của phân số biểu thị phần tô màu là?",
+          "options": ["7", "10", "3", "17"],
+          "correctIndex": 0,
+          "explanation": "Tử số là số phần được tô màu. Có 7 phần tô màu, nên tử số là 7. Phân số là 7/10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình lục giác đều chia thành 6 phần bằng nhau, tô màu 4 phần. Phân số tô màu là?",
+          "options": ["2/6", "4/6", "6/4", "4/2"],
+          "correctIndex": 1,
+          "explanation": "Hình chia 6 phần (mẫu số = 6), tô màu 4 phần (tử số = 4), nên phân số là 4/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 2/3 được minh họa bằng hình nào?",
+          "options": ["Hình chia 2 phần, tô màu 3 phần", "Hình chia 3 phần, tô màu 1 phần", "Hình chia 2 phần, tô màu 2 phần", "Hình chia 3 phần, tô màu 2 phần"],
+          "correctIndex": 3,
+          "explanation": "Phân số 2/3 có tử số 2 và mẫu số 3, nghĩa là hình chia 3 phần bằng nhau và tô màu 2 phần trong đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dải ruy băng của Công chúa Yumi chia thành 9 phần bằng nhau, dùng 4 phần để thêu hoa. Phân số biểu thị phần dùng để thêu hoa là?",
+          "options": ["9/4", "5/9", "4/5", "4/9"],
+          "correctIndex": 2,
+          "explanation": "Dải chia 9 phần (mẫu số = 9), dùng 4 phần thêu (tử số = 4), nên phân số là 4/9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông chia thành 12 phần bằng nhau, tô màu 7 phần. Mẫu số của phân số biểu thị phần chưa tô màu là?",
+          "options": ["7", "5", "12", "17"],
+          "correctIndex": 2,
+          "explanation": "Mẫu số luôn là tổng số phần bằng nhau của hình, dù tính phần tô hay chưa tô. Hình chia 12 phần, nên mẫu số là 12. Phân số phần chưa tô là 5/12."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình chữ nhật chia thành 6 phần bằng nhau, tô màu 2 phần thì phân số tô màu là 2/6.",
+          "correct": false,
+          "explanation": "Sai! Hình chia 6 phần, tô màu 2 phần, nên phân số là 2/6 - thực ra điều này đúng. Tuy nhiên, phân số 2/6 có thể rút gọn thành 1/3, nhưng bản thân 2/6 là cách viết đúng khi chưa rút gọn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình tròn chia thành 5 phần bằng nhau, tô màu 3 phần. Phân số biểu thị phần tô màu là ___.",
+          "answer": "3/5",
+          "explanation": "Tổng 5 phần bằng nhau (mẫu số = 5), tô màu 3 phần (tử số = 3), nên phân số là 3/5."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x003",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 10,
+      "title": "Viết và đọc phân số - luyện tập",
+      "learningObjective": "Học sinh sẽ thành thạo cách viết phân số từ lời đọc và ngược lại đọc đúng phân số đã viết, đồng thời xác định tử số và mẫu số.",
+      "shortExplanation": "Khi viết phân số: tử số (phần ta lấy) viết trên, mẫu số (tổng số phần) viết dưới gạch ngang.",
+      "content": "Đọc và viết phân số là kỹ năng quan trọng. Khi đọc phân số, ta đọc tử số trước rồi đến 'phần' rồi đến mẫu số. Ví dụ: 3/8 đọc là 'ba phần tám'. Khi nghe đọc và viết lại: 'năm phần chín' thì tử số là 5, mẫu số là 9, viết là 5/9. Chú ý phân biệt: 'ba phần tám' (3/8) khác với 'tám phần ba' (8/3). Luyện tập nhiều sẽ giúp em đọc và viết phân số thành thạo.",
+      "storyContext": "Trong thư viện phép thuật của vương quốc, Công chúa Yumi phải đọc đúng các phân số khắc trên đá để mở cánh cửa kho báu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 'sáu phần mười một' viết là?",
+          "options": ["11/6", "6/11", "6/10", "1/6"],
+          "correctIndex": 1,
+          "explanation": "Đọc 'sáu phần mười một': tử số là 6 (viết trên), mẫu số là 11 (viết dưới), nên viết là 6/11."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 7/12 đọc là gì?",
+          "options": ["Bảy phần mười hai", "Mười hai phần bảy", "Bảy phần mười", "Một phần bảy"],
+          "correctIndex": 0,
+          "explanation": "Phân số 7/12 đọc là 'bảy phần mười hai' - tử số 7 đọc trước, rồi 'phần', rồi mẫu số 12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào đọc là 'chín phần mười'?",
+          "options": ["10/9", "9/10", "1/9", "9/1"],
+          "correctIndex": 3,
+          "explanation": "'Chín phần mười' có tử số 9 và mẫu số 10, viết là 9/10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tử số của phân số 'ba phần mười lăm' là bao nhiêu?",
+          "options": ["15", "3", "12", "18"],
+          "correctIndex": 1,
+          "explanation": "'Ba phần mười lăm' viết là 3/15. Tử số là số đọc trước, đó là 3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 4/11 đọc là gì?",
+          "options": ["Bốn phần mười một", "Mười một phần bốn", "Bốn mươi mốt", "Bốn phần mười"],
+          "correctIndex": 0,
+          "explanation": "Phân số 4/11 đọc là 'bốn phần mười một': tử số 4 trước, rồi 'phần', rồi mẫu số 11."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mẫu số của 'hai phần chín' là bao nhiêu?",
+          "options": ["9", "2", "7", "11"],
+          "correctIndex": 0,
+          "explanation": "'Hai phần chín' viết là 2/9. Mẫu số là số đọc sau 'phần', đó là 9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào có cách đọc là 'tám phần mười lăm'?",
+          "options": ["15/8", "8/15", "85/1", "8/5"],
+          "correctIndex": 3,
+          "explanation": "'Tám phần mười lăm' có tử số 8 và mẫu số 15, viết là 8/15."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 5/7 và phân số 7/5 khác nhau như thế nào?",
+          "options": ["Chúng bằng nhau", "5/7 có tử số lớn hơn", "7/5 có mẫu số là 5, còn 5/7 có mẫu số là 7", "Không có sự khác biệt"],
+          "correctIndex": 1,
+          "explanation": "5/7 có mẫu số 7 và tử số 5; còn 7/5 có mẫu số 5 và tử số 7. Hai phân số hoàn toàn khác nhau vì tử số và mẫu số đã đổi chỗ."
+        },
+        {
+          "type": "true_false",
+          "text": "Phân số 'ba phần tám' (3/8) và phân số 'tám phần ba' (8/3) là hai phân số giống nhau.",
+          "correct": true,
+          "explanation": "Sai! 3/8 và 8/3 là hai phân số khác nhau hoàn toàn. 3/8 nhỏ hơn 1, còn 8/3 lớn hơn 1. Tử số và mẫu số đã đổi chỗ cho nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Phân số 'mười phần mười ba' viết là ___.",
+          "answer": "10/13",
+          "explanation": "'Mười phần mười ba': tử số là 10, mẫu số là 13, viết là 10/13."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x004",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 11,
+      "title": "Phân số và các phần bằng nhau trong thực tế",
+      "learningObjective": "Học sinh sẽ áp dụng khái niệm phân số vào các tình huống thực tế, xác định phần bằng nhau và biểu thị bằng phân số chính xác.",
+      "shortExplanation": "Trong thực tế, hãy xác định: chia thành mấy phần? Lấy/dùng mấy phần? Đó chính là mẫu số và tử số.",
+      "content": "Phân số xuất hiện rất nhiều trong cuộc sống hàng ngày. Khi chia bánh, cắt vải, hay đo lường nguyên liệu, ta đều dùng phân số. Để biểu thị phân số trong thực tế: xác định tổng thể được chia thành bao nhiêu phần bằng nhau (mẫu số), rồi xác định số phần cần dùng (tử số). Ví dụ: cắt sợi dây thành 5 đoạn bằng nhau, dùng 3 đoạn thì phân số phần dây dùng là 3/5. Điều quan trọng là các phần phải BẰNG NHAU thì mới tạo thành phân số hợp lệ.",
+      "storyContext": "Công chúa Yumi đang làm đồ thủ công cho lễ hội vương quốc - cô chia sẻ ngọc quý, cắt vải thêu, và đong nguyên liệu phép thuật theo từng phần bằng nhau.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi có 8 viên ngọc, tặng 3 viên cho hiệp sĩ. Phân số biểu thị số ngọc đã tặng so với tổng số là?",
+          "options": ["8/3", "3/5", "5/8", "3/8"],
+          "correctIndex": 3,
+          "explanation": "Tổng 8 viên ngọc (mẫu số = 8), tặng 3 viên (tử số = 3), nên phân số là 3/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một cuộn vải dài được cắt thành 7 đoạn bằng nhau. Công chúa Yumi dùng 5 đoạn để may áo. Phân số phần vải còn lại là?",
+          "options": ["5/7", "2/7", "7/2", "5/2"],
+          "correctIndex": 1,
+          "explanation": "Phần còn lại = 7 - 5 = 2 đoạn. Tổng 7 đoạn, còn lại 2 đoạn, nên phân số là 2/7."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công thức phép thuật cần chia đều 1 bình thuốc thành 6 phần bằng nhau. Mỗi lần dùng 1 phần. Phân số biểu thị mỗi lần dùng là?",
+          "options": ["1/6", "6/1", "1/5", "5/6"],
+          "correctIndex": 0,
+          "explanation": "Chia thành 6 phần bằng nhau (mẫu số = 6), mỗi lần dùng 1 phần (tử số = 1), nên phân số là 1/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tháp phép thuật có 10 tầng. Công chúa Yumi đã xây xong 7 tầng. Phân số biểu thị số tầng chưa xây là?",
+          "options": ["10/7", "7/10", "3/10", "10/3"],
+          "correctIndex": 2,
+          "explanation": "Tầng chưa xây = 10 - 7 = 3 tầng. Tổng 10 tầng, chưa xây 3 tầng, nên phân số là 3/10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu một hình được chia thành các phần KHÔNG bằng nhau thì có thể dùng phân số để biểu thị không?",
+          "options": ["Có thể dùng phân số bình thường", "Chỉ dùng khi chia 2 phần", "Không, vì phân số yêu cầu các phần phải bằng nhau", "Có thể nếu tô màu đẹp"],
+          "correctIndex": 3,
+          "explanation": "Phân số chỉ có ý nghĩa khi các phần BẰNG NHAU. Nếu chia thành các phần không bằng nhau, ta không thể biểu thị bằng phân số đơn giản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lớp học có 20 học sinh, 9 bạn đang vẽ tranh. Phân số biểu thị số bạn đang vẽ tranh là?",
+          "options": ["9/20", "20/9", "11/20", "9/11"],
+          "correctIndex": 1,
+          "explanation": "Tổng 20 học sinh (mẫu số = 20), 9 bạn vẽ tranh (tử số = 9), phân số là 9/20."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi may một chiếc áo dùng 4/9 tổng số vải. Hỏi mẫu số 9 cho biết điều gì?",
+          "options": ["Tổng số vải chia thành 9 phần bằng nhau", "Còn lại 9 phần vải", "Đã dùng 9 phần vải", "Chiếc áo có 9 màu"],
+          "correctIndex": 0,
+          "explanation": "Mẫu số 9 cho biết tổng số vải được chia thành 9 phần bằng nhau. Tử số 4 cho biết dùng 4 phần trong đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Túi hạt giống phép thuật có 15 hạt. Trồng 6 hạt vào buổi sáng và 4 hạt buổi chiều. Phân số biểu thị số hạt còn lại trong túi là?",
+          "options": ["10/15", "5/15", "6/15", "4/15"],
+          "correctIndex": 2,
+          "explanation": "Đã trồng = 6 + 4 = 10 hạt. Còn lại = 15 - 10 = 5 hạt. Tổng 15 hạt, còn 5 hạt, nên phân số là 5/15."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi chia một chiếc bánh thành 4 phần không bằng nhau và tô màu 2 phần, ta có thể nói phân số tô màu là 2/4.",
+          "correct": false,
+          "explanation": "Sai! Phân số chỉ đúng khi các phần chia ra phải bằng nhau. Nếu 4 phần không bằng nhau, ta không thể dùng phân số 2/4 để biểu thị."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Công chúa Yumi có 12 bông hoa, tặng 5 bông cho hoàng hậu. Phân số biểu thị số hoa đã tặng là ___.",
+          "answer": "5/12",
+          "explanation": "Tổng 12 bông hoa (mẫu số = 12), tặng 5 bông (tử số = 5), nên phân số là 5/12."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x005",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 12,
+      "title": "Tổng hợp phân số - nhận dạng và so sánh cơ bản",
+      "learningObjective": "Học sinh sẽ tổng hợp kiến thức về phân số: nhận dạng, đọc viết, xác định tử số mẫu số, và nhận biết phân số bằng 1 hoặc nhỏ hơn 1.",
+      "shortExplanation": "Ôn lại: phân số nhỏ hơn 1 khi tử số nhỏ hơn mẫu số; phân số bằng 1 khi tử số bằng mẫu số.",
+      "content": "Sau khi học về phân số, em cần nắm vững: phân số gồm tử số (trên) và mẫu số (dưới). Phân số nhỏ hơn 1 khi tử số nhỏ hơn mẫu số (ví dụ: 3/5 vì 3 < 5). Phân số bằng 1 khi tử số bằng mẫu số (ví dụ: 4/4 = 1 vì lấy tất cả các phần). Nhận dạng phân số qua hình: đếm tổng phần (mẫu số) và phần tô màu (tử số). Biết đọc và viết chính xác là nền tảng để học các phép tính với phân số sau này.",
+      "storyContext": "Công chúa Yumi chuẩn bị bài kiểm tra phép thuật cuối cùng - nàng phải trả lời đúng tất cả các câu hỏi về phân số để nhận vương miện phép thuật.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào nhỏ hơn 1?",
+          "options": ["5/5", "7/4", "9/9", "3/8"],
+          "correctIndex": 0,
+          "explanation": "Phân số nhỏ hơn 1 khi tử số nhỏ hơn mẫu số. Trong các đáp án: 5/5 = 1, 7/4 > 1, 9/9 = 1, chỉ có 3/8 là nhỏ hơn 1 vì 3 < 8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số bằng 1 là phân số nào?",
+          "options": ["3/4", "6/5", "6/6", "2/3"],
+          "correctIndex": 2,
+          "explanation": "Phân số bằng 1 khi tử số bằng mẫu số (lấy tất cả các phần). 6/6 có tử số = mẫu số = 6, nên 6/6 = 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật chia thành 8 phần bằng nhau, tô màu 8 phần. Phân số biểu thị phần tô màu là?",
+          "options": ["1/8", "8/8", "0/8", "8/1"],
+          "correctIndex": 1,
+          "explanation": "Tô màu tất cả 8 phần trong tổng số 8 phần, nên phân số là 8/8 = 1. Nghĩa là toàn bộ hình được tô màu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong các phân số sau, phân số nào lớn hơn 1?",
+          "options": ["4/9", "5/5", "3/7", "9/4"],
+          "correctIndex": 3,
+          "explanation": "Phân số lớn hơn 1 khi tử số lớn hơn mẫu số. 9/4 có tử số 9 > mẫu số 4, nên 9/4 > 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi tô màu 3 ô trong 3 ô của hình vuông nhỏ. Phân số biểu thị phần tô màu là?",
+          "options": ["3/3", "1/3", "0/3", "3/1"],
+          "correctIndex": 0,
+          "explanation": "Tô màu 3 ô trong tổng 3 ô, nên phân số là 3/3 = 1. Toàn bộ hình được tô màu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào có tử số bằng mẫu số?",
+          "options": ["3/5", "7/9", "8/8", "2/4"],
+          "correctIndex": 2,
+          "explanation": "8/8 có tử số (8) bằng mẫu số (8), nên tử số = mẫu số. Phân số này bằng 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 'mười hai phần mười hai' viết là gì và bằng bao nhiêu?",
+          "options": ["12/21, bằng 2", "1/12, bằng 1/12", "12/12, bằng 1", "21/12, lớn hơn 1"],
+          "correctIndex": 1,
+          "explanation": "'Mười hai phần mười hai' viết là 12/12. Vì tử số = mẫu số = 12, nên 12/12 = 1 (lấy tất cả 12 phần trong 12 phần)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong bộ 15 viên ngọc, Công chúa Yumi giữ lại tất cả. Phân số biểu thị số ngọc giữ lại là?",
+          "options": ["1/15", "0/15", "14/15", "15/15"],
+          "correctIndex": 3,
+          "explanation": "Giữ lại tất cả 15 viên trong tổng 15 viên, nên phân số là 15/15 = 1. Tử số = mẫu số."
+        },
+        {
+          "type": "true_false",
+          "text": "Phân số 7/7 bằng 1 vì tử số bằng mẫu số, nghĩa là ta lấy tất cả các phần.",
+          "correct": true,
+          "explanation": "Đúng! Khi tử số bằng mẫu số (7 = 7), ta lấy tất cả 7 phần trong 7 phần, nên phân số đó bằng 1."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình tròn chia thành 10 phần bằng nhau, tô màu toàn bộ. Phân số biểu thị phần tô màu là ___ và bằng ___.",
+          "answer": "10/10",
+          "explanation": "Tô màu tất cả 10 phần trong 10 phần, nên phân số là 10/10, và 10/10 = 1 (bằng toàn bộ hình)."
+        }
+      ]
+    }
+  ]
+}

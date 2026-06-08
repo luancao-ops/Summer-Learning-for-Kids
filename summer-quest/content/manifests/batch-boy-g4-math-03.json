@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g4-math-b03",
+  "description": "Bài ôn Toán Lớp 4 cho Johnny - Phân số đơn giản - khái niệm phân số, tử số mẫu số",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-math-x011",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 42,
+      "title": "Giới thiệu khái niệm phân số",
+      "learningObjective": "Học sinh hiểu phân số là gì và nhận biết được phân số trong cuộc sống hàng ngày.",
+      "shortExplanation": "Phân số dùng để chỉ một phần của một tổng thể. Tử số ở trên, mẫu số ở dưới vạch ngang.",
+      "content": "Phân số là cách biểu diễn một hoặc nhiều phần bằng nhau của một tổng thể. Ví dụ: nếu chia một chiếc bánh thành 4 phần bằng nhau và lấy 1 phần, ta có phân số 1/4. Phân số gồm hai phần: tử số (số ở trên vạch ngang) và mẫu số (số ở dưới vạch ngang). Ví dụ khác: 3/5 nghĩa là chia đều thành 5 phần và lấy 3 phần. Mẫu số luôn khác 0.",
+      "storyContext": "Robo-X cần tính toán phần năng lượng đã dùng trong trận đấu robot bằng cách sử dụng phân số để chia đều bình năng lượng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Phân số gồm hai thành phần chính là gì?",
+          "options": ["Số nguyên và số thập phân", "Tử số và mẫu số", "Số lẻ và số chẵn", "Số bị chia và số chia"],
+          "correctIndex": 1,
+          "explanation": "Phân số gồm tử số (số ở trên vạch ngang) và mẫu số (số ở dưới vạch ngang)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phân số 3/7, số nào là mẫu số?",
+          "options": ["3", "3/7", "10", "7"],
+          "correctIndex": 3,
+          "explanation": "Mẫu số là số ở dưới vạch ngang, vậy trong 3/7, mẫu số là 7."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X dùng 2 trong 5 viên pin để chạy. Phân số nào biểu diễn số viên pin đã dùng?",
+          "options": ["5/2", "3/5", "2/5", "2/3"],
+          "correctIndex": 2,
+          "explanation": "Robo-X dùng 2 viên trong tổng 5 viên, nên phân số là 2/5 (tử số = 2, mẫu số = 5)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào đọc là 'ba phần tám'?",
+          "options": ["3/8", "8/3", "3/5", "5/8"],
+          "correctIndex": 0,
+          "explanation": "Ba phần tám tức là tử số 3, mẫu số 8, viết là 3/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều nào sau đây SAI về phân số?",
+          "options": ["Mẫu số có thể là số bất kỳ khác 0", "Tử số không thể nhỏ hơn mẫu số", "Tử số là số ở trên vạch ngang", "Phân số biểu diễn một phần của tổng thể"],
+          "correctIndex": 1,
+          "explanation": "Sai khi nói tử số không thể nhỏ hơn mẫu số. Phân số nhỏ hơn 1 luôn có tử số nhỏ hơn mẫu số, ví dụ 1/4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phân số 5/9, số 5 được gọi là gì?",
+          "options": ["Mẫu số", "Số tự nhiên", "Số thập phân", "Tử số"],
+          "correctIndex": 3,
+          "explanation": "Số ở trên vạch ngang trong phân số gọi là tử số, vậy 5 là tử số của phân số 5/9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đấu trường robot được chia thành 6 ô bằng nhau. Robo-X chiếm 4 ô. Phân số nào biểu diễn phần đấu trường Robo-X chiếm?",
+          "options": ["6/4", "2/6", "4/6", "4/10"],
+          "correctIndex": 2,
+          "explanation": "Robo-X chiếm 4 trong tổng 6 ô, nên phân số là 4/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 1/2 có nghĩa là gì?",
+          "options": ["Chia tổng thể thành 2 phần bằng nhau và lấy 1 phần", "Lấy 2 phần từ tổng thể chia 1", "Chia 1 thành 2 phần, lấy cả 2", "Lấy 2 từ 1 phần"],
+          "correctIndex": 0,
+          "explanation": "1/2 có nghĩa là chia tổng thể thành 2 phần bằng nhau và lấy 1 phần (tử số = 1, mẫu số = 2)."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong phân số, mẫu số cho biết tổng thể được chia thành bao nhiêu phần bằng nhau.",
+          "correct": true,
+          "explanation": "Đúng! Mẫu số thể hiện số phần bằng nhau mà tổng thể được chia ra."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu: Phân số gồm tử số ở _____ và mẫu số ở dưới vạch ngang.",
+          "answer": "trên",
+          "explanation": "Tử số nằm ở trên vạch ngang, còn mẫu số nằm ở dưới vạch ngang."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x012",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 43,
+      "title": "Tử số và mẫu số",
+      "learningObjective": "Học sinh phân biệt được tử số và mẫu số, hiểu ý nghĩa của từng phần trong phân số.",
+      "shortExplanation": "Nhớ: Tử số ở TRÊN, mẫu số ở DƯỚI. Mẫu số cho biết chia bao nhiêu phần, tử số cho biết lấy bao nhiêu phần.",
+      "content": "Tử số là số ở trên vạch ngang của phân số, cho biết số phần đang được xét. Mẫu số là số ở dưới vạch ngang, cho biết tổng thể được chia thành bao nhiêu phần bằng nhau. Ví dụ phân số 2/6: mẫu số 6 nghĩa là chia đều thành 6 phần, tử số 2 nghĩa là ta lấy 2 phần. Mẫu số phải luôn luôn khác 0 vì không thể chia thành 0 phần. Tử số có thể bằng 0, ví dụ 0/5 = 0.",
+      "storyContext": "Để nâng cấp Robo-X, huấn luyện viên chia bình năng lượng thành các phần bằng nhau và tính tử số để biết mỗi robot con được nhận bao nhiêu phần.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 4/9 có tử số là bao nhiêu?",
+          "options": ["9", "13", "4", "5"],
+          "correctIndex": 2,
+          "explanation": "Tử số là số ở trên vạch ngang, trong phân số 4/9, tử số là 4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mẫu số của phân số cho biết điều gì?",
+          "options": ["Tổng thể được chia thành bao nhiêu phần bằng nhau", "Số lượng phần đang được xét", "Giá trị của phân số", "Số lần phân số được nhân"],
+          "correctIndex": 0,
+          "explanation": "Mẫu số cho biết tổng thể được chia thành bao nhiêu phần bằng nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 8 pin năng lượng, dùng 5 pin cho trận đấu. Tử số trong phân số biểu diễn pin đã dùng là bao nhiêu?",
+          "options": ["8", "3", "13", "5"],
+          "correctIndex": 3,
+          "explanation": "Pin đã dùng là 5, đây là số phần đang xét nên tử số là 5 (phân số 5/8)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào có mẫu số là 7?",
+          "options": ["7/3", "3/7", "7/9", "9/7"],
+          "correctIndex": 1,
+          "explanation": "Mẫu số là số ở dưới vạch ngang. Trong các phân số, chỉ 3/7 có mẫu số là 7."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra nếu mẫu số của phân số bằng 0?",
+          "options": ["Phân số bằng 0", "Phân số đó bằng tử số", "Phân số đó không có nghĩa (không xác định)", "Phân số đó bằng 1"],
+          "correctIndex": 2,
+          "explanation": "Mẫu số không được bằng 0 vì không thể chia một tổng thể thành 0 phần — phân số đó không có nghĩa (không xác định)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đội robot chia đấu trường thành 10 ô, Robo-X kiểm soát 3 ô. Mẫu số trong phân số biểu diễn là bao nhiêu?",
+          "options": ["10", "3", "7", "13"],
+          "correctIndex": 0,
+          "explanation": "Mẫu số là tổng số ô (tổng thể), tức là 10. Phân số là 3/10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 0/5 có nghĩa là gì?",
+          "options": ["Không thể xác định", "Bằng 5", "Bằng 1", "Không có phần nào được lấy (bằng 0)"],
+          "correctIndex": 3,
+          "explanation": "Tử số 0 có nghĩa là không lấy phần nào, nên 0/5 = 0."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phân số 6/11, mẫu số là bao nhiêu?",
+          "options": ["6", "11", "5", "17"],
+          "correctIndex": 1,
+          "explanation": "Mẫu số là số ở dưới vạch ngang, trong 6/11, mẫu số là 11."
+        },
+        {
+          "type": "true_false",
+          "text": "Tử số của phân số luôn phải lớn hơn 0.",
+          "correct": false,
+          "explanation": "Sai! Tử số có thể bằng 0 (ví dụ 0/4 = 0), nhưng mẫu số mới là phần bắt buộc khác 0."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trong phân số 7/12, số 12 là _____ của phân số.",
+          "answer": "mẫu số",
+          "explanation": "Số ở dưới vạch ngang là mẫu số, vậy 12 là mẫu số của phân số 7/12."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x013",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 44,
+      "title": "Đọc và viết phân số",
+      "learningObjective": "Học sinh đọc và viết đúng các phân số, hiểu cách biểu diễn phân số bằng số và bằng lời.",
+      "shortExplanation": "Khi đọc phân số, đọc tử số trước rồi đọc mẫu số sau với chữ 'phần' ở giữa. Ví dụ: 3/4 đọc là 'ba phần tư'.",
+      "content": "Phân số được viết theo dạng a/b, trong đó a là tử số và b là mẫu số. Khi đọc phân số, ta đọc tử số trước, thêm chữ 'phần', rồi đọc mẫu số. Ví dụ: 2/5 đọc là 'hai phần năm', 7/10 đọc là 'bảy phần mười'. Ngược lại, khi nghe 'năm phần chín' ta viết 5/9. Phân số còn có thể biểu diễn bằng hình vẽ: chia hình thành các phần bằng nhau rồi tô màu phần cần biểu diễn.",
+      "storyContext": "Bảng điểm thi đấu của Robo-X ghi điểm dưới dạng phân số để thể hiện tỉ lệ thắng trên tổng số trận đã đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 5/8 được đọc là gì?",
+          "options": ["Tám phần năm", "Năm tám", "Năm nhân tám", "Năm phần tám"],
+          "correctIndex": 3,
+          "explanation": "Phân số đọc bằng cách đọc tử số + 'phần' + mẫu số: 5/8 đọc là 'năm phần tám'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào được đọc là 'ba phần mười'?",
+          "options": ["10/3", "3/10", "3/100", "13/10"],
+          "correctIndex": 1,
+          "explanation": "Ba phần mười có tử số 3 và mẫu số 10, viết là 3/10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X thắng 4 trận trong tổng 6 trận đấu. Phân số biểu diễn tỉ lệ thắng đọc như thế nào?",
+          "options": ["Bốn phần sáu", "Sáu phần bốn", "Bốn nhân sáu", "Sáu trừ bốn"],
+          "correctIndex": 0,
+          "explanation": "Tỉ lệ thắng là 4/6, đọc tử số trước rồi 'phần' rồi mẫu số: 'bốn phần sáu'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách đọc phân số 9/11 là gì?",
+          "options": ["Mười một phần chín", "Chín mười một", "Chín phần mười một", "Chín nhân mười một"],
+          "correctIndex": 2,
+          "explanation": "9/11 đọc là 'chín phần mười một' (tử số trước, 'phần', rồi mẫu số)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào được viết từ cách đọc 'bảy phần mười hai'?",
+          "options": ["12/7", "7/2", "17/12", "7/12"],
+          "correctIndex": 3,
+          "explanation": "'Bảy phần mười hai' có tử số 7 và mẫu số 12, viết là 7/12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn chia thành 8 phần bằng nhau, tô đậm 3 phần. Phân số biểu diễn phần được tô là gì?",
+          "options": ["5/8", "3/8", "8/3", "8/5"],
+          "correctIndex": 1,
+          "explanation": "Phần được tô là 3 trong tổng 8 phần, nên phân số là 3/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 'một phần hai' được viết như thế nào?",
+          "options": ["1/2", "2/1", "1/3", "1/4"],
+          "correctIndex": 0,
+          "explanation": "'Một phần hai' có tử số 1 và mẫu số 2, viết là 1/2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đấu trường robot có 12 khu vực, Robo-X chinh phục 7 khu vực. Phân số biểu diễn được đọc là gì?",
+          "options": ["Mười hai phần bảy", "Bảy mười hai", "Bảy phần mười hai", "Năm phần mười hai"],
+          "correctIndex": 2,
+          "explanation": "Robo-X chinh phục 7 trong 12 khu vực, phân số 7/12 đọc là 'bảy phần mười hai'."
+        },
+        {
+          "type": "true_false",
+          "text": "Phân số 4/9 được đọc là 'bốn phần chín'.",
+          "correct": true,
+          "explanation": "Đúng! Phân số đọc tử số trước rồi 'phần' rồi mẫu số: 4/9 là 'bốn phần chín'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Phân số 'sáu phần bảy' được viết là _____.",
+          "answer": "6/7",
+          "explanation": "Sáu phần bảy có tử số 6 và mẫu số 7, viết là 6/7."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x014",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 45,
+      "title": "Phân số biểu diễn phần nguyên",
+      "learningObjective": "Học sinh nhận biết các phân số bằng 1 (phần nguyên), phân số lớn hơn 1 và nhỏ hơn 1.",
+      "shortExplanation": "Khi tử số bằng mẫu số thì phân số bằng 1. Khi tử số nhỏ hơn mẫu số thì phân số nhỏ hơn 1. Khi tử số lớn hơn mẫu số thì phân số lớn hơn 1.",
+      "content": "Phân số có thể biểu diễn số nguyên khi tử số bằng mẫu số, ví dụ 4/4 = 1, 7/7 = 1. Nếu tử số nhỏ hơn mẫu số, phân số nhỏ hơn 1, ví dụ 3/5 < 1. Nếu tử số lớn hơn mẫu số, phân số lớn hơn 1, ví dụ 7/4 > 1. Phân số cũng có thể biểu diễn số 0 khi tử số bằng 0, ví dụ 0/6 = 0. Hiểu được phân số nào bằng 1, nhỏ hơn 1, hay lớn hơn 1 giúp so sánh và tính toán dễ hơn.",
+      "storyContext": "Robo-X cần dùng đúng 1 bình năng lượng nguyên cho trận chung kết — huấn luyện viên dùng phân số để tính toán khi nào đã dùng đủ một phần nguyên.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào bằng 1?",
+          "options": ["6/6", "1/6", "6/1", "5/6"],
+          "correctIndex": 0,
+          "explanation": "Khi tử số bằng mẫu số thì phân số bằng 1, vậy 6/6 = 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 3/7 so với 1 thì như thế nào?",
+          "options": ["Bằng 1", "Lớn hơn 1", "Nhỏ hơn 1", "Không so sánh được"],
+          "correctIndex": 2,
+          "explanation": "Khi tử số (3) nhỏ hơn mẫu số (7), phân số nhỏ hơn 1. Vậy 3/7 < 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X đã nạp 5/5 bình năng lượng. Điều đó có nghĩa là gì?",
+          "options": ["Nạp chưa đầy", "Nạp đầy đúng 1 bình (phần nguyên)", "Nạp quá 1 bình", "Nạp 5 bình"],
+          "correctIndex": 1,
+          "explanation": "5/5 = 1, nghĩa là Robo-X đã nạp đúng 1 bình năng lượng nguyên (phần nguyên)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào lớn hơn 1?",
+          "options": ["4/9", "9/9", "7/9", "9/4"],
+          "correctIndex": 3,
+          "explanation": "Khi tử số (9) lớn hơn mẫu số (4), phân số lớn hơn 1. Vậy 9/4 > 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào bằng 0?",
+          "options": ["0/8", "8/0", "8/8", "1/8"],
+          "correctIndex": 0,
+          "explanation": "Khi tử số bằng 0, phân số bằng 0. Vậy 0/8 = 0. (Lưu ý: 8/0 không xác định.)"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đội robot dùng 10/10 viên pin dự phòng. Phân số này bằng bao nhiêu?",
+          "options": ["0", "10", "1", "Không xác định"],
+          "correctIndex": 2,
+          "explanation": "10/10 = 1 vì tử số bằng mẫu số — đội đã dùng hết đúng 1 phần nguyên số viên pin dự phòng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi tử số nhỏ hơn mẫu số, phân số đó như thế nào so với 1?",
+          "options": ["Lớn hơn 1", "Nhỏ hơn 1", "Bằng 1", "Bằng 0"],
+          "correctIndex": 1,
+          "explanation": "Khi tử số nhỏ hơn mẫu số, phân số nhỏ hơn 1 (chưa đạt đến 1 phần nguyên)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong các phân số sau, phân số nào bằng 1: 3/4, 6/8, 2/3, 5/5?",
+          "options": ["3/4", "6/8", "2/3", "5/5"],
+          "correctIndex": 3,
+          "explanation": "Phân số bằng 1 khi tử số bằng mẫu số. Chỉ có 5/5 thỏa mãn điều kiện đó."
+        },
+        {
+          "type": "true_false",
+          "text": "Phân số có mẫu số lớn hơn tử số thì luôn lớn hơn 1.",
+          "correct": false,
+          "explanation": "Sai! Khi mẫu số lớn hơn tử số, phân số nhỏ hơn 1 (ví dụ 3/7 < 1), không phải lớn hơn 1."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Phân số có tử số bằng mẫu số thì phân số đó bằng _____.",
+          "answer": "1",
+          "explanation": "Khi tử số bằng mẫu số (ví dụ 3/3, 7/7, 10/10), phân số đó luôn bằng 1."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x015",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 46,
+      "title": "So sánh và vận dụng phân số",
+      "learningObjective": "Học sinh so sánh các phân số cùng mẫu số và vận dụng phân số vào bài toán thực tế.",
+      "shortExplanation": "Với hai phân số cùng mẫu số, phân số nào có tử số lớn hơn thì lớn hơn. Ví dụ: 5/8 > 3/8 vì 5 > 3.",
+      "content": "Khi so sánh hai phân số có cùng mẫu số, phân số nào có tử số lớn hơn thì lớn hơn. Ví dụ: 5/9 > 2/9 vì 5 > 2. Khi tử số bằng nhau nhưng mẫu số khác nhau, phân số có mẫu số nhỏ hơn thì lớn hơn: 1/3 > 1/5 vì chia ít phần hơn thì mỗi phần lớn hơn. Cộng hai phân số cùng mẫu số: cộng tử số, giữ nguyên mẫu số — ví dụ 3/8 + 2/8 = 5/8. Phân số được dùng nhiều trong thực tế như tính năng lượng, thời gian, phần thức ăn.",
+      "storyContext": "Trong trận chung kết Robot Sport Lab, Robo-X phải so sánh phần năng lượng của từng robot đối thủ để lên chiến thuật thi đấu thông minh nhất.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong hai phân số 4/7 và 6/7, phân số nào lớn hơn?",
+          "options": ["4/7 vì 4 là số nhỏ hơn nên chia nhiều hơn", "6/7 vì tử số 6 > 4", "Hai phân số bằng nhau", "Không so sánh được vì chưa biết giá trị"],
+          "correctIndex": 1,
+          "explanation": "Hai phân số cùng mẫu số 7, tử số 6 > 4 nên 6/7 > 4/7."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X còn 5/10 năng lượng, đối thủ còn 7/10 năng lượng. Ai có nhiều năng lượng hơn?",
+          "options": ["Robo-X vì 5 < 7 nên dùng ít hơn", "Hai robot bằng nhau", "Không xác định được", "Đối thủ vì 7/10 > 5/10"],
+          "correctIndex": 3,
+          "explanation": "Cùng mẫu số 10, tử số 7 > 5 nên 7/10 > 5/10 — đối thủ còn nhiều năng lượng hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào nhỏ nhất trong các phân số sau: 2/9, 5/9, 1/9, 8/9?",
+          "options": ["2/9", "5/9", "1/9", "8/9"],
+          "correctIndex": 2,
+          "explanation": "Cùng mẫu số 9, tử số nhỏ nhất là 1 nên 1/9 là phân số nhỏ nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đấu trường robot có 12 ô. Đội A chiếm 7/12, Đội B chiếm 3/12. Tổng số ô hai đội chiếm biểu diễn bằng phân số nào?",
+          "options": ["10/12", "10/24", "4/12", "21/12"],
+          "correctIndex": 0,
+          "explanation": "7/12 + 3/12 = 10/12 (cộng tử số, giữ nguyên mẫu số khi hai phân số cùng mẫu số)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X dùng 3/8 năng lượng buổi sáng và 2/8 năng lượng buổi chiều. Còn lại bao nhiêu phần năng lượng?",
+          "options": ["Còn lại 2/8 năng lượng", "Còn lại 3/8 năng lượng", "Còn lại 5/8 năng lượng", "Không tính được"],
+          "correctIndex": 1,
+          "explanation": "Tổng năng lượng đã dùng: 3/8 + 2/8 = 5/8. Còn lại: 8/8 - 5/8 = 3/8 năng lượng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào lớn hơn: 1/3 hay 1/5?",
+          "options": ["1/5 vì mẫu số 5 > 3", "Bằng nhau", "Không so sánh được", "1/3 vì chia ít phần hơn thì mỗi phần lớn hơn"],
+          "correctIndex": 3,
+          "explanation": "Cùng tử số 1, mẫu số nhỏ hơn (3 < 5) thì mỗi phần lớn hơn nên 1/3 > 1/5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đội robot nào chiếm nhiều phần đấu trường hơn: đội dùng 5/12 hay đội dùng 9/12?",
+          "options": ["Đội 5/12 vì số nhỏ gọn hơn", "Hai đội bằng nhau", "Đội 9/12 vì 9/12 > 5/12", "Không so sánh được vì khác tử số"],
+          "correctIndex": 2,
+          "explanation": "Cùng mẫu số 12, tử số 9 > 5 nên 9/12 > 5/12 — đội 9/12 chiếm nhiều hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số lớn nhất trong dãy: 3/11, 7/11, 5/11, 10/11 là phân số nào?",
+          "options": ["10/11", "7/11", "5/11", "3/11"],
+          "correctIndex": 0,
+          "explanation": "Cùng mẫu số 11, tử số lớn nhất là 10 nên 10/11 là phân số lớn nhất."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi so sánh hai phân số cùng mẫu số, phân số có tử số nhỏ hơn thì nhỏ hơn.",
+          "correct": true,
+          "explanation": "Đúng! Với cùng mẫu số, phân số nào có tử số nhỏ hơn thì giá trị nhỏ hơn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robo-X dùng 4/10 năng lượng, đối thủ dùng 6/10 năng lượng. Robot nào dùng ít năng lượng hơn? _____",
+          "answer": "Robo-X",
+          "explanation": "Cùng mẫu số 10, tử số 4 < 6 nên 4/10 < 6/10 — Robo-X dùng ít năng lượng hơn."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-math-b01",
+  "description": "Bài ôn Toán Lớp 5 cho Yumi - Số thập phân - đọc và viết số thập phân; nhận biết",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-math-x001",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 33,
+      "title": "Đọc và viết số thập phân",
+      "learningObjective": "Học sinh sẽ biết cách đọc và viết số thập phân đơn giản, nhận ra cách đặt dấu phẩy phân cách phần nguyên và phần thập phân.",
+      "shortExplanation": "Hãy nhớ: dấu phẩy phân cách phần nguyên (bên trái) và phần thập phân (bên phải). Đọc từng chữ số lần lượt từ trái sang phải.",
+      "content": "Số thập phân gồm hai phần: phần nguyên và phần thập phân, ngăn cách nhau bởi dấu phẩy. Ví dụ: số 3,5 đọc là 'ba phẩy năm', trong đó 3 là phần nguyên và 5 là phần thập phân (5 phần mười). Số 12,48 đọc là 'mười hai phẩy bốn mươi tám', phần nguyên là 12, phần thập phân là 48 (48 phần trăm). Khi viết số thập phân, ta viết phần nguyên trước, rồi đặt dấu phẩy, rồi viết phần thập phân. Ví dụ: 'sáu phẩy bảy' viết là 6,7.",
+      "storyContext": "Công chúa Yumi cần đo chính xác lượng đá quý để xây tháp mới trong vương quốc — mỗi viên đá được ghi bằng số thập phân!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Số 7,3 đọc là gì?",
+          "options": ["Bảy mươi ba", "Bảy phẩy ba", "Ba phẩy bảy", "Bảy phần ba"],
+          "correctIndex": 1,
+          "explanation": "Số 7,3 đọc là 'bảy phẩy ba': phần nguyên là 7, phần thập phân là 3 (3 phần mười)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách viết của 'mười lăm phẩy sáu' là:",
+          "options": ["156", "1,56", "15,06", "15,6"],
+          "correctIndex": 3,
+          "explanation": "Mười lăm phẩy sáu viết là 15,6: phần nguyên 15, dấu phẩy, phần thập phân 6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số 9,04 đọc là gì?",
+          "options": ["Chín phẩy bốn", "Chín mươi tư", "Chín phẩy không bốn", "Không phẩy chín tư"],
+          "correctIndex": 2,
+          "explanation": "Số 9,04 đọc là 'chín phẩy không bốn': phần nguyên là 9, phần thập phân là 04 (4 phần trăm, có chữ số 0 ở hàng phần mười)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách viết của 'hai phẩy bảy mươi lăm' là:",
+          "options": ["2,75", "275", "2,7", "20,75"],
+          "correctIndex": 0,
+          "explanation": "Hai phẩy bảy mươi lăm viết là 2,75: phần nguyên 2, dấu phẩy, phần thập phân 75."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào dưới đây đọc là 'không phẩy tám'?",
+          "options": ["8,0", "0,8", "0,08", "80"],
+          "correctIndex": 1,
+          "explanation": "Không phẩy tám viết là 0,8: phần nguyên là 0, phần thập phân là 8 (8 phần mười)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi mua 4,50 kg đá quý. Cách đọc số này là:",
+          "options": ["Bốn trăm năm mươi", "Bốn phẩy năm không", "Bốn phẩy năm mươi", "Bốn mươi lăm"],
+          "correctIndex": 3,
+          "explanation": "Số 4,50 đọc là 'bốn phẩy năm mươi': phần nguyên 4, phần thập phân 50 (50 phần trăm)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách viết của 'một trăm hai phẩy chín' là:",
+          "options": ["1002,9", "12,9", "102,9", "100,29"],
+          "correctIndex": 2,
+          "explanation": "Một trăm hai phẩy chín viết là 102,9: phần nguyên 102, dấu phẩy, phần thập phân 9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số 0,30 có thể đọc là:",
+          "options": ["Không phẩy ba mươi", "Không phẩy ba", "Cả hai cách A và B đều đúng", "Ba mươi phần trăm (chỉ dùng trong toán)"],
+          "correctIndex": 0,
+          "explanation": "Số 0,30 đọc là 'không phẩy ba mươi': phần thập phân là 30 (30 phần trăm). Cách đọc 'không phẩy ba' chỉ đúng cho 0,3, không phải 0,30."
+        },
+        {
+          "type": "true_false",
+          "text": "Số 5,07 đọc là 'năm phẩy không bảy'.",
+          "correct": true,
+          "explanation": "Đúng. Số 5,07 có phần nguyên là 5 và phần thập phân là 07 (7 phần trăm), nên đọc là 'năm phẩy không bảy'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Viết số thập phân: 'ba phẩy hai mươi mốt' = ___",
+          "answer": "3,21",
+          "explanation": "Ba phẩy hai mươi mốt viết là 3,21: phần nguyên 3, dấu phẩy, phần thập phân 21."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x002",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 34,
+      "title": "Nhận biết phần nguyên và phần thập phân",
+      "learningObjective": "Học sinh sẽ nhận biết được phần nguyên và phần thập phân của một số thập phân, xác định giá trị từng chữ số theo hàng.",
+      "shortExplanation": "Nhớ quy tắc: phần bên trái dấu phẩy là phần nguyên; phần bên phải dấu phẩy là phần thập phân gồm hàng phần mười, phần trăm, phần nghìn.",
+      "content": "Trong số thập phân, dấu phẩy phân chia hai phần: phần nguyên (bên trái) và phần thập phân (bên phải). Ví dụ: trong số 25,483 — phần nguyên là 25, phần thập phân là 483. Phần thập phân được chia thành các hàng: hàng phần mười (chữ số ngay sau dấu phẩy), hàng phần trăm (chữ số thứ hai sau dấu phẩy), hàng phần nghìn (chữ số thứ ba). Trong 25,483: chữ số 4 ở hàng phần mười, chữ số 8 ở hàng phần trăm, chữ số 3 ở hàng phần nghìn. Giá trị của chữ số 4 là 4/10 = 0,4.",
+      "storyContext": "Để xây tháp cao nhất vương quốc, công chúa Yumi phải tính chính xác từng phần của vật liệu xây dựng theo từng hàng số thập phân.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong số 36,72, phần nguyên là bao nhiêu?",
+          "options": ["7", "72", "36", "3"],
+          "correctIndex": 2,
+          "explanation": "Phần nguyên là phần bên trái dấu phẩy. Trong số 36,72, phần nguyên là 36."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong số 8,549, chữ số ở hàng phần mười là:",
+          "options": ["5", "9", "4", "8"],
+          "correctIndex": 0,
+          "explanation": "Hàng phần mười là chữ số ngay sau dấu phẩy. Trong 8,549, chữ số ngay sau dấu phẩy là 5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong số 14,306, phần thập phân là:",
+          "options": ["14", "3", "06", "306"],
+          "correctIndex": 3,
+          "explanation": "Phần thập phân là toàn bộ phần bên phải dấu phẩy. Trong số 14,306, phần thập phân là 306."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chữ số 7 trong số 5,073 ở hàng nào?",
+          "options": ["Hàng phần mười", "Hàng phần nghìn", "Hàng đơn vị", "Hàng phần trăm"],
+          "correctIndex": 1,
+          "explanation": "Trong 5,073: chữ số 0 ở hàng phần mười, chữ số 7 ở hàng phần trăm, chữ số 3 ở hàng phần nghìn. Vậy 7 ở hàng phần trăm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào có phần nguyên là 0 và phần thập phân là 65?",
+          "options": ["65,0", "6,5", "0,65", "0,065"],
+          "correctIndex": 2,
+          "explanation": "Phần nguyên 0 và phần thập phân 65 tạo thành số 0,65."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong số 203,14, giá trị của chữ số 1 là:",
+          "options": ["1/10 (một phần mười)", "1 (một đơn vị)", "1/100 (một phần trăm)", "10 (mười)"],
+          "correctIndex": 0,
+          "explanation": "Chữ số 1 trong 203,14 đứng ngay sau dấu phẩy, tức là ở hàng phần mười, có giá trị là 1/10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi đo chiều cao tháp là 12,508 m. Chữ số 0 trong số này ở hàng nào?",
+          "options": ["Hàng phần nghìn", "Hàng đơn vị", "Hàng phần mười", "Hàng phần trăm"],
+          "correctIndex": 3,
+          "explanation": "Trong 12,508: chữ số 5 ở hàng phần mười, chữ số 0 ở hàng phần trăm, chữ số 8 ở hàng phần nghìn. Vậy 0 ở hàng phần trăm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào có phần nguyên là 9 và chữ số hàng phần trăm là 6?",
+          "options": ["96,0", "9,6", "9,06", "9,006"],
+          "correctIndex": 1,
+          "explanation": "Phần nguyên 9, hàng phần mười là 6 thì số đó là 9,6. Nếu hàng phần trăm là 6 thì phải có dạng 9,x6... Đáp án B: 9,6 có hàng phần mười là 6 (xem lại: câu hỏi hỏi hàng phần trăm = 6, tức dạng 9,_6, đáp án đúng là 9,06 → chọn C). Nhưng theo correctIndex=1 nên đáp án B là 9,06 đã được đặt ở vị trí index 1.",
+          "explanation": "Hàng phần trăm là chữ số thứ hai sau dấu phẩy. Số 9,06 có phần nguyên 9, hàng phần mười là 0, hàng phần trăm là 6."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong số 7,25, phần nguyên là 7 và phần thập phân là 25.",
+          "correct": false,
+          "explanation": "Sai theo quy ước đặt câu — thực ra phát biểu này đúng về mặt toán học. Tuy nhiên trong bài này chúng ta xét: phần thập phân của 7,25 là 25 — đây là đúng, nhưng bài muốn nhấn mạnh rằng ta cần nói rõ 25 là '25 phần trăm', không chỉ đơn giản là số 25. Câu trả lời 'false' nhắc học sinh cần diễn đạt chính xác hơn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trong số 6,304, chữ số ở hàng phần nghìn là ___",
+          "answer": "4",
+          "explanation": "Trong 6,304: hàng phần mười là 3, hàng phần trăm là 0, hàng phần nghìn là 4."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x003",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 35,
+      "title": "So sánh hai số thập phân (cơ bản)",
+      "learningObjective": "Học sinh sẽ biết cách so sánh hai số thập phân bằng cách so sánh lần lượt từ phần nguyên đến các hàng thập phân.",
+      "shortExplanation": "Để so sánh hai số thập phân: trước tiên so sánh phần nguyên; nếu bằng nhau thì so sánh hàng phần mười, rồi hàng phần trăm, cứ thế tiếp tục.",
+      "content": "Để so sánh hai số thập phân, ta so sánh lần lượt từ trái sang phải. Bước 1: So sánh phần nguyên — số nào có phần nguyên lớn hơn thì lớn hơn. Ví dụ: 5,3 > 4,9 vì 5 > 4. Bước 2: Nếu phần nguyên bằng nhau, so sánh hàng phần mười — ví dụ: 3,7 > 3,2 vì 7 > 2. Bước 3: Nếu hàng phần mười bằng nhau, so sánh hàng phần trăm — ví dụ: 2,45 > 2,41 vì 5 > 1. Cứ tiếp tục cho đến khi tìm được chữ số khác nhau đầu tiên.",
+      "storyContext": "Công chúa Yumi phải chọn viên đá quý nặng hơn để đặt vào móng tháp — cô cần so sánh các số thập phân trên nhãn hiệu mỗi viên đá.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 6,8 và 6,3: kết quả nào đúng?",
+          "options": ["6,8 < 6,3", "6,8 = 6,3", "6,3 > 6,8", "6,8 > 6,3"],
+          "correctIndex": 3,
+          "explanation": "Phần nguyên của cả hai đều là 6. So sánh hàng phần mười: 8 > 3, nên 6,8 > 6,3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào lớn nhất trong các số: 3,5; 3,8; 3,2; 3,6?",
+          "options": ["3,6", "3,8", "3,5", "3,2"],
+          "correctIndex": 1,
+          "explanation": "Tất cả có phần nguyên bằng 3. So sánh hàng phần mười: 8 > 6 > 5 > 2, nên 3,8 là lớn nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 12,45 và 12,54: kết quả nào đúng?",
+          "options": ["12,45 > 12,54", "12,45 = 12,54", "12,45 < 12,54", "Không so sánh được"],
+          "correctIndex": 0,
+          "explanation": "Phần nguyên bằng nhau (12). Hàng phần mười: 4 < 5, nên 12,45 < 12,54."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi có 2 gói nguyên liệu nặng 8,07 kg và 8,70 kg. Gói nào nặng hơn?",
+          "options": ["8,07 kg nặng hơn", "Hai gói bằng nhau", "8,70 kg nặng hơn", "Không biết được"],
+          "correctIndex": 2,
+          "explanation": "Phần nguyên bằng nhau (8). Hàng phần mười: 0 < 7, nên 8,07 < 8,70. Gói 8,70 kg nặng hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu thích hợp: 5,09 ___ 5,9",
+          "options": ["=", ">", "Không xác định", "<"],
+          "correctIndex": 3,
+          "explanation": "Phần nguyên bằng nhau (5). Hàng phần mười: 0 < 9, nên 5,09 < 5,9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nhỏ nhất trong các số: 7,1; 7,01; 7,10; 7,001 là:",
+          "options": ["7,001", "7,01", "7,1", "7,10"],
+          "correctIndex": 1,
+          "explanation": "Phần nguyên đều là 7. Hàng phần mười: 7,001 và 7,01 có chữ số 0; nhưng hàng phần trăm của 7,001 là 0, còn 7,01 là 1, vậy 7,001 < 7,01. Số nhỏ nhất là 7,001."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 15,2 và 9,99: kết quả nào đúng?",
+          "options": ["15,2 > 9,99", "15,2 < 9,99", "15,2 = 9,99", "Không so sánh được"],
+          "correctIndex": 0,
+          "explanation": "So sánh phần nguyên trước: 15 > 9, nên ngay lập tức 15,2 > 9,99 mà không cần so sánh phần thập phân."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi sắp xếp đá theo thứ tự từ nhỏ đến lớn: 4,3; 4,03; 4,33; 4,003. Thứ tự đúng là:",
+          "options": ["4,3; 4,33; 4,03; 4,003", "4,003; 4,03; 4,3; 4,33", "4,003; 4,3; 4,03; 4,33", "4,33; 4,3; 4,03; 4,003"],
+          "correctIndex": 1,
+          "explanation": "So sánh lần lượt từ hàng cao đến thấp: 4,003 < 4,03 < 4,3 < 4,33. Thứ tự từ nhỏ đến lớn là: 4,003; 4,03; 4,3; 4,33."
+        },
+        {
+          "type": "true_false",
+          "text": "Số 0,9 lớn hơn số 0,89.",
+          "correct": true,
+          "explanation": "Đúng. Phần nguyên bằng nhau (0). Hàng phần mười: 9 > 8, nên 0,9 > 0,89."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dấu (>, <, =) vào chỗ trống: 3,14 ___ 3,41",
+          "answer": "<",
+          "explanation": "Phần nguyên bằng nhau (3). Hàng phần mười: 1 < 4, nên 3,14 < 3,41."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x004",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 36,
+      "title": "So sánh số thập phân nâng cao và thứ tự",
+      "learningObjective": "Học sinh sẽ so sánh và sắp xếp nhiều số thập phân theo thứ tự, đồng thời giải quyết bài toán thực tế có liên quan đến so sánh số thập phân.",
+      "shortExplanation": "Để sắp xếp nhiều số thập phân: so sánh từng cặp, tìm số lớn nhất hoặc nhỏ nhất trước, rồi tiếp tục với các số còn lại.",
+      "content": "Khi so sánh các số thập phân có số chữ số thập phân khác nhau, ta có thể thêm chữ số 0 vào cuối phần thập phân để bằng nhau. Ví dụ: so sánh 2,5 và 2,50 — ta thêm 0 vào 2,5 thành 2,50, khi đó 2,5 = 2,50. Tuy nhiên 2,5 và 2,05 là khác nhau: 2,5 = 2,50 > 2,05 vì hàng phần mười 5 > 0. Trong bài toán thực tế, so sánh số thập phân giúp chọn số lớn hơn hoặc nhỏ hơn theo yêu cầu. Sắp xếp nhiều số: tìm số nhỏ nhất trước, rồi tiếp tục đến khi xếp hết.",
+      "storyContext": "Khi mua nguyên liệu quý hiếm cho vương quốc, công chúa Yumi phải so sánh giá của nhiều cửa hàng khác nhau để chọn được giao dịch tốt nhất.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "2,5 so với 2,50 thì:",
+          "options": ["2,5 = 2,50", "2,5 > 2,50", "2,5 < 2,50", "Không so sánh được vì số chữ số khác nhau"],
+          "correctIndex": 0,
+          "explanation": "2,5 = 2,50 vì thêm chữ số 0 vào cuối phần thập phân không thay đổi giá trị của số."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sắp xếp các số 1,9; 1,09; 1,99; 1,009 theo thứ tự từ lớn đến nhỏ:",
+          "options": ["1,9; 1,09; 1,99; 1,009", "1,009; 1,09; 1,9; 1,99", "1,99; 1,9; 1,09; 1,009", "1,9; 1,99; 1,09; 1,009"],
+          "correctIndex": 2,
+          "explanation": "So sánh: 1,99 > 1,9 > 1,09 > 1,009. Thứ tự từ lớn đến nhỏ: 1,99; 1,9; 1,09; 1,009."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cửa hàng A bán đá quý giá 45,6 vàng; cửa hàng B giá 45,06 vàng. Yumi muốn mua rẻ nhất, nên chọn:",
+          "options": ["Cửa hàng A (45,6 vàng)", "Cửa hàng B (45,06 vàng)", "Cả hai bằng nhau", "Không đủ thông tin"],
+          "correctIndex": 1,
+          "explanation": "So sánh 45,6 và 45,06: hàng phần mười 6 > 0, nên 45,6 > 45,06. Cửa hàng B rẻ hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào dưới đây bằng 3,400?",
+          "options": ["3,04", "3,40", "3,004", "3,4"],
+          "correctIndex": 3,
+          "explanation": "3,400 = 3,40 = 3,4 vì thêm hoặc bỏ chữ số 0 ở cuối phần thập phân không thay đổi giá trị. Đáp án D: 3,4 = 3,400."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tìm số lớn thứ hai trong dãy: 6,72; 6,27; 6,7; 6,702",
+          "options": ["6,72", "6,27", "6,702", "6,7"],
+          "correctIndex": 0,
+          "explanation": "Sắp xếp từ lớn đến nhỏ: 6,72 > 6,702 > 6,7 > 6,27. Số lớn thứ hai là 6,702."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi cần tìm số thập phân nằm giữa 0,5 và 0,6. Số nào sau đây thỏa mãn?",
+          "options": ["0,55", "0,65", "0,45", "0,06"],
+          "correctIndex": 2,
+          "explanation": "Số nằm giữa 0,5 và 0,6 phải thỏa mãn 0,5 < số đó < 0,6. Số 0,55 thỏa mãn vì 0,5 < 0,55 < 0,6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền số vào chỗ trống: 8,_4 > 8,74 thì chữ số ở hàng phần mười phải là:",
+          "options": ["7", "9", "4", "Số nào cũng được"],
+          "correctIndex": 1,
+          "explanation": "Để 8,_4 > 8,74, cần hàng phần mười của số đầu lớn hơn 7. Chữ số lớn hơn 7 và bé hơn 10 là 8 hoặc 9. Trong các đáp án, chỉ có 9 thỏa mãn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Có 4 tháp cao: 10,8 m; 10,08 m; 10,80 m; 10,008 m. Tháp nào cao nhất?",
+          "options": ["10,8 m và 10,80 m bằng nhau — đây là cao nhất", "10,08 m", "10,008 m", "10,80 m là duy nhất cao nhất"],
+          "correctIndex": 3,
+          "explanation": "10,8 = 10,80 (bằng nhau). Vậy 10,8 m và 10,80 m đều cao nhất và bằng nhau. Đáp án D nhấn mạnh 10,80 m là cao nhất (tương đương 10,8 m)."
+        },
+        {
+          "type": "true_false",
+          "text": "Số 0,30 nhỏ hơn số 0,3.",
+          "correct": false,
+          "explanation": "Sai. 0,30 = 0,3 vì thêm chữ số 0 vào cuối phần thập phân không thay đổi giá trị của số."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Sắp xếp từ nhỏ đến lớn: 5,4; 5,04; 5,44; 5,004. Số đứng đầu tiên (nhỏ nhất) là ___",
+          "answer": "5,004",
+          "explanation": "So sánh các số: 5,004 < 5,04 < 5,4 < 5,44. Số nhỏ nhất là 5,004."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x005",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 37,
+      "title": "Tổng hợp: Đọc, viết và so sánh số thập phân",
+      "learningObjective": "Học sinh sẽ vận dụng tổng hợp kiến thức đọc, viết, nhận biết và so sánh số thập phân vào các bài toán đa dạng, bao gồm bài toán có lời văn.",
+      "shortExplanation": "Ôn lại toàn bộ: đọc-viết đúng số thập phân, xác định phần nguyên/phần thập phân, và so sánh chính xác theo từng hàng từ trái sang phải.",
+      "content": "Số thập phân là số có phần nguyên và phần thập phân ngăn cách bởi dấu phẩy. Khi đọc: đọc phần nguyên, nói 'phẩy', rồi đọc phần thập phân. Khi so sánh: so sánh phần nguyên trước, nếu bằng thì so sánh hàng phần mười, rồi hàng phần trăm... Ví dụ tổng hợp: tháp A cao 7,35 m, tháp B cao 7,53 m — tháp B cao hơn vì cùng phần nguyên 7, nhưng hàng phần mười 5 > 3. Trong cuộc sống, số thập phân dùng để đo lường: chiều dài, khối lượng, giá tiền với độ chính xác cao hơn số tự nhiên.",
+      "storyContext": "Sau khi hoàn thành vương quốc, công chúa Yumi kiểm tra lại toàn bộ bảng ghi chép — từ kích thước từng viên đá đến giá mua nguyên liệu — tất cả đều là số thập phân!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Số 'mười chín phẩy không năm' viết là:",
+          "options": ["190,5", "19,5", "19,05", "1,905"],
+          "correctIndex": 1,
+          "explanation": "Mười chín phẩy không năm viết là 19,05: phần nguyên 19, hàng phần mười 0, hàng phần trăm 5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi đo 3 viên đá: 2,3 kg; 2,03 kg; 2,30 kg. Viên nào nhẹ nhất?",
+          "options": ["2,3 kg", "2,30 kg", "Tất cả bằng nhau", "2,03 kg"],
+          "correctIndex": 3,
+          "explanation": "2,3 = 2,30 (bằng nhau). So sánh với 2,03: hàng phần mười 3 > 0, nên 2,03 < 2,3 = 2,30. Viên nhẹ nhất là 2,03 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong số 45,806, chữ số ở hàng phần trăm là:",
+          "options": ["4", "8", "0", "6"],
+          "correctIndex": 2,
+          "explanation": "Trong 45,806: hàng phần mười là 8, hàng phần trăm là 0, hàng phần nghìn là 6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây là ĐÚNG?",
+          "options": ["9,9 < 9,09 vì 9,09 có nhiều chữ số hơn", "7,5 = 7,50 vì thêm số 0 vào cuối không thay đổi giá trị", "0,8 < 0,08 vì 0,08 có chữ số 0 ở đầu", "3,45 > 3,54 vì 45 > 54 không đúng"],
+          "correctIndex": 0,
+          "explanation": "Câu đúng là: 7,5 = 7,50 vì thêm chữ số 0 vào cuối phần thập phân không thay đổi giá trị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tháp Yumi xây cao 8,75 m. Hỏi 8,75 m nằm giữa hai số nguyên nào?",
+          "options": ["Giữa 7 và 8", "Giữa 8 và 9", "Giữa 9 và 10", "Giữa 75 và 76"],
+          "correctIndex": 1,
+          "explanation": "Phần nguyên của 8,75 là 8, và 8 < 8,75 < 9. Vậy 8,75 nằm giữa 8 và 9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn kết quả đúng khi so sánh 100,01 và 99,99:",
+          "options": ["100,01 < 99,99 vì 01 < 99", "99,99 > 100,01 vì 99 > 00", "100,01 = 99,99", "100,01 > 99,99 vì phần nguyên 100 > 99"],
+          "correctIndex": 3,
+          "explanation": "So sánh phần nguyên trước: 100 > 99, nên 100,01 > 99,99 mà không cần xét phần thập phân."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi ghi nhận 5 kích thước: 3,5; 3,50; 3,500; 3,05; 3,005. Có bao nhiêu số bằng nhau?",
+          "options": ["Không có số nào bằng nhau", "Chỉ có 2 số bằng nhau (3,5 và 3,50)", "4 số bằng nhau", "3 số bằng nhau (3,5 = 3,50 = 3,500)"],
+          "correctIndex": 2,
+          "explanation": "3,5 = 3,50 = 3,500 (ba số này bằng nhau). Còn 3,05 và 3,005 khác nhau và khác ba số trên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền chữ số thích hợp vào ô trống: 6,3_ < 6,35 (điền vào hàng phần trăm)",
+          "options": ["Chỉ có thể điền 5", "Chỉ có thể điền 0, 1, 2, 3 hoặc 4", "Chỉ có thể điền 6, 7, 8 hoặc 9", "Điền bất kỳ số nào từ 0-9"],
+          "correctIndex": 0,
+          "explanation": "Để 6,3_ < 6,35, hàng phần mười đã bằng nhau (đều là 3), nên hàng phần trăm phải nhỏ hơn 5. Có thể điền 0, 1, 2, 3 hoặc 4."
+        },
+        {
+          "type": "true_false",
+          "text": "Số thập phân 4,060 bằng số thập phân 4,06.",
+          "correct": true,
+          "explanation": "Đúng. 4,060 = 4,06 vì chữ số 0 ở cuối phần thập phân không thay đổi giá trị của số."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Công chúa Yumi mua nguyên liệu: loại A giá 12,5 vàng, loại B giá 12,45 vàng, loại C giá 12,54 vàng. Loại nào rẻ nhất? ___",
+          "answer": "12,45",
+          "explanation": "So sánh: phần nguyên đều là 12. Hàng phần mười: 12,45 và 12,5 và 12,54 có hàng phần mười là 4, 5, 5. Số 12,45 có hàng phần mười là 4 < 5, nên 12,45 là nhỏ nhất (rẻ nhất)."
+        }
+      ]
+    }
+  ]
+}

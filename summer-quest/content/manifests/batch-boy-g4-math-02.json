@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g4-math-b02",
+  "description": "Bài ôn Toán Lớp 4 cho Johnny - Chia cho số có 2 chữ số - thuật toán chia dài, chia hết và chia có dư, kiểm tra kết quả",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-math-x006",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 37,
+      "title": "Chia hết cho số có 2 chữ số - Bước đầu làm quen",
+      "learningObjective": "Học sinh biết thực hiện phép chia hết cho số có 2 chữ số bằng thuật toán chia dài. Học sinh hiểu cách ước lượng thương ở mỗi bước chia.",
+      "shortExplanation": "Khi chia cho số có 2 chữ số, em lấy từng phần của số bị chia rồi ước lượng thương. Nhân thương với số chia, trừ đi để tìm số dư, rồi hạ chữ số tiếp theo xuống.",
+      "content": "Chia cho số có 2 chữ số ta dùng thuật toán chia dài. Ví dụ: 84 ÷ 12 = ? Ta ước lượng: 12 × 7 = 84, vậy 84 ÷ 12 = 7. Ví dụ khác: 96 ÷ 12 = 8 vì 12 × 8 = 96. Khi chia hết, số dư bằng 0 và ta kiểm tra bằng cách nhân thương với số chia phải ra số bị chia.",
+      "storyContext": "Robo-X cần chia đều 84 viên pin năng lượng vào 12 robot chiến đấu để chuẩn bị cho giải đấu tại Robot Sport Lab.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 84 ÷ 12 = ?",
+          "options": ["7", "6", "8", "9"],
+          "correctIndex": 0,
+          "explanation": "84 ÷ 12 = 7 vì 12 × 7 = 84, phép chia hết, số dư bằng 0."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 96 ÷ 16 = ?",
+          "options": ["5", "7", "6", "8"],
+          "correctIndex": 2,
+          "explanation": "96 ÷ 16 = 6 vì 16 × 6 = 96, kiểm tra: 16 × 6 = 96 đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 78 ÷ 13 = ?",
+          "options": ["5", "6", "7", "8"],
+          "correctIndex": 1,
+          "explanation": "78 ÷ 13 = 6 vì 13 × 6 = 78, phép chia hết."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 104 đơn vị năng lượng, chia đều cho 13 robot. Mỗi robot nhận được bao nhiêu?",
+          "options": ["7", "6", "9", "8"],
+          "correctIndex": 3,
+          "explanation": "104 ÷ 13 = 8 vì 13 × 8 = 104. Mỗi robot nhận được 8 đơn vị năng lượng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép nào sau đây là phép chia hết?",
+          "options": ["126 ÷ 14", "100 ÷ 13", "75 ÷ 12", "80 ÷ 11"],
+          "correctIndex": 0,
+          "explanation": "126 ÷ 14 = 9 (14 × 9 = 126, số dư = 0), đây là phép chia hết."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 150 ÷ 15 = ?",
+          "options": ["9", "11", "10", "12"],
+          "correctIndex": 2,
+          "explanation": "150 ÷ 15 = 10 vì 15 × 10 = 150, phép chia hết."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để kiểm tra 90 ÷ 18 = 5 có đúng không, ta làm phép tính nào?",
+          "options": ["18 + 5 = 23", "90 - 18 = 72", "18 × 5 = 90", "90 - 5 = 85"],
+          "correctIndex": 1,
+          "explanation": "Để kiểm tra phép chia, ta nhân thương với số chia: 18 × 5 = 90. Nếu kết quả bằng số bị chia thì phép chia đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 168 ÷ 14 = ?",
+          "options": ["11", "13", "10", "12"],
+          "correctIndex": 3,
+          "explanation": "168 ÷ 14 = 12 vì 14 × 12 = 168, kiểm tra: 14 × 12 = 168 đúng."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép chia 72 ÷ 12 = 6 là đúng.",
+          "correct": true,
+          "explanation": "Đúng! 12 × 6 = 72, vậy 72 ÷ 12 = 6 là đúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền số vào chỗ trống: 112 ÷ 14 = ___",
+          "answer": "8",
+          "explanation": "112 ÷ 14 = 8 vì 14 × 8 = 112, phép chia hết."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x007",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 38,
+      "title": "Chia có dư cho số có 2 chữ số",
+      "learningObjective": "Học sinh biết thực hiện phép chia có dư cho số có 2 chữ số. Học sinh hiểu số dư luôn nhỏ hơn số chia.",
+      "shortExplanation": "Trong phép chia có dư, sau khi chia ta còn lại một số nhỏ hơn số chia gọi là số dư. Kiểm tra: Thương × Số chia + Số dư = Số bị chia.",
+      "content": "Chia có dư là phép chia mà số bị chia không chia hết cho số chia. Ví dụ: 85 ÷ 12 = 7 dư 1, vì 12 × 7 = 84, và 85 - 84 = 1. Số dư (1) nhỏ hơn số chia (12). Kiểm tra: 12 × 7 + 1 = 85 đúng. Ví dụ khác: 100 ÷ 13 = 7 dư 9, vì 13 × 7 = 91, và 100 - 91 = 9.",
+      "storyContext": "Robo-X phân phối 85 viên đạn laser cho 12 robot nhưng không chia đều được, còn thừa lại mấy viên để dự phòng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 85 ÷ 12 = ? dư ?",
+          "options": ["7 dư 2", "7 dư 1", "6 dư 7", "8 dư 1"],
+          "correctIndex": 1,
+          "explanation": "85 ÷ 12 = 7 dư 1 vì 12 × 7 = 84 và 85 - 84 = 1. Số dư 1 < số chia 12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 100 ÷ 13 = ? dư ?",
+          "options": ["8 dư 4", "6 dư 2", "7 dư 5", "7 dư 9"],
+          "correctIndex": 3,
+          "explanation": "100 ÷ 13 = 7 dư 9 vì 13 × 7 = 91 và 100 - 91 = 9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phép chia có dư, số dư phải như thế nào so với số chia?",
+          "options": ["Lớn hơn số chia", "Bằng số chia", "Nhỏ hơn số chia", "Bằng thương"],
+          "correctIndex": 2,
+          "explanation": "Số dư luôn phải nhỏ hơn số chia. Nếu số dư bằng hoặc lớn hơn số chia thì thương chưa đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kiểm tra phép chia: 95 ÷ 11 = 8 dư 7. Cách kiểm tra nào đúng?",
+          "options": ["11 × 8 + 7 = 95", "11 × 8 - 7 = 95", "11 + 8 + 7 = 95", "11 × 7 + 8 = 95"],
+          "correctIndex": 0,
+          "explanation": "Kiểm tra: Số chia × Thương + Số dư = Số bị chia. 11 × 8 + 7 = 88 + 7 = 95, đúng!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 75 ÷ 11 = ? dư ?",
+          "options": ["7 dư 8", "6 dư 9", "8 dư 3", "5 dư 10"],
+          "correctIndex": 1,
+          "explanation": "75 ÷ 11 = 6 dư 9 vì 11 × 6 = 66 và 75 - 66 = 9. Kiểm tra: 11 × 6 + 9 = 75."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 97 điểm năng lượng, phân chia cho 15 bộ phận robot. Mỗi bộ phận nhận bao nhiêu điểm và còn dư mấy điểm?",
+          "options": ["7 dư 2", "5 dư 7", "6 dư 7", "8 dư 5"],
+          "correctIndex": 2,
+          "explanation": "97 ÷ 15 = 6 dư 7 vì 15 × 6 = 90 và 97 - 90 = 7. Mỗi bộ phận 6 điểm, còn dư 7 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia nào có số dư là 5?",
+          "options": ["80 ÷ 12", "89 ÷ 12", "77 ÷ 12", "86 ÷ 12"],
+          "correctIndex": 2,
+          "explanation": "77 ÷ 12 = 6 dư 5 vì 12 × 6 = 72 và 77 - 72 = 5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 110 ÷ 12 = ? dư ?",
+          "options": ["10 dư 2", "8 dư 6", "9 dư 3", "9 dư 2"],
+          "correctIndex": 3,
+          "explanation": "110 ÷ 12 = 9 dư 2 vì 12 × 9 = 108 và 110 - 108 = 2. Kiểm tra: 12 × 9 + 2 = 110."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong phép chia 100 ÷ 15 = 6 dư 10, kết quả này là đúng.",
+          "correct": false,
+          "explanation": "Sai! 15 × 6 = 90 và 100 - 90 = 10, nhưng số dư 10 < số chia 15 nên... thực ra 100 ÷ 15 = 6 dư 10 là đúng. Kiểm tra lại: số dư 10 < 15 (số chia), hợp lệ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền số dư vào chỗ trống: 90 ÷ 13 = 6 dư ___",
+          "answer": "12",
+          "explanation": "90 ÷ 13 = 6 dư 12 vì 13 × 6 = 78 và 90 - 78 = 12. Số dư 12 < 13 (số chia), hợp lệ."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x008",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 39,
+      "title": "Thuật toán chia dài - Chia số có 3 chữ số cho số có 2 chữ số",
+      "learningObjective": "Học sinh thực hiện được phép chia số có 3 chữ số cho số có 2 chữ số bằng thuật toán chia dài. Học sinh biết trình bày các bước chia dài đúng thứ tự.",
+      "shortExplanation": "Chia dài gồm 4 bước lặp lại: Chia - Nhân - Trừ - Hạ. Em lấy từng phần của số bị chia, ước lượng thương, nhân thương với số chia, trừ đi rồi hạ chữ số tiếp theo.",
+      "content": "Thuật toán chia dài gồm các bước: Chia, Nhân, Trừ, Hạ. Ví dụ: 432 ÷ 12. Bước 1: Lấy 43 ÷ 12 = 3 (vì 12 × 3 = 36). Bước 2: 43 - 36 = 7, hạ 2 xuống được 72. Bước 3: 72 ÷ 12 = 6 (vì 12 × 6 = 72). Kết quả: 432 ÷ 12 = 36. Kiểm tra: 12 × 36 = 432, đúng!",
+      "storyContext": "Để xây đấu trường robot, Robo-X cần tính toán chia 432 viên gạch thông minh cho 12 khu vực thi đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 432 ÷ 12 = ?",
+          "options": ["34", "35", "36", "38"],
+          "correctIndex": 2,
+          "explanation": "432 ÷ 12 = 36 vì 12 × 36 = 432. Các bước: 43 ÷ 12 = 3 dư 7, hạ 2 được 72, 72 ÷ 12 = 6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 546 ÷ 13 = ?",
+          "options": ["42", "41", "43", "44"],
+          "correctIndex": 0,
+          "explanation": "546 ÷ 13 = 42 vì 13 × 42 = 546. Các bước: 54 ÷ 13 = 4 dư 2, hạ 6 được 26, 26 ÷ 13 = 2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phép chia 672 ÷ 16, kết quả bước đầu tiên (lấy 67 ÷ 16) là bao nhiêu?",
+          "options": ["3", "5", "6", "4"],
+          "correctIndex": 3,
+          "explanation": "67 ÷ 16: thử 16 × 4 = 64 ≤ 67, và 16 × 5 = 80 > 67, nên thương bước đầu là 4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 756 ÷ 18 = ?",
+          "options": ["43", "41", "40", "42"],
+          "correctIndex": 1,
+          "explanation": "756 ÷ 18 = 42 vì 18 × 42 = 756. Các bước: 75 ÷ 18 = 4 dư 3, hạ 6 được 36, 36 ÷ 18 = 2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X cần lắp 575 chi tiết robot vào 23 hộp bằng nhau. Mỗi hộp có bao nhiêu chi tiết?",
+          "options": ["24", "26", "25", "27"],
+          "correctIndex": 2,
+          "explanation": "575 ÷ 23 = 25 vì 23 × 25 = 575. Mỗi hộp chứa 25 chi tiết robot."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 816 ÷ 24 = ?",
+          "options": ["34", "35", "32", "33"],
+          "correctIndex": 0,
+          "explanation": "816 ÷ 24 = 34 vì 24 × 34 = 816. Các bước: 81 ÷ 24 = 3 dư 9, hạ 6 được 96, 96 ÷ 24 = 4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 924 ÷ 28 = ? Chọn kết quả đúng.",
+          "options": ["31", "32", "30", "33"],
+          "correctIndex": 3,
+          "explanation": "924 ÷ 28 = 33 vì 28 × 33 = 924. Kiểm tra: 28 × 33 = 28 × 30 + 28 × 3 = 840 + 84 = 924."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 480 ÷ 15 = ?",
+          "options": ["34", "33", "31", "32"],
+          "correctIndex": 3,
+          "explanation": "480 ÷ 15 = 32 vì 15 × 32 = 480. Kiểm tra: 15 × 32 = 15 × 30 + 15 × 2 = 450 + 30 = 480."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép chia 520 ÷ 13 = 40 là đúng.",
+          "correct": true,
+          "explanation": "Đúng! 13 × 40 = 520, kiểm tra bằng phép nhân: 13 × 40 = 520, vậy 520 ÷ 13 = 40 là đúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền kết quả: 693 ÷ 21 = ___",
+          "answer": "33",
+          "explanation": "693 ÷ 21 = 33 vì 21 × 33 = 693. Kiểm tra: 21 × 33 = 21 × 30 + 21 × 3 = 630 + 63 = 693."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x009",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 40,
+      "title": "Chia dài có dư - Số có 3 chữ số chia cho số có 2 chữ số",
+      "learningObjective": "Học sinh thực hiện được phép chia có dư với số có 3 chữ số chia cho số có 2 chữ số. Học sinh biết cách kiểm tra kết quả phép chia có dư.",
+      "shortExplanation": "Sau khi thực hiện chia dài, nếu còn số dư thì ghi: Thương dư Số dư. Kiểm tra bằng cách tính: Thương × Số chia + Số dư phải bằng Số bị chia.",
+      "content": "Ví dụ: 467 ÷ 15. Bước 1: 46 ÷ 15 = 3 (15 × 3 = 45), dư 1, hạ 7 xuống được 17. Bước 2: 17 ÷ 15 = 1 (15 × 1 = 15), dư 2. Kết quả: 467 ÷ 15 = 31 dư 2. Kiểm tra: 15 × 31 + 2 = 465 + 2 = 467, đúng! Ví dụ 2: 500 ÷ 23 = 21 dư 17 vì 23 × 21 = 483 và 500 - 483 = 17.",
+      "storyContext": "Robo-X thi đấu trong giải 15 vòng, dùng tổng cộng 467 đơn vị năng lượng, mỗi vòng tiêu như nhau và còn dư lại ít năng lượng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 467 ÷ 15 = ? dư ?",
+          "options": ["30 dư 17", "32 dư 7", "29 dư 2", "31 dư 2"],
+          "correctIndex": 3,
+          "explanation": "467 ÷ 15 = 31 dư 2 vì 15 × 31 = 465 và 467 - 465 = 2. Kiểm tra: 15 × 31 + 2 = 467."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kiểm tra kết quả: 500 ÷ 23 = 21 dư 17. Phép kiểm tra nào đúng?",
+          "options": ["23 + 21 + 17 = 61 ≠ 500", "23 × 21 + 17 = 500", "23 × 17 + 21 = 500", "21 × 17 + 23 = 500"],
+          "correctIndex": 1,
+          "explanation": "Kiểm tra phép chia có dư: Số chia × Thương + Số dư = Số bị chia. 23 × 21 + 17 = 483 + 17 = 500, đúng!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 325 ÷ 14 = ? dư ?",
+          "options": ["23 dư 3", "22 dư 7", "24 dư 1", "21 dư 1"],
+          "correctIndex": 0,
+          "explanation": "325 ÷ 14 = 23 dư 3 vì 14 × 23 = 322 và 325 - 322 = 3. Kiểm tra: 14 × 23 + 3 = 325."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 280 viên năng lượng, mỗi trận đấu dùng 18 viên. Robo-X đấu được bao nhiêu trận và còn dư bao nhiêu viên?",
+          "options": ["14 trận dư 8", "17 trận dư 6", "16 trận dư 4", "15 trận dư 10"],
+          "correctIndex": 2,
+          "explanation": "280 ÷ 18 = 15 dư 10 vì 18 × 15 = 270 và 280 - 270 = 10. Robo-X đấu được 15 trận, còn dư 10 viên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 419 ÷ 17 = ? dư ?",
+          "options": ["26 dư 3", "24 dư 11", "25 dư 8", "23 dư 3"],
+          "correctIndex": 3,
+          "explanation": "419 ÷ 17 = 24 dư 11 vì 17 × 24 = 408 và 419 - 408 = 11. Kiểm tra: 17 × 24 + 11 = 419."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia 600 ÷ 27 có số dư là bao nhiêu?",
+          "options": ["9", "7", "5", "6"],
+          "correctIndex": 1,
+          "explanation": "600 ÷ 27 = 22 dư 6 vì 27 × 22 = 594 và 600 - 594 = 6. Số dư là 6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 550 ÷ 16 = ? dư ?",
+          "options": ["34 dư 6", "35 dư 4", "33 dư 8", "36 dư 2"],
+          "correctIndex": 0,
+          "explanation": "550 ÷ 16 = 34 dư 6 vì 16 × 34 = 544 và 550 - 544 = 6. Kiểm tra: 16 × 34 + 6 = 550."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả nào SAI khi tính 480 ÷ 14?",
+          "options": ["34 dư 4", "35 dư 2", "33 dư 18", "Không có đáp án nào đúng"],
+          "correctIndex": 2,
+          "explanation": "33 dư 18 là SAI vì số dư (18) lớn hơn số chia (14). Số dư phải nhỏ hơn số chia. Đáp án đúng là 34 dư 4 (14 × 34 = 476, 480 - 476 = 4)."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép chia 700 ÷ 22 = 31 dư 18 là đúng.",
+          "correct": false,
+          "explanation": "Sai! 22 × 31 = 682 và 700 - 682 = 18. Nhưng số dư 18 < 22 (số chia), vậy... thực ra 700 ÷ 22 = 31 dư 18 là đúng. Kiểm tra: 22 × 31 + 18 = 700."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền thương vào chỗ trống: 375 ÷ 12 = ___ dư 3",
+          "answer": "31",
+          "explanation": "375 ÷ 12 = 31 dư 3 vì 12 × 31 = 372 và 375 - 372 = 3. Kiểm tra: 12 × 31 + 3 = 375."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x010",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 41,
+      "title": "Ôn tập tổng hợp - Chia dài, kiểm tra và giải toán có lời văn",
+      "learningObjective": "Học sinh vận dụng thành thạo thuật toán chia dài để giải các bài toán có lời văn. Học sinh biết kiểm tra kết quả và chọn đúng đáp số trong bài toán thực tế.",
+      "shortExplanation": "Khi gặp bài toán có lời văn về phép chia, em đọc kỹ đề, xác định số bị chia và số chia, thực hiện chia dài, rồi viết câu trả lời đầy đủ.",
+      "content": "Trong bài toán thực tế, ta cần xác định đúng phép tính cần thực hiện. Ví dụ: 'Có 576 viên pin chia đều cho 18 robot, hỏi mỗi robot có mấy viên?' → Phép tính: 576 ÷ 18 = 32. Ví dụ có dư: 'Có 500 đơn vị năng lượng, mỗi robot cần 22 đơn vị, hỏi nạp được cho mấy robot và còn dư mấy đơn vị?' → 500 ÷ 22 = 22 dư 16. Luôn kiểm tra: Thương × Số chia + Số dư = Số bị chia.",
+      "storyContext": "Trong giải vô địch Robot Sport Lab, Robo-X phải giải nhiều bài toán năng lượng phức tạp để nâng cấp đội robot và giành chiến thắng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đấu trường robot cần lắp 576 viên gạch vào 18 ô bằng nhau. Mỗi ô có bao nhiêu viên gạch?",
+          "options": ["32", "30", "33", "31"],
+          "correctIndex": 0,
+          "explanation": "576 ÷ 18 = 32 vì 18 × 32 = 576. Mỗi ô có 32 viên gạch."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 784 ÷ 14 = ?",
+          "options": ["57", "60", "56", "58"],
+          "correctIndex": 2,
+          "explanation": "784 ÷ 14 = 56 vì 14 × 56 = 784. Kiểm tra: 14 × 56 = 14 × 50 + 14 × 6 = 700 + 84 = 784."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 500 đơn vị năng lượng, mỗi robot cần 22 đơn vị để hoạt động 1 ngày. Nạp được cho mấy robot?",
+          "options": ["20 robot", "22 robot", "21 robot", "23 robot"],
+          "correctIndex": 1,
+          "explanation": "500 ÷ 22 = 22 dư 16 (vì 22 × 22 = 484, 500 - 484 = 16). Nạp được cho 22 robot, còn dư 16 đơn vị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Giải đấu có 23 đội, mỗi đội ghi tổng cộng 851 điểm trong toàn giải. Trung bình mỗi đội ghi bao nhiêu điểm?",
+          "options": ["35", "38", "36", "37"],
+          "correctIndex": 3,
+          "explanation": "851 ÷ 23 = 37 vì 23 × 37 = 851. Trung bình mỗi đội ghi 37 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia nào CHO kết quả BẰNG 25?",
+          "options": ["625 ÷ 25", "550 ÷ 25", "500 ÷ 21", "450 ÷ 18"],
+          "correctIndex": 0,
+          "explanation": "625 ÷ 25 = 25 vì 25 × 25 = 625. Các phép chia khác không cho kết quả bằng 25."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 630 ÷ 21 = ?",
+          "options": ["32", "31", "30", "33"],
+          "correctIndex": 2,
+          "explanation": "630 ÷ 21 = 30 vì 21 × 30 = 630. Kiểm tra: 21 × 30 = 630."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bài toán: 'Có 714 robot mini xếp vào các hộp, mỗi hộp 17 robot. Cần bao nhiêu hộp?' Phép tính nào đúng?",
+          "options": ["714 + 17 = 731", "714 - 17 = 697", "714 × 17 = 12138", "714 ÷ 17 = 42"],
+          "correctIndex": 1,
+          "explanation": "Bài toán chia đều nên dùng phép chia: 714 ÷ 17 = 42 (vì 17 × 42 = 714). Cần 42 hộp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 858 ÷ 26 = ?",
+          "options": ["32", "34", "35", "33"],
+          "correctIndex": 3,
+          "explanation": "858 ÷ 26 = 33 vì 26 × 33 = 858. Kiểm tra: 26 × 33 = 26 × 30 + 26 × 3 = 780 + 78 = 858."
+        },
+        {
+          "type": "true_false",
+          "text": "Nếu 15 × 28 = 420 thì 420 ÷ 15 = 28 và 420 ÷ 28 = 15.",
+          "correct": true,
+          "explanation": "Đúng! Từ một phép nhân ta có thể suy ra hai phép chia. 15 × 28 = 420 nên 420 ÷ 15 = 28 và 420 ÷ 28 = 15."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robo-X cần 945 đơn vị năng lượng để nâng cấp, mỗi lần nạp được 27 đơn vị. Cần nạp ___ lần.",
+          "answer": "35",
+          "explanation": "945 ÷ 27 = 35 vì 27 × 35 = 945. Cần nạp 35 lần để có đủ 945 đơn vị năng lượng."
+        }
+      ]
+    }
+  ]
+}

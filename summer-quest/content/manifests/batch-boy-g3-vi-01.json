@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-vi-b01",
+  "description": "Bài ôn Tiếng Việt Lớp 3 cho Johnny - Từ chỉ sự vật, người, nơi chốn - nhận biết danh từ",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "lab_tool"
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-vi-x001",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 7,
+      "title": "Danh từ chỉ sự vật xung quanh",
+      "learningObjective": "Học sinh nhận biết được danh từ chỉ sự vật (đồ vật, con vật, cây cối) trong câu văn đơn giản. Học sinh phân biệt danh từ với các từ loại khác như động từ và tính từ.",
+      "shortExplanation": "Hãy đọc kỹ câu văn và tìm những từ chỉ tên của đồ vật, con vật, hoặc cây cối. Các từ đó chính là danh từ chỉ sự vật!",
+      "content": "Danh từ là những từ dùng để gọi tên sự vật, người, hoặc nơi chốn. Danh từ chỉ sự vật là những từ chỉ tên đồ vật, con vật, cây cối. Ví dụ: 'quyển sách', 'con mèo', 'cây bàng' đều là danh từ chỉ sự vật. Trong câu 'Con chó chạy nhanh', từ 'con chó' là danh từ chỉ sự vật, còn 'chạy' là động từ và 'nhanh' là tính từ. Khi đọc câu văn, em hãy tìm những từ trả lời cho câu hỏi 'Cái gì?' hoặc 'Con gì?' để tìm danh từ chỉ sự vật.",
+      "storyContext": "Robo-X đang quét chữ trên bản đồ và phát hiện ra nhiều tên gọi của các vật thể trong phòng thí nghiệm — đó chính là những danh từ chỉ sự vật cần học!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong các từ sau, từ nào là danh từ chỉ sự vật?",
+          "options": ["quyển vở", "chạy nhảy", "xinh đẹp", "rất vui"],
+          "correctIndex": 0,
+          "explanation": "'Quyển vở' là danh từ chỉ sự vật vì nó là tên của một đồ vật. 'Chạy nhảy' là động từ, 'xinh đẹp' và 'rất vui' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây có chứa danh từ chỉ sự vật?",
+          "options": ["Em học rất chăm chỉ.", "Bầu trời hôm nay thật đẹp.", "Con bướm đậu trên bông hoa.", "Cô giáo giảng bài rất hay."],
+          "correctIndex": 2,
+          "explanation": "'Con bướm' và 'bông hoa' trong câu 'Con bướm đậu trên bông hoa' đều là danh từ chỉ sự vật (con vật và thực vật)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG phải là danh từ chỉ sự vật?",
+          "options": ["con trâu", "cái bàn", "nhanh nhẹn", "chiếc xe"],
+          "correctIndex": 1,
+          "explanation": "'Nhanh nhẹn' là tính từ, không phải danh từ chỉ sự vật. 'Con trâu', 'cái bàn', và 'chiếc xe' đều là danh từ chỉ sự vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chú mèo ngồi trên chiếc ghế êm ái', có bao nhiêu danh từ chỉ sự vật?",
+          "options": ["1 danh từ", "3 danh từ", "4 danh từ", "2 danh từ"],
+          "correctIndex": 3,
+          "explanation": "Câu này có 2 danh từ chỉ sự vật: 'chú mèo' (con vật) và 'chiếc ghế' (đồ vật). 'Ngồi' là động từ, 'êm ái' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là danh từ chỉ con vật?",
+          "options": ["con ong", "cái hoa", "màu vàng", "bay lượn"],
+          "correctIndex": 0,
+          "explanation": "'Con ong' là danh từ chỉ sự vật (cụ thể là con vật). 'Cái hoa' chỉ cây cối, 'màu vàng' là tính từ, 'bay lượn' là động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong danh sách sau, nhóm nào gồm toàn danh từ chỉ sự vật?",
+          "options": ["chạy, nhảy, bơi", "to, nhỏ, dài", "đẹp, xấu, cao", "quyển sách, cái bút, con mèo"],
+          "correctIndex": 2,
+          "explanation": "'Quyển sách, cái bút, con mèo' đều là danh từ chỉ sự vật. Nhóm đầu là động từ, nhóm thứ hai và ba là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào giúp em tìm danh từ chỉ sự vật trong câu?",
+          "options": ["Làm gì? Thế nào?", "Cái gì? Con gì?", "Như thế nào? Ra sao?", "Ở đâu? Khi nào?"],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi 'Cái gì?' và 'Con gì?' giúp tìm danh từ chỉ sự vật. 'Làm gì?' tìm động từ, 'Như thế nào?' tìm tính từ, 'Ở đâu?' tìm danh từ chỉ nơi chốn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'chiếc máy bay' thuộc loại danh từ nào?",
+          "options": ["Danh từ chỉ người", "Danh từ chỉ nơi chốn", "Danh từ chỉ thời gian", "Danh từ chỉ sự vật"],
+          "correctIndex": 3,
+          "explanation": "'Chiếc máy bay' là danh từ chỉ sự vật vì nó là tên của một phương tiện — một đồ vật do con người tạo ra."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Cây xoài trước sân nhà em ra nhiều quả', cả 'cây xoài' và 'quả' đều là danh từ chỉ sự vật.",
+          "correct": true,
+          "explanation": "Đúng! 'Cây xoài' là danh từ chỉ thực vật và 'quả' là danh từ chỉ sự vật — cả hai đều thuộc nhóm danh từ chỉ sự vật."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp vào chỗ trống: 'Danh từ chỉ sự vật là những từ dùng để gọi tên ___, con vật, cây cối.'",
+          "answer": "đồ vật",
+          "explanation": "Danh từ chỉ sự vật gồm ba nhóm chính: đồ vật, con vật, và cây cối."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x002",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 8,
+      "title": "Danh từ chỉ người",
+      "learningObjective": "Học sinh nhận biết và phân loại được danh từ chỉ người trong các câu văn và đoạn văn ngắn. Học sinh hiểu rằng danh từ chỉ người bao gồm tên người, chức danh, nghề nghiệp và mối quan hệ gia đình.",
+      "shortExplanation": "Hãy tìm những từ chỉ tên người, chức danh hoặc nghề nghiệp trong câu — đó là danh từ chỉ người!",
+      "content": "Danh từ chỉ người là những từ dùng để gọi tên hoặc chỉ con người. Danh từ chỉ người gồm có: tên riêng (như Minh, Lan), mối quan hệ gia đình (như bố, mẹ, ông, bà), chức danh (như cô giáo, bác sĩ, chú bộ đội). Ví dụ trong câu 'Bác sĩ Nam khám bệnh cho bệnh nhân', các từ 'bác sĩ Nam' và 'bệnh nhân' đều là danh từ chỉ người. Danh từ chỉ người thường trả lời cho câu hỏi 'Ai?' Khi viết tên riêng của người, em nhớ viết hoa chữ cái đầu của mỗi tiếng.",
+      "storyContext": "Robo-X giải mã tín hiệu ngôn ngữ và nhận ra rằng mỗi từ chỉ người đều mang một vai trò đặc biệt trong câu chuyện của con người.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào sau đây là danh từ chỉ người?",
+          "options": ["con mèo", "cô giáo", "quyển sách", "ngôi trường"],
+          "correctIndex": 1,
+          "explanation": "'Cô giáo' là danh từ chỉ người vì đây là tên gọi chỉ một nghề nghiệp của con người. Các từ còn lại chỉ vật, động vật và nơi chốn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Ông nội kể chuyện cho em nghe', những từ nào là danh từ chỉ người?",
+          "options": ["kể chuyện, nghe", "ông nội, chuyện", "kể, em", "ông nội, em"],
+          "correctIndex": 3,
+          "explanation": "'Ông nội' và 'em' đều là danh từ chỉ người — đây là các từ chỉ mối quan hệ trong gia đình. 'Kể' là động từ, 'chuyện' là danh từ chỉ sự vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhóm nào gồm toàn danh từ chỉ người?",
+          "options": ["bác sĩ, học sinh, cô giáo", "bác sĩ, cái ghế, học sinh", "ngôi nhà, bố mẹ, học sinh", "con chó, ông bà, bác sĩ"],
+          "correctIndex": 2,
+          "explanation": "'Bác sĩ, học sinh, cô giáo' đều là danh từ chỉ người (nghề nghiệp và chức danh). Các nhóm khác có lẫn danh từ chỉ vật hoặc nơi chốn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào dùng để tìm danh từ chỉ người trong câu?",
+          "options": ["Ai?", "Cái gì?", "Ở đâu?", "Khi nào?"],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi 'Ai?' giúp tìm danh từ chỉ người trong câu. 'Cái gì?' tìm danh từ chỉ vật, 'Ở đâu?' tìm danh từ chỉ nơi chốn, 'Khi nào?' tìm từ chỉ thời gian."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG phải là danh từ chỉ người?",
+          "options": ["chú thợ hồ", "bà nội", "cây tre", "em bé"],
+          "correctIndex": 1,
+          "explanation": "'Cây tre' là danh từ chỉ thực vật, không phải danh từ chỉ người. 'Chú thợ hồ', 'bà nội', và 'em bé' đều là danh từ chỉ người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chú bộ đội tuần tra bảo vệ làng', danh từ chỉ người là từ nào?",
+          "options": ["tuần tra", "bảo vệ", "làng", "chú bộ đội"],
+          "correctIndex": 3,
+          "explanation": "'Chú bộ đội' là danh từ chỉ người (chỉ nghề nghiệp). 'Tuần tra' và 'bảo vệ' là động từ, 'làng' là danh từ chỉ nơi chốn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tên riêng nào sau đây là danh từ chỉ người được viết đúng chính tả?",
+          "options": ["bạn nam", "Bạn nam", "bạn Nam", "Bạn Nam"],
+          "correctIndex": 2,
+          "explanation": "Tên riêng của người phải viết hoa chữ cái đầu của mỗi tiếng. 'Nam' là tên riêng nên viết hoa, còn 'bạn' là danh từ chung nên viết thường: 'bạn Nam'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn 'Bố em là kỹ sư. Mỗi ngày bố đi làm sớm.' có bao nhiêu danh từ chỉ người?",
+          "options": ["3 danh từ", "1 danh từ", "4 danh từ", "2 danh từ"],
+          "correctIndex": 0,
+          "explanation": "Đoạn văn có 3 danh từ chỉ người: 'bố' (xuất hiện 2 lần) và 'kỹ sư'. Tuy nhiên tính theo loại từ khác nhau thì có 'bố em', 'kỹ sư', 'bố' — 3 danh từ chỉ người."
+        },
+        {
+          "type": "true_false",
+          "text": "Từ 'người bán hàng' là danh từ chỉ nghề nghiệp, thuộc nhóm danh từ chỉ người.",
+          "correct": false,
+          "explanation": "Sai! 'Người bán hàng' đúng là danh từ chỉ người nhưng không phải chỉ nghề nghiệp đơn thuần — đây là cụm từ chỉ hoạt động. Nghề nghiệp thường có tên riêng như 'bác sĩ', 'giáo viên'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp: 'Để tìm danh từ chỉ người trong câu, ta đặt câu hỏi ___?'",
+          "answer": "Ai",
+          "explanation": "Câu hỏi 'Ai?' được dùng để tìm danh từ chỉ người trong câu văn."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x003",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 9,
+      "title": "Danh từ chỉ nơi chốn",
+      "learningObjective": "Học sinh nhận biết và phân loại danh từ chỉ nơi chốn trong câu văn và đoạn văn. Học sinh hiểu sự khác biệt giữa danh từ chỉ nơi chốn cụ thể và nơi chốn tổng quát.",
+      "shortExplanation": "Hãy tìm những từ chỉ địa điểm, nơi ở, hoặc khu vực trong câu — đó là danh từ chỉ nơi chốn!",
+      "content": "Danh từ chỉ nơi chốn là những từ dùng để gọi tên địa điểm, nơi ở, vùng đất. Có hai loại: danh từ chỉ nơi chốn tổng quát (như trường học, bệnh viện, chợ, rừng, biển) và danh từ chỉ nơi chốn riêng — tên địa danh (như Hà Nội, sông Hồng, núi Phú Sĩ). Ví dụ: 'Gia đình em sống ở Đà Nẵng gần biển' — 'Đà Nẵng' là địa danh và 'biển' là nơi chốn tổng quát. Danh từ chỉ nơi chốn thường trả lời cho câu hỏi 'Ở đâu?' Tên địa danh (tên riêng) luôn được viết hoa.",
+      "storyContext": "Robo-X đọc bản đồ thiên nhiên và nhận ra mỗi ký hiệu trên bản đồ đều ứng với một danh từ chỉ nơi chốn — từ ngọn núi đến dòng sông!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào sau đây là danh từ chỉ nơi chốn?",
+          "options": ["con đường", "ngôi trường", "học sinh", "chạy bộ"],
+          "correctIndex": 2,
+          "explanation": "'Ngôi trường' là danh từ chỉ nơi chốn vì đây là tên gọi của một địa điểm. 'Con đường' gần đúng nhưng thường chỉ vật; 'học sinh' chỉ người; 'chạy bộ' là động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Địa danh nào sau đây được viết đúng chính tả?",
+          "options": ["hà nội", "Hà Nội", "hÀ nỘI", "HÀ NỘI"],
+          "correctIndex": 0,
+          "explanation": "'Hà Nội' — viết hoa chữ cái đầu của mỗi tiếng trong tên địa danh — là cách viết đúng chính tả tiếng Việt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Em học ở trường Tiểu học Lê Lợi gần nhà', danh từ chỉ nơi chốn là?",
+          "options": ["em, nhà", "học, gần", "nhà, trường Tiểu học Lê Lợi", "trường Tiểu học Lê Lợi"],
+          "correctIndex": 3,
+          "explanation": "'Trường Tiểu học Lê Lợi' và 'nhà' đều là danh từ chỉ nơi chốn trong câu này. Tuy nhiên đáp án đầy đủ nhất là cả hai từ chỉ địa điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào dùng để tìm danh từ chỉ nơi chốn?",
+          "options": ["Ai làm?", "Ở đâu?", "Cái gì?", "Khi nào?"],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi 'Ở đâu?' giúp tìm danh từ chỉ nơi chốn trong câu. 'Ai làm?' tìm danh từ chỉ người, 'Cái gì?' tìm danh từ chỉ vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhóm nào gồm toàn danh từ chỉ nơi chốn?",
+          "options": ["bệnh viện, chợ, rừng", "bệnh viện, bác sĩ, rừng", "chợ, cái bàn, biển", "núi, con chim, hồ"],
+          "correctIndex": 2,
+          "explanation": "'Bệnh viện, chợ, rừng' đều là danh từ chỉ nơi chốn. Nhóm thứ hai có 'bác sĩ' là danh từ chỉ người, nhóm ba và bốn có danh từ chỉ vật và con vật lẫn vào."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'quê hương' thuộc loại danh từ nào?",
+          "options": ["Danh từ chỉ nơi chốn", "Danh từ chỉ người", "Danh từ chỉ sự vật", "Danh từ chỉ thời gian"],
+          "correctIndex": 0,
+          "explanation": "'Quê hương' là danh từ chỉ nơi chốn vì nó chỉ vùng đất, địa điểm nơi con người sinh ra hoặc gắn bó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong các câu sau, câu nào có danh từ chỉ nơi chốn là địa danh (tên riêng)?",
+          "options": ["Em đến bệnh viện khám bệnh.", "Bố mua hàng ở siêu thị.", "Gia đình em du lịch ở Hội An.", "Chúng em học ở trường."],
+          "correctIndex": 3,
+          "explanation": "Câu 'Gia đình em du lịch ở Hội An' có danh từ chỉ nơi chốn là địa danh: 'Hội An' — đây là tên riêng của một thành phố nên được viết hoa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn 'Sông Hương chảy qua thành phố Huế thơ mộng' có bao nhiêu danh từ chỉ nơi chốn?",
+          "options": ["3 danh từ", "1 danh từ", "4 danh từ", "2 danh từ"],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn có 2 danh từ chỉ nơi chốn: 'sông Hương' (địa danh tự nhiên) và 'thành phố Huế' (địa danh). 'Thơ mộng' là tính từ, không phải danh từ."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Mùa hè, gia đình em về thăm quê ở vùng nông thôn yên tĩnh', cả 'quê' và 'vùng nông thôn' đều là danh từ chỉ nơi chốn.",
+          "correct": true,
+          "explanation": "Đúng! Cả 'quê' và 'vùng nông thôn' đều là danh từ chỉ nơi chốn vì chúng chỉ địa điểm, vùng đất cụ thể trong câu."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp: 'Tên riêng của địa danh như tên thành phố, tên sông, tên núi phải được viết ___ chữ cái đầu mỗi tiếng.'",
+          "answer": "hoa",
+          "explanation": "Tên địa danh (tên riêng) trong tiếng Việt phải viết hoa chữ cái đầu của mỗi tiếng, ví dụ: Hà Nội, sông Mê Kông."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x004",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 10,
+      "title": "Phân biệt ba loại danh từ trong câu",
+      "learningObjective": "Học sinh phân biệt và phân loại chính xác ba loại danh từ (chỉ sự vật, chỉ người, chỉ nơi chốn) trong các câu văn và đoạn văn phức tạp hơn. Học sinh vận dụng được kiến thức để đặt câu với các loại danh từ khác nhau.",
+      "shortExplanation": "Đọc câu và tự hỏi: từ này trả lời cho câu hỏi 'Ai?', 'Cái gì/Con gì?' hay 'Ở đâu?' để xác định loại danh từ!",
+      "content": "Ba loại danh từ quan trọng cần phân biệt: danh từ chỉ sự vật (trả lời 'Cái gì? Con gì?'), danh từ chỉ người (trả lời 'Ai?'), và danh từ chỉ nơi chốn (trả lời 'Ở đâu?'). Trong một câu có thể có nhiều loại danh từ khác nhau. Ví dụ câu 'Cô giáo Lan dạy học ở trường Tiểu học Hòa Bình': 'Cô giáo Lan' là danh từ chỉ người, 'trường Tiểu học Hòa Bình' là danh từ chỉ nơi chốn. Để phân biệt, em cần đặt câu hỏi cho từng từ hoặc cụm từ trong câu. Kỹ năng này rất quan trọng để hiểu ý nghĩa và cấu trúc câu văn tiếng Việt.",
+      "storyContext": "Robo-X sắp xếp các tín hiệu ngôn ngữ theo ba nhóm màu khác nhau: đỏ cho người, xanh cho nơi chốn, và vàng cho sự vật — giúp đọc bản đồ nhanh hơn!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Bác nông dân cày ruộng ở cánh đồng rộng lớn', từ 'cánh đồng' là danh từ chỉ loại gì?",
+          "options": ["Danh từ chỉ người", "Danh từ chỉ sự vật", "Danh từ chỉ thời gian", "Danh từ chỉ nơi chốn"],
+          "correctIndex": 3,
+          "explanation": "'Cánh đồng' là danh từ chỉ nơi chốn vì đây là địa điểm, khu vực đất đai. Nó trả lời cho câu hỏi 'Ở đâu?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây có đủ cả ba loại danh từ (sự vật, người, nơi chốn)?",
+          "options": ["Con mèo nằm ngủ.", "Bố mua hoa ở chợ.", "Học sinh học bài ở nhà.", "Cô bán hoa quả đẹp."],
+          "correctIndex": 1,
+          "explanation": "'Bố mua hoa ở chợ' có: 'bố' (danh từ chỉ người), 'hoa' (danh từ chỉ sự vật), 'chợ' (danh từ chỉ nơi chốn) — đủ cả ba loại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'em' trong câu 'Em đi học' là danh từ chỉ loại gì?",
+          "options": ["Danh từ chỉ người", "Danh từ chỉ sự vật", "Danh từ chỉ nơi chốn", "Đại từ, không phải danh từ"],
+          "correctIndex": 0,
+          "explanation": "'Em' trong câu này dùng để chỉ một người (người nói), nên là danh từ chỉ người. Trong tiếng Việt, từ 'em' vừa là đại từ xưng hô vừa có chức năng như danh từ chỉ người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn văn 'Buổi sáng, chú chim sâu hót trên cành cây sau vườn', có bao nhiêu danh từ chỉ sự vật?",
+          "options": ["1 danh từ", "3 danh từ", "2 danh từ", "4 danh từ"],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn có 2 danh từ chỉ sự vật: 'cành cây' và 'vườn' (hay 'cành' và 'cây'). 'Chú chim sâu' là danh từ chỉ con vật (sự vật). Cách tính chuẩn: 'chú chim sâu', 'cành cây' — 2 danh từ chỉ sự vật rõ ràng nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ghép đúng: 'Bệnh viện Nhi đồng' thuộc loại danh từ nào?",
+          "options": ["Danh từ chỉ người", "Danh từ chỉ sự vật", "Danh từ chỉ thời gian", "Danh từ chỉ nơi chốn"],
+          "correctIndex": 3,
+          "explanation": "'Bệnh viện Nhi đồng' là danh từ chỉ nơi chốn vì đây là tên của một địa điểm — nơi khám và chữa bệnh cho trẻ em."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'thầy hiệu trưởng' là danh từ chỉ loại gì?",
+          "options": ["Danh từ chỉ sự vật", "Danh từ chỉ người", "Danh từ chỉ nơi chốn", "Danh từ chỉ thời gian"],
+          "correctIndex": 1,
+          "explanation": "'Thầy hiệu trưởng' là danh từ chỉ người vì đây là chức danh của một người — người lãnh đạo nhà trường."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đặt danh từ đúng loại trong chỗ trống: 'Em muốn đến ___ để xem sách.'?",
+          "options": ["thư viện", "thủ thư", "quyển sách", "đọc sách"],
+          "correctIndex": 0,
+          "explanation": "Chỗ trống cần danh từ chỉ nơi chốn (sau 'đến'). 'Thư viện' là nơi chốn phù hợp. 'Thủ thư' chỉ người, 'quyển sách' chỉ vật, 'đọc sách' là động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Mỗi sáng chủ nhật, bà ngoại dẫn Nam ra công viên chơi.' Có bao nhiêu danh từ chỉ người?",
+          "options": ["3 danh từ", "1 danh từ", "4 danh từ", "2 danh từ"],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn có 2 danh từ chỉ người: 'bà ngoại' và 'Nam'. 'Công viên' là danh từ chỉ nơi chốn, 'chủ nhật' là từ chỉ thời gian."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Ngư dân đánh cá trên biển', từ 'ngư dân' là danh từ chỉ người và từ 'biển' là danh từ chỉ nơi chốn.",
+          "correct": false,
+          "explanation": "Sai! Câu phân loại này thực ra đúng — 'ngư dân' là danh từ chỉ người (nghề nghiệp) và 'biển' là danh từ chỉ nơi chốn. Nhưng phát biểu trên sai vì từ 'cá' (trong 'đánh cá') cũng là danh từ chỉ sự vật bị bỏ qua."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ đúng: Danh từ chỉ ___ trả lời cho câu hỏi 'Ở đâu?' trong câu văn.",
+          "answer": "nơi chốn",
+          "explanation": "Danh từ chỉ nơi chốn trả lời cho câu hỏi 'Ở đâu?' — đây là cách phân biệt nó với danh từ chỉ người ('Ai?') và danh từ chỉ vật ('Cái gì?')."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x005",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 11,
+      "title": "Nhận biết danh từ qua ngữ cảnh câu văn",
+      "learningObjective": "Học sinh vận dụng tổng hợp kiến thức về danh từ để nhận biết và phân loại danh từ trong các đoạn văn có ngữ cảnh phức tạp hơn. Học sinh có thể đặt câu mới sử dụng đúng các loại danh từ.",
+      "shortExplanation": "Đọc kỹ cả đoạn văn, chú ý ngữ cảnh để xác định chính xác loại danh từ — đôi khi một từ có thể hiểu theo nhiều nghĩa khác nhau!",
+      "content": "Để nhận biết danh từ trong ngữ cảnh, em cần đọc toàn bộ câu và hiểu ý nghĩa của từ trong văn cảnh cụ thể. Ví dụ: từ 'xuân' trong 'Mùa xuân đến rồi' là danh từ chỉ thời gian, nhưng 'Xuân' trong 'Bạn Xuân học giỏi' là danh từ chỉ người (tên riêng). Tương tự, 'cầu' trong 'Cầu Rồng rất đẹp' là danh từ chỉ sự vật, còn 'Cầu' trong 'Cầu Giấy là một quận ở Hà Nội' là danh từ chỉ nơi chốn. Kỹ năng đọc hiểu ngữ cảnh giúp em xác định đúng loại và ý nghĩa của danh từ. Luyện tập nhiều với các đoạn văn phong phú sẽ giúp em thành thạo kỹ năng này.",
+      "storyContext": "Robo-X đã học đủ ba loại danh từ và giờ đây có thể đọc hiểu toàn bộ bản đồ thiên nhiên — nhận ra tên người, tên nơi chốn, và tên sự vật trong mọi tín hiệu ngôn ngữ!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn văn 'Sáng sớm, ngư dân ra khơi đánh cá trên biển Đông mênh mông', từ 'biển Đông' là danh từ chỉ loại gì?",
+          "options": ["Danh từ chỉ nơi chốn", "Danh từ chỉ sự vật", "Danh từ chỉ người", "Danh từ chỉ thời gian"],
+          "correctIndex": 0,
+          "explanation": "'Biển Đông' là danh từ chỉ nơi chốn — đây là tên địa danh của một vùng biển. Nó trả lời cho câu hỏi 'Ở đâu?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'Hồng' trong câu 'Bạn Hồng tặng em một bông hồng đỏ' — hai từ 'Hồng' và 'hồng' khác nhau như thế nào?",
+          "options": ["Cả hai đều là tính từ chỉ màu sắc", "Cả hai đều là danh từ chỉ người", "'Hồng' là danh từ chỉ người, 'hồng' là danh từ chỉ sự vật", "'Hồng' là tính từ, 'hồng' là danh từ"],
+          "correctIndex": 2,
+          "explanation": "'Hồng' (viết hoa) là tên riêng — danh từ chỉ người. 'Hồng' (viết thường trong 'bông hồng') là tên loài hoa — danh từ chỉ sự vật. Cách viết hoa giúp phân biệt hai loại danh từ này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chợ Bến Thành là biểu tượng của Thành phố Hồ Chí Minh', có bao nhiêu danh từ chỉ nơi chốn?",
+          "options": ["1 danh từ", "3 danh từ", "4 danh từ", "2 danh từ"],
+          "correctIndex": 1,
+          "explanation": "Câu có 2 danh từ chỉ nơi chốn: 'Chợ Bến Thành' (tên chợ — địa điểm) và 'Thành phố Hồ Chí Minh' (tên thành phố — địa danh). 'Biểu tượng' là danh từ chỉ sự vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây sử dụng danh từ chỉ người KHÔNG chính xác về nghĩa?",
+          "options": ["Bác sĩ khám bệnh cho bệnh nhân.", "Thầy giáo dạy học sinh.", "Người thợ rừng chặt cây.", "Nông dân trồng lúa trên đồng."],
+          "correctIndex": 3,
+          "explanation": "'Người thợ rừng chặt cây' có cách dùng danh từ không tự nhiên. Thông thường người ta nói 'tiều phu' hoặc 'người đốn củi' — nhưng về mặt ngữ pháp vẫn đúng. Đây là câu kiểm tra sự nhạy bén về ngữ cảnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn danh từ chỉ nơi chốn phù hợp nhất để điền vào câu: 'Em thường đến ___ để mượn sách đọc cuối tuần.'",
+          "options": ["thư viện", "thủ thư viên", "quyển sách hay", "đọc truyện tranh"],
+          "correctIndex": 0,
+          "explanation": "'Thư viện' là danh từ chỉ nơi chốn — địa điểm lưu trữ và cho mượn sách, phù hợp với nghĩa câu. 'Thủ thư viên' chỉ người, 'quyển sách hay' chỉ vật, 'đọc truyện tranh' là cụm động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Ông nội em là bác sĩ. Ông làm việc tại bệnh viện tỉnh từ nhiều năm nay.' Có tổng cộng bao nhiêu danh từ chỉ người?",
+          "options": ["1 danh từ", "3 danh từ", "4 danh từ", "2 danh từ"],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn có 3 danh từ chỉ người: 'ông nội', 'bác sĩ', 'ông' (lần 2). Cả ba đều chỉ cùng một người nhưng là 3 danh từ/đại từ chỉ người riêng biệt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Lớp em tham quan Bảo tàng Lịch sử để học về các anh hùng dân tộc', danh từ nào chỉ ĐỒNG THỜI vừa là danh từ chỉ người vừa mang tính địa danh?",
+          "options": ["lớp em", "Bảo tàng Lịch sử", "các anh hùng dân tộc", "tham quan"],
+          "correctIndex": 1,
+          "explanation": "'Các anh hùng dân tộc' là danh từ chỉ người (nhóm người) trong câu này. 'Bảo tàng Lịch sử' là danh từ chỉ nơi chốn. 'Lớp em' chỉ nhóm người, và 'tham quan' là động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có danh từ được dùng đúng ngữ cảnh nhất?",
+          "options": ["Em đến sông để mua cá.", "Em đến chợ để mua cá.", "Em đến núi để mua cá.", "Em đến rừng để mua cá."],
+          "correctIndex": 3,
+          "explanation": "Câu 'Em đến chợ để mua cá' sử dụng danh từ chỉ nơi chốn 'chợ' phù hợp nhất với ngữ cảnh mua bán. Đây là nơi thường được dùng để mua thực phẩm như cá."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Mùa hè, các bạn học sinh thường đến bãi biển Cửa Lò nghỉ mát', có tất cả ba loại danh từ: chỉ người, chỉ sự vật, và chỉ nơi chốn.",
+          "correct": true,
+          "explanation": "Đúng! Câu có: 'các bạn học sinh' (danh từ chỉ người), 'mùa hè' (danh từ chỉ thời gian/sự vật), 'bãi biển Cửa Lò' (danh từ chỉ nơi chốn) — đủ ba loại danh từ chính."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Từ 'Xuân' trong câu 'Bạn Xuân học giỏi' là danh từ chỉ ___, còn 'xuân' trong câu 'Mùa xuân đến rồi' là danh từ chỉ thời gian.",
+          "answer": "người",
+          "explanation": "'Xuân' viết hoa là tên riêng của một người — danh từ chỉ người. Ngữ cảnh và cách viết hoa/thường giúp phân biệt ý nghĩa của từ."
+        }
+      ]
+    }
+  ]
+}

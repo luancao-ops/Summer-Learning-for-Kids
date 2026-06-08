@@ -12,6 +12,7 @@
     "lint": "eslint",
     "test": "vitest run",
     "content:import": "tsx scripts/import-lessons.ts",
+    "content:validate": "node scripts/validate-answers.js",
     "prisma:migrate": "powershell -NoProfile -Command \"$env:RUST_LOG='debug'; npx prisma migrate deploy\"",
     "prisma:seed": "prisma db seed",
     "prisma:studio": "prisma studio",

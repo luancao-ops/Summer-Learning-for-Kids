@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g4-math-b01",
+  "description": "Bài ôn Toán Lớp 4 cho Johnny - Nhân với số có 2-3 chữ số - đặt tính nhân, tính từng hàng, cộng các tích riêng",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-math-x001",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 32,
+      "title": "Đặt tính nhân với số có hai chữ số",
+      "learningObjective": "Học sinh biết cách đặt tính và thực hiện phép nhân một số với số có hai chữ số theo đúng hàng, tính tích riêng và cộng lại để ra kết quả.",
+      "shortExplanation": "Đặt số lớn ở trên, số nhỏ ở dưới. Nhân hàng đơn vị trước, rồi nhân hàng chục — tích riêng thứ hai lùi sang trái một cột. Sau đó cộng hai tích riêng lại.",
+      "content": "Khi nhân một số với số có hai chữ số, ta đặt tính theo cột rồi thực hiện hai bước. Bước 1: nhân số trên với chữ số hàng đơn vị của số dưới, được tích riêng thứ nhất. Bước 2: nhân số trên với chữ số hàng chục của số dưới, được tích riêng thứ hai — viết lùi sang trái một cột vì nó ứng với hàng chục. Bước 3: cộng hai tích riêng lại để được kết quả cuối cùng. Ví dụ: 23 × 12. Tích riêng 1: 23 × 2 = 46. Tích riêng 2: 23 × 10 = 230 (lùi 1 cột). Kết quả: 46 + 230 = 276.",
+      "storyContext": "Robo-X cần tính tổng số pin năng lượng để chuẩn bị cho giải đấu robot: đội có 12 robot và mỗi robot cần 23 viên pin — phép nhân hai chữ số cho ra đáp án ngay!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 23 × 12 = ?",
+          "options": ["246", "266", "256", "276"],
+          "correctIndex": 3,
+          "explanation": "23 × 12 = 23 × 2 + 23 × 10 = 46 + 230 = 276. Cộng hai tích riêng 46 và 230 lại được 276."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi nhân 35 × 21, tích riêng thứ nhất (35 nhân với chữ số hàng đơn vị của 21) là bao nhiêu?",
+          "options": ["700", "35", "210", "350"],
+          "correctIndex": 1,
+          "explanation": "Chữ số hàng đơn vị của 21 là 1, nên tích riêng thứ nhất là 35 × 1 = 35."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 35 × 21 = ?",
+          "options": ["735", "700", "725", "705"],
+          "correctIndex": 0,
+          "explanation": "35 × 21 = 35 × 1 + 35 × 20 = 35 + 700 = 735. Cộng hai tích riêng 35 và 700 được 735."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp 14 tấm giáp cho mỗi robot, đội có 22 robot. Tổng số tấm giáp cần dùng là bao nhiêu?",
+          "options": ["280", "296", "308", "316"],
+          "correctIndex": 2,
+          "explanation": "14 × 22 = 14 × 2 + 14 × 20 = 28 + 280 = 308. Đội cần tổng cộng 308 tấm giáp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đặt tính nhân, tích riêng thứ hai được viết như thế nào so với tích riêng thứ nhất?",
+          "options": ["Thẳng hàng với tích riêng thứ nhất", "Tiến sang phải một cột", "Lùi sang trái hai cột", "Lùi sang trái một cột"],
+          "correctIndex": 3,
+          "explanation": "Tích riêng thứ hai ứng với hàng chục nên phải lùi sang trái một cột so với tích riêng thứ nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 41 × 13 = ?",
+          "options": ["503", "533", "513", "523"],
+          "correctIndex": 1,
+          "explanation": "41 × 13 = 41 × 3 + 41 × 10 = 123 + 410 = 533. Đáp án đúng là 533."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 52 × 11 = ?",
+          "options": ["572", "562", "552", "582"],
+          "correctIndex": 0,
+          "explanation": "52 × 11 = 52 × 1 + 52 × 10 = 52 + 520 = 572. Đáp án đúng là 572."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sân đấu robot có 31 hàng ghế, mỗi hàng có 22 ghế. Tổng số ghế là bao nhiêu?",
+          "options": ["672", "622", "682", "662"],
+          "correctIndex": 2,
+          "explanation": "31 × 22 = 31 × 2 + 31 × 20 = 62 + 620 = 682. Tổng số ghế là 682."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi tính 24 × 13, tích riêng thứ nhất là 72 (24 × 3) và tích riêng thứ hai là 240 (24 × 10), tổng bằng 312.",
+          "correct": true,
+          "explanation": "Đúng! 24 × 3 = 72, 24 × 10 = 240, và 72 + 240 = 312. Phép tính hoàn toàn chính xác."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 32 × 12 = ___",
+          "answer": "384",
+          "explanation": "32 × 12 = 32 × 2 + 32 × 10 = 64 + 320 = 384."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x002",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 33,
+      "title": "Nhân số có hai chữ số với số có hai chữ số có nhớ",
+      "learningObjective": "Học sinh thực hiện được phép nhân có nhớ khi tích của một hàng vượt quá 9, biết cộng số nhớ vào tích cột tiếp theo.",
+      "shortExplanation": "Khi nhân mà tích của một cột lớn hơn 9, ghi chữ số hàng đơn vị và nhớ chữ số hàng chục sang cột tiếp theo. Đừng quên cộng số nhớ vào cột bên trái!",
+      "content": "Phép nhân có nhớ xảy ra khi tích của một cột bằng 10 hoặc lớn hơn. Ta ghi lại chữ số hàng đơn vị, còn chữ số hàng chục được cộng vào tích cột tiếp theo (số nhớ). Ví dụ: 36 × 14. Tích riêng 1: 36 × 4 — tính 6 × 4 = 24 (ghi 4, nhớ 2), rồi 3 × 4 = 12 + 2 = 14 → tích riêng 1 = 144. Tích riêng 2: 36 × 10 = 360 (lùi 1 cột). Kết quả: 144 + 360 = 504. Luôn cẩn thận với số nhớ để không bị sai kết quả.",
+      "storyContext": "Mỗi bộ phận nâng cấp của Robo-X tăng thêm 36 đơn vị sức mạnh, lắp 14 bộ phận — Robo-X cần tính 36 × 14 có nhớ để biết tổng sức mạnh đạt được!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 36 × 14 = ?",
+          "options": ["504", "494", "514", "484"],
+          "correctIndex": 0,
+          "explanation": "36 × 14 = 36 × 4 + 36 × 10 = 144 + 360 = 504. Đáp án đúng là 504."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi tính 47 × 3, ta được 141. Vậy tích riêng thứ nhất khi tính 47 × 23 là bao nhiêu?",
+          "options": ["470", "94", "141", "211"],
+          "correctIndex": 2,
+          "explanation": "Tích riêng thứ nhất là 47 × 3 = 141. Đây là tích của 47 với hàng đơn vị của 23 (chữ số 3)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 47 × 23 = ?",
+          "options": ["1071", "1081", "1061", "1091"],
+          "correctIndex": 1,
+          "explanation": "47 × 23 = 47 × 3 + 47 × 20 = 141 + 940 = 1081. Đáp án đúng là 1081."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X tiêu thụ 58 đơn vị năng lượng mỗi giây khi tấn công. Sau 15 giây, Robo-X tiêu thụ bao nhiêu đơn vị?",
+          "options": ["820", "850", "840", "870"],
+          "correctIndex": 3,
+          "explanation": "58 × 15 = 58 × 5 + 58 × 10 = 290 + 580 = 870. Robo-X tiêu thụ 870 đơn vị năng lượng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 65 × 17 = ?",
+          "options": ["1105", "1095", "1075", "1085"],
+          "correctIndex": 0,
+          "explanation": "65 × 17 = 65 × 7 + 65 × 10 = 455 + 650 = 1105. Đáp án đúng là 1105."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Xưởng lắp ráp robot sản xuất 78 chi tiết mỗi giờ. Trong 24 giờ sản xuất được bao nhiêu chi tiết?",
+          "options": ["1862", "1852", "1872", "1842"],
+          "correctIndex": 2,
+          "explanation": "78 × 24 = 78 × 4 + 78 × 20 = 312 + 1560 = 1872. Xưởng sản xuất được 1872 chi tiết."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây có kết quả bằng 936?",
+          "options": ["48 × 19", "52 × 18", "39 × 24", "46 × 21"],
+          "correctIndex": 1,
+          "explanation": "52 × 18 = 52 × 8 + 52 × 10 = 416 + 520 = 936. Đây là phép tính duy nhất cho kết quả 936."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 87 × 29 = ?",
+          "options": ["2503", "2513", "2493", "2523"],
+          "correctIndex": 3,
+          "explanation": "87 × 29 = 87 × 9 + 87 × 20 = 783 + 1740 = 2523. Đáp án đúng là 2523."
+        },
+        {
+          "type": "true_false",
+          "text": "Kết quả của phép tính 49 × 16 là 794.",
+          "correct": false,
+          "explanation": "Sai! 49 × 16 = 49 × 6 + 49 × 10 = 294 + 490 = 784. Kết quả đúng là 784, không phải 794."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robo-X lắp 36 pin năng lượng, mỗi pin chứa 45 đơn vị điện. Tổng số đơn vị điện là ___.",
+          "answer": "1620",
+          "explanation": "36 × 45 = 36 × 5 + 36 × 40 = 180 + 1440 = 1620 đơn vị điện."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x003",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 34,
+      "title": "Nhân với số có ba chữ số - tính ba tích riêng",
+      "learningObjective": "Học sinh biết cách đặt tính và tính ba tích riêng khi nhân với số có ba chữ số, biết lùi đúng cột cho từng tích riêng.",
+      "shortExplanation": "Nhân với số có ba chữ số tạo ra ba tích riêng: tích 1 viết bình thường, tích 2 lùi 1 cột, tích 3 lùi 2 cột. Sau đó cộng cả ba tích riêng lại.",
+      "content": "Khi nhân với số có ba chữ số, ta tính ba tích riêng. Tích riêng 1: nhân với chữ số hàng đơn vị (viết bình thường). Tích riêng 2: nhân với chữ số hàng chục (lùi 1 cột sang trái). Tích riêng 3: nhân với chữ số hàng trăm (lùi 2 cột sang trái). Cuối cùng cộng cả ba tích riêng lại. Ví dụ: 24 × 123. Tích 1: 24 × 3 = 72. Tích 2: 24 × 20 = 480 (lùi 1 cột). Tích 3: 24 × 100 = 2400 (lùi 2 cột). Kết quả: 72 + 480 + 2400 = 2952.",
+      "storyContext": "Robo-X tham gia giải đấu lớn với 123 vòng thi, mỗi vòng ghi được 24 điểm năng lượng — ban tổ chức cần tính 24 × 123 để biết tổng điểm thưởng cho nhà vô địch!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Khi nhân với số có ba chữ số, ta có bao nhiêu tích riêng?",
+          "options": ["Hai tích riêng", "Ba tích riêng", "Bốn tích riêng", "Một tích riêng"],
+          "correctIndex": 1,
+          "explanation": "Nhân với số có ba chữ số tạo ra ba tích riêng, ứng với ba chữ số ở hàng đơn vị, hàng chục và hàng trăm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phép tính 24 × 123, tích riêng thứ ba (24 nhân với hàng trăm của 123) bằng bao nhiêu?",
+          "options": ["240", "480", "72", "2400"],
+          "correctIndex": 3,
+          "explanation": "Hàng trăm của 123 là 1, nên tích riêng thứ ba là 24 × 100 = 2400."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tích riêng thứ ba được viết lùi mấy cột sang trái so với tích riêng thứ nhất?",
+          "options": ["1 cột", "3 cột", "2 cột", "0 cột"],
+          "correctIndex": 2,
+          "explanation": "Tích riêng thứ ba ứng với hàng trăm nên lùi 2 cột sang trái so với tích riêng thứ nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 24 × 123 = ?",
+          "options": ["2952", "2942", "2962", "2932"],
+          "correctIndex": 0,
+          "explanation": "24 × 123 = 24 × 3 + 24 × 20 + 24 × 100 = 72 + 480 + 2400 = 2952. Ba tích riêng cộng lại là 2952."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 32 × 213 = ?",
+          "options": ["6796", "6816", "6806", "6826"],
+          "correctIndex": 1,
+          "explanation": "32 × 213 = 32 × 3 + 32 × 10 + 32 × 200 = 96 + 320 + 6400 = 6816. Đáp án đúng là 6816."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Xưởng robot lắp 43 robot mỗi ngày. Sau 112 ngày, xưởng lắp được bao nhiêu robot?",
+          "options": ["4796", "4806", "4826", "4816"],
+          "correctIndex": 3,
+          "explanation": "43 × 112 = 43 × 2 + 43 × 10 + 43 × 100 = 86 + 430 + 4300 = 4816. Tổng là 4816 robot."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 51 × 132 = ?",
+          "options": ["6722", "6702", "6732", "6712"],
+          "correctIndex": 2,
+          "explanation": "51 × 132 = 51 × 2 + 51 × 30 + 51 × 100 = 102 + 1530 + 5100 = 6732. Đáp án đúng là 6732."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X cần 211 đơn vị năng lượng cho mỗi lần phóng tên lửa. Nếu phóng 43 lần, cần tổng cộng bao nhiêu đơn vị?",
+          "options": ["9073", "9053", "9063", "9043"],
+          "correctIndex": 0,
+          "explanation": "211 × 43 = 211 × 3 + 211 × 40 = 633 + 8440 = 9073. Cần tổng cộng 9073 đơn vị năng lượng."
+        },
+        {
+          "type": "true_false",
+          "text": "Tính 22 × 111 = 2442.",
+          "correct": true,
+          "explanation": "Đúng! 22 × 111 = 22 × 1 + 22 × 10 + 22 × 100 = 22 + 220 + 2200 = 2442."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Đấu trường robot có 121 hàng ghế, mỗi hàng có 34 ghế. Tổng số ghế trong đấu trường là ___.",
+          "answer": "4114",
+          "explanation": "34 × 121 = 34 × 1 + 34 × 20 + 34 × 100 = 34 + 680 + 3400 = 4114 ghế."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x004",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 35,
+      "title": "Nhân số có ba chữ số có nhớ với số có hai chữ số",
+      "learningObjective": "Học sinh thực hiện được phép nhân số có ba chữ số có nhớ với số có hai chữ số và biết kiểm tra kết quả bằng cách ước lượng.",
+      "shortExplanation": "Thực hiện có nhớ cẩn thận trong từng tích riêng. Sau khi tính xong, ước lượng để kiểm tra: làm tròn các số rồi nhân nhanh.",
+      "content": "Khi nhân số có ba chữ số với số có hai chữ số, ta vẫn tính hai tích riêng nhưng cần xử lý số nhớ đúng cách trong từng bước. Ví dụ: 135 × 24. Tích riêng 1: 135 × 4 = 540. Tích riêng 2: 135 × 20 = 2700 (lùi 1 cột). Kết quả: 540 + 2700 = 3240. Để kiểm tra: 135 ≈ 130, 130 × 24 ≈ 3120, gần với 3240 — kết quả hợp lý. Luôn ước lượng để phát hiện sai sót nghiêm trọng.",
+      "storyContext": "Đội kỹ sư cần 135 tấm thép để xây mỗi tầng đấu trường, đấu trường có 24 tầng — Robo-X phải tính 135 × 24 để đặt hàng đúng số tấm thép cần thiết!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 135 × 24 = ?",
+          "options": ["3230", "3250", "3240", "3220"],
+          "correctIndex": 2,
+          "explanation": "135 × 24 = 135 × 4 + 135 × 20 = 540 + 2700 = 3240. Đáp án đúng là 3240."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 246 × 13 = ?",
+          "options": ["3198", "3188", "3208", "3178"],
+          "correctIndex": 0,
+          "explanation": "246 × 13 = 246 × 3 + 246 × 10 = 738 + 2460 = 3198. Đáp án đúng là 3198."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X tiêu thụ 128 đơn vị điện mỗi giờ khi nâng cấp. Sau 36 giờ nâng cấp, Robo-X đã dùng bao nhiêu đơn vị điện?",
+          "options": ["4598", "4588", "4578", "4608"],
+          "correctIndex": 3,
+          "explanation": "128 × 36 = 128 × 6 + 128 × 30 = 768 + 3840 = 4608. Robo-X đã dùng 4608 đơn vị điện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 312 × 23 = ?",
+          "options": ["7166", "7176", "7186", "7156"],
+          "correctIndex": 1,
+          "explanation": "312 × 23 = 312 × 3 + 312 × 20 = 936 + 6240 = 7176. Đáp án đúng là 7176."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 145 × 32 = ?",
+          "options": ["4630", "4650", "4640", "4660"],
+          "correctIndex": 2,
+          "explanation": "145 × 32 = 145 × 2 + 145 × 30 = 290 + 4350 = 4640. Đáp án đúng là 4640."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép ước lượng nào phù hợp nhất để kiểm tra kết quả của 178 × 42?",
+          "options": ["180 × 40 = 7200", "170 × 40 = 6800", "180 × 45 = 8100", "175 × 40 = 7000"],
+          "correctIndex": 0,
+          "explanation": "178 ≈ 180 và 42 ≈ 40, nên ước lượng 180 × 40 = 7200. Kết quả thực 178 × 42 = 7476, gần với 7200, cho thấy phép tính hợp lý."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 234 × 123 = ?",
+          "options": ["28772", "28792", "28752", "28782"],
+          "correctIndex": 3,
+          "explanation": "234 × 123 = 234 × 3 + 234 × 20 + 234 × 100 = 702 + 4680 + 23400 = 28782. Đáp án đúng là 28782."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đội xây đấu trường đặt 156 viên gạch mỗi giờ. Trong 48 giờ đặt được bao nhiêu viên gạch?",
+          "options": ["7478", "7488", "7468", "7498"],
+          "correctIndex": 1,
+          "explanation": "156 × 48 = 156 × 8 + 156 × 40 = 1248 + 6240 = 7488. Đội đặt được 7488 viên gạch."
+        },
+        {
+          "type": "true_false",
+          "text": "Kết quả của phép tính 213 × 34 là 7342.",
+          "correct": false,
+          "explanation": "Sai! 213 × 34 = 213 × 4 + 213 × 30 = 852 + 6390 = 7242. Kết quả đúng là 7242, không phải 7342."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robo-X cần 125 đơn vị vật liệu cho mỗi tầng đấu trường. Đấu trường có 56 tầng. Tổng vật liệu cần là ___.",
+          "answer": "7000",
+          "explanation": "125 × 56 = 125 × 6 + 125 × 50 = 750 + 6250 = 7000 đơn vị vật liệu."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x005",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 36,
+      "title": "Vận dụng nhân nhiều chữ số vào bài toán thực tế",
+      "learningObjective": "Học sinh vận dụng thành thạo phép nhân 2-3 chữ số để giải các bài toán thực tế có nhiều bước, trình bày lời giải rõ ràng.",
+      "shortExplanation": "Đọc kỹ đề bài, xác định phép tính cần dùng, đặt tính cẩn thận và kiểm tra lại kết quả. Với bài nhiều bước, tính từng bước một rồi cộng lại.",
+      "content": "Phép nhân nhiều chữ số được dùng rất nhiều trong thực tế để tính tổng số lượng khi biết số nhóm và số phần tử mỗi nhóm. Ví dụ 1: đấu trường có 125 hàng, mỗi hàng 48 ghế → số ghế = 125 × 48 = 6000. Ví dụ 2: Robo-X thi đấu 15 ngày, mỗi ngày 8 trận, mỗi trận thắng 236 điểm → tổng điểm = 15 × 8 × 236 = 120 × 236 = 28320. Khi gặp bài toán, viết phép tính rõ ràng, tính từng bước và ghi đơn vị vào kết quả cuối.",
+      "storyContext": "Robo-X đã giành chức vô địch sau nhiều trận đấu cam go tại đấu trường robot — ban tổ chức dùng phép nhân nhiều chữ số để tính tổng điểm, tổng năng lượng và số khán giả trong suốt giải!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đấu trường robot có 125 hàng ghế, mỗi hàng 48 ghế. Tổng số ghế là bao nhiêu?",
+          "options": ["5990", "6010", "5980", "6000"],
+          "correctIndex": 3,
+          "explanation": "125 × 48 = 125 × 8 + 125 × 40 = 1000 + 5000 = 6000. Tổng số ghế là 6000."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X thi đấu 24 trận, mỗi trận thắng được 135 điểm. Tổng điểm Robo-X đạt được là bao nhiêu?",
+          "options": ["3230", "3240", "3220", "3250"],
+          "correctIndex": 1,
+          "explanation": "135 × 24 = 135 × 4 + 135 × 20 = 540 + 2700 = 3240. Robo-X đạt tổng 3240 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi robot trong đội cần 346 đơn vị năng lượng mỗi ngày. Đội có 15 robot. Tổng năng lượng cần trong 1 ngày là bao nhiêu?",
+          "options": ["5190", "5180", "5200", "5170"],
+          "correctIndex": 0,
+          "explanation": "346 × 15 = 346 × 5 + 346 × 10 = 1730 + 3460 = 5190. Tổng năng lượng cần là 5190 đơn vị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Giải đấu kéo dài 12 ngày, mỗi ngày có 25 trận. Mỗi trận có 2 robot tham gia. Tổng số lượt robot tham gia là bao nhiêu?",
+          "options": ["590", "610", "600", "620"],
+          "correctIndex": 2,
+          "explanation": "12 × 25 = 300 trận, 300 × 2 = 600 lượt robot. Tổng là 600 lượt tham gia."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhà máy sản xuất 248 viên pin robot mỗi giờ. Làm việc 36 giờ, sản xuất được bao nhiêu viên pin?",
+          "options": ["8918", "8908", "8928", "8898"],
+          "correctIndex": 3,
+          "explanation": "248 × 36 = 248 × 6 + 248 × 30 = 1488 + 7440 = 8928. Nhà máy sản xuất được 8928 viên pin."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X thi đấu 3 vòng, mỗi vòng dài 15 phút. Mỗi phút Robo-X dùng 124 đơn vị năng lượng. Tổng năng lượng đã dùng là bao nhiêu?",
+          "options": ["5570", "5580", "5590", "5560"],
+          "correctIndex": 1,
+          "explanation": "3 × 15 = 45 phút. 45 × 124 = 45 × 4 + 45 × 120 = 180 + 5400 = 5580 đơn vị năng lượng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả đúng của phép tính 327 × 45 là bao nhiêu?",
+          "options": ["14715", "14705", "14725", "14695"],
+          "correctIndex": 0,
+          "explanation": "327 × 45 = 327 × 5 + 327 × 40 = 1635 + 13080 = 14715. Đáp án đúng là 14715."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sân đấu robot có 36 khu vực, mỗi khu có 125 chỗ đứng. Tổng sức chứa của sân là bao nhiêu?",
+          "options": ["4490", "4510", "4480", "4500"],
+          "correctIndex": 2,
+          "explanation": "36 × 125 = 36 × 5 + 36 × 120 = 180 + 4320 = 4500. Tổng sức chứa là 4500 chỗ đứng."
+        },
+        {
+          "type": "true_false",
+          "text": "Nếu một robot dùng 215 đơn vị điện mỗi phút và thi đấu 25 phút, thì tổng điện dùng là 5375 đơn vị.",
+          "correct": true,
+          "explanation": "Đúng! 215 × 25 = 215 × 5 + 215 × 20 = 1075 + 4300 = 5375 đơn vị điện."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trong giải đấu, có 15 đội, mỗi đội có 12 robot, mỗi robot được trang bị 32 bộ pin. Tổng số bộ pin là ___.",
+          "answer": "5760",
+          "explanation": "15 × 12 = 180 robot, 180 × 32 = 180 × 2 + 180 × 30 = 360 + 5400 = 5760 bộ pin."
+        }
+      ]
+    }
+  ]
+}

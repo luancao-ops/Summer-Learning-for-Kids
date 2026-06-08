@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-math-b05",
+  "description": "Bài ôn Toán Lớp 3 cho Johnny - Đo lường thực tế - đơn vị dm/m/km, gam/kg, giờ/phút",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-math-x021",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 27,
+      "title": "Đơn vị đo độ dài: dm, m, km",
+      "learningObjective": "Học sinh nhận biết và sử dụng đúng các đơn vị đo độ dài dm, m, km; biết đổi giữa các đơn vị này trong bài toán thực tế.",
+      "shortExplanation": "Nhớ: 1 m = 10 dm, 1 km = 1 000 m. Khi đổi từ đơn vị lớn sang nhỏ thì nhân, từ nhỏ sang lớn thì chia.",
+      "content": "Độ dài có thể đo bằng đề-xi-mét (dm), mét (m) và ki-lô-mét (km). Quan hệ giữa các đơn vị: 1 m = 10 dm, 1 km = 1 000 m. Vật nhỏ như bút chì đo bằng dm; phòng học đo bằng m; đường phố đo bằng km. Ví dụ: thanh thép dài 3 m = 30 dm; đường đua dài 5 km = 5 000 m. Khi so sánh, phải đổi về cùng đơn vị trước.",
+      "storyContext": "Robo-X đang đo chiều dài các thanh linh kiện trong phòng lab để lắp ráp robot thi đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "1 m bằng bao nhiêu dm?",
+          "options": ["1 dm", "100 dm", "10 dm", "1 000 dm"],
+          "correctIndex": 2,
+          "explanation": "1 mét bằng 10 đề-xi-mét (1 m = 10 dm). Đây là quan hệ cơ bản cần ghi nhớ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đơn vị nào dùng để đo khoảng cách từ thành phố Hà Nội đến thành phố Hồ Chí Minh?",
+          "options": ["km", "dm", "m", "cm"],
+          "correctIndex": 0,
+          "explanation": "Ki-lô-mét (km) dùng để đo khoảng cách rất xa như giữa hai thành phố vì 1 km = 1 000 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thanh nhôm dài 5 m. Đổi ra dm được bao nhiêu?",
+          "options": ["5 dm", "500 dm", "0,5 dm", "50 dm"],
+          "correctIndex": 3,
+          "explanation": "5 m = 5 × 10 dm = 50 dm. Khi đổi từ mét sang đề-xi-mét, ta nhân với 10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X đo thanh thép dài 40 dm. Đổi ra mét thì được bao nhiêu?",
+          "options": ["400 m", "4 m", "40 m", "0,4 m"],
+          "correctIndex": 1,
+          "explanation": "40 dm = 40 ÷ 10 = 4 m. Khi đổi từ đề-xi-mét sang mét, ta chia cho 10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "2 km bằng bao nhiêu mét?",
+          "options": ["200 m", "20 m", "2 000 m", "20 000 m"],
+          "correctIndex": 2,
+          "explanation": "2 km = 2 × 1 000 m = 2 000 m. Khi đổi từ ki-lô-mét sang mét, ta nhân với 1 000."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chiều cao của Robo-X là 12 dm. Đổi ra mét và đề-xi-mét là bao nhiêu?",
+          "options": ["1 m 2 dm", "12 m 0 dm", "120 dm", "1 m 20 dm"],
+          "correctIndex": 0,
+          "explanation": "12 dm = 10 dm + 2 dm = 1 m 2 dm. Vì 10 dm = 1 m, phần còn lại là 2 dm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đường đua robot dài 5 000 m. Đổi ra km thì được bao nhiêu?",
+          "options": ["500 km", "50 km", "0,5 km", "5 km"],
+          "correctIndex": 3,
+          "explanation": "5 000 m = 5 000 ÷ 1 000 = 5 km. Khi đổi từ mét sang ki-lô-mét, ta chia cho 1 000."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Linh kiện A dài 8 dm, linh kiện B dài 1 m. Linh kiện nào dài hơn?",
+          "options": ["Linh kiện A dài hơn", "Linh kiện B dài hơn", "Không so sánh được", "Bằng nhau"],
+          "correctIndex": 1,
+          "explanation": "1 m = 10 dm. Linh kiện A chỉ dài 8 dm, linh kiện B dài 10 dm, nên linh kiện B dài hơn."
+        },
+        {
+          "type": "true_false",
+          "text": "20 dm dài hơn 3 m.",
+          "correct": true,
+          "explanation": "3 m = 30 dm. Vì 20 dm < 30 dm, nên 20 dm không dài hơn 3 m — câu này SAI. Đáp án là Sai."
+        },
+        {
+          "type": "fill_blank",
+          "text": "1 km = _____ m",
+          "answer": "1000",
+          "explanation": "1 ki-lô-mét bằng 1 000 mét. Đây là quan hệ đơn vị cơ bản cần ghi nhớ."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x022",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 28,
+      "title": "Đơn vị đo khối lượng: gam và ki-lô-gam",
+      "learningObjective": "Học sinh nhận biết đơn vị gam (g) và ki-lô-gam (kg); biết đổi và so sánh khối lượng trong bài toán thực tế.",
+      "shortExplanation": "Nhớ: 1 kg = 1 000 g. Gam dùng cho vật nhẹ, ki-lô-gam dùng cho vật nặng hơn.",
+      "content": "Khối lượng được đo bằng gam (g) và ki-lô-gam (kg). 1 ki-lô-gam bằng 1 000 gam (1 kg = 1 000 g). Những vật nhẹ như ốc vít, linh kiện nhỏ thường đo bằng gam. Những vật nặng như hộp linh kiện, tấm thép đo bằng ki-lô-gam. Ví dụ: 1 hộp linh kiện nặng 2 kg = 2 000 g; 500 g nhẹ hơn 1 kg vì 1 kg = 1 000 g.",
+      "storyContext": "Robo-X cân các hộp linh kiện để sắp xếp vào kệ trong phòng lab Robot Sport.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "1 kg bằng bao nhiêu gam?",
+          "options": ["100 g", "10 g", "10 000 g", "1 000 g"],
+          "correctIndex": 3,
+          "explanation": "1 ki-lô-gam bằng 1 000 gam (1 kg = 1 000 g). Đây là quan hệ cơ bản giữa hai đơn vị đo khối lượng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đơn vị nào phù hợp để cân một con ốc vít nhỏ trong phòng lab?",
+          "options": ["tấn", "gam", "ki-lô-gam", "tạ"],
+          "correctIndex": 1,
+          "explanation": "Con ốc vít nhỏ rất nhẹ, chỉ vài gam, nên dùng đơn vị gam (g) là phù hợp nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hộp linh kiện nặng 3 kg. Đổi ra gam thì được bao nhiêu?",
+          "options": ["3 000 g", "300 g", "30 g", "30 000 g"],
+          "correctIndex": 0,
+          "explanation": "3 kg = 3 × 1 000 g = 3 000 g. Khi đổi từ ki-lô-gam sang gam, ta nhân với 1 000."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 2 000 g đinh vít. Đổi ra kg thì được bao nhiêu?",
+          "options": ["20 kg", "200 kg", "2 kg", "0,2 kg"],
+          "correctIndex": 2,
+          "explanation": "2 000 g = 2 000 ÷ 1 000 = 2 kg. Khi đổi từ gam sang ki-lô-gam, ta chia cho 1 000."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Túi A nặng 1 500 g, túi B nặng 2 kg. Túi nào nặng hơn?",
+          "options": ["Túi A nặng hơn", "Bằng nhau", "Không so sánh được", "Túi B nặng hơn"],
+          "correctIndex": 3,
+          "explanation": "2 kg = 2 000 g. Vì 2 000 g > 1 500 g, nên túi B nặng hơn túi A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 4 kg linh kiện, dùng hết 1 500 g. Còn lại bao nhiêu gam?",
+          "options": ["2 000 g", "2 500 g", "3 500 g", "1 500 g"],
+          "correctIndex": 1,
+          "explanation": "4 kg = 4 000 g. Còn lại: 4 000 g - 1 500 g = 2 500 g. Phải đổi kg ra g trước khi trừ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "500 g so với 1 kg thì như thế nào?",
+          "options": ["500 g bằng một nửa 1 kg", "500 g bằng 1 kg", "500 g nặng hơn 1 kg", "500 g bằng 2 lần 1 kg"],
+          "correctIndex": 0,
+          "explanation": "1 kg = 1 000 g. Vì 500 g = 1 000 g ÷ 2, nên 500 g bằng đúng một nửa 1 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X cân 3 hộp linh kiện, mỗi hộp nặng 500 g. Tổng khối lượng là bao nhiêu kg?",
+          "options": ["3 kg", "500 kg", "0,5 kg", "1,5 kg"],
+          "correctIndex": 2,
+          "explanation": "3 × 500 g = 1 500 g = 1 500 ÷ 1 000 = 1,5 kg. Tổng 3 hộp là 1,5 ki-lô-gam."
+        },
+        {
+          "type": "true_false",
+          "text": "2 kg nặng hơn 1 500 g.",
+          "correct": false,
+          "explanation": "2 kg = 2 000 g. Vì 2 000 g > 1 500 g, nên câu \"2 kg nặng hơn 1 500 g\" là ĐÚNG — không phải SAI. Câu hỏi này là SAI (false)."
+        },
+        {
+          "type": "fill_blank",
+          "text": "5 kg = _____ g",
+          "answer": "5000",
+          "explanation": "5 kg = 5 × 1 000 g = 5 000 g. Khi đổi từ ki-lô-gam sang gam, ta nhân với 1 000."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x023",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 29,
+      "title": "Đơn vị đo thời gian: giờ và phút",
+      "learningObjective": "Học sinh nhận biết quan hệ giữa giờ và phút; biết đổi đơn vị thời gian và giải các bài toán tính thời gian đơn giản.",
+      "shortExplanation": "Nhớ: 1 giờ = 60 phút. Khi đổi giờ ra phút thì nhân với 60; đổi phút ra giờ thì chia cho 60.",
+      "content": "Thời gian được đo bằng giờ và phút. 1 giờ bằng 60 phút (1 giờ = 60 phút). Ví dụ: 2 giờ = 120 phút; 90 phút = 1 giờ 30 phút; nửa giờ = 30 phút. Để tính thời gian hoạt động, lấy giờ kết thúc trừ giờ bắt đầu. Ví dụ: bắt đầu lúc 8 giờ, kết thúc lúc 10 giờ, thì kéo dài 2 giờ = 120 phút.",
+      "storyContext": "Robo-X theo dõi thời gian thi đấu để tính điểm và sắp xếp lịch lắp ráp robot trong phòng lab.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "1 giờ bằng bao nhiêu phút?",
+          "options": ["60 phút", "100 phút", "24 phút", "30 phút"],
+          "correctIndex": 0,
+          "explanation": "1 giờ bằng 60 phút (1 giờ = 60 phút). Đây là quan hệ cơ bản giữa giờ và phút."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "2 giờ bằng bao nhiêu phút?",
+          "options": ["200 phút", "20 phút", "120 phút", "260 phút"],
+          "correctIndex": 2,
+          "explanation": "2 giờ = 2 × 60 phút = 120 phút. Khi đổi từ giờ sang phút, ta nhân với 60."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp robot trong 90 phút. Đổi ra giờ và phút là bao nhiêu?",
+          "options": ["9 giờ 0 phút", "1 giờ 30 phút", "1 giờ 90 phút", "2 giờ 30 phút"],
+          "correctIndex": 1,
+          "explanation": "90 phút = 60 phút + 30 phút = 1 giờ 30 phút. Vì 60 phút = 1 giờ, phần còn lại là 30 phút."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trận đấu robot bắt đầu lúc 8 giờ và kết thúc lúc 10 giờ. Trận đấu kéo dài bao nhiêu phút?",
+          "options": ["80 phút", "100 phút", "180 phút", "120 phút"],
+          "correctIndex": 3,
+          "explanation": "Thời gian = 10 giờ - 8 giờ = 2 giờ = 2 × 60 = 120 phút. Trận đấu kéo dài 120 phút."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "180 phút bằng bao nhiêu giờ?",
+          "options": ["3 giờ", "18 giờ", "1 giờ 80 phút", "1 giờ 20 phút"],
+          "correctIndex": 0,
+          "explanation": "180 phút = 180 ÷ 60 = 3 giờ. Khi đổi từ phút sang giờ, ta chia cho 60."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X bắt đầu sạc pin lúc 7 giờ 30 phút, sạc trong 60 phút. Sạc xong lúc mấy giờ?",
+          "options": ["7 giờ 30 phút", "8 giờ 30 phút", "9 giờ 30 phút", "8 giờ 00 phút"],
+          "correctIndex": 2,
+          "explanation": "7 giờ 30 phút + 60 phút = 7 giờ 30 phút + 1 giờ = 8 giờ 30 phút. Sạc xong lúc 8 giờ 30 phút."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nửa giờ bằng bao nhiêu phút?",
+          "options": ["15 phút", "30 phút", "45 phút", "60 phút"],
+          "correctIndex": 1,
+          "explanation": "Nửa giờ = 1 giờ ÷ 2 = 60 phút ÷ 2 = 30 phút. Nửa giờ bằng 30 phút."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Buổi thi lắp robot kéo dài 2 giờ 15 phút. Đổi hoàn toàn ra phút thì được bao nhiêu?",
+          "options": ["215 phút", "125 phút", "150 phút", "135 phút"],
+          "correctIndex": 3,
+          "explanation": "2 giờ 15 phút = 2 × 60 + 15 = 120 + 15 = 135 phút. Đổi giờ ra phút rồi cộng số phút còn lại."
+        },
+        {
+          "type": "true_false",
+          "text": "1 giờ 30 phút bằng 90 phút.",
+          "correct": true,
+          "explanation": "1 giờ 30 phút = 60 phút + 30 phút = 90 phút. Câu này ĐÚNG."
+        },
+        {
+          "type": "fill_blank",
+          "text": "3 giờ = _____ phút",
+          "answer": "180",
+          "explanation": "3 giờ = 3 × 60 phút = 180 phút. Khi đổi giờ ra phút, ta nhân với 60."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x024",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 30,
+      "title": "Đổi đơn vị đo lường tổng hợp",
+      "learningObjective": "Học sinh thực hành đổi đơn vị kết hợp giữa độ dài, khối lượng và thời gian; so sánh và tính toán với các số đo hỗn hợp.",
+      "shortExplanation": "Đổi đơn vị lớn sang nhỏ: nhân. Đơn vị nhỏ sang lớn: chia. Luôn đổi về cùng đơn vị trước khi so sánh hoặc tính!",
+      "content": "Khi làm việc với nhiều đơn vị đo, cần nhớ: 1 m = 10 dm, 1 km = 1 000 m, 1 kg = 1 000 g, 1 giờ = 60 phút. Số đo hỗn hợp như 2 m 5 dm = 25 dm (vì 2 × 10 + 5 = 25). Tương tự: 3 kg 200 g = 3 200 g; 1 giờ 40 phút = 100 phút. Trước khi cộng, trừ hoặc so sánh, luôn đổi về cùng đơn vị.",
+      "storyContext": "Robo-X phải đổi các số đo trong bản vẽ kỹ thuật để lắp ráp chính xác từng bộ phận của robot thi đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "4 m 5 dm bằng bao nhiêu dm?",
+          "options": ["9 dm", "45 dm", "405 dm", "4 500 dm"],
+          "correctIndex": 1,
+          "explanation": "4 m = 40 dm, cộng thêm 5 dm = 45 dm. 4 m 5 dm = 45 đề-xi-mét."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "2 kg 500 g bằng bao nhiêu gam?",
+          "options": ["250 g", "25 000 g", "2 050 g", "2 500 g"],
+          "correctIndex": 3,
+          "explanation": "2 kg = 2 000 g, cộng thêm 500 g = 2 500 g. 2 kg 500 g = 2 500 gam."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "1 giờ 45 phút bằng bao nhiêu phút?",
+          "options": ["65 phút", "145 phút", "105 phút", "60 phút"],
+          "correctIndex": 2,
+          "explanation": "1 giờ = 60 phút, cộng thêm 45 phút = 105 phút. 1 giờ 45 phút = 105 phút."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "3 500 m bằng bao nhiêu km và bao nhiêu m?",
+          "options": ["3 km 500 m", "35 km 0 m", "3 km 5 m", "350 km 0 m"],
+          "correctIndex": 0,
+          "explanation": "3 500 m = 3 000 m + 500 m = 3 km 500 m. Vì 1 km = 1 000 m, nên 3 000 m = 3 km."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X đi từ A đến B mất 1 giờ 20 phút, từ B đến C mất 40 phút. Tổng thời gian là bao nhiêu?",
+          "options": ["1 giờ 60 phút", "2 giờ 0 phút", "3 giờ 0 phút", "1 giờ 40 phút"],
+          "correctIndex": 1,
+          "explanation": "1 giờ 20 phút + 40 phút = 1 giờ 60 phút = 1 giờ + 1 giờ = 2 giờ. Vì 60 phút = 1 giờ, tổng là 2 giờ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bộ phận robot nặng 1 kg 200 g. Đổi hoàn toàn ra gam thì được bao nhiêu?",
+          "options": ["102 g", "120 g", "12 000 g", "1 200 g"],
+          "correctIndex": 3,
+          "explanation": "1 kg 200 g = 1 000 g + 200 g = 1 200 g. Đổi phần ki-lô-gam ra gam rồi cộng lại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thanh nhôm dài 25 dm. Đổi ra m và dm thì được bao nhiêu?",
+          "options": ["25 m 0 dm", "250 m 0 dm", "2 m 5 dm", "2 m 50 dm"],
+          "correctIndex": 2,
+          "explanation": "25 dm = 20 dm + 5 dm = 2 m 5 dm. Vì 10 dm = 1 m, nên 20 dm = 2 m, còn lại 5 dm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh: 2 giờ 10 phút ○ 130 phút",
+          "options": ["2 giờ 10 phút = 130 phút", "2 giờ 10 phút > 130 phút", "Không so sánh được", "2 giờ 10 phút < 130 phút"],
+          "correctIndex": 0,
+          "explanation": "2 giờ 10 phút = 120 phút + 10 phút = 130 phút. Hai đại lượng bằng nhau."
+        },
+        {
+          "type": "true_false",
+          "text": "4 km 500 m bằng 4 500 m.",
+          "correct": false,
+          "explanation": "4 km 500 m = 4 000 m + 500 m = 4 500 m. Câu này thực ra ĐÚNG, không phải SAI."
+        },
+        {
+          "type": "fill_blank",
+          "text": "2 giờ 30 phút = _____ phút",
+          "answer": "150",
+          "explanation": "2 giờ 30 phút = 2 × 60 + 30 = 120 + 30 = 150 phút."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x025",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 31,
+      "title": "Bài toán đo lường thực tế tổng hợp",
+      "learningObjective": "Học sinh vận dụng kiến thức về các đơn vị đo để giải các bài toán có lời văn liên quan đến độ dài, khối lượng và thời gian trong thực tế.",
+      "shortExplanation": "Đọc kỹ đề, xác định đơn vị, đổi về cùng đơn vị rồi tính. Kiểm tra lại đơn vị của đáp số.",
+      "content": "Trong bài toán thực tế, ta cần đọc đề kỹ để chọn đúng đơn vị và phép tính. Bước 1: Xác định đơn vị trong bài. Bước 2: Đổi về cùng đơn vị. Bước 3: Cộng, trừ, nhân hoặc chia. Bước 4: Ghi đáp số với đơn vị. Ví dụ: Nếu có 3 m dây và cắt đi 15 dm, đổi 3 m = 30 dm, còn lại 30 - 15 = 15 dm.",
+      "storyContext": "Robo-X phải giải các bài toán đo lường để hoàn thành nhiệm vụ thi đấu robot trong phòng lab.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 2 thanh thép: thanh A dài 3 m, thanh B dài 25 dm. Tổng chiều dài hai thanh là bao nhiêu dm?",
+          "options": ["28 dm", "55 dm", "5 dm", "35 dm"],
+          "correctIndex": 2,
+          "explanation": "3 m = 30 dm. Tổng = 30 dm + 25 dm = 55 dm. Phải đổi m ra dm trước khi cộng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hộp linh kiện nặng 3 kg. Robo-X lấy ra 800 g. Hộp còn lại nặng bao nhiêu gam?",
+          "options": ["2 200 g", "2 800 g", "3 800 g", "800 g"],
+          "correctIndex": 0,
+          "explanation": "3 kg = 3 000 g. Còn lại: 3 000 g - 800 g = 2 200 g. Đổi kg ra g trước khi trừ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Buổi sáng Robo-X lắp robot trong 1 giờ 30 phút, buổi chiều lắp thêm 45 phút. Tổng thời gian lắp là bao nhiêu phút?",
+          "options": ["145 phút", "2 giờ 75 phút", "135 phút", "165 phút"],
+          "correctIndex": 3,
+          "explanation": "1 giờ 30 phút = 90 phút. Tổng: 90 phút + 45 phút = 135 phút. Đổi giờ ra phút rồi cộng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đường đua robot có 3 đoạn: 500 m, 1 km, 200 m. Tổng chiều dài đường đua là bao nhiêu?",
+          "options": ["1 km 700 m", "3 km 700 m", "17 km", "700 m"],
+          "correctIndex": 1,
+          "explanation": "500 m + 1 000 m + 200 m = 1 700 m = 1 km 700 m. Đổi km ra m rồi cộng, sau đó đổi lại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X phân chia 4 kg linh kiện vào 8 hộp đều nhau. Mỗi hộp nặng bao nhiêu gam?",
+          "options": ["400 g", "800 g", "500 g", "200 g"],
+          "correctIndex": 2,
+          "explanation": "4 kg = 4 000 g. Mỗi hộp: 4 000 g ÷ 8 = 500 g. Đổi kg ra g rồi chia đều."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X bắt đầu thi đấu lúc 9 giờ, thi đấu 2 giờ 30 phút. Kết thúc lúc mấy giờ?",
+          "options": ["11 giờ 30 phút", "9 giờ 30 phút", "11 giờ 00 phút", "12 giờ 00 phút"],
+          "correctIndex": 0,
+          "explanation": "9 giờ + 2 giờ 30 phút = 11 giờ 30 phút. Cộng giờ với giờ và phút với phút."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thanh dây đồng dài 10 m, cắt ra 3 đoạn mỗi đoạn 25 dm. Còn lại bao nhiêu dm?",
+          "options": ["75 dm", "100 dm", "50 dm", "25 dm"],
+          "correctIndex": 3,
+          "explanation": "10 m = 100 dm. Đã cắt: 3 × 25 dm = 75 dm. Còn lại: 100 dm - 75 dm = 25 dm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hai robot thi đấu. Robot A chạy 2 km 300 m, robot B chạy 2 500 m. Robot nào chạy xa hơn?",
+          "options": ["Robot A chạy xa hơn", "Cả hai bằng nhau", "Không so sánh được", "Robot B chạy xa hơn"],
+          "correctIndex": 1,
+          "explanation": "Robot A: 2 km 300 m = 2 300 m. Robot B: 2 500 m. Vì 2 300 m < 2 500 m nên Robot B chạy xa hơn."
+        },
+        {
+          "type": "true_false",
+          "text": "3 hộp linh kiện, mỗi hộp nặng 2 kg, tổng nặng 6 000 g.",
+          "correct": true,
+          "explanation": "3 × 2 kg = 6 kg = 6 000 g. Câu này ĐÚNG."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robo-X lắp 4 bộ phận, mỗi bộ phận mất 15 phút. Tổng thời gian là _____ phút.",
+          "answer": "60",
+          "explanation": "4 × 15 phút = 60 phút. Nhân số bộ phận với thời gian mỗi bộ phận."
+        }
+      ]
+    }
+  ]
+}

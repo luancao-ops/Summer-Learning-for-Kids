@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { ParentChorePlanner } from "@/components/ParentChorePlanner";
+import { requireParentAccess } from "@/lib/parent-access";
 import { prisma } from "@/lib/prisma";
 import { todayKey } from "@/lib/habits";
 
@@ -38,6 +39,7 @@ function normalizeDate(date?: string): string {
 }
 
 export default async function ParentChoresPage({ searchParams }: ParentChoresPageProps) {
+  await requireParentAccess();
   const { date } = await searchParams;
   const selectedDate = normalizeDate(date);
 

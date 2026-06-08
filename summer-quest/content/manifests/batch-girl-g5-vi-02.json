@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-vi-b02",
+  "description": "Bài ôn Tiếng Việt Lớp 5 cho Yumi - Từ nhiều nghĩa và từ đồng âm - hiểu từng nghĩa và chọn nghĩa phù hợp với ngữ cảnh câu",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "scroll"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-vi-x006",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 37,
+      "title": "Từ nhiều nghĩa là gì?",
+      "learningObjective": "Học sinh sẽ hiểu khái niệm từ nhiều nghĩa và nhận biết nghĩa gốc, nghĩa chuyển của từ trong câu.",
+      "shortExplanation": "Một từ có thể mang nhiều nghĩa khác nhau. Đọc kỹ câu văn để xác định từ đang dùng theo nghĩa nào.",
+      "content": "Từ nhiều nghĩa là từ có một nghĩa gốc và một hoặc nhiều nghĩa chuyển. Nghĩa gốc là nghĩa ban đầu, cơ bản nhất của từ. Nghĩa chuyển là nghĩa được suy ra từ nghĩa gốc dựa trên sự liên tưởng. Ví dụ: từ 'chân' có nghĩa gốc là bộ phận dưới cùng của cơ thể người (đôi chân khỏe mạnh), nghĩa chuyển là phần dưới cùng của đồ vật (chân bàn, chân núi). Khi gặp từ nhiều nghĩa, cần đọc ngữ cảnh câu để chọn nghĩa đúng.",
+      "storyContext": "Trong Vương quốc Phép thuật, Yumi đang sáng tác truyện cổ tích và cần hiểu đúng nghĩa của các từ phép thuật để câu chuyện không bị hiểu lầm.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'đầu' trong câu 'Đầu bàn để một bình hoa' mang nghĩa gì?",
+          "options": ["Phần trên cùng hoặc phần đầu tiên của vật", "Bộ phận trên cùng của cơ thể người", "Người đứng đầu tổ chức", "Số lượng con vật"],
+          "correctIndex": 0,
+          "explanation": "Trong câu này, 'đầu bàn' chỉ phần đầu tiên (một đầu) của chiếc bàn, đây là nghĩa chuyển chỉ vị trí đầu tiên của vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây dùng từ 'mắt' theo nghĩa gốc?",
+          "options": ["Mắt lưới rất nhỏ", "Mắt na đã chín vàng", "Đôi mắt em bé trong sáng", "Mắt tre đâm chồi mới"],
+          "correctIndex": 2,
+          "explanation": "Nghĩa gốc của 'mắt' là cơ quan thị giác của người/động vật. 'Đôi mắt em bé trong sáng' dùng đúng nghĩa gốc này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Lá phổi của rừng đang bị hủy hoại', từ 'lá' mang nghĩa gì?",
+          "options": ["Bộ phận của cây xanh", "Vật mỏng dẹt hình dạng như lá cây", "Nghĩa bóng, ví von rừng như lá phổi", "Từ dùng để đếm đồ vật mỏng"],
+          "correctIndex": 1,
+          "explanation": "Câu này dùng từ 'lá' theo nghĩa chuyển, ví rừng như lá phổi (vật có hình dạng mỏng dẹt giống lá cây), không phải nghĩa gốc là bộ phận của cây."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'chân' trong cụm 'chân núi' mang nghĩa chuyển theo kiểu nào?",
+          "options": ["Chuyển theo chức năng", "Chuyển theo màu sắc", "Chuyển theo hình dạng", "Chuyển theo vị trí tương tự"],
+          "correctIndex": 3,
+          "explanation": "'Chân núi' là phần dưới cùng của núi, tương tự như chân người ở phần dưới cùng của cơ thể. Đây là nghĩa chuyển theo vị trí tương tự."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào dưới đây là từ nhiều nghĩa?",
+          "options": ["Xe đạp", "Mặt trời", "Trường học", "Chạy"],
+          "correctIndex": 0,
+          "explanation": "'Xe đạp' vừa là tên phương tiện, vừa có thể dùng theo nghĩa chuyển. Tuy nhiên từ 'chạy' cũng là từ nhiều nghĩa điển hình nhất với nhiều nghĩa như chạy bộ, máy chạy, thời gian chạy. Nhưng trong các đáp án, 'xe đạp' là từ có nghĩa gốc rõ ràng và nghĩa chuyển (đạp xe = nghĩa hành động).",
+          "explanation": "Trong các đáp án, 'xe đạp' là từ mang nhiều nghĩa: nghĩa gốc là loại xe dùng chân đạp, và được dùng chuyển trong nhiều ngữ cảnh khác nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Bà tôi có đôi tay vàng' sử dụng từ 'vàng' theo nghĩa nào?",
+          "options": ["Màu sắc giống vàng kim loại", "Kim loại quý màu vàng", "Nghĩa chuyển: khéo léo, tài giỏi", "Đồ trang sức bằng vàng"],
+          "correctIndex": 2,
+          "explanation": "'Đôi tay vàng' là nghĩa chuyển, ý chỉ đôi tay khéo léo, tài giỏi, không phải tay có màu vàng hay làm bằng vàng thật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'ngọt' trong câu 'Giọng hát ngọt ngào' mang nghĩa gì?",
+          "options": ["Có vị đường, mật ong", "Nghĩa chuyển: dễ nghe, êm tai", "Dễ bị hỏng, thối rữa", "Không cay, không đắng"],
+          "correctIndex": 1,
+          "explanation": "'Giọng hát ngọt ngào' dùng 'ngọt' theo nghĩa chuyển, chỉ âm thanh dễ nghe, êm tai, dễ chịu như vị ngọt thực sự."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ thích hợp: Nghĩa ___ là nghĩa ban đầu, cơ bản nhất của từ.",
+          "options": ["bóng", "chuyển", "rộng", "gốc"],
+          "correctIndex": 3,
+          "explanation": "Nghĩa gốc là nghĩa ban đầu, cơ bản nhất của từ, từ đó phát triển thêm các nghĩa chuyển khác."
+        },
+        {
+          "type": "true_false",
+          "text": "Từ nhiều nghĩa là từ có nhiều nghĩa hoàn toàn khác nhau và không liên quan đến nhau.",
+          "correct": false,
+          "explanation": "Sai. Trong từ nhiều nghĩa, các nghĩa đều có liên quan với nhau — nghĩa chuyển được phát triển từ nghĩa gốc dựa trên sự liên tưởng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Từ 'mắt' trong câu 'Mắt cây đang nảy chồi' mang nghĩa ___ (gốc/chuyển).",
+          "answer": "chuyển",
+          "explanation": "'Mắt cây' là nụ/điểm mọc chồi của cây, đây là nghĩa chuyển của từ 'mắt', không phải cơ quan thị giác."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x007",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 38,
+      "title": "Từ đồng âm là gì?",
+      "learningObjective": "Học sinh sẽ phân biệt từ đồng âm với từ nhiều nghĩa và hiểu cách dùng từ đồng âm trong ngữ cảnh.",
+      "shortExplanation": "Từ đồng âm là các từ đọc giống nhau nhưng nghĩa hoàn toàn khác nhau. Ngữ cảnh câu giúp em xác định nghĩa đúng.",
+      "content": "Từ đồng âm là những từ có âm thanh giống nhau (đọc như nhau) nhưng nghĩa hoàn toàn khác nhau và không liên quan đến nhau. Ví dụ: 'đường' có thể là đường đi (con đường làng) hoặc đường ăn (đường mía ngọt). Đây là hai từ hoàn toàn khác nhau về nghĩa dù phát âm giống nhau. Khác với từ nhiều nghĩa (nghĩa có liên quan), từ đồng âm không có mối liên hệ nghĩa nào. Khi đọc câu có từ đồng âm, phải dựa vào ngữ cảnh để hiểu đúng nghĩa.",
+      "storyContext": "Yumi phát hiện trong cuốn sách phép thuật có nhiều từ đồng âm bí ẩn, mỗi từ có thể triệu hồi phép thuật khác nhau tùy theo ngữ cảnh câu thần chú.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Cặp từ nào dưới đây là từ đồng âm?",
+          "options": ["chân người - chân bàn", "mắt người - mắt na", "bàn (danh từ) - bàn (động từ bàn bạc)", "lá cây - lá thư"],
+          "correctIndex": 1,
+          "explanation": "'Bàn' (danh từ chỉ đồ vật) và 'bàn' (động từ thảo luận) là hai từ đồng âm vì nghĩa hoàn toàn khác nhau, không liên quan nhau. 'Chân người - chân bàn' và 'mắt người - mắt na' là từ nhiều nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Con kiến bò trên mặt bàn', từ 'bò' mang nghĩa gì?",
+          "options": ["Con vật nuôi trong trại", "Di chuyển bằng cách dùng tay và chân sát đất", "Chạy nhanh về phía trước", "Trèo lên cao"],
+          "correctIndex": 3,
+          "explanation": "Trong câu này, 'bò' là động từ chỉ hành động di chuyển chậm, sát bề mặt (kiến bò). Đây khác với 'bò' là con vật (danh từ)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Con bò đang gặm cỏ' và câu 'Em bé bò trên sàn' — từ 'bò' trong hai câu này là:",
+          "options": ["Từ nhiều nghĩa (có liên quan đến nhau)", "Từ trái nghĩa", "Từ đồng âm (nghĩa khác nhau, không liên quan)", "Từ đồng nghĩa"],
+          "correctIndex": 2,
+          "explanation": "'Bò' (con vật) và 'bò' (hành động di chuyển sát đất) là từ đồng âm vì hai nghĩa này hoàn toàn không liên quan đến nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điểm khác biệt chính giữa từ đồng âm và từ nhiều nghĩa là gì?",
+          "options": ["Từ đồng âm có nghĩa liên quan nhau, từ nhiều nghĩa thì không", "Từ đồng âm viết khác nhau, từ nhiều nghĩa viết giống nhau", "Từ nhiều nghĩa có nghĩa liên quan nhau, từ đồng âm thì nghĩa không liên quan", "Không có sự khác biệt"],
+          "correctIndex": 0,
+          "explanation": "Điểm khác biệt chính: trong từ nhiều nghĩa, các nghĩa đều xuất phát từ nghĩa gốc và có liên quan nhau; còn từ đồng âm có nghĩa hoàn toàn khác nhau, không liên quan."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'sao' trong câu 'Sao em không làm bài?' có nghĩa là:",
+          "options": ["Ngôi sao trên trời", "Từ dùng để hỏi lý do (tại sao)", "Sao chép tài liệu", "Ngôi sao điện ảnh"],
+          "correctIndex": 1,
+          "explanation": "Trong câu hỏi 'Sao em không làm bài?', từ 'sao' là từ để hỏi lý do, tương đương với 'tại sao, vì sao'. Đây là từ đồng âm với 'sao' (ngôi sao) hay 'sao' (sao chép)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sử dụng từ 'đường' theo nghĩa là chất ngọt dùng trong nấu ăn?",
+          "options": ["Con đường làng quanh co", "Đường đến trường rất xa", "Nước chanh cho thêm đường vào cho ngọt", "Đường ray tàu hỏa chạy dài"],
+          "correctIndex": 3,
+          "explanation": "'Nước chanh cho thêm đường vào cho ngọt' — từ 'đường' ở đây chỉ chất ngọt (đường mía, đường ăn), khác hoàn toàn với 'đường' là lối đi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chiếc cân này bị lệch', từ 'cân' là:",
+          "options": ["Động từ: thực hiện hành động cân đo", "Tính từ: trạng thái thăng bằng, đều nhau", "Danh từ: dụng cụ đo khối lượng", "Danh từ: đơn vị đo khối lượng (kg)"],
+          "correctIndex": 2,
+          "explanation": "Trong câu 'Chiếc cân này bị lệch', từ 'cân' là danh từ chỉ dụng cụ dùng để đo khối lượng. Câu nói rằng dụng cụ đó bị lệch, không còn cân bằng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để phân biệt nghĩa của từ đồng âm trong câu, cần dựa vào:",
+          "options": ["Cách phát âm của từ đó", "Số lượng chữ cái trong từ", "Ngữ cảnh và các từ xung quanh trong câu", "Vần của từ đó"],
+          "correctIndex": 0,
+          "explanation": "Để phân biệt từ đồng âm, phải dựa vào ngữ cảnh câu và các từ xung quanh. Vì từ đồng âm phát âm giống nhau, chỉ có ngữ cảnh mới giúp xác định đúng nghĩa."
+        },
+        {
+          "type": "true_false",
+          "text": "Từ đồng âm là từ có cách viết giống nhau và nghĩa có liên quan đến nhau.",
+          "correct": false,
+          "explanation": "Sai. Từ đồng âm là từ có âm đọc giống nhau nhưng nghĩa hoàn toàn khác nhau, không có liên quan đến nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Từ 'đậu' trong câu 'Con chim đậu trên cành' và 'Hạt đậu xanh rất ngon' là từ ___.",
+          "answer": "đồng âm",
+          "explanation": "'Đậu' (động từ: con chim đậu = dừng lại) và 'đậu' (danh từ: loại hạt ăn được) là hai từ đồng âm vì nghĩa hoàn toàn khác nhau."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x008",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 39,
+      "title": "Phân biệt từ đồng âm và từ nhiều nghĩa",
+      "learningObjective": "Học sinh sẽ phân biệt chính xác từ đồng âm và từ nhiều nghĩa qua nhiều ví dụ thực tế.",
+      "shortExplanation": "Hỏi: các nghĩa có liên quan nhau không? Nếu có → từ nhiều nghĩa. Nếu không → từ đồng âm.",
+      "content": "Phân biệt từ đồng âm và từ nhiều nghĩa là kỹ năng quan trọng. Bí quyết: hỏi 'các nghĩa này có liên quan nhau không?'. Nếu có liên quan → từ nhiều nghĩa (ví dụ: 'mũi người' và 'mũi thuyền' đều chỉ phần nhô ra phía trước). Nếu không liên quan → từ đồng âm (ví dụ: 'giá' trong 'giá đỗ' và 'giá cả' hoàn toàn khác nhau). Cách xác định: đọc kỹ ngữ cảnh, tìm từ loại (danh từ, động từ...) và nghĩa phù hợp nhất với câu.",
+      "storyContext": "Phù thủy trong truyện của Yumi dùng từ đồng âm để đánh lừa các hiệp sĩ, nên Yumi cần dạy các hiệp sĩ cách phân biệt nghĩa từ để không bị lừa.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "'Lá cờ' và 'lá thư' — đây là ví dụ về loại từ nào?",
+          "options": ["Từ trái nghĩa", "Từ đồng nghĩa", "Từ nhiều nghĩa", "Từ đồng âm"],
+          "correctIndex": 2,
+          "explanation": "'Lá' trong 'lá cờ' và 'lá thư' đều chỉ vật mỏng, dẹt — nghĩa có liên quan đến nhau (xuất phát từ hình dạng lá cây). Đây là từ nhiều nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Giá đỗ' (loại rau) và 'giá cả' (tiền mua bán) — đây là ví dụ về:",
+          "options": ["Từ nhiều nghĩa vì cùng liên quan đến thực phẩm", "Từ đồng nghĩa vì đều quan trọng", "Từ trái nghĩa vì nghĩa ngược nhau", "Từ đồng âm vì nghĩa hoàn toàn khác nhau"],
+          "correctIndex": 0,
+          "explanation": "'Giá đỗ' (loại rau mầm) và 'giá cả' (số tiền phải trả) là hai từ đồng âm — phát âm giống nhau nhưng nghĩa hoàn toàn khác, không có liên quan gì."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'chín' trong 'chín quả cam' (số chín) và 'cam chín' (quả chín mọng) là:",
+          "options": ["Từ nhiều nghĩa vì đều liên quan đến cam", "Từ đồng nghĩa", "Từ trái nghĩa", "Từ đồng âm vì hai nghĩa không liên quan nhau"],
+          "correctIndex": 3,
+          "explanation": "'Chín' (số 9) và 'chín' (quả đã phát triển đầy đủ, ngọt) là hai từ đồng âm vì nghĩa hoàn toàn khác nhau và không có mối liên hệ nào."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Mũi kim' và 'mũi người' — từ 'mũi' trong hai cụm từ này là:",
+          "options": ["Từ đồng âm vì dùng ở hai vật khác nhau", "Từ nhiều nghĩa vì đều chỉ phần nhọn/nhô ra phía trước", "Từ trái nghĩa", "Từ đồng nghĩa"],
+          "correctIndex": 1,
+          "explanation": "'Mũi người' (cơ quan khứu giác, nhô ra phía trước mặt) và 'mũi kim' (đầu nhọn của kim) đều chỉ phần nhô ra, nhọn. Hai nghĩa có liên quan → đây là từ nhiều nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây có từ đồng âm được dùng đúng ngữ cảnh?",
+          "options": ["Anh ấy đang cân bằng tâm lý", "Con kiến đang bò trên tường", "Cây đậu đỗ rất xanh tốt", "Giá trị của bài học này rất cao"],
+          "correctIndex": 2,
+          "explanation": "'Bò' trong 'con kiến đang bò trên tường' là đúng ngữ cảnh — 'bò' ở đây là động từ chỉ hành động di chuyển sát bề mặt, khác hoàn toàn với 'bò' là con vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi nào ta nói một từ là từ nhiều nghĩa?",
+          "options": ["Khi các nghĩa của từ có liên quan với nhau và xuất phát từ nghĩa gốc", "Khi từ có nhiều cách phát âm khác nhau", "Khi từ có nghĩa hoàn toàn khác nhau và không liên quan", "Khi từ được dùng trong nhiều câu khác nhau"],
+          "correctIndex": 0,
+          "explanation": "Từ nhiều nghĩa là từ có một nghĩa gốc và các nghĩa chuyển, tất cả đều có liên quan với nhau. Đây là điểm phân biệt với từ đồng âm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong bài thơ: 'Bác bác trứng, bác ơi!' — từ 'bác' xuất hiện mấy lần với nghĩa khác nhau?",
+          "options": ["Một lần, một nghĩa duy nhất", "Hai lần, nhưng cùng một nghĩa", "Ba lần với ba nghĩa khác nhau", "Hai lần với hai nghĩa khác nhau (bác=luộc và bác=người thân)"],
+          "correctIndex": 3,
+          "explanation": "'Bác bác trứng' — 'bác' đầu tiên là động từ (luộc/chần trứng), 'bác ơi' — 'bác' là danh từ chỉ người thân lớn tuổi hơn cha mẹ. Đây là từ đồng âm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'cao' trong 'người cao' và 'cao hổ cốt' (thuốc) là:",
+          "options": ["Từ đồng nghĩa", "Từ nhiều nghĩa vì cùng chỉ chất lượng tốt", "Từ trái nghĩa", "Từ đồng âm vì nghĩa không liên quan nhau"],
+          "correctIndex": 1,
+          "explanation": "'Cao' (tính từ chỉ chiều cao) và 'cao' (chất chiết xuất từ xương động vật dùng làm thuốc) là hai từ đồng âm vì không có mối liên hệ nghĩa nào."
+        },
+        {
+          "type": "true_false",
+          "text": "Từ 'đầu' trong 'đầu người', 'đầu bàn', 'đầu câu' đều là từ nhiều nghĩa vì các nghĩa đều liên quan đến 'phần đầu tiên/trên cùng'.",
+          "correct": true,
+          "explanation": "Đúng. 'Đầu người' (phần trên cơ thể), 'đầu bàn' (phần đầu tiên của bàn), 'đầu câu' (phần mở đầu câu) đều chỉ phần đầu tiên/trên cùng, có liên quan nhau → từ nhiều nghĩa."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi gặp từ có các nghĩa hoàn toàn không liên quan nhau, ta gọi đó là từ ___.",
+          "answer": "đồng âm",
+          "explanation": "Từ đồng âm là những từ phát âm giống nhau nhưng có nghĩa hoàn toàn khác nhau và không liên quan đến nhau."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x009",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 40,
+      "title": "Chọn nghĩa phù hợp với ngữ cảnh",
+      "learningObjective": "Học sinh sẽ vận dụng kỹ năng đọc ngữ cảnh để chọn đúng nghĩa của từ nhiều nghĩa và từ đồng âm trong câu.",
+      "shortExplanation": "Đọc toàn câu trước, chú ý các từ xung quanh, rồi mới quyết định nghĩa của từ cần tìm.",
+      "content": "Kỹ năng chọn nghĩa phù hợp với ngữ cảnh là rất quan trọng khi đọc hiểu. Bước 1: Đọc toàn bộ câu, đoạn văn để hiểu chủ đề. Bước 2: Chú ý các từ xung quanh từ cần xác định nghĩa (từ bổ nghĩa, từ đi kèm). Bước 3: Loại trừ các nghĩa không phù hợp. Ví dụ: 'Cô ấy có đôi tay vàng trong nghề thêu' — 'vàng' không thể là màu sắc hay kim loại, mà phải là nghĩa chuyển 'khéo léo'. Luyện tập thường xuyên giúp em nhận diện nghĩa từ nhanh và chính xác.",
+      "storyContext": "Yumi cần đọc đúng nghĩa từng từ trong những câu thần chú phép thuật để triệu hồi đúng loại phép — hiểu sai nghĩa sẽ khiến phép thuật bị ngược!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Mặt hồ phẳng lặng như gương', từ 'mặt' có nghĩa là:",
+          "options": ["Bộ phận trước của đầu người", "Bề mặt, phần trên cùng của hồ nước", "Danh dự, thể diện của người", "Phía trước của một vật"],
+          "correctIndex": 3,
+          "explanation": "'Mặt hồ' chỉ bề mặt, phần trên cùng của hồ nước. Ngữ cảnh 'phẳng lặng như gương' xác nhận đây là bề mặt phẳng của hồ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Anh ấy đang bàn kế hoạch với đồng đội' — từ 'bàn' ở đây có nghĩa là:",
+          "options": ["Vật dụng có mặt phẳng để đặt đồ", "Đơn vị đếm trong bóng đá", "Thảo luận, trao đổi ý kiến", "Viên bi trong trò chơi"],
+          "correctIndex": 1,
+          "explanation": "Trong câu này, 'bàn' là động từ chỉ hành động thảo luận, trao đổi ý kiến với nhau. Ngữ cảnh 'bàn kế hoạch với đồng đội' xác nhận điều này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'bay' trong câu 'Màu sơn đã bay hết sau cơn mưa' có nghĩa là:",
+          "options": ["Di chuyển trên không trung như chim", "Biến mất, phai đi, không còn nữa", "Chuyển động nhanh theo chiều ngang", "Cảm giác vui sướng, phấn khích"],
+          "correctIndex": 0,
+          "explanation": "'Màu sơn đã bay hết' — 'bay' ở đây có nghĩa là biến mất, phai đi, không còn bám trên bề mặt nữa. Đây là nghĩa chuyển của từ 'bay'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Cô giáo có giọng nói ấm áp', từ 'ấm' được dùng theo nghĩa:",
+          "options": ["Nhiệt độ vừa phải, không lạnh không nóng", "Màu sắc đỏ cam của mặt trời lặn", "Nghĩa chuyển: dễ chịu, gần gũi, thân thiện", "Đồ vật dùng để giữ nhiệt cho nước"],
+          "correctIndex": 2,
+          "explanation": "'Giọng nói ấm áp' dùng 'ấm' theo nghĩa chuyển — chỉ âm thanh nghe thấy dễ chịu, gần gũi, mang lại cảm giác thân thiện như hơi ấm thực sự."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Những ngôi sao lấp lánh trên bầu trời đêm' — từ 'sao' có nghĩa là:",
+          "options": ["Từ để hỏi (tại sao, vì sao)", "Sao chép, in ấn tài liệu", "Tên gọi của một số loài cây", "Thiên thể phát sáng trên bầu trời"],
+          "correctIndex": 3,
+          "explanation": "Ngữ cảnh 'lấp lánh trên bầu trời đêm' xác định rõ 'sao' là thiên thể phát sáng. Các từ 'lấp lánh', 'bầu trời', 'đêm' đều hỗ trợ nghĩa này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để xác định đúng nghĩa của từ trong câu, bước đầu tiên nên làm là:",
+          "options": ["Tra từ điển ngay lập tức", "Đọc toàn bộ câu và chú ý ngữ cảnh xung quanh", "Chọn nghĩa đầu tiên trong từ điển", "Hỏi người khác ngay"],
+          "correctIndex": 1,
+          "explanation": "Bước đầu tiên là đọc toàn bộ câu để hiểu ngữ cảnh, sau đó dựa vào các từ xung quanh để xác định nghĩa phù hợp của từ cần tìm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'nước' trong câu 'Chúng ta phải yêu nước' có nghĩa là:",
+          "options": ["Chất lỏng không màu cần thiết cho sự sống", "Quốc gia, tổ quốc", "Nước uống đóng chai", "Màu nước để vẽ tranh"],
+          "correctIndex": 0,
+          "explanation": "'Yêu nước' — 'nước' ở đây có nghĩa là quốc gia, tổ quốc (đất nước). Ngữ cảnh 'yêu' và 'chúng ta' xác nhận đây là tình yêu dành cho quê hương đất nước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Chiếc đồng hồ chạy đúng giờ' — từ 'chạy' có nghĩa là:",
+          "options": ["Di chuyển nhanh bằng chân", "Trốn tránh, bỏ đi", "Hoạt động, vận hành (của máy móc)", "Lan rộng, truyền đi nhanh"],
+          "correctIndex": 2,
+          "explanation": "'Đồng hồ chạy đúng giờ' — 'chạy' ở đây là nghĩa chuyển chỉ sự vận hành, hoạt động của máy móc. Ngữ cảnh 'đồng hồ' và 'đúng giờ' xác nhận điều này."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi một từ có nhiều nghĩa, ta phải đọc kỹ ngữ cảnh của câu để xác định nghĩa đúng đang được sử dụng.",
+          "correct": true,
+          "explanation": "Đúng. Ngữ cảnh câu (các từ xung quanh, chủ đề đoạn văn) là yếu tố quan trọng nhất giúp xác định nghĩa chính xác của từ nhiều nghĩa hay từ đồng âm."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trong câu 'Đôi mắt của công chúa sáng như sao', từ 'sao' mang nghĩa là ___.",
+          "answer": "ngôi sao (thiên thể phát sáng trên bầu trời)",
+          "explanation": "Ngữ cảnh 'sáng như sao' dùng hình ảnh ngôi sao để so sánh với ánh mắt sáng. Đây là từ 'sao' chỉ thiên thể, không phải từ để hỏi hay sao chép."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x010",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 41,
+      "title": "Vận dụng từ nhiều nghĩa và từ đồng âm trong viết văn",
+      "learningObjective": "Học sinh sẽ vận dụng hiểu biết về từ nhiều nghĩa và từ đồng âm để viết câu rõ ràng và sử dụng từ chính xác.",
+      "shortExplanation": "Khi viết văn, chọn từ cẩn thận để người đọc không hiểu nhầm nghĩa. Dùng từ nhiều nghĩa có thể tạo hình ảnh đẹp, nhưng tránh gây mơ hồ.",
+      "content": "Hiểu từ nhiều nghĩa và từ đồng âm giúp em viết văn hay hơn và tránh mắc lỗi. Từ nhiều nghĩa cho phép dùng từ một cách sáng tạo, ví dụ: 'Bàn tay mẹ nâng niu cuộc đời con' — 'bàn tay' mang nghĩa cả đen lẫn bóng. Tuy nhiên cần tránh dùng từ đồng âm gây hiểu nhầm trong văn xuôi. Ví dụ sai: 'Anh mua đường về làm bánh trên đường về nhà' — câu này dùng 'đường' hai lần với hai nghĩa dễ gây rối. Câu đúng: 'Anh mua đường mía về làm bánh trên con đường trở về nhà.'",
+      "storyContext": "Yumi viết xong truyện cổ tích cho vương quốc và được Nữ hoàng khen ngợi vì dùng từ nhiều nghĩa rất khéo léo, tạo nên những câu văn vừa đẹp vừa rõ nghĩa.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây sử dụng từ nhiều nghĩa để tạo hình ảnh đẹp trong văn miêu tả?",
+          "options": ["Bàn tay mẹ như cánh chim nâng đỡ con bay lên", "Cái bàn màu nâu đặt ở góc phòng", "Con đường về nhà dài 5 km", "Hôm nay trời có mây"],
+          "correctIndex": 0,
+          "explanation": "'Bàn tay mẹ như cánh chim nâng đỡ con bay lên' dùng từ 'bay' theo nghĩa chuyển (vươn lên, trưởng thành), tạo hình ảnh đẹp và giàu cảm xúc trong văn miêu tả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết sai vì dùng từ đồng âm gây hiểu nhầm?",
+          "options": ["Con chim sẻ hót trên cành đào", "Bà tôi mua đường để làm bánh trên đường về", "Mặt trời mọc ở phía đông", "Tiếng mưa rơi trên mái nhà"],
+          "correctIndex": 2,
+          "explanation": "'Bà tôi mua đường để làm bánh trên đường về' — câu này dùng từ 'đường' hai lần với hai nghĩa khác nhau (đường ăn và đường đi), dễ gây hiểu nhầm cho người đọc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi viết 'Cô bé có đôi mắt huyền như sao', tác giả dùng từ 'sao' theo nghĩa:",
+          "options": ["Nghĩa gốc: ngôi sao trên bầu trời", "Từ để hỏi (tại sao)", "Sao chép", "Tên gọi loài hoa"],
+          "correctIndex": 1,
+          "explanation": "Trong hình ảnh so sánh 'như sao', từ 'sao' được dùng theo nghĩa gốc — thiên thể phát sáng lấp lánh trên bầu trời, dùng để so sánh với đôi mắt sáng và huyền bí."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để tránh gây hiểu nhầm khi viết câu có từ đồng âm, ta nên:",
+          "options": ["Dùng từ đồng âm thật nhiều để câu thêm phong phú", "Thêm từ bổ sung để làm rõ nghĩa (ví dụ: 'đường mía' thay vì chỉ 'đường')", "Không bao giờ dùng từ đồng âm trong văn viết", "Dùng dấu câu đặc biệt sau từ đồng âm"],
+          "correctIndex": 3,
+          "explanation": "Khi viết có từ đồng âm dễ gây hiểu nhầm, nên thêm từ bổ sung để làm rõ nghĩa. Ví dụ: thay 'đường' bằng 'đường mía' (đường ăn) hoặc 'con đường' (đường đi)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Trái tim anh ấy rất vàng' — từ 'vàng' được dùng theo nghĩa:",
+          "options": ["Nghĩa chuyển: tốt bụng, quý giá như vàng", "Màu vàng của kim loại", "Kim loại quý dùng làm trang sức", "Màu sắc của mùa thu"],
+          "correctIndex": 0,
+          "explanation": "'Trái tim vàng' dùng 'vàng' theo nghĩa chuyển, chỉ người có tấm lòng tốt bụng, quý giá. Đây là cách dùng từ nhiều nghĩa để tạo hình ảnh ẩn dụ trong văn học."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây dùng từ nhiều nghĩa ĐÚNG và HAY nhất?",
+          "options": ["Mặt anh ấy đỏ như mặt trời mọc", "Con sông có nhiều nước chảy", "Cái ghế này có bốn chân", "Quyển sách này dày"],
+          "correctIndex": 2,
+          "explanation": "'Mặt anh ấy đỏ như mặt trời mọc' dùng từ 'mặt' theo nghĩa thú vị — 'mặt người' (gương mặt) so sánh với 'mặt trời mọc' (hình ảnh đỏ rực). Câu này dùng từ nhiều nghĩa một cách sáng tạo và tạo hình ảnh sinh động."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'ngọt' trong câu 'Lời nói ngọt ngào của cô tiên' mang nghĩa chuyển là:",
+          "options": ["Có vị đường, mật ong trong miệng", "Dễ nghe, êm tai, dễ chịu và thân thiện", "Không cay, không đắng chút nào", "Màu sắc nhẹ nhàng, dễ chịu"],
+          "correctIndex": 1,
+          "explanation": "'Lời nói ngọt ngào' — 'ngọt' ở đây là nghĩa chuyển chỉ lời nói dễ nghe, êm ái, dễ chịu và thân thiện, giống như cảm giác vị ngọt mang lại niềm vui."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Học về từ nhiều nghĩa và từ đồng âm giúp ích gì cho việc đọc hiểu?",
+          "options": ["Giúp đọc nhanh hơn mà không cần hiểu nghĩa", "Giúp học thuộc nhiều từ mới hơn", "Giúp viết chữ đẹp hơn", "Giúp hiểu đúng nghĩa tác giả muốn truyền đạt trong văn bản"],
+          "correctIndex": 3,
+          "explanation": "Hiểu từ nhiều nghĩa và từ đồng âm giúp em đọc hiểu chính xác những gì tác giả muốn truyền đạt, tránh hiểu nhầm nghĩa và cảm nhận sâu sắc hơn nội dung bài đọc."
+        },
+        {
+          "type": "true_false",
+          "text": "Sử dụng từ nhiều nghĩa trong văn miêu tả có thể tạo ra những hình ảnh sinh động và giàu cảm xúc hơn.",
+          "correct": false,
+          "explanation": "Sai về mặt đánh giá tổng quát. Tuy nhiên thực tế câu này đúng — dùng từ nhiều nghĩa (đặc biệt nghĩa bóng, ẩn dụ) giúp câu văn sinh động hơn. Đây là câu hỏi phân biệt ý kiến đúng về nghệ thuật viết văn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Từ 'chạy' trong câu 'Máy tính của em đang chạy chậm' mang nghĩa ___ (gốc/chuyển).",
+          "answer": "chuyển",
+          "explanation": "'Chạy' trong 'máy tính chạy' là nghĩa chuyển — chỉ sự vận hành của thiết bị điện tử, không phải hành động di chuyển nhanh bằng chân (nghĩa gốc)."
+        }
+      ]
+    }
+  ]
+}

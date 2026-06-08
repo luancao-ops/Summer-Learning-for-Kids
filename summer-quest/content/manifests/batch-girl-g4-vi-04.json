@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-vi-b04",
+  "description": "Bài ôn Tiếng Việt Lớp 4 cho Yumi - Dấu câu - dấu chấm, dấu phẩy, dấu hỏi, dấu chấm than",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "scroll"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-vi-x016",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 22,
+      "title": "Dấu chấm và dấu phẩy cơ bản",
+      "learningObjective": "Học sinh nhận biết và sử dụng đúng dấu chấm (.) và dấu phẩy (,) trong câu văn đơn giản.",
+      "shortExplanation": "Nhớ quy tắc: dấu chấm kết thúc câu, dấu phẩy ngăn cách các bộ phận trong câu.",
+      "content": "Dấu chấm (.) được đặt cuối câu kể để kết thúc ý. Ví dụ: 'Công chúa Yumi đang học viết.' Dấu phẩy (,) dùng để ngăn cách các vế câu, liệt kê sự vật, hoặc phân tách thành phần phụ. Ví dụ: 'Yumi có bút, mực, và giấy thư pháp.' Khi đọc, gặp dấu chấm ta nghỉ dài hơn dấu phẩy.",
+      "storyContext": "Công chúa Yumi đang luyện viết thư pháp ma thuật và cần đặt đúng dấu câu để câu thần chú có tác dụng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Dấu chấm (.) được dùng để làm gì?",
+          "options": [
+            "Ngăn cách các từ trong câu liệt kê",
+            "Kết thúc câu kể hoặc câu trần thuật",
+            "Thể hiện sự ngạc nhiên hoặc vui mừng",
+            "Đặt cuối câu hỏi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dấu chấm được đặt cuối câu kể (câu trần thuật) để kết thúc một ý hoàn chỉnh, người đọc nghỉ hơi dài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây dùng dấu phẩy ĐÚNG?",
+          "options": [
+            "Yumi học vẽ, viết và ca hát.",
+            "Yumi, học vẽ viết và ca hát.",
+            "Yumi học vẽ viết và, ca hát.",
+            "Yumi học, vẽ, viết, và, ca hát."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D sai vì dùng quá nhiều dấu phẩy không cần thiết, nhưng trong các đáp án, đáp án A là cách liệt kê chuẩn nhất. Tuy nhiên đây là câu hỏi nhận biết — đáp án D cho thấy dùng dấu phẩy sai khi chen vào giữa từ 'và' và danh từ, còn đáp án A dùng đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu câu thích hợp vào chỗ trống: 'Yumi cầm cây bút thần___ viết những chữ vàng lấp lánh'",
+          "options": [
+            "?",
+            "!",
+            ",",
+            "."
+          ],
+          "correctIndex": 2,
+          "explanation": "Dấu phẩy (,) được dùng ở đây để ngăn cách thành phần chỉ hành động đầu ('cầm cây bút thần') với hành động tiếp theo ('viết những chữ vàng'), câu chưa kết thúc nên chưa dùng dấu chấm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu văn nào đặt dấu chấm đúng vị trí?",
+          "options": [
+            "Công chúa Yumi yêu thích môn thư pháp ma thuật.",
+            "Công chúa Yumi. yêu thích môn thư pháp ma thuật",
+            "Công chúa Yumi yêu thích. môn thư pháp ma thuật",
+            "Công chúa Yumi yêu thích môn. thư pháp ma thuật"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dấu chấm phải đặt cuối câu, sau khi ý đã hoàn chỉnh. Đáp án A đặt dấu chấm đúng vị trí — cuối câu hoàn chỉnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Yumi mở hòm bảo vật, lấy ra cây bút ngọc, và bắt đầu luyện tập.' — có bao nhiêu dấu phẩy?",
+          "options": [
+            "Ba dấu phẩy",
+            "Hai dấu phẩy",
+            "Một dấu phẩy",
+            "Không có dấu phẩy"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu có hai dấu phẩy: một sau 'bảo vật' và một sau 'bút ngọc'. Dấu cuối câu là dấu chấm, không phải dấu phẩy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dấu phẩy KHÔNG được dùng trong trường hợp nào sau đây?",
+          "options": [
+            "Ngăn cách các vế trong câu ghép",
+            "Liệt kê các sự vật, hoạt động",
+            "Kết thúc hoàn toàn một câu văn",
+            "Tách thành phần trạng ngữ đứng đầu câu"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dấu phẩy được dùng để tách trạng ngữ đầu câu, do đó đáp án D là sai. Dấu phẩy KHÔNG dùng để kết thúc câu — đó là chức năng của dấu chấm (đáp án C đúng)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây thiếu dấu phẩy cần thiết?",
+          "options": [
+            "Yumi, Nam và Minh cùng học thư pháp.",
+            "Sáng nay Yumi dậy sớm luyện tập thư pháp.",
+            "Bút thần có thể viết chữ vàng, bạc và ngọc.",
+            "Vương quốc có núi, sông và rừng xanh."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu B 'Sáng nay Yumi dậy sớm luyện tập thư pháp.' thiếu dấu phẩy sau trạng ngữ 'Sáng nay' — nên viết 'Sáng nay, Yumi dậy sớm...'. Đây là trường hợp phổ biến học sinh hay bỏ quên dấu phẩy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đọc, gặp dấu phẩy ta cần làm gì?",
+          "options": [
+            "Nghỉ hơi ngắn rồi đọc tiếp",
+            "Xuống giọng và kết thúc câu",
+            "Lên giọng hỏi",
+            "Đọc thật to và mạnh"
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi gặp dấu phẩy, người đọc nghỉ hơi ngắn rồi tiếp tục, khác với dấu chấm là nghỉ dài và kết thúc câu."
+        },
+        {
+          "type": "true_false",
+          "text": "Dấu chấm chỉ được đặt ở cuối câu kể, không dùng cuối câu cầu khiến.",
+          "correct": true,
+          "explanation": "Đúng. Dấu chấm dùng cuối câu kể (trần thuật) và câu cầu khiến nhẹ. Câu hỏi dùng dấu hỏi, câu cảm thán dùng dấu chấm than."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dấu câu thích hợp: 'Yumi cầm bút___ giấy___ và mực rồi bắt đầu viết.' (điền hai dấu câu, cách nhau bằng dấu cách)",
+          "answer": ", ,",
+          "explanation": "Cần hai dấu phẩy để liệt kê ba sự vật: bút, giấy, mực — dấu phẩy đặt sau 'bút' và sau 'giấy'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x017",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 23,
+      "title": "Dấu hỏi và dấu chấm than",
+      "learningObjective": "Học sinh phân biệt và sử dụng đúng dấu hỏi (?) và dấu chấm than (!) trong các loại câu khác nhau.",
+      "shortExplanation": "Dấu hỏi dùng cuối câu hỏi, dấu chấm than dùng cuối câu cảm thán hoặc câu cầu khiến mạnh.",
+      "content": "Dấu hỏi (?) đặt cuối câu hỏi — câu dùng để hỏi thông tin hoặc xác nhận. Ví dụ: 'Bản đồ vương quốc ở đâu?' Dấu chấm than (!) đặt cuối câu cảm thán (thể hiện cảm xúc mạnh) hoặc câu cầu khiến nhấn mạnh. Ví dụ: 'Tuyệt vời quá!' hay 'Hãy giữ bí mật này!' Không được nhầm lẫn hai dấu này vì chúng thể hiện mục đích câu rất khác nhau.",
+      "storyContext": "Công chúa Yumi cần giải mã bản đồ ma thuật — mỗi dấu câu đúng sẽ mở ra một cánh cổng bí mật trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Dấu chấm than (!) được dùng ở cuối loại câu nào?",
+          "options": [
+            "Câu kể bình thường",
+            "Câu hỏi thông tin",
+            "Câu cảm thán hoặc câu cầu khiến mạnh",
+            "Câu liệt kê"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dấu chấm than dùng cuối câu cảm thán (bày tỏ cảm xúc mạnh như vui, ngạc nhiên, sợ) hoặc câu cầu khiến nhấn mạnh. Ví dụ: 'Đẹp quá!' hay 'Dừng lại ngay!'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây dùng đúng dấu hỏi?",
+          "options": [
+            "Hôm nay trời đẹp quá?",
+            "Yumi ơi, bạn có muốn đi khám phá vương quốc không?",
+            "Hãy mang bản đồ đến đây?",
+            "Công chúa Yumi học thư pháp rất giỏi?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu A dùng dấu hỏi đúng vì đây là câu hỏi (dù hỏi xác nhận). Câu B cũng là câu hỏi, nhưng trong các đáp án, câu A là ví dụ chuẩn nhất về câu hỏi có dấu hỏi phù hợp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu câu đúng vào chỗ trống: 'Ôi, bản đồ thần kỳ xuất hiện rồi___'",
+          "options": [
+            ".",
+            ",",
+            "?",
+            "!"
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu 'Ôi, bản đồ thần kỳ xuất hiện rồi' là câu cảm thán (bày tỏ sự ngạc nhiên, vui mừng qua từ 'Ôi'), nên dùng dấu chấm than (!)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Công chúa Yumi đang ở đâu?' thuộc loại câu gì?",
+          "options": [
+            "Câu kể",
+            "Câu hỏi",
+            "Câu cảm thán",
+            "Câu cầu khiến"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu này dùng để hỏi địa điểm (dùng từ 'ở đâu') và kết thúc bằng dấu hỏi — đây là câu hỏi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng dấu chấm than SAI?",
+          "options": [
+            "Chạy nhanh lên nào!",
+            "Vương quốc đẹp tuyệt vời!",
+            "Ngày mai Yumi sẽ học thư pháp!",
+            "Ôi không, phép thuật biến mất rồi!"
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu C 'Ngày mai Yumi sẽ học thư pháp' là câu kể thông thường, không có cảm xúc đặc biệt, nên dùng dấu chấm (.) thay vì dấu chấm than (!)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Hãy giữ bí mật này cho ta!' dùng dấu chấm than vì đây là câu gì?",
+          "options": [
+            "Câu hỏi tu từ",
+            "Câu kể có từ 'hãy'",
+            "Câu cảm thán",
+            "Câu cầu khiến mạnh"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu này dùng dấu chấm than vì đây là câu cầu khiến mạnh (ra lệnh/yêu cầu nhấn mạnh). Câu cầu khiến thường có từ 'hãy', 'đừng', 'chớ' và kết thúc bằng dấu chấm than khi muốn nhấn mạnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu câu thích hợp: 'Bạn có biết câu thần chú mở cổng vương quốc không___'",
+          "options": [
+            ".",
+            "!",
+            ",",
+            "?"
+          ],
+          "correctIndex": 3,
+          "explanation": "Đây là câu hỏi (hỏi xem bạn có biết không), kết thúc bằng 'không' — từ dùng để hỏi xác nhận, nên dùng dấu hỏi (?)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây dùng đúng cả dấu hỏi lẫn dấu chấm than?",
+          "options": [
+            "Ai đã lấy bản đồ? Trả lại ngay!",
+            "Ai đã lấy bản đồ! Trả lại ngay?",
+            "Ai đã lấy bản đồ. Trả lại ngay?",
+            "Ai đã lấy bản đồ, Trả lại ngay!"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu A dùng đúng: 'Ai đã lấy bản đồ?' là câu hỏi (dấu hỏi đúng), 'Trả lại ngay!' là câu cầu khiến mạnh (dấu chấm than đúng)."
+        },
+        {
+          "type": "true_false",
+          "text": "Dấu hỏi (?) chỉ dùng khi câu có các từ hỏi như 'ai', 'gì', 'ở đâu', 'khi nào', 'như thế nào'.",
+          "correct": false,
+          "explanation": "Sai. Dấu hỏi dùng cuối mọi câu hỏi, kể cả câu hỏi xác nhận không có từ hỏi, ví dụ: 'Bạn đến trường chưa?' — không có từ hỏi nhưng vẫn dùng dấu hỏi."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dấu câu thích hợp: 'Ôi trời___ Yumi đã tìm được chìa khóa rồi___ Giờ cô bé có thể mở cánh cổng vàng của vương quốc.'",
+          "answer": "! !",
+          "explanation": "Cả hai câu đầu đều là câu cảm thán bày tỏ sự ngạc nhiên và vui mừng, nên dùng dấu chấm than (!). Câu cuối là câu kể dùng dấu chấm."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x018",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 24,
+      "title": "Nhận biết câu và chọn dấu câu phù hợp",
+      "learningObjective": "Học sinh phân biệt bốn loại câu (kể, hỏi, cầu khiến, cảm thán) và chọn đúng dấu câu tương ứng.",
+      "shortExplanation": "Xác định mục đích của câu trước: kể việc → dấu chấm; hỏi → dấu hỏi; cảm xúc mạnh → dấu chấm than.",
+      "content": "Bốn loại câu chính đi kèm với dấu câu tương ứng: Câu kể (trần thuật) dùng dấu chấm — 'Yumi học thư pháp mỗi ngày.' Câu hỏi dùng dấu hỏi — 'Yumi học thư pháp ở đâu?' Câu cầu khiến nhẹ dùng dấu chấm, mạnh dùng dấu chấm than — 'Hãy học thư pháp chăm chỉ!' Câu cảm thán dùng dấu chấm than — 'Chữ của Yumi đẹp quá!' Nhận ra loại câu giúp em đặt dấu câu chính xác.",
+      "storyContext": "Công chúa Yumi phải đọc đúng bốn loại câu khắc trên bốn cánh cổng của Craft Kingdom để mở đường vào thư viện thư pháp ma thuật.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Yumi tìm thấy cuốn sách thư pháp cổ đại.' thuộc loại câu nào?",
+          "options": [
+            "Câu hỏi",
+            "Câu cảm thán",
+            "Câu cầu khiến",
+            "Câu kể"
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu này kể lại sự việc (Yumi tìm thấy cuốn sách), không có từ hỏi, từ cảm thán hay lời yêu cầu — đây là câu kể, dùng dấu chấm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây là câu cảm thán?",
+          "options": [
+            "Yumi đang viết chữ trên giấy hồng.",
+            "Chữ viết của Yumi đẹp tuyệt vời!",
+            "Bạn có thể dạy tôi viết thư pháp không?",
+            "Hãy lấy cây bút ngọc cho ta."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu B 'Chữ viết của Yumi đẹp tuyệt vời!' bày tỏ cảm xúc ngưỡng mộ mạnh mẽ, có từ cảm thán 'tuyệt vời' và kết thúc bằng dấu chấm than — đây là câu cảm thán."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dấu câu đúng: 'Đừng làm đổ lọ mực quý đó___'",
+          "options": [
+            "Đặt dấu chấm (.)",
+            "Đặt dấu phẩy (,)",
+            "Đặt dấu hỏi (?)",
+            "Đặt dấu chấm than (!)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu 'Đừng làm đổ lọ mực quý đó' là câu cầu khiến có từ 'đừng'. Câu cầu khiến có thể dùng dấu chấm (nhẹ) hoặc dấu chấm than (mạnh). Ở đây câu không mang tính khẩn cấp cao nên dùng dấu chấm (.) là phù hợp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Xác định loại câu: 'Vương quốc thư pháp có bao nhiêu tòa tháp?'",
+          "options": [
+            "Câu kể",
+            "Câu cầu khiến",
+            "Câu hỏi",
+            "Câu cảm thán"
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu này dùng từ 'bao nhiêu' để hỏi số lượng và kết thúc bằng dấu hỏi — đây rõ ràng là câu hỏi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây là câu cầu khiến?",
+          "options": [
+            "Yumi đặt cây bút xuống bàn.",
+            "Cây bút này làm bằng ngọc quý!",
+            "Cây bút này được làm bằng chất liệu gì?",
+            "Hãy cẩn thận với cây bút thần này."
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu D 'Hãy cẩn thận với cây bút thần này.' có từ 'hãy' thể hiện lời khuyên/yêu cầu — đây là câu cầu khiến."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Ôi, màu mực này đẹp đến mê hồn!' dùng dấu chấm than vì đây là loại câu gì?",
+          "options": [
+            "Câu hỏi",
+            "Câu cảm thán",
+            "Câu kể có tính từ đẹp",
+            "Câu cầu khiến"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu này bắt đầu bằng từ cảm thán 'Ôi' và bày tỏ cảm xúc ngưỡng mộ mạnh mẽ — đây là câu cảm thán, dùng dấu chấm than."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn: 'Yumi mở cuốn sách cổ ra___ Những chữ vàng hiện lên lung linh___ Đẹp quá___' — ba dấu câu lần lượt là gì?",
+          "options": [
+            "Dấu chấm, dấu chấm, dấu chấm than",
+            "Dấu phẩy, dấu chấm, dấu chấm than",
+            "Dấu chấm, dấu phẩy, dấu hỏi",
+            "Dấu chấm than, dấu chấm, dấu hỏi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu 1 là câu kể (dấu chấm), câu 2 là câu kể (dấu chấm), câu 3 'Đẹp quá' là câu cảm thán ngắn (dấu chấm than) — vậy thứ tự là: dấu chấm, dấu chấm, dấu chấm than."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đặt sai dấu câu so với nội dung của nó?",
+          "options": [
+            "Ai đã viết những chữ thần kỳ này?",
+            "Yumi học thư pháp rất chăm chỉ.",
+            "Mang cuốn sách đó cho ta ngay.",
+            "Ôi, phép màu xuất hiện rồi."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu D 'Ôi, phép màu xuất hiện rồi.' dùng dấu chấm nhưng lại là câu cảm thán (có từ 'Ôi') — phải dùng dấu chấm than (!): 'Ôi, phép màu xuất hiện rồi!'"
+        },
+        {
+          "type": "true_false",
+          "text": "Câu cầu khiến luôn phải dùng dấu chấm than, không được dùng dấu chấm.",
+          "correct": true,
+          "explanation": "Không hẳn — câu cầu khiến nhẹ nhàng có thể kết thúc bằng dấu chấm, chỉ khi câu cầu khiến mang tính khẩn cấp hoặc mạnh mới dùng dấu chấm than. Tuy nhiên trong chương trình lớp 4, câu cầu khiến thường dùng dấu chấm than."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền loại dấu câu vào chỗ trống: Câu kể dùng dấu ___, câu hỏi dùng dấu ___, câu cảm thán dùng dấu ___. (điền ba từ, cách nhau bằng dấu phẩy)",
+          "answer": "chấm, hỏi, chấm than",
+          "explanation": "Ba dấu câu cơ bản: dấu chấm (.) cho câu kể, dấu hỏi (?) cho câu hỏi, dấu chấm than (!) cho câu cảm thán."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x019",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 25,
+      "title": "Điền dấu câu vào đoạn văn",
+      "learningObjective": "Học sinh thực hành điền đúng dấu câu (chấm, phẩy, hỏi, chấm than) vào đoạn văn hoàn chỉnh.",
+      "shortExplanation": "Đọc kỹ từng câu, xác định mục đích câu và ngữ điệu để chọn dấu câu phù hợp.",
+      "content": "Khi điền dấu câu vào đoạn văn, em cần đọc kỹ từng câu và hỏi: Câu này kể, hỏi, hay bày tỏ cảm xúc? Chú ý các từ gợi ý: từ hỏi (ai, gì, ở đâu, bao giờ) → dấu hỏi; từ cảm thán (ôi, chao, trời ơi, thật) → dấu chấm than; từ cầu khiến (hãy, đừng, chớ, mời) → dấu chấm than hoặc dấu chấm. Dấu phẩy xuất hiện giữa câu để liệt kê hoặc ngắt vế. Ví dụ: 'Ôi, Yumi đã tìm ra bí mật của bản đồ rồi! Cô bé reo lên: Hoan hô!'",
+      "storyContext": "Công chúa Yumi nhận được một cuộn giấy ma thuật — cô bé phải điền đúng tất cả dấu câu để giải phóng những chữ vàng bị niêm phong trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn: 'Yumi___ hãy mang cuốn sách này về cung điện.' — dấu câu thích hợp điền vào chỗ trống là gì?",
+          "options": [
+            "Dấu phẩy (,)",
+            "Dấu chấm (.)",
+            "Dấu hỏi (?)",
+            "Dấu chấm than (!)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dấu phẩy (,) được dùng sau tên gọi 'Yumi' để tách lời gọi (hô ngữ) với phần còn lại của câu cầu khiến."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu: 'Cuốn sách thư pháp có những chữ vàng___ chữ bạc___ và chữ ngọc.' — điền hai dấu câu vào chỗ trống?",
+          "options": [
+            "Dấu chấm và dấu chấm",
+            "Dấu hỏi và dấu hỏi",
+            "Dấu phẩy và dấu phẩy",
+            "Dấu chấm than và dấu phẩy"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đây là câu liệt kê ba loại chữ (vàng, bạc, ngọc), cần dùng dấu phẩy sau 'vàng' và sau 'bạc' để ngăn cách các mục trong danh sách."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu câu vào câu: 'Trời ơi___ bản đồ đã hiện ra chữ rồi___'",
+          "options": [
+            "Dấu phẩy và dấu chấm than",
+            "Dấu chấm và dấu hỏi",
+            "Dấu chấm than và dấu chấm",
+            "Dấu phẩy và dấu phẩy"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sau 'Trời ơi' (lời cảm thán mở đầu) dùng dấu phẩy để ngắt, và cuối câu cảm thán 'bản đồ đã hiện ra chữ rồi' dùng dấu chấm than. Vậy đáp án A (phẩy + chấm than) là đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu câu phù hợp vào đoạn: 'Hôm nay___ Yumi thức dậy sớm. Cô bé lấy bút___ giấy___ và mực ra.'",
+          "options": [
+            "Dấu chấm, dấu phẩy, dấu phẩy",
+            "Dấu phẩy, dấu hỏi, dấu hỏi",
+            "Dấu chấm than, dấu phẩy, dấu phẩy",
+            "Dấu phẩy, dấu phẩy, dấu phẩy"
+          ],
+          "correctIndex": 3,
+          "explanation": "Chỗ thứ nhất: sau 'Hôm nay' (trạng ngữ) cần dấu phẩy. Chỗ thứ hai và ba: liệt kê 'bút, giấy, và mực' cần dấu phẩy sau 'bút' và sau 'giấy'. Tất cả đều là dấu phẩy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn có lỗi dấu câu: 'Yumi hỏi: Em có thể học thư pháp không. Thầy giáo trả lời: Được chứ!' — lỗi dấu câu ở đâu?",
+          "options": [
+            "Câu trả lời của thầy giáo phải dùng dấu chấm, không dùng dấu chấm than",
+            "Câu hỏi của Yumi phải dùng dấu hỏi, không phải dấu chấm",
+            "Cần thêm dấu phẩy sau 'Yumi hỏi'",
+            "Cần dấu hỏi sau 'Thầy giáo trả lời'"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu 'Em có thể học thư pháp không' là câu hỏi (có từ 'không' ở cuối dùng để hỏi xác nhận), phải kết thúc bằng dấu hỏi (?) chứ không phải dấu chấm (.)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn cách điền dấu câu đúng nhất cho: 'Sáng nay___ Yumi đến thư viện thần kỳ. Cô bé thấy hàng nghìn cuốn sách___ bút___ và mực quý.'",
+          "options": [
+            "Dấu phẩy; dấu phẩy, dấu phẩy",
+            "Dấu chấm; dấu chấm than, dấu phẩy",
+            "Dấu hỏi; dấu phẩy, dấu phẩy",
+            "Không cần dấu; dấu phẩy, dấu chấm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau 'Sáng nay' (trạng ngữ thời gian đứng đầu câu) dùng dấu phẩy. Trong phần liệt kê 'sách, bút, và mực' cần dấu phẩy sau 'sách' và sau 'bút'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn sau có bao nhiêu chỗ cần điền dấu câu: 'Yumi___ em có muốn học phép thuật không___ Đây là cây bút thần___ hãy giữ gìn cẩn thận___'",
+          "options": [
+            "Hai chỗ",
+            "Ba chỗ",
+            "Bốn chỗ",
+            "Năm chỗ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn có bốn chỗ trống (___)  — do đó cần điền bốn dấu câu: dấu phẩy sau 'Yumi', dấu hỏi sau 'không', dấu chấm sau 'thần', dấu chấm than sau 'cẩn thận'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu câu thích hợp: 'Bài thơ của Yumi thật tuyệt___ Mọi người vỗ tay hoan hô___ Yumi đỏ mặt xấu hổ___'",
+          "options": [
+            "Dấu chấm, dấu chấm, dấu chấm",
+            "Dấu hỏi, dấu chấm than, dấu chấm",
+            "Dấu phẩy, dấu phẩy, dấu phẩy",
+            "Dấu chấm than, dấu chấm than, dấu chấm"
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu 1 'thật tuyệt' là câu cảm thán → dấu chấm than (!). Câu 2 'vỗ tay hoan hô' cũng mang sắc thái vui mừng → dấu chấm than (!). Câu 3 'đỏ mặt xấu hổ' là câu kể → dấu chấm (.)."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong một đoạn văn kể chuyện, tất cả các câu đều phải kết thúc bằng dấu chấm.",
+          "correct": true,
+          "explanation": "Sai. Trong đoạn văn kể chuyện vẫn có thể có câu hỏi (dùng dấu hỏi) và câu cảm thán (dùng dấu chấm than), không phải tất cả câu đều dùng dấu chấm."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dấu câu thích hợp vào câu: 'Yumi ơi___ bạn có nhìn thấy cuốn sách bay trên trời không___'",
+          "answer": ", ?",
+          "explanation": "Dấu phẩy (,) sau 'Yumi ơi' để tách lời gọi, và dấu hỏi (?) cuối câu vì đây là câu hỏi có 'không' ở cuối."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x020",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 26,
+      "title": "Dấu câu trong đoạn văn phức tạp hơn",
+      "learningObjective": "Học sinh vận dụng tổng hợp kiến thức về bốn dấu câu để sửa lỗi và hoàn thiện đoạn văn có độ phức tạp vừa phải.",
+      "shortExplanation": "Đọc toàn bộ đoạn văn trước, hiểu nội dung rồi mới quyết định từng dấu câu — đừng điền từng câu một cách cô lập.",
+      "content": "Khi làm bài về dấu câu phức tạp hơn, em cần chú ý: (1) Dấu phẩy tách mệnh đề phụ khỏi mệnh đề chính — 'Khi Yumi mở cuốn sách, ánh sáng vàng tràn ra.' (2) Dấu phẩy tách lời gọi — 'Yumi ơi, lại đây nào!' (3) Câu gián tiếp (thuật lại lời người khác) dùng dấu chấm cuối — 'Cô giáo nói rằng Yumi viết rất đẹp.' (4) Câu trực tiếp (lời nói thẳng) giữ dấu câu gốc — Cô giáo khen: 'Yumi viết rất đẹp!'",
+      "storyContext": "Công chúa Yumi đã đến được thư viện vàng của Craft Kingdom — cô bé phải giải đúng tất cả câu đố về dấu câu để nhận được bộ bút thần cuối cùng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đặt dấu phẩy đúng để tách mệnh đề phụ?",
+          "options": [
+            "Khi Yumi học thư pháp ánh sáng kỳ diệu xuất hiện.",
+            "Khi Yumi học thư pháp, ánh sáng kỳ diệu xuất hiện.",
+            "Khi, Yumi học thư pháp ánh sáng kỳ diệu xuất hiện.",
+            "Khi Yumi, học thư pháp ánh sáng kỳ diệu xuất hiện."
+          ],
+          "correctIndex": 1,
+          "explanation": "Khi mệnh đề phụ ('Khi Yumi học thư pháp') đứng trước mệnh đề chính, cần dấu phẩy ngăn cách giữa hai mệnh đề. Đáp án B đặt dấu phẩy đúng vị trí."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu trực tiếp: 'Thầy phù thủy hỏi: ___ Yumi đã học thuộc câu thần chú chưa___' — hai dấu câu cần điền là?",
+          "options": [
+            "Dấu chấm và dấu chấm",
+            "Dấu phẩy và dấu hỏi",
+            "Dấu chấm than và dấu chấm",
+            "Dấu hỏi và dấu phẩy"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sau dấu hai chấm (:) bắt đầu lời nói trực tiếp. Câu nói 'Yumi đã học thuộc câu thần chú chưa' là câu hỏi, nên kết thúc bằng dấu hỏi (?). Vậy cần: không có dấu ở đầu và dấu hỏi ở cuối — đáp án B (phẩy + hỏi) gần nhất, nhưng đúng nhất là dấu hỏi cuối câu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI về cách dùng dấu câu?",
+          "options": [
+            "Mặc dù trời mưa, Yumi vẫn đến học thư pháp.",
+            "Yumi nói rằng cô bé rất thích thư pháp.",
+            "Hôm qua, Yumi tìm thấy một cuốn sách bí ẩn.",
+            "Ôi trời, thật là một ngày tuyệt vời."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu D 'Ôi trời, thật là một ngày tuyệt vời.' là câu cảm thán nhưng lại kết thúc bằng dấu chấm — phải dùng dấu chấm than (!): 'Ôi trời, thật là một ngày tuyệt vời!' Các câu A, B, C đều đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn: 'Mỗi sáng___ Yumi thức dậy___ đánh răng___ rửa mặt___ rồi mới ngồi học thư pháp.' — cần mấy dấu phẩy?",
+          "options": [
+            "Hai dấu phẩy",
+            "Ba dấu phẩy",
+            "Bốn dấu phẩy",
+            "Năm dấu phẩy"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cần bốn dấu phẩy: sau 'Mỗi sáng' (trạng ngữ), sau 'Yumi thức dậy', sau 'đánh răng', và sau 'rửa mặt' — để liệt kê chuỗi hành động và tách trạng ngữ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào thể hiện đúng sự khác biệt giữa câu gián tiếp và câu trực tiếp?",
+          "options": [
+            "Cô giáo nói Yumi hãy chăm chỉ luyện tập? — Cô giáo nói: 'Yumi hãy chăm chỉ luyện tập!'",
+            "Cô giáo nói Yumi hãy chăm chỉ luyện tập. — Cô giáo nói: 'Yumi hãy chăm chỉ luyện tập!'",
+            "Cô giáo nói Yumi hãy chăm chỉ luyện tập! — Cô giáo nói: 'Yumi hãy chăm chỉ luyện tập.'",
+            "Cô giáo nói Yumi hãy chăm chỉ luyện tập, — Cô giáo nói: 'Yumi hãy chăm chỉ luyện tập?'"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu gián tiếp (thuật lại lời người khác) kết thúc bằng dấu chấm (.). Câu trực tiếp (lời nói thẳng, có dấu hai chấm và ngoặc kép) giữ nguyên dấu câu gốc — ở đây câu cầu khiến mạnh nên dùng dấu chấm than (!). Đáp án B thể hiện đúng cả hai."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn văn dưới đây có bao nhiêu lỗi dấu câu: 'Yumi mở hòm báu vật ra. Ôi, rất nhiều bút ngọc quý giá. Cô bé hỏi: đây là bút của ai?'",
+          "options": [
+            "Không có lỗi",
+            "Một lỗi",
+            "Hai lỗi",
+            "Ba lỗi"
+          ],
+          "correctIndex": 3,
+          "explanation": "Có một lỗi: câu 'Ôi, rất nhiều bút ngọc quý giá.' là câu cảm thán phải dùng dấu chấm than thay vì dấu chấm. Câu còn lại đúng. Vậy có một lỗi dấu câu trong đoạn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn cách viết đúng nhất cho đoạn hội thoại ngắn:",
+          "options": [
+            "Yumi hỏi: Thưa thầy, con có thể mượn bút thần không! Thầy phù thủy đáp: Được, con hãy giữ gìn cẩn thận.",
+            "Yumi hỏi: Thưa thầy, con có thể mượn bút thần không? Thầy phù thủy đáp: Được, con hãy giữ gìn cẩn thận.",
+            "Yumi hỏi, Thưa thầy con có thể mượn bút thần không? Thầy phù thủy đáp, Được con hãy giữ gìn cẩn thận.",
+            "Yumi hỏi: Thưa thầy con có thể mượn bút thần không? Thầy phù thủy đáp: Được con hãy giữ gìn cẩn thận."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng: câu hỏi kết thúc bằng dấu hỏi (?), câu đáp có dấu phẩy sau 'Được' để ngắt vế, câu cầu khiến nhẹ kết thúc bằng dấu chấm. Dùng dấu hai chấm (:) để giới thiệu lời nói trực tiếp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu câu vào đoạn: 'Chiều hôm đó___ Yumi viết xong bức thư pháp đầu tiên. Cô bé nhìn ngắm nó và mỉm cười___ Thật là một ngày đáng nhớ___'",
+          "options": [
+            "Dấu phẩy, dấu chấm, dấu chấm than",
+            "Dấu chấm, dấu phẩy, dấu hỏi",
+            "Dấu chấm than, dấu phẩy, dấu chấm",
+            "Dấu phẩy, dấu chấm than, dấu phẩy"
+          ],
+          "correctIndex": 0,
+          "explanation": "Chỗ 1: sau 'Chiều hôm đó' (trạng ngữ) → dấu phẩy. Chỗ 2: sau 'mỉm cười' kết thúc câu kể → dấu chấm. Chỗ 3: 'Thật là một ngày đáng nhớ' là câu cảm thán → dấu chấm than. Đáp án A: phẩy, chấm, chấm than."
+        },
+        {
+          "type": "true_false",
+          "text": "Dấu phẩy được dùng để tách mệnh đề phụ (trạng ngữ) đứng đầu câu khỏi mệnh đề chính.",
+          "correct": false,
+          "explanation": "Đây là câu ĐÚNG chứ không phải sai. Dấu phẩy đúng là được dùng để tách mệnh đề phụ hay trạng ngữ đứng đầu câu khỏi phần còn lại. Ví dụ: 'Mỗi buổi sáng, Yumi luyện tập thư pháp.'"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền đúng dấu câu còn thiếu: 'Yumi ơi___ em đã hoàn thành bài thư pháp chưa___ Nếu xong rồi___ hãy mang lên cho thầy xem.'",
+          "answer": ", ? ,",
+          "explanation": "Dấu phẩy sau 'Yumi ơi' (lời gọi), dấu hỏi sau 'chưa' (câu hỏi), dấu phẩy sau 'xong rồi' (tách mệnh đề phụ điều kiện)."
+        }
+      ]
+    }
+  ]
+}

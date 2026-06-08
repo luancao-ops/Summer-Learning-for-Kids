@@ -1,0 +1,626 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-vi-b03",
+  "description": "Boy Grade 3 Vietnamese — Batch 3: Tính từ, Từ đồng nghĩa, Từ trái nghĩa, Câu hỏi",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-vi-x011",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 17,
+      "title": "Tính từ chỉ màu sắc và hình dạng",
+      "learningObjective": "Sau bài này, Johnny biết nhận ra và sử dụng đúng tính từ chỉ màu sắc và hình dạng trong câu Tiếng Việt.",
+      "shortExplanation": "Học cách dùng tính từ màu sắc (đỏ, xanh, vàng) và hình dạng (tròn, vuông, dài) để mô tả sự vật.",
+      "content": "## Tính từ chỉ màu sắc\nTính từ màu sắc mô tả màu của sự vật:\n- **đỏ** — quả táo đỏ, hoa hồng đỏ\n- **xanh lá** — lá cây xanh, rau xanh\n- **xanh lam** — bầu trời xanh lam\n- **vàng** — hoa cúc vàng, nắng vàng\n- **trắng** — tuyết trắng, áo trắng\n- **đen** — mèo đen, đêm tối đen\n- **tím** — hoa tím, bầu trời tím\n\n## Tính từ chỉ hình dạng\nTính từ hình dạng mô tả hình của sự vật:\n- **tròn** — quả bóng tròn, mặt trăng tròn\n- **vuông** — hộp vuông, bàn vuông\n- **dài** — con rắn dài, cây gậy dài\n- **ngắn** — chiếc bút ngắn, con sâu ngắn\n- **nhọn** — mũi kim nhọn, đỉnh núi nhọn\n\n## Cách dùng trong câu\n**Tính từ + Danh từ:** quả bóng **tròn**, chiếc hộp **vuông**\n**Danh từ + Tính từ (sau 'là' hoặc 'rất'):** Quả bóng **rất tròn**. Hoa hồng **màu đỏ**.\n\n## Ví dụ câu\n- Bầu trời **xanh lam** thật đẹp.\n- Quả táo **đỏ** và **tròn** nằm trong rổ.\n- Chiếc kẹo có hình **ngôi sao** màu **vàng**.",
+      "storyContext": "ROBO dẫn Johnny qua khu trưng bày màu sắc trong Robot Sport Lab, nơi mọi vật đều có màu sắc và hình dạng thú vị cần được mô tả đúng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng tính từ chỉ màu sắc?",
+          "options": [
+            "Con mèo chạy nhanh quá.",
+            "Bầu trời xanh lam thật đẹp.",
+            "Em đang học bài chăm chỉ.",
+            "Bạn ấy mang cặp sách đi học."
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Xanh lam\" là tính từ chỉ màu sắc, mô tả bầu trời. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là tính từ chỉ hình dạng?",
+          "options": [
+            "chạy",
+            "vui",
+            "tròn",
+            "nhanh"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Tròn\" mô tả hình dạng của sự vật. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có tính từ chỉ hình dạng?",
+          "options": [
+            "Quả bóng tròn lăn trên sân.",
+            "Em bé đang ngủ ngon.",
+            "Chú chó chạy rất nhanh.",
+            "Bạn Lan học giỏi lắm."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Tròn\" mô tả hình dạng quả bóng. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền tính từ phù hợp: \"Chiếc hộp có hình _____.\"",
+          "options": [
+            "vuông vắn",
+            "chạy nhanh",
+            "ăn ngon",
+            "học bài"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Vuông vắn\" là tính từ chỉ hình dạng phù hợp với chiếc hộp. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng hai tính từ về màu sắc?",
+          "options": [
+            "Con bướm bay cao và xa.",
+            "Hoa hồng đỏ và hoa cúc vàng rất đẹp.",
+            "Em đi học bằng xe đạp.",
+            "Trời tối rồi, mình về nhà thôi."
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Đỏ\" và \"vàng\" đều là tính từ chỉ màu sắc. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG phải tính từ chỉ màu sắc?",
+          "options": [
+            "xanh lá",
+            "tím nhạt",
+            "dài thượt",
+            "vàng óng"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Dài thượt\" mô tả kích thước, không phải màu sắc. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn cách dùng tính từ hình dạng đúng nhất:",
+          "options": [
+            "Mặt trăng tròn sáng lên bầu trời đêm.",
+            "Mặt trăng chạy trên bầu trời.",
+            "Mặt trăng ăn ánh sáng.",
+            "Mặt trăng đang ngủ say."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Tròn\" mô tả đúng hình dạng của mặt trăng. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào kết hợp đúng tính từ màu sắc với danh từ?",
+          "options": [
+            "Chiếc áo đỏ tươi của em rất đẹp.",
+            "Chiếc áo đang chạy nhảy vui vẻ.",
+            "Màu đỏ đang ăn cơm.",
+            "Áo đỏ học bài chăm chỉ."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Đỏ tươi\" mô tả đúng cho \"chiếc áo\" — tính từ màu sắc dùng đúng chỗ. Đáp án đúng là A."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu \"Bông hoa hình ngôi sao màu vàng rất đẹp\", có cả tính từ màu sắc lẫn tính từ hình dạng.",
+          "correct": true,
+          "explanation": "Đúng! \"Ngôi sao\" là hình dạng, \"vàng\" là màu sắc — câu có cả hai loại tính từ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Quả táo có hình _____ và màu đỏ. (1 từ)",
+          "answer": "tròn",
+          "explanation": "Quả táo thường có hình tròn — đây là tính từ chỉ hình dạng."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x012",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 18,
+      "title": "Tính từ chỉ kích thước và tính chất",
+      "learningObjective": "Sau bài này, Johnny phân biệt được tính từ chỉ kích thước (to, nhỏ, cao, thấp) và tính chất (cứng, mềm, nhẹ, nặng) và dùng đúng trong câu.",
+      "shortExplanation": "Học tính từ mô tả kích thước và tính chất của sự vật, biết phân biệt hai nhóm tính từ này.",
+      "content": "## Tính từ chỉ kích thước\nMô tả độ lớn, chiều dài, chiều rộng:\n- **to / lớn** ↔ **nhỏ / bé**: con voi to, con kiến nhỏ\n- **cao** ↔ **thấp / lùn**: tòa nhà cao, cái bàn thấp\n- **dài** ↔ **ngắn**: con đường dài, cây bút ngắn\n- **rộng** ↔ **hẹp**: con sông rộng, ngõ hẻm hẹp\n- **dày** ↔ **mỏng**: quyển sách dày, tờ giấy mỏng\n- **khổng lồ**: con khủng long khổng lồ\n\n## Tính từ chỉ tính chất\nMô tả đặc tính vật liệu hoặc trạng thái:\n- **cứng** ↔ **mềm**: đá cứng, bông mềm\n- **nặng** ↔ **nhẹ**: tảng đá nặng, chiếc lông nhẹ\n- **nóng** ↔ **lạnh**: nước nóng, kem lạnh\n- **trơn** ↔ **nhám**: sàn trơn, giấy nhám\n- **sắc / bén**: dao sắc, mũi kim bén\n\n## Cách dùng trong câu\n- Tảng đá **to** và **cứng**. (kích thước + tính chất)\n- Chiếc lông chim **nhẹ** và **mềm**. (tính chất + tính chất)\n- Tờ giấy **mỏng** và **nhẹ**. (kích thước + tính chất)",
+      "storyContext": "ROBO cho Johnny tham quan kho lưu trữ vật liệu của Robot Sport Lab, nơi mỗi vật có nhãn mô tả kích thước và tính chất để robot sắp xếp đúng chỗ.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là tính từ chỉ kích thước?",
+          "options": [
+            "ngủ",
+            "khổng lồ",
+            "chạy",
+            "học"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Khổng lồ\" mô tả kích thước rất to. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng tính từ chỉ tính chất?",
+          "options": [
+            "Con voi rất to lớn.",
+            "Tờ giấy mỏng và nhẹ.",
+            "Em học lớp ba.",
+            "Chú chó chạy nhanh."
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Mỏng\" và \"nhẹ\" là tính từ chỉ tính chất vật liệu. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG phải tính từ chỉ kích thước?",
+          "options": [
+            "cao",
+            "rộng",
+            "cứng",
+            "hẹp"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Cứng\" là tính từ chỉ tính chất, không phải kích thước. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền tính từ phù hợp: \"Chiếc ba lô này ___ quá, em không mang nổi.\"",
+          "options": [
+            "xanh",
+            "nặng",
+            "tròn",
+            "cao"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Nặng\" mô tả tính chất khó mang của ba lô. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng tính từ kích thước và tính chất đều đúng?",
+          "options": [
+            "Tảng đá to và cứng.",
+            "Tảng đá đang chạy nhanh.",
+            "Tảng đá học bài giỏi.",
+            "Tảng đá ăn nhiều lắm."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"To\" là kích thước, \"cứng\" là tính chất — cả hai đều mô tả đúng tảng đá. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là tính từ chỉ tính chất của vật liệu?",
+          "options": [
+            "ngắn",
+            "thấp",
+            "mềm",
+            "rộng"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Mềm\" mô tả tính chất vật liệu (như bông, vải). Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cặp tính từ nào là từ trái nghĩa về kích thước?",
+          "options": [
+            "cứng — mềm",
+            "nóng — lạnh",
+            "to — nhỏ",
+            "sáng — tối"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"To\" và \"nhỏ\" là cặp tính từ trái nghĩa về kích thước. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sai khi dùng tính từ?",
+          "options": [
+            "Con kiến bé tí xíu mang hạt gạo.",
+            "Ngôi nhà cao tầng sừng sững giữa phố.",
+            "Quyển sách nhẹ và mỏng dễ mang theo.",
+            "Con voi mềm mại đang bay trên trời."
+          ],
+          "correctIndex": 3,
+          "explanation": "Con voi không mềm mại và không bay được — tính từ dùng sai. Đáp án đúng là D."
+        },
+        {
+          "type": "true_false",
+          "text": "\"Nặng\" và \"nhẹ\" là hai tính từ trái nghĩa chỉ tính chất.",
+          "correct": true,
+          "explanation": "Đúng! \"Nặng\" và \"nhẹ\" là cặp tính từ chỉ trọng lượng — tính chất của vật thể."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Chiếc lông chim rất _____ và mềm mại. (1 từ)",
+          "answer": "nhẹ",
+          "explanation": "Lông chim rất nhẹ — đây là tính từ chỉ tính chất về trọng lượng."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x013",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 19,
+      "title": "Từ đồng nghĩa cơ bản",
+      "learningObjective": "Sau bài này, Johnny nhận biết được từ đồng nghĩa và biết thay thế từ trong câu bằng từ đồng nghĩa phù hợp.",
+      "shortExplanation": "Từ đồng nghĩa là những từ có nghĩa giống hoặc gần giống nhau. Học các cặp từ đồng nghĩa phổ biến trong tiếng Việt.",
+      "content": "## Từ đồng nghĩa là gì?\nTừ đồng nghĩa là hai hoặc nhiều từ có nghĩa **giống nhau** hoặc **gần giống nhau**.\n\n## Các cặp từ đồng nghĩa thường gặp\n| Từ | Đồng nghĩa | Ví dụ |\n|---|---|---|\n| xinh đẹp | duyên dáng | Bạn ấy xinh đẹp / duyên dáng |\n| to | lớn | Con voi to / lớn |\n| nhìn | trông | Em nhìn / trông thấy chim |\n| vui vẻ | hạnh phúc | Em vui vẻ / hạnh phúc |\n| mua | sắm | Mẹ mua / sắm quà |\n| im lặng | yên tĩnh | Giờ học im lặng / yên tĩnh |\n| chăm chỉ | siêng năng | Bạn chăm chỉ / siêng năng |\n| nói | kể | Em nói / kể chuyện với mẹ |\n| cha | bố | Cha / bố đi làm về |\n| dũng cảm | can đảm | Chú ấy dũng cảm / can đảm |\n\n## Lưu ý\n- Từ đồng nghĩa không hoàn toàn như nhau 100% — tuỳ ngữ cảnh chọn từ phù hợp\n- \"Nhìn\" và \"trông\" giống nhau, nhưng \"trông\" còn có nghĩa là trông nom/chăm sóc\n- \"Cha\" và \"bố\" giống nhau, dùng ở vùng miền khác nhau (Nam/Bắc)",
+      "storyContext": "ROBO giải thích cho Johnny rằng robot có thể hiểu nhiều từ khác nhau cùng một nghĩa — giống như tiếng Việt có từ đồng nghĩa, giúp câu văn phong phú hơn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào đồng nghĩa với \"xinh đẹp\"?",
+          "options": [
+            "xấu xí",
+            "dữ dằn",
+            "duyên dáng",
+            "buồn bã"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Duyên dáng\" có nghĩa gần giống \"xinh đẹp\" — đều chỉ vẻ đẹp. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cặp từ nào là từ đồng nghĩa?",
+          "options": [
+            "nhanh — chậm",
+            "to — lớn",
+            "vui — buồn",
+            "sáng — tối"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"To\" và \"lớn\" đều mô tả kích thước lớn hơn bình thường. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào đồng nghĩa với \"nhìn\"?",
+          "options": [
+            "nghe",
+            "ngửi",
+            "trông",
+            "nếm"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Trông\" và \"nhìn\" đều dùng mắt để quan sát. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào đồng nghĩa với \"vui vẻ\"?",
+          "options": [
+            "lo lắng",
+            "hạnh phúc",
+            "sợ hãi",
+            "tức giận"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Hạnh phúc\" và \"vui vẻ\" đều diễn tả cảm xúc tích cực. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng từ đồng nghĩa thay thế đúng cho \"Mẹ mua quà tặng em\"?",
+          "options": [
+            "Mẹ bán quà tặng em.",
+            "Mẹ mua đồ dùng tặng em.",
+            "Mẹ sắm quà tặng em.",
+            "Mẹ vứt quà tặng em."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Sắm\" và \"mua\" đều có nghĩa là mua để có đồ vật. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào đồng nghĩa với \"im lặng\"?",
+          "options": [
+            "ồn ào",
+            "yên tĩnh",
+            "vui nhộn",
+            "náo nhiệt"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Yên tĩnh\" và \"im lặng\" đều mô tả trạng thái không có tiếng động. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG đồng nghĩa với \"chăm chỉ\"?",
+          "options": [
+            "cần cù",
+            "siêng năng",
+            "lười biếng",
+            "chịu khó"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Lười biếng\" có nghĩa trái ngược với \"chăm chỉ\". Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dùng từ đồng nghĩa thay \"nói\" trong câu \"Em nói với mẹ về chuyện ở trường\":",
+          "options": [
+            "hét",
+            "kể",
+            "la",
+            "gào"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Kể\" phù hợp nhất để thay \"nói\" — kể chuyện với mẹ. Đáp án đúng là B."
+        },
+        {
+          "type": "true_false",
+          "text": "\"Cha\" và \"bố\" là hai từ đồng nghĩa trong tiếng Việt.",
+          "correct": true,
+          "explanation": "Đúng! \"Cha\" và \"bố\" đều chỉ người cha, dùng ở các vùng miền khác nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ đồng nghĩa với \"dũng cảm\": Chú lính rất _____ khi đối mặt với nguy hiểm. (2 từ)",
+          "answer": "can đảm",
+          "explanation": "\"Can đảm\" và \"dũng cảm\" đều mô tả người không sợ nguy hiểm."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x014",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 20,
+      "title": "Từ trái nghĩa cơ bản",
+      "learningObjective": "Sau bài này, Johnny nhận biết và sử dụng đúng các cặp từ trái nghĩa phổ biến trong tiếng Việt.",
+      "shortExplanation": "Từ trái nghĩa là những từ có nghĩa đối lập nhau. Học các cặp từ trái nghĩa hay gặp để nói và viết phong phú hơn.",
+      "content": "## Từ trái nghĩa là gì?\nTừ trái nghĩa là hai từ có nghĩa **đối lập nhau hoàn toàn**.\n\n## Các cặp từ trái nghĩa thường gặp\n| Từ | Trái nghĩa | Ví dụ |\n|---|---|---|\n| cao | thấp | Tòa nhà cao — cái bàn thấp |\n| sáng | tối | Buổi sáng sáng — ban đêm tối |\n| yêu | ghét | Yêu mèo — ghét chuột |\n| nóng | lạnh | Mùa hè nóng — mùa đông lạnh |\n| dày | mỏng | Sách dày — tờ giấy mỏng |\n| mạnh | yếu | Người mạnh — người yếu |\n| mở | đóng | Mở cửa — đóng cửa |\n| đến | đi | Đến trường — đi về nhà |\n| trẻ | già | Trẻ em — người già |\n| dễ | khó | Bài dễ — bài khó |\n\n## Dùng từ trái nghĩa trong câu\n- Mùa hè **nóng bức**, còn mùa đông thì **lạnh lẽo**.\n- Bài **dễ** em làm được, bài **khó** em cần hỏi thầy.\n- **Trẻ em** và **người già** cùng đi dạo công viên.",
+      "storyContext": "ROBO lập trình trò chơi \"Tìm từ đối lập\" cho Johnny — robot sẽ nói một từ, Johnny phải nói từ trái nghĩa thật nhanh để nạp năng lượng cho ROBO.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào trái nghĩa với \"cao\"?",
+          "options": [
+            "lớn",
+            "rộng",
+            "thấp",
+            "nặng"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Thấp\" trái nghĩa với \"cao\" về chiều cao. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cặp từ nào là từ trái nghĩa?",
+          "options": [
+            "vui — hạnh phúc",
+            "sáng — tối",
+            "to — lớn",
+            "nói — kể"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Sáng\" và \"tối\" là cặp từ trái nghĩa về ánh sáng. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào trái nghĩa với \"yêu\"?",
+          "options": [
+            "thích",
+            "mến",
+            "ghét",
+            "quý"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Ghét\" trái nghĩa với \"yêu\" về cảm xúc. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ trái nghĩa: \"Mùa hè nóng bức, còn mùa đông thì _____.\"",
+          "options": [
+            "ấm áp",
+            "mát mẻ",
+            "lạnh lẽo",
+            "hanh khô"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Lạnh lẽo\" trái nghĩa với \"nóng bức\" — mùa đông thường lạnh. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng cặp từ trái nghĩa?",
+          "options": [
+            "Con đường rộng và to.",
+            "Bầu trời trong xanh và tươi sáng.",
+            "Quyển sách dày, còn tờ giấy thì mỏng.",
+            "Bạn ấy vui vẻ và hạnh phúc."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Dày\" và \"mỏng\" là cặp từ trái nghĩa dùng đúng trong câu. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào trái nghĩa với \"mạnh\"?",
+          "options": [
+            "khỏe",
+            "cứng",
+            "yếu",
+            "rắn"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Yếu\" trái nghĩa với \"mạnh\" về sức lực. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tìm từ trái nghĩa với \"mở\" trong câu \"Mở cửa ra cho thoáng\":",
+          "options": [
+            "khóa",
+            "đóng",
+            "sập",
+            "chặn"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Đóng\" là từ trái nghĩa trực tiếp với \"mở\". Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có cặp từ trái nghĩa rõ ràng nhất?",
+          "options": [
+            "Con đường rộng và dài.",
+            "Bầu trời xanh và đẹp.",
+            "Trẻ em và người già cùng đi dạo.",
+            "Bạn ấy vui vẻ và hoạt bát."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Trẻ em\" và \"người già\" là cặp từ trái nghĩa rõ ràng về tuổi tác. Đáp án đúng là C."
+        },
+        {
+          "type": "true_false",
+          "text": "\"Đến\" và \"đi\" là cặp từ trái nghĩa về hướng di chuyển.",
+          "correct": true,
+          "explanation": "Đúng! \"Đến\" (tiến tới) và \"đi\" (rời xa) diễn tả hướng ngược nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ trái nghĩa: Trời hôm nay không _____ mà rất tối tăm, ảm đạm. (1 từ)",
+          "answer": "sáng",
+          "explanation": "\"Sáng\" trái nghĩa với \"tối\" — đây là cặp từ trái nghĩa về ánh sáng."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x015",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 21,
+      "title": "Câu hỏi với từ để hỏi",
+      "learningObjective": "Sau bài này, Johnny biết đặt câu hỏi đúng với các từ để hỏi: ai, gì, ở đâu, khi nào, tại sao, như thế nào.",
+      "shortExplanation": "Học cách đặt câu hỏi đúng mục đích với từng từ để hỏi, và biết câu trả lời phù hợp cho mỗi loại câu hỏi.",
+      "content": "## Các từ để hỏi và cách dùng\n| Từ để hỏi | Hỏi về | Ví dụ |\n|---|---|---|\n| **Ai?** | Người | Ai đang chơi ngoài sân? |\n| **Cái gì? / Gì?** | Đồ vật, sự việc | Em đang học môn gì? |\n| **Ở đâu?** | Địa điểm | Em học ở đâu? |\n| **Khi nào?** | Thời gian | Khi nào mình đi dã ngoại? |\n| **Tại sao?** | Lý do | Tại sao em đến trễ? |\n| **Như thế nào?** | Cách thức, đặc điểm | Em làm bài tập này như thế nào? |\n| **Mấy? Bao nhiêu?** | Số lượng | Nhà em có mấy người? |\n\n## Ví dụ hỏi và đáp\n- **Ai** nấu cơm tối nay? → Mẹ nấu cơm tối nay.\n- Em học **ở đâu**? → Em học ở trường Tiểu học.\n- **Khi nào** em học bài? → Em học bài lúc 7 giờ tối.\n- **Tại sao** bạn buồn? → Vì em bị tắc đường.\n- Bạn học bài **như thế nào**? → Em học bài rất chăm chỉ.\n\n## Lưu ý\n- \"Ai\" chỉ dùng hỏi về **người**, không hỏi về đồ vật\n- \"Ở đâu\" hỏi về **vị trí** — trả lời bằng tên nơi chốn\n- \"Tại sao\" hỏi **lý do** — trả lời thường bắt đầu bằng \"Vì...\"",
+      "storyContext": "ROBO cần thu thập thông tin về mọi thứ trong Robot Sport Lab. Johnny giúp ROBO đặt đúng loại câu hỏi để lấy thông tin cần thiết.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào dùng đúng từ \"Ai\"?",
+          "options": [
+            "Ai là thủ đô của Việt Nam?",
+            "Ai đang chơi ngoài sân?",
+            "Ai là môn học em thích?",
+            "Ai giờ là mấy giờ rồi?"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Ai\" hỏi về người. Câu B hỏi về người đang chơi ngoài sân — dùng đúng. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dùng từ nào để hỏi về địa điểm?",
+          "options": [
+            "Khi nào",
+            "Tại sao",
+            "Ở đâu",
+            "Như thế nào"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Ở đâu\" dùng để hỏi về địa điểm, vị trí. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu trả lời nào phù hợp với câu hỏi \"Tại sao em đến trễ?\"",
+          "options": [
+            "Em đến lúc 7 giờ.",
+            "Em đến bằng xe buýt.",
+            "Vì em bị tắc đường ạ.",
+            "Em đến cùng bạn Nam."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Tại sao\" hỏi về lý do — câu C trả lời đúng bằng \"Vì...\". Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào điền vào chỗ trống: \"_____ em thường ăn sáng?\" (hỏi về thời gian)",
+          "options": [
+            "Ai",
+            "Ở đâu",
+            "Cái gì",
+            "Khi nào"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Khi nào\" hỏi về thời gian. Đáp án đúng là D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào dùng \"Như thế nào\" đúng mục đích?",
+          "options": [
+            "Như thế nào là địa chỉ nhà em?",
+            "Như thế nào bạn tên là gì?",
+            "Em làm bài tập này như thế nào?",
+            "Như thế nào giờ là mấy giờ?"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Như thế nào\" hỏi về cách thức. Câu C hỏi cách làm bài — dùng đúng. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hỏi về đồ vật, ta dùng từ nào?",
+          "options": [
+            "Ai",
+            "Cái gì",
+            "Khi nào",
+            "Tại sao"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Cái gì\" dùng để hỏi về đồ vật, sự vật. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào đặt từ để hỏi đúng vị trí?",
+          "options": [
+            "Ai là người nấu cơm tối nay?",
+            "Bạn học bài ở đâu thường ngày?",
+            "Khi nào lớp mình đi dã ngoại?",
+            "Tại sao bạn buồn vậy?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu A đặt \"Ai\" đứng đầu câu hỏi — cấu trúc chuẩn. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu trả lời nào phù hợp với \"Bạn học môn gì thích nhất?\"",
+          "options": [
+            "Em thích học ở thư viện.",
+            "Em học với bạn Minh.",
+            "Em thích môn Toán nhất.",
+            "Em học vào buổi sáng."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Môn gì\" hỏi tên môn học — câu C trả lời đúng tên môn. Đáp án đúng là C."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu hỏi \"Tại sao bạn thích đọc sách?\" dùng đúng từ để hỏi về lý do.",
+          "correct": true,
+          "explanation": "Đúng! \"Tại sao\" dùng để hỏi lý do — đây là cách dùng đúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ để hỏi: \"_____ bạn đến trường bằng phương tiện gì?\" (hỏi về người)",
+          "answer": "Ai",
+          "explanation": "\"Ai\" hỏi về người — đây là từ để hỏi phù hợp khi muốn biết người nào."
+        }
+      ]
+    }
+  ]
+}

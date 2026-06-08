@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-en-b01",
+  "description": "Bài ôn Tiếng Anh Lớp 4 cho Yumi - Present Simple - I/you/we/they forms: daily routin",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "star_badge"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-en-x001",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 12,
+      "title": "Thì Hiện Tại Đơn - Hoạt Động Hằng Ngày",
+      "learningObjective": "Học sinh sẽ nhận biết và sử dụng đúng thì hiện tại đơn với chủ ngữ I, you, we, they để nói về các hoạt động hằng ngày.",
+      "shortExplanation": "Nhớ rằng với I, you, we, they, động từ không chia - dùng nguyên mẫu. Ví dụ: I wake up at 6 AM.",
+      "content": "Thì hiện tại đơn (Present Simple) dùng để nói về thói quen và hoạt động hằng ngày. Với chủ ngữ I, you, we, they - động từ giữ nguyên dạng gốc, không thêm 's' hay 'es'. Ví dụ: 'I wake up at 6 AM every day.' (Tôi thức dậy lúc 6 giờ sáng mỗi ngày.) Ví dụ khác: 'We eat breakfast together.' (Chúng tôi ăn sáng cùng nhau.) Đây là quy tắc cơ bản nhất cần ghi nhớ khi dùng thì này.",
+      "storyContext": "Công chúa Yumi mở cuốn sách phép thuật và luyện đọc các câu thần chú tiếng Anh về thói quen hằng ngày của các nàng tiên.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng với chủ ngữ 'I':",
+          "options": ["I wake up at 7 AM.", "I wakes up at 7 AM.", "I waking up at 7 AM.", "I is wake up at 7 AM."],
+          "correctIndex": 0,
+          "explanation": "Với chủ ngữ 'I', động từ giữ nguyên dạng gốc: 'wake up', không thêm 's' hay dùng dạng khác."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'They ___ to school every day.'",
+          "options": ["goes", "is go", "walk", "walking"],
+          "correctIndex": 2,
+          "explanation": "Với chủ ngữ 'they', động từ dùng dạng gốc. 'Walk' là đúng; 'goes' chỉ dùng với he/she/it."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây đúng về thì hiện tại đơn?",
+          "options": ["We plays soccer after school.", "You plays tennis every week.", "You play tennis every week.", "You is play tennis every week."],
+          "correctIndex": 1,
+          "explanation": "Với chủ ngữ 'you', động từ giữ nguyên dạng gốc: 'play', không thêm 's'. Câu đúng là 'You play tennis every week.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu mô tả thói quen hằng ngày đúng ngữ pháp:",
+          "options": ["We is eating lunch at noon.", "We eating lunch at noon.", "We eats lunch at noon.", "We eat lunch at noon."],
+          "correctIndex": 3,
+          "explanation": "Với 'we', động từ dùng dạng gốc: 'eat'. Không thêm 's/es' và không cần 'is/are' trong câu khẳng định thì hiện tại đơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bạn muốn nói 'Tôi uống sữa mỗi buổi sáng.' Câu tiếng Anh nào đúng?",
+          "options": ["I drink milk every morning.", "I drinks milk every morning.", "I am drink milk every morning.", "I drinking milk every morning."],
+          "correctIndex": 0,
+          "explanation": "Với chủ ngữ 'I', dùng động từ gốc 'drink'. Câu 'I drink milk every morning.' là hoàn toàn đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI về ngữ pháp?",
+          "options": ["I brush my teeth at night.", "They do homework after dinner.", "We go to bed at 9 PM.", "You brushes your hair every morning."],
+          "correctIndex": 2,
+          "explanation": "Câu 'You brushes your hair' sai vì với 'you' không thêm 's' vào động từ. Đáp án đúng phải là 'You brush your hair.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng: 'Họ ăn tối lúc 7 giờ tối.'",
+          "options": ["They eats dinner at 7 PM.", "They have dinner at 7 PM.", "They is have dinner at 7 PM.", "They having dinner at 7 PM."],
+          "correctIndex": 1,
+          "explanation": "Với 'they', dùng động từ gốc 'have'. Câu 'They have dinner at 7 PM.' là đúng ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'I ___ my room every Saturday.'",
+          "options": ["cleans", "cleaning", "am clean", "clean"],
+          "correctIndex": 3,
+          "explanation": "Với chủ ngữ 'I', dùng động từ nguyên mẫu 'clean'. Không thêm 's' và không dùng dạng -ing trong câu khẳng định thì hiện tại đơn."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau đây đúng ngữ pháp: 'We brush our teeth twice a day.'",
+          "correct": true,
+          "explanation": "Đúng! Với 'we', động từ giữ nguyên dạng gốc 'brush'. Câu này hoàn toàn đúng ngữ pháp."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu: 'They ___ (play) football every Sunday.'",
+          "answer": "play",
+          "explanation": "Với chủ ngữ 'they' trong thì hiện tại đơn, động từ giữ nguyên dạng gốc: 'play'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x002",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 13,
+      "title": "Thì Hiện Tại Đơn - Sở Thích Và Điều Không Thích",
+      "learningObjective": "Học sinh sẽ biết dùng 'like' và 'don't like' với I, you, we, they để diễn đạt sở thích và điều không thích.",
+      "shortExplanation": "Dùng 'like + V-ing' hoặc 'like + danh từ' để nói về sở thích. Dùng 'don't like' để phủ định. Ví dụ: I like reading books.",
+      "content": "Để nói về sở thích, dùng 'like' theo công thức: I/You/We/They + like + V-ing hoặc danh từ. Ví dụ: 'I like dancing.' (Tôi thích nhảy múa.) hoặc 'We like ice cream.' (Chúng tôi thích kem.) Để nói điều không thích, dùng 'don't like': 'They don't like vegetables.' (Họ không thích rau.) Lưu ý: 'don't' là viết tắt của 'do not', dùng với I, you, we, they. Sau 'like', có thể dùng V-ing hoặc danh từ đều được.",
+      "storyContext": "Công chúa Yumi viết thư cho nàng tiên Tinker Bell, kể về những điều cô thích và không thích trong Vương Quốc Craft.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng để nói 'Tôi thích đọc sách'?",
+          "options": ["I likes reading books.", "I like reading books.", "I liking reading books.", "I am like reading books."],
+          "correctIndex": 1,
+          "explanation": "Với chủ ngữ 'I', dùng 'like' (không thêm 's'). Câu đúng là 'I like reading books.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'We ___ watching movies on weekends.'",
+          "options": ["likes", "is like", "are like", "don't like"],
+          "correctIndex": 3,
+          "explanation": "Câu hỏi yêu cầu dạng phủ định. 'Don't like' dùng với 'we' để nói điều không thích. Đây là đáp án phù hợp về mặt ngữ pháp và ngữ nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng: 'Các bạn thích chơi ngoài trời.'",
+          "options": ["You likes playing outside.", "You like to played outside.", "You like playing outside.", "You are like playing outside."],
+          "correctIndex": 2,
+          "explanation": "Với 'you', dùng 'like' (không thêm 's'). Sau 'like' dùng V-ing: 'playing'. Câu đúng: 'You like playing outside.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'They don't like waking up early.' có nghĩa là gì?",
+          "options": ["Họ thích thức dậy sớm.", "Họ thường thức dậy sớm.", "Họ đang thức dậy sớm.", "Họ không thích thức dậy sớm."],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi yêu cầu dịch 'They don't like waking up early.' Đây là câu phủ định, có nghĩa 'Họ không thích thức dậy sớm.' - đáp án A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào diễn đạt đúng 'Chúng tôi thích ăn pizza'?",
+          "options": ["We like eating pizza.", "We likes eating pizza.", "We liking pizza.", "We are like pizza."],
+          "correctIndex": 1,
+          "explanation": "Với 'we', dùng 'like' (không thêm 's'). Câu 'We like eating pizza.' là đúng - đây là đáp án B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu phủ định đúng của 'I like vegetables' là:",
+          "options": ["I likes not vegetables.", "I am not like vegetables.", "I doesn't like vegetables.", "I don't like vegetables."],
+          "correctIndex": 3,
+          "explanation": "'Don't' (do not) dùng với I, you, we, they để phủ định. Câu đúng là 'I don't like vegetables.' - đáp án D. 'Doesn't' chỉ dùng với he/she/it, không dùng với I."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Do you ___ playing video games?'",
+          "options": ["likes", "liked", "like", "liking"],
+          "correctIndex": 2,
+          "explanation": "Sau 'Do you', động từ dùng dạng gốc 'like'. Câu hỏi đúng: 'Do you like playing video games?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI?",
+          "options": ["I like swimming in the pool.", "They like reading comics.", "We like drawing pictures.", "You likes cooking with mom."],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi yêu cầu tìm câu SAI. 'You likes cooking' sai vì với 'you' không thêm 's' vào 'like'. Đúng phải là 'You like cooking with mom.' - đáp án A."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau đây SAI ngữ pháp: 'We don't like waking up at 5 AM.'",
+          "correct": false,
+          "explanation": "Sai! Câu 'We don't like waking up at 5 AM.' hoàn toàn đúng ngữ pháp. 'Don't like' + V-ing là cấu trúc đúng với 'we'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu: 'I ___ (not/like) eating spicy food.'",
+          "answer": "don't like",
+          "explanation": "Với chủ ngữ 'I', dùng 'don't like' để diễn đạt điều không thích."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x003",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 14,
+      "title": "Thì Hiện Tại Đơn - Câu Hỏi Và Phủ Định",
+      "learningObjective": "Học sinh sẽ biết đặt câu hỏi với 'Do' và câu phủ định với 'don't' trong thì hiện tại đơn với I, you, we, they.",
+      "shortExplanation": "Câu hỏi: Do + I/you/we/they + V? Câu phủ định: I/you/we/they + don't + V. Ví dụ: Do you like cats? I don't have a pet.",
+      "content": "Để đặt câu hỏi thì hiện tại đơn với I, you, we, they - dùng 'Do' ở đầu câu: Do + chủ ngữ + động từ gốc + ...? Ví dụ: 'Do they play sports?' (Họ có chơi thể thao không?) Để trả lời: 'Yes, they do.' hoặc 'No, they don't.' Câu phủ định: chủ ngữ + don't + động từ gốc. Ví dụ: 'We don't go to school on Sundays.' (Chúng tôi không đi học vào ngày Chủ nhật.) Lưu ý: 'don't' = do not, dùng với I/you/we/they. Không nhầm với 'doesn't' dùng cho he/she/it.",
+      "storyContext": "Công chúa Yumi hỏi các nàng tiên bạn bè bằng câu hỏi phép thuật tiếng Anh: 'Do you like living in the enchanted forest?'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi đúng với thì hiện tại đơn là:",
+          "options": ["Are you like dancing?", "Does you dance every day?", "Do you dance every day?", "You dance every day?"],
+          "correctIndex": 2,
+          "explanation": "Câu hỏi thì hiện tại đơn với 'you' bắt đầu bằng 'Do'. Câu đúng: 'Do you dance every day?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trả lời ngắn gọn cho câu hỏi 'Do they like math?': Câu trả lời phủ định đúng là:",
+          "options": ["No, they doesn't.", "No, they aren't.", "No, they don't.", "No, they isn't."],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi yêu cầu trả lời phủ định. 'No, they don't.' là đúng vì với 'they' dùng 'don't' (không phải 'doesn't'). Đáp án A là 'No, they don't.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu phủ định đúng của 'I go to the gym on Mondays.' là:",
+          "options": ["I not go to the gym on Mondays.", "I am not go to the gym on Mondays.", "I doesn't go to the gym on Mondays.", "I don't go to the gym on Mondays."],
+          "correctIndex": 3,
+          "explanation": "Với 'I', dùng 'don't' để phủ định: 'I don't go to the gym on Mondays.' Không dùng 'doesn't' với I."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: '___ they study English at school?'",
+          "options": ["Does", "Do", "Are", "Is"],
+          "correctIndex": 1,
+          "explanation": "Với 'they' trong câu hỏi thì hiện tại đơn, dùng 'Do'. Câu đúng: 'Do they study English at school?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'We don't eat meat.' có nghĩa là gì?",
+          "options": ["Chúng tôi không ăn thịt.", "Chúng tôi ăn thịt.", "Chúng tôi đang ăn thịt.", "Chúng tôi sẽ ăn thịt."],
+          "correctIndex": 2,
+          "explanation": "'Don't eat' là câu phủ định thì hiện tại đơn, có nghĩa là 'không ăn'. Câu này có nghĩa: 'Chúng tôi không ăn thịt.' - đáp án C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi đúng để hỏi 'Các bạn có thích bơi lội không?':",
+          "options": ["Do you like swimming?", "Does you like swimming?", "Are you like swimming?", "You like swimming?"],
+          "correctIndex": 0,
+          "explanation": "Với 'you', câu hỏi thì hiện tại đơn dùng 'Do you + V?'. Câu đúng: 'Do you like swimming?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp?",
+          "options": ["Do we need to go now?", "They don't watch TV at night.", "I doesn't like cold weather.", "Do you have any pets?"],
+          "correctIndex": 3,
+          "explanation": "Câu 'I doesn't like cold weather.' sai vì với 'I' phải dùng 'don't', không phải 'doesn't'. Đúng phải là 'I don't like cold weather.' - đáp án D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'They ___ (not) play computer games on school nights.'",
+          "options": ["doesn't", "aren't", "isn't", "don't"],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi yêu cầu điền phủ định với 'they'. 'Don't' là đúng với they - đây là đáp án B."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu hỏi 'Do I need to bring my umbrella?' là đúng ngữ pháp trong thì hiện tại đơn.",
+          "correct": true,
+          "explanation": "Đúng! 'Do I + V?' là cấu trúc câu hỏi thì hiện tại đơn đúng với chủ ngữ 'I'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu hỏi: '___ you and your friends play together after school?'",
+          "answer": "Do",
+          "explanation": "Câu hỏi thì hiện tại đơn với 'you' bắt đầu bằng 'Do'. Câu đúng: 'Do you and your friends play together after school?'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x004",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 15,
+      "title": "Thì Hiện Tại Đơn - Thói Quen Và Tần Suất",
+      "learningObjective": "Học sinh sẽ biết dùng trạng từ tần suất (always, usually, often, sometimes, never) với thì hiện tại đơn để nói về mức độ thường xuyên của thói quen.",
+      "shortExplanation": "Trạng từ tần suất đặt SAU chủ ngữ và TRƯỚC động từ chính. Thứ tự: always (100%) > usually > often > sometimes > never (0%). Ví dụ: I always brush my teeth.",
+      "content": "Trạng từ tần suất (frequency adverbs) thường dùng với thì hiện tại đơn để nói mức độ thường xuyên của một hành động. Các trạng từ phổ biến: always (luôn luôn - 100%), usually (thường - 80%), often (hay - 60%), sometimes (đôi khi - 40%), never (không bao giờ - 0%). Vị trí: đặt TRƯỚC động từ chính nhưng SAU chủ ngữ. Ví dụ: 'I always wake up at 6 AM.' (Tôi luôn thức dậy lúc 6 giờ.) 'They sometimes go to the park on weekends.' (Họ đôi khi đi công viên vào cuối tuần.) Chú ý: với động từ 'be', trạng từ tần suất đặt SAU 'be'.",
+      "storyContext": "Trong nhật ký phép thuật, Công chúa Yumi viết về những việc cô luôn làm, thỉnh thoảng làm và không bao giờ làm trong Vương Quốc Craft.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Vị trí đúng của trạng từ tần suất 'always' trong câu là:",
+          "options": ["I brush always my teeth.", "Always I brush my teeth.", "I always brush my teeth.", "I brush my always teeth."],
+          "correctIndex": 3,
+          "explanation": "Câu hỏi yêu cầu tìm vị trí đúng của 'always'. Trạng từ tần suất đặt sau chủ ngữ và trước động từ chính. Câu đúng: 'I always brush my teeth.' - đáp án D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có nghĩa 'Họ thỉnh thoảng xem phim vào tối thứ Sáu'?",
+          "options": ["They sometimes watch movies on Friday evenings.", "They never watch movies on Friday evenings.", "They always watch movies on Friday evenings.", "They usually watch movies on Friday evenings."],
+          "correctIndex": 1,
+          "explanation": "'Sometimes' có nghĩa là 'thỉnh thoảng'. Câu đúng: 'They sometimes watch movies on Friday evenings.' - đáp án B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sắp xếp từ thành câu đúng: 'we / often / together / eat / lunch'",
+          "options": ["We eat often lunch together.", "We often eat lunch together.", "Often we eat lunch together.", "We eat lunch often together."],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi yêu cầu sắp xếp từ. Trạng từ 'often' đặt trước động từ 'eat'. Câu đúng: 'We often eat lunch together.' - đáp án A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trạng từ nào có tần suất CAO NHẤT?",
+          "options": ["Sometimes", "Often", "Usually", "Always"],
+          "correctIndex": 2,
+          "explanation": "'Always' có nghĩa 'luôn luôn' (100%) - tần suất cao nhất. Thứ tự: always > usually > often > sometimes > never. Đáp án C là 'Always'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI về vị trí trạng từ tần suất?",
+          "options": ["I never eat fast food.", "They usually do homework after school.", "We sometimes visit grandma.", "You go always to bed late."],
+          "correctIndex": 3,
+          "explanation": "'You go always to bed late.' sai vì 'always' phải đặt trước động từ 'go'. Đúng phải là: 'You always go to bed late.' - đáp án D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền trạng từ phù hợp: 'I ___ forget my homework. I am very careful.' (Tôi không bao giờ quên bài tập.)",
+          "options": ["always", "never", "sometimes", "usually"],
+          "correctIndex": 1,
+          "explanation": "'Never' có nghĩa 'không bao giờ' (0%). Câu đúng: 'I never forget my homework.' - đáp án B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'They are always happy in the morning.' - trạng từ 'always' đặt ở vị trí nào so với động từ 'be'?",
+          "options": ["Sau động từ 'are'", "Trước động từ 'are'", "Đầu câu", "Cuối câu"],
+          "correctIndex": 0,
+          "explanation": "Với động từ 'be' (am/is/are), trạng từ tần suất đặt SAU động từ 'be'. Ví dụ: 'They ARE always happy.' - đáp án A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng để nói 'Chúng tôi thường đi bộ đến trường':",
+          "options": ["We go usually to school on foot.", "We usually go to school on foot.", "Usually we go to school on foot.", "We go to school usually on foot."],
+          "correctIndex": 2,
+          "explanation": "'Usually' đặt trước động từ chính 'go'. Câu đúng: 'We usually go to school on foot.' - đáp án C."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau đây đúng ngữ pháp: 'I go sometimes to bed at 9 PM.'",
+          "correct": false,
+          "explanation": "Sai! Câu này SAI ngữ pháp. Trạng từ tần suất 'sometimes' phải đứng TRƯỚC động từ chính 'go', không phải sau 'go'. Câu đúng phải là: 'I sometimes go to bed at 9 PM.'"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu: 'We ___ (usually) have dinner at 6:30 PM.'",
+          "answer": "usually",
+          "explanation": "'Usually' (thường thường) là trạng từ tần suất đặt trước động từ 'have' trong câu này."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x005",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 16,
+      "title": "Thì Hiện Tại Đơn - Tổng Hợp Và Vận Dụng",
+      "learningObjective": "Học sinh sẽ vận dụng tổng hợp thì hiện tại đơn với I/you/we/they để viết và nói về thói quen, sở thích và hoạt động hằng ngày trong các tình huống thực tế.",
+      "shortExplanation": "Ôn lại tất cả: động từ gốc với I/you/we/they, dùng 'like/don't like', đặt câu hỏi với 'Do', và thêm trạng từ tần suất cho câu phong phú hơn.",
+      "content": "Tổng hợp thì hiện tại đơn: (1) Câu khẳng định: I/You/We/They + V-gốc. Ví dụ: 'We always eat breakfast.' (2) Câu phủ định: I/You/We/They + don't + V-gốc. Ví dụ: 'They don't like spicy food.' (3) Câu hỏi: Do + I/You/We/They + V-gốc? Ví dụ: 'Do you often exercise?' (4) Với 'like': I like + V-ing/danh từ. Ví dụ: 'I like reading fairy tales.' Nhớ: trạng từ tần suất (always, usually, often, sometimes, never) luôn đứng trước động từ chính để tạo câu sinh động và chính xác hơn.",
+      "storyContext": "Công chúa Yumi hoàn thành cuốn sách phép thuật của mình, viết thư gửi tất cả các nàng tiên bạn bè kể về cuộc sống hằng ngày tuyệt vời trong Vương Quốc Craft bằng tiếng Anh.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào diễn đạt đầy đủ và đúng về thói quen hằng ngày của Yumi?",
+          "options": ["I always wake up at 6 AM and brush my teeth.", "I always wakes up at 6 AM and brush my teeth.", "I always wake up at 6 AM and brushes my teeth.", "I always waking up at 6 AM and brushing my teeth."],
+          "correctIndex": 0,
+          "explanation": "Với 'I', cả hai động từ 'wake up' và 'brush' đều ở dạng gốc. 'I always wake up at 6 AM and brush my teeth.' là câu hoàn toàn đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'We live near the school. We usually walk to school. We don't take the bus.' Câu nào SAI khi mô tả đoạn văn này?",
+          "options": ["Họ sống gần trường.", "Họ thường đi bộ đến trường.", "Họ đôi khi đi xe buýt.", "Họ không đi xe buýt."],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn nói 'We don't take the bus' - họ KHÔNG đi xe buýt. Câu 'Họ đôi khi đi xe buýt' là SAI khi mô tả đoạn văn này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi muốn viết: 'Các bạn của tôi và tôi thích chơi trò chơi cùng nhau sau giờ học.' Câu tiếng Anh nào đúng?",
+          "options": ["My friends and I likes playing games together after school.", "My friends and I like playing games together after school.", "My friends and I like to played games together after school.", "My friends and I is like playing games together after school."],
+          "correctIndex": 1,
+          "explanation": "'My friends and I' = we, nên dùng 'like' (không thêm 's'). Sau 'like' dùng V-ing: 'playing'. Câu đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn đoạn văn đúng hoàn toàn về ngữ pháp:",
+          "options": ["I wake up at 7 AM. I eats breakfast. Then I go to school.", "I wake up at 7 AM. I eat breakfast. Then I go to school.", "I wakes up at 7 AM. I eat breakfast. Then I goes to school.", "I wake up at 7 AM. I eat breakfast. Then I goes to school."],
+          "correctIndex": 3,
+          "explanation": "Với 'I', tất cả động từ đều ở dạng gốc: 'wake up', 'eat', 'go'. Đáp án D: 'I wake up at 7 AM. I eat breakfast. Then I go to school.' là đúng hoàn toàn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào phù hợp để hỏi về thói quen của một nhóm bạn?",
+          "options": ["Do you and your friends often play sports?", "Does you and your friends often play sports?", "Are you and your friends often play sports?", "You and your friends often play sports?"],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi thì hiện tại đơn với 'you' dùng 'Do'. Câu đúng: 'Do you and your friends often play sports?' - đáp án A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống để hoàn thành thư của Yumi: 'Dear Tinker Bell, We ___ fairies like you very much. We always ___ about magical adventures.'",
+          "options": ["likes / dreams", "like / dream", "like / dreams", "likes / dream"],
+          "correctIndex": 2,
+          "explanation": "Với 'We', cả hai động từ đều ở dạng gốc: 'like' và 'dream'. Đáp án C: 'like / dream' là đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng ngữ pháp VÀ có trạng từ tần suất đặt đúng vị trí?",
+          "options": ["They go never to bed after midnight.", "They never go to bed after midnight.", "Never they go to bed after midnight.", "They go to bed never after midnight."],
+          "correctIndex": 1,
+          "explanation": "Trạng từ tần suất 'never' đặt trước động từ chính 'go'. Câu đúng: 'They never go to bed after midnight.' - đáp án B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu: 'Do they enjoy reading fantasy books?' Câu trả lời khẳng định ngắn gọn đúng là:",
+          "options": ["Yes, they enjoy.", "Yes, they are.", "Yes, they does.", "Yes, they do."],
+          "correctIndex": 3,
+          "explanation": "Trả lời khẳng định ngắn cho 'Do they...?' là 'Yes, they do.' - đáp án D."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau đây đúng ngữ pháp: 'I don't like waking up early, but I always do it for school.'",
+          "correct": true,
+          "explanation": "Đúng! Câu này có cấu trúc đúng: 'don't like + V-ing' và 'always + V-gốc'. Cả hai mệnh đề đều đúng ngữ pháp."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu trong thư của Yumi: 'My friends and I ___ (like) making crafts and drawing pictures every afternoon.'",
+          "answer": "like",
+          "explanation": "'My friends and I' tương đương với 'we', nên dùng động từ gốc 'like' (không thêm 's')."
+        }
+      ]
+    }
+  ]
+}

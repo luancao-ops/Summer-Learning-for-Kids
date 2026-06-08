@@ -4,6 +4,7 @@ import { MistakeReviewList } from "@/components/MistakeReviewList";
 import { ParentResetDataPanel, type ResetDataCounts } from "@/components/ParentResetDataPanel";
 import { ParentSummary } from "@/components/ParentSummary";
 import { choreLevelRewards, recentDateCutoff, todayKey, type ChoreLevel } from "@/lib/habits";
+import { requireParentAccess } from "@/lib/parent-access";
 import { prisma } from "@/lib/prisma";
 import { subjectProgress } from "@/lib/progress";
 
@@ -20,6 +21,7 @@ type TodayChoreRow = {
 };
 
 export default async function ParentPage() {
+  await requireParentAccess();
   const today = todayKey();
   const readingCutoff = recentDateCutoff(7);
   const students = await prisma.student.findMany({ orderBy: { id: "asc" } });

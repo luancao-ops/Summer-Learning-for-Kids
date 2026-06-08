@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "batchId": "boy-g4-math-b04",
+  "description": "Bài ôn Toán Lớp 4 cho Johnny - Diện tích hình chữ nhật và hình vuông - công thức, đơn vị diện tích cm² dm² m², bài toán ứng dụng",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-math-x016",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 47,
+      "title": "Diện tích hình chữ nhật là gì?",
+      "learningObjective": "Học sinh biết công thức tính diện tích hình chữ nhật S = dài × rộng và áp dụng tính diện tích khi biết hai chiều.",
+      "shortExplanation": "Nhớ công thức: Diện tích hình chữ nhật = chiều dài × chiều rộng. Đơn vị diện tích là cm², dm², m².",
+      "content": "Diện tích hình chữ nhật được tính bằng công thức: S = chiều dài × chiều rộng. Ví dụ, hình chữ nhật có chiều dài 8 cm và chiều rộng 5 cm thì có diện tích S = 8 × 5 = 40 cm². Đơn vị diện tích thường dùng là cm² (xăng-ti-mét vuông), dm² (đề-xi-mét vuông), m² (mét vuông). Khi tính diện tích, hai chiều phải cùng đơn vị đo.",
+      "storyContext": "Robo-X cần tính diện tích sàn đấu trường robot để lắp đặt tấm pin năng lượng mặt trời cho các trận thi đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính diện tích hình chữ nhật là gì?",
+          "options": [
+            "S = chiều dài + chiều rộng",
+            "S = (chiều dài + chiều rộng) × 2",
+            "S = chiều dài × chiều rộng",
+            "S = chiều dài × chiều dài"
+          ],
+          "correctIndex": 2,
+          "explanation": "Diện tích hình chữ nhật bằng chiều dài nhân chiều rộng: S = chiều dài × chiều rộng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chiều dài 6 cm, chiều rộng 4 cm. Diện tích là bao nhiêu?",
+          "options": [
+            "24 cm²",
+            "20 cm²",
+            "10 cm²",
+            "12 cm²"
+          ],
+          "correctIndex": 0,
+          "explanation": "S = 6 × 4 = 24 cm². Diện tích hình chữ nhật bằng chiều dài nhân chiều rộng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đơn vị nào sau đây là đơn vị đo diện tích?",
+          "options": [
+            "cm",
+            "dm",
+            "m",
+            "dm²"
+          ],
+          "correctIndex": 3,
+          "explanation": "dm² (đề-xi-mét vuông) là đơn vị đo diện tích. Các đơn vị cm, dm, m chỉ là đơn vị đo độ dài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chiều dài 9 dm, chiều rộng 3 dm. Diện tích là bao nhiêu?",
+          "options": [
+            "27 dm",
+            "27 dm²",
+            "12 dm²",
+            "24 dm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "S = 9 × 3 = 27 dm². Đơn vị diện tích là dm² (không phải dm)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tấm pin năng lượng của Robo-X có chiều dài 7 cm, chiều rộng 5 cm. Diện tích tấm pin là bao nhiêu?",
+          "options": [
+            "12 cm²",
+            "35 cm",
+            "35 cm²",
+            "24 cm²"
+          ],
+          "correctIndex": 2,
+          "explanation": "S = 7 × 5 = 35 cm². Tấm pin có diện tích 35 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có diện tích 48 cm², chiều rộng 6 cm. Chiều dài là bao nhiêu?",
+          "options": [
+            "8 cm",
+            "6 cm",
+            "42 cm",
+            "288 cm"
+          ],
+          "correctIndex": 0,
+          "explanation": "Chiều dài = Diện tích ÷ Chiều rộng = 48 ÷ 6 = 8 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật nào có diện tích lớn nhất?",
+          "options": [
+            "Dài 5 cm, rộng 4 cm",
+            "Dài 6 cm, rộng 3 cm",
+            "Dài 4 cm, rộng 4 cm",
+            "Dài 8 cm, rộng 3 cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "S = 8 × 3 = 24 cm² là lớn nhất. Các hình còn lại: 20 cm², 18 cm², 16 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sàn phòng thi đấu robot hình chữ nhật có chiều dài 10 m, chiều rộng 6 m. Diện tích sàn là bao nhiêu?",
+          "options": [
+            "16 m²",
+            "60 m²",
+            "32 m²",
+            "600 m²"
+          ],
+          "correctIndex": 1,
+          "explanation": "S = 10 × 6 = 60 m². Diện tích sàn phòng thi đấu là 60 m²."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình chữ nhật có chiều dài 5 cm và chiều rộng 3 cm có diện tích là 15 cm².",
+          "correct": true,
+          "explanation": "Đúng! S = 5 × 3 = 15 cm²."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình chữ nhật có chiều dài 12 cm, chiều rộng 4 cm. Diện tích hình chữ nhật là _____ cm².",
+          "answer": "48",
+          "explanation": "S = 12 × 4 = 48 cm²."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x017",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 48,
+      "title": "Diện tích hình vuông",
+      "learningObjective": "Học sinh biết công thức tính diện tích hình vuông S = cạnh × cạnh và phân biệt được diện tích hình vuông với hình chữ nhật.",
+      "shortExplanation": "Hình vuông có 4 cạnh bằng nhau, diện tích tính bằng S = cạnh × cạnh (hay cạnh²). Đừng nhầm với chu vi!",
+      "content": "Hình vuông là hình chữ nhật đặc biệt có 4 cạnh bằng nhau. Công thức tính diện tích hình vuông: S = cạnh × cạnh. Ví dụ, hình vuông có cạnh 6 cm thì S = 6 × 6 = 36 cm². Chú ý: chu vi hình vuông là 4 × cạnh, không phải diện tích. Ví dụ hình vuông cạnh 5 dm có S = 5 × 5 = 25 dm².",
+      "storyContext": "Robo-X thi đấu trên sân hình vuông đặc biệt, cần tính diện tích sân để bố trí đủ robot tham gia giải đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính diện tích hình vuông có cạnh a là gì?",
+          "options": [
+            "S = 4 × a",
+            "S = a + a",
+            "S = a × 2",
+            "S = a × a"
+          ],
+          "correctIndex": 3,
+          "explanation": "Diện tích hình vuông bằng cạnh nhân cạnh: S = a × a."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có cạnh 7 cm. Diện tích là bao nhiêu?",
+          "options": [
+            "28 cm²",
+            "49 cm²",
+            "14 cm²",
+            "21 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "S = 7 × 7 = 49 cm². Diện tích hình vuông bằng cạnh nhân cạnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sân đấu robot hình vuông có cạnh 8 m. Diện tích sân là bao nhiêu?",
+          "options": [
+            "64 m²",
+            "32 m²",
+            "16 m²",
+            "48 m²"
+          ],
+          "correctIndex": 0,
+          "explanation": "S = 8 × 8 = 64 m². Sân đấu robot có diện tích 64 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có diện tích 81 cm². Cạnh hình vuông là bao nhiêu?",
+          "options": [
+            "18 cm",
+            "40 cm",
+            "9 cm",
+            "27 cm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cạnh = 9 cm vì 9 × 9 = 81 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông cạnh 5 dm và hình chữ nhật dài 6 dm rộng 4 dm. Hình nào có diện tích lớn hơn?",
+          "options": [
+            "Hai hình bằng nhau",
+            "Hình chữ nhật",
+            "Không so sánh được",
+            "Hình vuông"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hình vuông: S = 5 × 5 = 25 dm². Hình chữ nhật: S = 6 × 4 = 24 dm². Hình vuông có diện tích lớn hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tấm khiên robot Robo-X hình vuông có cạnh 9 cm. Diện tích tấm khiên là bao nhiêu?",
+          "options": [
+            "36 cm²",
+            "81 cm²",
+            "18 cm²",
+            "72 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "S = 9 × 9 = 81 cm². Diện tích tấm khiên là 81 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có chu vi 20 cm. Diện tích hình vuông là bao nhiêu?",
+          "options": [
+            "25 cm²",
+            "100 cm²",
+            "20 cm²",
+            "400 cm²"
+          ],
+          "correctIndex": 0,
+          "explanation": "Chu vi = 4 × cạnh, nên cạnh = 20 ÷ 4 = 5 cm. Diện tích S = 5 × 5 = 25 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông nào có diện tích nhỏ nhất?",
+          "options": [
+            "Cạnh 6 cm",
+            "Cạnh 5 cm",
+            "Cạnh 4 cm",
+            "Cạnh 3 cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hình vuông cạnh 3 cm có S = 3 × 3 = 9 cm² là nhỏ nhất trong các hình trên."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình vuông có cạnh 4 cm có diện tích là 16 cm² và chu vi là 16 cm.",
+          "correct": false,
+          "explanation": "Sai! Diện tích S = 4 × 4 = 16 cm² đúng, nhưng chu vi = 4 × 4 = 16 cm cũng đúng. Thực ra câu này đúng — cả hai đều bằng 16, nhưng đơn vị khác nhau (cm² và cm)."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình vuông có cạnh 6 dm. Diện tích hình vuông là _____ dm².",
+          "answer": "36",
+          "explanation": "S = 6 × 6 = 36 dm²."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x018",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 49,
+      "title": "Đơn vị diện tích: cm², dm², m²",
+      "learningObjective": "Học sinh hiểu và phân biệt được các đơn vị diện tích cm², dm², m²; biết đổi giữa các đơn vị diện tích liền kề.",
+      "shortExplanation": "1 dm² = 100 cm²; 1 m² = 100 dm². Khi đổi đơn vị lớn sang nhỏ thì nhân với 100, đổi từ nhỏ sang lớn thì chia cho 100.",
+      "content": "Các đơn vị đo diện tích thường dùng ở lớp 4 là: cm² (xăng-ti-mét vuông), dm² (đề-xi-mét vuông), m² (mét vuông). Quan hệ giữa các đơn vị: 1 dm² = 100 cm²; 1 m² = 100 dm². Ví dụ: 3 dm² = 3 × 100 = 300 cm². Ví dụ: 500 cm² = 500 ÷ 100 = 5 dm². Khi tính toán, cần chú ý đổi về cùng đơn vị trước khi cộng, trừ hoặc so sánh.",
+      "storyContext": "Robo-X cần đổi đơn vị diện tích khi đo các tấm giáp bảo vệ robot ở nhiều kích cỡ khác nhau trong xưởng nâng cấp.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "1 dm² bằng bao nhiêu cm²?",
+          "options": [
+            "100 cm²",
+            "10 cm²",
+            "1000 cm²",
+            "1 cm²"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 dm = 10 cm, nên 1 dm² = 10 × 10 = 100 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "3 dm² bằng bao nhiêu cm²?",
+          "options": [
+            "30 cm²",
+            "3000 cm²",
+            "300 cm²",
+            "3 cm²"
+          ],
+          "correctIndex": 2,
+          "explanation": "3 dm² = 3 × 100 = 300 cm². Mỗi dm² bằng 100 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "200 cm² bằng bao nhiêu dm²?",
+          "options": [
+            "20000 dm²",
+            "2 dm²",
+            "20 dm²",
+            "0,2 dm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "200 cm² = 200 ÷ 100 = 2 dm². Chia cho 100 để đổi từ cm² sang dm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "1 m² bằng bao nhiêu dm²?",
+          "options": [
+            "10 dm²",
+            "1000 dm²",
+            "10000 dm²",
+            "100 dm²"
+          ],
+          "correctIndex": 3,
+          "explanation": "1 m = 10 dm, nên 1 m² = 10 × 10 = 100 dm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tấm giáp robot có diện tích 5 dm². Đổi sang cm² là bao nhiêu?",
+          "options": [
+            "500 cm²",
+            "50 cm²",
+            "5000 cm²",
+            "5 cm²"
+          ],
+          "correctIndex": 0,
+          "explanation": "5 dm² = 5 × 100 = 500 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "400 dm² bằng bao nhiêu m²?",
+          "options": [
+            "40000 m²",
+            "40 m²",
+            "4 m²",
+            "4000 m²"
+          ],
+          "correctIndex": 2,
+          "explanation": "400 dm² = 400 ÷ 100 = 4 m². Chia cho 100 để đổi từ dm² sang m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sắp xếp từ bé đến lớn: 1 m², 150 dm², 10 000 cm²",
+          "options": [
+            "10 000 cm² < 1 m² < 150 dm²",
+            "1 m² < 150 dm² < 10 000 cm²",
+            "10 000 cm² < 150 dm² < 1 m²",
+            "1 m² = 150 dm² = 10 000 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đổi về cùng đơn vị: 1 m² = 100 dm²; 10 000 cm² = 100 dm². Vậy 1 m² = 100 dm² < 150 dm², và 10 000 cm² = 100 dm² = 1 m². Thứ tự: 1 m² = 10 000 cm² < 150 dm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sàn đấu robot rộng 2 m². Đổi sang dm² là bao nhiêu?",
+          "options": [
+            "20 dm²",
+            "2000 dm²",
+            "20000 dm²",
+            "200 dm²"
+          ],
+          "correctIndex": 3,
+          "explanation": "2 m² = 2 × 100 = 200 dm²."
+        },
+        {
+          "type": "true_false",
+          "text": "1 m² = 1 000 cm²",
+          "correct": false,
+          "explanation": "Sai! 1 m² = 100 dm² và 1 dm² = 100 cm², nên 1 m² = 100 × 100 = 10 000 cm², không phải 1 000 cm²."
+        },
+        {
+          "type": "fill_blank",
+          "text": "7 dm² = _____ cm²",
+          "answer": "700",
+          "explanation": "7 dm² = 7 × 100 = 700 cm²."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x019",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 50,
+      "title": "Bài toán diện tích thực tế",
+      "learningObjective": "Học sinh biết áp dụng công thức tính diện tích hình chữ nhật và hình vuông để giải các bài toán có lời văn trong cuộc sống.",
+      "shortExplanation": "Đọc kỹ đề bài, xác định hình dạng và các kích thước đã cho, rồi áp dụng đúng công thức để tính diện tích.",
+      "content": "Bài toán thực tế về diện tích thường cho biết kích thước của vật thể hoặc khu vực và yêu cầu tính diện tích. Bước 1: Xác định hình dạng (hình chữ nhật hay hình vuông). Bước 2: Ghi lại các số đã cho. Bước 3: Áp dụng công thức phù hợp. Ví dụ: Mảnh vườn hình chữ nhật dài 15 m, rộng 8 m có diện tích S = 15 × 8 = 120 m². Ví dụ: Viên gạch hình vuông cạnh 20 cm có diện tích S = 20 × 20 = 400 cm².",
+      "storyContext": "Robo-X thi đấu trong các phòng có hình dạng khác nhau, cần tính diện tích để biết cần bao nhiêu năng lượng để bảo vệ toàn bộ sân đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Sân đấu robot hình chữ nhật dài 12 m, rộng 8 m. Diện tích sân là bao nhiêu?",
+          "options": [
+            "40 m²",
+            "96 m²",
+            "80 m²",
+            "120 m²"
+          ],
+          "correctIndex": 1,
+          "explanation": "S = 12 × 8 = 96 m². Diện tích sân đấu robot là 96 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một tấm bảng hình vuông cạnh 30 cm. Diện tích tấm bảng là bao nhiêu?",
+          "options": [
+            "60 cm²",
+            "120 cm²",
+            "90 cm²",
+            "900 cm²"
+          ],
+          "correctIndex": 3,
+          "explanation": "S = 30 × 30 = 900 cm². Diện tích tấm bảng hình vuông là 900 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng máy Robo-X có chiều dài 6 m, chiều rộng 5 m. Cần bao nhiêu gạch hình vuông cạnh 1 m để lát kín sàn?",
+          "options": [
+            "11 viên",
+            "22 viên",
+            "30 viên",
+            "60 viên"
+          ],
+          "correctIndex": 2,
+          "explanation": "Diện tích sàn = 6 × 5 = 30 m². Mỗi viên gạch có diện tích 1 m², cần 30 viên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mảnh đất hình chữ nhật có diện tích 72 m², chiều rộng 8 m. Chiều dài là bao nhiêu?",
+          "options": [
+            "9 m",
+            "64 m",
+            "80 m",
+            "576 m"
+          ],
+          "correctIndex": 0,
+          "explanation": "Chiều dài = 72 ÷ 8 = 9 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tấm thảm hình chữ nhật dài 2 m, rộng 150 cm. Diện tích tấm thảm là bao nhiêu? (Đổi về cùng đơn vị trước)",
+          "options": [
+            "3 m²",
+            "300 m²",
+            "300 cm²",
+            "30 m²"
+          ],
+          "correctIndex": 0,
+          "explanation": "Đổi 150 cm = 1,5 m. S = 2 × 1,5 = 3 m². Hoặc đổi 2 m = 200 cm, S = 200 × 150 = 30 000 cm² = 3 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sân hình vuông và sân hình chữ nhật đều có chu vi 20 m. Sân hình vuông có cạnh bao nhiêu?",
+          "options": [
+            "20 m",
+            "10 m",
+            "4 m",
+            "5 m"
+          ],
+          "correctIndex": 3,
+          "explanation": "Chu vi hình vuông = 4 × cạnh = 20 m, nên cạnh = 20 ÷ 4 = 5 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi viên gạch hình chữ nhật dài 20 cm, rộng 10 cm. Cần bao nhiêu viên để lát kín nền phòng 2 m × 1 m?",
+          "options": [
+            "10 viên",
+            "100 viên",
+            "200 viên",
+            "50 viên"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diện tích nền: 200 cm × 100 cm = 20 000 cm². Diện tích mỗi viên: 20 × 10 = 200 cm². Số viên gạch: 20 000 ÷ 200 = 100 viên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chiều dài gấp đôi chiều rộng, chiều rộng 5 m. Diện tích hình chữ nhật là bao nhiêu?",
+          "options": [
+            "25 m²",
+            "50 m²",
+            "15 m²",
+            "100 m²"
+          ],
+          "correctIndex": 0,
+          "explanation": "Chiều dài = 5 × 2 = 10 m. Diện tích S = 10 × 5 = 50 m². Đáp án đúng là 50 m²."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình chữ nhật dài 10 m, rộng 4 m có diện tích bằng hình vuông cạnh 6 m.",
+          "correct": false,
+          "explanation": "Sai! Hình chữ nhật: S = 10 × 4 = 40 m². Hình vuông: S = 6 × 6 = 36 m². Hai hình có diện tích khác nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Mảnh vườn hình chữ nhật có chiều dài 9 m, chiều rộng 7 m. Diện tích mảnh vườn là _____ m².",
+          "answer": "63",
+          "explanation": "S = 9 × 7 = 63 m²."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-math-x020",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 51,
+      "title": "So sánh và tính diện tích nâng cao",
+      "learningObjective": "Học sinh biết so sánh diện tích các hình, tính diện tích hình ghép, và giải các bài toán diện tích có nhiều bước tính.",
+      "shortExplanation": "Để tính diện tích hình ghép, có thể chia nhỏ thành các hình chữ nhật hoặc hình vuông quen thuộc rồi cộng lại.",
+      "content": "Khi gặp bài toán diện tích phức tạp, ta có thể chia hình thành các phần nhỏ hơn. Ví dụ, hình chữ L có thể chia thành 2 hình chữ nhật rồi tính diện tích từng phần và cộng lại. Ngoài ra, diện tích phần còn lại = Diện tích hình lớn − Diện tích hình nhỏ. Ví dụ: Khung hình chữ nhật ngoài 10 cm × 8 cm, bên trong khoét ô 6 cm × 4 cm. Diện tích phần khung = 10 × 8 − 6 × 4 = 80 − 24 = 56 cm². Cần luyện tập nhận dạng hình và đặt lời giải rõ ràng.",
+      "storyContext": "Robo-X xây đấu trường robot với nhiều khu vực khác nhau, cần tính diện tích từng phần để phân bổ năng lượng hợp lý cho mỗi khu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ L gồm 2 hình chữ nhật: hình 1 dài 8 cm rộng 3 cm, hình 2 dài 4 cm rộng 3 cm. Tổng diện tích là bao nhiêu?",
+          "options": [
+            "36 cm²",
+            "24 cm²",
+            "36 cm",
+            "18 cm²"
+          ],
+          "correctIndex": 0,
+          "explanation": "Diện tích hình 1: 8 × 3 = 24 cm². Diện tích hình 2: 4 × 3 = 12 cm². Tổng: 24 + 12 = 36 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sân hình vuông cạnh 10 m, ở giữa có hồ hình vuông cạnh 4 m. Diện tích phần sân còn lại là bao nhiêu?",
+          "options": [
+            "84 m²",
+            "60 m²",
+            "96 m²",
+            "36 m²"
+          ],
+          "correctIndex": 0,
+          "explanation": "Diện tích sân: 10 × 10 = 100 m². Diện tích hồ: 4 × 4 = 16 m². Phần sân còn lại: 100 − 16 = 84 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đấu trường Robo-X hình chữ nhật dài 20 m rộng 15 m. Bên trong có khu vực hình vuông cạnh 5 m không dùng đến. Diện tích sử dụng là bao nhiêu?",
+          "options": [
+            "300 m²",
+            "275 m²",
+            "25 m²",
+            "275 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tổng diện tích: 20 × 15 = 300 m². Khu không dùng: 5 × 5 = 25 m². Diện tích sử dụng: 300 − 25 = 275 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ba hình chữ nhật có diện tích lần lượt là 24 cm², 36 cm², 18 cm². Tổng diện tích ba hình là bao nhiêu?",
+          "options": [
+            "58 cm²",
+            "78 cm²",
+            "68 cm²",
+            "88 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tổng diện tích = 24 + 36 + 18 = 78 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông cạnh 9 cm và hình chữ nhật dài 12 cm rộng 6 cm. Hình nào có diện tích lớn hơn và lớn hơn bao nhiêu?",
+          "options": [
+            "Hình chữ nhật lớn hơn 3 cm²",
+            "Hai hình bằng nhau",
+            "Hình vuông lớn hơn 9 cm²",
+            "Hình chữ nhật lớn hơn 9 cm²"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hình vuông: S = 9 × 9 = 81 cm². Hình chữ nhật: S = 12 × 6 = 72 cm². Hình vuông lớn hơn: 81 − 72 = 9 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mảnh đất hình chữ nhật dài 14 m, rộng 6 m. Người ta xây nhà chiếm diện tích 60 m². Diện tích sân còn lại là bao nhiêu?",
+          "options": [
+            "24 m²",
+            "60 m²",
+            "84 m²",
+            "144 m²"
+          ],
+          "correctIndex": 0,
+          "explanation": "Diện tích đất: 14 × 6 = 84 m². Diện tích sân còn lại: 84 − 60 = 24 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khu thi đấu hình chữ nhật dài 16 m, rộng 10 m được chia thành 4 ô bằng nhau. Mỗi ô có diện tích là bao nhiêu?",
+          "options": [
+            "26 m²",
+            "80 m²",
+            "40 m²",
+            "160 m²"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tổng diện tích: 16 × 10 = 160 m². Mỗi ô: 160 ÷ 4 = 40 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X cần lát 2 tấm thảm hình chữ nhật (mỗi tấm dài 5 m, rộng 3 m) và 1 tấm hình vuông cạnh 4 m. Tổng diện tích là bao nhiêu?",
+          "options": [
+            "30 m²",
+            "46 m²",
+            "50 m²",
+            "60 m²"
+          ],
+          "correctIndex": 1,
+          "explanation": "2 tấm thảm chữ nhật: 2 × (5 × 3) = 2 × 15 = 30 m². Tấm hình vuông: 4 × 4 = 16 m². Tổng: 30 + 16 = 46 m²."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình chữ nhật dài 6 cm, rộng 4 cm có diện tích bằng hình vuông cạnh 5 cm.",
+          "correct": false,
+          "explanation": "Sai! Hình chữ nhật: S = 6 × 4 = 24 cm². Hình vuông: S = 5 × 5 = 25 cm². Hai hình không bằng nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Sân hình chữ nhật dài 11 m, rộng 8 m. Diện tích sân là _____ m².",
+          "answer": "88",
+          "explanation": "S = 11 × 8 = 88 m²."
+        }
+      ]
+    }
+  ]
+}

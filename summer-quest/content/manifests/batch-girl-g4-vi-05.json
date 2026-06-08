@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-vi-b05",
+  "description": "Bài ôn Tiếng Việt Lớp 4 cho Yumi - Từ ngữ về thiên nhiên và con người; đọc hiểu đoạn văn ngắn và trả lời câu hỏi nội dung",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "scroll"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-vi-x021",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 27,
+      "title": "Từ ngữ về thiên nhiên: bầu trời và thời tiết",
+      "learningObjective": "Học sinh nhận biết và hiểu nghĩa các từ ngữ mô tả bầu trời và thời tiết trong thiên nhiên. Học sinh biết dùng từ phù hợp để miêu tả cảnh vật tự nhiên.",
+      "shortExplanation": "Đọc kỹ đoạn văn, chú ý các từ miêu tả bầu trời, mây, gió, mưa. Tìm nghĩa của từng từ qua ngữ cảnh câu văn.",
+      "content": "Thiên nhiên bao quanh chúng ta với bầu trời xanh biếc, những đám mây trắng bồng bềnh và ánh nắng vàng rực rỡ. Các từ ngữ về thời tiết như 'mưa rào', 'gió thổi', 'sấm chớp', 'tuyết rơi' giúp ta miêu tả sinh động cảnh vật. Ví dụ: 'Bầu trời trong xanh, không một gợn mây' - từ 'trong xanh' và 'gợn mây' diễn tả trời đẹp. Còn 'Cơn mưa rào ập xuống bất ngờ' - từ 'rào' chỉ mưa to và nhanh. Việc hiểu và dùng đúng từ ngữ thiên nhiên giúp bài văn miêu tả thêm hay và sinh động.",
+      "storyContext": "Công chúa Yumi cầm cây bút thần, viết những từ ma thuật về bầu trời lên tấm bản đồ vương quốc để gọi mưa và nắng theo ý muốn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào sau đây KHÔNG phải là từ ngữ miêu tả thời tiết?",
+          "options": ["mưa rào", "sấm chớp", "bướm bay", "gió lốc"],
+          "correctIndex": 2,
+          "explanation": "'Bướm bay' là hành động của con vật, không phải từ ngữ miêu tả thời tiết. Các từ 'mưa rào', 'sấm chớp', 'gió lốc' đều diễn tả hiện tượng thời tiết."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây dùng từ ngữ miêu tả bầu trời đúng nhất?",
+          "options": ["Bầu trời trong xanh, không một gợn mây.", "Bầu trời chạy nhanh qua cánh đồng.", "Bầu trời đang ăn cơm tối.", "Bầu trời buồn như con mèo ốm."],
+          "correctIndex": 0,
+          "explanation": "Câu 'Bầu trời trong xanh, không một gợn mây' dùng từ ngữ miêu tả đúng về bầu trời. Các câu còn lại dùng sai nghĩa hoặc không phù hợp với sự vật tự nhiên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'mưa rào' có nghĩa là gì?",
+          "options": ["Mưa nhỏ kéo dài suốt ngày", "Mưa tuyết vào mùa đông", "Mưa nhẹ vào buổi sáng", "Mưa to, nhanh và ngắn"],
+          "correctIndex": 3,
+          "explanation": "'Mưa rào' chỉ trận mưa to, đến nhanh và tạnh nhanh. Đây là hiện tượng thời tiết thường gặp vào mùa hè ở Việt Nam."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu sau và trả lời: 'Những áng mây trắng bồng bềnh trôi nhẹ trên bầu trời xanh thẳm.' Từ 'bồng bềnh' có nghĩa là gì?",
+          "options": ["Nặng nề, chậm chạp", "Trôi nhẹ nhàng, không có điểm tựa", "Đứng yên một chỗ", "Bay rất nhanh và mạnh"],
+          "correctIndex": 1,
+          "explanation": "'Bồng bềnh' diễn tả trạng thái trôi nhẹ nhàng, lơ lửng không có điểm tựa - rất phù hợp để miêu tả mây trôi trên bầu trời."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu văn nào miêu tả cơn bão đúng và sinh động nhất?",
+          "options": ["Bão thổi một chút rồi thôi.", "Trời hơi có gió nhẹ và mát.", "Cơn bão hung hãn quật ngã những hàng cây, sóng biển dâng cao cuồn cuộn.", "Hôm nay trời có mưa nhỏ."],
+          "correctIndex": 2,
+          "explanation": "Câu 'Cơn bão hung hãn quật ngã những hàng cây, sóng biển dâng cao cuồn cuộn' dùng nhiều từ ngữ mạnh mẽ, sinh động để miêu tả sức mạnh của bão."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào đồng nghĩa với 'trong trẻo' khi miêu tả bầu trời hoặc không khí?",
+          "options": ["trong lành", "ô nhiễm", "u ám", "mờ đục"],
+          "correctIndex": 0,
+          "explanation": "'Trong lành' là từ đồng nghĩa với 'trong trẻo', cùng diễn tả không khí hay bầu trời sạch sẽ, tinh khiết. Các từ còn lại mang nghĩa ngược lại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Buổi sáng, sương mù bao phủ khắp núi đồi. Những giọt sương đọng trên lá cỏ long lanh như hạt ngọc.' Đoạn văn miêu tả cảnh gì?",
+          "options": ["Cảnh biển vào buổi chiều", "Cảnh rừng vào mùa hè", "Cảnh đồng bằng vào trưa hè", "Cảnh núi đồi vào buổi sáng có sương mù"],
+          "correctIndex": 3,
+          "explanation": "Đoạn văn miêu tả cảnh núi đồi vào buổi sáng có sương mù vì có các chi tiết 'sương mù bao phủ', 'núi đồi', 'buổi sáng' và 'giọt sương trên lá cỏ'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'long lanh' trong câu 'Giọt sương long lanh như hạt ngọc' có nghĩa là gì?",
+          "options": ["Nặng nề, thô cứng", "Sáng lấp lánh, đẹp mắt", "Tối tăm, mờ nhạt", "Nhỏ bé, không đáng kể"],
+          "correctIndex": 1,
+          "explanation": "'Long lanh' nghĩa là sáng lấp lánh, đẹp mắt. Khi so sánh giọt sương với hạt ngọc, tác giả muốn ca ngợi vẻ đẹp lung linh của thiên nhiên."
+        },
+        {
+          "type": "true_false",
+          "text": "Từ 'sấm sét' và 'sấm chớp' đều là từ ngữ miêu tả hiện tượng thiên nhiên liên quan đến mưa bão.",
+          "correct": true,
+          "explanation": "Đúng. Cả 'sấm sét' và 'sấm chớp' đều miêu tả hiện tượng tự nhiên xuất hiện trong mưa bão, gồm tiếng nổ (sấm) và tia sáng (sét/chớp)."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp vào chỗ trống: 'Bầu trời sau cơn mưa trở nên ___ và trong lành hơn.' (Gợi ý: từ miêu tả màu sắc đẹp của bầu trời)",
+          "answer": "xanh trong",
+          "explanation": "'Xanh trong' là từ phù hợp miêu tả bầu trời sau mưa - sạch sẽ, trong vắt và có màu xanh đẹp."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x022",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 28,
+      "title": "Từ ngữ về thiên nhiên: rừng núi và sông suối",
+      "learningObjective": "Học sinh nhận biết và sử dụng đúng các từ ngữ miêu tả rừng núi, sông suối và cảnh vật thiên nhiên. Học sinh hiểu được nội dung đoạn văn về thiên nhiên và trả lời câu hỏi chính xác.",
+      "shortExplanation": "Chú ý các từ ngữ chỉ đặc điểm của rừng (xanh tốt, rậm rạp) và sông suối (trong vắt, cuồn cuộn). Đọc kỹ từng câu để hiểu nghĩa trước khi trả lời.",
+      "content": "Rừng núi và sông suối là hai cảnh quan thiên nhiên đẹp và quan trọng. Từ ngữ về rừng: 'rậm rạp', 'xanh tươi', 'um tùm', 'tĩnh lặng'. Từ ngữ về sông suối: 'trong vắt', 'cuồn cuộn', 'róc rách', 'uốn khúc'. Ví dụ: 'Con suối nhỏ chảy róc rách qua kẽ đá' - từ 'róc rách' là từ tượng thanh mô phỏng tiếng nước chảy. Đọc đoạn văn cần chú ý chi tiết chính để trả lời đúng câu hỏi về nội dung.",
+      "storyContext": "Công chúa Yumi dùng thư pháp ma thuật vẽ bản đồ rừng núi và sông suối của vương quốc, mỗi từ ngữ bà viết đúng sẽ làm hiện ra một con đường bí mật.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào sau đây là từ tượng thanh mô phỏng tiếng nước chảy?",
+          "options": ["xanh biếc", "cuồn cuộn", "uốn khúc", "róc rách"],
+          "correctIndex": 3,
+          "explanation": "'Róc rách' là từ tượng thanh bắt chước tiếng nước chảy nhẹ qua kẽ đá. Đây là âm thanh đặc trưng của suối nhỏ trong rừng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu sau: 'Dòng sông uốn khúc như dải lụa xanh vắt qua cánh đồng.' Hình ảnh so sánh trong câu là gì?",
+          "options": ["Dòng sông so sánh với cánh đồng", "Dòng sông so sánh với dải lụa xanh", "Cánh đồng so sánh với dải lụa", "Dòng sông so sánh với màu xanh"],
+          "correctIndex": 1,
+          "explanation": "Câu văn so sánh 'dòng sông uốn khúc' với 'dải lụa xanh' để miêu tả hình dáng mềm mại và màu sắc đẹp của dòng sông."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'rậm rạp' thường dùng để miêu tả cảnh vật nào?",
+          "options": ["Rừng cây um tùm, cây cối mọc dày đặc", "Mặt hồ phẳng lặng vào buổi sáng", "Bầu trời nhiều mây xám", "Bãi cát trắng trải dài ven biển"],
+          "correctIndex": 0,
+          "explanation": "'Rậm rạp' dùng để miêu tả nơi có cây cối mọc dày đặc, che khuất ánh sáng - đặc trưng của rừng nhiệt đới."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Dòng thác trắng xóa đổ xuống từ vách núi cao, tiếng nước ầm ầm vang xa. Xung quanh, cây cối xanh um phủ kín sườn đồi.' Đoạn văn miêu tả cảnh nào?",
+          "options": ["Cảnh biển vào buổi chiều hoàng hôn", "Cảnh đồng lúa vào mùa gặt", "Cảnh thác nước giữa rừng núi", "Cảnh hồ nước bình yên"],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn miêu tả cảnh thác nước giữa rừng núi với các chi tiết: 'thác trắng xóa', 'vách núi cao', 'tiếng nước ầm ầm', 'cây cối xanh um', 'sườn đồi'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG phù hợp để miêu tả một dòng sông hiền hòa?",
+          "options": ["êm đềm", "trong xanh", "uốn lượn", "cuồn cuộn dữ dội"],
+          "correctIndex": 3,
+          "explanation": "'Cuồn cuộn dữ dội' miêu tả dòng nước chảy mạnh, không phù hợp với sông hiền hòa. Các từ 'êm đềm', 'trong xanh', 'uốn lượn' đều thể hiện vẻ bình lặng của sông."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng từ ngữ miêu tả rừng chính xác và đúng nghĩa?",
+          "options": ["Cánh rừng xanh thẳm trải dài ngút mắt, tiếng chim hót vang lừng.", "Cánh rừng đang học bài trong lớp.", "Cánh rừng buồn vì không có bạn.", "Cánh rừng ăn cơm và uống nước."],
+          "correctIndex": 1,
+          "explanation": "Câu 'Cánh rừng xanh thẳm trải dài ngút mắt, tiếng chim hót vang lừng' dùng đúng từ ngữ miêu tả rừng: màu sắc, không gian và âm thanh đặc trưng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'trong vắt' khi dùng để tả nước có nghĩa là gì?",
+          "options": ["Nước có màu xanh đậm", "Nước chảy rất nhanh", "Nước rất sạch, nhìn xuyên thấy đáy", "Nước có mùi thơm dễ chịu"],
+          "correctIndex": 0,
+          "explanation": "Sai - đáp án đúng là C: 'trong vắt' nghĩa là nước rất trong, sạch đến mức nhìn thấy được đáy. Đây là đặc điểm của nước suối hoặc hồ núi.",
+          "explanation": "'Trong vắt' nghĩa là rất trong, có thể nhìn xuyên thấy đáy. Từ này thường dùng để miêu tả nước suối sạch trong rừng hoặc hồ nước núi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu: 'Những cánh rừng nguyên sinh là lá phổi xanh của trái đất.' Câu này muốn nói điều gì?",
+          "options": ["Rừng có hình dạng giống lá phổi của người", "Rừng là nơi sinh sống của nhiều loài động vật", "Rừng cung cấp oxy và điều hòa không khí như lá phổi", "Rừng có màu xanh rất đẹp"],
+          "correctIndex": 2,
+          "explanation": "Hình ảnh 'lá phổi xanh' là ẩn dụ so sánh rừng với lá phổi - vì rừng hấp thụ CO2 và tạo ra oxy, giúp điều hòa không khí cho Trái Đất."
+        },
+        {
+          "type": "true_false",
+          "text": "Từ 'ầm ầm' trong câu 'Tiếng thác nước ầm ầm vang xa' là từ tượng thanh.",
+          "correct": false,
+          "explanation": "Sai - thực ra 'ầm ầm' LÀ từ tượng thanh vì nó mô phỏng âm thanh to, liên tục của nước đổ mạnh. Câu hỏi đặt bẫy để học sinh kiểm tra lại kiến thức."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp: 'Con suối ___ chảy qua kẽ đá, mang theo làn nước mát lạnh.' (Từ miêu tả tiếng nước chảy nhẹ)",
+          "answer": "róc rách",
+          "explanation": "'Róc rách' là từ tượng thanh phù hợp nhất để mô tả tiếng suối nhỏ chảy qua kẽ đá một cách êm dịu."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x023",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 29,
+      "title": "Từ ngữ về con người: phẩm chất và tình cảm",
+      "learningObjective": "Học sinh nhận biết và hiểu các từ ngữ miêu tả phẩm chất tốt đẹp và tình cảm của con người. Học sinh đọc hiểu đoạn văn về nhân vật và trả lời đúng câu hỏi về tính cách, hành động.",
+      "shortExplanation": "Tìm hiểu nghĩa của các từ chỉ phẩm chất (dũng cảm, chăm chỉ, hiếu thảo) và từ chỉ tình cảm (yêu thương, kính trọng, biết ơn). Đọc đoạn văn chú ý hành động và lời nói của nhân vật.",
+      "content": "Con người có rất nhiều phẩm chất đáng quý như 'dũng cảm', 'chăm chỉ', 'hiếu thảo', 'trung thực', 'tốt bụng'. Tình cảm của con người được thể hiện qua các từ: 'yêu thương', 'kính trọng', 'biết ơn', 'trìu mến'. Ví dụ: 'Bạn An rất chăm chỉ học bài và luôn giúp đỡ bạn bè' - từ 'chăm chỉ' và 'giúp đỡ' cho thấy phẩm chất tốt của An. Khi đọc văn miêu tả nhân vật, cần dựa vào hành động, lời nói để hiểu tính cách của họ. Phẩm chất và tình cảm tốt đẹp làm cho cuộc sống thêm ý nghĩa.",
+      "storyContext": "Công chúa Yumi phải dùng thư pháp ma thuật viết đúng những từ ngữ về phẩm chất tốt đẹp mới có thể mở được cánh cửa bí mật dẫn vào thư viện vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào sau đây chỉ phẩm chất tốt của con người?",
+          "options": ["hiếu thảo", "lười biếng", "ích kỷ", "hung dữ"],
+          "correctIndex": 0,
+          "explanation": "'Hiếu thảo' là phẩm chất tốt, chỉ người biết kính yêu và phụng dưỡng cha mẹ. Các từ còn lại đều là phẩm chất xấu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu: 'Bà Năm luôn sẵn lòng chia sẻ thức ăn với hàng xóm nghèo dù nhà bà cũng không dư dả.' Điều này cho thấy bà Năm có phẩm chất gì?",
+          "options": ["dũng cảm và mạnh mẽ", "khéo léo và nhanh nhẹn", "tốt bụng và hào phóng", "chăm chỉ và cẩn thận"],
+          "correctIndex": 2,
+          "explanation": "Việc chia sẻ với người nghèo dù bản thân cũng khó khăn cho thấy bà Năm có lòng tốt và hào phóng - đây là phẩm chất đáng quý nhất được nhắc đến trong câu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là từ chỉ tình cảm của con người?",
+          "options": ["chăm chỉ", "trung thực", "biết ơn", "dũng cảm"],
+          "correctIndex": 1,
+          "explanation": "Sai - đáp án đúng là C: 'biết ơn' là từ chỉ tình cảm (cảm xúc). Các từ 'chăm chỉ', 'trung thực', 'dũng cảm' là từ chỉ phẩm chất, tính cách.",
+          "explanation": "'Biết ơn' là từ chỉ tình cảm - thể hiện cảm xúc trân trọng khi được người khác giúp đỡ. Các từ còn lại chỉ phẩm chất, tính cách của con người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Mỗi sáng, Nam dậy sớm quét nhà, nấu cơm giúp mẹ trước khi đến trường. Tối về, em chăm chỉ học bài đến khuya.' Đoạn văn miêu tả Nam là người như thế nào?",
+          "options": ["Lười biếng và ích kỷ", "Vui vẻ và hay nói chuyện", "Nhút nhát và sợ sệt", "Chăm chỉ và hiếu thảo"],
+          "correctIndex": 3,
+          "explanation": "Nam dậy sớm giúp mẹ (hiếu thảo) và học bài chăm chỉ (chăm chỉ). Đây là hai phẩm chất tốt nổi bật được thể hiện qua hành động cụ thể trong đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào diễn đạt đúng và hay về tình cảm yêu thương của con người?",
+          "options": ["Mẹ yêu con như mặt trời sưởi ấm cả gia đình.", "Mẹ to lớn và mạnh mẽ như con voi.", "Mẹ chạy rất nhanh như ngựa phi.", "Mẹ hay la hét và nói nhiều."],
+          "correctIndex": 0,
+          "explanation": "Câu 'Mẹ yêu con như mặt trời sưởi ấm cả gia đình' dùng hình ảnh so sánh đẹp để diễn đạt tình yêu thương ấm áp của người mẹ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'trìu mến' có nghĩa gần giống với từ nào nhất?",
+          "options": ["thân thương, đằm thắm", "nghiêm khắc, cứng nhắc", "lạnh lùng, xa cách", "tức giận, khó chịu"],
+          "correctIndex": 2,
+          "explanation": "Sai - đáp án đúng là A: 'trìu mến' có nghĩa gần với 'thân thương, đằm thắm' - đều diễn tả tình cảm yêu quý, gần gũi và ấm áp.",
+          "explanation": "'Trìu mến' có nghĩa gần với 'thân thương, đằm thắm' - cùng diễn tả tình cảm yêu quý, gần gũi và ấm áp giữa người với người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu: 'Cô giáo nhìn học sinh bằng ánh mắt trìu mến.' Câu này cho biết cô giáo có tình cảm gì với học sinh?",
+          "options": ["Cô giáo không quan tâm đến học sinh", "Cô giáo tức giận với học sinh", "Cô giáo sợ hãi trước học sinh", "Cô giáo yêu quý và quan tâm học sinh"],
+          "correctIndex": 1,
+          "explanation": "Sai - đáp án đúng là D: 'ánh mắt trìu mến' thể hiện cô giáo yêu quý và quan tâm đến học sinh. Đây là tình cảm tốt đẹp của người thầy dành cho học trò.",
+          "explanation": "'Ánh mắt trìu mến' cho thấy cô giáo yêu quý và quan tâm học sinh. Từ 'trìu mến' thể hiện tình cảm ấm áp, gần gũi, không phải sự tức giận hay sợ hãi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là từ trái nghĩa với 'dũng cảm'?",
+          "options": ["anh hùng", "gan dạ", "mạnh mẽ", "nhút nhát"],
+          "correctIndex": 3,
+          "explanation": "'Nhút nhát' là từ trái nghĩa với 'dũng cảm' vì nhút nhát nghĩa là sợ hãi, thiếu can đảm - đối lập hoàn toàn với dũng cảm là can đảm, không sợ nguy hiểm."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Bạn Lan trung thực, không bao giờ nói dối' cho thấy Lan có phẩm chất tốt đáng học tập.",
+          "correct": true,
+          "explanation": "Đúng. 'Trung thực' và 'không nói dối' là những phẩm chất tốt đẹp đáng khen ngợi và học tập theo."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp vào chỗ trống: 'Chúng em luôn ___ thầy cô giáo vì thầy cô đã dạy dỗ chúng em nên người.' (Từ chỉ tình cảm biết ơn và tôn trọng)",
+          "answer": "kính trọng",
+          "explanation": "'Kính trọng' là từ phù hợp nhất, thể hiện tình cảm biết ơn và tôn trọng của học sinh dành cho thầy cô - đây là tình cảm truyền thống tốt đẹp."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x024",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 30,
+      "title": "Đọc hiểu đoạn văn: tìm ý chính và chi tiết",
+      "learningObjective": "Học sinh biết đọc hiểu đoạn văn ngắn, xác định ý chính và các chi tiết quan trọng. Học sinh trả lời được câu hỏi về nội dung, nhân vật và sự kiện trong bài đọc.",
+      "shortExplanation": "Khi đọc hiểu, hãy đọc kỹ toàn bộ đoạn văn rồi đọc lại câu hỏi. Gạch chân những từ khóa quan trọng trong đoạn văn để tìm câu trả lời đúng.",
+      "content": "Đọc hiểu đoạn văn là kỹ năng quan trọng: đọc kỹ toàn bộ rồi tìm câu trả lời trong bài. Ý chính là điều tác giả muốn nói nhất, thường ở câu đầu hoặc câu cuối đoạn. Chi tiết là những thông tin cụ thể hỗ trợ ý chính. Ví dụ đoạn văn: 'Mùa xuân đến, khắp nơi hoa nở rộ. Hoa đào hồng thắm, hoa mai vàng rực, hoa cúc trắng tinh.' - Ý chính: mùa xuân hoa nở đẹp. Chi tiết: ba loài hoa cụ thể với màu sắc. Trả lời câu hỏi phải dựa vào nội dung đoạn văn, không được đoán mò.",
+      "storyContext": "Để giải mã bản đồ vương quốc, công chúa Yumi phải đọc hiểu những đoạn thư pháp cổ và tìm ra ý chính ẩn chứa bí mật về kho báu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Mùa hè, ve kêu râm ran suốt ngày. Những chùm hoa phượng đỏ rực nở trên các con đường. Học sinh háo hức chờ đón kỳ nghỉ hè.' Ý chính của đoạn văn là gì?",
+          "options": ["Ve kêu rất to và inh tai", "Miêu tả cảnh mùa hè với nhiều hình ảnh đặc trưng", "Học sinh không thích đi học", "Hoa phượng chỉ có màu đỏ"],
+          "correctIndex": 1,
+          "explanation": "Ý chính của đoạn văn là miêu tả cảnh mùa hè với nhiều hình ảnh đặc trưng (tiếng ve, hoa phượng, học sinh nghỉ hè). Không có ý nào trong đoạn nói học sinh không thích học."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dựa vào đoạn văn trên: 'Mùa hè, ve kêu râm ran suốt ngày. Những chùm hoa phượng đỏ rực nở trên các con đường. Học sinh háo hức chờ đón kỳ nghỉ hè.' Hoa phượng có màu gì?",
+          "options": ["màu vàng rực rỡ", "màu tím nhạt", "màu trắng tinh", "màu đỏ rực"],
+          "correctIndex": 3,
+          "explanation": "Đoạn văn ghi rõ 'hoa phượng đỏ rực' - đây là chi tiết cụ thể trong bài. Khi trả lời câu hỏi chi tiết, cần dựa vào thông tin trong đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Ông nội của Tuấn là một người thợ mộc tài giỏi. Ông có thể làm ra những chiếc bàn, ghế, tủ đẹp và bền. Mọi người trong làng đều yêu quý và tin tưởng ông.' Ông nội Tuấn làm nghề gì?",
+          "options": ["thợ rèn", "thợ may", "thợ mộc", "thợ vẽ"],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn ghi rõ 'ông nội của Tuấn là một người thợ mộc tài giỏi' - đây là câu đầu tiên và là ý chính của đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tiếp tục dựa vào đoạn văn về ông nội Tuấn. Mọi người trong làng có thái độ như thế nào với ông?",
+          "options": ["yêu quý và tin tưởng ông", "sợ hãi và tránh xa ông", "không quan tâm đến ông", "hay tranh cãi với ông"],
+          "correctIndex": 0,
+          "explanation": "Đoạn văn ghi 'mọi người trong làng đều yêu quý và tin tưởng ông' - đây là chi tiết rõ ràng về thái độ của người làng với ông thợ mộc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đọc hiểu một đoạn văn, ý chính thường nằm ở đâu?",
+          "options": ["Luôn nằm ở câu thứ ba của đoạn văn", "Thường ở câu đầu hoặc câu cuối đoạn văn", "Luôn nằm ở câu giữa đoạn văn", "Không có ý chính trong đoạn văn"],
+          "correctIndex": 1,
+          "explanation": "Trong văn xuôi, ý chính thường xuất hiện ở câu đầu (nêu vấn đề) hoặc câu cuối (tổng kết) của đoạn văn. Đây là nguyên tắc cơ bản khi học đọc hiểu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu: 'Chim én về báo hiệu mùa xuân đã đến.' Từ 'báo hiệu' trong câu có nghĩa là gì?",
+          "options": ["làm cho mùa xuân đến sớm hơn", "ngăn cản mùa xuân đến", "kêu to thông báo cho mọi người", "cho thấy dấu hiệu của điều sắp xảy ra"],
+          "correctIndex": 3,
+          "explanation": "'Báo hiệu' nghĩa là cho thấy dấu hiệu của điều sắp xảy ra. Chim én bay về là dấu hiệu (tín hiệu) cho biết mùa xuân sắp đến."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn ngắn: 'Buổi sáng sớm, bà con nông dân đã ra đồng làm việc. Tiếng cuốc xẻng va vào đất nghe rộn ràng. Ai ai cũng hăng hái, mong một mùa lúa bội thu.' Chi tiết nào KHÔNG có trong đoạn văn?",
+          "options": ["Bà con ra đồng từ sáng sớm", "Có tiếng cuốc xẻng kêu", "Mọi người hăng hái làm việc", "Trẻ em chạy chơi trên bờ ruộng"],
+          "correctIndex": 2,
+          "explanation": "Sai - đáp án đúng là D: 'Trẻ em chạy chơi trên bờ ruộng' không được nhắc đến trong đoạn văn. Ba chi tiết còn lại đều có trong bài.",
+          "explanation": "'Trẻ em chạy chơi trên bờ ruộng' không được đề cập trong đoạn văn. Khi trả lời câu hỏi đọc hiểu, chỉ dựa vào nội dung có trong bài, không thêm thông tin bên ngoài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu hỏi: Đoạn văn muốn ca ngợi điều gì qua hình ảnh 'bà con nông dân hăng hái làm việc từ sáng sớm, mong một mùa lúa bội thu'?",
+          "options": ["Ca ngợi tinh thần lao động cần cù của người nông dân", "Phê phán việc làm ruộng rất vất vả và khó nhọc", "Nói về sự giàu có của những người làm nông", "Miêu tả buổi sáng ở vùng quê thật yên tĩnh"],
+          "correctIndex": 0,
+          "explanation": "Hình ảnh nông dân dậy sớm, hăng hái làm việc thể hiện tinh thần cần cù lao động đáng ca ngợi. Đoạn văn muốn tôn vinh người nông dân chăm chỉ."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi đọc hiểu đoạn văn, chúng ta có thể thêm thông tin từ bên ngoài để trả lời câu hỏi nếu thông tin trong bài không đủ.",
+          "correct": false,
+          "explanation": "Sai. Khi trả lời câu hỏi đọc hiểu, phải dựa hoàn toàn vào nội dung trong đoạn văn. Không được thêm thông tin từ bên ngoài vào câu trả lời."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp: 'Để hiểu đúng nội dung đoạn văn, học sinh cần đọc ___ toàn bộ bài trước khi trả lời câu hỏi.' (Từ chỉ cách đọc cẩn thận, chú ý)",
+          "answer": "kỹ",
+          "explanation": "Đọc 'kỹ' nghĩa là đọc cẩn thận, chú ý từng chi tiết - đây là yêu cầu quan trọng nhất khi luyện kỹ năng đọc hiểu."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x025",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 31,
+      "title": "Tổng hợp: từ ngữ thiên nhiên và con người trong đoạn văn",
+      "learningObjective": "Học sinh vận dụng tổng hợp kiến thức về từ ngữ thiên nhiên và con người để đọc hiểu đoạn văn phức tạp hơn. Học sinh nhận biết và phân tích được ý nghĩa, hình ảnh đẹp trong văn miêu tả.",
+      "shortExplanation": "Bài này kết hợp từ ngữ về thiên nhiên (bầu trời, cây cối, sông nước) và con người (phẩm chất, tình cảm). Đọc kỹ đoạn văn và liên kết các từ ngữ với ngữ cảnh cụ thể.",
+      "content": "Bài tổng hợp giúp em vận dụng toàn bộ kiến thức đã học về từ ngữ thiên nhiên và con người. Thiên nhiên và con người luôn gắn bó: 'Người nông dân cần cù như đất đai màu mỡ nuôi dưỡng hạt mầm.' Đây là câu kết hợp hình ảnh thiên nhiên (đất đai màu mỡ) với phẩm chất con người (cần cù). Khi đọc đoạn văn tổng hợp, cần phân biệt từ ngữ nào chỉ thiên nhiên, từ nào chỉ con người. Ví dụ: 'Dưới ánh nắng ban mai, em bé vui tươi chạy nhảy trên bãi cỏ xanh' - 'ánh nắng', 'bãi cỏ xanh' là thiên nhiên; 'vui tươi' là tình cảm/trạng thái con người.",
+      "storyContext": "Công chúa Yumi đã học đủ thư pháp ma thuật về thiên nhiên và con người, giờ đây bà có thể đọc toàn bộ bản đồ vương quốc và tìm ra kho báu trí tuệ ẩn giấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Dưới ánh nắng ban mai, em bé vui tươi chạy nhảy trên bãi cỏ xanh', từ nào chỉ thiên nhiên?",
+          "options": ["chạy nhảy", "vui tươi", "ánh nắng ban mai", "em bé"],
+          "correctIndex": 2,
+          "explanation": "'Ánh nắng ban mai' là từ ngữ chỉ hiện tượng thiên nhiên (ánh sáng mặt trời buổi sáng). 'Em bé' là người, 'vui tươi' là trạng thái cảm xúc, 'chạy nhảy' là hành động của người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Mùa gặt đến, cánh đồng vàng rực như tấm thảm khổng lồ. Bà con nông dân tất bật từ sáng đến tối, ai cũng hớn hở vì lúa được mùa.' Từ nào trong đoạn tả tình cảm/trạng thái của người?",
+          "options": ["vàng rực", "cánh đồng", "hớn hở", "tấm thảm"],
+          "correctIndex": 0,
+          "explanation": "Sai - đáp án đúng là C: 'hớn hở' là từ chỉ trạng thái vui mừng, phấn khởi của con người. Các từ 'vàng rực', 'cánh đồng', 'tấm thảm' đều liên quan đến thiên nhiên/sự vật.",
+          "explanation": "'Hớn hở' là từ chỉ trạng thái vui mừng, phấn khởi của con người. Các từ còn lại ('vàng rực', 'cánh đồng', 'tấm thảm') đều miêu tả thiên nhiên và sự vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào kết hợp đẹp nhất hình ảnh thiên nhiên với phẩm chất con người?",
+          "options": ["Trời mưa và người đi bộ.", "Cây cối và con người sống gần nhau.", "Người mẹ hiền như bóng cây che mát tâm hồn con.", "Núi cao và người cao."],
+          "correctIndex": 3,
+          "explanation": "Sai - đáp án đúng là C: 'Người mẹ hiền như bóng cây che mát tâm hồn con' kết hợp đẹp nhất - phẩm chất 'hiền' của mẹ so sánh với hình ảnh thiên nhiên 'bóng cây che mát'.",
+          "explanation": "Câu 'Người mẹ hiền như bóng cây che mát tâm hồn con' dùng hình ảnh thiên nhiên (bóng cây che mát) để so sánh với phẩm chất và tình cảm của mẹ (hiền, che chở) - đây là cách kết hợp đẹp và ý nghĩa nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Cô giáo Hoa kiên nhẫn như dòng suối không bao giờ ngừng chảy. Ngày nào cô cũng tận tụy dạy dỗ từng học sinh, không nản lòng dù gặp khó khăn.' Hình ảnh thiên nhiên nào được dùng để miêu tả cô giáo?",
+          "options": ["hoa nở trên cánh đồng", "dòng suối không bao giờ ngừng chảy", "ánh nắng buổi sớm mai", "cơn gió mát lành"],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn so sánh 'cô giáo Hoa kiên nhẫn như dòng suối không bao giờ ngừng chảy' - hình ảnh thiên nhiên 'dòng suối không ngừng chảy' được dùng để ca ngợi sự kiên nhẫn bền bỉ của cô giáo."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'tận tụy' trong câu 'Cô tận tụy dạy dỗ từng học sinh' có nghĩa là gì?",
+          "options": ["Làm việc qua loa, không chú tâm", "Làm việc nhanh chóng để xong sớm", "Hết lòng, hết sức làm việc vì người khác", "Làm việc vì được trả lương cao"],
+          "correctIndex": 2,
+          "explanation": "'Tận tụy' nghĩa là hết lòng, hết sức cống hiến vì người khác, không màng đến lợi ích cá nhân. Đây là phẩm chất cao quý của người thầy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn: 'Mỗi buổi chiều, ông ngồi nhìn hoàng hôn tím thẫm phủ xuống dòng sông. Ông nhớ về những ngày còn trẻ, cùng bạn bè bơi lội và vui đùa trên con sông quê.' Điều gì khiến ông ngồi nhìn hoàng hôn?",
+          "options": ["Ông muốn xem màu sắc đẹp của hoàng hôn", "Ông ngồi nhớ lại kỷ niệm tuổi trẻ bên dòng sông", "Ông chờ bạn bè đến chơi", "Ông buồn vì không có việc để làm"],
+          "correctIndex": 0,
+          "explanation": "Sai - đáp án đúng là B: Đoạn văn cho thấy khi nhìn hoàng hôn trên sông, ông 'nhớ về những ngày còn trẻ, cùng bạn bè vui đùa' - đây là lý do chính khiến ông ngồi ngắm hoàng hôn.",
+          "explanation": "Đoạn văn nêu rõ: nhìn hoàng hôn trên dòng sông, ông 'nhớ về những ngày còn trẻ, cùng bạn bè bơi lội và vui đùa' - đây là lý do chính được đề cập trong bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình ảnh 'hoàng hôn tím thẫm phủ xuống dòng sông' gợi lên cảm giác gì?",
+          "options": ["Cảm giác vui mừng, phấn khởi", "Cảm giác sợ hãi, lo lắng", "Cảm giác bình yên và đôi chút bồi hồi, nhớ nhung", "Cảm giác tức giận và bực bội"],
+          "correctIndex": 3,
+          "explanation": "Sai - đáp án đúng là C: Hình ảnh hoàng hôn tím thẫm trên sông gợi cảm giác bình yên và đôi chút bồi hồi, nhớ nhung - phù hợp với tâm trạng của ông trong đoạn văn.",
+          "explanation": "Hình ảnh 'hoàng hôn tím thẫm phủ xuống dòng sông' là cảnh chiều tà yên tĩnh, gợi cảm giác bình yên và đôi chút bồi hồi nhớ nhung - phù hợp với tâm trạng ông nhớ về quá khứ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây sử dụng ĐÚNG cả từ ngữ thiên nhiên lẫn từ ngữ về phẩm chất con người?",
+          "options": ["Mưa rơi và người đi học muộn.", "Bông lúa chín vàng nhờ bàn tay cần cù của người nông dân.", "Trời xanh và người vui.", "Cây cao và người cao."],
+          "correctIndex": 1,
+          "explanation": "'Bông lúa chín vàng' (thiên nhiên) kết hợp với 'bàn tay cần cù của người nông dân' (phẩm chất con người) tạo nên câu văn có ý nghĩa sâu sắc và kết hợp hài hòa cả hai loại từ ngữ."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong bài văn miêu tả, hình ảnh thiên nhiên có thể được dùng để so sánh và làm nổi bật phẩm chất, tình cảm của con người.",
+          "correct": true,
+          "explanation": "Đúng. Sử dụng hình ảnh thiên nhiên để so sánh với con người (như 'mẹ hiền như bóng cây', 'kiên nhẫn như dòng suối') là biện pháp nghệ thuật phổ biến giúp câu văn sinh động và ý nghĩa hơn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp: 'Người cha ___ như núi Thái Sơn, luôn che chở và bảo vệ gia đình.' (Từ chỉ phẩm chất kiên cường, mạnh mẽ của người cha)",
+          "answer": "vững chắc",
+          "explanation": "'Vững chắc' là từ phù hợp nhất, kết hợp với hình ảnh 'núi Thái Sơn' để ca ngợi người cha kiên cường, chỗ dựa vững vàng cho gia đình - đây là hình ảnh truyền thống trong ca dao tục ngữ Việt Nam."
+        }
+      ]
+    }
+  ]
+}

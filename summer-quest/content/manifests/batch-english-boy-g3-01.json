@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "batchId": "batch-english-boy-g3-01",
+  "description": "Boy Grade 3 English — Batch 1: Animals, Sports, Weather, Clothes, Toys",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-en-x001",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 12,
+      "title": "Animals — Pets and Farm",
+      "learningObjective": "After this lesson, Johnny will know 8 common animal names in English and can say what each animal does.",
+      "shortExplanation": "Learn the names of pets and farm animals in English. Con học tên các con vật trong tiếng Anh!",
+      "content": "## New Words\n- **cat** (con mèo) — a soft, furry pet that says \"meow\"\n- **dog** (con chó) — a loyal pet that says \"woof\"\n- **fish** (con cá) — lives in water, has scales and fins\n- **bird** (con chim) — has wings and can fly\n- **cow** (con bò) — a large farm animal that gives milk\n- **pig** (con lợn) — a pink farm animal kept on a farm\n- **horse** (con ngựa) — a large, fast animal that people ride\n- **goldfish** (cá vàng) — a small orange fish kept in a bowl\n\n## Pronunciation Guide\n- cat /kæt/ — giống \"két\" ngắn\n- dog /dɒɡ/ — giống \"đóc\"\n- fish /fɪʃ/ — giống \"phít\"\n- bird /bɜːd/ — giống \"bơ-d\"\n- cow /kaʊ/ — giống \"cao\"\n\n## Example Sentences\n- I have a **cat**. Her name is Luna.\n- A **cow** gives us milk every day.\n- A **bird** can fly high in the sky.\n- My **dog** says \"woof\" when he is happy.\n- The **goldfish** swims in a round bowl.\n\n## Summary\nPets live with us at home: cat, dog, goldfish, hamster. Farm animals live on a farm: cow, pig, horse, chicken. All animals need food, water, and care. Can you name 3 pets and 3 farm animals in English?",
+      "storyContext": "Johnny's robot guide ROBO takes him on a tour of the Robot Sport Lab's animal zone, where he meets pets and farm animals from around the world.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Which animal says 'meow'?",
+          "options": ["Dog", "Cat", "Cow", "Fish"],
+          "correctIndex": 1,
+          "explanation": "A cat says 'meow'. Cat = con mèo in Vietnamese.",
+          "hint": "This fluffy pet lives in your house and purrs."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which animal lives in water and has scales?",
+          "options": ["Rabbit", "Horse", "Fish", "Cow"],
+          "correctIndex": 2,
+          "explanation": "Fish live in water and have scales. Fish = con cá in Vietnamese.",
+          "hint": "This animal swims and cannot breathe on land."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which of these is a farm animal?",
+          "options": ["Cat", "Hamster", "Goldfish", "Cow"],
+          "correctIndex": 3,
+          "explanation": "A cow is a farm animal. Cow = con bò. It gives us milk.",
+          "hint": "This animal is large and lives on a farm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What sound does a dog make?",
+          "options": ["Woof", "Moo", "Meow", "Cluck"],
+          "correctIndex": 0,
+          "explanation": "A dog says 'woof'. Dog = con chó in Vietnamese.",
+          "hint": "Dogs are loyal pets — what do they say?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which animal can fly?",
+          "options": ["Cat", "Dog", "Bird", "Cow"],
+          "correctIndex": 2,
+          "explanation": "A bird can fly because it has wings. Bird = con chim.",
+          "hint": "This animal has wings and lives in trees."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'con bò' in English?",
+          "options": ["Pig", "Cow", "Horse", "Dog"],
+          "correctIndex": 1,
+          "explanation": "Con bò = Cow in English. A cow is a large farm animal that gives milk.",
+          "hint": "This big farm animal gives us milk."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "How many legs does a horse have?",
+          "options": ["Two", "Six", "Eight", "Four"],
+          "correctIndex": 3,
+          "explanation": "A horse has four legs. Most large animals have four legs.",
+          "hint": "Count the legs on a dog — a horse has the same number."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which animal is a common pet that lives in a water bowl?",
+          "options": ["Goldfish", "Rabbit", "Chicken", "Pig"],
+          "correctIndex": 0,
+          "explanation": "A goldfish is a small orange fish kept in a bowl at home. Goldfish = cá vàng.",
+          "hint": "This pet is orange and swims in a small tank."
+        },
+        {
+          "type": "true_false",
+          "text": "A bird can fly.",
+          "correct": true,
+          "explanation": "True! Birds have wings, so they can fly. Bird = con chim.",
+          "hint": "Think about what makes a bird special."
+        },
+        {
+          "type": "fill_blank",
+          "text": "A dog says '___'.",
+          "answer": "woof",
+          "explanation": "A dog says 'woof'. This is the sound a dog makes.",
+          "hint": "It rhymes with 'roof'."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x002",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 13,
+      "title": "Sports and Games",
+      "learningObjective": "After this lesson, Johnny will know 6 sport names in English and can describe basic sports equipment.",
+      "shortExplanation": "Learn the names of popular sports in English. Con học tên các môn thể thao bằng tiếng Anh!",
+      "content": "## New Words\n- **football** (bóng đá) — a sport played with a round ball and a goal\n- **swimming** (bơi lội) — a sport done in a pool or the sea\n- **running** (chạy bộ) — a sport where you move fast on foot\n- **tennis** (quần vợt) — a sport played with a racket and a ball\n- **badminton** (cầu lông) — a sport played with a racket and a shuttlecock\n- **cycling** (đạp xe) — a sport that uses a bicycle\n\n## Equipment Words\n- **ball** (quả bóng) — round, used in football, basketball\n- **racket** (vợt) — used in tennis and badminton\n- **swimsuit** (đồ bơi) — clothing worn for swimming\n- **goal** (khung thành) — where you score in football\n- **field** (sân cỏ) — the large grass area where football is played\n\n## Example Sentences\n- I love playing **football** on the field.\n- She goes **swimming** every Saturday morning.\n- We need a **racket** to play **tennis**.\n- **Cycling** is good exercise for your legs.\n\n## Summary\nSports keep us healthy and strong. Some sports need equipment: football needs a ball and a goal, tennis needs a racket, swimming needs a swimsuit. Johnny loves all sports at the Robot Sport Lab!",
+      "storyContext": "At the Robot Sport Lab, Johnny and ROBO try different sports and learn the English name for each one.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Which sport uses a round ball and a goal?",
+          "options": ["Football", "Swimming", "Tennis", "Badminton"],
+          "correctIndex": 0,
+          "explanation": "Football uses a round ball. Players score by kicking the ball into the goal.",
+          "hint": "This is the most popular sport in the world."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What sport do you do in a pool?",
+          "options": ["Running", "Cycling", "Tennis", "Swimming"],
+          "correctIndex": 3,
+          "explanation": "Swimming is done in a pool or the sea. Swimming = bơi lội.",
+          "hint": "You need water for this sport."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which word means 'chạy bộ' in English?",
+          "options": ["Jump", "Run", "Swim", "Kick"],
+          "correctIndex": 1,
+          "explanation": "Run means chạy bộ in Vietnamese. Running is moving fast on your feet.",
+          "hint": "Chạy bộ = moving quickly on your feet."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Where do you play football?",
+          "options": ["Pool", "Court", "Field", "Gym"],
+          "correctIndex": 2,
+          "explanation": "Football is played on a field, which is a large area of grass.",
+          "hint": "Football needs a large open grassy area."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which sport uses a racket and a shuttlecock?",
+          "options": ["Badminton", "Football", "Swimming", "Running"],
+          "correctIndex": 0,
+          "explanation": "Badminton uses a racket and a small feathered shuttlecock. Badminton = cầu lông.",
+          "hint": "You hit a feathered object over a net."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What sport uses a bicycle?",
+          "options": ["Football", "Tennis", "Running", "Cycling"],
+          "correctIndex": 3,
+          "explanation": "Cycling is the sport of riding a bicycle. Cycling = đạp xe.",
+          "hint": "You sit and pedal to move forward."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Con chơi quần vợt.' — which sport is this?",
+          "options": ["Basketball", "Tennis", "Swimming", "Football"],
+          "correctIndex": 1,
+          "explanation": "Quần vợt = Tennis in English. You hit a ball over a net with a racket.",
+          "hint": "Quần vợt uses a racket and a yellow ball."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What does a swimmer need to wear?",
+          "options": ["Ball", "Racket", "Swimsuit", "Helmet"],
+          "correctIndex": 2,
+          "explanation": "A swimmer wears a swimsuit, which is special clothing for swimming.",
+          "hint": "You wear this instead of regular clothes in the pool."
+        },
+        {
+          "type": "true_false",
+          "text": "Football is played with a round ball.",
+          "correct": true,
+          "explanation": "True! Football uses a round ball. Players kick it into the goal to score.",
+          "hint": "Think about what you kick in football."
+        },
+        {
+          "type": "fill_blank",
+          "text": "You need a racket to play ___.",
+          "answer": "tennis",
+          "explanation": "You need a racket to play tennis. Racket = vợt, tennis = quần vợt.",
+          "hint": "This sport uses a racket and a yellow ball."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x003",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 14,
+      "title": "Weather and Seasons",
+      "learningObjective": "After this lesson, Johnny will know 6 weather words and 4 season names in English.",
+      "shortExplanation": "Learn weather and season words in English. Con học về thời tiết và các mùa trong năm!",
+      "content": "## Weather Words\n- **sunny** (nắng) — the sun is shining brightly\n- **rainy** (mưa) — rain is falling from the sky\n- **cloudy** (nhiều mây) — there are many clouds in the sky\n- **windy** (có gió) — strong wind is blowing\n- **hot** (nóng) — the temperature is very high\n- **cold** (lạnh) — the temperature is very low\n- **snowy** (có tuyết) — snow is falling from the sky\n\n## The Four Seasons\n- **spring** (mùa xuân) — flowers bloom, weather is warm\n- **summer** (mùa hè) — very hot, school holiday time\n- **autumn** (mùa thu) — leaves turn orange and fall\n- **winter** (mùa đông) — very cold, may have snow\n\n## Example Sentences\n- It is **sunny** today. Let's play outside!\n- Bring an umbrella — it is **rainy**.\n- I wear a **jacket** in **winter** because it is **cold**.\n- **Summer** is my favourite season. We swim every day!\n\n## Summary\nThere are four seasons: spring, summer, autumn, winter. Weather changes every day. In Vietnam, summer is very hot and we get lots of rain. In winter, some countries have snow!",
+      "storyContext": "ROBO shows Johnny a weather map of the world and explains why different places have different weather all year long.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "What is the weather when the sun shines brightly?",
+          "options": ["Rainy", "Cloudy", "Sunny", "Snowy"],
+          "correctIndex": 2,
+          "explanation": "Sunny weather means the sun is shining brightly. Sunny = trời nắng.",
+          "hint": "You might need sunglasses for this weather."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What weather makes you need an umbrella?",
+          "options": ["Sunny", "Rainy", "Windy", "Hot"],
+          "correctIndex": 1,
+          "explanation": "Rainy weather means rain is falling, so you need an umbrella. Rainy = trời mưa.",
+          "hint": "Water falls from the sky in this weather."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the coldest season?",
+          "options": ["Winter", "Summer", "Spring", "Autumn"],
+          "correctIndex": 0,
+          "explanation": "Winter is the coldest season. Winter = mùa đông. Some places get snow in winter.",
+          "hint": "This season comes after autumn and before spring."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "How many seasons are there in a year?",
+          "options": ["Two", "Three", "Five", "Four"],
+          "correctIndex": 3,
+          "explanation": "There are four seasons: spring, summer, autumn, winter. Bốn mùa = four seasons.",
+          "hint": "Count: spring, summer, autumn, winter."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which word means 'nóng' in English?",
+          "options": ["Cold", "Hot", "Windy", "Rainy"],
+          "correctIndex": 1,
+          "explanation": "Hot means nóng in Vietnamese. Summer in Vietnam is very hot.",
+          "hint": "The opposite of cold."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the season after spring?",
+          "options": ["Winter", "Autumn", "Summer", "Rainy season"],
+          "correctIndex": 2,
+          "explanation": "Summer comes after spring. Summer = mùa hè. It is the hottest season.",
+          "hint": "The order is: spring → ??? → autumn → winter."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "In which season do flowers bloom?",
+          "options": ["Spring", "Winter", "Autumn", "Summer"],
+          "correctIndex": 0,
+          "explanation": "Flowers bloom in spring. Spring = mùa xuân. The weather becomes warm again.",
+          "hint": "This season comes right after winter."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you wear when it is cold?",
+          "options": ["Shorts", "A swimsuit", "A hat", "A jacket"],
+          "correctIndex": 3,
+          "explanation": "You wear a jacket when it is cold. A jacket = áo khoác, it keeps you warm.",
+          "hint": "You zip this up to stay warm."
+        },
+        {
+          "type": "true_false",
+          "text": "It rains a lot in summer in Vietnam.",
+          "correct": true,
+          "explanation": "True! Vietnam has a rainy season in summer. It is both hot and very rainy.",
+          "hint": "Think about the weather in Vietnam during school holidays."
+        },
+        {
+          "type": "fill_blank",
+          "text": "We use an umbrella when it is ___.",
+          "answer": "rainy",
+          "explanation": "We use an umbrella when it is rainy because rain falls from the sky.",
+          "hint": "The weather word for rain falling."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x004",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 15,
+      "title": "Clothes",
+      "learningObjective": "After this lesson, Johnny will know 8 clothing item names in English and can say what to wear for different weather.",
+      "shortExplanation": "Learn clothing words in English. Con học tên các loại quần áo bằng tiếng Anh!",
+      "content": "## Clothing Words\n- **shirt** (áo sơ mi) — a top with buttons, worn by boys and girls\n- **trousers** (quần dài) — long pants that cover your legs\n- **shoes** (giày) — worn on your feet to protect them\n- **hat** (mũ) — worn on your head, protects from sun\n- **jacket** (áo khoác) — a warm outer layer worn in cold weather\n- **dress** (váy đầm) — a one-piece garment worn by girls\n- **gloves** (găng tay) — worn on your hands in cold weather\n- **pyjamas** (đồ ngủ) — comfortable clothing worn for sleeping\n- **raincoat** (áo mưa) — a waterproof coat worn in rain\n\n## Matching Weather to Clothes\n- Hot weather → shorts, t-shirt, hat\n- Cold weather → jacket, gloves, scarf\n- Rainy weather → raincoat, boots\n- Sleeping → pyjamas\n\n## Example Sentences\n- I wear a **shirt** and **trousers** to school.\n- Put on your **jacket** — it is cold outside.\n- My **shoes** are blue and white.\n- At night, I put on my **pyjamas** and go to sleep.\n\n## Summary\nWe wear different clothes for different weather and occasions. Shoes protect our feet. A hat protects our head. A jacket keeps us warm. Can you name what you are wearing right now in English?",
+      "storyContext": "ROBO helps Johnny pack his bag for a camping trip and teaches him what clothes to bring for different types of weather.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "What do you wear on your feet?",
+          "options": ["Hat", "Jacket", "Shirt", "Shoes"],
+          "correctIndex": 3,
+          "explanation": "You wear shoes on your feet. Shoes = giày. They protect your feet.",
+          "hint": "You put these on your feet before going outside."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you wear on your head?",
+          "options": ["Hat", "Shoes", "Trousers", "Dress"],
+          "correctIndex": 0,
+          "explanation": "You wear a hat on your head. Hat = cái mũ. It protects you from the sun.",
+          "hint": "This goes on top of your head."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'áo sơ mi' in English?",
+          "options": ["Dress", "Jacket", "Shirt", "Coat"],
+          "correctIndex": 2,
+          "explanation": "Áo sơ mi = Shirt in English. It is a top with buttons.",
+          "hint": "Áo sơ mi has buttons on the front."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which item of clothing is for your legs?",
+          "options": ["Shirt", "Trousers", "Hat", "Gloves"],
+          "correctIndex": 1,
+          "explanation": "Trousers cover your legs. Trousers = quần dài in Vietnamese.",
+          "hint": "You put both legs inside this item."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you wear when it is cold and raining?",
+          "options": ["Shorts", "Sandals", "T-shirt", "Raincoat"],
+          "correctIndex": 3,
+          "explanation": "A raincoat is waterproof and keeps you dry in the rain. Raincoat = áo mưa.",
+          "hint": "This coat keeps water off your body."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'áo khoác' in English?",
+          "options": ["Jacket", "Shirt", "Dress", "Shorts"],
+          "correctIndex": 0,
+          "explanation": "Áo khoác = Jacket in English. You wear it when it is cold.",
+          "hint": "Áo khoác keeps you warm in cold weather."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you put on your hands when it is cold?",
+          "options": ["Shoes", "Jacket", "Gloves", "Hat"],
+          "correctIndex": 2,
+          "explanation": "Gloves are worn on your hands to keep them warm. Gloves = găng tay.",
+          "hint": "Each finger goes into a separate pocket."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which clothing is worn for sleeping?",
+          "options": ["School uniform", "Pyjamas", "Raincoat", "Sports shoes"],
+          "correctIndex": 1,
+          "explanation": "Pyjamas are comfortable clothes worn for sleeping at night. Pyjamas = đồ ngủ.",
+          "hint": "You change into these before going to bed."
+        },
+        {
+          "type": "true_false",
+          "text": "You wear a hat on your head.",
+          "correct": true,
+          "explanation": "True! A hat is worn on your head. Hat = cái mũ.",
+          "hint": "Where does a hat sit on your body?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "I wear ___ on my feet.",
+          "answer": "shoes",
+          "explanation": "You wear shoes on your feet to protect them. Shoes = giày.",
+          "hint": "The English word for giày."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x005",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 16,
+      "title": "Toys and Hobbies",
+      "learningObjective": "After this lesson, Johnny will know 6 hobby and toy words in English and can describe what he likes to do.",
+      "shortExplanation": "Learn toy and hobby words in English. Con học tên các sở thích và đồ chơi bằng tiếng Anh!",
+      "content": "## Toy Words\n- **robot** (người máy) — a machine toy that can move\n- **ball** (quả bóng) — a round toy for throwing and kicking\n- **kite** (diều) — a flat toy that flies in the wind on a string\n- **puzzle** (xếp hình) — a game where you fit pieces together\n- **car** (xe ô tô đồ chơi) — a small toy car\n\n## Hobby Words\n- **drawing** (vẽ tranh) — making pictures with pencils or crayons\n- **reading** (đọc sách) — looking at books and understanding them\n- **collecting** (sưu tập) — gathering and keeping things like stamps or cards\n- **hobby** (sở thích) — an activity you enjoy doing in your free time\n\n## Useful Phrases\n- I like **drawing**. (Tôi thích vẽ tranh.)\n- My hobby is **reading**. (Sở thích của tôi là đọc sách.)\n- I have a **robot** toy. (Tôi có đồ chơi người máy.)\n- Let's fly a **kite** in the park! (Hãy thả diều ở công viên!)\n\n## Summary\nA hobby is something fun you do in your free time. Drawing, reading, and collecting are great hobbies. Toys like robots, balls, and kites are fun to play with. What is your favourite hobby in English?",
+      "storyContext": "ROBO and Johnny visit the hobby room at the Robot Sport Lab, where they try drawing, kite flying, and collecting robot stickers.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "What is a ball?",
+          "options": ["A round toy for throwing and kicking", "A book for reading", "A flying machine", "A type of robot"],
+          "correctIndex": 0,
+          "explanation": "A ball is a round toy used for throwing, kicking, or catching in sports.",
+          "hint": "Football, basketball, and tennis all use this toy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'sở thích' in English?",
+          "options": ["Name", "Age", "Hobby", "School"],
+          "correctIndex": 2,
+          "explanation": "Sở thích = Hobby in English. A hobby is a fun activity you enjoy in your free time.",
+          "hint": "Sở thích is something you enjoy doing for fun."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which activity is a reading hobby?",
+          "options": ["Drawing", "Reading books", "Playing football", "Swimming"],
+          "correctIndex": 1,
+          "explanation": "Reading books is a reading hobby. You look at words and pictures to learn.",
+          "hint": "You need a book or magazine for this hobby."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you do with a kite?",
+          "options": ["Read it", "Eat it", "Swim with it", "Fly it"],
+          "correctIndex": 3,
+          "explanation": "You fly a kite. A kite goes up in the air when the wind blows. Kite = diều.",
+          "hint": "The wind helps a kite go up into the sky."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Tôi thích vẽ tranh.' — what is 'vẽ tranh' in English?",
+          "options": ["Reading", "Swimming", "Drawing", "Singing"],
+          "correctIndex": 2,
+          "explanation": "Vẽ tranh = Drawing in English. You make pictures with pencils or paint.",
+          "hint": "Vẽ tranh = making pictures with pencils."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which hobby uses pencils and paper?",
+          "options": ["Drawing", "Running", "Swimming", "Cooking"],
+          "correctIndex": 0,
+          "explanation": "Drawing uses pencils and paper to create pictures. Drawing = vẽ tranh.",
+          "hint": "You hold a pencil and make shapes on paper."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is a robot?",
+          "options": ["A kind of sport", "A type of food", "A place in town", "A machine that can move and work"],
+          "correctIndex": 3,
+          "explanation": "A robot is a machine that can move and do tasks. Robot = người máy or rô-bốt.",
+          "hint": "It has metal parts and can follow instructions."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'I like to collect stamps.' What does 'collect' mean?",
+          "options": ["Throw away", "Gather and keep", "Break into pieces", "Hide underground"],
+          "correctIndex": 1,
+          "explanation": "To collect means to gather and keep things over time, like stamps or cards.",
+          "hint": "Sưu tập = gather and keep many of the same type."
+        },
+        {
+          "type": "true_false",
+          "text": "Drawing is a hobby.",
+          "correct": true,
+          "explanation": "True! Drawing is a hobby. A hobby is a fun activity you do in your free time.",
+          "hint": "Is drawing something people do for fun?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "I fly a ___ in the park.",
+          "answer": "kite",
+          "explanation": "You fly a kite in the park. Kite = con diều. The wind makes it fly.",
+          "hint": "A flat toy that flies in the wind on a string."
+        }
+      ]
+    }
+  ]
+}

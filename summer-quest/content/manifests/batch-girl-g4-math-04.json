@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-math-b04",
+  "description": "Bài ôn Toán Lớp 4 cho Yumi - Hình học - chu vi hình chữ nhật, hình vuông; diện tích hình chữ nhật và hình vuông (công thức và bài tập)",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-math-x016",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 23,
+      "title": "Chu vi hình chữ nhật",
+      "learningObjective": "Học sinh sẽ nhận biết và áp dụng được công thức tính chu vi hình chữ nhật: C = (a + b) × 2.",
+      "shortExplanation": "Nhớ công thức: Chu vi hình chữ nhật = (chiều dài + chiều rộng) × 2. Hãy đọc kỹ số đo trong bài trước khi tính!",
+      "content": "Chu vi của một hình là tổng độ dài các cạnh bao quanh hình đó. Hình chữ nhật có hai cặp cạnh bằng nhau: hai chiều dài bằng nhau và hai chiều rộng bằng nhau. Công thức tính chu vi hình chữ nhật là: C = (a + b) × 2, trong đó a là chiều dài và b là chiều rộng. Ví dụ: Hình chữ nhật có chiều dài 8 cm, chiều rộng 5 cm thì chu vi = (8 + 5) × 2 = 13 × 2 = 26 cm. Ví dụ khác: chiều dài 10 cm, chiều rộng 4 cm thì chu vi = (10 + 4) × 2 = 28 cm.",
+      "storyContext": "Công chúa Yumi muốn viền vải lụa quanh tấm thảm hình chữ nhật của vương quốc để trang trí phòng ngai vàng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chiều dài 9 cm và chiều rộng 4 cm. Chu vi hình chữ nhật đó là bao nhiêu?",
+          "options": ["20 cm", "36 cm", "13 cm", "26 cm"],
+          "correctIndex": 3,
+          "explanation": "Chu vi = (9 + 4) × 2 = 13 × 2 = 26 cm. Đáp án đúng là 26 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công thức nào dùng để tính chu vi hình chữ nhật?",
+          "options": ["C = a × b", "C = (a + b) × 2", "C = a × 4", "C = a + b"],
+          "correctIndex": 1,
+          "explanation": "Chu vi hình chữ nhật = (chiều dài + chiều rộng) × 2, vì hình chữ nhật có 2 cạnh dài và 2 cạnh rộng bằng nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tấm vải hình chữ nhật của Công chúa Yumi dài 12 cm, rộng 7 cm. Chu vi tấm vải là bao nhiêu?",
+          "options": ["38 cm", "84 cm", "19 cm", "34 cm"],
+          "correctIndex": 0,
+          "explanation": "Chu vi = (12 + 7) × 2 = 19 × 2 = 38 cm. Đáp án đúng là 38 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chu vi 40 cm, chiều dài 14 cm. Chiều rộng hình chữ nhật đó là bao nhiêu?",
+          "options": ["26 cm", "12 cm", "6 cm", "20 cm"],
+          "correctIndex": 2,
+          "explanation": "Nửa chu vi = 40 ÷ 2 = 20 cm. Chiều rộng = 20 - 14 = 6 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chiều dài 15 cm và chiều rộng 6 cm. Chu vi hình chữ nhật là bao nhiêu?",
+          "options": ["21 cm", "90 cm", "30 cm", "42 cm"],
+          "correctIndex": 3,
+          "explanation": "Chu vi = (15 + 6) × 2 = 21 × 2 = 42 cm. Đáp án đúng là 42 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi dùng dây phép thuật để quấn quanh khung hình chữ nhật dài 11 cm, rộng 5 cm. Cần bao nhiêu cm dây?",
+          "options": ["55 cm", "32 cm", "16 cm", "22 cm"],
+          "correctIndex": 1,
+          "explanation": "Chu vi = (11 + 5) × 2 = 16 × 2 = 32 cm. Cần 32 cm dây phép thuật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chiều dài gấp đôi chiều rộng. Chiều rộng là 5 cm. Chu vi hình chữ nhật là bao nhiêu?",
+          "options": ["30 cm", "50 cm", "20 cm", "40 cm"],
+          "correctIndex": 0,
+          "explanation": "Chiều dài = 5 × 2 = 10 cm. Chu vi = (10 + 5) × 2 = 15 × 2 = 30 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chu vi 48 cm và chiều rộng 8 cm. Chiều dài hình chữ nhật là bao nhiêu?",
+          "options": ["40 cm", "32 cm", "16 cm", "6 cm"],
+          "correctIndex": 2,
+          "explanation": "Nửa chu vi = 48 ÷ 2 = 24 cm. Chiều dài = 24 - 8 = 16 cm."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình chữ nhật có chiều dài 10 cm và chiều rộng 3 cm có chu vi bằng 26 cm.",
+          "correct": true,
+          "explanation": "Đúng! Chu vi = (10 + 3) × 2 = 13 × 2 = 26 cm."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình chữ nhật có chiều dài 7 cm và chiều rộng 5 cm. Chu vi hình chữ nhật = (7 + 5) × 2 = ___ cm.",
+          "answer": "24",
+          "explanation": "Chu vi = (7 + 5) × 2 = 12 × 2 = 24 cm."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x017",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 24,
+      "title": "Chu vi hình vuông",
+      "learningObjective": "Học sinh sẽ nhận biết và áp dụng được công thức tính chu vi hình vuông: C = a × 4.",
+      "shortExplanation": "Hình vuông có 4 cạnh bằng nhau nên chu vi = cạnh × 4. Nhớ kiểm tra lại kết quả bằng cách chia chu vi cho 4!",
+      "content": "Hình vuông là hình chữ nhật đặc biệt có 4 cạnh bằng nhau. Vì tất cả 4 cạnh đều bằng nhau, công thức tính chu vi hình vuông rất đơn giản: C = a × 4, trong đó a là độ dài một cạnh. Ví dụ: Hình vuông có cạnh 6 cm thì chu vi = 6 × 4 = 24 cm. Nếu biết chu vi, ta tìm được cạnh bằng cách chia chu vi cho 4: cạnh = C ÷ 4. Ví dụ: Chu vi 36 cm thì cạnh = 36 ÷ 4 = 9 cm.",
+      "storyContext": "Công chúa Yumi cần đo chu vi khung gương phép thuật hình vuông trong phòng thủ công của vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính chu vi hình vuông có cạnh a là gì?",
+          "options": ["C = a × 4", "C = a × 2", "C = a + 4", "C = (a + a) × 2"],
+          "correctIndex": 0,
+          "explanation": "Hình vuông có 4 cạnh bằng nhau nên chu vi = a × 4. Đây là công thức đúng và đơn giản nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có cạnh 8 cm. Chu vi hình vuông đó là bao nhiêu?",
+          "options": ["16 cm", "24 cm", "32 cm", "64 cm"],
+          "correctIndex": 2,
+          "explanation": "Chu vi hình vuông = 8 × 4 = 32 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có chu vi 52 cm. Cạnh của hình vuông đó là bao nhiêu?",
+          "options": ["26 cm", "13 cm", "12 cm", "48 cm"],
+          "correctIndex": 1,
+          "explanation": "Cạnh hình vuông = chu vi ÷ 4 = 52 ÷ 4 = 13 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi dùng ruy-băng viền quanh khung gương hình vuông cạnh 9 cm. Cần bao nhiêu cm ruy-băng?",
+          "options": ["18 cm", "27 cm", "81 cm", "36 cm"],
+          "correctIndex": 3,
+          "explanation": "Chu vi = 9 × 4 = 36 cm. Yumi cần 36 cm ruy-băng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có chu vi 28 cm. Cạnh hình vuông là bao nhiêu?",
+          "options": ["7 cm", "14 cm", "4 cm", "56 cm"],
+          "correctIndex": 0,
+          "explanation": "Cạnh = 28 ÷ 4 = 7 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có cạnh 11 cm. Chu vi hình vuông là bao nhiêu?",
+          "options": ["22 cm", "33 cm", "44 cm", "121 cm"],
+          "correctIndex": 2,
+          "explanation": "Chu vi = 11 × 4 = 44 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi may 4 miếng vải hình vuông, mỗi miếng có cạnh 6 cm. Tổng chu vi của 4 hình vuông là bao nhiêu?",
+          "options": ["24 cm", "96 cm", "48 cm", "144 cm"],
+          "correctIndex": 1,
+          "explanation": "Chu vi 1 hình vuông = 6 × 4 = 24 cm. Tổng chu vi 4 hình = 24 × 4 = 96 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hai hình vuông có cùng chu vi 20 cm. Mỗi hình vuông có cạnh bằng bao nhiêu?",
+          "options": ["10 cm", "4 cm", "8 cm", "5 cm"],
+          "correctIndex": 3,
+          "explanation": "Cạnh = chu vi ÷ 4 = 20 ÷ 4 = 5 cm."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình vuông có cạnh 5 cm có chu vi bằng 25 cm.",
+          "correct": false,
+          "explanation": "Sai! Chu vi hình vuông = 5 × 4 = 20 cm, không phải 25 cm. 25 là diện tích của hình vuông đó."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình vuông có cạnh 12 cm. Chu vi hình vuông = 12 × 4 = ___ cm.",
+          "answer": "48",
+          "explanation": "Chu vi = 12 × 4 = 48 cm."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x018",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 25,
+      "title": "Diện tích hình chữ nhật",
+      "learningObjective": "Học sinh sẽ hiểu và vận dụng được công thức tính diện tích hình chữ nhật: S = a × b.",
+      "shortExplanation": "Diện tích đo phần mặt bên trong của hình. Công thức: Diện tích hình chữ nhật = chiều dài × chiều rộng. Đơn vị diện tích thường là cm² hoặc m².",
+      "content": "Diện tích là phần mặt phẳng bên trong của một hình. Công thức tính diện tích hình chữ nhật là: S = a × b, trong đó a là chiều dài và b là chiều rộng. Đơn vị diện tích là cm², m², dm²... Ví dụ: Hình chữ nhật dài 8 cm, rộng 5 cm có diện tích = 8 × 5 = 40 cm². Lưu ý: Chu vi và diện tích là hai đại lượng khác nhau — chu vi đo độ dài đường bao, diện tích đo phần mặt bên trong. Ví dụ khác: dài 12 cm, rộng 3 cm, diện tích = 12 × 3 = 36 cm².",
+      "storyContext": "Công chúa Yumi muốn tính diện tích tấm thảm thêu hoa phép thuật hình chữ nhật để biết cần bao nhiêu chỉ vàng trang trí.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính diện tích hình chữ nhật có chiều dài a và chiều rộng b là gì?",
+          "options": ["S = (a + b) × 2", "S = a × b", "S = a + b", "S = a × 4"],
+          "correctIndex": 1,
+          "explanation": "Diện tích hình chữ nhật = chiều dài × chiều rộng = a × b."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chiều dài 9 cm và chiều rộng 6 cm. Diện tích hình chữ nhật là bao nhiêu?",
+          "options": ["30 cm²", "45 cm²", "54 cm²", "54 cm"],
+          "correctIndex": 3,
+          "explanation": "Diện tích = 9 × 6 = 54 cm². Đơn vị phải là cm² (xăng-ti-mét vuông)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tấm thảm hình chữ nhật của Yumi dài 14 cm, rộng 5 cm. Diện tích tấm thảm là bao nhiêu?",
+          "options": ["38 cm²", "19 cm²", "70 cm²", "90 cm²"],
+          "correctIndex": 2,
+          "explanation": "Diện tích = 14 × 5 = 70 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có diện tích 48 cm² và chiều dài 8 cm. Chiều rộng hình chữ nhật là bao nhiêu?",
+          "options": ["6 cm", "40 cm", "56 cm", "12 cm"],
+          "correctIndex": 0,
+          "explanation": "Chiều rộng = diện tích ÷ chiều dài = 48 ÷ 8 = 6 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chiều dài 7 cm và chiều rộng 8 cm. Diện tích hình chữ nhật là bao nhiêu?",
+          "options": ["30 cm²", "56 cm²", "48 cm²", "15 cm²"],
+          "correctIndex": 1,
+          "explanation": "Diện tích = 7 × 8 = 56 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng thủ công của Yumi hình chữ nhật dài 6 m, rộng 4 m. Diện tích phòng là bao nhiêu?",
+          "options": ["10 m²", "20 m²", "28 m²", "24 m²"],
+          "correctIndex": 3,
+          "explanation": "Diện tích = 6 × 4 = 24 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có diện tích 63 cm² và chiều rộng 7 cm. Chiều dài hình chữ nhật là bao nhiêu?",
+          "options": ["56 cm", "70 cm", "9 cm", "8 cm"],
+          "correctIndex": 2,
+          "explanation": "Chiều dài = diện tích ÷ chiều rộng = 63 ÷ 7 = 9 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi cắt 3 tấm vải hình chữ nhật, mỗi tấm dài 10 cm rộng 4 cm. Tổng diện tích 3 tấm vải là bao nhiêu?",
+          "options": ["120 cm²", "84 cm²", "140 cm²", "40 cm²"],
+          "correctIndex": 0,
+          "explanation": "Diện tích 1 tấm = 10 × 4 = 40 cm². Tổng diện tích = 40 × 3 = 120 cm²."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình chữ nhật có chiều dài 6 cm và chiều rộng 9 cm có diện tích bằng 54 cm².",
+          "correct": true,
+          "explanation": "Đúng! Diện tích = 6 × 9 = 54 cm²."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình chữ nhật dài 13 cm, rộng 4 cm. Diện tích = 13 × 4 = ___ cm².",
+          "answer": "52",
+          "explanation": "Diện tích = 13 × 4 = 52 cm²."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x019",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 26,
+      "title": "Diện tích hình vuông",
+      "learningObjective": "Học sinh sẽ hiểu và vận dụng được công thức tính diện tích hình vuông: S = a × a.",
+      "shortExplanation": "Diện tích hình vuông = cạnh × cạnh (vì hai chiều bằng nhau). Hãy viết đúng đơn vị cm² sau kết quả!",
+      "content": "Hình vuông có 4 cạnh bằng nhau nên công thức tính diện tích là: S = a × a (còn viết là a²), trong đó a là độ dài một cạnh. Ví dụ: Hình vuông cạnh 7 cm có diện tích = 7 × 7 = 49 cm². Để tìm cạnh khi biết diện tích, ta tìm số nhân với chính nó bằng diện tích đó. Ví dụ: Diện tích 36 cm², thì cạnh = 6 cm vì 6 × 6 = 36. Lưu ý: Diện tích hình vuông và chu vi hình vuông là hai đại lượng khác nhau — không nhầm lẫn giữa a × a (diện tích) với a × 4 (chu vi).",
+      "storyContext": "Yumi cần tính diện tích viên gạch hình vuông để lát nền phòng ngai vàng lấp lánh trong vương quốc phép thuật.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có cạnh 8 cm. Diện tích hình vuông đó là bao nhiêu?",
+          "options": ["16 cm²", "32 cm²", "64 cm²", "48 cm²"],
+          "correctIndex": 2,
+          "explanation": "Diện tích hình vuông = 8 × 8 = 64 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính diện tích hình vuông có cạnh a là gì?",
+          "options": ["S = a × a", "S = a × 4", "S = (a + a) × 2", "S = a + a"],
+          "correctIndex": 0,
+          "explanation": "Diện tích hình vuông = a × a, vì hình vuông có chiều dài và chiều rộng đều bằng a. Công thức a × 4 là chu vi hình vuông, không phải diện tích."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Viên gạch hình vuông của Yumi có cạnh 9 cm. Diện tích viên gạch là bao nhiêu?",
+          "options": ["36 cm²", "18 cm²", "27 cm²", "81 cm²"],
+          "correctIndex": 3,
+          "explanation": "Diện tích = 9 × 9 = 81 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có diện tích 49 cm². Cạnh hình vuông là bao nhiêu?",
+          "options": ["12 cm", "7 cm", "24 cm", "9 cm"],
+          "correctIndex": 1,
+          "explanation": "Vì 7 × 7 = 49, cạnh hình vuông = 7 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có cạnh 5 cm. Diện tích hình vuông là bao nhiêu?",
+          "options": ["10 cm²", "20 cm²", "25 cm²", "15 cm²"],
+          "correctIndex": 2,
+          "explanation": "Diện tích = 5 × 5 = 25 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi lát 4 viên gạch hình vuông cạnh 6 cm lên sàn. Tổng diện tích 4 viên gạch là bao nhiêu?",
+          "options": ["144 cm²", "24 cm²", "96 cm²", "48 cm²"],
+          "correctIndex": 0,
+          "explanation": "Diện tích 1 viên = 6 × 6 = 36 cm². Tổng diện tích 4 viên = 36 × 4 = 144 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có diện tích 64 cm². Chu vi hình vuông là bao nhiêu?",
+          "options": ["16 cm²", "256 cm", "32 cm²", "32 cm"],
+          "correctIndex": 3,
+          "explanation": "Cạnh = 8 cm (vì 8 × 8 = 64). Chu vi = 8 × 4 = 32 cm. Đơn vị chu vi là cm, không phải cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông có cạnh 11 cm. Diện tích hình vuông là bao nhiêu?",
+          "options": ["22 cm²", "121 cm²", "44 cm²", "132 cm²"],
+          "correctIndex": 1,
+          "explanation": "Diện tích = 11 × 11 = 121 cm²."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình vuông có cạnh 10 cm có chu vi bằng 100 cm.",
+          "correct": false,
+          "explanation": "Sai! Chu vi hình vuông cạnh 10 cm = 10 × 4 = 40 cm, không phải 100 cm. 100 cm² là diện tích, còn chu vi chỉ là 40 cm."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình vuông có cạnh 6 cm. Diện tích = 6 × 6 = ___ cm².",
+          "answer": "36",
+          "explanation": "Diện tích = 6 × 6 = 36 cm²."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x020",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 27,
+      "title": "So sánh và tổng hợp: Chu vi và diện tích hình chữ nhật, hình vuông",
+      "learningObjective": "Học sinh sẽ phân biệt được chu vi và diện tích, đồng thời giải được bài toán tổng hợp có liên quan đến cả chu vi lẫn diện tích của hình chữ nhật và hình vuông.",
+      "shortExplanation": "Chu vi = đo đường bao quanh hình (đơn vị cm, m). Diện tích = đo phần bên trong hình (đơn vị cm², m²). Đọc kỹ đề để biết bài hỏi gì!",
+      "content": "Chu vi và diện tích là hai khái niệm quan trọng trong hình học. Chu vi đo tổng độ dài các cạnh bao quanh hình (đơn vị: cm, m, dm), còn diện tích đo phần mặt phẳng bên trong (đơn vị: cm², m², dm²). Hình chữ nhật: Chu vi = (a + b) × 2; Diện tích = a × b. Hình vuông: Chu vi = a × 4; Diện tích = a × a. Ví dụ: Hình chữ nhật dài 10 cm, rộng 4 cm có chu vi = 28 cm và diện tích = 40 cm². Ví dụ: Hình vuông cạnh 5 cm có chu vi = 20 cm và diện tích = 25 cm².",
+      "storyContext": "Công chúa Yumi cần vừa viền vải quanh khung (chu vi) vừa phủ vải lên mặt khung (diện tích) để hoàn thiện bức tranh phép thuật cho vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đơn vị nào dùng để đo diện tích?",
+          "options": ["cm", "m", "dm", "cm²"],
+          "correctIndex": 3,
+          "explanation": "Diện tích được đo bằng đơn vị vuông như cm², m², dm². Các đơn vị cm, m, dm chỉ dùng để đo độ dài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật dài 8 cm, rộng 5 cm. Tính chu vi và diện tích. Kết quả nào đúng?",
+          "options": ["Chu vi = 40 cm, Diện tích = 26 cm²", "Chu vi = 26 cm, Diện tích = 40 cm²", "Chu vi = 26 cm, Diện tích = 26 cm²", "Chu vi = 40 cm, Diện tích = 40 cm²"],
+          "correctIndex": 1,
+          "explanation": "Chu vi = (8 + 5) × 2 = 26 cm. Diện tích = 8 × 5 = 40 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình vuông cạnh 6 cm. Kết quả nào đúng cho cả chu vi và diện tích?",
+          "options": ["Chu vi = 24 cm, Diện tích = 36 cm²", "Chu vi = 36 cm, Diện tích = 24 cm²", "Chu vi = 24 cm², Diện tích = 36 cm", "Chu vi = 36 cm², Diện tích = 24 cm"],
+          "correctIndex": 0,
+          "explanation": "Chu vi = 6 × 4 = 24 cm (đơn vị cm). Diện tích = 6 × 6 = 36 cm² (đơn vị cm²). Cần dùng đúng đơn vị cho từng loại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi có mảnh vải hình chữ nhật dài 12 cm, rộng 5 cm. Cô cần bao nhiêu cm viền để đính quanh mảnh vải?",
+          "options": ["60 cm", "17 cm", "34 cm", "70 cm"],
+          "correctIndex": 2,
+          "explanation": "Cần viền bằng chu vi: (12 + 5) × 2 = 17 × 2 = 34 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong các công thức sau, công thức nào tính diện tích hình vuông?",
+          "options": ["S = 4 × a", "S = 2 × (a + b)", "S = a + b", "S = a × a"],
+          "correctIndex": 3,
+          "explanation": "Diện tích hình vuông = a × a. Công thức 4 × a là chu vi hình vuông, không phải diện tích."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình chữ nhật có chu vi 30 cm và chiều dài 10 cm. Diện tích hình chữ nhật là bao nhiêu?",
+          "options": ["300 cm²", "50 cm²", "20 cm²", "200 cm²"],
+          "correctIndex": 1,
+          "explanation": "Nửa chu vi = 30 ÷ 2 = 15 cm. Chiều rộng = 15 - 10 = 5 cm. Diện tích = 10 × 5 = 50 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hai mảnh vải: mảnh A hình chữ nhật dài 9 cm rộng 4 cm; mảnh B hình vuông cạnh 6 cm. So sánh diện tích hai mảnh, kết luận nào đúng?",
+          "options": ["Hai mảnh bằng nhau vì diện tích mảnh A = diện tích mảnh B = 36 cm²", "Mảnh A lớn hơn vì hình chữ nhật lớn hơn hình vuông", "Mảnh B lớn hơn vì hình vuông đặc biệt hơn", "Không thể so sánh được"],
+          "correctIndex": 0,
+          "explanation": "Diện tích mảnh A = 9 × 4 = 36 cm². Diện tích mảnh B = 6 × 6 = 36 cm². Hai mảnh có diện tích bằng nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi vẽ hình chữ nhật dài 15 cm và rộng 6 cm. Chu vi và diện tích hình chữ nhật đó là bao nhiêu?",
+          "options": ["Chu vi = 21 cm, Diện tích = 90 cm²", "Chu vi = 90 cm, Diện tích = 42 cm²", "Chu vi = 42 cm, Diện tích = 90 cm²", "Chu vi = 90 cm, Diện tích = 21 cm²"],
+          "correctIndex": 2,
+          "explanation": "Chu vi = (15 + 6) × 2 = 42 cm. Diện tích = 15 × 6 = 90 cm²."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình vuông cạnh 7 cm có chu vi 28 cm và diện tích 49 cm².",
+          "correct": true,
+          "explanation": "Đúng! Chu vi = 7 × 4 = 28 cm. Diện tích = 7 × 7 = 49 cm²."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình chữ nhật dài 11 cm, rộng 5 cm. Diện tích = 11 × 5 = ___ cm².",
+          "answer": "55",
+          "explanation": "Diện tích = 11 × 5 = 55 cm²."
+        }
+      ]
+    }
+  ]
+}

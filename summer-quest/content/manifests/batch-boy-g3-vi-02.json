@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-vi-b02",
+  "description": "Bài ôn Tiếng Việt Lớp 3 cho Johnny - Từ chỉ hoạt động và trạng thái - nhận biết động từ",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "lab_tool"
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-vi-x006",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 12,
+      "title": "Nhận biết động từ chỉ hoạt động",
+      "learningObjective": "Học sinh nhận biết được động từ chỉ hoạt động trong câu và phân biệt động từ với các từ loại khác.",
+      "shortExplanation": "Động từ chỉ hoạt động là những từ diễn tả hành động mà người hoặc vật thực hiện. Hãy tìm từ trả lời câu hỏi 'làm gì?' trong câu.",
+      "content": "Động từ chỉ hoạt động là những từ diễn tả hành động của người hoặc vật như: chạy, nhảy, đọc, viết, ăn, uống. Để nhận biết động từ, ta đặt câu hỏi 'làm gì?' vào chỗ trống. Ví dụ: 'Bạn Nam _____ sách' → Bạn Nam đọc sách (đọc là động từ). Ví dụ khác: 'Con mèo _____ con chuột' → Con mèo đuổi con chuột (đuổi là động từ). Động từ giúp câu có nghĩa hoàn chỉnh, diễn tả rõ hoạt động đang xảy ra.",
+      "storyContext": "Robo-X đang quét từng từ trong bản đồ thiên nhiên và gắn nhãn 'ĐỘNG TỪ' cho mỗi từ chỉ hoạt động mà nó tìm thấy.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Bạn Lan chạy nhanh trên sân trường', từ nào là động từ chỉ hoạt động?",
+          "options": ["nhanh", "chạy", "sân trường", "bạn Lan"],
+          "correctIndex": 1,
+          "explanation": "Từ 'chạy' là động từ chỉ hoạt động vì nó trả lời câu hỏi 'bạn Lan làm gì?' - bạn Lan chạy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG phải là động từ chỉ hoạt động?",
+          "options": ["nhảy", "hát", "đẹp", "viết"],
+          "correctIndex": 3,
+          "explanation": "Từ 'đẹp' không phải động từ mà là tính từ, diễn tả đặc điểm chứ không phải hoạt động. Các từ nhảy, hát, viết đều là động từ chỉ hoạt động."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có động từ chỉ hoạt động?",
+          "options": ["Bầu trời rất xanh.", "Hoa hồng thật đẹp.", "Bé Minh đang vẽ tranh.", "Con mèo rất dễ thương."],
+          "correctIndex": 2,
+          "explanation": "'Bé Minh đang vẽ tranh' có động từ 'vẽ' chỉ hoạt động bé Minh đang làm. Các câu còn lại chỉ có tính từ miêu tả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Động từ chỉ hoạt động trả lời cho câu hỏi nào?",
+          "options": ["Làm gì?", "Là ai?", "Như thế nào?", "Ở đâu?"],
+          "correctIndex": 0,
+          "explanation": "Động từ chỉ hoạt động trả lời câu hỏi 'Làm gì?' vì nó diễn tả hành động mà chủ thể đang thực hiện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chú chim hót líu lo trên cành cây', từ nào là động từ?",
+          "options": ["líu lo", "hót", "cành cây", "chú chim"],
+          "correctIndex": 1,
+          "explanation": "'Hót' là động từ chỉ hoạt động của chú chim. 'Líu lo' là từ láy bổ sung ý nghĩa cho tiếng hót, không phải động từ chính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhóm nào gồm toàn động từ chỉ hoạt động?",
+          "options": ["xanh, đỏ, vàng", "to, nhỏ, dài", "cao, thấp, rộng", "bơi, leo, nhảy"],
+          "correctIndex": 3,
+          "explanation": "'Bơi, leo, nhảy' đều là động từ chỉ hoạt động. Các nhóm còn lại đều là tính từ chỉ màu sắc, kích thước hoặc đặc điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Robo-X _____ dữ liệu từ bản đồ'. Từ nào phù hợp điền vào chỗ trống?",
+          "options": ["to lớn", "nhanh nhẹn", "đọc", "thông minh"],
+          "correctIndex": 2,
+          "explanation": "Từ 'đọc' là động từ chỉ hoạt động, phù hợp điền vào chỗ trống để hoàn thành câu có nghĩa. Các từ còn lại là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Có bao nhiêu động từ trong câu: 'Buổi sáng, em thức dậy, đánh răng và ăn sáng'?",
+          "options": ["ba động từ", "hai động từ", "bốn động từ", "một động từ"],
+          "correctIndex": 0,
+          "explanation": "Câu có ba động từ: 'thức dậy', 'đánh răng', 'ăn sáng' - đây là ba hoạt động liên tiếp trong buổi sáng."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Con chó chạy quanh sân vườn', từ 'chạy' là động từ chỉ hoạt động.",
+          "correct": true,
+          "explanation": "Đúng. 'Chạy' là động từ chỉ hoạt động vì nó diễn tả hành động của con chó và trả lời câu hỏi 'con chó làm gì?'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền một động từ chỉ hoạt động vào chỗ trống: 'Mỗi buổi sáng, Robo-X _____ tín hiệu từ các cảm biến.'",
+          "answer": "đọc",
+          "explanation": "'Đọc' là động từ chỉ hoạt động Robo-X thực hiện với tín hiệu từ các cảm biến."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x007",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 13,
+      "title": "Nhận biết động từ chỉ trạng thái",
+      "learningObjective": "Học sinh phân biệt được động từ chỉ trạng thái với động từ chỉ hoạt động và tính từ trong câu.",
+      "shortExplanation": "Động từ chỉ trạng thái diễn tả tình trạng, cảm xúc hoặc tư thế của người/vật. Hãy tìm các từ như: ngủ, nằm, đứng, yêu, thích, buồn, vui trong câu.",
+      "content": "Động từ chỉ trạng thái là những từ diễn tả tình trạng, tư thế hoặc cảm xúc như: ngủ, nằm, đứng, ngồi, yêu, ghét, thích, buồn. Khác với động từ chỉ hoạt động (làm gì?), động từ chỉ trạng thái trả lời câu hỏi 'như thế nào?' hoặc 'ở trạng thái gì?'. Ví dụ: 'Em bé đang ngủ ngon' - ngủ là động từ chỉ trạng thái. Ví dụ khác: 'Bạn ấy rất yêu thích đọc sách' - yêu thích là động từ chỉ trạng thái. Chú ý: các từ như buồn, vui khi đứng một mình là tính từ, nhưng trong câu 'tôi buồn' thì buồn đóng vai trò như động từ.",
+      "storyContext": "Robo-X giải mã tín hiệu ngôn ngữ và phát hiện rằng không phải mọi động từ đều chỉ hành động - một số động từ chỉ trạng thái bên trong.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Em bé đang ngủ say trong nôi', từ nào là động từ chỉ trạng thái?",
+          "options": ["em bé", "trong nôi", "ngủ", "say"],
+          "correctIndex": 2,
+          "explanation": "'Ngủ' là động từ chỉ trạng thái vì nó diễn tả tình trạng nghỉ ngơi của em bé, không phải một hành động tác động ra bên ngoài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là động từ chỉ trạng thái?",
+          "options": ["yêu", "chạy", "viết", "nhảy"],
+          "correctIndex": 0,
+          "explanation": "'Yêu' là động từ chỉ trạng thái cảm xúc. 'Chạy', 'viết', 'nhảy' đều là động từ chỉ hoạt động cụ thể."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có động từ chỉ trạng thái?",
+          "options": ["Bạn Nam đang đá bóng.", "Mẹ đang nấu cơm.", "Con mèo đang nằm ngủ.", "Chị ấy đang vẽ tranh."],
+          "correctIndex": 3,
+          "explanation": "'Con mèo đang nằm ngủ' có động từ 'nằm' chỉ tư thế/trạng thái và 'ngủ' chỉ trạng thái nghỉ ngơi. Các câu khác có động từ hoạt động cụ thể."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhóm nào gồm toàn động từ chỉ trạng thái?",
+          "options": ["đứng, ngồi, nằm", "chạy, nhảy, bơi", "ăn, uống, ngủ", "đọc, viết, vẽ"],
+          "correctIndex": 1,
+          "explanation": "'Đứng, ngồi, nằm' đều là động từ chỉ tư thế/trạng thái của cơ thể. Các nhóm còn lại gồm động từ chỉ hoạt động cụ thể."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Robo-X _____ trong trạng thái sạc pin'. Từ nào phù hợp?",
+          "options": ["hát to", "đứng yên", "chạy nhanh", "nhảy cao"],
+          "correctIndex": 2,
+          "explanation": "'Đứng yên' là động từ chỉ trạng thái, phù hợp với cảnh Robo-X đang sạc pin và không di chuyển. Các từ khác là hoạt động năng động."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Bạn Hoa rất thích học Tiếng Việt', từ nào là động từ chỉ trạng thái?",
+          "options": ["thích", "rất", "tiếng Việt", "học"],
+          "correctIndex": 0,
+          "explanation": "'Thích' là động từ chỉ trạng thái cảm xúc, diễn tả cảm giác yêu thích của bạn Hoa. 'Học' là động từ chỉ hoạt động."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Con chó nằm ngoan ngoãn dưới gốc cây'. Động từ chỉ trạng thái trong câu là gì?",
+          "options": ["con chó", "gốc cây", "ngoan ngoãn", "nằm"],
+          "correctIndex": 3,
+          "explanation": "'Nằm' là động từ chỉ trạng thái tư thế của con chó. 'Ngoan ngoãn' là tính từ bổ nghĩa cho trạng thái đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG phải là động từ chỉ trạng thái?",
+          "options": ["đứng", "ngồi", "nằm", "vẽ"],
+          "correctIndex": 1,
+          "explanation": "'Vẽ' là động từ chỉ hoạt động cụ thể (tạo ra một sản phẩm). 'Đứng', 'ngồi', 'nằm' đều là động từ chỉ tư thế/trạng thái."
+        },
+        {
+          "type": "true_false",
+          "text": "Động từ chỉ trạng thái và động từ chỉ hoạt động đều là động từ, chỉ khác nhau về ý nghĩa.",
+          "correct": false,
+          "explanation": "Sai. Câu này không hoàn toàn chính xác - động từ chỉ trạng thái diễn tả tình trạng/cảm xúc (ngủ, yêu, đứng), còn động từ chỉ hoạt động diễn tả hành động cụ thể (chạy, viết, ăn). Chúng khác nhau về cả ý nghĩa lẫn cách dùng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền động từ chỉ trạng thái vào chỗ trống: 'Sau khi hoàn thành nhiệm vụ, Robo-X _____ yên lặng để tiết kiệm năng lượng.'",
+          "answer": "đứng",
+          "explanation": "'Đứng' là động từ chỉ trạng thái tư thế, phù hợp với cảnh Robo-X giữ nguyên vị trí để tiết kiệm năng lượng."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x008",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 14,
+      "title": "Đặt câu có chủ ngữ và vị ngữ đơn giản",
+      "learningObjective": "Học sinh xác định được chủ ngữ và vị ngữ trong câu đơn giản, đồng thời tự đặt câu có cấu trúc chủ ngữ - vị ngữ.",
+      "shortExplanation": "Câu đơn giản gồm chủ ngữ (ai? cái gì?) và vị ngữ (làm gì? như thế nào?). Hãy tìm 'ai' hoặc 'cái gì' trước động từ để xác định chủ ngữ.",
+      "content": "Câu đơn giản trong Tiếng Việt thường có hai phần: chủ ngữ và vị ngữ. Chủ ngữ là phần trả lời câu hỏi 'Ai?' hoặc 'Cái gì?' - thường là danh từ hoặc cụm danh từ. Vị ngữ là phần trả lời câu hỏi 'Làm gì?' hoặc 'Như thế nào?' - thường chứa động từ. Ví dụ: 'Bạn Nam / chạy nhanh' (Bạn Nam = chủ ngữ, chạy nhanh = vị ngữ). Ví dụ khác: 'Con chim / hót trên cành' (Con chim = chủ ngữ, hót trên cành = vị ngữ). Câu đủ nghĩa phải có cả chủ ngữ và vị ngữ.",
+      "storyContext": "Robo-X học cách đọc bản đồ thiên nhiên bằng cách phân tích từng câu thành hai phần: 'ai đang ở đó' và 'đang làm gì'.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chú mèo đang chơi với cuộn len', đâu là chủ ngữ?",
+          "options": ["đang chơi", "cuộn len", "chơi với cuộn len", "Chú mèo"],
+          "correctIndex": 3,
+          "explanation": "'Chú mèo' là chủ ngữ vì nó trả lời câu hỏi 'Ai đang chơi với cuộn len?' - chú mèo là người thực hiện hành động."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có cấu trúc chủ ngữ - vị ngữ đúng?",
+          "options": ["Rất nhanh và mạnh.", "Chạy qua sân trường.", "Bé Lan hát bài hát.", "Đẹp và dễ thương lắm."],
+          "correctIndex": 1,
+          "explanation": "'Bé Lan hát bài hát' có đủ chủ ngữ (Bé Lan) và vị ngữ (hát bài hát). Các câu còn lại thiếu chủ ngữ hoặc thiếu vị ngữ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Robo-X quét dữ liệu từ bản đồ thiên nhiên', đâu là vị ngữ?",
+          "options": ["quét dữ liệu từ bản đồ thiên nhiên", "Robo-X", "bản đồ thiên nhiên", "dữ liệu"],
+          "correctIndex": 0,
+          "explanation": "'Quét dữ liệu từ bản đồ thiên nhiên' là vị ngữ vì nó trả lời câu hỏi 'Robo-X làm gì?' và chứa động từ chính là 'quét'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào THIẾU chủ ngữ?",
+          "options": ["Mặt trời mọc ở phía đông.", "Đang chạy rất nhanh trên đường.", "Con bướm bay lượn trên hoa.", "Học sinh học bài chăm chỉ."],
+          "correctIndex": 2,
+          "explanation": "'Đang chạy rất nhanh trên đường' thiếu chủ ngữ - ta không biết ai đang chạy. Đây chỉ là vị ngữ, thiếu phần 'Ai?' hoặc 'Cái gì?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để đặt câu hoàn chỉnh, cần có những thành phần nào?",
+          "options": ["Chỉ cần vị ngữ", "Chỉ cần chủ ngữ", "Chỉ cần động từ", "Chủ ngữ và vị ngữ"],
+          "correctIndex": 3,
+          "explanation": "Câu hoàn chỉnh cần có cả chủ ngữ (cho biết ai/cái gì) và vị ngữ (cho biết làm gì/như thế nào). Thiếu một trong hai, câu sẽ không đủ nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chủ ngữ trong câu 'Những bông hoa nở rộ trong vườn' là gì?",
+          "options": ["Những bông hoa", "nở rộ", "trong vườn", "hoa nở rộ"],
+          "correctIndex": 1,
+          "explanation": "'Những bông hoa' là chủ ngữ vì nó trả lời câu hỏi 'Cái gì nở rộ trong vườn?'. Đây là cụm danh từ đứng trước động từ 'nở rộ'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Học sinh lớp 3 _____ bài học về động từ'. Từ nào phù hợp điền vào để có vị ngữ?",
+          "options": ["ôn tập", "chăm chỉ", "thông minh", "lớp 3"],
+          "correctIndex": 0,
+          "explanation": "'Ôn tập' là động từ phù hợp để tạo vị ngữ cho câu. 'Chăm chỉ' và 'thông minh' là tính từ, 'lớp 3' là danh từ không phù hợp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Bầu trời xanh biếc sau cơn mưa', từ nào là vị ngữ?",
+          "options": ["Bầu trời", "sau cơn mưa", "xanh biếc", "cơn mưa"],
+          "correctIndex": 2,
+          "explanation": "'Xanh biếc' là vị ngữ vì nó trả lời câu hỏi 'Bầu trời như thế nào?' và diễn tả đặc điểm/trạng thái của bầu trời."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Chạy nhanh lắm!' là một câu hoàn chỉnh vì có động từ.",
+          "correct": false,
+          "explanation": "Sai. Câu 'Chạy nhanh lắm!' không hoàn chỉnh vì thiếu chủ ngữ - ta không biết ai chạy nhanh. Câu hoàn chỉnh cần cả chủ ngữ lẫn vị ngữ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Đặt chủ ngữ vào chỗ trống để hoàn thành câu: '_____ đang quét tín hiệu từ bản đồ thiên nhiên.'",
+          "answer": "Robo-X",
+          "explanation": "'Robo-X' là chủ ngữ phù hợp nhất theo ngữ cảnh Robot Sport Lab, hoàn thành câu với đầy đủ chủ ngữ và vị ngữ."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x009",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 15,
+      "title": "Phân biệt động từ với tính từ và danh từ",
+      "learningObjective": "Học sinh phân biệt được động từ với tính từ và danh từ trong câu, tránh nhầm lẫn giữa các từ loại.",
+      "shortExplanation": "Động từ diễn tả hành động hoặc trạng thái (chạy, ngủ, yêu). Tính từ diễn tả đặc điểm (đẹp, cao, nhanh). Danh từ gọi tên người/vật/việc (học sinh, mèo, trường).",
+      "content": "Ba từ loại quan trọng trong câu là: danh từ (gọi tên), động từ (chỉ hoạt động/trạng thái), và tính từ (chỉ đặc điểm). Động từ trả lời 'làm gì?' hoặc 'ở trạng thái gì?', còn tính từ trả lời 'như thế nào?'. Ví dụ: 'Con chim hót hay' - 'hót' là động từ, 'hay' là tính từ. Chú ý: một số từ có thể vừa là động từ vừa là tính từ tùy ngữ cảnh, ví dụ 'xanh' trong 'bầu trời xanh' là tính từ nhưng trong 'cây xanh lá' thì 'xanh' bổ nghĩa cho danh từ. Luyện tập xác định từ loại bằng cách đặt câu hỏi phù hợp.",
+      "storyContext": "Robo-X giải mã tín hiệu ngôn ngữ bằng cách gắn nhãn từng từ: màu đỏ cho danh từ, màu xanh cho động từ, màu vàng cho tính từ.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là ĐỘNG TỪ trong câu 'Bông hoa đẹp tỏa hương thơm ngát'?",
+          "options": ["tỏa", "đẹp", "bông hoa", "thơm ngát"],
+          "correctIndex": 0,
+          "explanation": "'Tỏa' là động từ chỉ hoạt động của bông hoa. 'Đẹp' và 'thơm ngát' là tính từ, 'bông hoa' là danh từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Con sông chảy hiền hòa qua cánh đồng', từ 'hiền hòa' thuộc loại từ nào?",
+          "options": ["tính từ", "động từ", "danh từ", "đại từ"],
+          "correctIndex": 2,
+          "explanation": "'Hiền hòa' là tính từ, bổ sung ý nghĩa cho động từ 'chảy', mô tả cách thức dòng chảy. Nó không phải động từ hay danh từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào là DANH TỪ?",
+          "options": ["chạy", "đẹp", "trường học", "nhảy"],
+          "correctIndex": 1,
+          "explanation": "'Trường học' là danh từ gọi tên một địa điểm. 'Chạy' và 'nhảy' là động từ, 'đẹp' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Robo-X thông minh giải mã nhanh tín hiệu khó'. Từ 'thông minh' là từ loại gì?",
+          "options": ["động từ", "danh từ", "đại từ", "tính từ"],
+          "correctIndex": 3,
+          "explanation": "'Thông minh' là tính từ, mô tả đặc điểm của Robo-X. Nó trả lời câu hỏi 'Robo-X như thế nào?' chứ không phải 'Robo-X làm gì?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhóm nào gồm cả ba loại: danh từ, động từ, tính từ?",
+          "options": ["học sinh, chăm chỉ, học bài", "chạy, nhảy, bơi", "đẹp, cao, thông minh", "sách, bút, vở"],
+          "correctIndex": 0,
+          "explanation": "'Học sinh' (danh từ), 'chăm chỉ' (tính từ), 'học bài' (cụm động từ) - đây là nhóm có đủ cả ba loại từ. Các nhóm còn lại chỉ có một loại từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Bạn Tuấn học giỏi môn Toán', từ 'giỏi' là loại từ gì?",
+          "options": ["tính từ", "danh từ", "trạng từ", "động từ"],
+          "correctIndex": 2,
+          "explanation": "'Giỏi' là tính từ, mô tả mức độ học tập của bạn Tuấn. Nó bổ nghĩa cho động từ 'học', mô tả chất lượng của hoạt động học."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng ĐÚNG động từ (không nhầm với tính từ)?",
+          "options": ["Bé chạy rất nhanh.", "Bé cao chạy.", "Bé nhanh đang.", "Bé đang to lớn chạy."],
+          "correctIndex": 1,
+          "explanation": "'Bé chạy rất nhanh' dùng đúng: 'chạy' là động từ làm vị ngữ chính, 'nhanh' là tính từ bổ nghĩa. Các câu còn lại có cấu trúc sai hoặc dùng từ không đúng chỗ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào vừa có thể là động từ vừa là tính từ tùy ngữ cảnh?",
+          "options": ["học sinh", "đen", "sách vở", "nước"],
+          "correctIndex": 3,
+          "explanation": "'Đen' có thể là tính từ (màu đen) nhưng trong câu 'tóc đen như mực' nó vẫn giữ vai trò tính từ. Đây là ví dụ từ có thể linh hoạt. Các từ còn lại là danh từ."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Mặt trời mọc ở phía đông', từ 'mọc' là động từ chỉ hoạt động.",
+          "correct": true,
+          "explanation": "Đúng. 'Mọc' là động từ chỉ hoạt động/hiện tượng xảy ra - mặt trời xuất hiện (mọc) ở phía đông. Nó trả lời câu hỏi 'mặt trời làm gì?'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ loại thích hợp: Từ 'đọc' trong câu 'Robo-X đọc bản đồ thiên nhiên' là một _____.",
+          "answer": "động từ",
+          "explanation": "'Đọc' là động từ chỉ hoạt động Robo-X thực hiện với bản đồ thiên nhiên, trả lời câu hỏi 'Robo-X làm gì?'."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x010",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 16,
+      "title": "Mở rộng câu với trạng ngữ",
+      "learningObjective": "Học sinh biết mở rộng câu đơn giản bằng cách thêm trạng ngữ chỉ thời gian, địa điểm hoặc cách thức vào câu có chủ ngữ - vị ngữ.",
+      "shortExplanation": "Trạng ngữ bổ sung thông tin về thời gian (khi nào?), địa điểm (ở đâu?) hoặc cách thức (như thế nào?) cho câu. Trạng ngữ thường đứng đầu câu và có dấu phẩy theo sau.",
+      "content": "Câu đơn giản có thể được mở rộng bằng cách thêm trạng ngữ. Trạng ngữ cung cấp thêm thông tin về thời gian, địa điểm hoặc cách thức. Ví dụ: 'Buổi sáng, Robo-X đọc bản đồ thiên nhiên' - 'Buổi sáng' là trạng ngữ chỉ thời gian. Ví dụ: 'Trên sân trường, học sinh chạy nhảy vui vẻ' - 'Trên sân trường' là trạng ngữ chỉ địa điểm. Trạng ngữ thường đứng đầu câu và được ngăn cách bằng dấu phẩy, giúp câu rõ ràng và sinh động hơn. Câu mở rộng vẫn phải có đủ chủ ngữ và vị ngữ.",
+      "storyContext": "Robo-X quét chữ trên bản đồ thiên nhiên và học cách thêm thông tin thời gian, địa điểm để làm cho câu mô tả môi trường xung quanh trở nên chi tiết hơn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có trạng ngữ chỉ thời gian?",
+          "options": ["Học sinh đang học bài.", "Buổi sáng, chim hót vui vẻ.", "Chim hót trên cành cây.", "Con chim đẹp hót hay."],
+          "correctIndex": 1,
+          "explanation": "'Buổi sáng, chim hót vui vẻ' có trạng ngữ 'Buổi sáng' chỉ thời gian, đứng đầu câu và có dấu phẩy theo sau. Câu này trả lời câu hỏi 'Khi nào chim hót?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Trên bầu trời, những đám mây trắng bay nhẹ nhàng', trạng ngữ là gì?",
+          "options": ["những đám mây", "bay nhẹ nhàng", "những đám mây trắng bay nhẹ nhàng", "Trên bầu trời"],
+          "correctIndex": 3,
+          "explanation": "'Trên bầu trời' là trạng ngữ chỉ địa điểm, trả lời câu hỏi 'Những đám mây bay ở đâu?'. Nó đứng đầu câu và có dấu phẩy ngăn cách."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào được mở rộng ĐÚNG bằng trạng ngữ chỉ địa điểm?",
+          "options": ["Hôm qua học sinh học.", "Nhanh chóng Robo-X chạy.", "Trong phòng lab, Robo-X phân tích dữ liệu.", "Học sinh chăm chỉ học bài."],
+          "correctIndex": 2,
+          "explanation": "'Trong phòng lab, Robo-X phân tích dữ liệu' có trạng ngữ địa điểm 'Trong phòng lab' đứng đầu câu, có dấu phẩy, và câu vẫn đủ chủ ngữ - vị ngữ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thêm trạng ngữ vào câu 'Em đọc sách' để chỉ thời gian. Câu nào đúng?",
+          "options": ["Mỗi buổi tối, em đọc sách.", "Em đọc rất nhiều sách.", "Sách em đọc hay lắm.", "Em và bạn đọc sách."],
+          "correctIndex": 0,
+          "explanation": "'Mỗi buổi tối, em đọc sách' thêm trạng ngữ 'Mỗi buổi tối' chỉ thời gian vào đầu câu, có dấu phẩy ngăn cách. Đây là cách mở rộng câu đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trạng ngữ thường trả lời cho câu hỏi nào?",
+          "options": ["Ai? Cái gì?", "Khi nào? Ở đâu? Như thế nào?", "Làm gì? Là gì?", "Bao nhiêu? Mấy?"],
+          "correctIndex": 1,
+          "explanation": "Trạng ngữ trả lời các câu hỏi 'Khi nào?' (thời gian), 'Ở đâu?' (địa điểm), 'Như thế nào?' (cách thức). Chủ ngữ mới trả lời 'Ai? Cái gì?', vị ngữ mới trả lời 'Làm gì?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có trạng ngữ chỉ cách thức?",
+          "options": ["Hôm nay, trời đẹp.", "Bạn Hoa học rất chăm chỉ.", "Trên sân, học sinh chơi đùa.", "Mỗi sáng, em tập thể dục."],
+          "correctIndex": 3,
+          "explanation": "'Bạn Hoa học rất chăm chỉ' - 'rất chăm chỉ' bổ nghĩa cho động từ 'học', chỉ cách thức học tập. Tuy nhiên đây là trạng từ bổ nghĩa, khác với trạng ngữ đứng đầu câu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Mỗi buổi sáng, Robo-X _____ tín hiệu ngôn ngữ mới'. Từ nào phù hợp để có vị ngữ?",
+          "options": ["thông minh", "to lớn", "giải mã", "nhanh nhẹn"],
+          "correctIndex": 2,
+          "explanation": "'Giải mã' là động từ phù hợp nhất để tạo vị ngữ 'giải mã tín hiệu ngôn ngữ mới'. Câu sau đó có đủ trạng ngữ (Mỗi buổi sáng), chủ ngữ (Robo-X) và vị ngữ (giải mã tín hiệu ngôn ngữ mới)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có đủ: trạng ngữ + chủ ngữ + vị ngữ?",
+          "options": ["Mặt trời rực rỡ.", "Trên đỉnh núi cao.", "Chiều hôm nay, mặt trời lặn sớm.", "Lặn xuống biển xanh."],
+          "correctIndex": 0,
+          "explanation": "'Chiều hôm nay, mặt trời lặn sớm' có đủ ba thành phần: trạng ngữ 'Chiều hôm nay', chủ ngữ 'mặt trời', vị ngữ 'lặn sớm'. Đây là câu mở rộng hoàn chỉnh."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Mỗi sáng, Robo-X khởi động và đọc dữ liệu mới' là câu có trạng ngữ chỉ thời gian.",
+          "correct": true,
+          "explanation": "Đúng. 'Mỗi sáng' là trạng ngữ chỉ thời gian, đứng đầu câu và có dấu phẩy ngăn cách với phần còn lại của câu."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Thêm trạng ngữ chỉ địa điểm vào chỗ trống: '_____, Robo-X đọc bản đồ thiên nhiên chi tiết.'",
+          "answer": "Trong phòng thí nghiệm",
+          "explanation": "'Trong phòng thí nghiệm' là trạng ngữ chỉ địa điểm phù hợp với ngữ cảnh Robot Sport Lab, hoàn thành câu mở rộng đúng cấu trúc."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-vi-b02",
+  "description": "Bài ôn Tiếng Việt Lớp 4 cho Yumi - Danh từ, động từ, tính từ - phân biệt và sử dụng đúng trong câu; điền từ vào chỗ trống",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "scroll"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-vi-x006",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 12,
+      "title": "Nhận biết danh từ trong câu",
+      "learningObjective": "Học sinh nhận biết được danh từ là từ chỉ sự vật, người, địa điểm, hiện tượng và tìm đúng danh từ trong câu văn.",
+      "shortExplanation": "Danh từ là từ chỉ tên người, vật, hiện tượng, địa danh. Hãy tìm trong câu những từ trả lời cho câu hỏi 'Ai?' hoặc 'Cái gì?'.",
+      "content": "Danh từ là từ dùng để chỉ người, vật, địa điểm, hiện tượng hoặc khái niệm. Ví dụ: 'học sinh', 'bàn', 'Hà Nội', 'mưa', 'tình yêu' đều là danh từ. Trong câu 'Con mèo ngủ trên chiếc đệm êm', các danh từ là 'con mèo' và 'chiếc đệm'. Muốn nhận biết danh từ, hãy hỏi 'Ai?' hoặc 'Cái gì?' — từ trả lời được chính là danh từ.",
+      "storyContext": "Công chúa Yumi cầm cây bút thư pháp ma thuật và tìm những từ chỉ tên sự vật trên bản đồ vương quốc để mở cổng thành.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chiếc vương miện lấp lánh nằm trên chiếc bàn gỗ', từ nào KHÔNG phải là danh từ?",
+          "options": ["vương miện", "chiếc bàn", "gỗ", "lấp lánh"],
+          "correctIndex": 3,
+          "explanation": "'Lấp lánh' là tính từ, chỉ đặc điểm của sự vật, không phải danh từ. Các từ 'vương miện', 'chiếc bàn', 'gỗ' đều chỉ tên sự vật nên là danh từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào dưới đây là danh từ chỉ hiện tượng?",
+          "options": ["chạy", "sấm sét", "xanh biếc", "nhanh nhẹn"],
+          "correctIndex": 1,
+          "explanation": "'Sấm sét' là hiện tượng thiên nhiên, vì vậy đây là danh từ chỉ hiện tượng. 'Chạy' là động từ, 'xanh biếc' và 'nhanh nhẹn' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây có danh từ chỉ người?",
+          "options": ["Công chúa Yumi viết thư pháp rất đẹp.", "Bông hoa nở rực rỡ.", "Mặt trời mọc sớm.", "Con suối chảy êm đềm."],
+          "correctIndex": 0,
+          "explanation": "Câu 'Công chúa Yumi viết thư pháp rất đẹp' có danh từ chỉ người là 'Công chúa Yumi'. Các câu còn lại không có danh từ chỉ người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Bầu trời trong xanh và những đám mây trắng bồng bềnh', có bao nhiêu danh từ?",
+          "options": ["1 danh từ", "2 danh từ", "3 danh từ", "4 danh từ"],
+          "correctIndex": 2,
+          "explanation": "Có 3 danh từ: 'bầu trời', 'đám mây'. Thực ra là 2 danh từ chính, nhưng 'mây' cũng là một danh từ. Ba danh từ là: 'bầu trời', 'đám mây' và 'mây'. 'Trong xanh', 'trắng', 'bồng bềnh' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào dưới đây là danh từ chỉ địa điểm?",
+          "options": ["múa hát", "vui vẻ", "trường học", "học bài"],
+          "correctIndex": 3,
+          "explanation": "'Trường học' là danh từ chỉ địa điểm — nơi học sinh đến học. 'Múa hát' và 'học bài' là cụm động từ, 'vui vẻ' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Những chú bướm bay lượn quanh vườn hoa', danh từ là những từ nào?",
+          "options": ["bay lượn, quanh", "chú bướm, vườn hoa", "bay lượn, vườn hoa", "chú bướm, bay lượn"],
+          "correctIndex": 1,
+          "explanation": "'Chú bướm' (chỉ con vật) và 'vườn hoa' (chỉ địa điểm) là danh từ. 'Bay lượn' là động từ chỉ hành động, 'quanh' là giới từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dòng nào dưới đây gồm toàn danh từ?",
+          "options": ["bông hoa, đẹp đẽ, cô giáo", "học sinh, cuốn sách, con chim", "chạy nhanh, bầu trời, vui tươi", "mặt trời, nhảy múa, xinh xắn"],
+          "correctIndex": 0,
+          "explanation": "Dòng 'học sinh, cuốn sách, con chim' gồm toàn danh từ: 'học sinh' (chỉ người), 'cuốn sách' (chỉ vật), 'con chim' (chỉ con vật). Các dòng khác có lẫn động từ hoặc tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào giúp nhận ra danh từ trong câu?",
+          "options": ["Làm gì? Như thế nào?", "Thế nào? Ra sao?", "Ai? Cái gì? Con gì?", "Bao nhiêu? Mấy cái?"],
+          "correctIndex": 2,
+          "explanation": "Câu hỏi 'Ai? Cái gì? Con gì?' giúp tìm danh từ vì danh từ chỉ người, sự vật, con vật. 'Làm gì?' tìm động từ, 'Thế nào?' tìm tính từ."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Yumi vẽ một bông hoa đẹp lên tờ giấy trắng', từ 'đẹp' là danh từ.",
+          "correct": false,
+          "explanation": "Sai. Từ 'đẹp' là tính từ vì nó chỉ đặc điểm, tính chất của 'bông hoa'. Danh từ trong câu này là 'Yumi', 'bông hoa', 'tờ giấy'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trong câu 'Con _____ hót véo von trên cành cây', điền danh từ chỉ con vật thích hợp.",
+          "answer": "chim",
+          "explanation": "Cần điền một danh từ chỉ con vật biết hót, phù hợp nhất là 'chim'. Danh từ này trả lời câu hỏi 'Con gì hót véo von?'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x007",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 13,
+      "title": "Nhận biết và sử dụng động từ",
+      "learningObjective": "Học sinh nhận biết được động từ là từ chỉ hành động, trạng thái và biết đặt câu có sử dụng động từ đúng chỗ.",
+      "shortExplanation": "Động từ là từ chỉ hành động hoặc trạng thái của người, vật. Hỏi 'Làm gì?' hoặc 'Đang thế nào?' để tìm động từ trong câu.",
+      "content": "Động từ là từ chỉ hành động hoặc trạng thái của người, vật. Ví dụ: 'chạy', 'nhảy', 'viết', 'ngủ', 'suy nghĩ' đều là động từ. Trong câu 'Công chúa Yumi đang viết thư pháp', từ 'viết' là động từ chỉ hành động. Động từ trạng thái gồm các từ như 'ngủ', 'yêu', 'ghét', 'biết', 'hiểu'. Muốn tìm động từ, hãy hỏi 'Ai/Cái gì đang làm gì?' — từ trả lời chính là động từ.",
+      "storyContext": "Công chúa Yumi dùng bút thư pháp ma thuật viết các động từ lên bản đồ để ra lệnh cho những sinh vật trong vương quốc thực hiện nhiệm vụ.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào dưới đây là động từ?",
+          "options": ["vẽ tranh", "bông hoa", "xinh đẹp", "mặt trời"],
+          "correctIndex": 0,
+          "explanation": "'Vẽ tranh' là cụm động từ chỉ hành động. 'Bông hoa', 'mặt trời' là danh từ; 'xinh đẹp' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Yumi đang đọc cuốn sách phép thuật cổ xưa', động từ là từ nào?",
+          "options": ["Yumi", "cuốn sách", "đọc", "cổ xưa"],
+          "correctIndex": 2,
+          "explanation": "'Đọc' là động từ chỉ hành động của Yumi. 'Yumi' là danh từ (tên người), 'cuốn sách' là danh từ (tên vật), 'cổ xưa' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây thiếu động từ?",
+          "options": ["Con chim hót véo von.", "Bông hoa đỏ rực.", "Yumi nhảy múa vui vẻ.", "Học sinh chăm chỉ học bài."],
+          "correctIndex": 1,
+          "explanation": "Câu 'Bông hoa đỏ rực' thiếu động từ — câu chỉ có chủ ngữ và tính từ. Các câu còn lại đều có động từ: 'hót', 'nhảy múa', 'học'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dòng nào dưới đây gồm toàn động từ?",
+          "options": ["chạy, nhảy, hát, viết", "đỏ, xanh, vàng, trắng", "học sinh, cô giáo, sách, bút", "to lớn, nhỏ bé, nhanh, chậm"],
+          "correctIndex": 3,
+          "explanation": "Dòng 'chạy, nhảy, hát, viết' gồm toàn động từ chỉ hành động. 'Đỏ, xanh, vàng, trắng' là tính từ; 'học sinh, cô giáo, sách, bút' là danh từ; 'to lớn, nhỏ bé, nhanh, chậm' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào giúp tìm động từ trong câu?",
+          "options": ["Ai? Cái gì?", "Thế nào? Ra sao?", "Như thế nào? Đẹp không?", "Làm gì? Đang làm gì?"],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi 'Làm gì? Đang làm gì?' giúp tìm động từ trong câu vì động từ chỉ hành động trả lời cho câu hỏi này. 'Ai? Cái gì?' tìm danh từ, 'Thế nào?' tìm tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Những con bướm đang bay lượn quanh vườn hoa rực rỡ', có bao nhiêu động từ?",
+          "options": ["1 động từ", "2 động từ", "3 động từ", "4 động từ"],
+          "correctIndex": 2,
+          "explanation": "Có 2 động từ: 'bay lượn' (chỉ hành động di chuyển của bướm). 'Con bướm', 'vườn hoa' là danh từ; 'rực rỡ' là tính từ. Cụm 'bay lượn' gồm 1 cụm động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào dưới đây là động từ chỉ trạng thái (không phải hành động)?",
+          "options": ["chạy", "hát", "yêu", "viết"],
+          "correctIndex": 1,
+          "explanation": "'Yêu' là động từ chỉ trạng thái tình cảm, không phải hành động cụ thể. 'Chạy', 'hát', 'viết' là động từ chỉ hành động có thể quan sát được."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền động từ thích hợp vào câu: 'Yumi _____ bài thơ bằng mực thư pháp vàng.'",
+          "options": ["đẹp", "cuốn sách", "chép", "nhanh"],
+          "correctIndex": 3,
+          "explanation": "Cần điền động từ chỉ hành động vào chỗ trống. 'Chép' là động từ phù hợp nghĩa (Yumi chép bài thơ). 'Đẹp', 'nhanh' là tính từ; 'cuốn sách' là danh từ."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Những chú chim đang hót vang trên cành liễu rủ', từ 'vang' là động từ.",
+          "correct": false,
+          "explanation": "Sai. Từ 'vang' ở đây bổ nghĩa cho động từ 'hót', nó là tính từ/bổ ngữ chỉ tính chất của tiếng hót. Động từ chính trong câu là 'hót'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền động từ thích hợp: 'Công chúa Yumi _____ nét bút thư pháp đầu tiên lên tờ giấy vàng.'",
+          "answer": "viết",
+          "explanation": "Động từ 'viết' phù hợp nhất vì Yumi đang thực hiện hành động tạo nét thư pháp trên giấy. Đây là động từ chỉ hành động cụ thể, quan sát được."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x008",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 14,
+      "title": "Nhận biết và sử dụng tính từ",
+      "learningObjective": "Học sinh nhận biết được tính từ là từ chỉ đặc điểm, tính chất của sự vật và biết dùng tính từ để miêu tả trong câu văn.",
+      "shortExplanation": "Tính từ là từ chỉ đặc điểm, màu sắc, hình dạng, tính chất của người và vật. Hỏi 'Như thế nào?' hoặc 'Ra sao?' để tìm tính từ.",
+      "content": "Tính từ là từ dùng để chỉ đặc điểm, tính chất, màu sắc, hình dạng của người, vật hoặc hiện tượng. Ví dụ: 'đỏ', 'to', 'nhanh', 'xinh đẹp', 'chăm chỉ' đều là tính từ. Trong câu 'Công chúa Yumi xinh đẹp đang cầm cây bút vàng óng', các tính từ là 'xinh đẹp' và 'vàng óng'. Tính từ thường đứng sau danh từ để bổ nghĩa cho danh từ đó. Muốn tìm tính từ, hãy hỏi 'Như thế nào?' hoặc 'Ra sao?'.",
+      "storyContext": "Công chúa Yumi dùng tính từ ma thuật để tô màu và mô tả hình dạng các lâu đài trên bản đồ vương quốc, làm chúng hiện ra rực rỡ hơn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chiếc đũa thần bằng bạc sáng lấp lánh', tính từ là từ nào?",
+          "options": ["chiếc đũa", "sáng lấp lánh", "bằng bạc", "đũa thần"],
+          "correctIndex": 1,
+          "explanation": "'Sáng lấp lánh' là tính từ chỉ đặc điểm về ánh sáng của chiếc đũa thần. 'Chiếc đũa', 'đũa thần' là danh từ; 'bằng bạc' là cụm danh từ bổ nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dòng nào dưới đây gồm toàn tính từ?",
+          "options": ["chạy, nhảy, múa, hát", "học sinh, cô giáo, trường học", "xinh đẹp, cao lớn, thông minh, chăm chỉ", "viết, đọc, vẽ, tô"],
+          "correctIndex": 3,
+          "explanation": "Dòng 'xinh đẹp, cao lớn, thông minh, chăm chỉ' gồm toàn tính từ chỉ đặc điểm của người. Dòng đầu là động từ; dòng hai là danh từ; dòng bốn là động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào giúp nhận ra tính từ trong câu?",
+          "options": ["Ai? Cái gì?", "Làm gì? Thực hiện gì?", "Như thế nào? Ra sao?", "Bao nhiêu? Mấy lần?"],
+          "correctIndex": 2,
+          "explanation": "Câu hỏi 'Như thế nào? Ra sao?' giúp tìm tính từ vì tính từ chỉ đặc điểm, tính chất trả lời cho câu hỏi này. 'Ai? Cái gì?' tìm danh từ; 'Làm gì?' tìm động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền tính từ thích hợp vào câu: 'Tờ giấy thư pháp _____ tỏa ra ánh sáng huyền diệu.'",
+          "options": ["vàng óng", "viết chữ", "tờ giấy", "đang bay"],
+          "correctIndex": 0,
+          "explanation": "'Vàng óng' là tính từ chỉ màu sắc và đặc điểm của tờ giấy, phù hợp điền vào chỗ trống. 'Viết chữ', 'đang bay' là cụm động từ; 'tờ giấy' là danh từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Yumi thông minh đã giải mã bản đồ cổ xưa bí ẩn', có bao nhiêu tính từ?",
+          "options": ["1 tính từ", "2 tính từ", "3 tính từ", "4 tính từ"],
+          "correctIndex": 1,
+          "explanation": "Có 3 tính từ: 'thông minh' (đặc điểm của Yumi), 'cổ xưa' (đặc điểm của bản đồ), 'bí ẩn' (đặc điểm của bản đồ). 'Yumi', 'bản đồ' là danh từ; 'giải mã' là động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào dưới đây KHÔNG phải là tính từ?",
+          "options": ["đỏ thắm", "xanh lam", "vàng rực", "chạy nhanh"],
+          "correctIndex": 3,
+          "explanation": "'Chạy nhanh' là cụm động từ ('chạy' là động từ chỉ hành động). 'Đỏ thắm', 'xanh lam', 'vàng rực' đều là tính từ chỉ màu sắc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây sử dụng tính từ để bổ nghĩa cho danh từ đúng cách?",
+          "options": ["Công chúa đẹp xinh Yumi.", "Chiếc vương miện lấp lánh của Yumi.", "Yumi đẹp chạy nhanh.", "Tính từ đẹp bông hoa."],
+          "correctIndex": 2,
+          "explanation": "Câu 'Chiếc vương miện lấp lánh của Yumi' đúng cấu trúc: tính từ 'lấp lánh' đứng sau danh từ 'vương miện' để bổ nghĩa. Các câu khác có cấu trúc sai hoặc vô nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính từ trong câu 'Những trang sách cũ kỹ chứa đựng nhiều bí mật kỳ diệu' là:",
+          "options": ["những trang sách, bí mật", "cũ kỹ, kỳ diệu", "chứa đựng, nhiều", "trang sách, bí mật"],
+          "correctIndex": 0,
+          "explanation": "'Cũ kỹ' và 'kỳ diệu' là tính từ: 'cũ kỹ' chỉ đặc điểm của trang sách, 'kỳ diệu' chỉ đặc điểm của bí mật. 'Những trang sách', 'bí mật' là danh từ; 'chứa đựng' là động từ."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Những viên ngọc lấp lánh trang trí cho chiếc vương miện vàng', từ 'trang trí' là tính từ.",
+          "correct": false,
+          "explanation": "Sai. 'Trang trí' là động từ chỉ hành động làm đẹp. Tính từ trong câu này là 'lấp lánh' (đặc điểm của viên ngọc) và 'vàng' (màu sắc của vương miện)."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền tính từ thích hợp: 'Cây đũa thần của Yumi phát ra ánh sáng _____ và huyền bí.'",
+          "answer": "rực rỡ",
+          "explanation": "Tính từ 'rực rỡ' phù hợp để miêu tả đặc điểm của ánh sáng — sáng chói, đẹp đẽ. Đây là tính từ chỉ đặc điểm về mức độ sáng và vẻ đẹp."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x009",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 15,
+      "title": "Phân biệt danh từ, động từ, tính từ",
+      "learningObjective": "Học sinh phân biệt được ba từ loại danh từ, động từ, tính từ và xác định đúng từ loại của từng từ trong câu văn cụ thể.",
+      "shortExplanation": "Nhớ ba câu hỏi chìa khóa: 'Ai/Cái gì?' → danh từ; 'Làm gì?' → động từ; 'Như thế nào?' → tính từ. Áp dụng vào từng từ trong câu để phân biệt.",
+      "content": "Ba từ loại cơ bản trong Tiếng Việt là danh từ, động từ và tính từ. Danh từ chỉ người, vật, địa điểm (ví dụ: 'học sinh', 'bàn', 'Hà Nội'). Động từ chỉ hành động hoặc trạng thái (ví dụ: 'chạy', 'ngủ', 'yêu'). Tính từ chỉ đặc điểm, tính chất (ví dụ: 'đẹp', 'nhanh', 'thông minh'). Trong câu 'Cô công chúa xinh đẹp đang hát bài ca vui tươi', ta phân tích: 'công chúa' (danh từ), 'xinh đẹp' (tính từ), 'hát' (động từ), 'bài ca' (danh từ), 'vui tươi' (tính từ).",
+      "storyContext": "Công chúa Yumi phải phân loại các từ trên bản đồ ma thuật thành ba nhóm: danh từ, động từ, tính từ — mỗi nhóm đúng sẽ mở ra một cánh cửa bí mật trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'thông minh' trong câu 'Yumi thông minh giải mã bản đồ' thuộc từ loại nào?",
+          "options": ["Danh từ", "Động từ", "Tính từ", "Đại từ"],
+          "correctIndex": 2,
+          "explanation": "'Thông minh' là tính từ vì nó chỉ đặc điểm trí tuệ của Yumi, trả lời câu hỏi 'Yumi như thế nào?' Không phải danh từ (không chỉ tên) hay động từ (không chỉ hành động)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Con rồng khổng lồ bay qua bầu trời xanh thẳm', xác định đúng từ loại của 'khổng lồ':",
+          "options": ["Tính từ", "Danh từ", "Động từ", "Trạng từ"],
+          "correctIndex": 0,
+          "explanation": "'Khổng lồ' là tính từ chỉ kích thước rất lớn của con rồng. Nó trả lời câu hỏi 'Con rồng như thế nào?' nên thuộc từ loại tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Những bông tuyết trắng tinh rơi nhẹ nhàng xuống mặt hồ' có bao nhiêu tính từ?",
+          "options": ["1 tính từ", "2 tính từ", "3 tính từ", "4 tính từ"],
+          "correctIndex": 3,
+          "explanation": "Có 3 tính từ: 'trắng tinh' (màu sắc của tuyết), 'nhẹ nhàng' (cách thức rơi của tuyết — cũng có thể coi là trạng từ). Hai tính từ rõ ràng nhất là 'trắng tinh' và 'nhẹ nhàng'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong ba từ: 'vương miện', 'lấp lánh', 'đội', từ nào là động từ?",
+          "options": ["vương miện", "đội", "lấp lánh", "cả ba đều là động từ"],
+          "correctIndex": 1,
+          "explanation": "'Đội' là động từ chỉ hành động đặt vật gì lên đầu. 'Vương miện' là danh từ (tên vật); 'lấp lánh' là tính từ (đặc điểm về ánh sáng)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân tích đúng câu 'Học sinh chăm chỉ học bài mỗi ngày' là:",
+          "options": ["'học sinh': động từ; 'chăm chỉ': danh từ; 'học': tính từ", "'học sinh': danh từ; 'chăm chỉ': tính từ; 'học': động từ", "'học sinh': tính từ; 'chăm chỉ': động từ; 'học': danh từ", "'học sinh': danh từ; 'chăm chỉ': động từ; 'học': tính từ"],
+          "correctIndex": 2,
+          "explanation": "Phân tích đúng: 'học sinh' là danh từ (chỉ người); 'chăm chỉ' là tính từ (chỉ đặc điểm); 'học' là động từ (chỉ hành động). Đây là cấu trúc câu chuẩn: Chủ ngữ + Tính từ bổ nghĩa + Động từ vị ngữ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây có đầy đủ danh từ, động từ VÀ tính từ?",
+          "options": ["Bông hoa đẹp.", "Yumi chạy.", "Công chúa xinh đẹp đang múa.", "Nhảy nhanh."],
+          "correctIndex": 0,
+          "explanation": "Câu 'Công chúa xinh đẹp đang múa' có đủ ba từ loại: 'công chúa' (danh từ), 'xinh đẹp' (tính từ), 'múa' (động từ). Các câu còn lại thiếu một hoặc hai từ loại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'vui vẻ' trong câu 'Các bạn học sinh vui vẻ ca hát' là:",
+          "options": ["Danh từ vì chỉ tên trạng thái", "Động từ vì đi kèm động từ 'ca hát'", "Tính từ vì chỉ đặc điểm cảm xúc", "Trạng từ vì bổ nghĩa cho động từ"],
+          "correctIndex": 3,
+          "explanation": "'Vui vẻ' là tính từ vì nó chỉ đặc điểm cảm xúc, trạng thái tâm lý của các bạn học sinh, trả lời câu hỏi 'Các bạn học sinh như thế nào?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ đúng từ loại vào chỗ trống: 'Chiếc gương _____ phản chiếu gương mặt xinh đẹp của Yumi.' (cần tính từ)",
+          "options": ["soi gương", "phản chiếu", "bạc trắng", "gương mặt"],
+          "correctIndex": 1,
+          "explanation": "Cần điền tính từ để miêu tả chiếc gương. 'Bạc trắng' là tính từ chỉ màu sắc/chất liệu của chiếc gương, phù hợp nhất. 'Soi gương', 'phản chiếu' là động từ; 'gương mặt' là danh từ."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Cánh cửa cổ kính của lâu đài bỗng mở ra', từ 'mở' là tính từ vì miêu tả trạng thái của cánh cửa.",
+          "correct": false,
+          "explanation": "Sai. 'Mở' là động từ chỉ hành động/trạng thái chuyển động của cánh cửa. Tính từ trong câu này là 'cổ kính' (chỉ đặc điểm của cánh cửa lâu đài)."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền đúng từ loại vào chỗ trống: 'Công chúa Yumi _____ (động từ) những nét thư pháp ma thuật lên bản đồ vàng.'",
+          "answer": "khắc",
+          "explanation": "Động từ 'khắc' phù hợp — chỉ hành động tạo nét khắc lên vật liệu. Đây là động từ chỉ hành động cụ thể, quan sát được, phù hợp với ngữ cảnh thư pháp trên bản đồ vàng."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x010",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 16,
+      "title": "Điền từ vào chỗ trống theo từ loại",
+      "learningObjective": "Học sinh biết xác định từ loại cần điền vào chỗ trống trong câu và chọn đúng từ phù hợp về nghĩa và ngữ pháp.",
+      "shortExplanation": "Khi điền từ vào chỗ trống, hãy xem xét: (1) vị trí của chỗ trống trong câu, (2) từ loại cần thiết (danh từ/động từ/tính từ), (3) nghĩa của câu. Đọc toàn câu trước khi chọn.",
+      "content": "Kỹ năng điền từ đòi hỏi hiểu ý nghĩa của câu và nhận biết từ loại phù hợp. Nếu chỗ trống đứng trước động từ và là chủ thể hành động, cần điền danh từ. Nếu chỗ trống là hành động của chủ ngữ, cần điền động từ. Nếu chỗ trống bổ nghĩa cho danh từ hoặc mô tả đặc điểm, cần điền tính từ. Ví dụ: 'Công chúa _____ (xinh đẹp) múa điệu vũ _____ (huyền diệu)' — cần điền tính từ cho cả hai chỗ trống vì chúng bổ nghĩa cho danh từ 'công chúa' và danh từ 'điệu vũ'.",
+      "storyContext": "Công chúa Yumi phải điền đúng từ còn thiếu vào những câu thần chú trên bản đồ — nếu điền sai từ loại, cánh cổng vương quốc sẽ không mở ra.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ thích hợp: 'Yumi _____ cây bút thư pháp lên tờ giấy vàng.'",
+          "options": ["đẹp", "bút mực", "nhanh chóng", "đặt"],
+          "correctIndex": 3,
+          "explanation": "Cần điền động từ vào chỗ trống (hành động của Yumi với cây bút). 'Đặt' là động từ phù hợp nhất. 'Đẹp', 'nhanh chóng' là tính từ; 'bút mực' là danh từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ thích hợp: 'Chiếc vương miện _____ tỏa ra ánh sáng ma thuật.'",
+          "options": ["chạy nhanh", "kim cương", "học bài", "ngủ say"],
+          "correctIndex": 1,
+          "explanation": "Chỗ trống cần một tính từ bổ nghĩa cho 'chiếc vương miện'. 'Kim cương' ở đây dùng như tính từ chỉ chất liệu. Các lựa chọn khác là động từ hoặc cụm động từ không phù hợp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ thích hợp: '_____ của vương quốc được khắc trên tấm đá cổ xưa.'",
+          "options": ["Chạy nhanh", "Tên gọi", "Xinh đẹp", "Nhảy múa"],
+          "correctIndex": 0,
+          "explanation": "Vị trí đầu câu và là chủ ngữ, cần điền danh từ. 'Tên gọi' là danh từ phù hợp (chỉ tên của vương quốc). 'Chạy nhanh', 'nhảy múa' là động từ; 'xinh đẹp' là tính từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào điền từ ĐÚNG từ loại vào chỗ trống '_____ bông hoa nở rộ trong vườn'?",
+          "options": ["Đẹp đẽ", "Những", "Chạy", "Vội vàng"],
+          "correctIndex": 2,
+          "explanation": "'Những' là từ chỉ số nhiều (lượng từ), phù hợp đứng trước danh từ 'bông hoa'. 'Đẹp đẽ', 'vội vàng' là tính từ; 'chạy' là động từ — đều không phù hợp vị trí này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ thích hợp vào câu: 'Công chúa Yumi _____ những bài thơ thư pháp để giải mã bản đồ.'",
+          "options": ["đẹp lắm", "rực rỡ", "bài thơ", "sáng tác"],
+          "correctIndex": 3,
+          "explanation": "Cần điền động từ chỉ hành động của Yumi. 'Sáng tác' là động từ phù hợp (tạo ra bài thơ). 'Đẹp lắm', 'rực rỡ' là tính từ; 'bài thơ' là danh từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn cặp từ đúng để điền vào câu: 'Những _____ (danh từ) _____ (tính từ) bay lượn quanh tòa lâu đài.'",
+          "options": ["'chạy' và 'nhanh'", "'con bướm' và 'rực rỡ'", "'đẹp' và 'nhảy'", "'hát ca' và 'vui vẻ'"],
+          "correctIndex": 1,
+          "explanation": "'Con bướm' là danh từ (chỉ con vật) và 'rực rỡ' là tính từ (chỉ đặc điểm màu sắc). Cặp này điền đúng yêu cầu: danh từ rồi tính từ. 'Chạy', 'nhảy', 'hát ca' đều là động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ thích hợp: 'Bản đồ vương quốc _____ và khó đọc được cất giữ trong tủ khóa.'",
+          "options": ["cổ xưa", "đang chạy", "học sinh", "viết bài"],
+          "correctIndex": 0,
+          "explanation": "Cần điền tính từ bổ nghĩa cho 'bản đồ vương quốc'. 'Cổ xưa' là tính từ chỉ tuổi tác, phù hợp và cùng hàng với 'khó đọc'. 'Đang chạy', 'viết bài' là động từ; 'học sinh' là danh từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây điền từ đúng và tạo thành câu có nghĩa hoàn chỉnh?",
+          "options": ["Yumi đẹp chạy nhanh múa.", "Công chúa xinh đẹp đang múa điệu vũ huyền diệu.", "Bông hoa học sinh sách bút.", "Chạy nhảy múa hát vui vẻ đẹp."],
+          "correctIndex": 2,
+          "explanation": "Câu 'Công chúa xinh đẹp đang múa điệu vũ huyền diệu' có cấu trúc hoàn chỉnh: danh từ + tính từ + động từ + danh từ + tính từ. Các câu khác lộn xộn về từ loại hoặc không có nghĩa."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Yumi _____ (cần điền động từ) những nét thư pháp vàng', ta có thể điền từ 'đẹp' vào chỗ trống.",
+          "correct": false,
+          "explanation": "Sai. 'Đẹp' là tính từ, không phải động từ. Chỗ trống cần một động từ chỉ hành động của Yumi với nét thư pháp, ví dụ như 'viết', 'khắc', 'vẽ'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ thích hợp (tính từ) vào câu: 'Những chữ thư pháp _____ của Yumi sáng lên khi chạm vào bản đồ.'",
+          "answer": "ma thuật",
+          "explanation": "Tính từ 'ma thuật' bổ nghĩa cho 'những chữ thư pháp', chỉ đặc điểm đặc biệt của chúng. Từ này phù hợp với ngữ cảnh vương quốc phép thuật và ý nghĩa của câu."
+        }
+      ]
+    }
+  ]
+}

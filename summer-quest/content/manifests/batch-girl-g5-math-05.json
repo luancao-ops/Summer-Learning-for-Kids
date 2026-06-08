@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-math-b05",
+  "description": "Bài ôn Toán Lớp 5 cho Yumi - Phần trăm và tỉ số - ý nghĩa phần trăm, tính phần trăm của một số, bài toán tỉ số thực tế",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-math-x021",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 53,
+      "title": "Ý nghĩa của phần trăm",
+      "learningObjective": "Học sinh hiểu phần trăm là gì và cách đọc, viết ký hiệu %. Học sinh nhận biết phần trăm trong cuộc sống thực tế.",
+      "shortExplanation": "Phần trăm nghĩa là 'trên 100'. Ký hiệu % đọc là 'phần trăm'. Ví dụ: 25% = 25/100 = 0,25.",
+      "content": "Phần trăm là cách biểu diễn một phần của 100. Ký hiệu phần trăm là %. Ví dụ: 40% nghĩa là 40 phần trong 100 phần, tức là 40/100 = 0,4. Phần trăm thường dùng để nói về tỉ lệ, như giảm giá, điểm số hay thành phần. Nếu có 100 viên đá quý và 30 viên là hồng ngọc thì hồng ngọc chiếm 30%. Đặc biệt 100% nghĩa là toàn bộ, 0% nghĩa là không có gì.",
+      "storyContext": "Công chúa Yumi kiểm tra kho báu của vương quốc và ghi lại tỉ lệ từng loại nguyên liệu dưới dạng phần trăm để dễ so sánh khi xây tháp mới.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "75% được đọc là gì?",
+          "options": ["Bảy mươi lăm phần nghìn", "Bảy mươi lăm phần trăm", "Bảy mươi lăm phần mười", "Bảy phần rưỡi"],
+          "correctIndex": 1,
+          "explanation": "75% đọc là 'bảy mươi lăm phần trăm'. Ký hiệu % luôn đọc là 'phần trăm' sau con số."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 3/100 bằng bao nhiêu phần trăm?",
+          "options": ["300%", "0,3%", "30%", "3%"],
+          "correctIndex": 3,
+          "explanation": "3/100 = 3% vì mẫu số là 100, tử số là 3, ta viết trực tiếp 3%."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách viết nào sau đây biểu diễn đúng 'năm mươi phần trăm'?",
+          "options": ["5%", "500%", "50%", "0,50%"],
+          "correctIndex": 2,
+          "explanation": "Năm mươi phần trăm viết là 50%, dùng ký hiệu % sau con số 50."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong kho có 100 viên đá, trong đó 45 viên là ngọc xanh. Tỉ lệ ngọc xanh là bao nhiêu phần trăm?",
+          "options": ["45%", "55%", "4,5%", "145%"],
+          "correctIndex": 0,
+          "explanation": "45 viên trên tổng 100 viên = 45/100 = 45%. Vì tổng là 100, ta lấy luôn số 45 làm phần trăm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào dưới đây BẰNG 1%?",
+          "options": ["1/10", "1/100", "0,1", "10/100"],
+          "correctIndex": 1,
+          "explanation": "1% = 1/100 theo đúng định nghĩa phần trăm là 'trên 100'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi tô màu 20 ô trên tờ giấy kẻ có 100 ô. Phần được tô chiếm bao nhiêu phần trăm?",
+          "options": ["2%", "80%", "0,2%", "20%"],
+          "correctIndex": 3,
+          "explanation": "20 ô tô màu trên 100 ô = 20/100 = 20%. Ta đọc tử số 20 khi mẫu là 100."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phần trăm nào tương đương với phân số 1/4?",
+          "options": ["4%", "14%", "25%", "40%"],
+          "correctIndex": 2,
+          "explanation": "1/4 = 25/100 = 25% vì ta nhân cả tử và mẫu với 25 để đổi mẫu thành 100."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "100% của một số bằng bao nhiêu?",
+          "options": ["Bằng chính số đó", "Bằng một nửa số đó", "Bằng gấp đôi số đó", "Bằng 0"],
+          "correctIndex": 0,
+          "explanation": "100% = 100/100 = 1, nên 100% của bất kỳ số nào cũng bằng chính số đó."
+        },
+        {
+          "type": "true_false",
+          "text": "50% bằng một nửa (1/2) của một đại lượng.",
+          "correct": true,
+          "explanation": "Đúng! 50% = 50/100 = 1/2, tức là một nửa của đại lượng đó."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền số thích hợp: 1/2 = ____%",
+          "answer": "50",
+          "explanation": "1/2 = 50/100 = 50% vì ta nhân tử và mẫu với 50."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x022",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 54,
+      "title": "Đổi giữa phần trăm, phân số và số thập phân",
+      "learningObjective": "Học sinh biết cách chuyển đổi giữa phần trăm, phân số và số thập phân. Học sinh thực hành đổi các dạng biểu diễn một cách thành thạo.",
+      "shortExplanation": "Để đổi phần trăm sang số thập phân: chia cho 100. Để đổi số thập phân sang phần trăm: nhân với 100. Để đổi phần trăm sang phân số: viết trên 100 rồi rút gọn.",
+      "content": "Phần trăm, phân số và số thập phân là ba cách biểu diễn cùng một giá trị. Để đổi phần trăm sang phân số: viết số đó trên 100 rồi rút gọn. Ví dụ: 60% = 60/100 = 3/5. Để đổi phần trăm sang số thập phân: chia cho 100. Ví dụ: 35% = 35 ÷ 100 = 0,35. Ngược lại, từ số thập phân sang phần trăm ta nhân với 100: 0,7 × 100 = 70%. Nắm vững ba dạng này giúp tính toán linh hoạt hơn.",
+      "storyContext": "Công chúa Yumi lập bảng nguyên liệu xây tháp, ghi mỗi loại vật liệu dưới cả ba dạng: phần trăm, phân số và số thập phân để tiện tính toán và mua sắm.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "80% đổi sang số thập phân bằng bao nhiêu?",
+          "options": ["8", "0,08", "0,8", "80"],
+          "correctIndex": 2,
+          "explanation": "80% = 80 ÷ 100 = 0,8. Ta dời dấu phẩy hai chữ số sang trái: 80 → 0,80 = 0,8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số thập phân 0,45 bằng bao nhiêu phần trăm?",
+          "options": ["45%", "4,5%", "0,45%", "450%"],
+          "correctIndex": 0,
+          "explanation": "0,45 × 100 = 45%. Từ số thập phân sang phần trăm ta nhân với 100."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "60% viết dưới dạng phân số tối giản là?",
+          "options": ["6/10", "12/20", "60/1000", "3/5"],
+          "correctIndex": 3,
+          "explanation": "60% = 60/100, rút gọn: 60/100 = 3/5 (chia cả tử và mẫu cho 20)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 2/5 bằng bao nhiêu phần trăm?",
+          "options": ["25%", "40%", "20%", "52%"],
+          "correctIndex": 1,
+          "explanation": "2/5 = 40/100 = 40%. Nhân tử và mẫu với 20: (2×20)/(5×20) = 40/100 = 40%."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong các cách viết sau, cách nào BẰNG 1/4?",
+          "options": ["14%", "0,14", "25%", "2,5%"],
+          "correctIndex": 2,
+          "explanation": "1/4 = 25/100 = 25%. Ta nhân tử và mẫu với 25 để đổi mẫu thành 100."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi có 0,05 kg vàng bụi. Số này tương đương bao nhiêu phần trăm?",
+          "options": ["5%", "50%", "0,5%", "500%"],
+          "correctIndex": 0,
+          "explanation": "0,05 × 100 = 5%. Nhân số thập phân với 100 để ra phần trăm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "120% đổi sang số thập phân là?",
+          "options": ["12", "0,12", "0,120", "1,2"],
+          "correctIndex": 3,
+          "explanation": "120% = 120 ÷ 100 = 1,2. Phần trăm lớn hơn 100% cho số thập phân lớn hơn 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào BẰNG 75%?",
+          "options": ["7/5", "3/4", "7/50", "75/10"],
+          "correctIndex": 1,
+          "explanation": "75% = 75/100, rút gọn: 75/100 = 3/4 (chia cả tử và mẫu cho 25)."
+        },
+        {
+          "type": "true_false",
+          "text": "0,3 bằng 3% vì 0,3 có chữ số 3 ở hàng phần mười.",
+          "correct": false,
+          "explanation": "Sai! 0,3 × 100 = 30%, không phải 3%. Muốn ra 3% thì số thập phân phải là 0,03."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền số thích hợp: 3/4 = ____%",
+          "answer": "75",
+          "explanation": "3/4 = 75/100 = 75%. Nhân tử và mẫu với 25: (3×25)/(4×25) = 75/100 = 75%."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x023",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 55,
+      "title": "Tính phần trăm của một số",
+      "learningObjective": "Học sinh biết cách tính một phần trăm của một số cho trước. Học sinh áp dụng được vào bài toán thực tế.",
+      "shortExplanation": "Để tính a% của số N: lấy N × a ÷ 100. Ví dụ: 30% của 200 = 200 × 30 ÷ 100 = 60.",
+      "content": "Để tính phần trăm của một số, ta thực hiện: Số cần tính × phần trăm ÷ 100. Ví dụ 1: tính 25% của 80: 80 × 25 ÷ 100 = 20. Ví dụ 2: tính 10% của một số rất dễ, chỉ cần chia số đó cho 10. Cách nhanh để tính 50% là chia đôi, tính 25% là chia 4. Trong thực tế, khi mua sắm hoặc chia nguyên liệu, ta thường cần tính phần trăm của một số lượng nhất định.",
+      "storyContext": "Công chúa Yumi cần tính 30% lượng đá quý trong kho để trang trí đỉnh tháp mới xây, đảm bảo vương quốc vẫn còn đủ nguyên liệu để tiếp tục mở rộng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính 20% của 150.",
+          "options": ["15", "25", "20", "30"],
+          "correctIndex": 3,
+          "explanation": "20% của 150 = 150 × 20 ÷ 100 = 3000 ÷ 100 = 30."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kho của Yumi có 200 viên ngọc. Nàng lấy 15% để xây tháp. Hỏi Yumi lấy bao nhiêu viên ngọc?",
+          "options": ["15", "30", "25", "35"],
+          "correctIndex": 1,
+          "explanation": "15% của 200 = 200 × 15 ÷ 100 = 3000 ÷ 100 = 30 viên ngọc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính 50% của 84.",
+          "options": ["42", "48", "40", "52"],
+          "correctIndex": 0,
+          "explanation": "50% = 1/2, nên 50% của 84 = 84 ÷ 2 = 42."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính 10% của 360.",
+          "options": ["3,6", "360", "36", "30"],
+          "correctIndex": 2,
+          "explanation": "10% của 360 = 360 × 10 ÷ 100 = 3600 ÷ 100 = 36."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi mua 500 viên đá xây tường. Có 8% số đá bị vỡ khi vận chuyển. Bao nhiêu viên đá bị vỡ?",
+          "options": ["45", "50", "35", "40"],
+          "correctIndex": 3,
+          "explanation": "8% của 500 = 500 × 8 ÷ 100 = 4000 ÷ 100 = 40 viên đá bị vỡ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính 5% của 1000.",
+          "options": ["500", "50", "5", "150"],
+          "correctIndex": 1,
+          "explanation": "5% của 1000 = 1000 × 5 ÷ 100 = 5000 ÷ 100 = 50."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính 75% của 40.",
+          "options": ["30", "20", "25", "35"],
+          "correctIndex": 0,
+          "explanation": "75% của 40 = 40 × 75 ÷ 100 = 3000 ÷ 100 = 30."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính 1% của 2500.",
+          "options": ["2,5", "250", "25", "0,25"],
+          "correctIndex": 2,
+          "explanation": "1% của 2500 = 2500 × 1 ÷ 100 = 2500 ÷ 100 = 25."
+        },
+        {
+          "type": "true_false",
+          "text": "25% của 80 bằng 20.",
+          "correct": true,
+          "explanation": "Đúng! 25% của 80 = 80 × 25 ÷ 100 = 2000 ÷ 100 = 20."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính 40% của 250 = ____",
+          "answer": "100",
+          "explanation": "40% của 250 = 250 × 40 ÷ 100 = 10000 ÷ 100 = 100."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x024",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 56,
+      "title": "Tìm tỉ số phần trăm của hai số",
+      "learningObjective": "Học sinh biết cách tính tỉ số phần trăm giữa hai số. Học sinh hiểu khi nào một số chiếm bao nhiêu phần trăm so với số khác.",
+      "shortExplanation": "Tỉ số phần trăm của A so với B = A ÷ B × 100%. Ví dụ: 30 so với 120 = 30 ÷ 120 × 100% = 25%.",
+      "content": "Tỉ số phần trăm của số A so với số B được tính bằng: A ÷ B × 100%. Ví dụ: 18 so với 60 = 18 ÷ 60 × 100% = 0,3 × 100% = 30%. Để tính, ta lập phân số A/B rồi đổi sang phần trăm. Lưu ý: tỉ số phần trăm có thể lớn hơn 100% nếu A lớn hơn B. Ví dụ: 150 so với 100 = 150%. Dạng bài này rất hay gặp khi so sánh thực tế và đánh giá kết quả.",
+      "storyContext": "Công chúa Yumi so sánh số ngọc thạch thu hoạch được trong tháng này với tháng trước để biết vương quốc tăng trưởng bao nhiêu phần trăm và lên kế hoạch mở rộng tháp.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tỉ số phần trăm của 30 so với 60 là bao nhiêu?",
+          "options": ["50%", "30%", "20%", "60%"],
+          "correctIndex": 0,
+          "explanation": "30 ÷ 60 × 100% = 0,5 × 100% = 50%. Số 30 chiếm 50% số 60."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi thu hoạch được 45 viên ngọc trong khi kế hoạch là 180 viên. Hỏi đạt bao nhiêu phần trăm kế hoạch?",
+          "options": ["20%", "35%", "25%", "40%"],
+          "correctIndex": 2,
+          "explanation": "45 ÷ 180 × 100% = 0,25 × 100% = 25%. Yumi đạt 25% kế hoạch."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tỉ số phần trăm của 15 so với 50 là?",
+          "options": ["15%", "30%", "50%", "35%"],
+          "correctIndex": 1,
+          "explanation": "15 ÷ 50 × 100% = 0,3 × 100% = 30%. Số 15 chiếm 30% số 50."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong 80 viên gạch, có 20 viên màu đỏ. Gạch đỏ chiếm bao nhiêu phần trăm tổng số gạch?",
+          "options": ["20%", "30%", "40%", "25%"],
+          "correctIndex": 3,
+          "explanation": "20 ÷ 80 × 100% = 0,25 × 100% = 25%. Gạch đỏ chiếm 25% tổng số gạch."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tỉ số phần trăm của 6 so với 24 là?",
+          "options": ["25%", "40%", "16%", "30%"],
+          "correctIndex": 0,
+          "explanation": "6 ÷ 24 × 100% = 0,25 × 100% = 25%. Số 6 chiếm 25% số 24."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vương quốc có 200 công nhân, trong đó 50 người làm nghề thủ công. Tỉ lệ thợ thủ công là?",
+          "options": ["20%", "50%", "25%", "30%"],
+          "correctIndex": 2,
+          "explanation": "50 ÷ 200 × 100% = 0,25 × 100% = 25%. Thợ thủ công chiếm 25% tổng số công nhân."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tỉ số phần trăm của 9 so với 36 là?",
+          "options": ["9%", "25%", "36%", "40%"],
+          "correctIndex": 1,
+          "explanation": "9 ÷ 36 × 100% = 0,25 × 100% = 25%. Số 9 chiếm 25% số 36."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi có 120 hạt ngọc trai, dùng 90 hạt để làm vòng cổ hoàng hậu. Số hạt dùng chiếm bao nhiêu phần trăm?",
+          "options": ["70%", "80%", "65%", "75%"],
+          "correctIndex": 3,
+          "explanation": "90 ÷ 120 × 100% = 0,75 × 100% = 75%. Số hạt dùng chiếm 75% tổng số hạt."
+        },
+        {
+          "type": "true_false",
+          "text": "Tỉ số phần trăm của 80 so với 40 bằng 50%.",
+          "correct": false,
+          "explanation": "Sai! 80 ÷ 40 × 100% = 2 × 100% = 200%, không phải 50%. Khi số đầu lớn hơn số sau, tỉ số phần trăm lớn hơn 100%."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tỉ số phần trăm của 12 so với 48 là ____%",
+          "answer": "25",
+          "explanation": "12 ÷ 48 × 100% = 0,25 × 100% = 25%."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x025",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 57,
+      "title": "Bài toán tỉ số phần trăm thực tế",
+      "learningObjective": "Học sinh giải được các bài toán thực tế về phần trăm như tính giá sau giảm giá và tìm số ban đầu khi biết phần trăm. Học sinh vận dụng thành thạo kiến thức phần trăm vào tình huống thực.",
+      "shortExplanation": "Tính giá sau giảm = giá gốc - (giá gốc × % giảm ÷ 100). Tìm số ban đầu khi biết phần trăm: số ban đầu = phần đã biết ÷ phần trăm × 100.",
+      "content": "Bài toán phần trăm thực tế thường gặp: tính tiền giảm giá, tính số sản phẩm đạt chất lượng, tính lãi suất. Ví dụ 1: Áo giá 200 000 đồng, giảm 20%. Tiền giảm = 200 000 × 20 ÷ 100 = 40 000 đồng. Giá sau giảm = 200 000 - 40 000 = 160 000 đồng. Ví dụ 2: 30 viên ngọc chiếm 15% kho. Tổng kho = 30 ÷ 15 × 100 = 200 viên. Nắm vững các dạng này giúp giải quyết nhiều bài toán trong cuộc sống hàng ngày.",
+      "storyContext": "Công chúa Yumi mua nguyên liệu quý hiếm ở chợ phép thuật, cần tính giảm giá và kiểm tra xem số nguyên liệu mua được có đủ để hoàn thành tháp cao nhất vương quốc không.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Một cuốn sách giá 80 000 đồng, được giảm 25%. Hỏi phải trả bao nhiêu tiền?",
+          "options": ["65 000 đồng", "60 000 đồng", "55 000 đồng", "70 000 đồng"],
+          "correctIndex": 1,
+          "explanation": "Tiền giảm = 80 000 × 25 ÷ 100 = 20 000 đồng. Giá sau giảm = 80 000 - 20 000 = 60 000 đồng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi mua túi đá quý giá 500 000 đồng, được giảm 10%. Hỏi Yumi phải trả bao nhiêu tiền?",
+          "options": ["400 000 đồng", "480 000 đồng", "460 000 đồng", "450 000 đồng"],
+          "correctIndex": 3,
+          "explanation": "Tiền giảm = 500 000 × 10 ÷ 100 = 50 000 đồng. Giá sau giảm = 500 000 - 50 000 = 450 000 đồng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lớp Yumi có 40 học sinh, 80% đạt điểm giỏi. Hỏi có bao nhiêu học sinh đạt điểm giỏi?",
+          "options": ["25 học sinh", "30 học sinh", "32 học sinh", "35 học sinh"],
+          "correctIndex": 2,
+          "explanation": "80% của 40 = 40 × 80 ÷ 100 = 3200 ÷ 100 = 32 học sinh đạt điểm giỏi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "36 viên ngọc chiếm 12% kho báu. Kho báu có tất cả bao nhiêu viên ngọc?",
+          "options": ["300 viên", "432 viên", "288 viên", "360 viên"],
+          "correctIndex": 0,
+          "explanation": "Tổng số ngọc = 36 ÷ 12 × 100 = 3 × 100 = 300 viên ngọc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một tháp cao 120m, người ta xây thêm 15% chiều cao. Tháp cao thêm bao nhiêu mét?",
+          "options": ["15m", "18m", "12m", "20m"],
+          "correctIndex": 1,
+          "explanation": "Chiều cao xây thêm = 120 × 15 ÷ 100 = 1800 ÷ 100 = 18m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi có 240 viên đá màu. Sau khi dùng 35%, còn lại bao nhiêu viên?",
+          "options": ["84 viên", "96 viên", "160 viên", "156 viên"],
+          "correctIndex": 3,
+          "explanation": "Đã dùng = 240 × 35 ÷ 100 = 84 viên. Còn lại = 240 - 84 = 156 viên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một cửa hàng giảm giá 30% cho mặt hàng 150 000 đồng. Giá sau khi giảm là?",
+          "options": ["110 000 đồng", "115 000 đồng", "105 000 đồng", "120 000 đồng"],
+          "correctIndex": 2,
+          "explanation": "Tiền giảm = 150 000 × 30 ÷ 100 = 45 000 đồng. Giá sau giảm = 150 000 - 45 000 = 105 000 đồng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vương quốc thu hoạch 60 tấn ngọc thạch trong năm nay, tăng 20% so với năm trước. Năm trước thu hoạch bao nhiêu tấn?",
+          "options": ["50 tấn", "45 tấn", "55 tấn", "48 tấn"],
+          "correctIndex": 0,
+          "explanation": "Năm nay = năm trước × 120%. Năm trước = 60 ÷ 1,2 = 50 tấn. Hoặc: năm trước = 60 × 100 ÷ 120 = 50 tấn."
+        },
+        {
+          "type": "true_false",
+          "text": "Nếu giá gốc là 100 000 đồng và được giảm 40%, thì giá phải trả là 60 000 đồng.",
+          "correct": true,
+          "explanation": "Đúng! Tiền giảm = 100 000 × 40 ÷ 100 = 40 000 đồng. Giá phải trả = 100 000 - 40 000 = 60 000 đồng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Áo giá 200 000 đồng, giảm 20%. Giá phải trả là ____ đồng.",
+          "answer": "160000",
+          "explanation": "Tiền giảm = 200 000 × 20 ÷ 100 = 40 000 đồng. Giá sau giảm = 200 000 - 40 000 = 160 000 đồng."
+        }
+      ]
+    }
+  ]
+}

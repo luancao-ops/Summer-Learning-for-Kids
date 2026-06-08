@@ -1,0 +1,144 @@
+{
+  "_comment": "Maps task categories to the docs an AI agent should read. Use docs/00_AGENT_INDEX.md as the entry point, then consult this map for specific tasks.",
+
+  "ai-onboarding": [
+    "docs/00_AGENT_INDEX.md",
+    "docs/01_RULES.md"
+  ],
+
+  "bugs": [
+    "docs/INCIDENTS.md"
+  ],
+
+  "quiz": [
+    "docs/INCIDENTS.md",
+    "summer-quest/AGENTS.md",
+    "summer-quest/components/QuizEngine.tsx",
+    "summer-quest/components/QuestionRenderer.tsx"
+  ],
+
+  "ui": [
+    "docs/UX_FLOW.md",
+    "docs/INCIDENTS.md",
+    "summer-quest/AGENTS.md"
+  ],
+
+  "database": [
+    "summer-quest/prisma/schema.prisma",
+    "docs/TECHNICAL.md"
+  ],
+
+  "content-generation": [
+    "docs/AGENTS.md",
+    "summer-quest/content/README.md"
+  ],
+
+  "content-import": [
+    "docs/CONTENT_IMPORT.md",
+    "docs/AI_DATA_STANDARDS.md",
+    "summer-quest/lib/content-import.ts"
+  ],
+
+  "pdf-import": [
+    "docs/CONTENT_IMPORT.md",
+    "docs/ASSET_MODEL.md",
+    "content_repository/README.md"
+  ],
+
+  "content-repository": [
+    "content_repository/README.md",
+    "content_repository/{subject}/README.md"
+  ],
+
+  "feature": [
+    "docs/BACKLOG.md",
+    "docs/TECHNICAL.md",
+    "summer-quest/AGENTS.md"
+  ],
+
+  "setup-deployment": [
+    "docs/TECHNICAL.md",
+    "summer-quest/README.md"
+  ],
+
+  "parent-dashboard": [
+    "docs/TECHNICAL.md",
+    "docs/INCIDENTS.md",
+    "summer-quest/lib/parent-access.ts"
+  ],
+
+  "auth-pin": [
+    "summer-quest/lib/parent-access.ts",
+    "docs/INCIDENTS.md"
+  ],
+
+  "themes": [
+    "summer-quest/lib/themes.ts",
+    "summer-quest/AGENTS.md"
+  ],
+
+  "rules": [
+    "docs/01_RULES.md",
+    "summer-quest/AGENTS.md"
+  ],
+
+  "architecture": [
+    "docs/ARCHITECTURE_BASELINE.md",
+    "docs/TECHNICAL.md"
+  ],
+
+  "architecture-v2": [
+    "docs/ARCHITECTURE_BASELINE.md",
+    "docs/MODULE_ARCHITECTURE.md",
+    "docs/RAG_ARCHITECTURE.md"
+  ],
+
+  "modules": [
+    "docs/MODULE_ARCHITECTURE.md",
+    "modules/{subject}/MODULE.md"
+  ],
+
+  "curriculum": [
+    "docs/CURRICULUM_STRUCTURE.md"
+  ],
+
+  "ai-data-standards": [
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "rag": [
+    "docs/RAG_ARCHITECTURE.md"
+  ],
+
+  "assets": [
+    "docs/ASSET_MODEL.md",
+    "assets/README.md",
+    "assets/{subject}/catalog.json"
+  ],
+
+  "migration": [
+    "docs/MIGRATION_STRATEGY.md",
+    "docs/ARCHITECTURE_BASELINE.md"
+  ],
+
+  "backlog-tickets": [
+    "docs/BACKLOG.md"
+  ],
+
+  "project-goals": [
+    "docs/PROJECT.md"
+  ],
+
+  "ux-flows": [
+    "docs/UX_FLOW.md"
+  ],
+
+  "distdir-eperm": [
+    "docs/INCIDENTS.md",
+    "docs/TECHNICAL.md"
+  ],
+
+  "prisma-generate-eperm": [
+    "docs/INCIDENTS.md"
+  ]
+}

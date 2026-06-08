@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-math-b01",
+  "description": "Bài ôn Toán Lớp 3 cho Johnny - Bảng nhân 6 và 7 - học thuộc, luyện tập tính nhanh",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-math-x001",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 7,
+      "title": "Làm quen bảng nhân 6",
+      "learningObjective": "Học sinh đọc thuộc bảng nhân 6 từ 6×1 đến 6×10 và nhận ra kết quả đúng khi nhìn vào phép nhân.",
+      "shortExplanation": "Đọc bảng nhân 6 to và rõ ràng nhiều lần. Nhớ rằng kết quả bảng nhân 6 luôn là số chẵn!",
+      "content": "Bảng nhân 6 gồm các phép tính từ 6×1=6 đến 6×10=60. Kết quả của bảng nhân 6 luôn là số chẵn vì 6 là số chẵn. Ví dụ: 6×3=18 (đọc: sáu nhân ba bằng mười tám), 6×7=42 (sáu nhân bảy bằng bốn mươi hai). Mẹo nhớ: kết quả tăng thêm 6 sau mỗi bước — 6, 12, 18, 24, 30, 36, 42, 48, 54, 60.",
+      "storyContext": "Robo-X cần lắp 6 linh kiện cho mỗi cánh tay robot — biết bảng nhân 6 sẽ giúp tính nhanh tổng số linh kiện cần dùng!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "6 × 4 = ?",
+          "options": ["20", "22", "24", "26"],
+          "correctIndex": 2,
+          "explanation": "6 × 4 = 24. Ta tính 6+6+6+6 = 24, hoặc nhớ bảng nhân 6: sáu nhân bốn bằng hai mươi tư."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "6 × 1 = ?",
+          "options": ["6", "7", "12", "16"],
+          "correctIndex": 0,
+          "explanation": "6 × 1 = 6. Bất kỳ số nào nhân với 1 cũng bằng chính số đó, nên 6 × 1 = 6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "6 × 5 = ?",
+          "options": ["25", "35", "40", "30"],
+          "correctIndex": 3,
+          "explanation": "6 × 5 = 30. Nhớ bảng nhân 6: sáu nhân năm bằng ba mươi. Kết quả cũng bằng 5 × 6 = 30."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "6 × 2 = ?",
+          "options": ["10", "12", "14", "16"],
+          "correctIndex": 1,
+          "explanation": "6 × 2 = 12. Sáu nhân hai bằng mười hai, tức là 6 + 6 = 12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "6 × 8 = ?",
+          "options": ["42", "50", "48", "54"],
+          "correctIndex": 2,
+          "explanation": "6 × 8 = 48. Trong bảng nhân 6: sáu nhân tám bằng bốn mươi tám."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "6 × 10 = ?",
+          "options": ["60", "66", "70", "56"],
+          "correctIndex": 0,
+          "explanation": "6 × 10 = 60. Nhân với 10 chỉ cần thêm số 0 vào sau: 6 trở thành 60."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "6 × 9 = ?",
+          "options": ["48", "52", "58", "54"],
+          "correctIndex": 3,
+          "explanation": "6 × 9 = 54. Trong bảng nhân 6: sáu nhân chín bằng năm mươi tư."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "6 × 6 = ?",
+          "options": ["30", "36", "32", "40"],
+          "correctIndex": 1,
+          "explanation": "6 × 6 = 36. Sáu nhân sáu bằng ba mươi sáu — đây là tích đặc biệt dễ nhớ!"
+        },
+        {
+          "type": "true_false",
+          "text": "6 × 7 = 42",
+          "correct": true,
+          "explanation": "Đúng! 6 × 7 = 42. Trong bảng nhân 6: sáu nhân bảy bằng bốn mươi hai."
+        },
+        {
+          "type": "fill_blank",
+          "text": "6 × 3 = ___",
+          "answer": "18",
+          "explanation": "6 × 3 = 18. Ta tính 6 + 6 + 6 = 18, hoặc nhớ bảng nhân: sáu nhân ba bằng mười tám."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x002",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 8,
+      "title": "Làm quen bảng nhân 7",
+      "learningObjective": "Học sinh đọc thuộc bảng nhân 7 từ 7×1 đến 7×10 và nhận ra kết quả đúng khi nhìn vào phép nhân.",
+      "shortExplanation": "Đọc bảng nhân 7 theo thứ tự từ trên xuống. Nhớ rằng kết quả tăng thêm 7 mỗi lần.",
+      "content": "Bảng nhân 7 gồm các phép tính từ 7×1=7 đến 7×10=70. Kết quả tăng dần thêm 7 mỗi bước: 7, 14, 21, 28, 35, 42, 49, 56, 63, 70. Ví dụ: 7×4=28 (bảy nhân bốn bằng hai mươi tám), 7×6=42 (bảy nhân sáu bằng bốn mươi hai). Chú ý: 6×7 = 7×6 = 42, đây là tích xuất hiện ở cả hai bảng nhân!",
+      "storyContext": "Robo-X gắn 7 bánh răng vào mỗi chân robot — học bảng nhân 7 để tính nhanh tổng số bánh răng cần lắp!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "7 × 6 = ?",
+          "options": ["36", "40", "44", "42"],
+          "correctIndex": 3,
+          "explanation": "7 × 6 = 42. Bảy nhân sáu bằng bốn mươi hai: 7+7+7+7+7+7 = 42."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 2 = ?",
+          "options": ["12", "14", "16", "18"],
+          "correctIndex": 1,
+          "explanation": "7 × 2 = 14. Bảy nhân hai bằng mười bốn: 7 + 7 = 14."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 5 = ?",
+          "options": ["35", "30", "40", "45"],
+          "correctIndex": 0,
+          "explanation": "7 × 5 = 35. Bảy nhân năm bằng ba mươi lăm: 7+7+7+7+7 = 35."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 8 = ?",
+          "options": ["48", "54", "56", "63"],
+          "correctIndex": 2,
+          "explanation": "7 × 8 = 56. Bảy nhân tám bằng năm mươi sáu — một tích cần nhớ kỹ trong bảng nhân 7!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 4 = ?",
+          "options": ["24", "32", "21", "28"],
+          "correctIndex": 3,
+          "explanation": "7 × 4 = 28. Bảy nhân bốn bằng hai mươi tám: 7+7+7+7 = 28."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 9 = ?",
+          "options": ["56", "63", "72", "54"],
+          "correctIndex": 1,
+          "explanation": "7 × 9 = 63. Bảy nhân chín bằng sáu mươi ba. Mẹo: 7×9 = 7×10 - 7 = 70 - 7 = 63."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 1 = ?",
+          "options": ["7", "8", "14", "17"],
+          "correctIndex": 0,
+          "explanation": "7 × 1 = 7. Bất kỳ số nào nhân với 1 cũng bằng chính số đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 3 = ?",
+          "options": ["18", "24", "21", "28"],
+          "correctIndex": 2,
+          "explanation": "7 × 3 = 21. Bảy nhân ba bằng hai mươi mốt: 7+7+7 = 21."
+        },
+        {
+          "type": "true_false",
+          "text": "7 × 5 = 30",
+          "correct": false,
+          "explanation": "Sai! 7 × 5 = 35, không phải 30. 30 là kết quả của 6 × 5, còn 7 × 5 = 35."
+        },
+        {
+          "type": "fill_blank",
+          "text": "7 × 7 = ___",
+          "answer": "49",
+          "explanation": "7 × 7 = 49. Bảy nhân bảy bằng bốn mươi chín — đây là tích đặc biệt rất dễ nhớ!"
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x003",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 9,
+      "title": "Luyện tính nhanh bảng nhân 6 và 7",
+      "learningObjective": "Học sinh phân biệt kết quả bảng nhân 6 và bảng nhân 7, tính nhanh và chính xác cả hai bảng.",
+      "shortExplanation": "Luyện tập xen kẽ cả hai bảng. Khi nhìn phép nhân, nói kết quả ngay không cần đếm. Chú ý: 6×7 = 7×6 = 42.",
+      "content": "Bảng nhân 6 cho kết quả chẵn (6, 12, 18, 24, 30, 36, 42, 48, 54, 60), còn bảng nhân 7 cho cả kết quả lẻ lẫn chẵn (7, 14, 21, 28, 35, 42, 49, 56, 63, 70). Hai bảng có điểm chung quan trọng: 6×7 = 7×6 = 42. Ví dụ so sánh: 6×8=48 nhưng 7×8=56; 6×9=54 nhưng 7×9=63. Kết quả 7×n luôn lớn hơn 6×n đúng n đơn vị.",
+      "storyContext": "Robo-X cần phân loại linh kiện loại 6 và loại 7 vào đúng ngăn tủ — phân biệt nhanh bảng nhân 6 và 7 giúp robot xếp đúng chỗ!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào có kết quả là 36?",
+          "options": ["6 × 6", "7 × 5", "6 × 7", "7 × 6"],
+          "correctIndex": 0,
+          "explanation": "6 × 6 = 36. Các đáp án khác: 7×5=35, 6×7=42, 7×6=42 — đều không bằng 36."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 5 = ?",
+          "options": ["30", "28", "35", "40"],
+          "correctIndex": 2,
+          "explanation": "7 × 5 = 35. Bảy nhân năm bằng ba mươi lăm: 7×5 = 7×10 ÷ 2 = 70 ÷ 2 = 35."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào đúng?",
+          "options": ["6 × 8 = 46", "6 × 8 = 48", "6 × 8 = 42", "6 × 8 = 50"],
+          "correctIndex": 1,
+          "explanation": "6 × 8 = 48. Ta tính 6×8 = 6×4×2 = 24×2 = 48."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào có kết quả là 63?",
+          "options": ["6 × 9", "6 × 10", "7 × 8", "7 × 9"],
+          "correctIndex": 3,
+          "explanation": "7 × 9 = 63. Kiểm tra: 6×9=54, 6×10=60, 7×8=56 — chỉ có 7×9=63."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "6 × 7 = ?",
+          "options": ["42", "36", "48", "40"],
+          "correctIndex": 0,
+          "explanation": "6 × 7 = 42. Sáu nhân bảy bằng bốn mươi hai. Đây cũng là 7×6 = 42."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "7 × 6 so với 6 × 7, kết quả như thế nào?",
+          "options": ["7×6 lớn hơn", "6×7 lớn hơn", "Bằng nhau", "Không xác định được"],
+          "correctIndex": 2,
+          "explanation": "Bằng nhau! 7×6 = 42 và 6×7 = 42. Phép nhân có tính chất giao hoán: a×b = b×a."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào điền vào chỗ trống: 6 × ___ = 48?",
+          "options": ["6", "8", "7", "9"],
+          "correctIndex": 1,
+          "explanation": "6 × 8 = 48, nên số cần điền là 8. Kiểm tra: 6×6=36, 6×7=42, 6×8=48 đúng!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào điền vào chỗ trống: 7 × ___ = 56?",
+          "options": ["6", "7", "9", "8"],
+          "correctIndex": 3,
+          "explanation": "7 × 8 = 56, nên số cần điền là 8. Kiểm tra: 7×6=42, 7×7=49, 7×8=56 đúng!"
+        },
+        {
+          "type": "true_false",
+          "text": "6 × 9 = 54 và 7 × 9 = 63, kết quả của 7 × 9 lớn hơn 6 × 9 đúng 9 đơn vị.",
+          "correct": true,
+          "explanation": "Đúng! 63 - 54 = 9. Kết quả 7×n luôn lớn hơn 6×n đúng n đơn vị vì (7-6)×n = n."
+        },
+        {
+          "type": "fill_blank",
+          "text": "6 × 10 = 60 và 7 × 10 = 70. Tổng hai kết quả là ___",
+          "answer": "130",
+          "explanation": "6×10 = 60 và 7×10 = 70. Tổng = 60 + 70 = 130."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x004",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 10,
+      "title": "Bài toán có lời văn - bảng nhân 6",
+      "learningObjective": "Học sinh biết đọc hiểu bài toán có lời văn và dùng bảng nhân 6 để tìm đáp số chính xác.",
+      "shortExplanation": "Đọc kỹ đề bài, tìm số nhóm và số phần tử trong mỗi nhóm, rồi viết phép nhân với 6 để tính.",
+      "content": "Khi giải bài toán có lời văn về bảng nhân 6, ta cần xác định: có bao nhiêu nhóm và mỗi nhóm có 6 đơn vị. Ví dụ 1: Có 5 hàng ghế, mỗi hàng có 6 ghế. Tổng số ghế = 5 × 6 = 30 ghế. Ví dụ 2: Mỗi robot cần 6 bánh răng, 8 robot cần bao nhiêu bánh răng? Phép tính: 8 × 6 = 48 bánh răng. Luôn nhớ ghi rõ đơn vị trong đáp số.",
+      "storyContext": "Robo-X cần lắp ráp nhiều robot cho cuộc thi, mỗi robot cần 6 linh kiện — hãy tính tổng số linh kiện cần dùng!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp 5 robot, mỗi robot cần 6 linh kiện. Hỏi cần bao nhiêu linh kiện tất cả?",
+          "options": ["24", "30", "36", "28"],
+          "correctIndex": 1,
+          "explanation": "Số linh kiện = 5 × 6 = 30. Có 5 robot, mỗi robot cần 6 linh kiện nên tính 5 × 6 = 30 linh kiện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng lab có 7 kệ, mỗi kệ xếp 6 hộp linh kiện. Hỏi có tất cả bao nhiêu hộp?",
+          "options": ["36", "40", "48", "42"],
+          "correctIndex": 3,
+          "explanation": "Số hộp = 7 × 6 = 42. Có 7 kệ, mỗi kệ 6 hộp nên tính 7 × 6 = 42 hộp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi đội robot có 4 thành viên. Có 6 đội tất cả. Hỏi có bao nhiêu thành viên?",
+          "options": ["20", "28", "24", "32"],
+          "correctIndex": 2,
+          "explanation": "Số thành viên = 6 × 4 = 24. Có 6 đội, mỗi đội 4 thành viên nên tính 6 × 4 = 24 thành viên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X ghi 6 điểm mỗi vòng đấu. Sau 3 vòng, Robo-X được bao nhiêu điểm?",
+          "options": ["18", "16", "24", "20"],
+          "correctIndex": 0,
+          "explanation": "Tổng điểm = 3 × 6 = 18 điểm. Sau 3 vòng, mỗi vòng 6 điểm, tổng là 3 × 6 = 18."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Có 9 hộp, mỗi hộp đựng 6 bánh răng. Hỏi tổng cộng có bao nhiêu bánh răng?",
+          "options": ["48", "54", "60", "45"],
+          "correctIndex": 1,
+          "explanation": "Số bánh răng = 9 × 6 = 54. Có 9 hộp, mỗi hộp 6 bánh răng nên tính 9 × 6 = 54."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một robot có 2 tay, mỗi tay có 6 ngón. Hỏi robot có bao nhiêu ngón tay tất cả?",
+          "options": ["8", "10", "14", "12"],
+          "correctIndex": 3,
+          "explanation": "Số ngón tay = 2 × 6 = 12. Robot có 2 tay, mỗi tay 6 ngón nên tính 2 × 6 = 12 ngón."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X xếp linh kiện thành 8 hàng, mỗi hàng 6 linh kiện. Hỏi có bao nhiêu linh kiện?",
+          "options": ["42", "50", "48", "54"],
+          "correctIndex": 2,
+          "explanation": "Số linh kiện = 8 × 6 = 48. Có 8 hàng, mỗi hàng 6 linh kiện nên tính 8 × 6 = 48."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi ngày Robo-X lắp được 6 linh kiện. Hỏi sau 6 ngày lắp được bao nhiêu linh kiện?",
+          "options": ["36", "30", "42", "24"],
+          "correctIndex": 0,
+          "explanation": "Số linh kiện = 6 × 6 = 36. Sau 6 ngày, mỗi ngày 6 linh kiện, tổng là 6 × 6 = 36."
+        },
+        {
+          "type": "true_false",
+          "text": "Có 10 hộp linh kiện, mỗi hộp có 6 chiếc. Tổng số linh kiện là 56.",
+          "correct": false,
+          "explanation": "Sai! 10 × 6 = 60, không phải 56. Cần tính 10 × 6 = 60 linh kiện."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robo-X lắp 4 robot nhỏ, mỗi robot cần 6 bánh xe. Hỏi cần tất cả bao nhiêu bánh xe? Trả lời: ___",
+          "answer": "24",
+          "explanation": "Số bánh xe = 4 × 6 = 24. Có 4 robot, mỗi robot cần 6 bánh xe nên tính 4 × 6 = 24 bánh xe."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x005",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 11,
+      "title": "Bài toán có lời văn - bảng nhân 7 và tổng hợp",
+      "learningObjective": "Học sinh vận dụng bảng nhân 7 và kết hợp cả bảng nhân 6 để giải các bài toán có lời văn phức tạp hơn.",
+      "shortExplanation": "Đọc kỹ đề, chú ý số 7 xuất hiện ở đâu. Khi bài có cả nhóm 6 lẫn nhóm 7, tính từng phần rồi cộng lại!",
+      "content": "Bài toán nâng cao dùng bảng nhân 7 hoặc kết hợp cả 6 và 7. Ví dụ: Robo-X có 3 thùng, mỗi thùng 7 linh kiện đỏ và 2 thùng mỗi thùng 6 linh kiện xanh. Tổng linh kiện đỏ: 3×7=21; linh kiện xanh: 2×6=12; tổng cộng: 21+12=33. Nhớ đọc kỹ câu hỏi để biết bài yêu cầu tính gì. Khi giải xong hãy kiểm tra lại bằng cách đọc lại đề bài.",
+      "storyContext": "Robo-X tham gia giải đấu robot lớn, cần tính điểm thi đấu từ nhiều vòng khác nhau — đây là lúc bảng nhân 6 và 7 được dùng tổng lực!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X thi đấu 6 vòng, mỗi vòng ghi 7 điểm. Hỏi tổng điểm là bao nhiêu?",
+          "options": ["35", "40", "42", "49"],
+          "correctIndex": 2,
+          "explanation": "Tổng điểm = 6 × 7 = 42. Có 6 vòng, mỗi vòng 7 điểm nên tính 6 × 7 = 42 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Có 7 thùng linh kiện, mỗi thùng chứa 7 linh kiện. Hỏi tổng cộng bao nhiêu linh kiện?",
+          "options": ["49", "42", "56", "63"],
+          "correctIndex": 0,
+          "explanation": "Số linh kiện = 7 × 7 = 49. Có 7 thùng, mỗi thùng 7 linh kiện nên tính 7 × 7 = 49."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X ghi 7 điểm mỗi hiệp. Sau 9 hiệp, Robo-X đạt được bao nhiêu điểm?",
+          "options": ["56", "70", "72", "63"],
+          "correctIndex": 3,
+          "explanation": "Tổng điểm = 7 × 9 = 63. Mẹo: 7×10=70, trừ đi 7 ta được 70 - 7 = 63."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Có 3 đội, mỗi đội thi đấu 7 vòng. Hỏi tổng số vòng đấu của tất cả các đội là bao nhiêu?",
+          "options": ["18", "21", "24", "28"],
+          "correctIndex": 1,
+          "explanation": "Tổng vòng đấu = 3 × 7 = 21. Có 3 đội, mỗi đội 7 vòng nên tính 3 × 7 = 21 vòng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp 5 robot lớn (mỗi robot cần 7 linh kiện) và 3 robot nhỏ (mỗi robot cần 6 linh kiện). Hỏi tổng linh kiện cần là bao nhiêu?",
+          "options": ["48", "50", "53", "45"],
+          "correctIndex": 2,
+          "explanation": "Robot lớn: 5×7=35 linh kiện; robot nhỏ: 3×6=18 linh kiện. Tổng: 35+18=53 linh kiện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi hộp có 7 bánh răng. Mua 8 hộp thì có bao nhiêu bánh răng?",
+          "options": ["56", "49", "63", "64"],
+          "correctIndex": 0,
+          "explanation": "Số bánh răng = 8 × 7 = 56. Có 8 hộp, mỗi hộp 7 bánh răng nên tính 8 × 7 = 56."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X thi đấu 7 vòng, mỗi vòng ghi 7 điểm và nhận thêm 6 điểm thưởng. Tổng điểm của Robo-X là bao nhiêu?",
+          "options": ["42", "48", "49", "55"],
+          "correctIndex": 3,
+          "explanation": "Điểm thi đấu: 7×7=49 điểm. Cộng 6 điểm thưởng: 49+6=55 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X cần 7×3 linh kiện cho phần thân và 6×1 linh kiện cho phần chân. Tổng cộng cần bao nhiêu linh kiện?",
+          "options": ["14", "18", "27", "32"],
+          "correctIndex": 1,
+          "explanation": "Phần thân: 7×3=21 linh kiện. Phần chân: 6×1=6 linh kiện. Tổng: 21+6=27 linh kiện."
+        },
+        {
+          "type": "true_false",
+          "text": "Nếu mỗi robot cần 7 linh kiện và có 4 robot, thì cần tổng cộng 28 linh kiện.",
+          "correct": true,
+          "explanation": "Đúng! 4 × 7 = 28 linh kiện. Có 4 robot, mỗi robot cần 7 linh kiện nên tính 4 × 7 = 28."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robo-X thi đấu 7 vòng, mỗi vòng ghi 8 điểm. Hỏi tổng điểm là bao nhiêu? Trả lời: ___",
+          "answer": "56",
+          "explanation": "Tổng điểm = 7 × 8 = 56. Có 7 vòng, mỗi vòng 8 điểm nên tính 7 × 8 = 56 điểm."
+        }
+      ]
+    }
+  ]
+}

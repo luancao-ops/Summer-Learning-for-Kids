@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-en-b03",
+  "description": "Bài ôn Tiếng Anh Lớp 5 cho Yumi - Future - \"will\" for predictions and offers; \"going to\" for plans and intentions; differences in usage",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "star_badge"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-x011",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 47,
+      "title": "Will - Dự đoán và đề nghị giúp đỡ",
+      "learningObjective": "Học sinh sẽ nhận biết và sử dụng đúng 'will' để đưa ra dự đoán và đề nghị giúp đỡ trong câu tiếng Anh.",
+      "shortExplanation": "Dùng 'will + động từ nguyên thể' khi dự đoán điều gì đó hoặc tự nguyện đề nghị làm gì. Ví dụ: 'I will help you' hoặc 'It will rain tomorrow'.",
+      "content": "Trong tiếng Anh, chúng ta dùng 'will' để diễn tả dự đoán về tương lai hoặc tự nguyện đề nghị làm gì đó ngay lúc nói. Cấu trúc: S + will + V (nguyên thể). Ví dụ: 'I think it will be sunny tomorrow' (dự đoán) và 'I will carry your bag for you' (đề nghị giúp đỡ). Phủ định: S + will not (won't) + V. Câu hỏi: Will + S + V?",
+      "storyContext": "Trong nhật ký phiêu lưu của mình, Công chúa Yumi viết: 'I think the dragon will be friendly, and I will offer to share my cake with it!'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng 'will' để đưa ra DỰ ĐOÁN đúng nhất?",
+          "options": [
+            "I will to go to the market tomorrow.",
+            "She will going to the castle soon.",
+            "We will playing in the garden later.",
+            "I think the princess will win the contest."
+          ],
+          "correctIndex": 3,
+          "explanation": "'I think the princess will win the contest' dùng đúng cấu trúc 'will + động từ nguyên thể' (win) để đưa ra dự đoán. Các câu khác sai vì dùng sai dạng động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng 'will' để ĐỀ NGHỊ GIÚP ĐỠ đúng?",
+          "options": [
+            "I will to open the door for you.",
+            "I will open the door for you.",
+            "I will opening the door for you.",
+            "I will opened the door for you."
+          ],
+          "correctIndex": 1,
+          "explanation": "'I will open the door for you' dùng đúng cấu trúc 'will + động từ nguyên thể' (open) để đề nghị giúp đỡ. Không dùng 'to', '-ing' hay dạng quá khứ sau 'will'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu phủ định của 'She will come to the party' là gì?",
+          "options": [
+            "She won't come to the party.",
+            "She will not to come to the party.",
+            "She won't coming to the party.",
+            "She not will come to the party."
+          ],
+          "correctIndex": 0,
+          "explanation": "'She won't come to the party' là đúng. 'Won't' là dạng viết tắt của 'will not', và sau đó dùng động từ nguyên thể 'come'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Look at those dark clouds! I think it _____ rain.'",
+          "options": [
+            "is going to",
+            "going to",
+            "will",
+            "won't"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dùng 'will' để đưa ra dự đoán không dựa trên bằng chứng cụ thể. Ở đây chúng ta nhìn thấy mây đen (bằng chứng có thể thấy), nhưng khi dùng 'I think', câu mang tính dự đoán, nên 'will' cũng phù hợp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi đúng với 'will' là câu nào?",
+          "options": [
+            "You will help me?",
+            "Does she will come?",
+            "Is he will ready?",
+            "Will they join the adventure?"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Will they join the adventure?' đúng cấu trúc câu hỏi: Will + S + V nguyên thể. Không dùng 'does/is' khi đã có 'will'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tình huống nào phù hợp nhất để dùng 'will' đề nghị giúp đỡ?",
+          "options": [
+            "Bạn đã lên kế hoạch từ trước để giúp ai đó.",
+            "I will answer the phone! (khi điện thoại đang reo)",
+            "Bạn đang hỏi về kế hoạch của người khác.",
+            "Bạn muốn nói về điều đã xảy ra hôm qua."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Will' dùng cho đề nghị tự phát, quyết định ngay lúc nói. 'I will answer the phone!' là đề nghị tự nguyện ngay khi điện thoại reo, đây là ví dụ điển hình."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu ĐÚNG ngữ pháp với 'will':",
+          "options": [
+            "My sister will helps you with the map.",
+            "The knight will to fight the dragon.",
+            "Princess Yumi will write in her diary tonight.",
+            "They will finished the quest by noon."
+          ],
+          "correctIndex": 0,
+          "explanation": "Sau 'will' luôn dùng động từ nguyên thể không 'to'. 'Princess Yumi will write in her diary tonight' dùng đúng: will + write (nguyên thể)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào diễn đạt đúng ý: 'Tôi nghĩ cô ấy sẽ thích món quà này'?",
+          "options": [
+            "I think she will to like this gift.",
+            "I think she will liking this gift.",
+            "I think she will liked this gift.",
+            "I think she will like this gift."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đúng phải là 'I think she will like this gift.' — sau 'will' dùng động từ nguyên thể 'like', không thêm 'to', '-ing', hay '-ed'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'I will help you carry the treasure chest' là ví dụ dùng 'will' để đề nghị giúp đỡ một cách tự nguyện.",
+          "correct": true,
+          "explanation": "Đúng! 'I will help you carry the treasure chest' là câu dùng 'will' để tự nguyện đề nghị giúp đỡ ngay lúc nói, đây là cách dùng điển hình của 'will' cho offers."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu: 'Don't worry, I _____ (not/leave) you alone in the dark forest.' (Dùng dạng phủ định của 'will')",
+          "answer": "won't leave",
+          "explanation": "Phủ định của 'will' là 'will not' hoặc 'won't'. Câu đúng: 'I won't leave you alone in the dark forest.'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x012",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 48,
+      "title": "Going to - Kế hoạch và dự định",
+      "learningObjective": "Học sinh sẽ nhận biết và sử dụng đúng 'going to' để diễn tả kế hoạch đã định trước và dự định trong tương lai.",
+      "shortExplanation": "Dùng 'am/is/are going to + động từ nguyên thể' khi nói về kế hoạch đã lên từ trước. Ví dụ: 'I am going to visit the castle next week' (kế hoạch đã có).",
+      "content": "Chúng ta dùng 'going to' để nói về kế hoạch đã lên từ trước hoặc dự định đã quyết định. Cấu trúc: S + am/is/are + going to + V (nguyên thể). Ví dụ: 'I am going to bake a cake for the festival' (đã có kế hoạch), 'She is going to study English this summer' (đã quyết định). Khác với 'will', 'going to' thường đi kèm với kế hoạch cụ thể, đã nghĩ tới từ trước.",
+      "storyContext": "Công chúa Yumi viết trong nhật ký: 'Tomorrow, I am going to visit the enchanted garden — I have already packed my basket!'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng 'going to' ĐÚNG để diễn tả kế hoạch?",
+          "options": [
+            "I am going to visit the magic tower next Monday.",
+            "She is go to buy new shoes.",
+            "They going to travel to the north.",
+            "He is going buy a new sword."
+          ],
+          "correctIndex": 0,
+          "explanation": "'I am going to visit the magic tower next Monday' dùng đúng cấu trúc: am + going to + động từ nguyên thể (visit). Các câu khác thiếu hoặc sai thành phần cấu trúc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền đúng vào chỗ trống: 'She _____ going to make a flower crown for the festival.'",
+          "options": [
+            "am",
+            "will",
+            "is",
+            "are"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chủ ngữ 'She' là ngôi thứ ba số ít, nên dùng 'is going to'. Đáp án đúng là 'is'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào diễn tả KẾ HOẠCH ĐÃ LÊN TRƯỚC bằng 'going to'?",
+          "options": [
+            "Oh, the vase is falling! I will catch it!",
+            "I am going to learn how to sew a princess dress this weekend.",
+            "I think it will be a wonderful day.",
+            "Will you help me find the map?"
+          ],
+          "correctIndex": 1,
+          "explanation": "'I am going to learn how to sew a princess dress this weekend' diễn tả kế hoạch đã quyết định từ trước. Câu 1 là đề nghị tự phát dùng 'will', câu 3 là dự đoán."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu phủ định của 'We are going to decorate the throne room' là gì?",
+          "options": [
+            "We are not go to decorate the throne room.",
+            "We not going to decorate the throne room.",
+            "We won't going to decorate the throne room.",
+            "We are not going to decorate the throne room."
+          ],
+          "correctIndex": 3,
+          "explanation": "Phủ định của 'going to': S + am/is/are + NOT + going to + V. Câu đúng là 'We are not going to decorate the throne room.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hỏi về kế hoạch của ai đó bằng 'going to' đúng là?",
+          "options": [
+            "Are you going to join the princess parade?",
+            "Do you going to join the princess parade?",
+            "You are going to join the princess parade?",
+            "Is you going to join the princess parade?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi với 'going to': Am/Is/Are + S + going to + V? Đáp án đúng: 'Are you going to join the princess parade?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tình huống nào phù hợp nhất để dùng 'going to'?",
+          "options": [
+            "Điện thoại reo và bạn tự nguyện nhấc máy.",
+            "Bạn đột nhiên quyết định giúp ai đó ngay lúc đó.",
+            "I am going to visit Grandma next Sunday. I already bought the train ticket.",
+            "I think the weather will be nice today."
+          ],
+          "correctIndex": 2,
+          "explanation": "'I am going to visit Grandma next Sunday' phù hợp dùng 'going to' vì đây là kế hoạch đã lên từ trước (đã mua vé tàu). Tình huống 1 và 2 dùng 'will' vì quyết định tự phát."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu ĐÚNG cấu trúc 'going to':",
+          "options": [
+            "Princess Yumi is going to write her diary after dinner.",
+            "Princess Yumi going to write her diary after dinner.",
+            "Princess Yumi is go to write her diary after dinner.",
+            "Princess Yumi are going to write her diary after dinner."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Princess Yumi is going to write her diary after dinner' dùng đúng: is + going to + write (nguyên thể). Câu B sai vì thiếu 'is'; câu C sai vì dùng 'go' thay 'going to'; câu D sai vì 'are' không hợp với chủ ngữ số ít."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dịch đúng: 'Chúng tôi dự định trồng hoa trong vườn hoàng gia vào ngày mai'?",
+          "options": [
+            "We will plant flowers in the royal garden tomorrow.",
+            "We are going plant flowers in the royal garden tomorrow.",
+            "We are going to plant flowers in the royal garden tomorrow.",
+            "We going to plant flowers in the royal garden tomorrow."
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu đúng là 'We are going to plant flowers in the royal garden tomorrow.' — đây là kế hoạch/dự định nên dùng 'going to', và cấu trúc đầy đủ là 'are going to + plant'."
+        },
+        {
+          "type": "true_false",
+          "text": "'Going to' được dùng khi chúng ta đưa ra quyết định ngay lúc nói, không có kế hoạch trước.",
+          "correct": false,
+          "explanation": "Sai! 'Going to' dùng cho kế hoạch hoặc dự định đã được nghĩ tới từ trước. Quyết định ngay lúc nói (tự phát) thì dùng 'will'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu: 'My friends _____ (going to / organize) a craft fair in the kingdom next Saturday.' (Chủ ngữ: My friends)",
+          "answer": "are going to organize",
+          "explanation": "'My friends' là chủ ngữ số nhiều nên dùng 'are'. Câu đúng: 'My friends are going to organize a craft fair in the kingdom next Saturday.'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x013",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 49,
+      "title": "Will vs Going to - So sánh cách dùng",
+      "learningObjective": "Học sinh sẽ phân biệt được khi nào dùng 'will' và khi nào dùng 'going to' trong các tình huống thực tế.",
+      "shortExplanation": "Nhớ quy tắc: 'will' cho quyết định tự phát và dự đoán chung; 'going to' cho kế hoạch đã lên trước và dự đoán có bằng chứng rõ ràng.",
+      "content": "Điểm khác biệt chính: 'Will' dùng cho (1) quyết định tự phát ngay lúc nói: 'I'll get the door!' và (2) dự đoán chung chung: 'I think she will be a great queen.' 'Going to' dùng cho (1) kế hoạch đã lên từ trước: 'I'm going to start a painting class next month' và (2) dự đoán có bằng chứng rõ ràng trước mắt: 'Look at those clouds! It's going to rain!' Hãy chú ý ngữ cảnh để chọn đúng.",
+      "storyContext": "Khi đọc nhật ký của Công chúa Yumi, ta thấy cô bé cẩn thận chọn 'will' hay 'going to' tùy theo từng tình huống trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tình huống: Bạn vừa nghe điện thoại reo và tự nguyện nhấc máy. Câu nào đúng?",
+          "options": [
+            "I am going to answer the phone.",
+            "I will answer the phone!",
+            "I am go to answer the phone.",
+            "I will to answer the phone."
+          ],
+          "correctIndex": 1,
+          "explanation": "Quyết định tự phát ngay lúc nói dùng 'will'. 'I will answer the phone!' là đúng. 'Going to' không phù hợp vì đây không phải kế hoạch đã lên từ trước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tình huống: Yumi nhìn thấy mây đen kịt kéo đến. Câu nào phù hợp hơn?",
+          "options": [
+            "I think it will rain tomorrow.",
+            "It will rains soon.",
+            "It might be sunny later.",
+            "Look at those clouds! It's going to rain!"
+          ],
+          "correctIndex": 3,
+          "explanation": "Khi có bằng chứng rõ ràng trước mắt (mây đen), dùng 'going to'. 'Look at those clouds! It's going to rain!' là đúng vì dự đoán dựa trên bằng chứng cụ thể đang thấy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG khi Yumi muốn nói về kế hoạch đã định trước: 'Tôi sẽ học vẽ tranh vào mùa hè này (đã đăng ký lớp rồi)'?",
+          "options": [
+            "I will learn painting this summer.",
+            "I will to learn painting this summer.",
+            "I am going to learn painting this summer.",
+            "I going to learn painting this summer."
+          ],
+          "correctIndex": 2,
+          "explanation": "Vì đã có kế hoạch (đã đăng ký lớp), dùng 'going to'. 'I am going to learn painting this summer' là đúng. Dùng 'will' khi quyết định tự phát, không phải kế hoạch trước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng 'will' cho DỰ ĐOÁN CHUNG (không có bằng chứng cụ thể)?",
+          "options": [
+            "I think Princess Yumi will be a wonderful ruler one day.",
+            "Look! The cake is going to fall!",
+            "She is going to travel to France next month.",
+            "They are going to build a new castle."
+          ],
+          "correctIndex": 0,
+          "explanation": "'I think Princess Yumi will be a wonderful ruler one day' là dự đoán chung chung dùng 'will' và 'I think'. Câu 2 dùng đúng 'going to' vì có bằng chứng (Look!). Câu 3 và 4 là kế hoạch."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu dùng SAI 'will' hoặc 'going to':",
+          "options": [
+            "I am going to visit my cousin next weekend — I already bought the bus ticket.",
+            "Wait, I will carry that heavy box for you!",
+            "I think the kingdom will be peaceful forever.",
+            "She is going to becomes the new princess."
+          ],
+          "correctIndex": 1,
+          "explanation": "'She is going to becomes the new princess' sai vì sau 'going to' phải dùng động từ nguyên thể, không thêm 's'. Câu đúng phải là 'She is going to become the new princess.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'A: What are you doing this afternoon? B: I _____ meet my friend at the craft shop. We planned it yesterday.'",
+          "options": [
+            "will",
+            "am not going to",
+            "am going to",
+            "won't"
+          ],
+          "correctIndex": 3,
+          "explanation": "Vì cuộc gặp đã được lên kế hoạch từ hôm qua, dùng 'going to'. Câu đúng: 'I am going to meet my friend at the craft shop.' Đáp án D sai nghĩa (won't = sẽ không)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tình huống nào cần dùng 'will' thay vì 'going to'?",
+          "options": [
+            "Yumi đã đặt trước bàn ăn tối ở nhà hàng trong vương quốc.",
+            "Yumi nhìn thấy bạn đang khó khăn và tự nguyện giúp ngay.",
+            "Yumi đã mua vé xem hòa nhạc từ tuần trước.",
+            "Yumi đã đăng ký tham gia cuộc thi làm đồ thủ công."
+          ],
+          "correctIndex": 2,
+          "explanation": "Tình huống Yumi nhìn thấy bạn gặp khó khăn và tự nguyện giúp ngay là quyết định tự phát — dùng 'will'. Các tình huống khác đều có kế hoạch trước — dùng 'going to'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dịch ĐÚNG: 'Tôi sẽ mở cửa sổ cho bạn nhé!' (quyết định tự phát)?",
+          "options": [
+            "I am going to open the window for you.",
+            "I will opening the window for you.",
+            "I will to open the window for you.",
+            "I'll open the window for you!"
+          ],
+          "correctIndex": 0,
+          "explanation": "Quyết định tự phát dùng 'will'. 'I'll open the window for you!' là đúng ('I'll' = 'I will'). Các câu A, B, C đều sai cấu trúc hoặc dùng nhầm 'going to'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Look! She is going to drop the tiara!' dùng đúng 'going to' vì người nói đang nhìn thấy bằng chứng rõ ràng trước mắt.",
+          "correct": true,
+          "explanation": "Đúng! Khi có bằng chứng cụ thể ngay trước mắt ('Look!'), chúng ta dùng 'going to' để dự đoán điều sắp xảy ra. Đây là cách dùng 'going to' cho dự đoán có căn cứ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu theo đúng ngữ cảnh: 'A: The phone is ringing! B: Don't worry, I _____ (get) it!' (Quyết định tự phát)",
+          "answer": "will get",
+          "explanation": "Đây là quyết định tự phát ngay lúc nói nên dùng 'will'. Câu đúng: 'I will get it!' hoặc 'I'll get it!'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x014",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 50,
+      "title": "Thực hành câu tương lai trong văn cảnh",
+      "learningObjective": "Học sinh sẽ áp dụng đúng 'will' và 'going to' trong các câu văn và hội thoại ngắn theo ngữ cảnh thực tế.",
+      "shortExplanation": "Đọc kỹ ngữ cảnh trước khi chọn 'will' hay 'going to'. Hỏi bản thân: Đây là kế hoạch trước hay quyết định tự phát? Có bằng chứng rõ ràng không?",
+      "content": "Để dùng đúng thì tương lai, hãy đặt câu hỏi: (1) Có kế hoạch từ trước không? → Dùng 'going to'. (2) Quyết định ngay lúc này không? → Dùng 'will'. (3) Có bằng chứng trước mắt không? → Dùng 'going to'. (4) Dự đoán chung chung? → Dùng 'will'. Ví dụ so sánh: 'I will help you now!' (tự phát) vs. 'I am going to help you — I already called the doctor.' (đã lên kế hoạch).",
+      "storyContext": "Công chúa Yumi luyện tập viết nhật ký với cả 'will' và 'going to' để kể chuyện phiêu lưu trong Vương Quốc Thủ Công một cách chính xác nhất.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu điền đúng: 'I have already decided. I _____ take the art class next term.'",
+          "options": [
+            "will",
+            "am going to",
+            "am going",
+            "won't"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vì đã quyết định từ trước ('I have already decided'), dùng 'going to'. Câu đúng: 'I am going to take the art class next term.' Đáp án C là câu B nhưng thiếu 'to', nên B là đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG: Yumi đang ăn và bạn nhờ cô ấy lấy muối, cô ấy tự nguyện lấy ngay?",
+          "options": [
+            "I am going to get the salt for you.",
+            "I will get the salt for you!",
+            "I will to get the salt for you.",
+            "I going to get the salt for you."
+          ],
+          "correctIndex": 0,
+          "explanation": "Quyết định tự nguyện ngay lúc đó dùng 'will'. 'I will get the salt for you!' là đúng (B). Đáp án A dùng 'going to' không phù hợp vì đây không phải kế hoạch từ trước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'She has packed her bag. She _____ leave for the adventure early tomorrow morning.'",
+          "options": [
+            "will",
+            "is not going to",
+            "won't",
+            "is going to"
+          ],
+          "correctIndex": 3,
+          "explanation": "'She has packed her bag' là bằng chứng cho kế hoạch đã lên trước, nên dùng 'is going to'. Câu đúng: 'She is going to leave for the adventure early tomorrow morning.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng ĐÚNG cả ngữ pháp lẫn ngữ cảnh?",
+          "options": [
+            "A: It's so hot in here! B: I will open the window.",
+            "A: It's so hot in here! B: I am going to open the window.",
+            "A: What are your plans? B: I will visit Paris next month, I bought tickets.",
+            "A: Quick! The vase is falling! B: I will to catch it!"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu A đúng vì 'I will open the window' là quyết định tự phát (ngay khi nghe bạn phàn nàn về nóng). Câu B kém phù hợp hơn vì 'going to' gợi ý kế hoạch trước. Câu C nên dùng 'going to'. Câu D sai ngữ pháp ('will to catch')."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tìm lỗi sai trong câu: 'My brother are going to repair the royal carriage this weekend.'",
+          "options": [
+            "are → is",
+            "going to → will",
+            "repair → repairs",
+            "this weekend → last weekend"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chủ ngữ 'My brother' là số ít nên phải dùng 'is', không phải 'are'. Câu đúng: 'My brother is going to repair the royal carriage this weekend.' Lỗi sai là 'are' phải thành 'is'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi nói: 'I think the kingdom _____ be very beautiful in spring.' Điền từ thích hợp:",
+          "options": [
+            "will",
+            "are going to",
+            "is going",
+            "going to"
+          ],
+          "correctIndex": 0,
+          "explanation": "'I think...' thường đi với 'will' để diễn tả dự đoán chung chung. Câu đúng: 'I think the kingdom will be very beautiful in spring.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu ĐÚNG cả hai cấu trúc trong một đoạn hội thoại:",
+          "options": [
+            "A: Are you free tomorrow? B: No, I am going to visit the art museum. I bought tickets last week.",
+            "A: Are you free tomorrow? B: No, I will visit the art museum. I bought tickets last week.",
+            "A: Oh, you dropped your pen! B: I am going to pick it up.",
+            "A: Can you help? B: Sure, I am going to do it right now! (quyết định tự phát)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hội thoại A đúng vì 'I am going to visit the art museum' diễn tả kế hoạch đã lên trước (đã mua vé). Hội thoại B sai vì 'will' không phù hợp khi đã có kế hoạch trước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dịch ĐÚNG: 'Chúng tôi sẽ trang trí phòng tiệc vào ngày mai — đã mua đồ rồi'?",
+          "options": [
+            "We will decorate the banquet hall tomorrow.",
+            "We are going to decorate the banquet hall tomorrow.",
+            "We going to decorate the banquet hall tomorrow.",
+            "We are going decorate the banquet hall tomorrow."
+          ],
+          "correctIndex": 1,
+          "explanation": "Vì đã có kế hoạch từ trước (đã mua đồ), dùng 'going to'. Câu đúng: 'We are going to decorate the banquet hall tomorrow.' Cấu trúc: are + going to + decorate."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'I will call you when I arrive' và 'I am going to call you when I arrive' có nghĩa hoàn toàn giống nhau và đều đúng ngữ pháp.",
+          "correct": false,
+          "explanation": "Sai! Hai câu khác nhau về sắc thái: 'will call' thể hiện lời hứa hoặc quyết định tự nhiên, còn 'going to call' thể hiện kế hoạch đã có sẵn. Cả hai đúng ngữ pháp nhưng không hoàn toàn giống nhau về nghĩa."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu: 'Oh no, I forgot to bring an umbrella! It looks cloudy. It _____ (going to / rain) soon!' (Có bằng chứng rõ ràng)",
+          "answer": "is going to rain",
+          "explanation": "Khi có bằng chứng trước mắt (trời mây), dùng 'going to'. Câu đúng: 'It is going to rain soon!'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x015",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 51,
+      "title": "Tổng hợp thì tương lai - Will và Going to nâng cao",
+      "learningObjective": "Học sinh sẽ tự tin sử dụng và phân biệt 'will' và 'going to' trong các câu phức tạp và đoạn văn ngắn có ngữ cảnh đa dạng.",
+      "shortExplanation": "Ôn lại toàn bộ: 'will' cho dự đoán/đề nghị tự phát, 'going to' cho kế hoạch/bằng chứng rõ ràng. Luyện viết câu hoàn chỉnh để ghi nhớ chắc chắn hơn.",
+      "content": "Ôn tập toàn bộ: 'Will' dùng cho dự đoán chung ('I think it will snow'), đề nghị hoặc quyết định tự phát ('I'll help you!'). 'Going to' dùng cho kế hoạch đã lên trước ('We are going to have a picnic — we packed the food') và dự đoán có bằng chứng rõ ('She is going to fall — look!'). Câu hỏi: 'Will you...?' / 'Are you going to...?' Phủ định: 'won't' / 'isn't/aren't going to'. Luyện tập: Đọc kỹ ngữ cảnh trước khi trả lời.",
+      "storyContext": "Cuối cuốn nhật ký, Công chúa Yumi tổng kết: 'I will always love this kingdom, and I am going to keep writing my adventure diary every single day!'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn và chọn câu điền đúng: 'Princess Yumi has booked tickets to the art festival. She _____ go there with her best friend next Saturday.'",
+          "options": [
+            "will",
+            "won't",
+            "was going to",
+            "is going to"
+          ],
+          "correctIndex": 3,
+          "explanation": "Vì Yumi đã đặt vé (kế hoạch từ trước), dùng 'is going to'. Câu đúng: 'She is going to go there with her best friend next Saturday.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tình huống: Bạn thấy ai đó đang cố mang nhiều đồ nặng và bạn tự nguyện giúp. Câu nào đúng?",
+          "options": [
+            "I am going to help you carry those bags.",
+            "I will help you carry those bags!",
+            "I will helping you carry those bags.",
+            "I am go to help you carry those bags."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đây là quyết định tự phát, tự nguyện giúp ngay lúc đó, nên dùng 'will'. Câu đúng: 'I will help you carry those bags!'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào diễn tả DỰ ĐOÁN CÓ BẰNG CHỨNG TRƯỚC MẮT đúng nhất?",
+          "options": [
+            "I think the princess will be kind.",
+            "She is going to drop her tiara — look how she's holding it!",
+            "I will come to the party.",
+            "We are going to visit the castle next year."
+          ],
+          "correctIndex": 0,
+          "explanation": "'She is going to drop her tiara — look how she's holding it!' dùng đúng 'going to' cho dự đoán có bằng chứng cụ thể đang thấy ('look'). Câu A là dự đoán chung dùng 'will', câu D là kế hoạch."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hoàn thành câu hội thoại: 'A: These boxes are really heavy! B: No problem, I _____ carry them for you!'",
+          "options": [
+            "am going to",
+            "was going to",
+            "will",
+            "won't"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đây là đề nghị tự phát ngay lúc nghe bạn than vãn, dùng 'will'. Câu đúng: 'I will carry them for you!' Dùng 'going to' không phù hợp vì đây không phải kế hoạch trước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có lỗi sai ngữ pháp?",
+          "options": [
+            "I am going to start my diary tomorrow.",
+            "They will join the kingdom feast tonight.",
+            "She won't be late for the ceremony.",
+            "He is going to wins the trophy."
+          ],
+          "correctIndex": 3,
+          "explanation": "'He is going to wins the trophy' sai vì sau 'going to' phải dùng động từ nguyên thể, không thêm 's'. Câu đúng: 'He is going to win the trophy.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu phù hợp nhất để hoàn thành đoạn: 'I have been planning this trip for weeks. Next month, I _____ visit the Crystal Lake in the kingdom.'",
+          "options": [
+            "will",
+            "am going to",
+            "won't",
+            "am go to"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vì đã lên kế hoạch từ nhiều tuần trước ('I have been planning for weeks'), dùng 'am going to'. Câu đúng: 'I am going to visit the Crystal Lake in the kingdom.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng 'will' cho LỜI HỨA?",
+          "options": [
+            "I will always protect this kingdom, I promise.",
+            "I am going to always protect this kingdom, I promise.",
+            "I will to always protect this kingdom.",
+            "I will always protecting this kingdom."
+          ],
+          "correctIndex": 0,
+          "explanation": "'I will always protect this kingdom, I promise' dùng đúng 'will' cho lời hứa/cam kết. Cấu trúc: will + động từ nguyên thể (protect). Đây là cách dùng 'will' phổ biến cho lời hứa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc và chọn đáp án đúng: 'The sky is getting very dark and the wind is blowing hard. It _____ storm tonight.'",
+          "options": [
+            "will probably",
+            "is going to",
+            "won't",
+            "would"
+          ],
+          "correctIndex": 1,
+          "explanation": "Có bằng chứng rõ ràng (trời tối, gió thổi mạnh), nên dùng 'going to' cho dự đoán có căn cứ. Câu đúng: 'It is going to storm tonight.'"
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'I will make a surprise cake for Yumi — she loves chocolate!', 'will' được dùng cho một kế hoạch đã lên từ trước.",
+          "correct": false,
+          "explanation": "Sai! Câu này thường ám chỉ quyết định tự phát hoặc dự định vừa nảy sinh trong lúc nói, nên dùng 'will'. Nếu đã có kế hoạch từ trước, sẽ dùng 'going to make'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu theo ngữ cảnh: 'Yumi has already written five pages of her diary today, and she _____ (going to / write) five more pages before bedtime.' (Kế hoạch đã định)",
+          "answer": "is going to write",
+          "explanation": "Đây là kế hoạch đã định trước nên dùng 'going to'. Chủ ngữ 'she' dùng 'is'. Câu đúng: 'she is going to write five more pages before bedtime.'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-en-b01",
+  "description": "Bài ôn Tiếng Anh Lớp 5 cho Yumi - Past Simple - regular verbs: walked, played, studied, helped; spelling rules (-d, -ed, -ied)",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "star_badge"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-x001",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 37,
+      "title": "Động từ quá khứ đơn thêm -ED",
+      "learningObjective": "Học sinh nhận biết được cách thêm đuôi -ed vào động từ thường để tạo thì quá khứ đơn. Học sinh phân biệt được khi nào dùng -d, -ed.",
+      "shortExplanation": "Gợi ý: Hầu hết động từ thường thêm -ed để thành quá khứ. Nếu động từ đã kết thúc bằng -e thì chỉ thêm -d. Ví dụ: walk → walked, help → helped, like → liked.",
+      "content": "Trong tiếng Anh, để nói về việc đã xảy ra trong quá khứ, ta dùng thì quá khứ đơn (Past Simple). Với động từ thường (regular verbs), ta thêm đuôi -ed vào sau động từ. Ví dụ: walk → walked (đã đi bộ), help → helped (đã giúp đỡ), play → played (đã chơi). Nếu động từ đã kết thúc bằng chữ -e, ta chỉ cần thêm -d. Ví dụ: like → liked, love → loved.",
+      "storyContext": "Công chúa Yumi ngồi viết nhật ký phiêu lưu của mình bằng tiếng Anh, kể lại những gì nàng đã làm trong Vương quốc Thủ Công hôm qua.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết nhật ký: 'Yesterday I ___ to the craft tower.' Chọn dạng quá khứ đúng của động từ 'walk'.",
+          "options": ["walking", "walked", "walks", "walk"],
+          "correctIndex": 1,
+          "explanation": "'Walk' là động từ thường kết thúc bằng phụ âm 'k', ta thêm -ed để được 'walked'. Đây là dạng quá khứ đơn đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi 'đã giúp đỡ' các nàng tiên nhỏ. Dạng quá khứ của 'help' là gì?",
+          "options": ["helping", "helpes", "helpped", "helped"],
+          "correctIndex": 3,
+          "explanation": "'Help' là động từ thường, ta thêm -ed để được 'helped'. Không nhân đôi chữ 'p' vì 'help' có hai phụ âm cuối (l-p)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng: Yumi ___ with her friends in the garden yesterday.",
+          "options": ["playes", "playing", "played", "play"],
+          "correctIndex": 2,
+          "explanation": "'Play' kết thúc bằng nguyên âm 'y' nên ta thêm -ed để được 'played'. Đây là câu quá khứ đơn đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Động từ 'like' ở dạng quá khứ là gì?",
+          "options": ["liked", "likeed", "liking", "likes"],
+          "correctIndex": 0,
+          "explanation": "'Like' đã kết thúc bằng chữ -e, nên ta chỉ thêm -d để được 'liked', không thêm -ed đầy đủ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi 'đã nhảy múa' trong lễ hội. Dạng quá khứ của 'dance' là gì?",
+          "options": ["dancing", "danced", "danceed", "dances"],
+          "correctIndex": 1,
+          "explanation": "'Dance' kết thúc bằng -e, nên ta chỉ thêm -d để được 'danced'. Quy tắc: động từ tận cùng bằng -e thì thêm -d."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây dùng đúng thì quá khứ đơn?",
+          "options": ["Yumi walk to the castle.", "Yumi is walked to the castle.", "Yumi walking to the castle.", "Yumi walked to the castle."],
+          "correctIndex": 3,
+          "explanation": "'Walked' là dạng quá khứ đơn đúng của 'walk'. Câu 'Yumi walked to the castle.' hoàn toàn đúng ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi 'đã trông nom' khu vườn hoa. Dạng quá khứ của 'watch' là gì?",
+          "options": ["watchs", "watchen", "watched", "watching"],
+          "correctIndex": 2,
+          "explanation": "'Watch' là động từ thường kết thúc bằng phụ âm, ta thêm -ed để được 'watched'. Đây là quy tắc thêm -ed cơ bản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng quá khứ đúng của động từ 'ask'.",
+          "options": ["asked", "askked", "askes", "asing"],
+          "correctIndex": 0,
+          "explanation": "'Ask' là động từ thường kết thúc bằng phụ âm 'k', ta thêm -ed để được 'asked'. Không nhân đôi chữ 'k' trong trường hợp này."
+        },
+        {
+          "type": "true_false",
+          "text": "Dạng quá khứ của động từ 'love' là 'loved' (thêm -d vì động từ đã có chữ -e ở cuối).",
+          "correct": true,
+          "explanation": "Đúng! 'Love' kết thúc bằng -e nên ta chỉ thêm -d: love → loved. Đây là quy tắc đúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu trong nhật ký của Yumi: 'I ___ (help) the little fairies make crowns yesterday.'",
+          "answer": "helped",
+          "explanation": "'Help' là động từ thường, thêm -ed để được 'helped'. Đây là dạng quá khứ đơn dùng khi kể chuyện đã xảy ra."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x002",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 38,
+      "title": "Quy tắc đổi -y thành -ied",
+      "learningObjective": "Học sinh nắm được quy tắc đặc biệt: động từ kết thúc bằng phụ âm + y thì đổi y thành i rồi thêm -ed. Học sinh phân biệt được 'studied', 'carried', 'played'.",
+      "shortExplanation": "Gợi ý: Khi động từ kết thúc bằng phụ âm + y (như study, carry), ta đổi y → i rồi thêm -ed: study → studied. Nhưng nếu trước y là nguyên âm (play, stay) thì chỉ thêm -ed bình thường: play → played.",
+      "content": "Có một quy tắc quan trọng trong tiếng Anh: khi động từ kết thúc bằng phụ âm + y, ta không thêm -ed trực tiếp mà phải đổi y thành i rồi mới thêm -ed. Ví dụ: study → studied (đã học), carry → carried (đã mang), try → tried (đã thử). Tuy nhiên, nếu trước chữ y là một nguyên âm (a, e, i, o, u), ta chỉ thêm -ed bình thường. Ví dụ: play → played (y đứng sau nguyên âm 'a'), stay → stayed. Quy tắc này rất phổ biến trong tiếng Anh nên em cần ghi nhớ kỹ!",
+      "storyContext": "Công chúa Yumi ghi vào nhật ký những bài học mà nàng đã học được trong Vương quốc Thủ Công, và nhớ lại những cuộc phiêu lưu thú vị hôm qua.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết: 'I ___ very hard for the magic exam.' Dạng quá khứ đúng của 'study' là gì?",
+          "options": ["studyed", "studeid", "studied", "studding"],
+          "correctIndex": 2,
+          "explanation": "'Study' kết thúc bằng phụ âm 'd' + y, nên ta đổi y → i rồi thêm -ed: study → studied."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của động từ 'carry' là gì?",
+          "options": ["carried", "carryed", "carries", "carring"],
+          "correctIndex": 0,
+          "explanation": "'Carry' kết thúc bằng phụ âm 'r' + y, nên ta đổi y → i rồi thêm -ed: carry → carried."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao 'play' ở quá khứ là 'played' chứ không phải 'plaied'?",
+          "options": ["Vì 'play' là động từ bất quy tắc", "Vì 'play' quá ngắn", "Vì trước y là nguyên âm 'a', nên chỉ thêm -ed bình thường", "Vì 'play' kết thúc bằng phụ âm"],
+          "correctIndex": 3,
+          "explanation": "Trước y trong 'play' là nguyên âm 'a' (pl-a-y), nên ta chỉ cần thêm -ed: play → played, không đổi y → i."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng quá khứ ĐÚNG của động từ 'try'.",
+          "options": ["tryed", "trying", "tries", "tried"],
+          "correctIndex": 1,
+          "explanation": "'Try' kết thúc bằng phụ âm 'r' + y, nên ta đổi y → i rồi thêm -ed: try → tried."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng về nhật ký của Yumi: 'She ___ a beautiful flower crown.'?",
+          "options": ["carryed the gems", "carried the gems", "carries the gems", "carrying the gems"],
+          "correctIndex": 2,
+          "explanation": "'Carry' → 'carried': đổi y → i rồi thêm -ed. Câu đúng là 'She carried the gems.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Động từ nào dưới đây theo quy tắc đổi y → i rồi thêm -ed?",
+          "options": ["stay (stay → stayed)", "enjoy (enjoy → enjoyed)", "study (study → studied)", "play (play → played)"],
+          "correctIndex": 0,
+          "explanation": "'Study' kết thúc bằng phụ âm + y (d+y), nên phải đổi y → i rồi thêm -ed: study → studied."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi 'đã thử' mặc chiếc váy công chúa mới. Chọn câu đúng.",
+          "options": ["Yumi try the dress.", "Yumi tryed the dress.", "Yumi trying the dress.", "Yumi tried the dress."],
+          "correctIndex": 3,
+          "explanation": "'Try' → 'tried' (đổi y → i, thêm -ed). Câu đúng là 'Yumi tried the dress.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Động từ 'worry' ở dạng quá khứ là gì?",
+          "options": ["worryed", "worried", "worries", "worrying"],
+          "correctIndex": 1,
+          "explanation": "'Worry' kết thúc bằng phụ âm 'r' + y, nên ta đổi y → i rồi thêm -ed: worry → worried."
+        },
+        {
+          "type": "true_false",
+          "text": "Dạng quá khứ của 'stay' là 'staied' vì 'stay' kết thúc bằng chữ y.",
+          "correct": false,
+          "explanation": "Sai! 'Stay' có nguyên âm 'a' trước y (st-a-y), nên chỉ thêm -ed bình thường: stay → stayed, không đổi y → i."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu nhật ký của Yumi: 'Yesterday, I ___ (study) the magic spell book for two hours.'",
+          "answer": "studied",
+          "explanation": "'Study' kết thúc bằng phụ âm d + y, nên đổi y → i rồi thêm -ed: study → studied."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x003",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 39,
+      "title": "Câu quá khứ phủ định và nghi vấn",
+      "learningObjective": "Học sinh biết cách đặt câu phủ định (didn't + V nguyên thể) và câu hỏi (Did + S + V nguyên thể?) trong thì quá khứ đơn. Học sinh không dùng động từ thêm -ed sau 'didn't' và 'Did'.",
+      "shortExplanation": "Gợi ý: Câu phủ định quá khứ: S + didn't + V (nguyên thể). Câu hỏi quá khứ: Did + S + V (nguyên thể)? Chú ý: sau 'didn't' và 'Did', động từ trở về dạng nguyên thể, KHÔNG thêm -ed.",
+      "content": "Trong thì quá khứ đơn, để tạo câu phủ định ta dùng 'didn't' (did not) + động từ nguyên thể. Ví dụ: 'Yumi didn't walk to the tower.' (Yumi đã không đi bộ đến tháp.) Lưu ý quan trọng: sau 'didn't', động từ phải ở dạng nguyên thể, không thêm -ed. Để tạo câu hỏi, ta dùng 'Did + S + V nguyên thể?' Ví dụ: 'Did Yumi help the fairies?' (Công chúa Yumi có giúp đỡ các nàng tiên không?) Câu trả lời ngắn: 'Yes, she did.' hoặc 'No, she didn't.'",
+      "storyContext": "Công chúa Yumi viết nhật ký hỏi và trả lời về những việc nàng đã làm hoặc chưa làm trong ngày phiêu lưu tại Vương quốc Thủ Công.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu phủ định ĐÚNG trong thì quá khứ đơn:",
+          "options": ["Yumi not walked to the castle.", "Yumi didn't walked to the castle.", "Yumi wasn't walk to the castle.", "Yumi didn't walk to the castle."],
+          "correctIndex": 3,
+          "explanation": "Câu phủ định đúng là 'didn't + V nguyên thể'. Sau 'didn't', động từ phải là dạng nguyên thể 'walk', không thêm -ed."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi quá khứ đúng là câu nào?",
+          "options": ["Did Yumi helped the fairies?", "Did Yumi help the fairies?", "Does Yumi helped the fairies?", "Yumi did help the fairies?"],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi quá khứ đúng: 'Did + S + V nguyên thể?' → 'Did Yumi help the fairies?' Sau 'Did', động từ ở dạng nguyên thể."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng để điền vào chỗ trống: 'Yumi ___ study magic yesterday — she played instead.'",
+          "options": ["didn't study", "didn't studied", "not study", "doesn't studied"],
+          "correctIndex": 0,
+          "explanation": "'didn't + V nguyên thể' là cấu trúc phủ định đúng. 'Didn't study' là đúng, không dùng 'didn't studied'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trả lời ngắn cho câu hỏi: 'Did Yumi walk to the garden?' — Yumi không đi. Câu trả lời đúng là:",
+          "options": ["No, she walked not.", "No, she didn't walked.", "No, she not did.", "No, she didn't."],
+          "correctIndex": 2,
+          "explanation": "Câu trả lời ngắn phủ định đúng trong quá khứ là 'No, + S + didn't.' Không cần lặp lại động từ chính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây SAI về ngữ pháp?",
+          "options": ["Did she play with the crown?", "She didn't help the king.", "Did Yumi studied the spell?", "Yumi didn't carry the bag."],
+          "correctIndex": 3,
+          "explanation": "'Did Yumi studied the spell?' SAI vì sau 'Did', động từ phải ở dạng nguyên thể: 'Did Yumi study the spell?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đổi câu sau sang câu hỏi: 'Yumi helped the princess.' → ?",
+          "options": ["Yumi did help the princess?", "Did Yumi helped the princess?", "Did Yumi help the princess?", "Does Yumi help the princess?"],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi quá khứ đúng: 'Did + S + V nguyên thể?' → 'Did Yumi help the princess?' Động từ trở về nguyên thể sau 'Did'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: '___ Yumi play the harp last night?' — 'Yes, she ___.'",
+          "options": ["Did / did", "Does / does", "Did / does", "Do / did"],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi quá khứ dùng 'Did', câu trả lời ngắn khẳng định dùng 'Yes, she did.' Cả hai đều dùng 'did'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu phủ định đúng: 'Yumi (not / play) in the rain yesterday.'",
+          "options": ["Yumi not played in the rain yesterday.", "Yumi played not in the rain yesterday.", "Yumi didn't playing in the rain yesterday.", "Yumi didn't play in the rain yesterday."],
+          "correctIndex": 2,
+          "explanation": "Cấu trúc đúng: 'didn't + V nguyên thể'. Câu đúng là 'Yumi didn't play in the rain yesterday.'"
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Did Yumi study the magic book?' là câu hỏi quá khứ đúng vì sau 'Did' dùng động từ nguyên thể 'study'.",
+          "correct": true,
+          "explanation": "Đúng! Câu hỏi quá khứ đơn: 'Did + S + V nguyên thể?' Dùng 'study' (nguyên thể) sau 'Did' là hoàn toàn đúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu trong nhật ký của Yumi: 'I ___ (not / walk) to the craft tower today because it rained.'",
+          "answer": "didn't walk",
+          "explanation": "Câu phủ định quá khứ: 'didn't + V nguyên thể'. 'Didn't walk' là dạng đúng, không dùng 'didn't walked'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x004",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 40,
+      "title": "Quy tắc nhân đôi phụ âm cuối",
+      "learningObjective": "Học sinh nắm được quy tắc nhân đôi phụ âm cuối trước khi thêm -ed: động từ một âm tiết, kết thúc bằng một nguyên âm + một phụ âm thì nhân đôi phụ âm đó. Học sinh phân biệt khi nào nhân đôi và khi nào không.",
+      "shortExplanation": "Gợi ý: Quy tắc nhân đôi: động từ ngắn (1 âm tiết) có cấu trúc nguyên âm + phụ âm cuối → nhân đôi phụ âm rồi thêm -ed. Ví dụ: stop → stopped, plan → planned. Nhưng: help → helped (có 2 phụ âm cuối nên không nhân đôi).",
+      "content": "Một quy tắc đặc biệt trong tiếng Anh: khi động từ có một âm tiết và kết thúc bằng một nguyên âm + một phụ âm, ta phải nhân đôi phụ âm cuối trước khi thêm -ed. Ví dụ: stop → stopped (nhân đôi 'p'), plan → planned (nhân đôi 'n'), drop → dropped (nhân đôi 'p'). Tuy nhiên, nếu động từ kết thúc bằng hai phụ âm (như help, walk) hoặc hai nguyên âm + một phụ âm (như rain, heat), ta không nhân đôi. Ví dụ: help → helped (không nhân đôi 'p' vì trước 'p' là phụ âm 'l'). Quy tắc này giúp giữ nguyên cách đọc của nguyên âm ngắn.",
+      "storyContext": "Công chúa Yumi ghi chép cẩn thận vào nhật ký về từng bước thủ công nàng đã thực hiện, chú ý từng chi tiết chính tả để không mắc lỗi.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của động từ 'stop' là gì?",
+          "options": ["stopped", "stoped", "stopping", "stops"],
+          "correctIndex": 0,
+          "explanation": "'Stop' có cấu trúc nguyên âm 'o' + phụ âm 'p' ở cuối, nên nhân đôi 'p' rồi thêm -ed: stop → stopped."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao 'help' ở quá khứ là 'helped' chứ không phải 'helpped'?",
+          "options": ["Vì 'help' là động từ bất quy tắc", "Vì 'help' có hai âm tiết", "Vì trước phụ âm 'p' là phụ âm 'l', không phải nguyên âm", "Vì 'help' kết thúc bằng chữ 'e'"],
+          "correctIndex": 2,
+          "explanation": "'Help' kết thúc bằng hai phụ âm 'l' + 'p'. Quy tắc nhân đôi chỉ áp dụng khi trước phụ âm cuối là một nguyên âm, nên không nhân đôi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng quá khứ ĐÚNG của động từ 'plan'.",
+          "options": ["planed", "planned", "planing", "plans"],
+          "correctIndex": 1,
+          "explanation": "'Plan' có cấu trúc nguyên âm 'a' + phụ âm 'n' ở cuối (một âm tiết), nên nhân đôi 'n' rồi thêm -ed: plan → planned."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi 'đã nhỏ giọt' phẩm màu vào tác phẩm. Dạng quá khứ đúng của 'drop' là gì?",
+          "options": ["droped", "dropted", "dropping", "dropped"],
+          "correctIndex": 3,
+          "explanation": "'Drop' có cấu trúc nguyên âm 'o' + phụ âm 'p', nên nhân đôi 'p' rồi thêm -ed: drop → dropped."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Động từ nào dưới đây KHÔNG cần nhân đôi phụ âm cuối trước khi thêm -ed?",
+          "options": ["stop → stopped", "plan → planned", "walk → walked", "drop → dropped"],
+          "correctIndex": 0,
+          "explanation": "'Walk' kết thúc bằng hai phụ âm 'l' + 'k', nên không nhân đôi phụ âm cuối: walk → walked."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Yumi ___ (grab) the magic paintbrush quickly.'",
+          "options": ["grabed", "grabbing", "grabs", "grabbed"],
+          "correctIndex": 2,
+          "explanation": "'Grab' có cấu trúc nguyên âm 'a' + phụ âm 'b', nên nhân đôi 'b' rồi thêm -ed: grab → grabbed."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có lỗi chính tả trong dạng quá khứ?",
+          "options": ["Yumi walked slowly.", "She helped the king.", "He stoped the music.", "They played together."],
+          "correctIndex": 1,
+          "explanation": "'Stoped' SAI! 'Stop' phải nhân đôi 'p': stop → stopped. Câu đúng phải là 'He stopped the music.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ của 'clap' (vỗ tay) là gì?",
+          "options": ["claped", "claping", "claps", "clapped"],
+          "correctIndex": 3,
+          "explanation": "'Clap' có cấu trúc nguyên âm 'a' + phụ âm 'p', nên nhân đôi 'p' rồi thêm -ed: clap → clapped."
+        },
+        {
+          "type": "true_false",
+          "text": "Dạng quá khứ của 'walk' là 'walkked' vì ta phải nhân đôi phụ âm cuối 'k'.",
+          "correct": false,
+          "explanation": "Sai! 'Walk' kết thúc bằng hai phụ âm 'l' + 'k', quy tắc nhân đôi không áp dụng. Dạng đúng là 'walked'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu nhật ký của Yumi: 'I ___ (stop) at the beautiful crystal bridge to take a rest.'",
+          "answer": "stopped",
+          "explanation": "'Stop' có nguyên âm 'o' + phụ âm 'p' ở cuối (1 âm tiết), nên nhân đôi 'p' rồi thêm -ed: stop → stopped."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x005",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 41,
+      "title": "Tổng hợp: Viết nhật ký quá khứ đơn",
+      "learningObjective": "Học sinh vận dụng tổng hợp tất cả quy tắc quá khứ đơn của động từ thường: -d, -ed, -ied và nhân đôi phụ âm. Học sinh nhận biết và sửa lỗi sai trong các câu quá khứ đơn.",
+      "shortExplanation": "Gợi ý tổng hợp: (1) Thêm -ed bình thường: walk→walked, help→helped; (2) Kết thúc -e: thêm -d: like→liked, dance→danced; (3) Phụ âm + y: đổi y→i rồi thêm -ed: study→studied; (4) Nguyên âm + phụ âm: nhân đôi phụ âm: stop→stopped.",
+      "content": "Hãy cùng ôn lại tất cả các quy tắc! Quy tắc 1: Đa số động từ thêm -ed: walk→walked, help→helped, play→played. Quy tắc 2: Động từ kết thúc bằng -e thì chỉ thêm -d: like→liked, love→loved, dance→danced. Quy tắc 3: Động từ kết thúc bằng phụ âm + y thì đổi y→i rồi thêm -ed: study→studied, try→tried, carry→carried. Quy tắc 4: Động từ một âm tiết kết thúc bằng nguyên âm + phụ âm thì nhân đôi phụ âm: stop→stopped, plan→planned, drop→dropped. Ghi nhớ các quy tắc này sẽ giúp Yumi viết nhật ký tiếng Anh đúng và đẹp!",
+      "storyContext": "Công chúa Yumi đọc lại toàn bộ cuốn nhật ký phiêu lưu của mình và tự hào vì đã dùng đúng thì quá khứ đơn để kể câu chuyện trong Vương quốc Thủ Công.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây CÓ LỖI SAI trong dạng quá khứ?",
+          "options": ["Yumi walked to the tower.", "She studied the magic book.", "She stoped the music box.", "He helped the little prince."],
+          "correctIndex": 1,
+          "explanation": "'Stoped' SAI — cần nhân đôi 'p': stop → stopped. Các câu còn lại đều đúng quy tắc quá khứ đơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng quá khứ đúng của 'carry'.",
+          "options": ["carryed", "carrying", "carries", "carried"],
+          "correctIndex": 3,
+          "explanation": "'Carry' kết thúc bằng phụ âm 'r' + y, nên đổi y → i rồi thêm -ed: carry → carried."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống đúng: 'Last week, Yumi ___ her crown with colorful gems.'",
+          "options": ["decorate", "decorateed", "decorated", "decorating"],
+          "correctIndex": 2,
+          "explanation": "'Decorate' kết thúc bằng -e, nên chỉ thêm -d: decorate → decorated. Đây là dạng quá khứ đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong bốn động từ sau, động từ nào ở quá khứ cần nhân đôi phụ âm cuối?",
+          "options": ["plan → planned", "walk → walked", "study → studied", "help → helped"],
+          "correctIndex": 0,
+          "explanation": "'Plan' có cấu trúc nguyên âm 'a' + phụ âm 'n' (1 âm tiết), nên phải nhân đôi: plan → planned."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây dùng ĐÚNG thì quá khứ đơn với tất cả các động từ?",
+          "options": ["Yumi studied, played, and helped yesterday.", "Yumi studyed, played, and helpped yesterday.", "Yumi studied, plaied, and helped yesterday.", "Yumi studeid, played, and helped yesterday."],
+          "correctIndex": 1,
+          "explanation": "Câu đúng: 'Yumi studied, played, and helped yesterday.' — studied (y→ied), played (thêm -ed), helped (thêm -ed), tất cả đều đúng quy tắc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi 'đã yêu thích' buổi học làm vòng hoa. Dạng quá khứ của 'enjoy' là gì?",
+          "options": ["enjoied", "enjoyes", "enjoying", "enjoyed"],
+          "correctIndex": 3,
+          "explanation": "'Enjoy' kết thúc bằng nguyên âm 'o' + y, nên ta chỉ thêm -ed bình thường: enjoy → enjoyed, không đổi y → i."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tìm lỗi sai trong câu: 'Yumi droped the paintbrush and then picked it up.'",
+          "options": ["picked → pickked", "droped → dropped", "then → than", "and → but"],
+          "correctIndex": 2,
+          "explanation": "'Droped' SAI — 'drop' cần nhân đôi 'p': drop → dropped. Câu đúng: 'Yumi dropped the paintbrush...'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu kể lại đúng: 'Yumi (try) on three dresses and (choose) the pink one.'",
+          "options": ["Yumi tryed on three dresses and choosed the pink one.", "Yumi tried on three dresses and chose the pink one.", "Yumi tried on three dresses and choosed the pink one.", "Yumi tryed on three dresses and chose the pink one."],
+          "correctIndex": 0,
+          "explanation": "'Try → tried' (đổi y→i rồi thêm -ed). 'Choose → chose' là động từ bất quy tắc. Câu đúng: 'Yumi tried on three dresses and chose the pink one.'"
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Yumi studied, walked, and helped in the kingdom yesterday.' dùng đúng cả ba dạng quá khứ của ba quy tắc khác nhau.",
+          "correct": true,
+          "explanation": "Đúng! 'Studied' (y→ied), 'walked' (thêm -ed bình thường), 'helped' (thêm -ed bình thường) — đều đúng quy tắc quá khứ đơn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Viết dạng quá khứ đúng: 'Yumi ___ (plan) a grand party for all the craft kingdom fairies.'",
+          "answer": "planned",
+          "explanation": "'Plan' có nguyên âm 'a' + phụ âm 'n' ở cuối (1 âm tiết), nên nhân đôi 'n' rồi thêm -ed: plan → planned."
+        }
+      ]
+    }
+  ]
+}

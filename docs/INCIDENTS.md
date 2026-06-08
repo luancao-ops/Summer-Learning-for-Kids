@@ -184,6 +184,94 @@ Build output changed from `○ (Static)` to `ƒ (Dynamic)`. DB is now queried on
 
 ---
 
+## Incident 2026-06-07 — `.next-build5` Locked by Failed Build; `prisma generate` Blocked by VS Code TypeScript Server
+
+**Symptoms:**
+- `npm run build` failed with `EPERM: operation not permitted, unlink '.next-build5/build/chunks/...'`
+- `prisma generate` failed with `EPERM: operation not permitted, unlink 'node_modules/.prisma/client/index.d.ts'`
+
+**Root causes (two separate issues):**
+1. The first build attempt (via `Start Summer Quest.cmd`) wrote chunk files to `.next-build5` before failing at TypeScript type checking. Those files remained locked on NTFS — same EPERM pattern as previous builds.
+2. `prisma generate` tries to UNLINK (delete) existing generated files before rewriting them. VS Code's TypeScript language server keeps `.d.ts` files open for IntelliSense, preventing deletion. The Prisma query engine binary `.exe` is also locked by any running server process.
+
+**Fix applied:**
+1. distDir bumped to `.next-build6`. Updated all 6 reference files: `next.config.ts`, `.gitignore`, `Start Summer Quest.cmd`, `docs/TECHNICAL.md`, `AGENTS.md`, `README.md`.
+2. Rewrote `lib/parent-access.ts` and `app/api/parent/set-pin/route.ts` to use `prisma.$queryRaw` / `$executeRaw` (raw SQL) instead of `prisma.siteConfig.*`. Raw queries work with the old client — the new `SiteConfig` table is already created by the migration, so no type regeneration is needed.
+
+**Rule:** When `prisma generate` fails with EPERM on VS Code open, switch to `prisma.$queryRaw` / `$executeRaw` for the new table. Raw SQL is readable for simple key-value operations and avoids the lock entirely. Regenerate properly next time VS Code is fully restarted.
+
+---
+
+## Incident 2026-06-08 — 99 Wrong correctAnswer Fields in Girl Vietnamese Lessons (Systematic AI Generation Error)
+
+**Symptoms:**
+- Children would select the correct answer (e.g., option C) but the quiz would mark it wrong and show "Sai rồi!"
+- The explanation shown would describe a different option as correct, contradicting what the child selected
+- Affected 99 questions across 33 lessons in girl-g4-vi and girl-g5-vi
+
+**Root cause:**
+`docs/AI_DATA_STANDARDS.md` contained a rigid "answer distribution pattern" rule requiring AI to assign `correctAnswer` letters in a strict rotation (P1: `A C B D A C B D`, etc.). To satisfy this constraint, the AI had to either write questions where the correct answer happened to fall on the required letter, or shuffle option order after writing the content. This rearrangement step was systematically unreliable — the AI would assign `correctAnswer` per the rotation pattern, but write the `explanation` field describing whichever option was actually correct in the content it had already written. The two became out of sync.
+
+**Detection pattern:**
+Any MC question where `explanation` starts with `"Nhầm rồi"`, `"Sai -"`, or similar "wrong answer" phrases has a mismatched `correctAnswer`. These phrases mean "You're wrong!" and must never appear in the explanation that is shown when the child picks the *correct* answer.
+
+Run this at any time to detect regressions:
+```
+node scripts/validate-answers.js
+```
+
+**Fix applied:**
+- 99 `correctAnswer` fields corrected in girl Vietnamese lessons via Prisma Node.js script
+- 3 additional `correctAnswer` fields corrected in girl math lessons (found by validator): girl-g4-math-x024-q4, girl-g5-math-x018-q2, girl-g5-math-x018-q8
+- Removed the rigid answer rotation rule from `docs/AI_DATA_STANDARDS.md` — replaced with a loose distribution guideline that does NOT prescribe specific letter patterns
+- Created `summer-quest/scripts/validate-answers.js` — detects explicit letter contradictions in explanation text (e.g., "đáp án đúng là C" but `correctAnswer = "B"`)
+
+**Validator notes:**
+- The `(options[N])` index pattern in AI explanations is NOT a reliable signal — the AI uses it both positively ("'em' (options[0])") and negatively ("không phải options[1]"). Do NOT build detection logic on that pattern.
+- "Nhầm rồi!" prefix is also NOT a reliable signal — it is the AI's standard tone for wrong-answer feedback, not an indicator of a `correctAnswer` error.
+- Only explicit phrases like "đáp án đúng là X" or "câu đúng là X" reliably indicate a mismatch.
+
+**Rule:** Never require AI to follow a strict answer-letter rotation pattern. It creates a systematic mismatch between `explanation` and `correctAnswer`. After every content import, run `node scripts/validate-answers.js` to scan for explicit letter contradictions.
+
+---
+
+## Incident 2026-06-08 — 6 Wrong correctAnswer Fields in Boy Vietnamese and Girl Math Lessons
+
+**Symptoms:**
+- Quiz shows wrong answer as correct (e.g., boy-g3-vi-x001 Q3 marked B="cái bàn" as correct for "KHÔNG phải danh từ" — but cái bàn IS a danh từ)
+- Math fraction questions produce wrong answers (e.g., girl-g4-math-x002 Q7: 4 parts out of 9 → answer should be 4/9 but stored C=4/5)
+- Screenshots from parent review confirmed: student selects correct answer but quiz marks it wrong
+
+**Root cause:**
+During AI-generated content creation, `correctIndex` was misassigned in the original manifest JSON. Two failure modes observed:
+1. **Off-by-one shift**: options were written in order A–D but correctIndex pointed to the wrong position (e.g., index 1=B instead of index 2=C)
+2. **Inverted fraction**: for fraction questions, numerator/denominator were swapped in the options list, causing the wrong option to be labeled as correct (e.g., 9/20 vs 20/9)
+
+The explanation text was written correctly (describing the right answer), but correctIndex pointed to a different option — the `validate-answers.js` script did not catch these because explanations don't use the "Đáp án đúng là X" exact phrase pattern.
+
+**Questions fixed (6 total):**
+| Lesson | Q | Was | Fixed to |
+|---|---|---|---|
+| boy-g3-vi-x001 | 3 | B=cái bàn | C=nhanh nhẹn |
+| girl-g4-math-x002 | 7 | C=4/5 | D=4/9 |
+| girl-g4-math-x004 | 6 | B=20/9 | A=9/20 |
+| girl-g4-math-x004 | 8 | C=6/15 | B=5/15 |
+| girl-g4-math-x013 | 7 | B=6/8 | C=5/8 |
+| girl-g4-math-x023 | 7 | D=2/6 | C=3/6 |
+
+**Fix applied:** Direct DB update via Prisma (`question.update({ correctAnswer })`). Manifest source files were not changed (append-only import skips existing IDs anyway).
+
+**Detection method used:**
+```javascript
+// For math: match "phân số là X/Y" in explanation vs stored correctAnswer option text
+const fracMatch = expl.match(/phân số là ([0-9]+\/[0-9]+)/i);
+if (fracMatch[1] !== correctOpt.text) { /* flag */ }
+```
+
+**Rule:** After every content import batch, run the fraction-mismatch audit script (see above) in addition to `validate-answers.js`. For grammar/language questions with KHÔNG (NOT), manually spot-check that correctIndex points to the non-example option, not one of the examples listed.
+
+---
+
 ## Quick Reference: Rules from All Incidents
 
 | Area | Rule |
@@ -200,7 +288,11 @@ Build output changed from `○ (Static)` to `ƒ (Dynamic)`. DB is now queried on
 | Live DB queries | `export const dynamic = "force-dynamic"` on every page that queries live data |
 | Client boundary | Pure helpers must live in `lib/*.ts` — never export them from `"use client"` files |
 | Doc updates | Every bug fix → INCIDENTS.md. Every feature → BACKLOG.md ticket marked ✅ Done |
-| Current distDir | `.next-build5` (`.next` through `.next-build4` all locked by running server at time of build) |
+| AI content answers | Never prescribe a rigid correctAnswer rotation pattern. After every import: `node scripts/validate-answers.js` |
+| AI fraction answers | After importing math lessons, audit with: `expl.match(/phân số là X\/Y/)` vs stored correctAnswer to catch inverted fractions |
+| KHÔNG questions | For "KHÔNG phải X" questions, correctIndex must point to the NON-example — spot-check manually after import |
+| Current distDir | `.next-build6` (`.next` through `.next-build5` all locked by previous builds/server) |
+| `prisma generate` EPERM | Use `prisma.$queryRaw`/`$executeRaw` for new tables; regenerate later when VS Code is restarted |
 
 ---
 

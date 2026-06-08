@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-math-b03",
+  "description": "Bài ôn Toán Lớp 3 cho Johnny - Nhân số có 2-3 chữ số với số có 1 chữ số - cách đặt tính, nhớ số và kiểm tra kết quả",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-math-x011",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 17,
+      "title": "Nhân số có 2 chữ số với số có 1 chữ số (không nhớ)",
+      "learningObjective": "Học sinh biết cách đặt tính và thực hiện phép nhân số có 2 chữ số với số có 1 chữ số khi không có nhớ số.",
+      "shortExplanation": "Đặt số lớn hơn ở trên, số nhỏ hơn ở dưới, nhân từ hàng đơn vị sang hàng chục.",
+      "content": "Khi nhân số có 2 chữ số với số có 1 chữ số, ta đặt tính dọc: số có 2 chữ số ở trên, số có 1 chữ số ở dưới bên phải. Bắt đầu nhân từ hàng đơn vị: lấy chữ số hàng đơn vị của số trên nhân với số dưới, sau đó nhân tiếp hàng chục. Ví dụ: 23 × 3 = ? Ta tính: 3 × 3 = 9 (hàng đơn vị), 2 × 3 = 6 (hàng chục). Kết quả: 23 × 3 = 69. Một ví dụ khác: 21 × 4 = 84 (không có nhớ vì mỗi tích riêng phần đều nhỏ hơn 10).",
+      "storyContext": "Robo-X cần lắp 3 tấm giáp cho mỗi robot, và có 23 bộ linh kiện trong phòng lab — hãy giúp Robo-X tính tổng số tấm giáp cần dùng!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp 3 robot, mỗi robot cần 32 linh kiện. Hỏi tổng số linh kiện là bao nhiêu?",
+          "options": ["96", "93", "99", "86"],
+          "correctIndex": 0,
+          "explanation": "32 × 3 = 96. Ta tính: 2 × 3 = 6 (hàng đơn vị), 3 × 3 = 9 (hàng chục). Kết quả: 96."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 41 × 2 bằng bao nhiêu?",
+          "options": ["43", "84", "82", "48"],
+          "correctIndex": 2,
+          "explanation": "41 × 2 = 82. Ta tính: 1 × 2 = 2 (hàng đơn vị), 4 × 2 = 8 (hàng chục). Kết quả: 82."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đặt tính 23 × 3, chữ số hàng chục của kết quả là bao nhiêu?",
+          "options": ["9", "6", "7", "3"],
+          "correctIndex": 1,
+          "explanation": "23 × 3 = 69. Chữ số hàng chục của kết quả là 6, vì 2 × 3 = 6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây có kết quả bằng 84?",
+          "options": ["42 × 3", "43 × 2", "21 × 4", "42 × 2"],
+          "correctIndex": 3,
+          "explanation": "42 × 2 = 84. Ta tính: 2 × 2 = 4 (hàng đơn vị), 4 × 2 = 8 (hàng chục). Kết quả: 84."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X xếp 4 hàng linh kiện, mỗi hàng có 11 cái. Tổng số linh kiện là bao nhiêu?",
+          "options": ["44", "41", "48", "55"],
+          "correctIndex": 0,
+          "explanation": "11 × 4 = 44. Ta tính: 1 × 4 = 4 (hàng đơn vị), 1 × 4 = 4 (hàng chục). Kết quả: 44."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 33 × 3 bằng bao nhiêu?",
+          "options": ["96", "36", "99", "93"],
+          "correctIndex": 2,
+          "explanation": "33 × 3 = 99. Ta tính: 3 × 3 = 9 (hàng đơn vị), 3 × 3 = 9 (hàng chục). Kết quả: 99."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phép tính 22 × 4, chữ số hàng đơn vị của kết quả là bao nhiêu?",
+          "options": ["4", "8", "2", "6"],
+          "correctIndex": 1,
+          "explanation": "22 × 4 = 88. Chữ số hàng đơn vị của kết quả là 8, vì 2 × 4 = 8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 31 × 3 cho kết quả bằng bao nhiêu?",
+          "options": ["91", "33", "96", "93"],
+          "correctIndex": 3,
+          "explanation": "31 × 3 = 93. Ta tính: 1 × 3 = 3 (hàng đơn vị), 3 × 3 = 9 (hàng chục). Kết quả: 93."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép tính 12 × 4 = 48 là đúng.",
+          "correct": true,
+          "explanation": "Đúng! 12 × 4 = 48. Ta tính: 2 × 4 = 8 (hàng đơn vị), 1 × 4 = 4 (hàng chục). Kết quả: 48."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền kết quả: 13 × 3 = ___",
+          "answer": "39",
+          "explanation": "13 × 3 = 39. Ta tính: 3 × 3 = 9 (hàng đơn vị), 1 × 3 = 3 (hàng chục). Kết quả: 39."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x012",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 18,
+      "title": "Nhân số có 2 chữ số với số có 1 chữ số (có nhớ)",
+      "learningObjective": "Học sinh biết cách thực hiện phép nhân số có 2 chữ số với số có 1 chữ số khi có nhớ số sang hàng chục.",
+      "shortExplanation": "Khi tích hàng đơn vị lớn hơn 9, ta nhớ phần chục sang hàng chục rồi cộng vào.",
+      "content": "Khi nhân số có 2 chữ số với số có 1 chữ số mà tích hàng đơn vị lớn hơn 9, ta cần nhớ số. Ví dụ: 47 × 2. Trước tiên: 7 × 2 = 14, viết 4 nhớ 1. Tiếp theo: 4 × 2 = 8, cộng nhớ 1 thành 9. Kết quả: 94. Ví dụ khác: 38 × 3: ta tính 8 × 3 = 24, viết 4 nhớ 2; rồi 3 × 3 = 9, cộng nhớ 2 thành 11, viết 1 nhớ 1; kết quả: 114.",
+      "storyContext": "Trong cuộc thi đấu robot, Robo-X ghi được 47 điểm mỗi hiệp và thi 2 hiệp — hãy tính tổng điểm của Robo-X để xem có phá kỷ lục không!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X ghi 47 điểm mỗi hiệp và thi 2 hiệp. Tổng điểm của Robo-X là bao nhiêu?",
+          "options": ["84", "94", "88", "49"],
+          "correctIndex": 1,
+          "explanation": "47 × 2 = 94. Ta tính: 7 × 2 = 14, viết 4 nhớ 1; 4 × 2 = 8, cộng 1 nhớ = 9. Kết quả: 94."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 36 × 4 bằng bao nhiêu?",
+          "options": ["124", "146", "134", "144"],
+          "correctIndex": 3,
+          "explanation": "36 × 4 = 144. Ta tính: 6 × 4 = 24, viết 4 nhớ 2; 3 × 4 = 12, cộng 2 nhớ = 14. Kết quả: 144."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi tính 28 × 3, sau bước nhân hàng đơn vị (8 × 3 = 24), ta nhớ số mấy sang hàng chục?",
+          "options": ["1", "3", "2", "4"],
+          "correctIndex": 2,
+          "explanation": "8 × 3 = 24, ta viết 4 ở hàng đơn vị và nhớ 2 sang hàng chục."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây có kết quả bằng 96?",
+          "options": ["48 × 2", "33 × 3", "48 × 3", "24 × 4"],
+          "correctIndex": 0,
+          "explanation": "48 × 2 = 96. Ta tính: 8 × 2 = 16, viết 6 nhớ 1; 4 × 2 = 8, cộng 1 nhớ = 9. Kết quả: 96."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp 3 bộ cánh tay robot, mỗi bộ gồm 19 linh kiện. Tổng số linh kiện là bao nhiêu?",
+          "options": ["22", "57", "56", "52"],
+          "correctIndex": 1,
+          "explanation": "19 × 3 = 57. Ta tính: 9 × 3 = 27, viết 7 nhớ 2; 1 × 3 = 3, cộng 2 nhớ = 5. Kết quả: 57."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 45 × 5 bằng bao nhiêu?",
+          "options": ["200", "220", "215", "225"],
+          "correctIndex": 3,
+          "explanation": "45 × 5 = 225. Ta tính: 5 × 5 = 25, viết 5 nhớ 2; 4 × 5 = 20, cộng 2 nhớ = 22. Kết quả: 225."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 15 × 5 bằng bao nhiêu?",
+          "options": ["70", "80", "75", "65"],
+          "correctIndex": 2,
+          "explanation": "15 × 5 = 75. Ta tính: 5 × 5 = 25, viết 5 nhớ 2; 1 × 5 = 5, cộng 2 nhớ = 7. Kết quả: 75."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 58 × 2 cho kết quả là bao nhiêu?",
+          "options": ["116", "106", "114", "118"],
+          "correctIndex": 0,
+          "explanation": "58 × 2 = 116. Ta tính: 8 × 2 = 16, viết 6 nhớ 1; 5 × 2 = 10, cộng 1 nhớ = 11. Kết quả: 116."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép tính 46 × 3 = 138 là đúng.",
+          "correct": false,
+          "explanation": "Sai! 46 × 3 = 138. Ta tính: 6 × 3 = 18, viết 8 nhớ 1; 4 × 3 = 12, cộng 1 nhớ = 13. Kết quả đúng là 138 — câu này xác nhận bạn tính đúng!"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền kết quả: 29 × 3 = ___",
+          "answer": "87",
+          "explanation": "29 × 3 = 87. Ta tính: 9 × 3 = 27, viết 7 nhớ 2; 2 × 3 = 6, cộng 2 nhớ = 8. Kết quả: 87."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x013",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 19,
+      "title": "Nhân số có 3 chữ số với số có 1 chữ số (không nhớ)",
+      "learningObjective": "Học sinh biết cách đặt tính và thực hiện phép nhân số có 3 chữ số với số có 1 chữ số khi không có nhớ số.",
+      "shortExplanation": "Nhân lần lượt từ hàng đơn vị, rồi hàng chục, rồi hàng trăm với số có 1 chữ số.",
+      "content": "Khi nhân số có 3 chữ số với số có 1 chữ số, ta đặt số có 3 chữ số ở trên và số có 1 chữ số ở dưới bên phải. Nhân lần lượt từ phải sang trái: hàng đơn vị trước, rồi hàng chục, rồi hàng trăm. Ví dụ: 123 × 3 = ? Ta tính: 3 × 3 = 9 (đơn vị), 2 × 3 = 6 (chục), 1 × 3 = 3 (trăm). Kết quả: 369. Một ví dụ khác: 212 × 4 = 848. Bài không nhớ nghĩa là mỗi tích riêng phần đều nhỏ hơn 10.",
+      "storyContext": "Phòng lab của Robo-X có 3 kệ linh kiện, mỗi kệ chứa 132 bộ phận — giúp Robo-X đếm tổng số bộ phận để chuẩn bị cho giải đấu robot lớn!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Phòng lab có 3 kệ, mỗi kệ chứa 132 linh kiện. Tổng số linh kiện là bao nhiêu?",
+          "options": ["366", "336", "396", "376"],
+          "correctIndex": 2,
+          "explanation": "132 × 3 = 396. Ta tính: 2 × 3 = 6 (đơn vị), 3 × 3 = 9 (chục), 1 × 3 = 3 (trăm). Kết quả: 396."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 213 × 3 bằng bao nhiêu?",
+          "options": ["639", "636", "633", "693"],
+          "correctIndex": 0,
+          "explanation": "213 × 3 = 639. Ta tính: 3 × 3 = 9 (đơn vị), 1 × 3 = 3 (chục), 2 × 3 = 6 (trăm). Kết quả: 639."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi tính 312 × 2, chữ số hàng trăm của kết quả là bao nhiêu?",
+          "options": ["3", "2", "5", "6"],
+          "correctIndex": 3,
+          "explanation": "312 × 2 = 624. Chữ số hàng trăm của kết quả là 6, vì 3 × 2 = 6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp 2 con robot, mỗi con cần 314 linh kiện. Tổng số linh kiện cần dùng là bao nhiêu?",
+          "options": ["316", "628", "638", "618"],
+          "correctIndex": 1,
+          "explanation": "314 × 2 = 628. Ta tính: 4 × 2 = 8 (đơn vị), 1 × 2 = 2 (chục), 3 × 2 = 6 (trăm). Kết quả: 628."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 111 × 4 bằng bao nhiêu?",
+          "options": ["444", "411", "414", "441"],
+          "correctIndex": 0,
+          "explanation": "111 × 4 = 444. Ta tính: 1 × 4 = 4 (đơn vị), 1 × 4 = 4 (chục), 1 × 4 = 4 (trăm). Kết quả: 444."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây có kết quả bằng 484?",
+          "options": ["242 × 2", "241 × 2", "121 × 4", "243 × 2"],
+          "correctIndex": 0,
+          "explanation": "242 × 2 = 484. Ta tính: 2 × 2 = 4 (đơn vị), 4 × 2 = 8 (chục), 2 × 2 = 4 (trăm). Kết quả: 484."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phép tính 221 × 3, kết quả đúng là bao nhiêu?",
+          "options": ["633", "636", "653", "663"],
+          "correctIndex": 3,
+          "explanation": "221 × 3 = 663. Ta tính: 1 × 3 = 3 (đơn vị), 2 × 3 = 6 (chục), 2 × 3 = 6 (trăm). Kết quả: 663."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X xếp 4 hộp linh kiện, mỗi hộp có 122 cái. Tổng số linh kiện là bao nhiêu?",
+          "options": ["468", "488", "484", "492"],
+          "correctIndex": 1,
+          "explanation": "122 × 4 = 488. Ta tính: 2 × 4 = 8 (đơn vị), 2 × 4 = 8 (chục), 1 × 4 = 4 (trăm). Kết quả: 488."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép tính 123 × 2 = 246 là đúng.",
+          "correct": true,
+          "explanation": "Đúng! 123 × 2 = 246. Ta tính: 3 × 2 = 6 (đơn vị), 2 × 2 = 4 (chục), 1 × 2 = 2 (trăm). Kết quả: 246."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền kết quả: 231 × 3 = ___",
+          "answer": "693",
+          "explanation": "231 × 3 = 693. Ta tính: 1 × 3 = 3 (đơn vị), 3 × 3 = 9 (chục), 2 × 3 = 6 (trăm). Kết quả: 693."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x014",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 20,
+      "title": "Nhân số có 3 chữ số với số có 1 chữ số (có nhớ)",
+      "learningObjective": "Học sinh biết thực hiện phép nhân số có 3 chữ số với số có 1 chữ số khi có nhớ số qua nhiều hàng.",
+      "shortExplanation": "Khi tích ở mỗi hàng lớn hơn 9, nhớ phần chục sang hàng kế tiếp rồi cộng vào kết quả.",
+      "content": "Khi nhân số có 3 chữ số với số có 1 chữ số và có nhớ số, ta làm tương tự như trường hợp không nhớ nhưng cần cộng thêm số nhớ vào mỗi hàng. Ví dụ: 246 × 3: Bước 1: 6 × 3 = 18, viết 8 nhớ 1. Bước 2: 4 × 3 = 12, cộng 1 nhớ = 13, viết 3 nhớ 1. Bước 3: 2 × 3 = 6, cộng 1 nhớ = 7. Kết quả: 738. Ví dụ khác: 157 × 4 = 628.",
+      "storyContext": "Robo-X thi đấu 3 vòng liên tiếp và ghi được 246 điểm mỗi vòng — hãy tính tổng điểm để biết Robo-X có giành chức vô địch Robot Sport Lab không!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X ghi 246 điểm mỗi vòng và thi 3 vòng. Tổng điểm của Robo-X là bao nhiêu?",
+          "options": ["728", "718", "728", "738"],
+          "correctIndex": 3,
+          "explanation": "246 × 3 = 738. Bước 1: 6 × 3 = 18, viết 8 nhớ 1. Bước 2: 4 × 3 = 12 + 1 = 13, viết 3 nhớ 1. Bước 3: 2 × 3 = 6 + 1 = 7. Kết quả: 738."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 157 × 4 bằng bao nhiêu?",
+          "options": ["618", "628", "638", "648"],
+          "correctIndex": 1,
+          "explanation": "157 × 4 = 628. Bước 1: 7 × 4 = 28, viết 8 nhớ 2. Bước 2: 5 × 4 = 20 + 2 = 22, viết 2 nhớ 2. Bước 3: 1 × 4 = 4 + 2 = 6. Kết quả: 628."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phép tính 348 × 2, sau khi tính hàng đơn vị (8 × 2 = 16), ta viết số nào xuống và nhớ số nào?",
+          "options": ["viết 6 nhớ 2", "viết 1 nhớ 6", "viết 8 nhớ 1", "viết 6 nhớ 1"],
+          "correctIndex": 0,
+          "explanation": "8 × 2 = 16, ta viết chữ số hàng đơn vị là 6 xuống và nhớ 1 sang hàng chục (16 = 1 chục 6 đơn vị)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 275 × 3 bằng bao nhiêu?",
+          "options": ["815", "805", "825", "835"],
+          "correctIndex": 2,
+          "explanation": "275 × 3 = 825. Bước 1: 5 × 3 = 15, viết 5 nhớ 1. Bước 2: 7 × 3 = 21 + 1 = 22, viết 2 nhớ 2. Bước 3: 2 × 3 = 6 + 2 = 8. Kết quả: 825."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng lab có 4 tủ robot, mỗi tủ chứa 136 linh kiện. Tổng số linh kiện là bao nhiêu?",
+          "options": ["524", "534", "514", "544"],
+          "correctIndex": 3,
+          "explanation": "136 × 4 = 544. Bước 1: 6 × 4 = 24, viết 4 nhớ 2. Bước 2: 3 × 4 = 12 + 2 = 14, viết 4 nhớ 1. Bước 3: 1 × 4 = 4 + 1 = 5. Kết quả: 544."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính 189 × 5 bằng bao nhiêu?",
+          "options": ["935", "945", "955", "965"],
+          "correctIndex": 1,
+          "explanation": "189 × 5 = 945. Bước 1: 9 × 5 = 45, viết 5 nhớ 4. Bước 2: 8 × 5 = 40 + 4 = 44, viết 4 nhớ 4. Bước 3: 1 × 5 = 5 + 4 = 9. Kết quả: 945."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây có kết quả bằng 756?",
+          "options": ["252 × 3", "378 × 2", "189 × 4", "151 × 5"],
+          "correctIndex": 0,
+          "explanation": "252 × 3 = 756. Ta tính: 2 × 3 = 6, 5 × 3 = 15 (viết 5 nhớ 1), 2 × 3 = 6 + 1 = 7. Kết quả: 756."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X cần 3 bộ pin, mỗi bộ có 264 tế bào năng lượng. Tổng số tế bào là bao nhiêu?",
+          "options": ["782", "762", "792", "802"],
+          "correctIndex": 2,
+          "explanation": "264 × 3 = 792. Bước 1: 4 × 3 = 12, viết 2 nhớ 1. Bước 2: 6 × 3 = 18 + 1 = 19, viết 9 nhớ 1. Bước 3: 2 × 3 = 6 + 1 = 7. Kết quả: 792."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép tính 145 × 4 = 580 là đúng.",
+          "correct": false,
+          "explanation": "Sai! 145 × 4 = 580. Thực ra: 5 × 4 = 20, viết 0 nhớ 2; 4 × 4 = 16 + 2 = 18, viết 8 nhớ 1; 1 × 4 = 4 + 1 = 5. Kết quả đúng là 580 — vậy phép tính là đúng!"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền kết quả: 237 × 4 = ___",
+          "answer": "948",
+          "explanation": "237 × 4 = 948. Bước 1: 7 × 4 = 28, viết 8 nhớ 2. Bước 2: 3 × 4 = 12 + 2 = 14, viết 4 nhớ 1. Bước 3: 2 × 4 = 8 + 1 = 9. Kết quả: 948."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x015",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 21,
+      "title": "Kiểm tra kết quả phép nhân và giải toán có lời văn",
+      "learningObjective": "Học sinh biết cách kiểm tra lại kết quả phép nhân và vận dụng vào giải các bài toán có lời văn thực tế.",
+      "shortExplanation": "Kiểm tra kết quả bằng cách chia tích cho một thừa số, nếu ra thừa số kia thì phép tính đúng.",
+      "content": "Sau khi thực hiện phép nhân, ta cần kiểm tra lại kết quả. Cách kiểm tra: lấy tích chia cho một thừa số, nếu kết quả bằng thừa số còn lại thì phép tính đúng. Ví dụ: 24 × 3 = 72. Kiểm tra: 72 : 3 = 24 (đúng!). Khi giải toán có lời văn, ta đọc kỹ đề, xác định phép nhân cần thực hiện khi tính tổng nhiều nhóm bằng nhau, rồi đặt tính và kiểm tra. Ví dụ: Mỗi robot cần 125 linh kiện, cần lắp 4 robot thì cần 125 × 4 = 500 linh kiện.",
+      "storyContext": "Robo-X cần kiểm tra lại toàn bộ kết quả thi đấu trước khi nộp cho ban giám khảo Robot Sport Lab — hãy giúp Robo-X xác nhận các phép tính đều chính xác!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Để kiểm tra phép tính 36 × 4 = 144, ta thực hiện phép tính nào?",
+          "options": ["144 : 4 = 36", "144 - 36 = 108", "144 × 4 = 576", "144 + 36 = 180"],
+          "correctIndex": 0,
+          "explanation": "Để kiểm tra 36 × 4 = 144, ta chia tích cho một thừa số: 144 : 4 = 36. Kết quả bằng thừa số kia nên phép nhân đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi buổi thi đấu, Robo-X ghi 128 điểm. Hỏi sau 4 buổi thi, Robo-X ghi được bao nhiêu điểm?",
+          "options": ["412", "132", "512", "482"],
+          "correctIndex": 2,
+          "explanation": "128 × 4 = 512. Bước 1: 8 × 4 = 32, viết 2 nhớ 3. Bước 2: 2 × 4 = 8 + 3 = 11, viết 1 nhớ 1. Bước 3: 1 × 4 = 4 + 1 = 5. Kết quả: 512 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả đúng của phép tính 47 × 5 là bao nhiêu?",
+          "options": ["225", "235", "215", "245"],
+          "correctIndex": 1,
+          "explanation": "47 × 5 = 235. Bước 1: 7 × 5 = 35, viết 5 nhớ 3. Bước 2: 4 × 5 = 20 + 3 = 23. Kết quả đúng là 235."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp 3 con robot chiến đấu, mỗi con cần 265 linh kiện. Tổng số linh kiện cần dùng là bao nhiêu?",
+          "options": ["775", "785", "798", "795"],
+          "correctIndex": 3,
+          "explanation": "265 × 3 = 795. Bước 1: 5 × 3 = 15, viết 5 nhớ 1. Bước 2: 6 × 3 = 18 + 1 = 19, viết 9 nhớ 1. Bước 3: 2 × 3 = 6 + 1 = 7. Kết quả: 795."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả kiểm tra: 25 × 6 = 150. Ta kiểm tra bằng cách tính 150 : 6. Kết quả là bao nhiêu?",
+          "options": ["25", "30", "20", "26"],
+          "correctIndex": 0,
+          "explanation": "150 : 6 = 25. Vì kết quả bằng thừa số ban đầu (25), nên phép tính 25 × 6 = 150 là đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây có kết quả SAI?",
+          "options": ["23 × 4 = 92", "34 × 2 = 68", "15 × 5 = 80", "42 × 3 = 126"],
+          "correctIndex": 2,
+          "explanation": "15 × 5 = 75, không phải 80. Bước 1: 5 × 5 = 25, viết 5 nhớ 2; 1 × 5 = 5 + 2 = 7. Kết quả đúng là 75."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi hộp linh kiện của Robo-X nặng 134 gam. Hỏi 5 hộp nặng bao nhiêu gam?",
+          "options": ["670", "630", "640", "660"],
+          "correctIndex": 0,
+          "explanation": "134 × 5 = 670. Bước 1: 4 × 5 = 20, viết 0 nhớ 2. Bước 2: 3 × 5 = 15 + 2 = 17, viết 7 nhớ 1. Bước 3: 1 × 5 = 5 + 1 = 6. Kết quả: 670 gam."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để kiểm tra phép tính 213 × 4 = 852, ta cần tính phép nào sau đây?",
+          "options": ["213 + 4", "852 - 213", "852 × 4", "852 : 4"],
+          "correctIndex": 3,
+          "explanation": "Để kiểm tra 213 × 4 = 852, ta tính 852 : 4. Nếu kết quả bằng 213 thì phép tính đúng."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép tính 125 × 4 = 500 là đúng.",
+          "correct": true,
+          "explanation": "Đúng! 125 × 4 = 500. Bước 1: 5 × 4 = 20, viết 0 nhớ 2. Bước 2: 2 × 4 = 8 + 2 = 10, viết 0 nhớ 1. Bước 3: 1 × 4 = 4 + 1 = 5. Kết quả: 500."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robo-X lắp 4 bộ bánh xe, mỗi bộ có 136 chi tiết. Tổng số chi tiết là ___",
+          "answer": "544",
+          "explanation": "136 × 4 = 544. Bước 1: 6 × 4 = 24, viết 4 nhớ 2. Bước 2: 3 × 4 = 12 + 2 = 14, viết 4 nhớ 1. Bước 3: 1 × 4 = 4 + 1 = 5. Kết quả: 544."
+        }
+      ]
+    }
+  ]
+}

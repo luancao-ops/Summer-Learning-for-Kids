@@ -68,7 +68,7 @@ npm.cmd run content:import   # Import bài học từ manifests/
 
 ## Quy tắc không thay đổi
 
-- `distDir: ".next-build5"` trong `next.config.ts` — **không đổi lại `.next` đến `.next-build4`**
+- `distDir: ".next-build6"` trong `next.config.ts` — **không đổi lại `.next` đến `.next-build5`**
 - Tất cả query bài học học sinh **phải có** `where: { approved: true }`
 - Launcher (`Start Summer Quest.cmd`) dùng `next start` — **không dùng `next dev`**
 - White card: `style={{ backgroundColor: "#ffffff" }}` — không dùng `bg-white`

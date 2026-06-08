@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { ContentReviewCard } from "@/components/ContentReviewCard";
+import { requireParentAccess } from "@/lib/parent-access";
 import { prisma } from "@/lib/prisma";
 
 export const dynamic = "force-dynamic";
 
 export default async function ParentReviewPage() {
+  await requireParentAccess();
   const lessons = await prisma.lesson.findMany({
     where: { approved: false },
     orderBy: [{ createdAt: "desc" }, { orderIndex: "asc" }],

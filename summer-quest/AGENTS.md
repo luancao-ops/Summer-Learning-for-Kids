@@ -1,6 +1,8 @@
 # Summer Quest — Agent Rules
 
 Rules for ALL AI agents (Claude Code and Codex) working in this codebase.
+
+**AI onboarding:** Read `docs/00_AGENT_INDEX.md` first — it routes you to the right doc for any task in < 5 KB.
 For team workflow, content generation, and onboarding: read `docs/AGENTS.md`.
 
 ---
@@ -68,7 +70,7 @@ Full workflow in `docs/AGENTS.md`.
 - If using `fetch()`: always wrap in try-catch to prevent permanently stuck loading states
 
 ### 3.8 Build & Launcher
-- `distDir: ".next-build5"` in `next.config.ts` — do NOT change back to `.next` through `.next-build4`
+- `distDir: ".next-build6"` in `next.config.ts` — do NOT change back to `.next` through `.next-build5`
 - `Start Summer Quest.cmd` uses `next start` (production) — never change to `next dev`
 - Dev mode (`npm run dev:local`) is for Claude/Codex only, never for family use
 

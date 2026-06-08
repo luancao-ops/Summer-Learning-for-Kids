@@ -1,0 +1,626 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-vi-b04",
+  "description": "Boy Grade 3 Vietnamese — Batch 4: Chính tả, Câu kể/miêu tả, Đọc hiểu, Viết văn",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-vi-x016",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 22,
+      "title": "Phân biệt phụ âm đầu TR/CH và S/X",
+      "learningObjective": "Sau bài này, Johnny phân biệt và viết đúng chính tả các từ dùng phụ âm đầu TR/CH và S/X.",
+      "shortExplanation": "Luyện phân biệt TR với CH và S với X — hai cặp phụ âm dễ nhầm lẫn khi viết chính tả.",
+      "content": "## Phân biệt TR và CH\nTR và CH phát âm khác nhau:\n- **TR**: lưỡi cuộn về phía sau — trường, trăng, trẻ, trâu\n- **CH**: lưỡi đặt sau răng trên — chân, chim, chạy, chăm\n\n**Mẹo nhớ TR:**\n- Trường học, trời đất, trắng tinh, trâu cày, trẻ em\n- Các từ chỉ thiên nhiên thường dùng TR: trời, trăng, trụ\n\n**Mẹo nhớ CH:**\n- Chăm chỉ, chân thật, chim chóc, chạy nhảy\n- Từ chỉ cơ thể thường dùng CH: chân, chỏ, cằm\n\n## Phân biệt S và X\n- **S**: sông, sáng, sạch, sáo, sắm, siêng\n- **X**: xanh, xôn xao, xuân, xới, xảo\n\n**Mẹo nhớ:**\n- Không có quy tắc tuyệt đối — cần học từng từ cụ thể\n- Viết hay → nhớ nhiều từ\n\n## Ví dụ câu\n- **Con trâu** chú **chăm chỉ** cày ruộng. (TR/CH đúng chỗ)\n- Bầu **trời xanh** và **trong sáng**. (TR/S đúng chỗ)\n- Mùa **xuân** cây cỏ **xanh** tươi. (X/X)",
+      "storyContext": "ROBO gặp lỗi chính tả trong bộ nhớ — máy tính nhầm TR và CH, S và X. Johnny giúp ROBO sửa lại cho đúng để robot hoạt động bình thường.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào viết đúng chính tả?",
+          "options": [
+            "chời mưa",
+            "trời mưa",
+            "trơì mưa",
+            "chơi mưa"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Trời mưa\" viết đúng — \"trời\" dùng phụ âm TR. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền TR hay CH: \"___ường học của em rất to đẹp.\"",
+          "options": [
+            "TR — trường học",
+            "CH — chường học",
+            "Cả hai đều đúng",
+            "Không từ nào đúng"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Trường học\" viết với TR. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào viết đúng chính tả?",
+          "options": [
+            "xơn xáo",
+            "sơn sáo",
+            "xôn xao",
+            "sôn sao"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Xôn xao\" viết đúng — cả hai tiếng đều dùng X. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu viết đúng chính tả:",
+          "options": [
+            "Con châu chú chắm chỉ cày ruộng.",
+            "Con trâu chú chắm chỉ cày ruộng.",
+            "Con trâu chú chăm chỉ cày ruộng.",
+            "Con châu chú chăm chỉ cày ruộng."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Trâu\" dùng TR, \"chăm chỉ\" dùng CH — cả hai đều đúng trong câu C. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào điền đúng vào câu \"Em ___ rau trong vườn\"? (nghĩa: xới đất)",
+          "options": [
+            "xới",
+            "sới",
+            "xơi",
+            "sơi"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Xới\" (xới đất trồng rau) viết với X. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cặp từ nào viết đúng chính tả cả hai?",
+          "options": [
+            "chân thật — sự thật",
+            "chân thật — xự thật",
+            "trân thật — sự thật",
+            "trân thật — xự thật"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Chân thật\" dùng CH và \"sự thật\" dùng S — cả hai đúng. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào viết SAI chính tả?",
+          "options": [
+            "tre xanh",
+            "chân trời",
+            "sáng trắng",
+            "sàng trời"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Sàng trời\" sai — không có từ này trong tiếng Việt. Ba từ còn lại đều đúng. Đáp án đúng là D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng chính tả hoàn toàn?",
+          "options": [
+            "Chim chóc hót trên cành tre xanh.",
+            "Chim chóc hót trên cành che xanh.",
+            "Chim chóc hót trên cành tre sanh.",
+            "Trim chóc hót trên cành tre xanh."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu A dùng đúng: \"chim chóc\" (CH), \"tre\" (TR), \"xanh\" (X). Đáp án đúng là A."
+        },
+        {
+          "type": "true_false",
+          "text": "\"Chương trình\" là cách viết đúng, còn \"trương chình\" là sai.",
+          "correct": true,
+          "explanation": "Đúng! Chỉ \"chương trình\" mới đúng. \"Trương chình\" viết sai phụ âm đầu."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền TR hoặc CH vào chỗ trống: \"___ăm sóc\" (từ có nghĩa là chú ý giúp đỡ ai)",
+          "answer": "ch",
+          "explanation": "\"Chăm sóc\" viết với CH — phụ âm đầu CH cho từ này."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x017",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 23,
+      "title": "Phân biệt phụ âm đầu L/N và R/D/GI",
+      "learningObjective": "Sau bài này, Johnny phân biệt và viết đúng chính tả các từ dùng phụ âm đầu L/N và R/D/GI.",
+      "shortExplanation": "Luyện phân biệt L với N và R với D với GI — các phụ âm dễ nhầm lẫn trong tiếng Việt.",
+      "content": "## Phân biệt L và N\n- **L**: leo, làng, lớp, lắng nghe, lạnh\n- **N**: núi, nắng, nặng, nghe, nước\n\n**Mẹo nhớ:**\n- \"L\" đứng trước vần **-ắng, -ăng, -ang**: làng, lắng, lặng, lang thang\n- \"N\" đứng trước vần **-úi, -ước, -am**: núi, nước, nam\n- **Cặp hay nhầm:** làng xóm (L) — nhưng nắng nóng (N)\n\n## Phân biệt R, D, GI\nBa phụ âm này thường phát âm gần giống nhau ở nhiều vùng:\n- **R**: ra vào, rộng, rắn, ria mép, rừng\n- **D**: dạy học, dòng sông, dài, dũng cảm\n- **GI**: gia đình, già trẻ, giáo viên, giờ\n\n**Mẹo nhớ:**\n- GI đứng trước vần bắt đầu bằng **a, ă, â, e, ê, i, o, ô, ơ, u, ư**: gia, giờ, giúp\n- D đứng trước nhiều vần khác: dạy, dài, dòng\n- R hay đứng đầu từ chỉ hành động: ra, rời, rửa, rót\n\n## Ví dụ câu\n- **Làng xóm** nhà em rất **thân thiện**. (L)\n- **Núi lửa** phun trào rất **dữ dội**. (N/L/D)\n- **Giáo viên dạy** chúng em rất **tận tình**. (GI/D)",
+      "storyContext": "ROBO phát hiện nhiều tên robot bị viết sai phụ âm đầu. Johnny phải kiểm tra và sửa lại danh sách tên robot cho đúng chính tả.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào viết đúng chính tả?",
+          "options": [
+            "lúi nửa",
+            "núi lửa",
+            "lúi lửa",
+            "núi nửa"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Núi lửa\" viết đúng — \"núi\" dùng N, \"lửa\" dùng L. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền L hay N: \"Bạn ___ an học rất giỏi.\" (tên người)",
+          "options": [
+            "L — Lan",
+            "N — Nan",
+            "Cả hai đều đúng",
+            "Không từ nào phù hợp"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Lan\" là tên người viết với L. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào viết ĐÚNG chính tả?",
+          "options": [
+            "ròng sông",
+            "giòng sông",
+            "dòng sông",
+            "dòng xông"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Dòng sông\" viết với D và S là đúng chính tả phổ thông. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng chính tả?",
+          "options": [
+            "Em leo lúi cùng bố.",
+            "Em leo núi cùng bố.",
+            "Em lleo núi cùng bố.",
+            "Em nneo núi cùng bố."
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Leo núi\" — \"leo\" dùng L, \"núi\" dùng N. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền R, D hay GI: \"___áo viên\" (người dạy học)",
+          "options": [
+            "R — ráo viên",
+            "D — dáo viên",
+            "GI — giáo viên",
+            "Cả R và D đều đúng"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Giáo viên\" viết với GI — người dạy học. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cặp từ nào viết đúng cả hai?",
+          "options": [
+            "lắng nghe — nắng lửa",
+            "náng nghe — lắng lửa",
+            "lắng nghe — nắng nóng",
+            "nắng nghe — lắng nóng"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Lắng nghe\" (L) và \"nắng nóng\" (N) đều viết đúng phụ âm đầu. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào điền đúng: \"Giáo viên ___ạy học sinh\"?",
+          "options": [
+            "r — rạy",
+            "d — dạy",
+            "gi — giạy",
+            "l — lạy"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Dạy học\" viết với D. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng chính tả?",
+          "options": [
+            "Ra vào gia đình rất vui.",
+            "La vào nia đình rất vui.",
+            "Ra nào gia đình rất vui.",
+            "Na vào dia đình rất vui."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Ra vào\" (R), \"gia đình\" (GI) — câu A viết đúng cả hai từ. Đáp án đúng là A."
+        },
+        {
+          "type": "true_false",
+          "text": "\"Làng xóm\" viết với L và \"nắng nóng\" viết với N đều đúng chính tả.",
+          "correct": true,
+          "explanation": "Đúng! \"Làng\" (L) và \"nắng\" (N) đều viết đúng phụ âm đầu theo chính tả tiếng Việt."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền L hoặc N: \"___àng xóm nhà em rất thân thiện.\" (1 chữ cái)",
+          "answer": "l",
+          "explanation": "\"Làng xóm\" viết với L — đây là từ chỉ khu dân cư."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x018",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 24,
+      "title": "Câu kể và câu miêu tả",
+      "learningObjective": "Sau bài này, Johnny phân biệt được câu kể (kể sự việc, hành động) và câu miêu tả (mô tả đặc điểm, tính chất) và biết viết cả hai loại.",
+      "shortExplanation": "Câu kể nói về việc ai làm gì. Câu miêu tả nói về đặc điểm, tính chất của sự vật hay con người.",
+      "content": "## Câu kể\nCâu kể kể lại **sự việc, hành động** đang hoặc đã xảy ra.\n- Trả lời câu hỏi: **Ai làm gì? / Chuyện gì xảy ra?**\n- Thường có **động từ hành động**: chạy, học, ăn, ngủ, đi\n\n**Ví dụ câu kể:**\n- Con mèo đang nằm ngủ trên sofa.\n- Bạn Nam chạy ra sân chơi.\n- Mẹ nấu cơm trong bếp.\n\n## Câu miêu tả\nCâu miêu tả mô tả **đặc điểm, tính chất** của người, vật, cảnh vật.\n- Trả lời câu hỏi: **Cái gì như thế nào? / Cảnh vật ra sao?**\n- Thường có **tính từ**: đẹp, xanh, tròn, nhanh, chăm chỉ\n\n**Ví dụ câu miêu tả:**\n- Bầu trời xanh biếc và trong vắt.\n- Mặt trời đỏ rực rỡ lúc hoàng hôn.\n- Chú thỏ trắng muốt với đôi tai dài.\n\n## Câu vừa kể vừa miêu tả\nNhiều câu có cả hai yếu tố:\n- Con sông **xanh mát** (miêu tả) **chảy qua làng** (kể).\n- Em **chăm chỉ** (miêu tả) **học bài mỗi tối** (kể).",
+      "storyContext": "ROBO đang viết nhật ký về Robot Sport Lab. ROBO hỏi Johnny: \"Câu này là câu kể hay câu miêu tả?\" để học cách viết văn đúng thể loại.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là câu KỂ?",
+          "options": [
+            "Bầu trời xanh biếc và trong vắt.",
+            "Con mèo đang nằm ngủ trên sofa.",
+            "Chiếc váy hồng thật xinh đẹp.",
+            "Ngôi nhà cũ kỹ và rêu phong."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu B kể một sự việc đang xảy ra (con mèo đang ngủ). Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là câu MIÊU TẢ?",
+          "options": [
+            "Bạn Nam chạy ra sân chơi.",
+            "Mẹ nấu cơm trong bếp.",
+            "Mặt trời đỏ rực rỡ lúc hoàng hôn.",
+            "Em đang làm bài tập về nhà."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu C mô tả đặc điểm \"đỏ rực rỡ\" của mặt trời. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu kể thường trả lời câu hỏi nào?",
+          "options": [
+            "Cái gì như thế nào?",
+            "Ai làm gì? / Chuyện gì xảy ra?",
+            "Màu gì? Hình dạng ra sao?",
+            "Tính chất vật thể là gì?"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu kể trả lời \"Ai làm gì?\" hoặc \"Chuyện gì xảy ra?\". Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn sau có mấy câu miêu tả? \"Hôm nay trời nắng đẹp. Những đám mây trắng bồng bềnh trôi. Johnny ra sân đá bóng.\"",
+          "options": [
+            "0 câu",
+            "1 câu",
+            "2 câu",
+            "3 câu"
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu 1 (trời nắng đẹp) và câu 2 (mây trắng bồng bềnh) là miêu tả. Câu 3 là câu kể. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào vừa có yếu tố kể vừa có yếu tố miêu tả?",
+          "options": [
+            "Con sông chảy qua làng.",
+            "Con sông xanh mát chảy qua làng.",
+            "Con sông xanh mát và rộng lớn.",
+            "Làng em có một con sông."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu B vừa kể (chảy qua làng) vừa miêu tả (xanh mát). Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chuyển câu kể \"Em học bài\" thành câu có thêm miêu tả bằng cách nào?",
+          "options": [
+            "Thêm câu hỏi: \"Em học bài không?\"",
+            "Thêm tính từ: \"Em học bài rất chăm chỉ.\"",
+            "Đổi chủ ngữ: \"Bạn học bài.\"",
+            "Thêm thời gian: \"Tối nay em học bài.\""
+          ],
+          "correctIndex": 1,
+          "explanation": "Thêm tính từ \"chăm chỉ\" biến câu kể thành câu vừa kể vừa miêu tả. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu miêu tả thường có nhiều:",
+          "options": [
+            "Động từ hành động",
+            "Tính từ và trạng từ",
+            "Câu hỏi",
+            "Mệnh lệnh"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu miêu tả dùng nhiều tính từ (xanh, đẹp, to) và trạng từ (rất, lắm). Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là câu miêu tả thuần túy (chỉ miêu tả, không kể)?",
+          "options": [
+            "Chú thỏ nhảy qua hàng rào.",
+            "Chú thỏ chạy về chuồng lúc chiều tối.",
+            "Chú thỏ trắng muốt với đôi tai dài.",
+            "Chú thỏ ăn cà rốt mỗi ngày."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu C chỉ mô tả đặc điểm (trắng muốt, tai dài) không kể việc làm. Đáp án đúng là C."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu \"Bông hoa hồng đỏ tươi và thơm ngát\" là câu miêu tả.",
+          "correct": true,
+          "explanation": "Đúng! Câu này mô tả đặc điểm (đỏ tươi, thơm ngát) của bông hoa — đây là câu miêu tả."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Thêm 1 tính từ để câu trở thành câu miêu tả: \"Con chó _____ chạy vào nhà.\" (tính từ chỉ màu sắc hoặc kích thước)",
+          "answer": "nhỏ",
+          "explanation": "Thêm tính từ như \"nhỏ\", \"to\", \"đen\", v.v. giúp câu vừa kể vừa miêu tả đặc điểm."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x019",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 25,
+      "title": "Đọc hiểu đoạn văn ngắn",
+      "learningObjective": "Sau bài này, Johnny biết đọc đoạn văn ngắn và trả lời đúng các câu hỏi về nội dung, chi tiết và ý nghĩa của đoạn văn.",
+      "shortExplanation": "Luyện kỹ năng đọc hiểu: tìm thông tin chính, trả lời câu hỏi nội dung, và hiểu ý nghĩa của đoạn văn.",
+      "content": "## Kỹ năng đọc hiểu\nKhi đọc một đoạn văn, em cần:\n1. **Đọc kỹ** toàn bộ đoạn văn\n2. **Gạch chân** thông tin quan trọng (tên, thời gian, địa điểm, sự việc)\n3. **Trả lời câu hỏi** dựa trên thông tin trong bài\n4. **Không đoán mò** — câu trả lời phải có trong bài\n\n## Đoạn văn luyện tập\n> *Johnny là học sinh lớp 3. Bạn ấy rất thích môn Toán và Tiếng Việt. Mỗi buổi sáng, Johnny dậy sớm lúc 6 giờ, ăn sáng rồi đến trường. Trên đường đến trường, Johnny hay dừng lại ngắm những con chim đang hót trên cây. Bạn ấy luôn đến trường đúng giờ và được thầy cô khen ngợi.*\n\n## Câu hỏi đọc hiểu\n- **Ai?** → Johnny (tên nhân vật chính)\n- **Làm gì?** → học, dậy sớm, ngắm chim\n- **Khi nào?** → 6 giờ sáng\n- **Vì sao được khen?** → luôn đến trường đúng giờ\n\n## Mẹo\n- Câu hỏi \"Vì sao\" → tìm câu có \"vì\", \"do\", \"bởi\"\n- Câu hỏi \"Khi nào\" → tìm số giờ, thời gian\n- Câu hỏi \"Ai\" → tìm tên người",
+      "storyContext": "ROBO cần lập trình kỹ năng đọc hiểu cho các robot nhỏ. Johnny đọc đoạn văn về chính mình và trả lời câu hỏi để dạy cho ROBO cách hiểu tiếng Việt.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: \"Johnny là học sinh lớp 3. Bạn ấy rất thích môn Toán và Tiếng Việt. Mỗi buổi sáng, Johnny dậy sớm lúc 6 giờ, ăn sáng rồi đến trường. Trên đường đến trường, Johnny hay dừng lại ngắm những con chim đang hót trên cây. Bạn ấy luôn đến trường đúng giờ và được thầy cô khen ngợi.\"\n\nJohnny học lớp mấy?",
+          "options": [
+            "Lớp 1",
+            "Lớp 2",
+            "Lớp 3",
+            "Lớp 4"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn nói rõ \"Johnny là học sinh lớp 3\". Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny thích những môn học nào?",
+          "options": [
+            "Toán và Thể dục",
+            "Tiếng Việt và Mỹ thuật",
+            "Toán và Tiếng Việt",
+            "Khoa học và Toán"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Bạn ấy rất thích môn Toán và Tiếng Việt.\" Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi buổi sáng Johnny dậy lúc mấy giờ?",
+          "options": [
+            "5 giờ",
+            "6 giờ",
+            "7 giờ",
+            "8 giờ"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Johnny dậy sớm lúc 6 giờ\". Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trên đường đến trường, Johnny dừng lại làm gì?",
+          "options": [
+            "Mua bánh mì ăn sáng",
+            "Chơi đá bóng với bạn",
+            "Ngắm những con chim hót trên cây",
+            "Đợi xe buýt"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Johnny hay dừng lại ngắm những con chim đang hót trên cây.\" Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao Johnny được thầy cô khen ngợi?",
+          "options": [
+            "Vì bạn ấy học giỏi môn Toán",
+            "Vì bạn ấy luôn đến trường đúng giờ",
+            "Vì bạn ấy biết hát hay",
+            "Vì bạn ấy giúp đỡ bạn bè"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Bạn ấy luôn đến trường đúng giờ và được thầy cô khen ngợi.\" Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo đoạn văn, Johnny làm gì trước khi đến trường?",
+          "options": [
+            "Xem phim hoạt hình",
+            "Chơi game máy tính",
+            "Ăn sáng",
+            "Tập thể dục"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Johnny dậy sớm lúc 6 giờ, ăn sáng rồi đến trường.\" Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào trong đoạn văn nói lên Johnny là học sinh có kỷ luật?",
+          "options": [
+            "dậy sớm, đúng giờ",
+            "thích Toán, thích Tiếng Việt",
+            "ngắm chim, dừng lại",
+            "ăn sáng, đến trường"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Dậy sớm\" và \"đúng giờ\" thể hiện tính kỷ luật, chăm chỉ của Johnny. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn trên thuộc thể loại gì?",
+          "options": [
+            "Thơ",
+            "Truyện cổ tích",
+            "Văn giới thiệu nhân vật",
+            "Tin tức thời sự"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn giới thiệu và kể về cuộc sống hàng ngày của Johnny — đây là văn giới thiệu nhân vật. Đáp án đúng là C."
+        },
+        {
+          "type": "true_false",
+          "text": "Theo đoạn văn, Johnny chưa bao giờ đi học trễ.",
+          "correct": true,
+          "explanation": "Đúng! \"Bạn ấy luôn đến trường đúng giờ\" — \"luôn\" có nghĩa là chưa bao giờ trễ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống dựa theo đoạn văn: Johnny thích ngắm _____ đang hót trên cây. (2 từ)",
+          "answer": "con chim",
+          "explanation": "\"Johnny hay dừng lại ngắm những con chim đang hót trên cây.\""
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-vi-x020",
+      "subjectId": "vietnamese",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 26,
+      "title": "Viết đoạn văn ngắn kể về bản thân",
+      "learningObjective": "Sau bài này, Johnny biết viết đoạn văn ngắn 3–5 câu tự giới thiệu bản thân đúng cấu trúc và ngữ pháp.",
+      "shortExplanation": "Học cách viết đoạn văn tự giới thiệu: tên, tuổi, gia đình, sở thích và ước mơ — đúng cấu trúc, câu hoàn chỉnh.",
+      "content": "## Cấu trúc đoạn văn tự giới thiệu\n**Câu 1 — Mở đầu:** Giới thiệu tên và tuổi\n> *Em tên là Johnny, năm nay em 9 tuổi.*\n\n**Câu 2 — Gia đình / Học tập:** Học lớp mấy, trường nào\n> *Em học lớp 3 tại trường Tiểu học.*\n\n**Câu 3 — Sở thích:** Điều em thích làm\n> *Em rất thích chơi bóng đá và mày mò với robot.*\n\n**Câu 4 — Đặc điểm bản thân:**\n> *Em chăm chỉ học bài và luôn đến trường đúng giờ.*\n\n**Câu 5 — Kết đoạn / Ước mơ:** Ước mơ tương lai\n> *Lớn lên, em muốn trở thành kỹ sư robot để tạo ra những người máy hữu ích.*\n\n## Lưu ý khi viết\n- Mỗi câu phải có **chủ ngữ + vị ngữ** đầy đủ\n- Không lặp \"Em thích\" quá nhiều lần — dùng từ đa dạng\n- Kết đoạn bằng câu về ước mơ hoặc lời chào thân thiện\n- Dùng dấu chấm (.) cuối mỗi câu",
+      "storyContext": "ROBO muốn học cách tự giới thiệu để nói chuyện với các bạn robot mới. Johnny dạy ROBO bằng cách viết mẫu đoạn văn tự giới thiệu của chính mình.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn tự giới thiệu thường bắt đầu bằng gì?",
+          "options": [
+            "Câu hỏi cho người đọc",
+            "Câu giới thiệu tên và tuổi",
+            "Mô tả nơi ở chi tiết",
+            "Liệt kê đồ vật yêu thích"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tự giới thiệu thường bắt đầu bằng tên và tuổi — thông tin cơ bản nhất. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu mở đầu nào phù hợp nhất cho đoạn văn tự giới thiệu?",
+          "options": [
+            "Hôm nay trời đẹp lắm.",
+            "Tôi rất thích ăn kem.",
+            "Em tên là Johnny, năm nay em 9 tuổi.",
+            "Ngôi nhà em có 3 tầng."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu C giới thiệu tên và tuổi — đây là cách mở đầu chuẩn. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn tự giới thiệu nên gồm những thông tin nào?",
+          "options": [
+            "Tên, sở thích, ước mơ",
+            "Chỉ cần nói tên là đủ",
+            "Tên tuổi, gia đình, sở thích, ước mơ",
+            "Kể hết mọi chuyện trong ngày"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn đầy đủ gồm: tên tuổi, gia đình, sở thích và ước mơ. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết về sở thích đúng cách?",
+          "options": [
+            "Em thích.",
+            "Em rất thích chơi bóng đá cùng bạn bè.",
+            "Sở thích của em là.",
+            "Em thích và em cũng thích."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu B đầy đủ chủ ngữ, vị ngữ và bổ ngữ — đây là câu viết đúng. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu kết đoạn văn tự giới thiệu thường nói về điều gì?",
+          "options": [
+            "Thời tiết hôm nay",
+            "Ước mơ hoặc lời chào thân thiện",
+            "Danh sách đồ dùng học tập",
+            "Mô tả khuôn mặt của mình"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu kết thường nói về ước mơ tương lai hoặc lời chào thân thiện. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn sau có lỗi gì? \"Em tên là Johnny. Em học lớp 3. Em thích bóng đá. Em thích robot. Em thích ăn phở. Em thích đọc sách.\"",
+          "options": [
+            "Thiếu thông tin về gia đình",
+            "Lặp đi lặp lại \"Em thích\" nhiều lần và không có câu kết",
+            "Sai chính tả nhiều chỗ",
+            "Câu quá dài và phức tạp"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn lặp cấu trúc quá nhiều và thiếu câu kết — cần đa dạng câu và kết đoạn. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách nào hay hơn để gộp hai câu \"Em thích bóng đá. Em thích robot.\"?",
+          "options": [
+            "Em thích bóng đá robot.",
+            "Em thích chơi bóng đá và mày mò với robot.",
+            "Em thích thích bóng đá và robot.",
+            "Bóng đá và robot em thích."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu B tự nhiên, thêm chi tiết (chơi, mày mò) và dùng \"và\" để nối ý. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết ước mơ hay và đầy đủ nhất?",
+          "options": [
+            "Em muốn.",
+            "Em ước.",
+            "Lớn lên, em muốn trở thành kỹ sư robot để tạo ra những người máy hữu ích.",
+            "Em thích robot."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu C đầy đủ, cụ thể và nêu rõ lý do ước mơ — đây là cách viết tốt nhất. Đáp án đúng là C."
+        },
+        {
+          "type": "true_false",
+          "text": "Đoạn văn tự giới thiệu nên viết từ 3 đến 5 câu để đủ thông tin nhưng không quá dài.",
+          "correct": true,
+          "explanation": "Đúng! 3–5 câu là độ dài vừa phải cho đoạn văn tự giới thiệu ở bậc tiểu học."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu giới thiệu về bản thân: \"Em tên là Johnny, em học lớp ___ trường Tiểu học.\" (1 số)",
+          "answer": "3",
+          "explanation": "Johnny học lớp 3 — thông tin đã có trong các bài học trước."
+        }
+      ]
+    }
+  ]
+}

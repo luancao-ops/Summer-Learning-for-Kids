@@ -38,6 +38,30 @@ Claude Code verifies:
 
 ---
 
+## PRODUCTION SAFETY RULE
+
+**This application is in active production. Children's real progress data exists.**
+
+If student progress exists in the database, Claude Code may NOT do any of the following without **explicit parent approval**:
+
+- Modify `prisma/schema.prisma`
+- Create database migrations
+- Rename existing database fields
+- Remove tables
+- Change route contracts (URL paths, request/response shapes)
+
+The following are always allowed without approval:
+
+- Documentation changes
+- Folder structure changes
+- Architecture planning
+- New manifest files (`content/manifests/*.json`)
+- Content import (`npm run content:import`) — append-only, never modifies existing records
+
+**When in doubt: document the plan, stop, and wait for approval.**
+
+---
+
 ## PM Responsibilities (Claude Code)
 
 ### When receiving a request from Parent

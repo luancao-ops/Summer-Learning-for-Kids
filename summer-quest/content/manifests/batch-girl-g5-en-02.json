@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-en-b02",
+  "description": "Bài ôn Tiếng Anh Lớp 5 cho Yumi - Past Simple - common irregular verbs: go→went, see→saw, eat→ate, write→wrote, come→came, have→had",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "star_badge"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-x006",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 42,
+      "title": "Động từ bất quy tắc: go và see",
+      "learningObjective": "Học sinh sẽ nhận biết và sử dụng đúng dạng quá khứ của 'go' (went) và 'see' (saw) trong câu.",
+      "shortExplanation": "Nhớ nhé: 'go' ở quá khứ là 'went', còn 'see' ở quá khứ là 'saw'. Hai từ này hoàn toàn thay đổi hình thức, không thêm -ed!",
+      "content": "Trong tiếng Anh, nhiều động từ không theo quy tắc thêm -ed khi ở thì quá khứ. Chúng được gọi là động từ bất quy tắc (irregular verbs). Động từ 'go' (đi) khi ở quá khứ trở thành 'went'. Động từ 'see' (nhìn thấy) khi ở quá khứ trở thành 'saw'. Ví dụ: 'Yesterday, I went to the market.' (Hôm qua, tôi đã đi ra chợ.) và 'I saw a beautiful flower.' (Tôi đã nhìn thấy một bông hoa đẹp.)",
+      "storyContext": "Công chúa Yumi viết vào nhật ký: 'Yesterday, I went to the Crystal Tower and saw a magical rainbow over the kingdom!'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ (Past Simple) của động từ 'go' là gì?",
+          "options": ["goed", "goes", "went", "gone"],
+          "correctIndex": 2,
+          "explanation": "'Go' là động từ bất quy tắc, dạng quá khứ của nó là 'went', không phải 'goed' hay 'goes'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng ở thì Past Simple:",
+          "options": ["I saw the dragon yesterday.", "I see the dragon yesterday.", "I seen the dragon yesterday.", "I sawed the dragon yesterday."],
+          "correctIndex": 0,
+          "explanation": "'Saw' là dạng quá khứ của 'see'. Câu 'I saw the dragon yesterday' hoàn toàn đúng ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Princess Yumi ___ to the Enchanted Forest last week.'",
+          "options": ["goed", "goes", "going", "went"],
+          "correctIndex": 3,
+          "explanation": "Vì câu có 'last week' (tuần trước), ta dùng thì quá khứ. Dạng quá khứ của 'go' là 'went'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp?",
+          "options": ["She went to school.", "I saw a butterfly.", "We seed beautiful flowers.", "He went home early."],
+          "correctIndex": 1,
+          "explanation": "Câu 'We seed beautiful flowers' sai vì dạng quá khứ của 'see' là 'saw', không phải 'seed'. Các câu còn lại đều đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nghĩa của câu 'Yumi saw a fairy in the garden.' là gì?",
+          "options": ["Yumi sẽ nhìn thấy một nàng tiên trong vườn.", "Yumi đang nhìn thấy một nàng tiên trong vườn.", "Yumi đã nhìn thấy một nàng tiên trong vườn.", "Yumi chưa bao giờ nhìn thấy nàng tiên trong vườn."],
+          "correctIndex": 2,
+          "explanation": "'Saw' là dạng quá khứ của 'see', diễn tả hành động đã xảy ra trong quá khứ. Vì vậy câu có nghĩa 'Yumi đã nhìn thấy'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng đúng: 'The princess ___ the magical map on the table.'",
+          "options": ["saw", "seed", "sees", "sawed"],
+          "correctIndex": 0,
+          "explanation": "Dạng quá khứ của 'see' là 'saw'. 'Seed' và 'sawed' là sai, còn 'sees' là hiện tại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng cả 'went' và 'saw'?",
+          "options": ["I goes to the park and see birds.", "I go to the park and saw birds.", "I went to the park and see birds.", "I went to the park and saw birds."],
+          "correctIndex": 3,
+          "explanation": "Trong một câu kể chuyện quá khứ, tất cả các động từ phải ở thì quá khứ. Cả 'went' và 'saw' đều đúng, tạo thành câu hoàn chỉnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hỏi thăm: 'Where ___ you go yesterday?' — Đáp: 'I ___ to the castle.'",
+          "options": ["do / goed", "did / went", "does / goes", "did / goed"],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi quá khứ dùng 'did' + động từ nguyên mẫu. Câu trả lời dùng dạng quá khứ 'went'. Vậy đáp án đúng là 'did / went'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau đúng ngữ pháp: 'Yesterday, Yumi went to the garden and saw beautiful roses.'",
+          "correct": true,
+          "explanation": "Câu này hoàn toàn đúng. 'Went' là quá khứ của 'go' và 'saw' là quá khứ của 'see', cả hai đều được dùng đúng trong câu quá khứ với 'yesterday'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dạng quá khứ của 'see': 'Yumi ___ a golden crown in the treasure room.'",
+          "answer": "saw",
+          "explanation": "Dạng quá khứ của 'see' là 'saw'. Đây là động từ bất quy tắc cần ghi nhớ."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x007",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 43,
+      "title": "Động từ bất quy tắc: eat và write",
+      "learningObjective": "Học sinh sẽ nhận biết và sử dụng đúng dạng quá khứ của 'eat' (ate) và 'write' (wrote) trong câu kể chuyện.",
+      "shortExplanation": "Nhớ nhé: 'eat' ở quá khứ là 'ate', còn 'write' ở quá khứ là 'wrote'. Cả hai đều là động từ bất quy tắc quan trọng!",
+      "content": "Động từ 'eat' (ăn) khi ở thì quá khứ đơn trở thành 'ate'. Động từ 'write' (viết) khi ở thì quá khứ đơn trở thành 'wrote'. Không thêm -ed vì đây là động từ bất quy tắc. Ví dụ: 'This morning, she ate breakfast with her family.' (Sáng nay, cô ấy đã ăn sáng với gia đình.) và 'She wrote a long letter to her friend.' (Cô ấy đã viết một bức thư dài cho bạn.) Hãy luyện tập để nhớ hai động từ quan trọng này!",
+      "storyContext": "Công chúa Yumi ngồi viết nhật ký: 'This morning I ate royal cake for breakfast, then I wrote three pages about my adventure in the Crystal Cave.'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ của động từ 'eat' là gì?",
+          "options": ["eated", "eats", "eating", "ate"],
+          "correctIndex": 3,
+          "explanation": "'Eat' là động từ bất quy tắc. Dạng quá khứ của nó là 'ate', không phải 'eated' hay các dạng khác."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng ở thì Past Simple với động từ 'write':",
+          "options": ["She writed a poem.", "She wrote a poem.", "She writes a poem.", "She wroted a poem."],
+          "correctIndex": 1,
+          "explanation": "'Write' là động từ bất quy tắc, dạng quá khứ là 'wrote'. Câu 'She wrote a poem' hoàn toàn đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Yumi ___ a delicious strawberry cake at the party.'",
+          "options": ["ate", "eated", "eat", "eats"],
+          "correctIndex": 0,
+          "explanation": "Dạng quá khứ của 'eat' là 'ate'. Vì câu kể về sự kiện trong quá khứ (at the party), ta dùng 'ate'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp?",
+          "options": ["I ate an apple.", "She wrote her name.", "He writed a story.", "We ate dinner together."],
+          "correctIndex": 2,
+          "explanation": "Câu 'He writed a story' sai vì dạng quá khứ của 'write' là 'wrote', không phải 'writed'. Đây là động từ bất quy tắc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nghĩa của câu 'Princess Yumi wrote her diary every evening.' là gì?",
+          "options": ["Công chúa Yumi viết nhật ký mỗi tối (thói quen hiện tại).", "Công chúa Yumi sẽ viết nhật ký mỗi tối.", "Công chúa Yumi đã viết nhật ký mỗi tối (trong quá khứ).", "Công chúa Yumi đang viết nhật ký mỗi tối."],
+          "correctIndex": 2,
+          "explanation": "'Wrote' là dạng quá khứ của 'write', diễn tả thói quen hoặc hành động đã xảy ra trong quá khứ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng đúng: 'The prince and princess ___ together at the royal banquet.'",
+          "options": ["eats", "ate", "eat", "eating"],
+          "correctIndex": 1,
+          "explanation": "Câu kể về sự kiện quá khứ (at the royal banquet), nên dùng dạng quá khứ của 'eat' là 'ate'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng cả 'ate' và 'wrote'?",
+          "options": ["She ate lunch and write about it.", "She ate lunch and wrote about it.", "She eat lunch and wrote about it.", "She eated lunch and wroted about it."],
+          "correctIndex": 0,
+          "explanation": "Trong câu kể chuyện quá khứ, tất cả động từ phải ở dạng quá khứ. 'She ate lunch and wrote about it' dùng cả hai dạng quá khứ đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hỏi: 'What did Yumi write in her diary?' — Trả lời đúng là:",
+          "options": ["She writed about her adventure.", "She writes about her adventure.", "She writing about her adventure.", "She wrote about her adventure."],
+          "correctIndex": 3,
+          "explanation": "Câu trả lời cho câu hỏi 'did' ở quá khứ cần động từ quá khứ. Dạng quá khứ của 'write' là 'wrote'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau SAI ngữ pháp: 'Yumi eated her breakfast and then writed in her diary.'",
+          "correct": false,
+          "explanation": "Câu này SAI — cả 'eated' và 'writed' đều sai. Dạng đúng phải là 'ate' và 'wrote'. Câu đúng: 'Yumi ate her breakfast and then wrote in her diary.'"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dạng quá khứ của 'write': 'Last night, Yumi ___ a long story about the dragon she met.'",
+          "answer": "wrote",
+          "explanation": "Dạng quá khứ của 'write' là 'wrote'. 'Last night' là dấu hiệu của thì quá khứ đơn."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x008",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 44,
+      "title": "Động từ bất quy tắc: come và have",
+      "learningObjective": "Học sinh sẽ nhận biết và sử dụng đúng dạng quá khứ của 'come' (came) và 'have' (had) trong câu.",
+      "shortExplanation": "Ghi nhớ: 'come' ở quá khứ là 'came', 'have' ở quá khứ là 'had'. Đây là hai động từ rất hay gặp khi kể chuyện!",
+      "content": "Động từ 'come' (đến, tới) khi ở thì quá khứ đơn trở thành 'came'. Động từ 'have' (có) khi ở thì quá khứ đơn trở thành 'had'. Ví dụ: 'My friend came to my house yesterday.' (Bạn tôi đã đến nhà tôi hôm qua.) và 'We had a wonderful time at the party.' (Chúng tôi đã có một khoảng thời gian tuyệt vời tại bữa tiệc.) Chú ý: 'have' cũng có nghĩa là 'ăn/uống' trong một số câu, và dạng quá khứ vẫn là 'had'.",
+      "storyContext": "Công chúa Yumi viết nhật ký: 'Today, my fairy friends came to the palace and we had a wonderful tea party in the royal garden!'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ của động từ 'come' là gì?",
+          "options": ["came", "comed", "comes", "coming"],
+          "correctIndex": 0,
+          "explanation": "'Come' là động từ bất quy tắc. Dạng quá khứ của nó là 'came', không phải 'comed' hay các dạng khác."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Yumi ___ a beautiful tiara as a birthday gift.'",
+          "options": ["haved", "has", "had", "have"],
+          "correctIndex": 2,
+          "explanation": "Dạng quá khứ của 'have' là 'had'. Câu kể về món quà nhận được trong quá khứ, nên dùng 'had'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG ngữ pháp?",
+          "options": ["She comed to the party.", "She came to the party.", "She comes to the party yesterday.", "She coming to the party."],
+          "correctIndex": 1,
+          "explanation": "'Came' là dạng quá khứ đúng của 'come'. Câu 'She came to the party' hoàn toàn đúng ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp?",
+          "options": ["They came late.", "She had a cold.", "We haved fun.", "He came home."],
+          "correctIndex": 3,
+          "explanation": "Câu 'We haved fun' sai vì dạng quá khứ của 'have' là 'had', không phải 'haved'. Đây là động từ bất quy tắc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nghĩa của câu 'The knights came to protect the princess.' là gì?",
+          "options": ["Các hiệp sĩ đến để bảo vệ công chúa (trong quá khứ).", "Các hiệp sĩ sẽ đến để bảo vệ công chúa.", "Các hiệp sĩ đang đến để bảo vệ công chúa.", "Các hiệp sĩ không đến để bảo vệ công chúa."],
+          "correctIndex": 0,
+          "explanation": "'Came' là dạng quá khứ của 'come', diễn tả hành động đã xảy ra trong quá khứ. Câu mô tả sự kiện đã xảy ra rồi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng đúng: 'Yumi ___ a magical adventure last summer.'",
+          "options": ["haved", "has", "have", "had"],
+          "correctIndex": 3,
+          "explanation": "'Last summer' là dấu hiệu thì quá khứ. Dạng quá khứ của 'have' là 'had'. Vậy đáp án đúng là 'had'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng cả 'came' và 'had'?",
+          "options": ["She came and haved lunch.", "She come and had lunch.", "She came and had lunch.", "She comed and had lunch."],
+          "correctIndex": 1,
+          "explanation": "Cả hai động từ phải ở dạng quá khứ. 'Came' là quá khứ của 'come' và 'had' là quá khứ của 'have'. Câu 'She came and had lunch' hoàn toàn đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hỏi: 'Did many guests come to the royal party?' — Trả lời đúng là:",
+          "options": ["Yes, many guests comed.", "Yes, many guests comes.", "Yes, many guests coming.", "Yes, many guests came."],
+          "correctIndex": 3,
+          "explanation": "Câu trả lời dùng dạng quá khứ của 'come' là 'came'. 'Yes, many guests came' là đáp án đúng."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau đúng ngữ pháp: 'Yumi came to the library and had a great time reading books.'",
+          "correct": true,
+          "explanation": "Câu này đúng. 'Came' là quá khứ của 'come' và 'had' là quá khứ của 'have'. Cả hai được dùng đúng trong câu quá khứ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dạng quá khứ của 'come': 'All the fairies ___ to celebrate Yumi's birthday.'",
+          "answer": "came",
+          "explanation": "Dạng quá khứ của 'come' là 'came'. Câu kể về sự kiện đã xảy ra (celebrate birthday) nên dùng thì quá khứ."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x009",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 45,
+      "title": "Ôn tập: 6 động từ bất quy tắc trong câu chuyện",
+      "learningObjective": "Học sinh sẽ nhận biết và phân biệt dạng quá khứ của 6 động từ bất quy tắc: go→went, see→saw, eat→ate, write→wrote, come→came, have→had.",
+      "shortExplanation": "Bây giờ em đã học 6 động từ bất quy tắc quan trọng! Hãy nhớ: go/went, see/saw, eat/ate, write/wrote, come/came, have/had. Luyện tập thêm để dùng thành thạo nhé!",
+      "content": "Hãy ôn lại 6 động từ bất quy tắc quan trọng: 'go→went' (đi), 'see→saw' (nhìn thấy), 'eat→ate' (ăn), 'write→wrote' (viết), 'come→came' (đến), 'have→had' (có). Khi kể chuyện về quá khứ, chúng ta dùng dạng quá khứ của các động từ này. Ví dụ: 'Yesterday, Yumi went to the forest, saw a deer, ate some berries, wrote in her diary, came home late, and had a warm bath.' Câu này dùng cả 6 động từ quá khứ!",
+      "storyContext": "Công chúa Yumi đọc lại nhật ký và mỉm cười: 'Last week, I went on a quest, saw magical creatures, ate enchanted fruits, wrote spells, came back safely, and had the best adventure ever!'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Động từ nào KHÔNG phải là dạng quá khứ bất quy tắc đúng?",
+          "options": ["went (go)", "sawed (see)", "ate (eat)", "wrote (write)"],
+          "correctIndex": 1,
+          "explanation": "'Sawed' KHÔNG phải dạng quá khứ của 'see'. Dạng quá khứ đúng của 'see' là 'saw'. 'Sawed' là quá khứ của từ khác ('to saw' = cưa)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu sử dụng đúng tất cả các động từ quá khứ:",
+          "options": ["Yumi goed to the market and buyed fruits.", "Yumi went to the market and bought fruits.", "Yumi went to the market and buyed fruits.", "Yumi goed to the market and bought fruits."],
+          "correctIndex": 3,
+          "explanation": "Dạng quá khứ của 'go' là 'went'. 'Goed' sai. Còn 'bought' là quá khứ của 'buy'. 'Yumi went to the market and bought fruits' là câu đúng nhất trong bộ này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ghép đúng: Động từ 'come' có dạng quá khứ là:",
+          "options": ["comed", "comes", "came", "coming"],
+          "correctIndex": 2,
+          "explanation": "'Come' là động từ bất quy tắc, dạng quá khứ là 'came'. Không thêm -ed hay -s vào động từ bất quy tắc này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Yumi ___ her adventure diary every night during the journey.'",
+          "options": ["wrote", "writed", "writes", "writing"],
+          "correctIndex": 0,
+          "explanation": "Dạng quá khứ của 'write' là 'wrote'. Câu kể về thói quen trong hành trình quá khứ, nên dùng 'wrote'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu chuyện: 'Yumi ___ (have) a map, ___ (go) to the mountains, and ___ (see) a dragon.' Điền đúng thứ tự:",
+          "options": ["haved / goed / seed", "had / went / saw", "has / go / see", "had / goed / saw"],
+          "correctIndex": 1,
+          "explanation": "Ba động từ quá khứ đúng: have→had, go→went, see→saw. Câu hoàn chỉnh: 'Yumi had a map, went to the mountains, and saw a dragon.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG về nghĩa VÀ ngữ pháp?",
+          "options": ["She eat breakfast an hour ago.", "She eaten breakfast an hour ago.", "She eats breakfast an hour ago.", "She ate breakfast an hour ago."],
+          "correctIndex": 3,
+          "explanation": "'An hour ago' là dấu hiệu của thì quá khứ đơn. Dạng quá khứ của 'eat' là 'ate'. Câu 'She ate breakfast an hour ago' vừa đúng ngữ pháp vừa đúng nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu mô tả đúng hành trình của công chúa Yumi trong quá khứ:",
+          "options": ["Yumi go to the river and have a swim.", "Yumi goes to the river and has a swim.", "Yumi went to the river and had a swim.", "Yumi goed to the river and haved a swim."],
+          "correctIndex": 2,
+          "explanation": "Cả hai động từ phải ở dạng quá khứ: go→went, have→had. Câu 'Yumi went to the river and had a swim' là đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi: 'What did you see at the magic show?' — Chọn câu trả lời đúng:",
+          "options": ["I saw many amazing tricks.", "I see many amazing tricks.", "I seen many amazing tricks.", "I sawed many amazing tricks."],
+          "correctIndex": 0,
+          "explanation": "Câu trả lời cho câu hỏi quá khứ cần dùng dạng quá khứ. 'Saw' là dạng quá khứ của 'see'. 'I saw many amazing tricks' là đúng."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau SAI ngữ pháp: 'Yumi wented to the forest, ated berries, and writed a poem.'",
+          "correct": false,
+          "explanation": "Câu này SAI vì 'wented', 'ated', 'writed' đều sai. Dạng đúng phải là 'went', 'ate', 'wrote'. Câu đúng: 'Yumi went to the forest, ate berries, and wrote a poem.'"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dạng quá khứ của 'have': 'The princess ___ a wonderful dream about the enchanted forest.'",
+          "answer": "had",
+          "explanation": "Dạng quá khứ của 'have' là 'had'. Câu kể về giấc mơ đã xảy ra trong quá khứ nên dùng 'had'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x010",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 46,
+      "title": "Viết câu quá khứ: Kể chuyện như Công chúa Yumi",
+      "learningObjective": "Học sinh sẽ vận dụng thành thạo cả 6 động từ bất quy tắc (went, saw, ate, wrote, came, had) để đọc hiểu và hoàn thành câu chuyện ở thì quá khứ.",
+      "shortExplanation": "Luyện tập nâng cao: Em hãy dùng 6 động từ bất quy tắc để đọc và hoàn chỉnh nhật ký của Công chúa Yumi nhé! Nhớ: go/went, see/saw, eat/ate, write/wrote, come/came, have/had.",
+      "content": "Khi viết nhật ký hoặc kể chuyện về những việc đã xảy ra, ta dùng thì quá khứ đơn. Sáu động từ bất quy tắc quan trọng cần nhớ: go→went, see→saw, eat→ate, write→wrote, come→came, have→had. Ví dụ đoạn nhật ký: 'Dear Diary, Yesterday was a magical day! I went to the Crystal Cave with my fairy friends. We saw glowing crystals everywhere. I ate a sparkling candy and felt happy. I wrote a poem about the cave. My friends came with me all day. We had so much fun!' Đây là cách viết nhật ký bằng tiếng Anh đúng chuẩn!",
+      "storyContext": "Công chúa Yumi đọc to nhật ký của mình: 'I went on a grand adventure, saw wonders, ate magical food, wrote about everything, came home with stories, and had the most amazing summer!'",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn nhật ký: 'I ___ to the Enchanted Garden and ___ beautiful butterflies.' Điền đúng thứ tự:",
+          "options": ["goed / seed", "goes / see", "went / saw", "go / see"],
+          "correctIndex": 2,
+          "explanation": "Nhật ký kể về quá khứ nên cần dạng quá khứ: go→went và see→saw. Câu đúng: 'I went to the Enchanted Garden and saw beautiful butterflies.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu hoàn chỉnh đúng nhất để viết vào nhật ký:",
+          "options": ["I had a dream about flying over the kingdom.", "I haved a dream about flying over the kingdom.", "I have a dream about flying over the kingdom.", "I has a dream about flying over the kingdom."],
+          "correctIndex": 0,
+          "explanation": "Nhật ký kể về quá khứ, dùng 'had' (quá khứ của 'have'). Câu 'I had a dream about flying over the kingdom' hoàn toàn đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào KHÔNG thể dùng trong nhật ký kể về ngày hôm qua?",
+          "options": ["I went to school.", "I saw my best friend.", "I eat lunch with my family.", "I wrote three pages."],
+          "correctIndex": 3,
+          "explanation": "Câu 'I eat lunch with my family' sai vì dùng 'eat' (hiện tại) thay vì 'ate' (quá khứ). Khi viết về ngày hôm qua phải dùng dạng quá khứ 'ate'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hoàn chỉnh đoạn nhật ký: 'My fairy godmother ___ (come) to visit me and we ___ (have) tea together.'",
+          "options": ["comed / haved", "comes / has", "come / have", "came / had"],
+          "correctIndex": 1,
+          "explanation": "Nhật ký kể quá khứ cần: come→came và have→had. Câu đúng: 'My fairy godmother came to visit me and we had tea together.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc câu: 'Yumi wrote about all six irregular verbs she learned.' Câu này nói về:",
+          "options": ["Việc Yumi đang viết về các động từ.", "Việc Yumi sẽ viết về các động từ.", "Việc Yumi đã viết về các động từ trong quá khứ.", "Việc Yumi chưa viết về các động từ."],
+          "correctIndex": 2,
+          "explanation": "'Wrote' là dạng quá khứ của 'write', diễn tả hành động đã hoàn thành trong quá khứ. Câu mô tả điều Yumi đã làm rồi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sắp xếp câu đúng: 'diary / wrote / Yumi / her / yesterday / in'",
+          "options": ["Yumi wrote in her diary yesterday.", "Yumi in her diary wrote yesterday.", "Yesterday Yumi her diary wrote in.", "Wrote Yumi in her diary yesterday."],
+          "correctIndex": 0,
+          "explanation": "Câu tiếng Anh chuẩn: Chủ ngữ + động từ + tân ngữ + trạng từ. 'Yumi wrote in her diary yesterday' là thứ tự đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng CẢ BA động từ quá khứ: went, saw, ate?",
+          "options": ["I went, seed, and ate.", "I goed, saw, and ate.", "I go, saw, and eat.", "I went, saw, and ate."],
+          "correctIndex": 3,
+          "explanation": "Ba dạng quá khứ đúng: go→went, see→saw, eat→ate. Câu 'I went, saw, and ate' dùng cả ba đúng hoàn toàn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn đoạn nhật ký được viết đúng hoàn toàn:",
+          "options": ["Yesterday I go to the market and see fresh fruits. I eat them.", "Yesterday I went to the market and saw fresh fruits. I ate them.", "Yesterday I goed to the market and seed fresh fruits. I eated them.", "Yesterday I went to the market and see fresh fruits. I eated them."],
+          "correctIndex": 1,
+          "explanation": "Đoạn nhật ký đúng phải dùng: went (quá khứ của go), saw (quá khứ của see), và ate (quá khứ của eat). Chỉ có đáp án B dùng cả ba đúng."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu sau đúng ngữ pháp: 'In her diary, Yumi wrote that she came home late and had dinner with her family.'",
+          "correct": true,
+          "explanation": "Câu này đúng hoàn toàn. 'Wrote' (quá khứ của write), 'came' (quá khứ của come), và 'had' (quá khứ của have) đều được dùng đúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dạng quá khứ của 'eat': 'Yumi ___ a magical apple and felt brave enough to face the dragon.'",
+          "answer": "ate",
+          "explanation": "Dạng quá khứ của 'eat' là 'ate'. Câu kể về hành động đã xảy ra trong câu chuyện quá khứ, nên dùng 'ate'."
+        }
+      ]
+    }
+  ]
+}

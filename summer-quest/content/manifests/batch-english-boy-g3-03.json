@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "batchId": "batch-english-boy-g3-03",
+  "description": "Boy Grade 3 English — Batch 3: Comparatives, Prepositions, Question Words, Can/Can't, My Bedroom",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-en-x011",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 22,
+      "title": "Comparatives",
+      "learningObjective": "After this lesson, Johnny will know how to compare two things using comparative adjectives in English.",
+      "shortExplanation": "Learn how to compare things using -er or 'more'. Con học cách so sánh hai vật trong tiếng Anh!",
+      "content": "## How to Make Comparatives\n**Short adjectives** → add **-er**:\n- big → **bigger** (lớn hơn)\n- fast → **faster** (nhanh hơn)\n- small → **smaller** (nhỏ hơn)\n- tall → **taller** (cao hơn)\n- heavy → **heavier** (nặng hơn)\n\n**Long adjectives** → use **more + adjective**:\n- difficult → **more difficult** (khó hơn)\n- beautiful → **more beautiful** (đẹp hơn)\n\n**Irregular comparatives** (must memorise!):\n- good → **better** (tốt hơn)\n- bad → **worse** (tệ hơn)\n\n## Using 'than'\nAlways use **than** after a comparative:\n- A cat is **smaller than** a dog. ✓\n- This robot is **faster than** that one. ✓\n\n## Example Sentences\n- An elephant is **bigger than** a cat.\n- Johnny runs **faster than** ROBO.\n- Today's race was **better than** yesterday's.\n- My bag is **heavier than** yours.\n\n## Summary\nComparatives compare two things. Short adjectives add -er. Long adjectives use 'more'. Always use 'than' after the comparative form. Remember the irregular: good → better!",
+      "storyContext": "At the Robot Sport Lab, Johnny and ROBO compare their race times, weights, and heights using comparative adjectives.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "How do you form the comparative of a short adjective?",
+          "options": ["Add 'most'", "Add '-er'", "Add 'very'", "Add 'the most'"],
+          "correctIndex": 1,
+          "explanation": "For short adjectives, add -er to make the comparative. Example: fast → faster.",
+          "hint": "Short adjectives: big → bigg___, tall → tall___."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which sentence uses a comparative correctly?",
+          "options": ["An elephant is bigger than a cat.", "An elephant is more big than a cat.", "An elephant is most big.", "An elephant is the big."],
+          "correctIndex": 0,
+          "explanation": "'An elephant is bigger than a cat' is correct. 'Bigger' is the comparative form of 'big'.",
+          "hint": "Big is a short adjective — what is its comparative form?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the comparative form of 'fast'?",
+          "options": ["Most fast", "More fast", "Faster", "Fastest"],
+          "correctIndex": 2,
+          "explanation": "Fast → Faster. It is a short adjective, so we add -er. Not 'more fast'.",
+          "hint": "Short adjective: fast → fast + ___."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the comparative form of 'small'?",
+          "options": ["Smalls", "Most small", "More small", "Smaller"],
+          "correctIndex": 3,
+          "explanation": "Small → Smaller. Short adjective, so add -er. A mouse is smaller than a cat.",
+          "hint": "Short adjective: small → small + ___."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny is 1.4 m tall. Nam is 1.2 m tall. Which sentence is true?",
+          "options": ["Johnny is taller than Nam.", "Nam is taller than Johnny.", "Johnny is shorter than Nam.", "They are the same height."],
+          "correctIndex": 0,
+          "explanation": "Johnny is 1.4 m and Nam is 1.2 m. Since 1.4 > 1.2, Johnny is taller than Nam.",
+          "hint": "1.4 m is more than 1.2 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the comparative form of 'heavy'?",
+          "options": ["More heavy", "Heaviest", "Heavier", "Heavy than"],
+          "correctIndex": 2,
+          "explanation": "Heavy → Heavier. When an adjective ends in -y, change y to i and add -er.",
+          "hint": "Heavy ends in -y: change y to i, then add -er."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which sentence is WRONG?",
+          "options": ["My bag is heavier than yours.", "This book is thicker than that one.", "A train is faster than a bicycle.", "My cat is more tall than your cat."],
+          "correctIndex": 3,
+          "explanation": "'More tall' is wrong. 'Tall' is a short adjective, so we say 'taller', not 'more tall'.",
+          "hint": "One of these uses 'more' with a short adjective incorrectly."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the comparative of 'good'?",
+          "options": ["Gooder", "Better", "More good", "Goodest"],
+          "correctIndex": 1,
+          "explanation": "Good → Better. This is an irregular comparative. We never say 'gooder' or 'more good'.",
+          "hint": "This is an irregular form — must memorise it."
+        },
+        {
+          "type": "true_false",
+          "text": "'Bigger' is the comparative form of 'big'.",
+          "correct": true,
+          "explanation": "True! Big → Bigger (double the g and add -er because it is a short adjective ending in a consonant-vowel-consonant pattern).",
+          "hint": "Is 'bigger' the correct -er form of 'big'?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "A cheetah is ___ than a horse. (use the comparative form of 'fast')",
+          "answer": "faster",
+          "explanation": "A cheetah runs faster than a horse. Fast → Faster (add -er to the short adjective).",
+          "hint": "Fast + -er = ?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x012",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 23,
+      "title": "Prepositions of Place",
+      "learningObjective": "After this lesson, Johnny will know 6 prepositions of place and can describe where objects are.",
+      "shortExplanation": "Learn where things are using prepositions like in, on, under, behind. Con học giới từ chỉ vị trí!",
+      "content": "## Prepositions of Place\n- **in** (ở trong / bên trong) — inside something\n- **on** (trên / ở trên) — on the surface of something\n- **under** (dưới / bên dưới) — below something\n- **behind** (đằng sau) — at the back of something\n- **in front of** (trước / phía trước) — at the front of something\n- **next to** (bên cạnh) — at the side of something\n- **between** (ở giữa / giữa ... và ...) — in the middle of two things\n\n## Examples\n- The cat is **in** the box. (con mèo ở trong hộp)\n- The cup is **on** the table. (cái cốc ở trên bàn)\n- The dog is **under** the chair. (con chó ở dưới ghế)\n- The ball is **behind** the door. (quả bóng ở đằng sau cửa)\n- The school is **between** the park and the library.\n\n## Questions Using Prepositions\n- Where is the pen? → It is **on** the desk.\n- Where is the cat? → It is **under** the sofa.\n\n## Summary\nPrepositions of place tell us where something is. Use 'in' for inside, 'on' for surfaces, 'under' for below, 'behind' for back, 'in front of' for front, and 'next to' for beside.",
+      "storyContext": "ROBO hides Johnny's sports equipment around the lab and Johnny has to describe where each item is using prepositions.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "The ball is ___ the box. (inside the box)",
+          "options": ["on", "under", "behind", "in"],
+          "correctIndex": 3,
+          "explanation": "'In' means inside. The ball is inside the box. In = ở bên trong.",
+          "hint": "The ball is inside the box, not on top."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "The cat is ___ the table. (on the surface of the table)",
+          "options": ["under", "behind", "on", "in front of"],
+          "correctIndex": 2,
+          "explanation": "'On' means on the surface. The cat sits on top of the table. On = trên.",
+          "hint": "The cat is resting on the flat top surface."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "The dog is ___ the chair. (below the chair)",
+          "options": ["on", "under", "in", "next to"],
+          "correctIndex": 1,
+          "explanation": "'Under' means below. The dog is beneath the chair. Under = ở bên dưới.",
+          "hint": "The dog is below the chair, hiding from the sun."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "The school is ___ the park and the library.",
+          "options": ["between", "under", "on", "behind"],
+          "correctIndex": 0,
+          "explanation": "'Between' means in the middle of two things. The school is in the middle, with the park on one side and library on the other.",
+          "hint": "There is one thing on each side of the school."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "The ball is ___ the box. (at the back of the box)",
+          "options": ["in", "on", "behind", "next to"],
+          "correctIndex": 2,
+          "explanation": "'Behind' means at the back. The ball is at the back of the box. Behind = đằng sau.",
+          "hint": "The ball is hiding at the back, not inside."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "The pen is ___ the desk. (at the side of the desk)",
+          "options": ["on", "under", "in", "next to"],
+          "correctIndex": 3,
+          "explanation": "'Next to' means beside, at the side. The pen is beside the desk. Next to = bên cạnh.",
+          "hint": "The pen is beside the desk, not on or under it."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "The car is ___ the house. (the car faces the front of the house)",
+          "options": ["in front of", "behind", "on", "in"],
+          "correctIndex": 0,
+          "explanation": "'In front of' means at the front face of something. The car is parked at the front.",
+          "hint": "The car is at the front of the house, facing it."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Choose the correct sentence:",
+          "options": ["The cup is in the table.", "The cup is on the table.", "The cup is at under the table.", "The cup is from the table."],
+          "correctIndex": 1,
+          "explanation": "'The cup is on the table' is correct. 'On' is used for surfaces. A cup rests on a flat surface.",
+          "hint": "A cup sits on the flat surface of a table."
+        },
+        {
+          "type": "true_false",
+          "text": "'Under' means below something.",
+          "correct": true,
+          "explanation": "True! 'Under' means below or beneath something. Under = ở bên dưới.",
+          "hint": "What direction is 'under'?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "The book is ___ the shelf. (on top of the shelf)",
+          "answer": "on",
+          "explanation": "The book is on the shelf because it rests on the surface of the shelf. On = trên.",
+          "hint": "The book sits on the flat surface."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x013",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 24,
+      "title": "Question Words",
+      "learningObjective": "After this lesson, Johnny will know 6 question words (who, what, where, when, why, how) and can use them to ask questions.",
+      "shortExplanation": "Learn the six question words in English and when to use each one. Con học các từ hỏi trong tiếng Anh!",
+      "content": "## The Six Question Words\n- **Who** (Ai) — asks about a person\n- **What** (Cái gì / Điều gì) — asks about a thing or information\n- **Where** (Ở đâu) — asks about a place\n- **When** (Khi nào / Lúc nào) — asks about a time\n- **Why** (Tại sao) — asks about a reason\n- **How** (Như thế nào / Bằng cách nào) — asks about method or manner\n\n## Example Questions and Answers\n- **Who** is your teacher? → My teacher is Miss Lan.\n- **What** is your favourite food? → I like pho.\n- **Where** do you live? → I live in Hanoi.\n- **When** is your birthday? → It is in June.\n- **Why** do you like robots? → Because they are cool!\n- **How** do you spell 'robot'? → R-O-B-O-T.\n\n## Tips\n- Use 'Who' for people only.\n- Use 'What' for things, names, and information.\n- Use 'Where' for locations.\n- Use 'When' for time.\n\n## Summary\nThe six question words are: who, what, where, when, why, how. Each one asks for a different type of information. Practise by asking ROBO a question using each word!",
+      "storyContext": "ROBO gives Johnny a quiz about question words. Johnny must pick the right question word for each situation at the Robot Sport Lab.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Which question word asks about a person?",
+          "options": ["Who", "What", "Where", "When"],
+          "correctIndex": 0,
+          "explanation": "'Who' asks about a person. Example: Who is your teacher? Who = Ai.",
+          "hint": "This word is used when you want to know about a person."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which question word asks about a time?",
+          "options": ["Who", "What", "Where", "When"],
+          "correctIndex": 3,
+          "explanation": "'When' asks about a time. Example: When is your birthday? When = Khi nào.",
+          "hint": "This word asks about a moment or date."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'___ do you live?' (asking about a place)",
+          "options": ["Who", "What", "Where", "When"],
+          "correctIndex": 2,
+          "explanation": "'Where' asks about a place. Where do you live? = Bạn sống ở đâu?",
+          "hint": "The answer to this question is a place name."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'___ is your favourite food?'",
+          "options": ["Who", "What", "Where", "When"],
+          "correctIndex": 1,
+          "explanation": "'What' asks about a thing. What is your favourite food? = Món ăn yêu thích của bạn là gì?",
+          "hint": "The answer is the name of a food — a thing."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'___ do you go to school?' (asking the reason)",
+          "options": ["Who", "What", "Where", "Why"],
+          "correctIndex": 3,
+          "explanation": "'Why' asks for a reason. Why do you go to school? = Tại sao bạn đi học?",
+          "hint": "The answer starts with 'Because...'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'___ do you spell 'robot'?' (asking for the method)",
+          "options": ["How", "Who", "When", "Why"],
+          "correctIndex": 0,
+          "explanation": "'How' asks about method or manner. How do you spell it? = Bạn đánh vần nó như thế nào?",
+          "hint": "The answer describes the method: R-O-B-O-T."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Who teaches you English?' — what does this question ask about?",
+          "options": ["A place", "A person", "A time", "A reason"],
+          "correctIndex": 1,
+          "explanation": "'Who' asks about a person. The answer would be the name of a teacher.",
+          "hint": "'Who' always asks about a person."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'When is your birthday?' — what does this question ask about?",
+          "options": ["A place", "A reason", "A time", "A person"],
+          "correctIndex": 2,
+          "explanation": "'When' asks about a time. The answer would be a date like 'March 15th'.",
+          "hint": "'When' always asks about a time or date."
+        },
+        {
+          "type": "true_false",
+          "text": "'Where' asks about a place.",
+          "correct": true,
+          "explanation": "True! 'Where' asks about a location or place. Where = Ở đâu.",
+          "hint": "Think about what kind of answer 'where' expects."
+        },
+        {
+          "type": "fill_blank",
+          "text": "___ is your name? (asking for a name)",
+          "answer": "What",
+          "explanation": "'What is your name?' asks for a person's name. 'What' asks about things and information.",
+          "hint": "Tên bạn là gì? — the first word is ___?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x014",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 25,
+      "title": "Can and Can't",
+      "learningObjective": "After this lesson, Johnny will be able to use 'can' and 'can't' to talk about abilities in English.",
+      "shortExplanation": "Learn how to say what you are able to do using 'can' and 'can't'. Con học cách dùng 'can' và 'can't'!",
+      "content": "## Using 'Can'\n**Can** means you are able to do something:\n- I **can** swim. (Tôi có thể bơi.)\n- She **can** sing. (Cô ấy có thể hát.)\n- A bird **can** fly. (Chim có thể bay.)\n\n**Rules for 'can':**\n- Use the base form of the verb: can **swim** (not can swimming or can to swim)\n- The same form for all subjects: I/you/he/she/we/they can\n\n## Using 'Can't'\n**Can't** = cannot (không thể):\n- A fish **can't** fly. (Cá không thể bay.)\n- I **can't** drive. (Tôi không thể lái xe.)\n\n## Asking Questions with 'Can'\n- **Can** you swim? → Yes, I **can**. / No, I **can't**.\n- **Can** she ride a bike? → Yes, she **can**.\n\n## Example Sentences\n- Johnny **can** run very fast.\n- ROBO **can** calculate in seconds.\n- Cats **can** climb trees but **can't** fly.\n- **Can** you ride a bicycle? Yes, I **can**!\n\n## Summary\nUse 'can' to show ability. Use 'can't' to show inability. Always use the base verb after 'can' or 'can't': can swim, can't fly.",
+      "storyContext": "ROBO asks Johnny and his friends what they can and can't do, comparing human abilities with robot abilities.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Which sentence is correct?",
+          "options": ["I can to swim.", "I can swimming.", "I can swim.", "I cans swim."],
+          "correctIndex": 2,
+          "explanation": "'I can swim' is correct. After 'can', always use the base form of the verb. Never 'can to swim' or 'can swimming'.",
+          "hint": "Can + base verb (no 'to', no '-ing')."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What does 'can't' mean?",
+          "options": ["Can always", "Cannot", "Can sometimes", "Can very well"],
+          "correctIndex": 1,
+          "explanation": "Can't = Cannot. It means you are not able to do something. Cannot = không thể.",
+          "hint": "Can't is a short form of two words."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'A fish ___ fly.' — which word fits?",
+          "options": ["can", "must", "should", "can't"],
+          "correctIndex": 3,
+          "explanation": "A fish can't fly because it does not have wings. Can't = không thể.",
+          "hint": "Does a fish have wings? Can it go into the air?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Birds ___ fly.' — which word fits?",
+          "options": ["can", "can't", "must not", "never"],
+          "correctIndex": 0,
+          "explanation": "Birds can fly because they have wings. Can = có thể. Most birds fly.",
+          "hint": "Birds have wings — what does that let them do?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which is a correct question using 'can'?",
+          "options": ["Can you to ride a bike?", "Can you ride a bike?", "You can ride a bike?", "Do you can ride?"],
+          "correctIndex": 1,
+          "explanation": "'Can you ride a bike?' is correct. Can + subject + base verb = correct question form.",
+          "hint": "Can + subject + base verb (no 'to')."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "How do you answer 'Can you swim?' with yes?",
+          "options": ["Yes, I swim.", "Yes, I swimming.", "Yes, I can.", "Yes, can I."],
+          "correctIndex": 2,
+          "explanation": "'Yes, I can.' is the correct short answer. You do not need to repeat the main verb.",
+          "hint": "Short affirmative answer: Yes, I ___."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Cats can climb trees.' Is this true?",
+          "options": ["Yes, cats can climb trees.", "No, cats cannot climb.", "Cats can only swim.", "Cats climb with wings."],
+          "correctIndex": 0,
+          "explanation": "Yes, cats can climb trees! They have sharp claws that help them grip and climb.",
+          "hint": "Have you seen a cat in a tree?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'He ___ sing very well.' (negative — he is not able to sing)",
+          "options": ["can", "must", "will", "can't"],
+          "correctIndex": 3,
+          "explanation": "Can't means 'is not able to'. He can't sing = He is not able to sing well.",
+          "hint": "The sentence says he is NOT able — which word shows that?"
+        },
+        {
+          "type": "true_false",
+          "text": "'I can't fly.' means the speaker is NOT able to fly.",
+          "correct": true,
+          "explanation": "True! Can't = cannot. 'I can't fly' means the speaker does not have the ability to fly.",
+          "hint": "Can't = cannot = not able to."
+        },
+        {
+          "type": "fill_blank",
+          "text": "A bird ___ fly.",
+          "answer": "can",
+          "explanation": "A bird can fly because it has wings. Can = có thể. Use base verb after 'can'.",
+          "hint": "Birds have wings — they ___ fly."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x015",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 26,
+      "title": "My Bedroom",
+      "learningObjective": "After this lesson, Johnny will know 8 bedroom furniture and item names in English.",
+      "shortExplanation": "Learn the names of things in your bedroom in English. Con học tên các đồ vật trong phòng ngủ!",
+      "content": "## Bedroom Items\n- **bed** (cái giường) — the furniture you sleep on\n- **desk** (cái bàn học) — the surface you study and write at\n- **chair** (cái ghế) — the seat you sit on\n- **wardrobe** (tủ quần áo) — the tall cupboard where you keep clothes\n- **lamp** (đèn bàn) — a light that sits on a surface\n- **shelf** (giá sách) — a flat board on the wall to store books\n- **window** (cửa sổ) — an opening in the wall with glass that lets in light\n- **door** (cái cửa) — the wooden panel you open to enter the room\n\n## Describing Your Bedroom\n- My bed is **blue**.\n- There is a **shelf** above my desk.\n- I have a **wardrobe** for my clothes.\n- My **lamp** gives light when I study at night.\n\n## Useful Phrases\n- Where is your book? → It is **on** my desk.\n- What is **next to** the bed? → The lamp is next to the bed.\n\n## Summary\nA bedroom has many items to help you rest, study, and stay organised. The bed is for sleeping, the desk for studying, the wardrobe for clothes, and the shelf for books. Can you describe your bedroom in English?",
+      "storyContext": "ROBO visits Johnny's room at the Robot Sport Lab dormitory and they practise naming every item they can see.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "What do you sleep on in your bedroom?",
+          "options": ["Chair", "Desk", "Shelf", "Bed"],
+          "correctIndex": 3,
+          "explanation": "You sleep on a bed. Bed = cái giường. It is the main piece of furniture in a bedroom.",
+          "hint": "You lie down on this at night."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you use to study and write at?",
+          "options": ["Desk", "Wardrobe", "Lamp", "Bed"],
+          "correctIndex": 0,
+          "explanation": "You study at a desk. Desk = cái bàn học. You sit in front of it to write and read.",
+          "hint": "You sit here to do your homework."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Where do you keep your clothes?",
+          "options": ["Desk", "Wardrobe", "Lamp", "Shelf"],
+          "correctIndex": 1,
+          "explanation": "You keep clothes in a wardrobe. Wardrobe = tủ quần áo. It is a tall cupboard.",
+          "hint": "You hang and fold your clothes inside this."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What gives light in your bedroom?",
+          "options": ["Shelf", "Wardrobe", "Lamp", "Chair"],
+          "correctIndex": 2,
+          "explanation": "A lamp gives light. Lamp = đèn bàn. You switch it on when the room is dark.",
+          "hint": "It is electrical and glows when switched on."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Giá sách' means what in English?",
+          "options": ["Shelf", "Desk", "Wardrobe", "Table"],
+          "correctIndex": 0,
+          "explanation": "Giá sách = Shelf in English. It is a flat board on the wall where you store books.",
+          "hint": "Giá sách holds books along a flat board."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you sit on?",
+          "options": ["Bed", "Wardrobe", "Lamp", "Chair"],
+          "correctIndex": 3,
+          "explanation": "You sit on a chair. Chair = cái ghế. You sit on it while studying at your desk.",
+          "hint": "You pull this up to your desk to sit down."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which bedroom item lets you see outside?",
+          "options": ["Desk", "Lamp", "Window", "Wardrobe"],
+          "correctIndex": 2,
+          "explanation": "A window lets you see outside. Window = cửa sổ. It has glass and lets in light.",
+          "hint": "You can look outside and see the garden through this."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which sentence about a bedroom is correct?",
+          "options": ["I sleep on my desk.", "I sleep on my bed.", "I put books in my lamp.", "I study on my wardrobe."],
+          "correctIndex": 1,
+          "explanation": "'I sleep on my bed' is correct. A bed is for sleeping, a desk is for studying.",
+          "hint": "Match each item to its correct purpose."
+        },
+        {
+          "type": "true_false",
+          "text": "A wardrobe is used to store clothes.",
+          "correct": true,
+          "explanation": "True! A wardrobe stores your clothes. Wardrobe = tủ quần áo.",
+          "hint": "What do you put inside a wardrobe?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "I study at my ___.",
+          "answer": "desk",
+          "explanation": "You study at your desk. Desk = cái bàn học. It is where you do homework.",
+          "hint": "The flat surface where you do homework."
+        }
+      ]
+    }
+  ]
+}

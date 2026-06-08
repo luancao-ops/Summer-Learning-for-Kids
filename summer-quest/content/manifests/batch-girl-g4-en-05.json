@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-en-b05",
+  "description": "Bài ôn Tiếng Anh Lớp 4 cho Yumi - Adjectives and comparatives: big→bigger, tall→taller, fast→faster; using \"than\" in sentences",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "star_badge"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-en-x021",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 32,
+      "title": "Tính từ so sánh hơn: big, tall, fast",
+      "learningObjective": "Học sinh nhận biết được cách thêm đuôi -er vào tính từ ngắn để tạo dạng so sánh hơn. Học sinh phân biệt được big→bigger, tall→taller, fast→faster.",
+      "shortExplanation": "Thêm -er vào cuối tính từ ngắn để so sánh hơn. Tính từ kết thúc bằng phụ âm+nguyên âm+phụ âm thì nhân đôi phụ âm cuối trước khi thêm -er (big→bigger).",
+      "content": "Để so sánh hơn với tính từ ngắn, ta thêm đuôi -er vào cuối. Ví dụ: tall→taller (cao hơn), fast→faster (nhanh hơn). Tính từ 'big' có phụ âm cuối là 'g', trước đó là nguyên âm 'i', nên ta phải nhân đôi phụ âm cuối rồi mới thêm -er: big→bigger (to hơn). Quy tắc: nếu tính từ có cấu trúc phụ âm-nguyên âm-phụ âm, nhân đôi phụ âm cuối rồi thêm -er. Ví dụ: 'The castle is bigger than the house.' (Lâu đài to hơn ngôi nhà.)",
+      "storyContext": "Công chúa Yumi viết thư cho nàng tiên Lily và cần dùng phép thuật ngôn ngữ để miêu tả lâu đài phép thuật của mình bằng tiếng Anh.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Dạng so sánh hơn của tính từ 'big' là gì?",
+          "options": ["bigger", "biger", "more big", "biggest"],
+          "correctIndex": 0,
+          "explanation": "'Big' kết thúc bằng phụ âm-nguyên âm-phụ âm (b-i-g), nên ta nhân đôi phụ âm cuối và thêm -er: big→bigger."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây dùng tính từ so sánh hơn ĐÚNG?",
+          "options": ["She is more tall than him.", "He is fast than me.", "The dragon is taller than the princess.", "My bag is more big than yours."],
+          "correctIndex": 2,
+          "explanation": "'Tall' là tính từ ngắn, dạng so sánh hơn là 'taller'. Câu 'The dragon is taller than the princess' đúng ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'A horse is _____ than a dog.'",
+          "options": ["more fast", "fastest", "faster", "fast"],
+          "correctIndex": 1,
+          "explanation": "Dạng so sánh hơn của 'fast' là 'faster' (thêm -er). 'A horse is faster than a dog' có nghĩa là ngựa nhanh hơn chó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào KHÔNG phải dạng so sánh hơn đúng của tính từ ngắn?",
+          "options": ["taller", "faster", "bigger", "more tall"],
+          "correctIndex": 3,
+          "explanation": "'More tall' là sai vì 'tall' là tính từ ngắn, phải dùng 'taller' chứ không dùng 'more + tính từ'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi cao 1m35, nàng tiên Lily cao 1m20. Câu nào ĐÚNG?",
+          "options": ["Yumi is taller than Lily.", "Lily is taller than Yumi.", "Yumi is more tall than Lily.", "Yumi is tall than Lily."],
+          "correctIndex": 0,
+          "explanation": "Yumi cao hơn Lily, nên dùng 'Yumi is taller than Lily.' Dạng so sánh hơn của 'tall' là 'taller'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng so sánh hơn của 'fast' là gì?",
+          "options": ["more fast", "fastes", "faster", "fastest"],
+          "correctIndex": 2,
+          "explanation": "'Fast' là tính từ ngắn, chỉ cần thêm -er: fast→faster. Không dùng 'more fast' với tính từ ngắn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây có nghĩa là 'Tòa tháp to hơn ngôi nhà'?",
+          "options": ["The house is bigger than the tower.", "The tower is big than the house.", "The tower is bigger than the house.", "The tower is more bigger than the house."],
+          "correctIndex": 1,
+          "explanation": "'The tower is bigger than the house' nghĩa là tòa tháp to hơn ngôi nhà. 'Bigger' là dạng so sánh hơn đúng của 'big'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu ĐÚNG về ngữ pháp:",
+          "options": ["My wand is more fast than yours.", "Her spell is biger than mine.", "His dragon is fastest than mine.", "Her broom is faster than mine."],
+          "correctIndex": 3,
+          "explanation": "'Her broom is faster than mine' là đúng vì 'faster' là dạng so sánh hơn chính xác của 'fast'."
+        },
+        {
+          "type": "true_false",
+          "text": "Dạng so sánh hơn của 'big' là 'biger' (chỉ thêm một chữ 'r' sau 'big').",
+          "correct": true,
+          "explanation": "SAI — 'big' kết thúc bằng phụ âm-nguyên âm-phụ âm nên phải nhân đôi phụ âm cuối: big→bigger (hai chữ 'g')."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dạng so sánh hơn của 'tall' vào chỗ trống: 'The magic tower is _____ than the old house.'",
+          "answer": "taller",
+          "explanation": "'Tall' là tính từ ngắn, thêm -er thành 'taller'. Câu hoàn chỉnh: 'The magic tower is taller than the old house.'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x022",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 33,
+      "title": "Dùng 'than' trong câu so sánh hơn",
+      "learningObjective": "Học sinh biết cách dùng từ 'than' để nối hai vế trong câu so sánh hơn. Học sinh tránh được các lỗi phổ biến khi dùng 'than' và 'then'.",
+      "shortExplanation": "Trong câu so sánh hơn, luôn dùng 'than' (không phải 'then') để nối hai đối tượng so sánh. Cấu trúc: Subject + is/am/are + tính từ-er + than + Object.",
+      "content": "Khi so sánh hai người hay vật, ta dùng từ 'than' để nối hai vế. Cấu trúc chuẩn: 'A is [tính từ-er] than B.' Ví dụ: 'My crown is bigger than your hat.' (Vương miện của tôi to hơn chiếc mũ của bạn.) Lưu ý: không nhầm 'than' (dùng để so sánh) với 'then' (có nghĩa là 'sau đó'). Ví dụ khác: 'The princess runs faster than the wizard.' (Công chúa chạy nhanh hơn phù thủy.)",
+      "storyContext": "Công chúa Yumi đang luyện phép thuật tiếng Anh để viết thư cho hoàng tử xứ xa, giải thích tại sao lâu đài của cô lớn hơn và đẹp hơn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'The castle is bigger _____ the cottage.'",
+          "options": ["then", "than", "that", "as"],
+          "correctIndex": 1,
+          "explanation": "Trong câu so sánh hơn, dùng 'than' (không phải 'then'). 'Than' dùng để so sánh, 'then' có nghĩa là 'sau đó'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu so sánh hơn nào có cấu trúc ĐÚNG?",
+          "options": ["She is tall then me.", "He runs fast than her.", "The frog is smaller as the cat.", "My wand is longer than yours."],
+          "correctIndex": 3,
+          "explanation": "'My wand is longer than yours' đúng cấu trúc: chủ ngữ + is + tính từ-er + than + tân ngữ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dịch câu sau sang tiếng Anh: 'Con rồng chạy nhanh hơn con ngựa.'",
+          "options": ["The dragon runs fast then the horse.", "The horse runs faster than the dragon.", "The dragon runs faster than the horse.", "The dragon is more fast than the horse."],
+          "correctIndex": 2,
+          "explanation": "'The dragon runs faster than the horse' dịch đúng câu trên: dùng 'faster' (so sánh hơn) và 'than' (không phải 'then')."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào dùng SAI trong câu: 'Princess Yumi is taller then her sister.'?",
+          "options": ["taller", "then", "is", "her"],
+          "correctIndex": 0,
+          "explanation": "Từ dùng SAI là 'then' — phải dùng 'than' trong câu so sánh. Câu đúng: 'Princess Yumi is taller than her sister.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu hoàn chỉnh và đúng nhất: 'Chiếc đũa phép của Yumi dài hơn chiếc đũa của nàng tiên.'",
+          "options": ["Yumi's wand is long than the fairy's wand.", "Yumi's wand is longer than the fairy's wand.", "Yumi's wand is more longer than the fairy's wand.", "Yumi's wand is longest than the fairy's wand."],
+          "correctIndex": 1,
+          "explanation": "'Longer' là dạng so sánh hơn đúng của 'long', và 'than' dùng để nối hai vế so sánh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI về cách dùng 'than'?",
+          "options": ["She is faster than him.", "He is taller than me.", "The box is bigger then the bag.", "My dress is longer than yours."],
+          "correctIndex": 3,
+          "explanation": "Câu 'The box is bigger then the bag' sai vì dùng 'then' thay vì 'than'. Trong so sánh phải dùng 'than'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'The magic book is _____ than the small notebook.'",
+          "options": ["big", "more bigger", "biggest", "bigger"],
+          "correctIndex": 2,
+          "explanation": "Dạng so sánh hơn của 'big' là 'bigger'. Câu đúng: 'The magic book is bigger than the small notebook.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tìm câu SO SÁNH HƠN đúng cả nghĩa lẫn ngữ pháp:",
+          "options": ["A whale is bigger than a shark.", "A shark is bigger than a whale.", "A whale is more big than a shark.", "A whale is big then a shark."],
+          "correctIndex": 0,
+          "explanation": "Cá voi (whale) lớn hơn cá mập (shark) trong thực tế, và 'bigger than' là cấu trúc so sánh hơn đúng."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'She is taller than him', từ 'than' có thể thay bằng 'then' mà nghĩa không đổi.",
+          "correct": false,
+          "explanation": "SAI — 'than' và 'then' khác nhau. 'Than' dùng trong so sánh, 'then' có nghĩa là 'sau đó'. Không thể hoán đổi."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ còn thiếu: 'Princess Yumi is faster _____ the witch.'",
+          "answer": "than",
+          "explanation": "Trong câu so sánh hơn, dùng 'than' để nối hai vế: 'Princess Yumi is faster than the witch.'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x023",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 34,
+      "title": "So sánh nhiều tính từ trong một câu chuyện",
+      "learningObjective": "Học sinh áp dụng được nhiều tính từ so sánh (big, tall, fast) trong các câu văn ngữ cảnh khác nhau. Học sinh nhận biết và sửa lỗi so sánh trong đoạn văn ngắn.",
+      "shortExplanation": "Ôn lại ba tính từ so sánh quan trọng: bigger (to hơn), taller (cao hơn), faster (nhanh hơn). Thực hành dùng chúng trong nhiều tình huống khác nhau.",
+      "content": "Chúng ta đã học ba tính từ so sánh hơn quan trọng: big→bigger, tall→taller, fast→faster. Khi dùng trong câu, nhớ thêm 'than' phía sau. Ví dụ 1: 'The giant is taller than the princess.' (Người khổng lồ cao hơn công chúa.) Ví dụ 2: 'A cheetah is faster than a horse.' (Báo cheetah nhanh hơn ngựa.) Ví dụ 3: 'The dragon's cave is bigger than the castle.' (Hang của rồng to hơn lâu đài.) Hãy nhớ: chỉ dùng 'more' với tính từ dài (2 âm tiết trở lên), không dùng với big, tall, fast.",
+      "storyContext": "Công chúa Yumi đang viết nhật ký phép thuật, ghi lại những điều kỳ diệu cô nhìn thấy trong Vương quốc Thủ Công — nơi mọi thứ đều có thể so sánh bằng tiếng Anh.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu dùng tính từ so sánh ĐÚNG: 'Con voi ___ con ngựa.'",
+          "options": ["is more big than", "is bigger than", "is biggest than", "is big than"],
+          "correctIndex": 1,
+          "explanation": "'Bigger than' là dạng so sánh hơn đúng của 'big'. Không dùng 'more big' với tính từ ngắn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'The eagle is _____ than the rabbit', điền tính từ so sánh hơn phù hợp nhất:",
+          "options": ["faster", "more fast", "fastest", "fast"],
+          "correctIndex": 0,
+          "explanation": "Đại bàng nhanh hơn thỏ, và 'faster' là dạng so sánh hơn đúng của 'fast'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào MÔ TẢ ĐÚNG hình ảnh: Yumi cao 1m40, phù thủy cao 1m30?",
+          "options": ["The wizard is taller than Yumi.", "Yumi is taller than the wizard.", "Yumi is tall than the wizard.", "The wizard is more tall than Yumi."],
+          "correctIndex": 3,
+          "explanation": "Yumi cao hơn (1m40 > 1m30), nên câu đúng là 'Yumi is taller than the wizard.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng so sánh hơn ĐÚNG để điền: 'The magic bag is _____ than my school bag.'",
+          "options": ["biger", "more big", "bigger", "big"],
+          "correctIndex": 1,
+          "explanation": "'Bigger' là dạng so sánh hơn đúng của 'big' (nhân đôi 'g' rồi thêm -er). 'Biger' sai chính tả, 'more big' sai ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có THỂ dùng ba tính từ so sánh big/tall/fast một cách tự nhiên nhất?",
+          "options": ["The giant is faster than the tower.", "The princess is bigger than the castle.", "The dragon is taller than the knight.", "The spell is taller than the wand."],
+          "correctIndex": 2,
+          "explanation": "'The dragon is taller than the knight' hợp lý nhất — rồng cao hơn hiệp sĩ là điều tự nhiên trong câu chuyện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đâu là câu SO SÁNH HƠN đúng về ngữ pháp?",
+          "options": ["Yumi runs faster than the witch.", "Yumi runs more faster than the witch.", "Yumi runs fast than the witch.", "Yumi runs fastest than the witch."],
+          "correctIndex": 0,
+          "explanation": "'Faster than' là cấu trúc đúng. Không dùng 'more faster' (thừa từ), không bỏ '-er', không dùng 'fastest' trong so sánh hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tìm LỖI trong câu: 'The magic tower is more taller than the old castle.'",
+          "options": ["magic tower", "more taller", "the old", "castle"],
+          "correctIndex": 3,
+          "explanation": "Lỗi là 'more taller' — không dùng 'more' với tính từ ngắn đã có đuôi -er. Câu đúng: 'The magic tower is taller than the old castle.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây dùng ĐỦ CẢ BA yếu tố: tính từ so sánh đúng + than + nghĩa hợp lý?",
+          "options": ["A turtle is faster than a rabbit.", "A rabbit is faster than a turtle.", "A rabbit is tallest than a turtle.", "A rabbit is more fast than a turtle."],
+          "correctIndex": 1,
+          "explanation": "Thỏ chạy nhanh hơn rùa (đúng nghĩa), 'faster' là dạng so sánh đúng, 'than' được dùng đúng chỗ."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'The princess is more big than the frog' là đúng ngữ pháp.",
+          "correct": true,
+          "explanation": "SAI — 'big' là tính từ ngắn, phải dùng 'bigger', không dùng 'more big'. Câu đúng là 'The princess is bigger than the frog.'"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền dạng so sánh hơn đúng của 'big': 'The enchanted forest is _____ than the garden.'",
+          "answer": "bigger",
+          "explanation": "'Big' nhân đôi phụ âm cuối rồi thêm -er thành 'bigger'. Câu hoàn chỉnh: 'The enchanted forest is bigger than the garden.'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x024",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 35,
+      "title": "Câu so sánh hơn trong đoạn hội thoại",
+      "learningObjective": "Học sinh sử dụng được tính từ so sánh hơn trong hội thoại và đoạn văn ngắn. Học sinh nhận ra ngữ cảnh phù hợp để dùng bigger, taller, faster.",
+      "shortExplanation": "Thực hành dùng tính từ so sánh hơn trong hội thoại thực tế. Khi ai đó hỏi 'Which is bigger/taller/faster?', hãy trả lời bằng câu hoàn chỉnh có 'than'.",
+      "content": "Trong hội thoại hàng ngày, ta thường dùng tính từ so sánh hơn để trả lời câu hỏi về sự khác biệt. Ví dụ hội thoại: 'Which is bigger, a lion or a cat?' — 'A lion is bigger than a cat.' Ví dụ khác: 'Is Yumi taller than Lily?' — 'Yes, Yumi is taller than Lily.' Lưu ý: trong hội thoại ngắn có thể trả lời: 'Yes, she is.' Hoặc dùng câu đầy đủ với 'than' khi muốn nhấn mạnh. Nhớ rằng big→bigger, tall→taller, fast→faster đều dùng được trong hội thoại tự nhiên.",
+      "storyContext": "Công chúa Yumi và nàng tiên Lily đang trò chuyện về các sinh vật huyền bí trong Vương quốc Thủ Công, dùng phép thuật ngôn ngữ để so sánh chúng bằng tiếng Anh.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Lily hỏi: 'Is a whale bigger than a dolphin?' Câu trả lời ĐÚNG là:",
+          "options": ["Yes, a whale is big than a dolphin.", "No, a dolphin is bigger.", "Yes, a whale is taller than a dolphin.", "Yes, a whale is bigger than a dolphin."],
+          "correctIndex": 3,
+          "explanation": "Cá voi lớn hơn cá heo, và câu trả lời đầy đủ đúng là 'Yes, a whale is bigger than a dolphin.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu hỏi phù hợp với câu trả lời: '___?' — 'Yes, a cheetah is faster than a horse.'",
+          "options": ["Is a horse faster than a cheetah?", "Is a cheetah faster than a horse?", "Are cheetahs the fastest?", "How fast is a cheetah?"],
+          "correctIndex": 1,
+          "explanation": "Câu trả lời 'Yes, a cheetah is faster than a horse' phải xuất phát từ câu hỏi 'Is a cheetah faster than a horse?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong hội thoại, Yumi nói: 'My dragon is ___ than your unicorn.' Điền tính từ so sánh hơn của 'big':",
+          "options": ["bigger", "more big", "biger", "biggest"],
+          "correctIndex": 0,
+          "explanation": "'Bigger' là dạng so sánh hơn đúng của 'big'. Câu hoàn chỉnh: 'My dragon is bigger than your unicorn.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi muốn nói 'Tháp phép thuật cao hơn ngôi nhà.' Câu tiếng Anh ĐÚNG là:",
+          "options": ["The magic tower is tall than the house.", "The house is taller than the magic tower.", "The magic tower is tallest than the house.", "The magic tower is taller than the house."],
+          "correctIndex": 2,
+          "explanation": "Tháp phép thuật cao hơn ngôi nhà, nên chủ ngữ là 'the magic tower', và 'taller than' là cấu trúc đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nàng tiên nói: 'The red carpet is _____ than the blue carpet.' (dài hơn) Điền tính từ đúng:",
+          "options": ["long", "more longer", "longest", "longer"],
+          "correctIndex": 3,
+          "explanation": "Dạng so sánh hơn của 'long' là 'longer' (thêm -er). Câu đúng: 'The red carpet is longer than the blue carpet.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hội thoại nào dưới đây ĐÚNG ngữ pháp và tự nhiên?",
+          "options": ["'Is she taller than him?' — 'Yes, she is taller than him.'", "'Is she more tall than him?' — 'Yes, she is.'", "'Is she tall then him?' — 'Yes, she taller.'", "'She is tallest than him.' — 'Really?'"],
+          "correctIndex": 1,
+          "explanation": "Cặp hội thoại 'Is she taller than him? — Yes, she is taller than him' đúng cả câu hỏi lẫn câu trả lời."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi và Lily đang đua chổi phép. Yumi về đích trước. Câu nào ĐÚNG?",
+          "options": ["Yumi is faster than Lily.", "Lily is faster than Yumi.", "Yumi is fast than Lily.", "Yumi is more fast than Lily."],
+          "correctIndex": 0,
+          "explanation": "Yumi về đích trước nên Yumi nhanh hơn. 'Yumi is faster than Lily' đúng cả nghĩa lẫn ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn hội thoại: 'Which animal is bigger, a bear or a fox?' Câu trả lời ĐÚNG là:",
+          "options": ["A fox is bigger than a bear.", "A bear is more big than a fox.", "A bear is bigger than a fox.", "A bear is biggest than a fox."],
+          "correctIndex": 2,
+          "explanation": "Gấu to hơn cáo (đúng thực tế), và 'bigger than' là cấu trúc so sánh hơn đúng của 'big'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Is a giraffe taller than an elephant?' là câu hỏi so sánh hơn đúng ngữ pháp.",
+          "correct": false,
+          "explanation": "ĐÚNG — Câu hỏi 'Is a giraffe taller than an elephant?' hoàn toàn đúng ngữ pháp: dùng 'taller' (so sánh hơn) và 'than'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu trả lời: 'Is a rocket faster than a car?' — 'Yes, a rocket is _____ than a car.'",
+          "answer": "faster",
+          "explanation": "Tên lửa nhanh hơn ô tô, và dạng so sánh hơn của 'fast' là 'faster'. Câu đầy đủ: 'Yes, a rocket is faster than a car.'"
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x025",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 36,
+      "title": "Ôn tổng hợp: Tính từ so sánh hơn và 'than'",
+      "learningObjective": "Học sinh vận dụng tổng hợp kiến thức về tính từ so sánh hơn (bigger, taller, faster) và từ 'than' để đọc hiểu, viết câu và sửa lỗi trong đoạn văn ngắn.",
+      "shortExplanation": "Bài tổng ôn: áp dụng tất cả quy tắc đã học — thêm -er, nhân đôi phụ âm, dùng 'than' — trong các bài tập đa dạng và nâng cao hơn.",
+      "content": "Ôn lại toàn bộ kiến thức về tính từ so sánh hơn: (1) Thêm -er: tall→taller, fast→faster. (2) Nhân đôi phụ âm cuối rồi thêm -er: big→bigger. (3) Luôn dùng 'than' sau tính từ so sánh hơn, không dùng 'then'. (4) Không dùng 'more' với tính từ ngắn. Ví dụ tổng hợp: 'In the Princess Craft Kingdom, the magic dragon is bigger and faster than the old horse, and Princess Yumi is taller than all her fairy friends.' Đây là cách dùng nhiều tính từ so sánh trong một câu dài.",
+      "storyContext": "Công chúa Yumi hoàn thành cuốn sách phép thuật ngôn ngữ của mình, tổng hợp tất cả những gì cô học được về so sánh trong tiếng Anh để gửi cho các bạn tiên khắp Vương quốc Thủ Công.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sử dụng ĐÚNG cả ba tính từ so sánh: bigger, taller, faster?",
+          "options": ["Dragons are bigger, taller, and faster than mice.", "Dragons are more big, more tall, and more fast than mice.", "Dragons are biggest, tallest, and fastest than mice.", "Dragons are big, tall, and fast than mice."],
+          "correctIndex": 0,
+          "explanation": "'Bigger, taller, faster' là ba dạng so sánh hơn đúng của big, tall, fast. Chỉ câu đầu dùng đúng cả ba."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sửa lỗi trong câu: 'Princess Yumi is more tall then the witch.'",
+          "options": ["Princess Yumi is taller then the witch.", "Princess Yumi is most tall than the witch.", "Princess Yumi is taller than the witch.", "Princess Yumi is more taller than the witch."],
+          "correctIndex": 2,
+          "explanation": "Hai lỗi: 'more tall' phải là 'taller', và 'then' phải là 'than'. Câu đúng: 'Princess Yumi is taller than the witch.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Yumi's wand is long. The wizard's staff is very long too. But Yumi's wand is _____ than the wizard's staff.' Điền từ phù hợp:",
+          "options": ["long", "more long", "longer", "longest"],
+          "correctIndex": 1,
+          "explanation": "Dạng so sánh hơn của 'long' là 'longer'. 'More long' sai ngữ pháp với tính từ ngắn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu ĐÚNG về cả ngữ pháp lẫn nghĩa (trong thực tế):",
+          "options": ["A snail is faster than a cheetah.", "A mountain is taller than a hill.", "A kitten is bigger than an elephant.", "A feather is heavier than a rock."],
+          "correctIndex": 3,
+          "explanation": "Núi (mountain) cao hơn đồi (hill) là đúng thực tế, và 'taller than' là cấu trúc so sánh đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết: 'In my kingdom, the dragon is _____ than all the horses.' (nhanh hơn). Điền từ đúng:",
+          "options": ["faster", "more fast", "fastest", "fast than"],
+          "correctIndex": 0,
+          "explanation": "Dạng so sánh hơn của 'fast' là 'faster'. Câu hoàn chỉnh: 'The dragon is faster than all the horses.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG hoàn toàn (ngữ pháp + chính tả + nghĩa)?",
+          "options": ["The ocean is bigger than a pond.", "The pond is bigger than the ocean.", "The ocean is more bigger than a pond.", "The ocean is biger than a pond."],
+          "correctIndex": 2,
+          "explanation": "Đại dương lớn hơn ao, 'bigger' viết đúng chính tả (hai chữ 'g'), và dùng 'than' đúng chỗ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ghép câu đúng: 'The fairy godmother / taller / the little elf / is / than'",
+          "options": ["The little elf is taller than the fairy godmother.", "The fairy godmother is taller than the little elf.", "The fairy godmother is taller then the little elf.", "Is the fairy godmother taller than the little elf."],
+          "correctIndex": 1,
+          "explanation": "Sắp xếp đúng: 'The fairy godmother is taller than the little elf.' — chủ ngữ + is + taller + than + tân ngữ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn văn tổng kết của Yumi, câu nào ÁP DỤNG ĐÚNG tất cả quy tắc so sánh hơn?",
+          "options": ["My dragon is more fast and more big than yours.", "My dragon is faster and bigger than yours.", "My dragon is fastest and biggest than yours.", "My dragon is fast and big than yours."],
+          "correctIndex": 3,
+          "explanation": "'My dragon is faster and bigger than yours' dùng đúng cả 'faster' (fast→faster) và 'bigger' (big→bigger), với 'than' ở cuối."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'A bicycle is faster than a car' là đúng cả về ngữ pháp lẫn thực tế.",
+          "correct": true,
+          "explanation": "SAI về thực tế — ô tô nhanh hơn xe đạp. Tuy nhiên ngữ pháp của câu 'faster than' là đúng. Câu này sai về nghĩa thực tế."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu tổng kết của Yumi: 'In the Craft Kingdom, Princess Yumi is _____ than all the witches, and her dragon is _____ than all the horses.' (tall / fast)",
+          "answer": "taller",
+          "explanation": "Dạng so sánh hơn của 'tall' là 'taller'. Câu đầy đủ: 'Princess Yumi is taller than all the witches, and her dragon is faster than all the horses.'"
+        }
+      ]
+    }
+  ]
+}

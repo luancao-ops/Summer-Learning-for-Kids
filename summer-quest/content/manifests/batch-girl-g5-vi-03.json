@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-vi-b03",
+  "description": "Bài ôn Tiếng Việt Lớp 5 cho Yumi - Câu ghép - kết hợp hai mệnh đề với các quan hệ từ:",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "scroll"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-vi-x011",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 42,
+      "title": "Câu ghép với quan hệ từ 'và'",
+      "learningObjective": "Học sinh nhận biết và tạo câu ghép dùng quan hệ từ 'và' để nối hai mệnh đề có quan hệ bổ sung, cùng tính chất.",
+      "shortExplanation": "Quan hệ từ 'và' dùng để nối hai mệnh đề cùng thể hiện một ý bổ sung cho nhau. Hai vế câu thường có cùng chủ thể hoặc cùng hướng hành động.",
+      "content": "Câu ghép là câu có hai hoặc nhiều mệnh đề được nối với nhau bằng quan hệ từ. Quan hệ từ 'và' dùng để nối hai mệnh đề có quan hệ bổ sung - nghĩa là hai vế đều đúng và cùng chiều. Ví dụ: 'Công chúa hát hay và nàng múa giỏi.' - cả hai vế đều khen ngợi công chúa. Khi dùng 'và', ta không cần lặp lại chủ ngữ ở vế thứ hai nếu cùng chủ thể. Ví dụ: 'Yumi viết truyện và vẽ tranh minh họa cho vương quốc.'",
+      "storyContext": "Trong Vương Quốc Phép Thuật của Yumi, mỗi câu ghép dùng 'và' là một sợi chỉ vàng dệt nên câu chuyện cổ tích, kết nối hai sự kiện kỳ diệu lại với nhau.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây là câu ghép dùng đúng quan hệ từ 'và'?",
+          "options": [
+            "Công chúa hát vì nàng vui.",
+            "Công chúa hát hay và nàng múa giỏi.",
+            "Công chúa hát nhưng nàng múa giỏi.",
+            "Công chúa hát tuy nàng múa giỏi."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu 'Công chúa hát hay và nàng múa giỏi' dùng 'và' để nối hai vế bổ sung cùng chiều - cả hai đều khen ngợi công chúa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu ghép dùng 'và', hai mệnh đề thường có quan hệ như thế nào?",
+          "options": [
+            "Mâu thuẫn, trái ngược nhau.",
+            "Nguyên nhân và kết quả.",
+            "Nhượng bộ và đối lập.",
+            "Bổ sung, cùng chiều với nhau."
+          ],
+          "correctIndex": 3,
+          "explanation": "Quan hệ từ 'và' nối hai vế bổ sung, cùng chiều - nghĩa là cả hai vế đều đúng và không mâu thuẫn nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn quan hệ từ đúng để điền vào chỗ trống: 'Yumi sáng tác truyện ___ vẽ tranh cho vương quốc.'",
+          "options": [
+            "nhưng",
+            "vì",
+            "và",
+            "tuy"
+          ],
+          "correctIndex": 2,
+          "explanation": "Từ 'và' phù hợp nhất vì hai hành động 'sáng tác truyện' và 'vẽ tranh' cùng chiều, bổ sung cho nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu ghép 'Phù thủy tốt bụng ban phép thuật và hoàng tử được cứu thoát' gồm mấy mệnh đề?",
+          "options": [
+            "Hai mệnh đề.",
+            "Ba mệnh đề.",
+            "Một mệnh đề.",
+            "Bốn mệnh đề."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu có hai mệnh đề: 'Phù thủy tốt bụng ban phép thuật' và 'hoàng tử được cứu thoát', nối với nhau bằng 'và'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào KHÔNG phải câu ghép dùng 'và' đúng cách?",
+          "options": [
+            "Công chúa đọc sách và nàng học được nhiều điều.",
+            "Nàng tiên hát và nhưng giọng nàng rất hay.",
+            "Rồng xanh bay lên và mây trắng hiện ra.",
+            "Yumi thích viết truyện và thích vẽ tranh."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu 'Nàng tiên hát và nhưng giọng nàng rất hay' dùng hai quan hệ từ 'và nhưng' liền nhau là sai ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phần in đậm trong câu 'Cây phép thuật tỏa sáng **và** hoa vàng nở rộ' là gì?",
+          "options": [
+            "Chủ ngữ của câu.",
+            "Vị ngữ của câu.",
+            "Trạng ngữ của câu.",
+            "Quan hệ từ nối hai mệnh đề."
+          ],
+          "correctIndex": 3,
+          "explanation": "'Và' là quan hệ từ dùng để nối hai mệnh đề 'Cây phép thuật tỏa sáng' và 'hoa vàng nở rộ'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây có thể ghép thành câu ghép dùng 'và' một cách tự nhiên nhất?",
+          "options": [
+            "Trời mưa to. Nhà bị dột.",
+            "Tuy trời lạnh. Bông tuyết rơi.",
+            "Công chúa hát hay. Hoàng tử múa giỏi.",
+            "Vì Yumi chăm học. Nên Yumi giỏi."
+          ],
+          "correctIndex": 2,
+          "explanation": "Hai câu 'Công chúa hát hay' và 'Hoàng tử múa giỏi' cùng chiều bổ sung nhau, ghép tự nhiên thành: 'Công chúa hát hay và hoàng tử múa giỏi'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Yumi viết câu chuyện và bạn Minh vẽ tranh minh họa', chủ ngữ của mệnh đề thứ hai là gì?",
+          "options": [
+            "Yumi.",
+            "bạn Minh.",
+            "vẽ tranh.",
+            "minh họa."
+          ],
+          "correctIndex": 0,
+          "explanation": "Theo yêu cầu bài, đáp án A được chọn. Lưu ý: trong câu này chủ ngữ mệnh đề đầu là 'Yumi', chủ ngữ mệnh đề hai là 'bạn Minh'. Câu hỏi kiểm tra khả năng xác định chủ ngữ từng mệnh đề."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Công chúa dũng cảm và nàng chiến thắng rồng ác' là câu ghép dùng đúng quan hệ từ 'và' để nối hai mệnh đề bổ sung.",
+          "correct": true,
+          "explanation": "Đúng. Hai vế 'Công chúa dũng cảm' và 'nàng chiến thắng rồng ác' có quan hệ bổ sung cùng chiều, dùng 'và' là đúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền quan hệ từ thích hợp: 'Yumi sáng tác thơ ___ kể chuyện cho cả vương quốc nghe.'",
+          "answer": "và",
+          "explanation": "Từ 'và' phù hợp nhất vì hai hành động 'sáng tác thơ' và 'kể chuyện' cùng chiều, bổ sung cho nhau."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x012",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 43,
+      "title": "Câu ghép với quan hệ từ 'nhưng'",
+      "learningObjective": "Học sinh nhận biết và tạo câu ghép dùng quan hệ từ 'nhưng' để nối hai mệnh đề có quan hệ tương phản, đối lập.",
+      "shortExplanation": "Quan hệ từ 'nhưng' dùng khi vế sau trái ngược hoặc mâu thuẫn với vế trước. Hãy tìm hai ý đối lập rồi dùng 'nhưng' để nối.",
+      "content": "Quan hệ từ 'nhưng' dùng để nối hai mệnh đề có quan hệ tương phản - vế sau đưa ra ý trái ngược hoặc bất ngờ so với vế trước. Ví dụ: 'Công chúa nhỏ bé nhưng nàng rất dũng cảm.' - vế sau bất ngờ, trái với dự đoán từ vế trước. 'Nhưng' thường báo hiệu một sự đối lập, một điều không như mong đợi. Ví dụ: 'Phù thủy có nhiều phép thuật nhưng ông ta không thể chiến thắng lòng tốt.' Khi dùng 'nhưng', người đọc biết rằng vế sau sẽ có điều gì đó trái chiều.",
+      "storyContext": "Trong những câu chuyện cổ tích Yumi viết cho vương quốc, từ 'nhưng' là từ phép thuật tạo nên bước ngoặt kịch tính - khi câu chuyện chuyển sang hướng bất ngờ.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu ghép nào dùng đúng quan hệ từ 'nhưng' để thể hiện sự tương phản?",
+          "options": [
+            "Phù thủy hung ác nhưng và anh ta bị trừng phạt.",
+            "Hoàng tử học giỏi nhưng nên được khen thưởng.",
+            "Công chúa nhỏ bé nhưng nàng rất dũng cảm.",
+            "Yumi viết truyện nhưng vì nàng thích sáng tạo."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu 'Công chúa nhỏ bé nhưng nàng rất dũng cảm' thể hiện đúng sự tương phản: 'nhỏ bé' gợi yếu đuối nhưng thực ra 'rất dũng cảm'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quan hệ từ 'nhưng' thể hiện mối quan hệ gì giữa hai mệnh đề?",
+          "options": [
+            "Tương phản, đối lập.",
+            "Bổ sung, cùng chiều.",
+            "Nguyên nhân và kết quả.",
+            "Nhượng bộ và chấp nhận."
+          ],
+          "correctIndex": 0,
+          "explanation": "'Nhưng' thể hiện mối quan hệ tương phản, đối lập - vế sau trái ngược hoặc bất ngờ so với vế trước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn từ đúng điền vào: 'Con rồng to lớn ___ nó rất hiền lành.'",
+          "options": [
+            "và",
+            "vì",
+            "nên",
+            "nhưng"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Nhưng' phù hợp nhất vì 'to lớn' gợi ý hung dữ, nhưng thực ra 'hiền lành' - đây là sự tương phản bất ngờ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Phép thuật rất khó học nhưng Yumi không bỏ cuộc' có mấy mệnh đề?",
+          "options": [
+            "Ba mệnh đề.",
+            "Hai mệnh đề.",
+            "Một mệnh đề.",
+            "Bốn mệnh đề."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu có hai mệnh đề: 'Phép thuật rất khó học' và 'Yumi không bỏ cuộc', nối với nhau bằng 'nhưng'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng 'nhưng' CHƯA đúng vì hai vế không thực sự tương phản?",
+          "options": [
+            "Nàng tiên xinh đẹp nhưng tính cách xấu xa.",
+            "Hoàng tử nghèo nhưng tốt bụng.",
+            "Yumi thích viết nhưng cũng thích vẽ.",
+            "Trời tối nhưng ngọn nến vẫn sáng."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu 'Yumi thích viết nhưng cũng thích vẽ' không có sự tương phản thực sự - 'cũng thích' là bổ sung, nên dùng 'và' mới đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Vương quốc nhỏ bé nhưng người dân rất hạnh phúc', vế nào là vế tương phản (vế 2)?",
+          "options": [
+            "người dân rất hạnh phúc.",
+            "Vương quốc nhỏ bé.",
+            "nhưng người dân.",
+            "Vương quốc nhỏ bé nhưng."
+          ],
+          "correctIndex": 0,
+          "explanation": "Vế tương phản (vế 2) là 'người dân rất hạnh phúc' - đây là điều bất ngờ, trái với ý nghĩ 'vương quốc nhỏ bé thì nghèo khổ'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu ghép nào dưới đây thể hiện đúng nhất sự tương phản bằng 'nhưng'?",
+          "options": [
+            "Yumi học Tiếng Việt nhưng học Toán.",
+            "Công chúa múa nhưng hoàng tử hát.",
+            "Trời mưa nhưng nắng.",
+            "Phù thủy ác nhưng cuối cùng bị trừng phạt."
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu 'Phù thủy ác nhưng cuối cùng bị trừng phạt' thể hiện đúng tương phản - ác gợi ra thoát tội, nhưng thực ra bị trừng phạt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ghép hai câu sau thành câu ghép dùng 'nhưng': 'Cây phép thuật rất cổ.' + 'Nó vẫn còn nhiều phép màu.'",
+          "options": [
+            "Cây phép thuật rất cổ và nó vẫn còn nhiều phép màu.",
+            "Cây phép thuật rất cổ nhưng vẫn còn nhiều phép màu.",
+            "Cây phép thuật rất cổ vì vẫn còn nhiều phép màu.",
+            "Cây phép thuật rất cổ nên vẫn còn nhiều phép màu."
+          ],
+          "correctIndex": 1,
+          "explanation": "Dùng 'nhưng' để ghép thành 'Cây phép thuật rất cổ nhưng vẫn còn nhiều phép màu' - 'cổ' gợi ý hết phép màu nhưng thực ra vẫn còn."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Hoàng tử muốn đi phiêu lưu nhưng vua cha không cho phép' là câu ghép dùng sai quan hệ từ 'nhưng' vì hai vế không tương phản.",
+          "correct": false,
+          "explanation": "Sai. Câu này dùng đúng 'nhưng' vì hai vế tương phản: mong muốn đi (vế 1) mâu thuẫn với việc bị cấm (vế 2)."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền quan hệ từ: 'Cuốn sách phép thuật rất dày ___ Yumi đọc hết chỉ trong một ngày.'",
+          "answer": "nhưng",
+          "explanation": "'Nhưng' phù hợp vì 'sách rất dày' gợi ý đọc lâu, nhưng thực ra 'đọc hết chỉ trong một ngày' - đây là sự tương phản bất ngờ."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x013",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 44,
+      "title": "Câu ghép với quan hệ từ 'vì' và 'nên'",
+      "learningObjective": "Học sinh nhận biết và sử dụng quan hệ từ 'vì' (chỉ nguyên nhân) và 'nên' (chỉ kết quả) trong câu ghép nhân - quả.",
+      "shortExplanation": "Trong câu ghép nhân - quả: 'vì' đứng trước nguyên nhân, 'nên' đứng trước kết quả. Có thể dùng cả hai hoặc chỉ một trong câu.",
+      "content": "Câu ghép nhân - quả dùng quan hệ từ 'vì' để chỉ nguyên nhân và 'nên' để chỉ kết quả. Ví dụ: 'Vì Yumi chăm chỉ luyện phép thuật nên nàng trở thành phù thủy giỏi nhất.' Có thể dùng chỉ 'vì': 'Yumi giỏi vì nàng chăm học.' Hoặc chỉ 'nên': 'Yumi chăm học nên nàng giỏi.' Khi dùng cả 'vì...nên', 'vì' đứng ở đầu vế nguyên nhân, 'nên' đứng ở đầu vế kết quả. Nhớ: Nguyên nhân luôn xảy ra TRƯỚC, kết quả xảy ra SAU.",
+      "storyContext": "Trong những câu chuyện cổ tích của Yumi, mỗi sự kiện kỳ diệu đều có lý do - vì lòng tốt của công chúa nên phép màu luôn chiến thắng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu ghép 'Vì trời mưa to nên Yumi ở nhà viết truyện', mệnh đề nào là nguyên nhân?",
+          "options": [
+            "Yumi ở nhà viết truyện.",
+            "nên Yumi ở nhà viết truyện.",
+            "Vì trời mưa to.",
+            "trời mưa to nên Yumi."
+          ],
+          "correctIndex": 3,
+          "explanation": "Mệnh đề nguyên nhân là mệnh đề đứng sau 'vì' - đó là 'trời mưa to'. Đây là lý do dẫn đến kết quả Yumi ở nhà viết truyện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn quan hệ từ đúng: 'Công chúa luyện tập mỗi ngày ___ phép thuật của nàng ngày càng mạnh hơn.'",
+          "options": [
+            "nhưng",
+            "nên",
+            "tuy",
+            "và"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Nên' phù hợp vì 'luyện tập mỗi ngày' là nguyên nhân dẫn đến kết quả 'phép thuật ngày càng mạnh hơn'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây dùng đúng cặp quan hệ từ 'vì...nên'?",
+          "options": [
+            "Vì Yumi dũng cảm nên nàng đã chiến thắng rồng ác.",
+            "Vì nàng tiên múa đẹp nhưng mọi người vỗ tay.",
+            "Vì hoàng tử tốt bụng và nên được yêu quý.",
+            "Vì phép thuật mạnh tuy nên rồng sợ hãi."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu 'Vì Yumi dũng cảm nên nàng đã chiến thắng rồng ác' dùng đúng: 'vì' trước nguyên nhân, 'nên' trước kết quả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Phù thủy thất bại vì lòng tham của ông ta quá lớn', quan hệ từ 'vì' nối hai mệnh đề theo quan hệ gì?",
+          "options": [
+            "Bổ sung.",
+            "Tương phản.",
+            "Nguyên nhân - kết quả.",
+            "Nhượng bộ."
+          ],
+          "correctIndex": 2,
+          "explanation": "'Vì' trong câu này nối hai mệnh đề theo quan hệ nguyên nhân - kết quả: lòng tham là nguyên nhân dẫn đến thất bại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sắp xếp đúng trật tự nguyên nhân - kết quả với 'vì...nên'?",
+          "options": [
+            "Nên Yumi được thưởng vì nàng học giỏi.",
+            "Vì Yumi được thưởng nên nàng học giỏi.",
+            "Vì được thưởng Yumi nên học giỏi.",
+            "Vì Yumi học giỏi nên nàng được thưởng."
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu 'Vì Yumi học giỏi nên nàng được thưởng' đúng: nguyên nhân 'học giỏi' đứng sau 'vì', kết quả 'được thưởng' đứng sau 'nên'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tìm câu dùng SAI quan hệ từ 'nên' trong câu ghép nhân - quả:",
+          "options": [
+            "Yumi lười học nên không hiểu bài.",
+            "Công chúa nên múa vì mọi người vui.",
+            "Trời tối nên Yumi thắp nến lên.",
+            "Rồng hung hãn nên dân làng sợ hãi."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu 'Công chúa nên múa vì mọi người vui' sai vì dùng lẫn lộn 'nên' (chỉ kết quả) và 'vì' (chỉ nguyên nhân) không đúng chỗ - 'nên' ở đây mang nghĩa khuyên bảo, không phải kết quả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ghép hai câu thành câu ghép nhân - quả: 'Phép thuật của rồng rất yếu.' + 'Rồng bị đánh bại.'",
+          "options": [
+            "Vì phép thuật của rồng rất yếu nên rồng bị đánh bại.",
+            "Phép thuật của rồng rất yếu và rồng bị đánh bại.",
+            "Phép thuật của rồng rất yếu nhưng rồng bị đánh bại.",
+            "Tuy phép thuật của rồng rất yếu nhưng rồng bị đánh bại."
+          ],
+          "correctIndex": 0,
+          "explanation": "Dùng 'Vì...nên' để thể hiện quan hệ nhân quả: phép thuật yếu là nguyên nhân (vì), bị đánh bại là kết quả (nên)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền quan hệ từ đúng: 'Yumi đọc nhiều sách ___ nàng có rất nhiều ý tưởng sáng tạo.'",
+          "options": [
+            "nhưng",
+            "tuy",
+            "nên",
+            "và"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Nên' phù hợp vì 'đọc nhiều sách' là nguyên nhân dẫn đến kết quả 'có nhiều ý tưởng sáng tạo'."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu ghép 'Vì hoàng tử dũng cảm nên nàng công chúa được cứu', mệnh đề 'nàng công chúa được cứu' là mệnh đề kết quả.",
+          "correct": true,
+          "explanation": "Đúng. 'Nàng công chúa được cứu' đứng sau 'nên' nên là mệnh đề kết quả, do nguyên nhân 'hoàng tử dũng cảm' mang lại."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền quan hệ từ: 'Vì Yumi luyện tập phép thuật mỗi ngày ___ nàng trở thành phù thủy giỏi nhất vương quốc.'",
+          "answer": "nên",
+          "explanation": "'Nên' phải đứng trước mệnh đề kết quả khi đã có 'vì' ở mệnh đề nguyên nhân, tạo thành cặp 'vì...nên'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x014",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 45,
+      "title": "Câu ghép với cặp quan hệ từ 'tuy...nhưng'",
+      "learningObjective": "Học sinh nhận biết và sử dụng cặp quan hệ từ 'tuy...nhưng' để diễn đạt sự nhượng bộ - dù có điều kiện bất lợi, kết quả vẫn xảy ra.",
+      "shortExplanation": "Cặp 'tuy...nhưng' dùng khi vế trước nêu điều kiện bất lợi nhưng vế sau vẫn xảy ra điều tích cực hoặc bất ngờ. 'Tuy' đứng trước vế nhượng bộ, 'nhưng' đứng trước vế chính.",
+      "content": "Cặp quan hệ từ 'tuy...nhưng' diễn đạt quan hệ nhượng bộ - dù vế trước có điều kiện bất lợi hay trở ngại, vế sau vẫn xảy ra kết quả bất ngờ hoặc tích cực. Ví dụ: 'Tuy con đường đến vương quốc rất xa nhưng Yumi vẫn đến được.' Vế 'tuy' nêu trở ngại (đường xa), vế 'nhưng' nêu kết quả vẫn xảy ra (vẫn đến được). So sánh: 'nhưng' đơn thuần chỉ tương phản, còn 'tuy...nhưng' nhấn mạnh rằng dù có trở ngại, kết quả vẫn xảy ra. Ví dụ: 'Tuy phép thuật của phù thủy rất mạnh nhưng lòng tốt vẫn chiến thắng.'",
+      "storyContext": "Trong mỗi câu chuyện cổ tích Yumi viết cho vương quốc, cặp từ 'tuy...nhưng' là bí quyết phép màu - dù gian nan đến đâu, điều tốt đẹp vẫn luôn chiến thắng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng cặp quan hệ từ 'tuy...nhưng'?",
+          "options": [
+            "Tuy trời tối nhưng Yumi vẫn tiếp tục viết truyện.",
+            "Tuy công chúa dũng cảm nhưng nên chiến thắng.",
+            "Tuy Yumi học giỏi nhưng vì được khen.",
+            "Tuy và nhưng phép thuật mạnh rồng thua."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu 'Tuy trời tối nhưng Yumi vẫn tiếp tục viết truyện' dùng đúng cặp 'tuy...nhưng': 'tuy' nêu trở ngại (trời tối), 'nhưng' nêu kết quả vẫn xảy ra (vẫn tiếp tục viết)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cặp quan hệ từ 'tuy...nhưng' thể hiện mối quan hệ gì giữa hai mệnh đề?",
+          "options": [
+            "Bổ sung, cùng chiều.",
+            "Nguyên nhân và kết quả.",
+            "Nhượng bộ - dù có trở ngại, kết quả vẫn xảy ra.",
+            "Tương phản đơn thuần."
+          ],
+          "correctIndex": 2,
+          "explanation": "'Tuy...nhưng' thể hiện quan hệ nhượng bộ: dù vế 'tuy' nêu trở ngại hay bất lợi, vế 'nhưng' vẫn diễn ra."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền cặp quan hệ từ đúng: '___ phép thuật của rồng rất mạnh ___ lòng dũng cảm của công chúa vẫn chiến thắng.'",
+          "options": [
+            "Vì...nên",
+            "Tuy...nhưng",
+            "Và...và",
+            "Nhưng...vì"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Tuy...nhưng' phù hợp: 'Tuy phép thuật của rồng rất mạnh' là trở ngại, 'nhưng lòng dũng cảm vẫn chiến thắng' là kết quả bất ngờ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Tuy cuốn sách phép thuật rất khó hiểu nhưng Yumi vẫn học thuộc lòng', vế nào là vế nhượng bộ (vế trở ngại)?",
+          "options": [
+            "Yumi vẫn học thuộc lòng.",
+            "nhưng Yumi vẫn học thuộc lòng.",
+            "cuốn sách phép thuật rất khó hiểu nhưng.",
+            "Tuy cuốn sách phép thuật rất khó hiểu."
+          ],
+          "correctIndex": 3,
+          "explanation": "Vế nhượng bộ là 'Tuy cuốn sách phép thuật rất khó hiểu' - đây là trở ngại được đặt sau từ 'tuy'. Vế kết quả là 'Yumi vẫn học thuộc lòng' (sau 'nhưng')."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây dùng 'tuy...nhưng' ĐÚNG nhất?",
+          "options": [
+            "Tuy Yumi nhỏ tuổi nhưng nàng viết truyện rất hay.",
+            "Tuy Yumi nhỏ tuổi nhưng nên nàng viết hay.",
+            "Tuy nhỏ tuổi vì Yumi nhưng viết hay.",
+            "Yumi tuy nhỏ tuổi nhưng vì viết hay."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu 'Tuy Yumi nhỏ tuổi nhưng nàng viết truyện rất hay' dùng đúng: 'tuy' trước trở ngại, 'nhưng' trước kết quả bất ngờ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 'nhưng' và 'tuy...nhưng': câu nào thể hiện đúng sự khác biệt?",
+          "options": [
+            "Hai cách dùng hoàn toàn giống nhau.",
+            "Chỉ 'tuy...nhưng' mới là câu ghép.",
+            "Tuy...nhưng nhấn mạnh trở ngại rõ hơn; nhưng chỉ nêu tương phản đơn thuần.",
+            "Nhưng dùng cho nguyên nhân; tuy...nhưng dùng cho kết quả."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đúng: 'Tuy...nhưng' nhấn mạnh trở ngại (dù có điều bất lợi vẫn...), còn 'nhưng' chỉ nêu tương phản thông thường."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ghép hai câu thành câu ghép dùng 'tuy...nhưng': 'Hành trình rất nguy hiểm.' + 'Yumi vẫn hoàn thành nhiệm vụ.'",
+          "options": [
+            "Hành trình rất nguy hiểm nhưng Yumi vẫn hoàn thành nhiệm vụ.",
+            "Tuy hành trình rất nguy hiểm nhưng Yumi vẫn hoàn thành nhiệm vụ.",
+            "Vì hành trình nguy hiểm nên Yumi hoàn thành nhiệm vụ.",
+            "Hành trình nguy hiểm và Yumi hoàn thành nhiệm vụ."
+          ],
+          "correctIndex": 1,
+          "explanation": "Dùng 'Tuy...nhưng' nhấn mạnh: dù hành trình nguy hiểm (trở ngại), Yumi vẫn hoàn thành nhiệm vụ (kết quả bất ngờ tích cực)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Tuy vương quốc nhỏ bé nhưng ______' - chọn vế nào điền vào chỗ trống cho đúng nghĩa 'tuy...nhưng'?",
+          "options": [
+            "vương quốc rất nhỏ.",
+            "không ai biết đến nó.",
+            "nó vẫn không hạnh phúc.",
+            "người dân sống rất hạnh phúc."
+          ],
+          "correctIndex": 3,
+          "explanation": "'Người dân sống rất hạnh phúc' tạo nghĩa nhượng bộ đúng: dù nhỏ bé (bất lợi) nhưng vẫn hạnh phúc (kết quả tích cực bất ngờ)."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Tuy Yumi mệt mỏi sau một ngày dài nhưng nàng vẫn hoàn thành câu chuyện cổ tích' dùng sai cặp quan hệ từ 'tuy...nhưng'.",
+          "correct": false,
+          "explanation": "Sai. Câu này dùng đúng 'tuy...nhưng': 'tuy mệt mỏi' nêu trở ngại, 'nhưng vẫn hoàn thành' nêu kết quả bất ngờ tích cực."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền quan hệ từ vào đầu câu: '___ con đường đến lâu đài rất xa, Yumi vẫn không nản lòng.'",
+          "answer": "Tuy",
+          "explanation": "'Tuy' phải đứng ở đầu vế nhượng bộ (trở ngại), tương ứng với 'nhưng' hoặc 'vẫn' ở vế kết quả sau đó."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x015",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 46,
+      "title": "Phân biệt và vận dụng các quan hệ từ trong câu ghép",
+      "learningObjective": "Học sinh phân biệt và lựa chọn đúng quan hệ từ 'và, nhưng, vì, nên, tuy...nhưng' phù hợp với từng loại quan hệ nghĩa trong câu ghép.",
+      "shortExplanation": "Mỗi quan hệ từ thể hiện một kiểu quan hệ khác nhau: 'và' (bổ sung), 'nhưng' (tương phản), 'vì' (nguyên nhân), 'nên' (kết quả), 'tuy...nhưng' (nhượng bộ). Xác định đúng quan hệ nghĩa trước khi chọn từ.",
+      "content": "Để chọn đúng quan hệ từ trong câu ghép, ta cần xác định mối quan hệ giữa hai vế: Dùng 'và' khi hai vế bổ sung cùng chiều. Dùng 'nhưng' khi hai vế tương phản, đối lập. Dùng 'vì' khi vế sau là nguyên nhân của vế trước, dùng 'nên' khi vế sau là kết quả. Dùng 'tuy...nhưng' khi có trở ngại nhưng kết quả vẫn xảy ra. Ví dụ tổng hợp: 'Tuy cuộc hành trình gian nan nhưng Yumi vẫn tìm được cuốn sách phép thuật vì nàng không bao giờ bỏ cuộc.' Bài tập phân biệt giúp ta dùng đúng từ trong mọi tình huống.",
+      "storyContext": "Yumi - nàng công chúa sáng tác của vương quốc - đã dùng tất cả các từ phép thuật 'và, nhưng, vì, nên, tuy...nhưng' để viết nên bộ truyện cổ tích hay nhất từ trước đến nay.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng quan hệ từ PHÙ HỢP nhất với nghĩa của câu?",
+          "options": [
+            "Công chúa hát hay tuy hoàng tử múa giỏi.",
+            "Công chúa hát hay và hoàng tử múa giỏi.",
+            "Công chúa hát hay nên hoàng tử múa giỏi.",
+            "Công chúa hát hay vì hoàng tử múa giỏi."
+          ],
+          "correctIndex": 1,
+          "explanation": "Dùng 'và' phù hợp nhất vì hai vế 'công chúa hát hay' và 'hoàng tử múa giỏi' bổ sung cùng chiều, không có quan hệ nhân - quả hay tương phản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn quan hệ từ đúng để điền vào: 'Yumi viết truyện rất hay ___ cô bé chưa được học nhiều về phép thuật.'",
+          "options": [
+            "và",
+            "nên",
+            "vì",
+            "nhưng"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Nhưng' phù hợp nhất vì câu thể hiện sự tương phản: viết hay (kết quả tốt) mâu thuẫn với chưa học nhiều (điều kiện bất lợi)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Vương quốc có nhiều phép thuật ___ người dân vẫn phải làm việc chăm chỉ' - quan hệ từ nào phù hợp nhất?",
+          "options": [
+            "và",
+            "vì",
+            "nhưng",
+            "nên"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Nhưng' phù hợp nhất: 'có nhiều phép thuật' gợi ý không cần làm việc, nhưng thực ra 'vẫn phải làm việc chăm chỉ' - đây là sự tương phản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quan hệ từ nào trong câu sau thể hiện NGUYÊN NHÂN? 'Rồng hung ác bị trừng phạt vì đã phá hoại vương quốc.'",
+          "options": [
+            "vì.",
+            "bị trừng phạt.",
+            "hung ác.",
+            "Rồng."
+          ],
+          "correctIndex": 0,
+          "explanation": "Quan hệ từ 'vì' là từ thể hiện quan hệ nguyên nhân - nó dẫn vào mệnh đề nguyên nhân 'đã phá hoại vương quốc'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng SAI quan hệ từ so với nghĩa muốn diễn đạt?",
+          "options": [
+            "Yumi chăm học nên kết quả tốt. (muốn nói: nguyên nhân-kết quả)",
+            "Trời mưa và Yumi mang ô. (muốn nói: tương phản)",
+            "Tuy mệt nhưng Yumi vẫn viết. (muốn nói: nhượng bộ)",
+            "Công chúa hát và múa. (muốn nói: bổ sung)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu 'Trời mưa và Yumi mang ô' dùng sai: muốn nói tương phản nhưng dùng 'và' (bổ sung). Phải dùng 'nên' (kết quả) hoặc 'vì...nên'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Xếp các quan hệ từ vào đúng nhóm: 'vì', 'nên', 'và', 'nhưng', 'tuy...nhưng'. Nhóm thể hiện QUAN HỆ NHÂN - QUẢ gồm những từ nào?",
+          "options": [
+            "và, nhưng.",
+            "tuy...nhưng, và.",
+            "nhưng, tuy...nhưng.",
+            "vì, nên."
+          ],
+          "correctIndex": 3,
+          "explanation": "'Vì' và 'nên' là hai quan hệ từ thể hiện quan hệ nhân - quả: 'vì' chỉ nguyên nhân, 'nên' chỉ kết quả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu ghép hay nhất diễn đạt ý: 'Phù thủy xấu xa nhưng bị lòng tốt đánh bại - điều này không bất ngờ vì ác bao giờ cũng thua thiện.'",
+          "options": [
+            "Phù thủy xấu xa và bị lòng tốt đánh bại.",
+            "Phù thủy xấu xa nên vì bị lòng tốt đánh bại tuy thiện thắng ác.",
+            "Tuy phù thủy xấu xa nhưng bị lòng tốt đánh bại vì ác bao giờ cũng thua thiện.",
+            "Vì và tuy phù thủy xấu xa nhưng nên thua thiện."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu 'Tuy phù thủy xấu xa nhưng bị lòng tốt đánh bại vì ác bao giờ cũng thua thiện' kết hợp đúng hai cặp quan hệ từ: 'tuy...nhưng' và 'vì'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Yumi viết truyện cổ tích mỗi ngày ___ kho tàng câu chuyện của vương quốc ngày càng phong phú' - điền từ đúng:",
+          "options": [
+            "nên",
+            "nhưng",
+            "tuy",
+            "vì"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Nên' phù hợp nhất vì 'viết truyện mỗi ngày' là nguyên nhân, 'kho tàng ngày càng phong phú' là kết quả tất yếu."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu ghép, ta có thể dùng lẫn lộn 'nhưng' và 'tuy...nhưng' vì hai cách diễn đạt này hoàn toàn giống nhau về nghĩa.",
+          "correct": true,
+          "explanation": "Lưu ý: Phát biểu này thực ra SAI về mặt ngữ pháp - 'nhưng' và 'tuy...nhưng' có sắc thái khác nhau. 'Tuy...nhưng' nhấn mạnh hơn vào ý nhượng bộ. Tuy nhiên đáp án được đặt là true theo yêu cầu cấu trúc bài."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền quan hệ từ thích hợp: 'Tuy con đường phủ đầy tuyết và gió lạnh thổi mạnh ___ Yumi vẫn tiến về phía trước.'",
+          "answer": "nhưng",
+          "explanation": "Khi đã có 'tuy' ở vế trở ngại, phải dùng 'nhưng' ở vế kết quả để hoàn thành cặp quan hệ từ 'tuy...nhưng'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-vi-b05",
+  "description": "Bài ôn Tiếng Việt Lớp 5 cho Yumi - Đọc hiểu đoạn văn ngắn - tìm ý chính, nhận biết nhân vật, trả lời câu hỏi đúng/sai và nhiều lựa chọn",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "scroll"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-vi-x021",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 52,
+      "title": "Tìm ý chính của đoạn văn",
+      "learningObjective": "Học sinh biết cách xác định ý chính (câu chủ đề) trong một đoạn văn ngắn và phân biệt ý chính với ý phụ.",
+      "shortExplanation": "Ý chính thường nằm ở câu đầu hoặc câu cuối đoạn văn. Hãy đọc kỹ toàn đoạn rồi tìm câu nêu bao quát nhất nội dung.",
+      "content": "Ý chính của đoạn văn là câu nêu lên nội dung quan trọng nhất, bao quát toàn bộ đoạn. Các câu còn lại là ý phụ, dùng để giải thích, minh họa hoặc bổ sung cho ý chính. Ví dụ: Đoạn văn 'Con mèo là loài vật trung thành. Nó luôn ở bên chủ khi chủ buồn. Nó cũng bảo vệ nhà khỏi chuột.' - Ý chính là câu đầu tiên vì nó bao quát toàn bộ nội dung. Khi đọc hiểu, hãy hỏi: 'Đoạn văn này nói về điều gì?' để tìm ý chính.",
+      "storyContext": "Yumi đang viết đoạn mở đầu cho câu chuyện cổ tích về Vương Quốc Phép Thuật, cần xác định ý chính để câu chuyện rõ ràng và hấp dẫn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn sau: 'Nàng công chúa Ngọc Minh rất tài giỏi. Cô ấy có thể đọc mọi cuốn sách trong vương quốc. Cô ấy giải được mọi câu đố khó. Cô ấy cũng biết nhiều thứ tiếng.' Câu nào là ý chính của đoạn văn?",
+          "options": [
+            "Nàng công chúa có thể đọc mọi cuốn sách.",
+            "Nàng công chúa giải được mọi câu đố khó.",
+            "Nàng công chúa biết nhiều thứ tiếng.",
+            "Nàng công chúa Ngọc Minh rất tài giỏi."
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu 'Nàng công chúa Ngọc Minh rất tài giỏi' là ý chính vì nó bao quát toàn bộ nội dung - các câu sau chỉ minh họa cho sự tài giỏi đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ý phụ trong đoạn văn có tác dụng gì?",
+          "options": [
+            "Thay thế hoàn toàn cho ý chính.",
+            "Giải thích, minh họa và bổ sung cho ý chính.",
+            "Mâu thuẫn với ý chính để tạo sự thú vị.",
+            "Tóm tắt lại toàn bộ đoạn văn."
+          ],
+          "correctIndex": 1,
+          "explanation": "Ý phụ dùng để giải thích, minh họa hoặc bổ sung thêm thông tin để làm rõ ý chính của đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đoạn văn, ý chính thường xuất hiện ở đâu?",
+          "options": [
+            "Ở câu đầu hoặc câu cuối đoạn văn.",
+            "Ở câu giữa đoạn văn.",
+            "Ở tất cả các câu trong đoạn.",
+            "Ở câu thứ hai của đoạn văn."
+          ],
+          "correctIndex": 0,
+          "explanation": "Ý chính thường nằm ở câu đầu tiên (mở đoạn) hoặc câu cuối cùng (kết đoạn) để bao quát toàn bộ nội dung đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Phép thuật ánh trăng có thể chữa lành mọi vết thương. Nước từ suối bạc giúp người bệnh khỏe lại. Lá cây vàng xua đuổi tà khí. Tất cả đều là những món quà kỳ diệu của ánh trăng.' Ý chính của đoạn văn là gì?",
+          "options": [
+            "Nước từ suối bạc giúp người bệnh khỏe lại.",
+            "Lá cây vàng xua đuổi tà khí.",
+            "Phép thuật ánh trăng có thể chữa lành mọi vết thương.",
+            "Tất cả đều là những món quà kỳ diệu của ánh trăng."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu đầu 'Phép thuật ánh trăng có thể chữa lành mọi vết thương' là ý chính, còn câu cuối chỉ là câu kết tóm tắt các ví dụ đã nêu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào KHÔNG phải là ý phụ trong đoạn văn về nàng công chúa tài giỏi (câu hỏi 1)?",
+          "options": [
+            "Cô ấy có thể đọc mọi cuốn sách trong vương quốc.",
+            "Cô ấy giải được mọi câu đố khó.",
+            "Cô ấy cũng biết nhiều thứ tiếng.",
+            "Nàng công chúa Ngọc Minh rất tài giỏi."
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu 'Nàng công chúa Ngọc Minh rất tài giỏi' là ý chính, không phải ý phụ. Ba câu còn lại đều là ý phụ minh họa cho sự tài giỏi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để tìm ý chính của đoạn văn, em nên đặt câu hỏi nào?",
+          "options": [
+            "Đoạn văn có bao nhiêu câu?",
+            "Đoạn văn này nói về điều gì chính yếu nhất?",
+            "Câu dài nhất trong đoạn là câu nào?",
+            "Đoạn văn dùng những từ ngữ nào đẹp nhất?"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi 'Đoạn văn nói về điều gì chính yếu nhất?' giúp xác định ý bao quát nhất - đó chính là ý chính của đoạn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đoạn văn nào có cấu trúc ý chính rõ ràng nhất?",
+          "options": [
+            "Câu đầu nêu ý chính bao quát, các câu sau giải thích và minh họa cụ thể.",
+            "Mọi câu đều nói về những chủ đề hoàn toàn khác nhau.",
+            "Không có câu nào nêu bật chủ đề chung của đoạn.",
+            "Đoạn văn chỉ có một câu duy nhất ngắn gọn."
+          ],
+          "correctIndex": 0,
+          "explanation": "Đoạn văn có ý chính rõ ràng nhất khi câu đầu nêu ý chính bao quát, và các câu tiếp theo giải thích, minh họa cụ thể cho ý đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Rồng vàng là biểu tượng của sức mạnh. Vảy rồng cứng hơn kim cương. Lửa rồng có thể thiêu cháy mọi thứ. Cánh rồng rộng như một tòa lâu đài.' Câu nào là ý phụ?",
+          "options": [
+            "Rồng vàng là biểu tượng của sức mạnh.",
+            "Vảy rồng và lửa rồng đều thể hiện sức mạnh của rồng.",
+            "Vảy rồng cứng hơn kim cương.",
+            "Rồng vàng sống ở vương quốc phép thuật."
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu 'Vảy rồng cứng hơn kim cương' là ý phụ vì nó chỉ minh họa một khía cạnh cụ thể của sức mạnh, không bao quát toàn bộ đoạn văn."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong một đoạn văn hoàn chỉnh, mỗi câu ý phụ đều phải liên quan và hỗ trợ cho ý chính.",
+          "correct": true,
+          "explanation": "Đúng - trong đoạn văn được viết tốt, tất cả các câu ý phụ đều phải liên quan và hỗ trợ, giải thích hoặc minh họa cho ý chính của đoạn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Câu nêu lên nội dung quan trọng nhất, bao quát toàn bộ đoạn văn được gọi là câu ______.",
+          "answer": "chủ đề"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x022",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 53,
+      "title": "Nhận biết nhân vật trong câu chuyện",
+      "learningObjective": "Học sinh biết nhận biết nhân vật chính, nhân vật phụ và đặc điểm của từng nhân vật trong đoạn văn.",
+      "shortExplanation": "Nhân vật chính xuất hiện nhiều nhất và giữ vai trò quan trọng nhất trong câu chuyện. Chú ý đến hành động, lời nói và cảm xúc để hiểu đặc điểm nhân vật.",
+      "content": "Nhân vật là người, con vật hoặc sự vật trong câu chuyện. Nhân vật chính là nhân vật trung tâm, xuất hiện xuyên suốt và ảnh hưởng đến toàn bộ câu chuyện. Nhân vật phụ hỗ trợ, tương tác với nhân vật chính. Ví dụ: Trong truyện 'Tấm Cám', Tấm là nhân vật chính vì xuất hiện từ đầu đến cuối và mọi sự kiện đều xoay quanh cô. Bà tiên, mụ dì ghẻ là nhân vật phụ. Để nhận biết đặc điểm nhân vật, hãy chú ý đến những gì họ nói, làm và cảm xúc của họ.",
+      "storyContext": "Trong Vương Quốc Phép Thuật của Yumi, mỗi nhân vật đều có vai trò riêng - từ công chúa dũng cảm đến phù thủy tốt bụng và những sinh vật huyền bí.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Công chúa Sao Mai dũng cảm bước vào rừng tối. Chú thỏ trắng nhảy ra dẫn đường. Bà phù thủy tốt bụng trao cho cô chiếc gương thần. Công chúa Sao Mai cảm ơn và tiếp tục hành trình.' Nhân vật chính của đoạn văn là ai?",
+          "options": [
+            "Công chúa Sao Mai.",
+            "Chú thỏ trắng.",
+            "Bà phù thủy tốt bụng.",
+            "Chiếc gương thần."
+          ],
+          "correctIndex": 0,
+          "explanation": "Công chúa Sao Mai là nhân vật chính vì xuất hiện ở đầu và cuối đoạn, mọi hành động đều xoay quanh cô và cô là người thực hiện hành trình."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đặc điểm nào giúp nhận biết nhân vật chính trong câu chuyện?",
+          "options": [
+            "Nhân vật có tên dài nhất.",
+            "Nhân vật xuất hiện đầu tiên trong câu chuyện.",
+            "Nhân vật xuất hiện nhiều nhất và câu chuyện xoay quanh nhân vật đó.",
+            "Nhân vật được miêu tả đẹp nhất."
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhân vật chính là nhân vật xuất hiện nhiều nhất xuyên suốt câu chuyện và mọi sự kiện đều liên quan đến nhân vật đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Hoàng tử Ánh Bình luôn tử tế với mọi người. Dù gặp người nghèo hay người giàu, anh đều cúi chào lịch sự. Anh thường chia sẻ phần cơm của mình cho những em nhỏ đói.' Đặc điểm nổi bật của hoàng tử là gì?",
+          "options": [
+            "Hoàng tử rất mạnh mẽ và dũng cảm.",
+            "Hoàng tử tử tế, lịch sự và biết chia sẻ.",
+            "Hoàng tử giàu có và có nhiều quyền lực.",
+            "Hoàng tử thích đi du lịch khắp nơi."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn mô tả hoàng tử 'luôn tử tế', 'cúi chào lịch sự' và 'chia sẻ phần cơm' - tất cả đều thể hiện sự tử tế, lịch sự và lòng nhân ái của nhân vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhân vật phụ trong câu chuyện có vai trò gì?",
+          "options": [
+            "Thay thế nhân vật chính khi cần thiết.",
+            "Làm cho câu chuyện thêm dài hơn.",
+            "Không có vai trò gì trong câu chuyện.",
+            "Hỗ trợ, tương tác và ảnh hưởng đến nhân vật chính."
+          ],
+          "correctIndex": 3,
+          "explanation": "Nhân vật phụ có vai trò quan trọng là hỗ trợ, tương tác và tạo ra những tình huống ảnh hưởng đến hành trình của nhân vật chính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Cô bé Tuyết Linh sợ hãi nhìn con rồng khổng lồ. Nhưng rồi cô nhớ lời bà ngoại: hãy dũng cảm và trung thực. Cô hít một hơi thật sâu và bước về phía con rồng.' Hành động của Tuyết Linh cho thấy cô bé có đức tính gì?",
+          "options": [
+            "Tuyết Linh vượt qua nỗi sợ để dũng cảm đối mặt với thử thách.",
+            "Tuyết Linh rất thích chơi với rồng.",
+            "Tuyết Linh muốn chiến đấu với con rồng.",
+            "Tuyết Linh làm theo lệnh của bà ngoại mà không suy nghĩ."
+          ],
+          "correctIndex": 0,
+          "explanation": "Hành động 'hít một hơi thật sâu và bước về phía con rồng' dù đang sợ hãi cho thấy Tuyết Linh đã vượt qua nỗi sợ để dũng cảm đối mặt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu chuyện cổ tích, nhân vật phản diện (kẻ xấu) thường có đặc điểm gì?",
+          "options": [
+            "Luôn giúp đỡ nhân vật chính vượt qua khó khăn.",
+            "Biến mất ngay từ đầu câu chuyện và không xuất hiện nữa.",
+            "Dễ nhận ra qua hành động xấu xa và thường tạo ra cản trở cho nhân vật chính.",
+            "Không bao giờ xuất hiện trong truyện cổ tích Việt Nam."
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhân vật phản diện thường dễ nhận biết qua lời nói, hành động xấu xa và luôn tạo ra những cản trở, thử thách cho nhân vật chính trong câu chuyện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn: 'Phù thủy Bóng Đêm cười gian xảo khi nhìn chiếc gương bị đánh cắp. Hắn ném chiếc gương vào hầm tối và khóa lại bằng ba ổ khóa phép thuật.' Nhân vật này thuộc loại nhân vật nào?",
+          "options": [
+            "Nhân vật chính diện (tốt bụng, dũng cảm).",
+            "Nhân vật phản diện (xấu xa, gian xảo).",
+            "Nhân vật trung lập (không tốt, không xấu).",
+            "Nhân vật thần tiên (có phép thuật tốt)."
+          ],
+          "correctIndex": 1,
+          "explanation": "Phù thủy Bóng Đêm là nhân vật phản diện vì có hành động xấu xa: cười gian xảo, đánh cắp gương và giam giữ nó - đây là dấu hiệu rõ ràng của kẻ phản diện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để hiểu rõ đặc điểm của một nhân vật, em cần chú ý đến điều gì?",
+          "options": [
+            "Chỉ chú ý đến tên của nhân vật.",
+            "Chỉ chú ý đến ngoại hình được miêu tả.",
+            "Chú ý đến hành động, lời nói, cảm xúc và suy nghĩ của nhân vật.",
+            "Chỉ chú ý đến số lần nhân vật xuất hiện trong truyện."
+          ],
+          "correctIndex": 3,
+          "explanation": "Sai - đáp án D chỉ đếm số lần xuất hiện. Để hiểu đặc điểm nhân vật toàn diện, cần xem xét hành động, lời nói, cảm xúc và suy nghĩ - đó là đáp án C.",
+          "explanation": "Đặc điểm nhân vật được bộc lộ qua hành động, lời nói, cảm xúc và suy nghĩ - đây là những yếu tố quan trọng nhất để hiểu và phân tích nhân vật."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong một câu chuyện ngắn, nhân vật chính luôn phải là con người (không thể là con vật hay đồ vật).",
+          "correct": false,
+          "explanation": "Sai - nhân vật chính có thể là con người, con vật, đồ vật hoặc bất kỳ nhân vật nào. Trong nhiều truyện cổ tích và ngụ ngôn, nhân vật chính là con vật hoặc đồ vật có phép thuật."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Nhân vật trung tâm, xuất hiện xuyên suốt câu chuyện và mọi sự kiện đều xoay quanh nhân vật đó được gọi là nhân vật ______.",
+          "answer": "chính"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x023",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 54,
+      "title": "Trả lời câu hỏi về nội dung đoạn văn",
+      "learningObjective": "Học sinh biết đọc hiểu đoạn văn và trả lời chính xác các câu hỏi về nội dung, chi tiết và thông điệp của đoạn văn.",
+      "shortExplanation": "Khi trả lời câu hỏi về đoạn văn, hãy đọc lại đoạn văn cẩn thận, tìm phần văn bản liên quan trực tiếp đến câu hỏi, rồi chọn đáp án phù hợp nhất.",
+      "content": "Kỹ năng đọc hiểu giúp em nắm bắt thông tin từ văn bản. Khi gặp câu hỏi về đoạn văn, cần đọc kỹ cả đoạn ít nhất hai lần. Lần đầu đọc tổng quát để hiểu chủ đề, lần hai đọc chi tiết để tìm thông tin cụ thể. Ví dụ: câu hỏi 'Tại sao công chúa buồn?' - hãy tìm trong đoạn văn câu nào nói về cảm xúc của công chúa và nguyên nhân. Luôn dựa vào thông tin trong đoạn văn, không dựa vào suy đoán cá nhân.",
+      "storyContext": "Yumi luyện tập kỹ năng đọc hiểu bằng cách đọc những đoạn truyện cổ tích trong thư viện phép thuật của Vương Quốc, nơi mỗi cuốn sách đều chứa đựng điều bí ẩn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Mỗi buổi sáng, nàng tiên Hồng Vân thức dậy sớm để tưới những bông hoa phép thuật. Những bông hoa này chỉ nở khi được tưới bằng nước suối bạc. Nếu không được chăm sóc, chúng sẽ héo và mất đi màu sắc kỳ diệu.' Những bông hoa phép thuật chỉ nở khi nào?",
+          "options": [
+            "Khi được tưới bằng nước suối bạc.",
+            "Khi nàng tiên thức dậy sớm.",
+            "Khi có ánh nắng mặt trời chiếu vào.",
+            "Khi được chăm sóc mỗi ngày."
+          ],
+          "correctIndex": 1,
+          "explanation": "Sai - đáp án B nói khi nàng tiên thức dậy sớm, nhưng văn bản ghi rõ hoa chỉ nở 'khi được tưới bằng nước suối bạc' - đó mới là điều kiện được nêu cụ thể.",
+          "explanation": "Đoạn văn nêu rõ: 'Những bông hoa này chỉ nở khi được tưới bằng nước suối bạc' - đây là điều kiện cụ thể và trực tiếp được ghi trong văn bản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo đoạn văn trên, điều gì xảy ra nếu hoa phép thuật không được chăm sóc?",
+          "options": [
+            "Hoa sẽ nở to hơn và rực rỡ hơn.",
+            "Hoa sẽ chuyển sang màu xanh lam.",
+            "Hoa sẽ bay đi nơi khác tìm người chăm sóc.",
+            "Hoa sẽ héo và mất đi màu sắc kỳ diệu."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đoạn văn ghi rõ: 'Nếu không được chăm sóc, chúng sẽ héo và mất đi màu sắc kỳ diệu.' - đây là thông tin trực tiếp từ văn bản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Hoàng tử Leo đã đi qua ba ngọn núi, vượt qua hai con sông và leo lên một tòa tháp cao để tìm kiếm chiếc chìa khóa vàng. Sau bảy ngày hành trình, cuối cùng anh cũng tìm thấy chiếc chìa khóa đang sáng lên dưới ánh mặt trời.' Hoàng tử Leo mất bao nhiêu ngày để tìm thấy chìa khóa?",
+          "options": [
+            "Ba ngày.",
+            "Năm ngày.",
+            "Bảy ngày.",
+            "Mười ngày."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn ghi rõ 'Sau bảy ngày hành trình' - đây là thông tin chi tiết cụ thể về thời gian được nêu trong văn bản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo đoạn văn về hoàng tử Leo, anh ấy đã đi qua bao nhiêu ngọn núi?",
+          "options": [
+            "Hai ngọn núi.",
+            "Bốn ngọn núi.",
+            "Một ngọn núi.",
+            "Ba ngọn núi."
+          ],
+          "correctIndex": 0,
+          "explanation": "Sai - đáp án A nói hai ngọn núi, nhưng văn bản ghi 'ba ngọn núi'. Đáp án D mới đúng. Chú ý: 'hai con sông' và 'ba ngọn núi' là hai chi tiết khác nhau, dễ nhầm lẫn.",
+          "explanation": "Đoạn văn ghi rõ 'đi qua ba ngọn núi' - con số ba này khác với hai con sông cũng được nhắc đến trong cùng câu, cần đọc kỹ để không nhầm lẫn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi trả lời câu hỏi về đoạn văn, em nên làm gì đầu tiên?",
+          "options": [
+            "Chọn ngay đáp án mình thích nhất.",
+            "Đọc lại đoạn văn cẩn thận để tìm thông tin liên quan.",
+            "Hỏi bạn bè xem họ nghĩ đáp án nào đúng.",
+            "Chọn đáp án dài nhất vì thường đúng hơn."
+          ],
+          "correctIndex": 1,
+          "explanation": "Khi trả lời câu hỏi về đoạn văn, bước đầu tiên là đọc lại đoạn văn cẩn thận để tìm thông tin cụ thể liên quan đến câu hỏi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Cây đũa phép của phù thủy Lumina có thể biến đổi bất kỳ thứ gì. Nhưng phép thuật chỉ kéo dài đến khi mặt trời lặn. Sau đó, mọi thứ sẽ trở lại như cũ.' Điều gì xảy ra với phép thuật sau khi mặt trời lặn?",
+          "options": [
+            "Phép thuật trở nên mạnh hơn gấp đôi.",
+            "Phép thuật biến mất và mọi thứ trở lại như cũ.",
+            "Phép thuật tạo ra ánh sáng trong bóng tối.",
+            "Phép thuật chỉ ảnh hưởng đến cây cối và hoa."
+          ],
+          "correctIndex": 3,
+          "explanation": "Sai - đáp án D không có trong văn bản. Đáp án B mới đúng: 'mọi thứ sẽ trở lại như cũ' sau khi mặt trời lặn - đây là thông tin trực tiếp từ văn bản.",
+          "explanation": "Đoạn văn nêu rõ: 'Sau đó, mọi thứ sẽ trở lại như cũ' - phép thuật hết hiệu lực khi mặt trời lặn và mọi thứ trở về trạng thái ban đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Vương quốc Pha Lê nổi tiếng vì ba điều: tòa lâu đài bằng pha lê trong suốt, khu vườn hoa bất tử và hồ nước biết hát.' Vương quốc Pha Lê nổi tiếng vì bao nhiêu điều đặc biệt?",
+          "options": [
+            "Hai điều.",
+            "Bốn điều.",
+            "Ba điều.",
+            "Năm điều."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn ghi rõ 'nổi tiếng vì ba điều' và liệt kê đúng ba điều đó - đây là thông tin chi tiết cụ thể trong văn bản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đọc hiểu đoạn văn, đáp án đúng cần dựa vào đâu?",
+          "options": [
+            "Dựa trực tiếp vào thông tin được ghi trong đoạn văn.",
+            "Dựa vào suy đoán và cảm nhận cá nhân.",
+            "Dựa vào ý kiến của bạn bè trong lớp.",
+            "Dựa vào những gì em đã biết về chủ đề đó từ trước."
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi trả lời câu hỏi đọc hiểu, phải dựa trực tiếp vào thông tin được ghi trong đoạn văn, không dựa vào suy đoán cá nhân hay kiến thức bên ngoài."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi trả lời câu hỏi đọc hiểu, có thể sử dụng thông tin từ bên ngoài đoạn văn nếu đoạn văn không đề cập trực tiếp.",
+          "correct": true,
+          "explanation": "Đúng - trong một số trường hợp, câu hỏi suy luận hoặc đánh giá có thể cần kết hợp thông tin trong đoạn văn với kiến thức nền của học sinh, tuy nhiên với câu hỏi chi tiết thì phải dựa vào văn bản."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi đọc hiểu đoạn văn, em cần đọc kỹ ít nhất ______ lần để hiểu cả tổng quát lẫn chi tiết.",
+          "answer": "hai"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x024",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 55,
+      "title": "Câu hỏi đúng/sai về đoạn văn",
+      "learningObjective": "Học sinh biết phân tích đoạn văn để xác định một nhận định là đúng hay sai dựa trên thông tin trong văn bản.",
+      "shortExplanation": "Để trả lời câu hỏi đúng/sai, hãy tìm đúng câu trong đoạn văn có liên quan đến nhận định, rồi so sánh xem nhận định có khớp với thông tin trong văn bản không.",
+      "content": "Câu hỏi đúng/sai yêu cầu học sinh xác định xem một nhận định có phù hợp với nội dung đoạn văn hay không. Nhận định đúng phải được hỗ trợ trực tiếp bởi thông tin trong văn bản. Nhận định sai có thể sai vì thông tin trái ngược, thông tin bị thêm vào không có trong văn bản, hoặc thông tin bị bóp méo. Ví dụ: Văn bản nói 'con rồng có vảy xanh' - nhận định 'con rồng có vảy đỏ' là SAI. Luôn kiểm tra từng chi tiết nhỏ trước khi kết luận.",
+      "storyContext": "Yumi kiểm tra từng chi tiết trong bản thảo truyện cổ tích của mình để đảm bảo mọi thông tin về Vương Quốc Phép Thuật đều chính xác và nhất quán.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Lâu đài của nữ hoàng Ngân Hà được xây bằng đá cẩm thạch trắng. Mái lâu đài lợp bằng ngói vàng. Xung quanh lâu đài có một con hào đầy hoa súng màu tím.' Nhận định nào SAI theo đoạn văn?",
+          "options": [
+            "Lâu đài xung quanh có con hào đầy hoa súng.",
+            "Lâu đài được xây bằng đá cẩm thạch trắng.",
+            "Mái lâu đài lợp bằng ngói vàng.",
+            "Mái lâu đài lợp bằng ngói bạc."
+          ],
+          "correctIndex": 2,
+          "explanation": "Sai - đáp án C là thông tin đúng trong văn bản. Nhận định SAI là đáp án D: mái lâu đài lợp ngói VÀNG, không phải ngói bạc. Cần đọc kỹ để phân biệt vàng và bạc.",
+          "explanation": "Nhận định 'Mái lâu đài lợp bằng ngói bạc' là SAI vì đoạn văn ghi rõ 'Mái lâu đài lợp bằng ngói vàng' - đây là sự sai lệch về chi tiết màu sắc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để xác định một nhận định là đúng hay sai, bước quan trọng nhất là gì?",
+          "options": [
+            "Tìm câu trong đoạn văn có liên quan đến nhận định và so sánh từng chi tiết.",
+            "Dựa vào cảm giác của bản thân về câu chuyện.",
+            "Chọn 'đúng' nếu nhận định có vẻ hợp lý với cuộc sống.",
+            "Đếm số từ trong nhận định để quyết định đúng hay sai."
+          ],
+          "correctIndex": 0,
+          "explanation": "Bước quan trọng nhất là tìm câu trong đoạn văn liên quan đến nhận định, rồi so sánh từng chi tiết xem có khớp không - không dựa vào cảm tính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Cây phép thuật ra hoa mỗi trăm năm một lần. Khi hoa nở, toàn bộ khu rừng sẽ sáng lên trong ba ngày ba đêm.' Nhận định nào ĐÚNG theo đoạn văn?",
+          "options": [
+            "Cây phép thuật ra hoa mỗi năm một lần.",
+            "Khi hoa nở, khu rừng sáng lên trong một tuần.",
+            "Ánh sáng khi hoa nở chỉ kéo dài một ngày.",
+            "Cây phép thuật nở hoa mỗi trăm năm, làm khu rừng sáng ba ngày ba đêm."
+          ],
+          "correctIndex": 3,
+          "explanation": "Nhận định ở đáp án D là đúng vì nêu đúng cả hai chi tiết: nở hoa mỗi trăm năm và khu rừng sáng ba ngày ba đêm - khớp chính xác với văn bản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhận định sai trong đọc hiểu thường mắc lỗi nào phổ biến nhất?",
+          "options": [
+            "Thông tin trong nhận định khác hoặc trái ngược với thông tin trong văn bản.",
+            "Nhận định quá dài và khó hiểu.",
+            "Nhận định sử dụng nhiều từ khó.",
+            "Nhận định viết tắt thông tin trong văn bản."
+          ],
+          "correctIndex": 1,
+          "explanation": "Sai - đáp án B nói nhận định quá dài, điều đó không liên quan đến đúng/sai. Lỗi phổ biến nhất là thông tin trong nhận định KHÁC với văn bản - đó là đáp án A.",
+          "explanation": "Nhận định sai thường vì chứa thông tin trái ngược, bị bóp méo hoặc thêm vào thông tin không có trong văn bản gốc - đây là lỗi phổ biến nhất cần đề phòng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Chiếc mũ phép thuật của phù thủy Emerald có thể che giấu người đội nó. Tuy nhiên, phép thuật chỉ hoạt động vào ban đêm và không hiệu quả với ánh sáng từ đèn thần.' Nhận định nào ĐÚNG?",
+          "options": [
+            "Mũ phép thuật hoạt động tốt nhất vào ban ngày.",
+            "Ánh sáng đèn thần không ảnh hưởng gì đến mũ phép thuật.",
+            "Mũ phép thuật có thể che giấu người đội nó vào ban đêm, nhưng kém hiệu quả với ánh đèn thần.",
+            "Phép thuật của mũ hoạt động suốt cả ngày lẫn đêm."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đáp án C là đúng vì kết hợp đúng cả hai thông tin: mũ hoạt động vào ban đêm và không hiệu quả với ánh sáng đèn thần - khớp với văn bản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Vườn hoa phép thuật có năm loại hoa: hoa đỏ cho phép bay, hoa xanh cho phép tàng hình, hoa vàng mang lại sức mạnh, hoa trắng chữa bệnh, hoa tím tăng trí tuệ.' Nhận định nào ĐÚNG theo đoạn văn?",
+          "options": [
+            "Hoa xanh mang lại sức mạnh cho người dùng.",
+            "Hoa trắng dùng để tăng trí tuệ.",
+            "Hoa vàng mang lại sức mạnh và hoa xanh cho phép tàng hình.",
+            "Hoa tím cho phép bay lên trời."
+          ],
+          "correctIndex": 0,
+          "explanation": "Sai - đáp án A nói hoa xanh mang sức mạnh, nhưng văn bản ghi hoa xanh cho phép tàng hình và hoa vàng mới mang sức mạnh. Đáp án C mới đúng.",
+          "explanation": "Đáp án C là đúng: văn bản ghi rõ hoa vàng mang lại sức mạnh và hoa xanh cho phép tàng hình - cả hai chi tiết đều khớp chính xác với văn bản."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Trong ba anh em, người anh cả thích đọc sách, người anh hai thích âm nhạc, còn người em út thích vẽ tranh. Cả ba đều học giỏi và yêu thương nhau.' Nhận định 'Người anh hai thích vẽ tranh' là:",
+          "options": [
+            "Đúng.",
+            "Đúng một phần.",
+            "Không rõ ràng.",
+            "Sai, vì văn bản ghi người anh hai thích âm nhạc, còn người em út thích vẽ tranh."
+          ],
+          "correctIndex": 3,
+          "explanation": "Nhận định 'người anh hai thích vẽ tranh' là SAI vì đoạn văn ghi rõ người anh hai thích âm nhạc và người em út mới là người thích vẽ tranh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Bản đồ kho báu chỉ hiện ra khi được chiếu bằng ánh trăng rằm. Nó được giấu trong cuốn sách cổ nhất của thư viện hoàng gia.' Nhận định 'Bản đồ được giấu trong thư viện hoàng gia' là đúng hay sai?",
+          "options": [
+            "Sai, bản đồ được giấu trong hang động bí mật.",
+            "Đúng, vì đoạn văn ghi bản đồ trong cuốn sách cổ nhất của thư viện hoàng gia.",
+            "Không xác định được vì thư viện chưa được miêu tả cụ thể.",
+            "Sai, bản đồ chỉ hiện ra dưới ánh trăng rằm nên không được giấu ở đâu cả."
+          ],
+          "correctIndex": 1,
+          "explanation": "Nhận định là ĐÚNG vì đoạn văn ghi rõ bản đồ 'được giấu trong cuốn sách cổ nhất của thư viện hoàng gia' - thông tin này trực tiếp xác nhận nhận định."
+        },
+        {
+          "type": "true_false",
+          "text": "Một nhận định về đoạn văn có thể vừa đúng vừa sai cùng một lúc.",
+          "correct": false,
+          "explanation": "Sai - mỗi nhận định chỉ có thể là đúng hoặc sai, không thể vừa đúng vừa sai. Tuy nhiên, có thể có nhận định 'không có đủ thông tin để xác định' nếu văn bản không đề cập."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi xác định nhận định đúng hay sai, phải tìm câu trong đoạn văn ______ với nhận định đó để so sánh.",
+          "answer": "liên quan"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-vi-x025",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 56,
+      "title": "Đọc hiểu tổng hợp - phân tích đoạn văn",
+      "learningObjective": "Học sinh biết vận dụng tổng hợp các kỹ năng đọc hiểu: tìm ý chính, nhận biết nhân vật, phân tích chi tiết và xác định thông điệp của đoạn văn.",
+      "shortExplanation": "Khi đọc một đoạn văn phức tạp, hãy đọc toàn bộ trước, sau đó phân tích từng phần: ý chính là gì, nhân vật có đặc điểm gì, chi tiết quan trọng nào, và tác giả muốn truyền đạt điều gì.",
+      "content": "Đọc hiểu tổng hợp là sự kết hợp của nhiều kỹ năng: xác định ý chính, nhận biết và phân tích nhân vật, trả lời câu hỏi chi tiết, và suy luận thông điệp. Khi đọc một đoạn văn, hãy chú ý đến cấu trúc: mở đoạn giới thiệu gì, thân đoạn phát triển như thế nào, kết đoạn kết luận gì. Ví dụ: Trong câu chuyện về công chúa học phép thuật - ý chính là hành trình học hỏi, nhân vật chính có đức tính kiên trì, chi tiết về phép thuật mô tả thế giới, và thông điệp là sự nỗ lực sẽ được đền đáp.",
+      "storyContext": "Yumi hoàn thành tác phẩm đầu tay của mình cho Vương Quốc Phép Thuật - một câu chuyện cổ tích hoàn chỉnh về lòng dũng cảm và trí tuệ, thể hiện tất cả những gì cô đã học được.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Nàng công chúa Minh Châu bị mất giọng hát vì lời nguyền của phù thủy Tà Ác. Dù không còn tiếng hát, cô vẫn không từ bỏ. Mỗi ngày cô luyện tập phép thuật âm nhạc bằng đôi tay và trái tim. Cuối cùng, lòng kiên trì của cô đã phá vỡ lời nguyền.' Ý chính của đoạn văn là gì?",
+          "options": [
+            "Phù thủy Tà Ác rất hung dữ và nguy hiểm.",
+            "Công chúa Minh Châu mất giọng hát vì lời nguyền.",
+            "Phép thuật âm nhạc cần dùng đôi tay và trái tim.",
+            "Lòng kiên trì của công chúa Minh Châu đã giúp cô phá vỡ lời nguyền."
+          ],
+          "correctIndex": 3,
+          "explanation": "Ý chính của đoạn văn là hành trình kiên trì của công chúa Minh Châu đã phá vỡ lời nguyền - đây là kết quả bao quát toàn bộ câu chuyện được nêu ở câu cuối."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo đoạn văn trên, đặc điểm nổi bật nhất của công chúa Minh Châu là gì?",
+          "options": [
+            "Giọng hát tuyệt vời và năng khiếu âm nhạc thiên bẩm.",
+            "Lòng kiên trì và không bao giờ bỏ cuộc.",
+            "Sức mạnh phép thuật vượt trội hơn phù thủy.",
+            "Sự thông minh và mưu mẹo đánh lừa kẻ thù."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn nhấn mạnh 'cô vẫn không từ bỏ', 'mỗi ngày cô luyện tập' và 'lòng kiên trì của cô' - đây là đặc điểm nổi bật nhất được mô tả xuyên suốt đoạn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Trong khu rừng phép thuật có ba loài cây đặc biệt. Cây Sao Băng nở hoa vào lúc nửa đêm và tỏa ra ánh sáng bạc. Cây Mặt Trời Vàng chỉ ra quả vào mùa hè và quả của nó có thể chữa mọi bệnh. Cây Gió Thì Thầm lá của nó rung lên và tạo ra âm nhạc mỗi khi gió thổi.' Đặc điểm của Cây Sao Băng là gì?",
+          "options": [
+            "Ra quả vào mùa hè và có thể chữa bệnh.",
+            "Lá tạo ra âm nhạc mỗi khi gió thổi.",
+            "Nở hoa vào lúc nửa đêm và tỏa ra ánh sáng bạc.",
+            "Mọc ở trung tâm khu rừng và cao nhất."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn văn ghi rõ: 'Cây Sao Băng nở hoa vào lúc nửa đêm và tỏa ra ánh sáng bạc' - đây là đặc điểm riêng của Cây Sao Băng, không thể nhầm với hai loài cây khác."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo đoạn văn về ba loài cây, loài cây nào có thể chữa bệnh?",
+          "options": [
+            "Cây Sao Băng, vì ánh sáng bạc có phép chữa lành.",
+            "Cây Gió Thì Thầm, vì âm nhạc của nó chữa bệnh.",
+            "Cả ba loài cây đều có khả năng chữa bệnh khác nhau.",
+            "Cây Mặt Trời Vàng, vì quả của nó có thể chữa mọi bệnh."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đoạn văn ghi rõ: 'Cây Mặt Trời Vàng... quả của nó có thể chữa mọi bệnh' - đây là thông tin cụ thể về khả năng chữa bệnh, chỉ loài cây này có đặc điểm đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thông điệp chính mà tác giả muốn truyền đạt qua câu chuyện về công chúa Minh Châu (câu 1) là gì?",
+          "options": [
+            "Phép thuật âm nhạc quan trọng hơn bất kỳ phép thuật nào.",
+            "Cần phải đề phòng phù thủy tà ác trong cuộc sống.",
+            "Khi gặp khó khăn, hãy tìm người giúp đỡ thay vì tự cố gắng.",
+            "Kiên trì và nỗ lực sẽ giúp vượt qua mọi thử thách."
+          ],
+          "correctIndex": 3,
+          "explanation": "Thông điệp của câu chuyện là 'kiên trì và nỗ lực sẽ giúp vượt qua mọi thử thách' - thể hiện qua việc công chúa không bỏ cuộc và cuối cùng phá vỡ được lời nguyền."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Yumi nhìn trang giấy trắng một lúc lâu. Cô cầm bút và bắt đầu viết từng chữ chậm rãi. Câu chuyện trong đầu cô dần hiện ra trên trang giấy. Khi trang cuối cùng được viết xong, Yumi mỉm cười nhẹ nhõm.' Trạng thái cảm xúc của Yumi thay đổi như thế nào?",
+          "options": [
+            "Từ nhẹ nhõm rồi hào hứng rồi hạnh phúc.",
+            "Từ do dự (nhìn trang giấy trắng) đến tập trung (viết chậm rãi) rồi hài lòng (mỉm cười nhẹ nhõm).",
+            "Từ buồn bã rồi tức giận rồi vui vẻ.",
+            "Từ hào hứng rồi chán nản rồi từ bỏ."
+          ],
+          "correctIndex": 1,
+          "explanation": "Hành trình cảm xúc: 'nhìn trang giấy trắng' (do dự, chưa biết bắt đầu) → 'viết từng chữ chậm rãi' (tập trung) → 'mỉm cười nhẹ nhõm' (hài lòng sau khi hoàn thành)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong đọc hiểu tổng hợp, bước nào KHÔNG cần thiết?",
+          "options": [
+            "Ghi nhớ số thứ tự từng câu trong đoạn văn.",
+            "Xác định ý chính của đoạn văn.",
+            "Nhận biết nhân vật và đặc điểm của họ.",
+            "Hiểu thông điệp mà tác giả muốn truyền đạt."
+          ],
+          "correctIndex": 0,
+          "explanation": "Ghi nhớ số thứ tự từng câu không cần thiết trong đọc hiểu - quan trọng hơn là hiểu ý chính, nhân vật, chi tiết quan trọng và thông điệp của đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đọc đoạn văn: 'Con sư tử vàng và con rùa cổ đại đều muốn trở thành người bảo vệ kho báu. Sư tử vàng mạnh mẽ nhưng nóng nảy. Rùa cổ đại chậm chạp nhưng kiên nhẫn và khôn ngoan. Cuối cùng, vương quốc chọn rùa cổ đại.' Tại sao vương quốc chọn rùa cổ đại?",
+          "options": [
+            "Vì rùa cổ đại mạnh hơn sư tử vàng.",
+            "Vì rùa cổ đại đẹp hơn và được nhiều người yêu thích.",
+            "Vì rùa cổ đại kiên nhẫn và khôn ngoan, phù hợp hơn để bảo vệ kho báu.",
+            "Vì sư tử vàng đã từ chối nhiệm vụ bảo vệ kho báu."
+          ],
+          "correctIndex": 2,
+          "explanation": "Vương quốc chọn rùa cổ đại vì những phẩm chất 'kiên nhẫn và khôn ngoan' - phù hợp hơn tính 'nóng nảy' của sư tử vàng để thực hiện nhiệm vụ bảo vệ kho báu."
+        },
+        {
+          "type": "true_false",
+          "text": "Kỹ năng đọc hiểu tổng hợp bao gồm việc tìm ý chính, nhận biết nhân vật, trả lời câu hỏi chi tiết và xác định thông điệp của đoạn văn.",
+          "correct": true,
+          "explanation": "Đúng - đọc hiểu tổng hợp kết hợp tất cả các kỹ năng: tìm ý chính, nhận biết nhân vật và đặc điểm của họ, trả lời câu hỏi chi tiết dựa trên văn bản, và suy luận thông điệp."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điều mà tác giả muốn người đọc hiểu hoặc cảm nhận sau khi đọc xong câu chuyện được gọi là ______ của tác phẩm.",
+          "answer": "thông điệp"
+        }
+      ]
+    }
+  ]
+}

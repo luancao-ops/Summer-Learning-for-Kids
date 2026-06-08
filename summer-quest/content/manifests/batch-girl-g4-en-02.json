@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-en-b02",
+  "description": "Bài ôn Tiếng Anh Lớp 4 cho Yumi - Present Simple - he/she/it forms: third person -s/-es rules, negative and question forms",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "star_badge"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-en-x006",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 17,
+      "title": "Thêm -s vào động từ với he/she/it",
+      "learningObjective": "Học sinh sẽ biết cách thêm đuôi -s vào động từ thường khi dùng với he, she, it trong thì Hiện tại đơn.",
+      "shortExplanation": "Nhớ quy tắc: với he/she/it, hầu hết động từ thêm -s ở cuối. Ví dụ: play → plays, read → reads, eat → eats.",
+      "content": "Trong thì Hiện tại đơn, khi chủ ngữ là he, she, hoặc it, ta thêm -s vào cuối động từ thường. Ví dụ: 'She reads a book every day.' và 'He plays football every afternoon.' Với I, you, we, they thì động từ giữ nguyên dạng gốc: 'They read books.' nhưng 'She reads books.' Quy tắc này rất quan trọng để câu tiếng Anh đúng ngữ pháp và tự nhiên.",
+      "storyContext": "Công chúa Yumi luyện phép thuật tiếng Anh và nhận ra rằng khi nói về bạn bè trong truyện cổ tích, nàng phải thêm -s vào động từ để câu thần chú có hiệu lực trong Vương quốc Thủ Công!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi viết thư cho Cinderella. Chọn câu đúng: 'Cinderella ___ a beautiful dress every day.'",
+          "options": ["wear", "wears", "wearing", "wore"],
+          "correctIndex": 1,
+          "explanation": "'Cinderella' tương đương với 'she' (ngôi thứ ba số ít), nên thêm -s vào động từ: wear → wears. Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'The magic mirror ___ (show) the most beautiful princess.'",
+          "options": ["show", "showing", "showed", "shows"],
+          "correctIndex": 3,
+          "explanation": "'The magic mirror' là 'it' (ngôi thứ ba số ít), nên thêm -s vào 'show' → 'shows'. Đáp án đúng là D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG ngữ pháp khi dùng he/she/it?",
+          "options": ["She sing a song.", "He play the piano.", "The prince rides a horse.", "They rides bicycles."],
+          "correctIndex": 2,
+          "explanation": "Câu C đúng: 'The prince rides a horse.' — 'the prince' là 'he', thêm -s vào 'ride' → 'rides'. Các câu khác đều sai vì thiếu -s hoặc dùng sai."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng đúng của động từ 'dance' với chủ ngữ 'She': 'She ___ at the royal ball every night.'",
+          "options": ["dances", "dance", "dancing", "to dance"],
+          "correctIndex": 0,
+          "explanation": "Với 'she' (ngôi thứ ba số ít), động từ 'dance' thêm -s thành 'dances'. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép thuật ngữ pháp: Câu nào ĐÚNG khi dùng 'he'?",
+          "options": ["He go to the castle every day.", "He goes to the castle every day.", "He going to the castle every day.", "He goed to the castle every day."],
+          "correctIndex": 1,
+          "explanation": "Với 'he', động từ 'go' thêm -es (vì kết thúc bằng -o) → 'goes'. Câu đúng là B: 'He goes to the castle every day.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi cần chọn động từ đúng: 'The dragon ___ fire to warm the castle.'",
+          "options": ["breathe", "breathing", "breaths", "breathes"],
+          "correctIndex": 3,
+          "explanation": "'The dragon' là 'it' (ngôi thứ ba số ít), nên thêm -s vào 'breathe' → 'breathes'. Đáp án đúng là D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Snow White ___ with seven dwarfs in the forest.'",
+          "options": ["live", "lived", "lives", "living"],
+          "correctIndex": 2,
+          "explanation": "'Snow White' là 'she' (ngôi thứ ba số ít), nên thêm -s vào 'live' → 'lives'. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng đúng động từ ngôi thứ ba số ít?",
+          "options": ["He loves the princess very much.", "The prince love the princess.", "They loves each other.", "We loves this story."],
+          "correctIndex": 0,
+          "explanation": "Câu A 'He loves the princess very much.' đúng vì 'he' là ngôi thứ ba số ít, thêm -s: love → loves. Các câu khác đều sai."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu này đúng ngữ pháp: 'She plays the piano every afternoon.'",
+          "correct": true,
+          "explanation": "ĐÚNG! 'She' là ngôi thứ ba số ít, thêm -s vào 'play' → 'plays'. Câu 'She plays the piano every afternoon.' hoàn toàn đúng ngữ pháp."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu thần chú của Yumi: 'The fairy ___ (sprinkle) magic dust every morning.' (Điền dạng đúng của động từ trong ngoặc)",
+          "answer": "sprinkles",
+          "explanation": "'The fairy' là 'she/it' (ngôi thứ ba số ít), nên thêm -s vào 'sprinkle' → 'sprinkles'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x007",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 18,
+      "title": "Quy tắc thêm -es: -ch, -sh, -s, -x, -o",
+      "learningObjective": "Học sinh sẽ biết khi nào thêm -es thay vì -s cho động từ ngôi thứ ba số ít, đặc biệt với các động từ tận cùng bằng -ch, -sh, -s, -x, -o.",
+      "shortExplanation": "Quy tắc đặc biệt: động từ tận cùng bằng -ch, -sh, -s, -x, -o thêm -es. Ví dụ: teach → teaches, wash → washes, go → goes.",
+      "content": "Khi động từ tận cùng bằng -ch, -sh, -s, -x, hoặc -o, ta thêm -es thay vì chỉ -s. Ví dụ: 'She teaches English.' (teach → teaches), 'He watches TV.' (watch → watches), 'It goes fast.' (go → goes). Nếu ta chỉ thêm -s vào 'teach', ta sẽ có 'teachs' — rất khó đọc! Vì vậy ta thêm -es để âm phát âm dễ hơn. Nhớ nhóm: ch/sh/s/x/o → thêm -es.",
+      "storyContext": "Công chúa Yumi dạy phép thuật cho các nàng tiên nhỏ và cần viết đúng chính tả trong sách phép thuật để câu thần chú không bị sai trong Vương quốc Thủ Công!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi viết: 'The witch ___ (teach) magic spells every day.' Dạng đúng là gì?",
+          "options": ["teachs", "teach", "teaches", "teached"],
+          "correctIndex": 2,
+          "explanation": "'Teach' tận cùng bằng -ch nên thêm -es → 'teaches'. Đáp án đúng là C: 'teaches'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu đúng: 'The princess ___ (wash) her magic wand carefully.'",
+          "options": ["washes", "washs", "washing", "washed"],
+          "correctIndex": 0,
+          "explanation": "'Wash' tận cùng bằng -sh nên thêm -es → 'washes'. Đáp án đúng là A: 'washes'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng đúng của 'go' với chủ ngữ 'it' là gì? 'The magic horse ___ very fast.'",
+          "options": ["gos", "go", "going", "goes"],
+          "correctIndex": 3,
+          "explanation": "'Go' tận cùng bằng -o nên thêm -es → 'goes'. Đây là một trong những động từ đặc biệt quan trọng nhất! Đáp án D: 'goes'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'The magic fox ___ (fix) broken toys for the elves.'",
+          "options": ["fixs", "fixes", "fixed", "fixing"],
+          "correctIndex": 1,
+          "explanation": "'Fix' tận cùng bằng -x nên thêm -es → 'fixes'. Đáp án đúng là B: 'fixes'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp trong bài thơ thần chú của Yumi?",
+          "options": ["The fairy brushes her golden hair.", "She touches the enchanted rose.", "He catchs the magic ball.", "The elf matches the puzzle pieces."],
+          "correctIndex": 2,
+          "explanation": "Câu C sai: 'He catchs the magic ball.' — 'catch' tận cùng bằng -ch, phải thêm -es: 'catches'. Đáp án C là câu SAI."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn dạng đúng: 'The enchanted mirror ___ (pass) messages between kingdoms.'",
+          "options": ["passes", "passs", "passing", "pass"],
+          "correctIndex": 0,
+          "explanation": "'Pass' tận cùng bằng -ss nên thêm -es → 'passes'. Đáp án đúng là A: 'passes'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi đọc sách phép thuật. Động từ nào cần thêm -es (không phải -s) khi dùng với she?",
+          "options": ["play", "read", "run", "watch"],
+          "correctIndex": 3,
+          "explanation": "'Watch' tận cùng bằng -ch nên cần thêm -es → 'watches'. Các động từ play, read, run chỉ thêm -s thông thường. Đáp án D: 'watch'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền đúng: 'Princess Yumi ___ (do) her homework before magic practice.'",
+          "options": ["dos", "does", "doing", "doed"],
+          "correctIndex": 1,
+          "explanation": "'Do' là động từ đặc biệt tận cùng bằng -o, thêm -es → 'does'. Đáp án đúng là B: 'does'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu này đúng hay sai? Động từ 'watch' khi dùng với 'he' trở thành 'watchs'.",
+          "correct": false,
+          "explanation": "SAI. 'Watch' tận cùng bằng -ch nên phải thêm -es: 'he watches'. Không phải 'watchs' — dạng 'watchs' không tồn tại trong tiếng Anh."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Yumi viết thư cho Snow White: 'The evil witch ___ (mix) a poisonous potion every night.' (Điền dạng đúng)",
+          "answer": "mixes",
+          "explanation": "'Mix' tận cùng bằng -x nên thêm -es → 'mixes'. Đây là quy tắc nhóm -x + es."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x008",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 19,
+      "title": "Phủ định với does not / doesn't",
+      "learningObjective": "Học sinh sẽ biết cách tạo câu phủ định với he/she/it trong thì Hiện tại đơn dùng 'does not' hoặc 'doesn't'. Học sinh hiểu rằng sau doesn't, động từ chính trở về dạng gốc.",
+      "shortExplanation": "Công thức phủ định: He/She/It + doesn't + động từ gốc. Ví dụ: She doesn't like spiders. / He doesn't eat vegetables.",
+      "content": "Để tạo câu phủ định với he, she, it trong Hiện tại đơn, ta dùng 'does not' hoặc dạng rút gọn 'doesn't' trước động từ chính. Quan trọng: động từ chính phải ở dạng GỐC sau 'doesn't' — không thêm -s hay -es. Ví dụ đúng: 'She doesn't like cats.' Ví dụ sai: 'She doesn't likes cats.' Công thức: He/She/It + doesn't + động từ gốc.",
+      "storyContext": "Công chúa Yumi viết thư cho Sleeping Beauty giải thích những điều con rồng thú cưng của nàng không thích, để Sleeping Beauty không sợ khi đến thăm Vương quốc Thủ Công!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết: 'The dragon ___ (not/eat) princesses.' Chọn dạng đúng:",
+          "options": ["not eat", "doesn't eats", "don't eat", "doesn't eat"],
+          "correctIndex": 3,
+          "explanation": "Với 'the dragon' (it), dùng 'doesn't' + động từ gốc: 'doesn't eat'. Không dùng 'don't' (sai cho it) và không thêm -s sau 'doesn't'. Đáp án D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chuyển câu sang phủ định: 'He likes scary stories.' Câu phủ định đúng là:",
+          "options": ["He doesn't likes scary stories.", "He doesn't like scary stories.", "He don't like scary stories.", "He not like scary stories."],
+          "correctIndex": 1,
+          "explanation": "Dùng 'doesn't' + động từ gốc. 'Like' không thêm -s sau 'doesn't'. Đáp án đúng là B: 'He doesn't like scary stories.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG ngữ pháp trong câu phủ định?",
+          "options": ["She doesn't go to school on Sundays.", "She doesn't goes to school on Sundays.", "She don't goes to school on Sundays.", "She not goes to school on Sundays."],
+          "correctIndex": 0,
+          "explanation": "Câu đúng là A: 'She doesn't go to school on Sundays.' — dùng 'doesn't' + động từ gốc 'go'. Không dùng 'goes' sau doesn't."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết: 'My cat ___ (not/meow) at night.' Câu phủ định đúng là:",
+          "options": ["not meow", "doesn't meows", "doesn't meow", "don't meow"],
+          "correctIndex": 2,
+          "explanation": "Dùng 'doesn't' + động từ gốc 'meow': 'doesn't meow'. Không thêm -s/-es sau doesn't. Đáp án C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp trong câu phủ định?",
+          "options": ["He doesn't play chess.", "She doesn't read books.", "It doesn't rain here.", "The fairy doesn't flies at noon."],
+          "correctIndex": 3,
+          "explanation": "Câu D sai: 'The fairy doesn't flies at noon.' — sau 'doesn't' phải dùng động từ gốc: 'doesn't fly', không phải 'doesn't flies'. Đáp án D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu phủ định đúng của: 'The prince wears a crown.'",
+          "options": ["The prince doesn't wears a crown.", "The prince doesn't wear a crown.", "The prince don't wear a crown.", "The prince not wears a crown."],
+          "correctIndex": 1,
+          "explanation": "Dùng 'doesn't' (không phải 'don't') + động từ gốc 'wear'. Câu đúng là B: 'The prince doesn't wear a crown.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: 'Rapunzel ___ (not/have) short hair.'",
+          "options": ["doesn't have", "doesn't has", "don't have", "not have"],
+          "correctIndex": 0,
+          "explanation": "Dùng 'doesn't have' — 'have' là động từ đặc biệt, sau 'doesn't' luôn dùng 'have', không phải 'has'. Đáp án A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu phủ định nào được dùng đúng với 'it'?",
+          "options": ["It doesn't needs water.", "It don't need water.", "It doesn't need water.", "It not need water."],
+          "correctIndex": 2,
+          "explanation": "Dùng 'doesn't' + động từ gốc 'need': 'It doesn't need water.' Không dùng 'don't' hay thêm -s sau doesn't. Đáp án C."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu này đúng hay sai? 'She doesn't likes chocolate.' là câu phủ định đúng.",
+          "correct": false,
+          "explanation": "SAI. Sau 'doesn't' phải dùng động từ gốc, không thêm -s: 'She doesn't like chocolate.' là câu đúng, không phải 'doesn't likes'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Công chúa Yumi viết: 'The sleeping dragon ___ (not/wake up) easily.' (Điền cụm phủ định đúng)",
+          "answer": "doesn't wake up",
+          "explanation": "Dùng 'doesn't' + động từ gốc 'wake up' → 'doesn't wake up'. Không dùng 'don't' hay 'doesn't wakes up'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x009",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 20,
+      "title": "Câu hỏi với Does...?",
+      "learningObjective": "Học sinh sẽ biết cách đặt câu hỏi Yes/No với he/she/it trong thì Hiện tại đơn dùng 'Does'. Học sinh biết cách trả lời ngắn gọn: Yes, he/she/it does. / No, he/she/it doesn't.",
+      "shortExplanation": "Công thức câu hỏi: Does + he/she/it + động từ gốc + ...? Trả lời: Yes, he does. / No, she doesn't.",
+      "content": "Để hỏi về thói quen hoặc hành động của he, she, it trong Hiện tại đơn, ta dùng 'Does' đặt đầu câu. Động từ chính phải ở dạng gốc (không thêm -s/-es). Ví dụ: 'Does she like magic?' Trả lời: 'Yes, she does.' hoặc 'No, she doesn't.' Chú ý quan trọng: KHÔNG nói 'Does she likes...' — đây là lỗi sai phổ biến!",
+      "storyContext": "Công chúa Yumi viết thư hỏi thăm các nhân vật truyện cổ tích về cuộc sống hằng ngày, và nàng cần đặt câu hỏi đúng ngữ pháp để thư không bị phép thuật từ chối!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Yumi muốn hỏi: 'Cinderella có đi dạo mỗi buổi sáng không?' Câu hỏi đúng là:",
+          "options": ["Does Cinderella walk every morning?", "Do Cinderella walks every morning?", "Does Cinderella walks every morning?", "Is Cinderella walk every morning?"],
+          "correctIndex": 0,
+          "explanation": "Dùng 'Does' + chủ ngữ + động từ gốc: 'Does Cinderella walk every morning?' Không thêm -s sau 'Does'. Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trả lời đúng cho câu hỏi 'Does the prince ride a white horse?' (Trả lời: Có, đúng vậy.)",
+          "options": ["Yes, he do.", "Yes, he rides.", "Yes, he does.", "Yes, does he."],
+          "correctIndex": 2,
+          "explanation": "Trả lời ngắn đúng cho câu hỏi với Does là 'Yes, he does.' Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào ĐÚNG ngữ pháp?",
+          "options": ["Do she live in a castle?", "Does she live in a castle?", "Does she lives in a castle?", "Is she live in a castle?"],
+          "correctIndex": 1,
+          "explanation": "Câu đúng là B: 'Does she live in a castle?' — dùng 'Does' + chủ ngữ + động từ gốc 'live'. Đáp án B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trả lời phủ định cho: 'Does the fairy godmother use a wand?' (Trả lời: Không)",
+          "options": ["No, she don't.", "No, she doesn't uses.", "No, she not use.", "No, she doesn't."],
+          "correctIndex": 3,
+          "explanation": "Trả lời phủ định ngắn đúng là 'No, she doesn't.' Đáp án D."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi hỏi về Sleeping Beauty: 'Sleeping Beauty ___ (ngủ) 100 năm không?' Câu hỏi đúng là:",
+          "options": ["Does Sleeping Beauty sleep for 100 years?", "Do Sleeping Beauty sleep for 100 years?", "Does Sleeping Beauty sleeps for 100 years?", "Is Sleeping Beauty sleep for 100 years?"],
+          "correctIndex": 0,
+          "explanation": "Dùng 'Does' + chủ ngữ + động từ gốc 'sleep': 'Does Sleeping Beauty sleep for 100 years?' Đáp án đúng là A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi SAI ngữ pháp là câu nào?",
+          "options": ["Does he know the answer?", "Does it fly high?", "Does she speaks French?", "Does he like dragons?"],
+          "correctIndex": 2,
+          "explanation": "Câu C sai: 'Does she speaks French?' — sau 'Does' phải dùng động từ gốc: 'Does she speak French?' Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi đặt câu hỏi cho thầy phù thủy: '___ he ___ (know) the magic spell?' Điền đúng:",
+          "options": ["Do / knows", "Does / know", "Does / knows", "Is / know"],
+          "correctIndex": 1,
+          "explanation": "Dùng 'Does' + động từ gốc: 'Does he know the magic spell?' Đáp án đúng là B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn cặp câu hỏi và câu trả lời ĐÚNG cùng lúc:",
+          "options": ["Does she sings? – Yes, she sings.", "Does she sing? – Yes, she sing.", "Does she sings? – Yes, she does.", "Does she sing? – Yes, she does."],
+          "correctIndex": 3,
+          "explanation": "Câu hỏi đúng: 'Does she sing?' (động từ gốc). Câu trả lời đúng: 'Yes, she does.' Đáp án đúng là D."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu hỏi này SAI ngữ pháp: 'Does the witch cooks a potion every night?'",
+          "correct": true,
+          "explanation": "ĐÚNG — câu đó SAI ngữ pháp. Sau 'Does' phải dùng động từ gốc: 'Does the witch cook a potion every night?' Không thêm -s/-es trong câu hỏi với Does."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Yumi viết thư hỏi: '___ the magic carpet fly over the mountains?' (Điền Does hoặc Do vào chỗ trống)",
+          "answer": "Does",
+          "explanation": "Chủ ngữ 'the magic carpet' là 'it' (ngôi thứ ba số ít) nên dùng 'Does' để đặt câu hỏi Hiện tại đơn, không dùng 'Do'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-en-x010",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 21,
+      "title": "Tổng hợp: Khẳng định, phủ định và câu hỏi với he/she/it",
+      "learningObjective": "Học sinh sẽ tổng hợp được cả ba dạng câu (khẳng định, phủ định, câu hỏi) với he/she/it trong Hiện tại đơn và chuyển đổi chính xác giữa các dạng.",
+      "shortExplanation": "Ôn lại cả 3 dạng: (+) She works. (-) She doesn't work. (?) Does she work? Động từ gốc luôn dùng sau doesn't và Does.",
+      "content": "Trong thì Hiện tại đơn với he/she/it, ta có 3 dạng câu: (1) Khẳng định: She reads → thêm -s/-es vào động từ. (2) Phủ định: She doesn't read → doesn't + động từ gốc. (3) Câu hỏi: Does she read? → Does + chủ ngữ + động từ gốc. Ví dụ đầy đủ: 'He plays chess.' / 'He doesn't play chess.' / 'Does he play chess?' Chú ý: chỉ câu khẳng định mới thêm -s/-es vào động từ!",
+      "storyContext": "Công chúa Yumi làm bài kiểm tra phép thuật cuối khóa: nàng phải biến đổi câu thần chú từ dạng khẳng định sang phủ định và câu hỏi để mở cổng vào Vương Quốc Thần Tiên!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Chuyển 'She dances in the ballroom.' sang dạng câu hỏi. Câu nào đúng?",
+          "options": ["Do she dance in the ballroom?", "Does she dance in the ballroom?", "Does she dances in the ballroom?", "Is she dance in the ballroom?"],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi đúng là B: 'Does she dance in the ballroom?' — dùng Does + chủ ngữ + động từ gốc 'dance'. Đáp án B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chuyển 'He doesn't like spiders.' sang dạng khẳng định. Câu nào đúng?",
+          "options": ["He like spiders.", "He is like spiders.", "He does like spiders.", "He likes spiders."],
+          "correctIndex": 3,
+          "explanation": "Dạng khẳng định với 'he': thêm -s vào 'like' → 'likes'. Câu đúng là D: 'He likes spiders.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ba câu nào đúng cùng một lúc (khẳng định / phủ định / câu hỏi) về Snow White?",
+          "options": ["She sings. / She not sing. / Do she sing?", "She sing. / She doesn't sings. / Does she sings?", "She sings. / She doesn't sing. / Does she sing?", "She sings. / She doesn't sings. / Does she sing?"],
+          "correctIndex": 2,
+          "explanation": "Ba dạng đúng là: 'She sings.' / 'She doesn't sing.' / 'Does she sing?' — bộ C. Đáp án đúng là C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi cần điền: Khẳng định: 'The elf ___ (make) toys.' Phủ định: 'The elf ___ make toys.' Cặp đúng là:",
+          "options": ["makes / doesn't", "make / doesn't", "makes / don't", "making / doesn't"],
+          "correctIndex": 0,
+          "explanation": "Khẳng định: 'makes' (thêm -s vào make). Phủ định: 'doesn't make' (doesn't + gốc). Điền lần lượt: makes / doesn't. Đáp án A."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi và câu trả lời nào đi cùng nhau ĐÚNG?",
+          "options": ["Does he fly? – Yes, he flies.", "Does he fly? – Yes, he does.", "Do he fly? – Yes, he does.", "Does he flies? – Yes, he does."],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi đúng: 'Does he fly?' (động từ gốc). Câu trả lời ngắn đúng: 'Yes, he does.' Đáp án B."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi chọn câu phủ định đúng: 'The magic broom ___ (not/fly) by itself.'",
+          "options": ["don't fly", "not flies", "doesn't flies", "doesn't fly"],
+          "correctIndex": 3,
+          "explanation": "Dùng 'doesn't' + động từ gốc 'fly': 'doesn't fly'. Đáp án đúng là D: 'doesn't fly'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào thể hiện đúng CẢ BA dạng của động từ 'eat' với 'she'?",
+          "options": ["She eat / doesn't eat / Do she eat?", "She eats / doesn't eats / Does she eat?", "She eats / doesn't eat / Does she eat?", "She eats / don't eat / Does she eats?"],
+          "correctIndex": 2,
+          "explanation": "Ba dạng đúng: 'She eats' (thêm -s) / 'She doesn't eat' (doesn't + gốc) / 'Does she eat?' (Does + gốc). Đáp án C."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi gặp câu đố cuối: Câu nào dùng SAI dạng động từ?",
+          "options": ["He doesn't knows the answer.", "She does her homework every night.", "The queen rules the kingdom.", "Does it live in the forest?"],
+          "correctIndex": 0,
+          "explanation": "Câu A sai: 'He doesn't knows the answer.' — sau 'doesn't' phải dùng động từ gốc: 'He doesn't know the answer.' Đáp án A."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu này đúng ngữ pháp: 'Does she sing beautifully every morning?'",
+          "correct": true,
+          "explanation": "ĐÚNG! Câu hỏi với 'she': 'Does' + chủ ngữ + động từ gốc 'sing'. 'Does she sing beautifully every morning?' hoàn toàn đúng ngữ pháp."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu thần chú cuối cùng: 'Princess Yumi ___ (practice) English magic every day.' (Điền dạng đúng của động từ)",
+          "answer": "practices",
+          "explanation": "'Princess Yumi' là 'she' (ngôi thứ ba số ít), nên thêm -s vào 'practice' → 'practices'. Đây là câu khẳng định với she!"
+        }
+      ]
+    }
+  ]
+}

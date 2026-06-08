@@ -250,3 +250,8 @@ model ReadingEntry {
   @@unique([studentId, readDate])
   @@index([studentId, readDate])
 }
+
+model SiteConfig {
+  key   String @id
+  value String
+}

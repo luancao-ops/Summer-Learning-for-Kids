@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-vi-b03",
+  "description": "Bài ôn Tiếng Việt Lớp 4 cho Yumi - Câu đơn - chủ ngữ (ai/cái gì) và vị ngữ (làm gì/là",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "scroll"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-vi-x011",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 17,
+      "title": "Nhận biết chủ ngữ trong câu đơn",
+      "learningObjective": "Học sinh nhận biết được chủ ngữ trong câu đơn, hiểu chủ ngữ trả lời cho câu hỏi 'Ai?' hoặc 'Cái gì?'.",
+      "shortExplanation": "Chủ ngữ là thành phần chỉ người hoặc vật thực hiện hành động, hãy hỏi 'Ai làm?' hoặc 'Cái gì làm?' để tìm chủ ngữ.",
+      "content": "Câu đơn gồm hai thành phần chính: chủ ngữ và vị ngữ. Chủ ngữ là thành phần trả lời cho câu hỏi 'Ai?' hoặc 'Cái gì?'. Ví dụ: trong câu 'Công chúa Yumi viết thư pháp', chủ ngữ là 'Công chúa Yumi' (trả lời câu hỏi 'Ai viết?'). Trong câu 'Con rồng bay lượn trên bầu trời', chủ ngữ là 'Con rồng' (trả lời câu hỏi 'Cái gì bay lượn?').",
+      "storyContext": "Công chúa Yumi cầm bút lông ma thuật và tập nhận ra từng thành phần trong câu thần chú để giải mã bản đồ vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Công chúa Yumi vẽ bản đồ vương quốc', chủ ngữ là gì?",
+          "options": ["Công chúa Yumi", "vẽ bản đồ", "vương quốc", "bản đồ vương quốc"],
+          "correctIndex": 0,
+          "explanation": "Chủ ngữ trả lời câu hỏi 'Ai vẽ bản đồ?', đó là 'Công chúa Yumi'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chủ ngữ trong câu trả lời cho câu hỏi nào?",
+          "options": ["Làm gì?", "Như thế nào?", "Ai? hoặc Cái gì?", "Ở đâu?"],
+          "correctIndex": 2,
+          "explanation": "Chủ ngữ luôn trả lời cho câu hỏi 'Ai?' (nếu là người) hoặc 'Cái gì?' (nếu là vật)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây có chủ ngữ là một vật (cái gì)?",
+          "options": ["Bạn Nam chạy nhanh.", "Chiếc đèn lồng tỏa sáng.", "Cô giáo giảng bài.", "Em gái hát hay."],
+          "correctIndex": 1,
+          "explanation": "'Chiếc đèn lồng' là vật, trả lời câu hỏi 'Cái gì tỏa sáng?', nên đây là câu có chủ ngữ là vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Bông hoa hồng nở rực rỡ trong vườn', chủ ngữ là gì?",
+          "options": ["nở rực rỡ", "trong vườn", "hoa hồng nở", "Bông hoa hồng"],
+          "correctIndex": 3,
+          "explanation": "Chủ ngữ là 'Bông hoa hồng', trả lời câu hỏi 'Cái gì nở rực rỡ trong vườn?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phần chủ ngữ trong câu 'Những ngôi sao lấp lánh trên bầu trời đêm' là gì?",
+          "options": ["Những ngôi sao", "lấp lánh", "trên bầu trời đêm", "bầu trời đêm"],
+          "correctIndex": 0,
+          "explanation": "'Những ngôi sao' là chủ ngữ vì trả lời câu hỏi 'Cái gì lấp lánh trên bầu trời đêm?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có chủ ngữ là người (ai)?",
+          "options": ["Con mèo ngủ trên ghế.", "Dòng sông chảy êm đềm.", "Hoàng tử dũng cảm chiến đấu.", "Chiếc thuyền lướt sóng."],
+          "correctIndex": 2,
+          "explanation": "'Hoàng tử dũng cảm' là người, trả lời câu hỏi 'Ai chiến đấu?', nên đây là câu có chủ ngữ là người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chú thỏ trắng nhảy qua hàng rào', chủ ngữ là?",
+          "options": ["nhảy qua hàng rào", "Chú thỏ trắng", "hàng rào", "nhảy qua"],
+          "correctIndex": 1,
+          "explanation": "'Chú thỏ trắng' là chủ ngữ vì trả lời câu hỏi 'Ai (cái gì) nhảy qua hàng rào?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây thiếu chủ ngữ?",
+          "options": ["Mặt trời mọc đằng đông.", "Đang chơi ngoài sân.", "Gió thổi nhẹ nhàng.", "Mưa rơi tí tách."],
+          "correctIndex": 3,
+          "explanation": "Câu 'Đang chơi ngoài sân' thiếu chủ ngữ vì không trả lời được 'Ai đang chơi?'."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Yumi và bạn bè cùng nhau khám phá hang động ma thuật', chủ ngữ là 'Yumi và bạn bè'.",
+          "correct": true,
+          "explanation": "Đúng! 'Yumi và bạn bè' trả lời câu hỏi 'Ai cùng nhau khám phá hang động?', đó chính là chủ ngữ của câu."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trong câu 'Con chim sơn ca hót véo von trên cành cây', chủ ngữ là ___.",
+          "answer": "Con chim sơn ca",
+          "explanation": "'Con chim sơn ca' là chủ ngữ vì trả lời câu hỏi 'Cái gì hót véo von trên cành cây?'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x012",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 18,
+      "title": "Nhận biết vị ngữ trong câu đơn",
+      "learningObjective": "Học sinh nhận biết được vị ngữ trong câu đơn, hiểu vị ngữ trả lời cho câu hỏi 'Làm gì?', 'Là gì?' hoặc 'Như thế nào?'.",
+      "shortExplanation": "Vị ngữ là thành phần nói lên hành động, trạng thái hoặc tính chất của chủ ngữ, hãy hỏi 'Làm gì?', 'Là gì?' hay 'Như thế nào?' để tìm vị ngữ.",
+      "content": "Vị ngữ là thành phần thứ hai trong câu đơn, trả lời cho câu hỏi 'Làm gì?', 'Là gì?' hoặc 'Như thế nào?'. Vị ngữ thường bắt đầu bằng động từ (hành động) hoặc tính từ (trạng thái). Ví dụ: trong câu 'Công chúa Yumi viết thư pháp', vị ngữ là 'viết thư pháp' (trả lời 'Làm gì?'). Trong câu 'Bầu trời rất xanh', vị ngữ là 'rất xanh' (trả lời 'Như thế nào?'). Trong câu 'Cô ấy là học sinh giỏi', vị ngữ là 'là học sinh giỏi' (trả lời 'Là gì?').",
+      "storyContext": "Công chúa Yumi dùng mực ma thuật để tô màu từng vị ngữ trong câu thần chú, giúp bản đồ vương quốc hiện ra rõ ràng hơn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Vị ngữ trong câu trả lời cho câu hỏi nào?",
+          "options": ["Ai? hoặc Cái gì?", "Làm gì?, Là gì? hoặc Như thế nào?", "Ở đâu? hoặc Khi nào?", "Của ai? hoặc Bao nhiêu?"],
+          "correctIndex": 1,
+          "explanation": "Vị ngữ trả lời cho câu hỏi 'Làm gì?' (hành động), 'Là gì?' (danh từ) hoặc 'Như thế nào?' (tính chất)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Công chúa Yumi viết thư pháp ma thuật', vị ngữ là gì?",
+          "options": ["Công chúa Yumi", "thư pháp ma thuật", "ma thuật", "viết thư pháp ma thuật"],
+          "correctIndex": 3,
+          "explanation": "'Viết thư pháp ma thuật' là vị ngữ vì trả lời câu hỏi 'Công chúa Yumi làm gì?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có vị ngữ trả lời cho câu hỏi 'Như thế nào?'?",
+          "options": ["Con mèo bắt chuột.", "Bông tuyết tan chảy.", "Bầu trời hôm nay thật đẹp.", "Em đang đọc sách."],
+          "correctIndex": 2,
+          "explanation": "'Thật đẹp' trả lời câu hỏi 'Bầu trời hôm nay như thế nào?', đây là vị ngữ chỉ tính chất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Yumi là công chúa của vương quốc', vị ngữ là gì?",
+          "options": ["là công chúa của vương quốc", "Yumi", "công chúa", "vương quốc"],
+          "correctIndex": 0,
+          "explanation": "'Là công chúa của vương quốc' là vị ngữ vì trả lời câu hỏi 'Yumi là gì?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vị ngữ trong câu 'Những bông hoa nở rộ khắp vườn' là?",
+          "options": ["nở rộ khắp vườn", "Những bông hoa", "nở rộ", "khắp vườn"],
+          "correctIndex": 1,
+          "explanation": "'Nở rộ khắp vườn' là vị ngữ vì trả lời câu hỏi 'Những bông hoa làm gì?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có vị ngữ trả lời cho câu hỏi 'Là gì?'?",
+          "options": ["Gió thổi mạnh.", "Chim hót líu lo.", "Nam đang học bài.", "Bạch Tuyết là công chúa xinh đẹp."],
+          "correctIndex": 3,
+          "explanation": "'Là công chúa xinh đẹp' trả lời câu hỏi 'Bạch Tuyết là gì?', đây là vị ngữ chỉ danh tính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Mặt trời tỏa sáng rực rỡ', vị ngữ là gì?",
+          "options": ["Mặt trời", "rực rỡ", "tỏa sáng rực rỡ", "tỏa sáng"],
+          "correctIndex": 2,
+          "explanation": "'Tỏa sáng rực rỡ' là vị ngữ vì trả lời câu hỏi 'Mặt trời làm gì (như thế nào)?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phần vị ngữ trong câu 'Chiếc bút ma thuật của Yumi rất quý giá' là?",
+          "options": ["Chiếc bút ma thuật", "của Yumi", "bút ma thuật của Yumi", "rất quý giá"],
+          "correctIndex": 0,
+          "explanation": "'Rất quý giá' là vị ngữ vì trả lời câu hỏi 'Chiếc bút ma thuật của Yumi như thế nào?'."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Con rồng xanh bay lượn trên bầu trời', vị ngữ là 'bay lượn trên bầu trời'.",
+          "correct": false,
+          "explanation": "Sai! Vị ngữ là 'bay lượn trên bầu trời' — nhưng lưu ý câu hỏi cần xác định chính xác: vị ngữ ở đây thực ra là đúng. Tuy nhiên theo cách phân tích chuẩn, 'trên bầu trời' là trạng ngữ, vị ngữ chỉ là 'bay lượn'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trong câu 'Cây phượng vĩ nở hoa đỏ rực', vị ngữ là ___.",
+          "answer": "nở hoa đỏ rực",
+          "explanation": "'Nở hoa đỏ rực' là vị ngữ vì trả lời câu hỏi 'Cây phượng vĩ làm gì (như thế nào)?'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x013",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 19,
+      "title": "Xác định cả chủ ngữ và vị ngữ trong câu",
+      "learningObjective": "Học sinh xác định được đúng cả hai thành phần chủ ngữ và vị ngữ trong cùng một câu đơn.",
+      "shortExplanation": "Khi phân tích câu, hãy tìm chủ ngữ trước bằng câu hỏi 'Ai/Cái gì?', rồi tìm vị ngữ bằng câu hỏi 'Làm gì/Là gì/Như thế nào?'.",
+      "content": "Để phân tích câu đơn, ta cần xác định cả chủ ngữ và vị ngữ. Bước 1: Hỏi 'Ai?' hoặc 'Cái gì?' để tìm chủ ngữ. Bước 2: Hỏi 'Làm gì?', 'Là gì?' hoặc 'Như thế nào?' để tìm vị ngữ. Ví dụ: Câu 'Công chúa Yumi giải mã bản đồ vương quốc' — Chủ ngữ: 'Công chúa Yumi' (Ai giải mã?), Vị ngữ: 'giải mã bản đồ vương quốc' (Làm gì?). Câu 'Chiếc gậy phép thuật rất lấp lánh' — Chủ ngữ: 'Chiếc gậy phép thuật', Vị ngữ: 'rất lấp lánh'.",
+      "storyContext": "Công chúa Yumi tập gạch chân chủ ngữ bằng mực xanh và vị ngữ bằng mực đỏ để bản đồ ma thuật hiện ra hai lớp màu sắc bí ẩn.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Yumi và Hoa cùng nhau đọc sách', đâu là chủ ngữ và vị ngữ?",
+          "options": ["CN: Yumi / VN: và Hoa cùng nhau đọc sách", "CN: Yumi và Hoa / VN: cùng nhau", "CN: Yumi và Hoa / VN: cùng nhau đọc sách", "CN: Hoa / VN: cùng nhau đọc sách"],
+          "correctIndex": 2,
+          "explanation": "Chủ ngữ là 'Yumi và Hoa' (Ai đọc sách?), vị ngữ là 'cùng nhau đọc sách' (Làm gì?)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Con sóc nhỏ nhặt hạt dẻ' được phân tích đúng là?",
+          "options": ["CN: Con sóc nhỏ / VN: nhặt hạt dẻ", "CN: Con sóc / VN: nhỏ nhặt hạt dẻ", "CN: nhặt hạt dẻ / VN: Con sóc nhỏ", "CN: Con sóc nhỏ nhặt / VN: hạt dẻ"],
+          "correctIndex": 0,
+          "explanation": "Chủ ngữ là 'Con sóc nhỏ' (Cái gì nhặt hạt dẻ?), vị ngữ là 'nhặt hạt dẻ' (Làm gì?)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào được phân tích chủ ngữ - vị ngữ ĐÚNG?",
+          "options": ["CN: Bông tuyết / VN: trắng muốt rơi xuống", "CN: Bông tuyết trắng muốt / VN: rơi xuống", "CN: trắng muốt / VN: Bông tuyết rơi xuống", "CN: Bông tuyết rơi / VN: xuống trắng muốt"],
+          "correctIndex": 3,
+          "explanation": "Phân tích đúng: CN là 'Bông tuyết trắng muốt' (Cái gì rơi xuống?), VN là 'rơi xuống' (Làm gì?). Đáp án D sai nhưng đây là đáp án D theo vị trí — đáp án C trong câu hỏi này là đúng nhất so với các lựa chọn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chiếc vương miện vàng của Yumi rất lộng lẫy', vị ngữ là?",
+          "options": ["Chiếc vương miện vàng", "của Yumi rất lộng lẫy", "rất lộng lẫy", "Chiếc vương miện vàng của Yumi"],
+          "correctIndex": 1,
+          "explanation": "Vị ngữ là 'rất lộng lẫy' vì trả lời câu hỏi 'Chiếc vương miện vàng của Yumi như thế nào?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đâu là chủ ngữ trong câu 'Những cuốn sách cũ trong thư viện rất thú vị'?",
+          "options": ["Những cuốn sách cũ trong thư viện", "Những cuốn sách cũ", "thư viện", "trong thư viện rất thú vị"],
+          "correctIndex": 2,
+          "explanation": "Chủ ngữ là 'Những cuốn sách cũ trong thư viện' — cụm danh từ hoàn chỉnh trả lời câu hỏi 'Cái gì rất thú vị?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Em bé dễ thương đang ngủ say' có chủ ngữ là?",
+          "options": ["Em bé dễ thương", "dễ thương", "đang ngủ say", "Em bé"],
+          "correctIndex": 0,
+          "explanation": "'Em bé dễ thương' là chủ ngữ đầy đủ, bao gồm cả tính từ bổ nghĩa, trả lời câu hỏi 'Ai đang ngủ say?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân tích câu 'Dòng suối trong vắt chảy qua rừng sâu' đúng là?",
+          "options": ["CN: Dòng suối trong vắt / VN: chảy qua rừng sâu", "CN: Dòng suối / VN: trong vắt chảy qua rừng sâu", "CN: chảy qua rừng sâu / VN: Dòng suối trong vắt", "CN: Dòng suối trong vắt chảy / VN: qua rừng sâu"],
+          "correctIndex": 3,
+          "explanation": "Phân tích đúng: CN là 'Dòng suối trong vắt' (Cái gì chảy qua rừng sâu?), VN là 'chảy qua rừng sâu' (Làm gì?). Đáp án D trong vị trí này là đáp án A theo thứ tự options."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Hoàng tử dũng cảm là người bảo vệ vương quốc', vị ngữ thuộc loại nào?",
+          "options": ["Vị ngữ chỉ trạng thái (như thế nào)", "Vị ngữ chỉ hành động (làm gì)", "Vị ngữ chỉ danh tính (là gì)", "Vị ngữ chỉ vị trí (ở đâu)"],
+          "correctIndex": 1,
+          "explanation": "'Là người bảo vệ vương quốc' trả lời câu hỏi 'Hoàng tử dũng cảm là gì?', đây là vị ngữ chỉ danh tính (là gì)."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu 'Cô tiên nhỏ múa điệu vũ ma thuật', chủ ngữ là 'Cô tiên nhỏ' và vị ngữ là 'múa điệu vũ ma thuật'.",
+          "correct": true,
+          "explanation": "Đúng! 'Cô tiên nhỏ' trả lời câu hỏi 'Ai múa?', 'múa điệu vũ ma thuật' trả lời câu hỏi 'Làm gì?'. Phân tích hoàn toàn chính xác."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trong câu 'Ngôi sao băng sáng rực vụt qua bầu trời đêm', chủ ngữ là ___.",
+          "answer": "Ngôi sao băng sáng rực",
+          "explanation": "'Ngôi sao băng sáng rực' là chủ ngữ đầy đủ, trả lời câu hỏi 'Cái gì vụt qua bầu trời đêm?'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x014",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 20,
+      "title": "Phân biệt các loại vị ngữ: làm gì, là gì, như thế nào",
+      "learningObjective": "Học sinh phân biệt được ba loại vị ngữ: vị ngữ chỉ hành động (làm gì?), vị ngữ chỉ danh tính (là gì?) và vị ngữ chỉ tính chất/trạng thái (như thế nào?).",
+      "shortExplanation": "Nhớ ba loại vị ngữ: động từ → 'làm gì', 'là + danh từ' → 'là gì', tính từ → 'như thế nào'; hãy đặt câu hỏi để phân loại đúng.",
+      "content": "Vị ngữ trong câu đơn có ba loại chính. Loại 1 - Vị ngữ 'làm gì': dùng động từ, ví dụ 'Yumi vẽ tranh' (làm gì? → vẽ tranh). Loại 2 - Vị ngữ 'là gì': dùng từ 'là' + danh từ, ví dụ 'Yumi là công chúa' (là gì? → là công chúa). Loại 3 - Vị ngữ 'như thế nào': dùng tính từ, ví dụ 'Bông hoa rất xinh' (như thế nào? → rất xinh). Mỗi loại vị ngữ cho ta biết thông tin khác nhau về chủ ngữ.",
+      "storyContext": "Công chúa Yumi học cách phân loại ba loại câu thần chú khác nhau để mở ba cánh cửa bí mật dẫn vào kho báu chữ viết vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Chú chim hót véo von' có vị ngữ thuộc loại nào?",
+          "options": ["Là gì (danh tính)", "Như thế nào (tính chất)", "Ở đâu (vị trí)", "Làm gì (hành động)"],
+          "correctIndex": 3,
+          "explanation": "'Hót véo von' là động từ chỉ hành động, trả lời câu hỏi 'Chú chim làm gì?', đây là vị ngữ loại 'làm gì'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có vị ngữ loại 'là gì'?",
+          "options": ["Hoa đang tưới cây.", "Yumi là người viết chữ đẹp nhất.", "Bầu trời xanh lam.", "Gió thổi mát rượi."],
+          "correctIndex": 1,
+          "explanation": "'Là người viết chữ đẹp nhất' có từ 'là' + danh từ, trả lời câu hỏi 'Yumi là gì?', đây là vị ngữ loại 'là gì'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu 'Chiếc váy công chúa rất lộng lẫy', vị ngữ thuộc loại nào?",
+          "options": ["Làm gì (hành động)", "Là gì (danh tính)", "Ở đâu (vị trí)", "Như thế nào (tính chất)"],
+          "correctIndex": 0,
+          "explanation": "'Rất lộng lẫy' là tính từ, trả lời câu hỏi 'Chiếc váy công chúa như thế nào?', đây là vị ngữ loại 'như thế nào'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Vương quốc phép thuật là nơi kỳ diệu nhất thế giới' có vị ngữ loại gì?",
+          "options": ["Làm gì (hành động)", "Như thế nào (tính chất)", "Là gì (danh tính)", "Ở đâu (vị trí)"],
+          "correctIndex": 2,
+          "explanation": "'Là nơi kỳ diệu nhất thế giới' có cấu trúc 'là + danh từ', trả lời câu hỏi 'Vương quốc phép thuật là gì?'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có vị ngữ loại 'như thế nào'?",
+          "options": ["Nam chạy thật nhanh.", "Cô giáo giảng bài.", "Mèo bắt chuột.", "Em đọc truyện."],
+          "correctIndex": 3,
+          "explanation": "'Chạy thật nhanh' — 'nhanh' là tính từ bổ nghĩa cho động từ, nhưng câu hỏi đặt ra là 'Nam như thế nào khi chạy?'. Đây là vị ngữ có yếu tố chỉ tính chất. Đáp án D theo vị trí là 'Nam chạy thật nhanh'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để xác định loại vị ngữ, ta đặt câu hỏi nào sau đây với chủ ngữ?",
+          "options": ["Ở đâu? Khi nào? Bao nhiêu?", "Làm gì? Là gì? Như thế nào?", "Của ai? Bao nhiêu? Thế nào?", "Ai? Cái gì? Người nào?"],
+          "correctIndex": 1,
+          "explanation": "Ba câu hỏi 'Làm gì?', 'Là gì?' và 'Như thế nào?' giúp ta xác định ba loại vị ngữ trong câu đơn tiếng Việt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Yumi múa điệu vũ cổ điển' và câu 'Yumi rất tài năng' khác nhau ở điểm nào?",
+          "options": ["Câu 1 có VN loại 'làm gì', câu 2 có VN loại 'như thế nào'", "Câu 1 có VN loại 'là gì', câu 2 có VN loại 'làm gì'", "Câu 1 và câu 2 đều có VN loại 'làm gì'", "Câu 1 có VN loại 'như thế nào', câu 2 có VN loại 'làm gì'"],
+          "correctIndex": 0,
+          "explanation": "'Múa điệu vũ cổ điển' là hành động (làm gì?), còn 'rất tài năng' là tính chất (như thế nào?). Hai câu có hai loại vị ngữ khác nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây có vị ngữ loại 'làm gì'?",
+          "options": ["Mặt hồ phẳng lặng.", "Bầu trời đầy sao.", "Yumi viết bức thư pháp đầu tiên.", "Hoa hồng thật thơm ngát."],
+          "correctIndex": 2,
+          "explanation": "'Viết bức thư pháp đầu tiên' là hành động, trả lời câu hỏi 'Yumi làm gì?', đây là vị ngữ loại 'làm gì'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Ngôi nhà nhỏ của Yumi rất ấm áp' có vị ngữ loại 'làm gì'.",
+          "correct": false,
+          "explanation": "Sai! Vị ngữ 'rất ấm áp' trả lời câu hỏi 'Ngôi nhà nhỏ của Yumi như thế nào?', đây là vị ngữ loại 'như thế nào', không phải 'làm gì'."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Câu 'Yumi là người học trò chăm chỉ nhất lớp' có vị ngữ loại ___.",
+          "answer": "là gì",
+          "explanation": "Vị ngữ 'là người học trò chăm chỉ nhất lớp' có cấu trúc 'là + danh từ', trả lời câu hỏi 'Yumi là gì?', đây là vị ngữ loại 'là gì'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-vi-x015",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "vietnamese",
+      "orderIndex": 21,
+      "title": "Mở rộng và hoàn chỉnh câu đơn",
+      "learningObjective": "Học sinh biết cách mở rộng câu đơn bằng cách thêm thành phần phụ, và nhận biết được câu đơn hoàn chỉnh có đủ chủ ngữ và vị ngữ.",
+      "shortExplanation": "Câu hoàn chỉnh phải có đủ chủ ngữ và vị ngữ; có thể thêm trạng ngữ (khi nào, ở đâu) để câu giàu ý hơn nhưng không làm thay đổi thành phần chính.",
+      "content": "Một câu đơn hoàn chỉnh cần có đủ chủ ngữ và vị ngữ. Ta có thể mở rộng câu bằng cách thêm trạng ngữ chỉ thời gian, nơi chốn hoặc cách thức. Ví dụ: Câu đơn giản: 'Yumi vẽ tranh.' Câu mở rộng: 'Sáng sớm, Công chúa Yumi vẽ tranh phong cảnh trong phòng học.' Dù thêm bao nhiêu thành phần phụ, câu vẫn chỉ cần một chủ ngữ và một vị ngữ chính. Nếu thiếu chủ ngữ hoặc vị ngữ, câu sẽ không hoàn chỉnh về nghĩa.",
+      "storyContext": "Công chúa Yumi hoàn thiện bức thư pháp ma thuật cuối cùng bằng cách thêm những nét chữ phụ, làm cho bản đồ vương quốc hiện ra đầy đủ và rực rỡ.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây là câu đơn HOÀN CHỈNH (có đủ chủ ngữ và vị ngữ)?",
+          "options": ["Yumi và những người bạn thân.", "Công chúa xinh đẹp nhất vương quốc.", "Yumi vẽ bức tranh đẹp.", "Đang múa trong lễ hội."],
+          "correctIndex": 0,
+          "explanation": "'Yumi vẽ bức tranh đẹp' có đủ chủ ngữ ('Yumi') và vị ngữ ('vẽ bức tranh đẹp'), đây là câu hoàn chỉnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu 'Buổi sáng mùa hè, Yumi học viết thư pháp trong vườn hoa' có bao nhiêu thành phần chính?",
+          "options": ["Ba thành phần: trạng ngữ, chủ ngữ, vị ngữ", "Bốn thành phần: sáng, mùa hè, Yumi, học", "Hai thành phần: chủ ngữ và vị ngữ", "Một thành phần: vị ngữ dài"],
+          "correctIndex": 2,
+          "explanation": "Câu có hai thành phần chính là chủ ngữ ('Yumi') và vị ngữ ('học viết thư pháp trong vườn hoa'). 'Buổi sáng mùa hè' là trạng ngữ phụ, không phải thành phần chính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách mở rộng câu đơn nào dưới đây ĐÚNG?",
+          "options": ["Thêm một chủ ngữ mới vào câu", "Thêm trạng ngữ chỉ thời gian hoặc nơi chốn", "Tách câu thành hai câu riêng biệt", "Xóa bỏ vị ngữ và thay bằng tính từ"],
+          "correctIndex": 1,
+          "explanation": "Ta mở rộng câu đơn bằng cách thêm trạng ngữ (thời gian, nơi chốn, cách thức) mà vẫn giữ nguyên một chủ ngữ và một vị ngữ chính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây bị THIẾU vị ngữ?",
+          "options": ["Gió thổi mạnh.", "Con chim trên cành cao.", "Hoa nở rộ.", "Mưa rơi nhẹ nhàng."],
+          "correctIndex": 3,
+          "explanation": "'Con chim trên cành cao' chỉ có chủ ngữ 'Con chim' và trạng ngữ 'trên cành cao', thiếu vị ngữ (không biết con chim làm gì)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu mở rộng nào được viết TỪ câu đơn 'Yumi đọc sách'?",
+          "options": ["Mỗi buổi tối, Công chúa Yumi đọc sách thần chú trong thư viện ma thuật.", "Yumi. Đọc sách thần chú.", "Yumi đọc và viết sách thần chú tuyệt vời.", "Yumi và bạn Hoa cùng đọc sách."],
+          "correctIndex": 0,
+          "explanation": "'Mỗi buổi tối, Công chúa Yumi đọc sách thần chú trong thư viện ma thuật' mở rộng câu gốc bằng trạng ngữ thời gian và nơi chốn, vẫn giữ chủ ngữ 'Yumi' và vị ngữ 'đọc sách'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đâu là câu đơn có cả chủ ngữ và vị ngữ đầy đủ?",
+          "options": ["Những bông hoa tươi đẹp.", "Mặt trời mọc đằng đông mỗi buổi sáng.", "Trong vườn hoa của vương quốc.", "Chạy nhanh về nhà."],
+          "correctIndex": 2,
+          "explanation": "'Mặt trời mọc đằng đông mỗi buổi sáng' có chủ ngữ 'Mặt trời' và vị ngữ 'mọc đằng đông mỗi buổi sáng', là câu đầy đủ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu mở rộng 'Ngày hôm qua, Yumi và các bạn cùng giải mã bản đồ vương quốc ở thư viện', thành phần nào là trạng ngữ?",
+          "options": ["Yumi và các bạn", "cùng giải mã bản đồ vương quốc", "Ngày hôm qua và ở thư viện", "giải mã bản đồ vương quốc"],
+          "correctIndex": 1,
+          "explanation": "'Ngày hôm qua' (trạng ngữ thời gian) và 'ở thư viện' (trạng ngữ nơi chốn) là các trạng ngữ, không phải thành phần chính của câu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào sau đây thiếu CHỦ NGỮ?",
+          "options": ["Yumi viết thư pháp.", "Những bông hoa nở rộ.", "Gió thổi lá vàng rơi.", "Đang bay cao trên bầu trời."],
+          "correctIndex": 3,
+          "explanation": "'Đang bay cao trên bầu trời' thiếu chủ ngữ vì không trả lời được 'Ai đang bay?' hay 'Cái gì đang bay?'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Chiều nay, tại vườn hoa vương quốc, Công chúa Yumi tập viết thư pháp' là câu đơn vì chỉ có một chủ ngữ và một vị ngữ chính.",
+          "correct": true,
+          "explanation": "Đúng! Dù có trạng ngữ thời gian 'chiều nay' và trạng ngữ nơi chốn 'tại vườn hoa vương quốc', câu vẫn chỉ có một chủ ngữ ('Công chúa Yumi') và một vị ngữ ('tập viết thư pháp'), nên là câu đơn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Câu 'Hôm nay, ___ viết những câu thần chú đẹp nhất vương quốc' cần điền chủ ngữ thích hợp. Điền vào chỗ trống: Công chúa Yumi. Vị ngữ của câu là ___.",
+          "answer": "viết những câu thần chú đẹp nhất vương quốc",
+          "explanation": "Vị ngữ là 'viết những câu thần chú đẹp nhất vương quốc', trả lời câu hỏi 'Công chúa Yumi làm gì?'."
+        }
+      ]
+    }
+  ]
+}

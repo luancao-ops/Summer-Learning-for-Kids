@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-math-b02",
+  "description": "Bài ôn Toán Lớp 5 cho Yumi - Số thập phân - cộng và trừ số thập phân (đặt thẳng",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-math-x006",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 38,
+      "title": "Cộng số thập phân - đặt thẳng cột",
+      "learningObjective": "Học sinh biết cách đặt phép cộng hai số thập phân thẳng cột và thực hiện tính toán đúng, lưu ý vị trí dấu phẩy.",
+      "shortExplanation": "Khi cộng số thập phân, hãy đặt dấu phẩy thẳng hàng nhau, sau đó cộng từ phải sang trái như số tự nhiên.",
+      "content": "Khi cộng hai số thập phân, ta đặt tính thẳng cột sao cho dấu phẩy thẳng nhau. Ví dụ: 3,25 + 1,4 — ta viết 1,4 thành 1,40 để có cùng số chữ số thập phân, rồi cộng từng cột từ phải sang trái: 0+0=0, 5+4=9, 2+1=3, sau dấu phẩy cột hàng đơn vị 3+1=4. Kết quả là 4,65. Dấu phẩy của kết quả đặt thẳng với dấu phẩy của các số hạng. Ví dụ thứ hai: 12,7 + 5,38 = 18,08 (viết 12,7 thành 12,70 rồi cộng).",
+      "storyContext": "Công chúa Yumi cần ghép hai mảnh vải quý: mảnh thứ nhất dài 3,25 m và mảnh thứ hai dài 1,40 m để may rèm cửa tháp cao trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 2,35 + 1,40 = ?",
+          "options": ["3,65", "3,70", "3,75", "3,85"],
+          "correctIndex": 2,
+          "explanation": "2,35 + 1,40 = 3,75. Cộng từng cột: 5+0=5, 3+4=7, 2+1=3, kết quả là 3,75."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đặt tính 5,6 + 3,24, ta cần viết lại 5,6 thành dạng nào?",
+          "options": ["5,60", "5,06", "56,0", "0,56"],
+          "correctIndex": 0,
+          "explanation": "Ta thêm số 0 vào cuối phần thập phân để có cùng số chữ số: 5,6 = 5,60, như vậy dễ đặt thẳng cột với 3,24."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 7,08 + 2,5 = ?",
+          "options": ["9,13", "9,53", "9,58", "9,63"],
+          "correctIndex": 3,
+          "explanation": "7,08 + 2,50 = 9,58. Cộng: 8+0=8, 0+5=5, 7+2=9. Kết quả là 9,58."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi mua 4,75 kg đá quý và 3,6 kg ngọc trai. Tổng số kg nguyên liệu Yumi mua là bao nhiêu?",
+          "options": ["7,95 kg", "8,35 kg", "8,15 kg", "8,45 kg"],
+          "correctIndex": 1,
+          "explanation": "4,75 + 3,60 = 8,35 kg. Viết 3,6 thành 3,60 rồi cộng từng cột: 5+0=5, 7+6=13 (viết 3 nhớ 1), 4+3+1=8. Kết quả là 8,35 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 0,375 + 0,25 = ?",
+          "options": ["0,600", "0,525", "0,625", "0,650"],
+          "correctIndex": 2,
+          "explanation": "0,375 + 0,250 = 0,625. Cộng: 5+0=5, 7+5=12 (viết 2 nhớ 1), 3+2+1=6. Kết quả là 0,625."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dấu phẩy trong kết quả phép cộng số thập phân được đặt như thế nào?",
+          "options": ["Thẳng với dấu phẩy của các số hạng", "Ở cuối kết quả", "Sau chữ số đầu tiên", "Tùy ý người tính"],
+          "correctIndex": 0,
+          "explanation": "Dấu phẩy trong kết quả phải đặt thẳng hàng với dấu phẩy của các số hạng — đây là quy tắc quan trọng nhất khi cộng số thập phân."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 15,4 + 6,78 = ?",
+          "options": ["21,08", "21,18", "22,08", "22,18"],
+          "correctIndex": 3,
+          "explanation": "15,40 + 6,78 = 22,18. Cộng: 0+8=8, 4+7=11 (viết 1 nhớ 1), 5+6+1=12 (viết 2 nhớ 1), 1+0+1=2. Kết quả là 22,18."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây cho kết quả đúng?",
+          "options": ["3,5 + 2,15 = 5,20", "3,5 + 2,15 = 5,65", "3,5 + 2,15 = 5,55", "3,5 + 2,15 = 6,65"],
+          "correctIndex": 1,
+          "explanation": "3,50 + 2,15 = 5,65. Cộng đúng từng cột: 0+5=5, 5+1=6, 3+2=5. Kết quả là 5,65."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi đặt tính cộng 4,5 + 3,25, ta cần viết thêm số 0 vào cuối 4,5 để được 4,50 cho thẳng cột với 3,25.",
+          "correct": true,
+          "explanation": "Đúng. Thêm số 0 vào cuối 4,5 thành 4,50 giúp các chữ số thập phân thẳng cột với nhau, tránh nhầm lẫn khi tính."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 6,34 + 2,51 = ___",
+          "answer": "8,85",
+          "explanation": "6,34 + 2,51 = 8,85. Cộng từng cột: 4+1=5, 3+5=8, 6+2=8. Kết quả là 8,85."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x007",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 39,
+      "title": "Trừ số thập phân - đặt thẳng cột",
+      "learningObjective": "Học sinh biết cách đặt phép trừ hai số thập phân thẳng cột, thực hiện mượn số đúng cách và đặt dấu phẩy chính xác trong kết quả.",
+      "shortExplanation": "Khi trừ số thập phân, đặt dấu phẩy thẳng hàng nhau rồi trừ từ phải sang trái, nhớ mượn hàng khi cần.",
+      "content": "Phép trừ số thập phân cũng đặt thẳng cột như phép cộng: dấu phẩy phải thẳng nhau. Ví dụ: 5,72 − 2,4 — ta viết 2,4 thành 2,40 để thẳng cột, rồi trừ từ phải sang trái: 2−0=2, 7−4=3, 5−2=3. Kết quả là 3,32. Nếu chữ số bị trừ nhỏ hơn chữ số trừ, ta mượn 1 từ hàng bên trái. Ví dụ: 8,13 − 3,57 = 4,56 (cần mượn số khi trừ).",
+      "storyContext": "Công chúa Yumi có 5,72 m vải bạc, sau khi cắt 2,40 m để làm áo giáp cho hiệp sĩ bảo vệ tháp, Yumi còn lại bao nhiêu mét vải?",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 8,75 − 3,4 = ?",
+          "options": ["4,75", "5,25", "5,35", "5,45"],
+          "correctIndex": 3,
+          "explanation": "8,75 − 3,40 = 5,35. Trừ từng cột: 5−0=5, 7−4=3, 8−3=5. Kết quả là 5,35."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đặt tính 9,6 − 4,23, ta viết lại 9,6 thành dạng nào?",
+          "options": ["9,06", "9,60", "96,0", "0,96"],
+          "correctIndex": 1,
+          "explanation": "9,6 được viết thành 9,60 (thêm số 0 vào cuối) để có cùng số chữ số thập phân với 4,23, giúp đặt thẳng cột chính xác."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 6,30 − 2,85 = ?",
+          "options": ["3,45", "3,55", "4,45", "4,55"],
+          "correctIndex": 0,
+          "explanation": "6,30 − 2,85 = 3,45. Trừ: 0−5 phải mượn (10−5=5, nhớ mượn 1), 3−1−8 phải mượn (13−1−8=4, nhớ mượn 1), 6−1−2=3. Kết quả là 3,45."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi có 12,5 kg vàng, dùng 7,38 kg để dát lên tháp cao. Yumi còn lại bao nhiêu kg vàng?",
+          "options": ["4,88 kg", "5,02 kg", "5,12 kg", "5,22 kg"],
+          "correctIndex": 2,
+          "explanation": "12,50 − 7,38 = 5,12 kg. Trừ: 0−8 mượn (10−8=2, nhớ 1), 5−1−3=1, 2−7 mượn (12−7=5, nhớ 1), 1−0−1=0. Kết quả là 5,12 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 10,0 − 3,75 = ?",
+          "options": ["6,15", "6,25", "7,15", "6,35"],
+          "correctIndex": 3,
+          "explanation": "10,00 − 3,75 = 6,25. Trừ từng cột có mượn số: 0−5 mượn (10−5=5), 0−1−7 mượn (10−1−7=2), 0−1−3 mượn (10−1−3=6, mượn từ hàng chục). Kết quả là 6,25."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 4,52 − 1,7 = ?",
+          "options": ["3,52", "2,82", "2,92", "2,72"],
+          "correctIndex": 1,
+          "explanation": "4,52 − 1,70 = 2,82. Trừ: 2−0=2, 5−7 mượn (15−7=8, nhớ 1), 4−1−1=2. Kết quả là 2,82."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào dưới đây cho kết quả đúng?",
+          "options": ["7,40 − 2,15 = 5,25", "7,40 − 2,15 = 5,35", "7,40 − 2,15 = 4,25", "7,40 − 2,15 = 5,15"],
+          "correctIndex": 0,
+          "explanation": "7,40 − 2,15 = 5,25. Trừ: 0−5 mượn (10−5=5, nhớ 1), 4−1−1=2, 7−2=5. Kết quả là 5,25."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 20,05 − 8,6 = ?",
+          "options": ["11,35", "11,45", "12,45", "11,55"],
+          "correctIndex": 2,
+          "explanation": "20,05 − 8,60 = 11,45. Trừ từng cột có mượn số: 5−0=5, 0−6 mượn (10−6=4, nhớ 1), 0−1−8 mượn từ hàng chục... Kết quả là 11,45."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi tính 5,30 − 2,85, vì 0 nhỏ hơn 5 nên ta phải mượn 1 từ hàng phần mười.",
+          "correct": false,
+          "explanation": "Sai. Ta mượn 1 từ hàng phần mười (chữ số 3) để thực hiện phép trừ 10−5=5, sau đó hàng phần mười còn lại là 3−1=2, rồi tiếp tục trừ 2−8 cũng cần mượn tiếp."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 9,70 − 4,35 = ___",
+          "answer": "5,35",
+          "explanation": "9,70 − 4,35 = 5,35. Trừ từng cột: 0−5 mượn (10−5=5, nhớ 1), 7−1−3=3, 9−4=5. Kết quả là 5,35."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x008",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 40,
+      "title": "Cộng và trừ số thập phân có nhớ",
+      "learningObjective": "Học sinh thực hiện thành thạo phép cộng và trừ số thập phân có nhớ (có mượn số), đặt tính đúng và xác định vị trí dấu phẩy chính xác.",
+      "shortExplanation": "Khi cộng có nhớ hoặc trừ có mượn, hãy xử lý từng cột từ phải sang trái và luôn nhớ ghi dấu phẩy thẳng hàng trong kết quả.",
+      "content": "Cộng có nhớ: khi tổng của một cột lớn hơn hoặc bằng 10, ta viết chữ số hàng đơn vị và nhớ 1 sang cột kế tiếp. Ví dụ: 3,67 + 2,54 = 6,21 (7+4=11 viết 1 nhớ 1; 6+5+1=12 viết 2 nhớ 1; 3+2+1=6). Trừ có mượn: khi chữ số bị trừ nhỏ hơn chữ số trừ, ta mượn 1 từ cột bên trái. Ví dụ: 7,24 − 3,58 = 3,66 (4−8 mượn 10+4−8=6; 2−1−5 mượn 12−1−5=6; 7−1−3=3). Đây là kỹ năng quan trọng và cần luyện tập nhiều.",
+      "storyContext": "Công chúa Yumi đang ghi sổ kho nguyên liệu xây tháp: nhập vào 3,67 tấn đá và 2,54 tấn gạch, rồi dùng đi 3,58 tấn vật liệu — nàng cần tính toán chính xác để vương quốc không thiếu nguyên liệu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 4,67 + 3,54 = ?",
+          "options": ["8,21", "8,01", "7,21", "7,11"],
+          "correctIndex": 0,
+          "explanation": "4,67 + 3,54 = 8,21. Cộng: 7+4=11 (viết 1 nhớ 1), 6+5+1=12 (viết 2 nhớ 1), 4+3+1=8. Kết quả là 8,21."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 5,38 + 2,74 = ?",
+          "options": ["7,12", "8,12", "8,02", "7,02"],
+          "correctIndex": 2,
+          "explanation": "5,38 + 2,74 = 8,12. Cộng: 8+4=12 (viết 2 nhớ 1), 3+7+1=11 (viết 1 nhớ 1), 5+2+1=8. Kết quả là 8,12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 9,15 − 4,68 = ?",
+          "options": ["4,53", "4,47", "5,53", "5,47"],
+          "correctIndex": 1,
+          "explanation": "9,15 − 4,68 = 4,47. Trừ: 5−8 mượn (15−8=7, nhớ 1), 1−1−6 mượn (11−1−6=4, nhớ 1), 9−1−4=4. Kết quả là 4,47."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi có 15,3 kg bạc, nhận thêm 8,75 kg. Tổng số bạc Yumi có là bao nhiêu?",
+          "options": ["23,95 kg", "24,05 kg", "24,15 kg", "23,05 kg"],
+          "correctIndex": 3,
+          "explanation": "15,30 + 8,75 = 24,05 kg. Cộng: 0+5=5, 3+7=10 (viết 0 nhớ 1), 5+8+1=14 (viết 4 nhớ 1), 1+0+1=2. Kết quả là 24,05 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 12,04 − 5,76 = ?",
+          "options": ["6,28", "6,38", "7,28", "7,38"],
+          "correctIndex": 0,
+          "explanation": "12,04 − 5,76 = 6,28. Trừ: 4−6 mượn (14−6=8, nhớ 1), 0−1−7 mượn (10−1−7=2, nhớ 1), 2−1−5 mượn (12−1−5=6, nhớ 1), 1−0−1=0. Kết quả là 6,28."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 6,45 + 5,78 = ?",
+          "options": ["11,13", "12,13", "12,23", "11,23"],
+          "correctIndex": 2,
+          "explanation": "6,45 + 5,78 = 12,23. Cộng: 5+8=13 (viết 3 nhớ 1), 4+7+1=12 (viết 2 nhớ 1), 6+5+1=12. Kết quả là 12,23."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 20,12 − 7,85 = ?",
+          "options": ["11,37", "12,27", "12,37", "13,27"],
+          "correctIndex": 1,
+          "explanation": "20,12 − 7,85 = 12,27. Trừ từng cột có mượn: 2−5 mượn (12−5=7, nhớ 1), 1−1−8 mượn (11−1−8=2, nhớ 1), 0−1−7 mượn (10−1−7=2, nhớ 1), 2−0−1=1. Kết quả là 12,27."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 8,09 + 4,95 là bao nhiêu?",
+          "options": ["12,04", "13,04", "12,94", "13,94"],
+          "correctIndex": 3,
+          "explanation": "8,09 + 4,95 = 13,04. Cộng: 9+5=14 (viết 4 nhớ 1), 0+9+1=10 (viết 0 nhớ 1), 8+4+1=13. Kết quả là 13,04."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong phép cộng số thập phân 2,85 + 3,47, tổng của cột phần trăm là 5+7=12, ta viết 2 và nhớ 1 sang cột phần mười.",
+          "correct": true,
+          "explanation": "Đúng. Khi 5+7=12, ta viết chữ số hàng đơn vị là 2 ở cột phần trăm và nhớ 1 sang cột phần mười để cộng tiếp."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 7,56 − 3,79 = ___",
+          "answer": "3,77",
+          "explanation": "7,56 − 3,79 = 3,77. Trừ: 6−9 mượn (16−9=7, nhớ 1), 5−1−7 mượn (15−1−7=7, nhớ 1), 7−1−3=3. Kết quả là 3,77."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x009",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 41,
+      "title": "Bài toán có lời văn về cộng trừ số thập phân",
+      "learningObjective": "Học sinh biết đọc hiểu bài toán có lời văn, lập phép tính cộng hoặc trừ số thập phân phù hợp và tính toán chính xác.",
+      "shortExplanation": "Đọc kỹ đề bài, xác định phép tính cần dùng (cộng hay trừ), rồi đặt tính thẳng cột và giải chính xác.",
+      "content": "Bài toán có lời văn về số thập phân thường liên quan đến đo lường: độ dài, cân nặng, thể tích. Khi đề hỏi 'tổng', 'tất cả', 'gộp lại' → dùng phép cộng. Khi đề hỏi 'còn lại', 'nhiều hơn', 'ít hơn' → dùng phép trừ. Ví dụ: 'Bao có 5,6 kg gạo, đổ thêm 2,35 kg. Bao có bao nhiêu kg?' → 5,60 + 2,35 = 7,95 kg. Ví dụ trừ: 'Sợi dây dài 8,4 m, cắt đi 3,75 m. Còn lại bao nhiêu?' → 8,40 − 3,75 = 4,65 m.",
+      "storyContext": "Công chúa Yumi ra lệnh cho thợ xây tháp: biết tháp cao 8,40 m, cần xây thêm để đạt 12,75 m — nàng phải tính xem cần xây thêm bao nhiêu mét nữa.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Túi cam nặng 2,35 kg, túi táo nặng 1,8 kg. Cả hai túi nặng bao nhiêu kg?",
+          "options": ["4,05 kg", "4,15 kg", "4,25 kg", "3,95 kg"],
+          "correctIndex": 1,
+          "explanation": "2,35 + 1,80 = 4,15 kg. Đây là bài toán hỏi tổng nên dùng phép cộng: 5+0=5, 3+8=11 (viết 1 nhớ 1), 2+1+1=4. Kết quả là 4,15 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tháp cao 8,40 m, cần đạt 12,75 m. Cần xây thêm bao nhiêu mét?",
+          "options": ["3,25 m", "4,25 m", "4,35 m", "4,45 m"],
+          "correctIndex": 3,
+          "explanation": "12,75 − 8,40 = 4,35 m. Trừ: 5−0=5, 7−4=3, 2−8 mượn (12−8=4, nhớ 1), 1−0−1=0... Kết quả là 4,35 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi mua vải: hôm thứ Hai mua 3,75 m, hôm thứ Ba mua 2,6 m. Tổng vải mua là bao nhiêu?",
+          "options": ["5,35 m", "6,25 m", "6,35 m", "5,25 m"],
+          "correctIndex": 2,
+          "explanation": "3,75 + 2,60 = 6,35 m. Cộng: 5+0=5, 7+6=13 (viết 3 nhớ 1), 3+2+1=6. Kết quả là 6,35 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bình có 10,5 lít nước, dùng 4,75 lít. Bình còn lại bao nhiêu lít?",
+          "options": ["5,75 lít", "5,55 lít", "6,25 lít", "6,75 lít"],
+          "correctIndex": 0,
+          "explanation": "10,50 − 4,75 = 5,75 lít. Trừ: 0−5 mượn (10−5=5, nhớ 1), 5−1−7 mượn (15−1−7=7, nhớ 1), 0−1−4 mượn... Kết quả là 5,75 lít."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một sợi dây dài 7,2 m. Cắt đi 3,45 m. Phần còn lại dài bao nhiêu?",
+          "options": ["3,65 m", "3,75 m", "4,65 m", "4,75 m"],
+          "correctIndex": 1,
+          "explanation": "7,20 − 3,45 = 3,75 m. Trừ: 0−5 mượn (10−5=5, nhớ 1), 2−1−4 mượn (12−1−4=7, nhớ 1), 7−1−3=3. Kết quả là 3,75 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mẹ cân được 5,6 kg gạo và 3,85 kg đường. Tổng cân nặng là bao nhiêu?",
+          "options": ["8,35 kg", "9,35 kg", "9,45 kg", "9,55 kg"],
+          "correctIndex": 3,
+          "explanation": "5,60 + 3,85 = 9,45 kg. Cộng: 0+5=5, 6+8=14 (viết 4 nhớ 1), 5+3+1=9. Kết quả là 9,45 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bà nội có 20,0 kg gạo. Bán đi 8,65 kg. Bà còn lại bao nhiêu kg?",
+          "options": ["10,35 kg", "11,35 kg", "11,45 kg", "12,35 kg"],
+          "correctIndex": 2,
+          "explanation": "20,00 − 8,65 = 11,35 kg. Trừ từng cột có mượn: 0−5 mượn (10−5=5), 0−1−6 mượn (10−1−6=3), 0−0−8 mượn (10−0−8=2, nhớ 1 từ hàng chục), 2−0−1=1. Kết quả là 11,35 kg."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bể cá chứa 15,75 lít nước, thêm vào 6,8 lít. Bể có tất cả bao nhiêu lít?",
+          "options": ["21,55 lít", "22,55 lít", "22,45 lít", "21,45 lít"],
+          "correctIndex": 0,
+          "explanation": "15,75 + 6,80 = 22,55 lít. Cộng: 5+0=5, 7+8=15 (viết 5 nhớ 1), 5+6+1=12 (viết 2 nhớ 1), 1+0+1=2. Kết quả là 22,55 lít."
+        },
+        {
+          "type": "true_false",
+          "text": "Bài toán hỏi 'còn lại bao nhiêu?' thì luôn dùng phép trừ.",
+          "correct": false,
+          "explanation": "Sai. Từ 'còn lại' thường gợi ý phép trừ, nhưng cần đọc kỹ toàn bộ bài toán để xác định đúng phép tính. Đôi khi 'còn lại' xuất hiện trong bài toán phức hợp cần cả cộng và trừ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Sáng nay cửa hàng bán được 12,5 kg kẹo, chiều bán thêm 8,75 kg. Cả ngày cửa hàng bán được ___ kg kẹo.",
+          "answer": "21,25",
+          "explanation": "12,50 + 8,75 = 21,25 kg. Cộng: 0+5=5, 5+7=12 (viết 2 nhớ 1), 2+8+1=11 (viết 1 nhớ 1), 1+0+1=2. Kết quả là 21,25 kg."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x010",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 42,
+      "title": "Ôn tập tổng hợp cộng và trừ số thập phân",
+      "learningObjective": "Học sinh vận dụng thành thạo cả phép cộng và phép trừ số thập phân trong các tình huống đa dạng, bao gồm tính toán nhiều bước và bài toán thực tế.",
+      "shortExplanation": "Ôn lại toàn bộ: đặt tính thẳng cột, dấu phẩy thẳng hàng, cộng hoặc trừ từ phải sang trái, xử lý nhớ và mượn số đúng cách.",
+      "content": "Tổng hợp quy tắc cộng và trừ số thập phân: (1) Viết thêm số 0 nếu cần để số chữ số thập phân bằng nhau. (2) Đặt dấu phẩy thẳng cột. (3) Thực hiện tính từ phải sang trái. (4) Dấu phẩy kết quả thẳng hàng với dấu phẩy các số hạng. Ví dụ tổng hợp: (5,7 + 3,46) − 2,85 = 9,16 − 2,85 = 6,31. Luyện tập bài toán nhiều bước giúp nắm vững kỹ năng và tránh sai sót.",
+      "storyContext": "Công chúa Yumi kiểm tra ngân sách xây dựng vương quốc: cộng chi phí nhiều hạng mục rồi trừ đi phần đã thanh toán để biết số tiền còn cần chi.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tính: (3,6 + 4,75) − 2,18 = ?",
+          "options": ["5,07", "6,07", "6,17", "5,17"],
+          "correctIndex": 2,
+          "explanation": "3,60 + 4,75 = 8,35; rồi 8,35 − 2,18 = 6,17. Tính hai bước: cộng trước rồi trừ sau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào cần điền vào chỗ trống: 7,5 + ___ = 12,34?",
+          "options": ["4,84", "4,74", "5,84", "5,74"],
+          "correctIndex": 0,
+          "explanation": "Số cần tìm = 12,34 − 7,50 = 4,84. Ta dùng phép trừ để tìm số hạng chưa biết: 12,34 − 7,50 = 4,84."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 18,5 − 6,73 − 4,2 = ?",
+          "options": ["6,37", "7,47", "7,57", "7,37"],
+          "correctIndex": 3,
+          "explanation": "18,50 − 6,73 = 11,77; rồi 11,77 − 4,20 = 7,57. Trừ lần lượt từ trái sang phải."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi có 50,0 kg vật liệu. Xây tháp dùng 18,75 kg, làm cổng dùng 14,6 kg. Còn lại bao nhiêu kg?",
+          "options": ["17,45 kg", "16,65 kg", "17,65 kg", "16,45 kg"],
+          "correctIndex": 1,
+          "explanation": "18,75 + 14,60 = 33,35 kg đã dùng. 50,00 − 33,35 = 16,65 kg còn lại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính nhanh: 4,99 + 2,56 = ?",
+          "options": ["7,45", "7,55", "7,65", "7,35"],
+          "correctIndex": 2,
+          "explanation": "4,99 + 2,56 = 7,55. Cộng: 9+6=15 (viết 5 nhớ 1), 9+5+1=15 (viết 5 nhớ 1), 4+2+1=7. Kết quả là 7,55."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả của 25,0 − 9,37 là bao nhiêu?",
+          "options": ["15,63", "15,73", "16,63", "16,73"],
+          "correctIndex": 0,
+          "explanation": "25,00 − 9,37 = 15,63. Trừ: 0−7 mượn (10−7=3, nhớ 1), 0−1−3 mượn (10−1−3=6, nhớ 1), 5−1−9 mượn (15−1−9=5, nhớ 1), 2−0−1=1. Kết quả là 15,63."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hai đoạn dây dài 5,48 m và 3,76 m. Sau khi nối lại, cắt đi 2,5 m. Đoạn dây còn lại dài bao nhiêu?",
+          "options": ["6,64 m", "6,74 m", "7,24 m", "6,54 m"],
+          "correctIndex": 3,
+          "explanation": "5,48 + 3,76 = 9,24 m; rồi 9,24 − 2,50 = 6,74 m. Nối lại nghĩa là cộng, cắt đi nghĩa là trừ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 0,875 + 0,436 − 0,211 = ?",
+          "options": ["1,100", "1,090", "1,010", "1,001"],
+          "correctIndex": 1,
+          "explanation": "0,875 + 0,436 = 1,311; rồi 1,311 − 0,211 = 1,100. Tính theo thứ tự từ trái sang phải."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi tính (5,4 + 3,7) − 2,6, ta có thể tính 5,4 + (3,7 − 2,6) = 5,4 + 1,1 = 6,5 và cho kết quả đúng.",
+          "correct": false,
+          "explanation": "Sai. Phép trừ không có tính kết hợp như phép cộng. (5,4 + 3,7) − 2,6 = 9,1 − 2,6 = 6,5. Tình cờ bằng nhau trong ví dụ này, nhưng quy tắc kết hợp không áp dụng được cho phép trừ nói chung."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tính: 14,25 − 7,8 + 3,06 = ___",
+          "answer": "9,51",
+          "explanation": "14,25 − 7,80 = 6,45; rồi 6,45 + 3,06 = 9,51. Tính lần lượt từ trái sang phải theo thứ tự phép tính."
+        }
+      ]
+    }
+  ]
+}

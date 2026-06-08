@@ -53,7 +53,7 @@ if defined RESTART_LAN (
 
 cd /d "%~dp0summer-quest"
 
-if not exist ".next-build5\BUILD_ID" (
+if not exist ".next-build6\BUILD_ID" (
   echo.
   echo =====================================================
   echo  First run: building Summer Quest (about 1 minute)

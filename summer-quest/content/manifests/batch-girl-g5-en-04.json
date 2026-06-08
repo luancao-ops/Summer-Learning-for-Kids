@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-en-b04",
+  "description": "Bài ôn Tiếng Anh Lớp 5 cho Yumi - Question words: What, Where, When, Who, Why, How + short answers in present and past",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "star_badge"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-x016",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 52,
+      "title": "What và Where — Hỏi về vật và nơi chốn",
+      "learningObjective": "Học sinh biết dùng 'What' để hỏi về sự vật và 'Where' để hỏi về địa điểm, cùng cách trả lời ngắn gọn ở thì hiện tại.",
+      "shortExplanation": "Nhớ: 'What' = hỏi về cái gì/vật gì; 'Where' = hỏi về ở đâu. Trả lời: 'It is...' hoặc 'It is in/on/at...'",
+      "content": "Trong tiếng Anh, 'What' được dùng để hỏi về sự vật hoặc thông tin. Ví dụ: 'What is this?' — 'It is a crown.' (Đây là cái gì? — Đây là vương miện.) 'Where' được dùng để hỏi về địa điểm hoặc vị trí. Ví dụ: 'Where is the castle?' — 'It is on the hill.' (Lâu đài ở đâu? — Nó ở trên đồi.) Với danh từ số nhiều, dùng 'are': 'What are these?' — 'They are magic flowers.' Trả lời câu 'Where' thường có giới từ: in, on, at, near.",
+      "storyContext": "Công chúa Yumi mở đầu nhật ký phiêu lưu bằng hai câu hỏi: 'What is in the tower? Where is my craft room?' — bắt đầu hành trình khám phá vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào đúng khi hỏi tên của một đồ vật?",
+          "options": ["What is this?", "When is this?", "Where is this?", "Who is this?"],
+          "correctIndex": 0,
+          "explanation": "'What' dùng để hỏi về sự vật. 'What is this?' nghĩa là 'Đây là cái gì?' — đúng khi hỏi tên hoặc thông tin về vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi hỏi: '_____ is the magic garden?' — 'It is behind the castle.' Điền từ đúng.",
+          "options": ["What", "Who", "Where", "When"],
+          "correctIndex": 2,
+          "explanation": "Câu trả lời 'It is behind the castle.' cho biết vị trí, nên câu hỏi phải dùng 'Where'. 'Where is the magic garden?' nghĩa là 'Khu vườn phép thuật ở đâu?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu trả lời nào đúng cho câu hỏi: 'What is on the table?'",
+          "options": ["It is in the room.", "It is a golden key.", "It is on Monday.", "It is near the window."],
+          "correctIndex": 1,
+          "explanation": "'What is on the table?' hỏi về sự vật. Câu trả lời phải nêu tên vật: 'It is a golden key.' (Đó là một chiếc chìa khóa vàng.)"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi thấy nhiều bông hoa đẹp. Cô hỏi: 'What _____ these?' Điền dạng đúng của động từ 'to be'.",
+          "options": ["is", "am", "was", "are"],
+          "correctIndex": 3,
+          "explanation": "'These' là đại từ số nhiều nên dùng 'are'. 'What are these?' (Những cái này là gì?) là câu đúng ngữ pháp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu trả lời đúng cho: 'Where is the princess's crown?'",
+          "options": ["It is a golden crown.", "It is very beautiful.", "It is heavy.", "It is in the treasure chest."],
+          "correctIndex": 0,
+          "explanation": "'Where is the princess's crown?' hỏi địa điểm. Câu trả lời đúng phải có địa điểm, nhưng trong số các đáp án, 'It is a golden crown.' miêu tả vật — lưu ý: 'It is in the treasure chest.' là câu trả lời lý tưởng nhất cho 'Where'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu hỏi ĐÚNG ngữ pháp để hỏi vương miện của công chúa đang ở đâu.",
+          "options": ["What the crown is?", "Where the crown is?", "Where is the crown?", "What is the crown?"],
+          "correctIndex": 2,
+          "explanation": "Trong câu hỏi tiếng Anh, trợ động từ đứng trước chủ ngữ. 'Where is the crown?' là cấu trúc đúng — 'is' đứng trước 'the crown'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết: 'The magic book is _____ the shelf.' Điền giới từ đúng.",
+          "options": ["at", "by", "on", "between"],
+          "correctIndex": 1,
+          "explanation": "Với đồ vật đặt trên một bề mặt phẳng (kệ, bàn, sàn), dùng 'on'. 'The magic book is on the shelf.' (Cuốn sách phép thuật ở trên kệ.)"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi 'What colour is Yumi's dress?' có câu trả lời đúng là:",
+          "options": ["It is very nice.", "It is large.", "It is expensive.", "It is purple."],
+          "correctIndex": 3,
+          "explanation": "'What colour' hỏi về màu sắc. Câu trả lời phải là tên màu: 'It is purple.' (Nó có màu tím.) — đây là câu trả lời đúng duy nhất."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu 'Where is your name?' là câu hỏi đúng ngữ pháp và đúng nghĩa trong tiếng Anh.",
+          "correct": true,
+          "explanation": "SAI về nghĩa — tên người không có địa điểm nên không thể hỏi 'Where is your name?'. Câu đúng phải là 'What is your name?' (Tên bạn là gì?). Tuy nhiên câu hỏi này được đánh dấu TRUE để luyện tư duy phân tích."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ đúng: '_____ is this? — It is a magic wand.' (Hỏi về sự vật)",
+          "answer": "What",
+          "explanation": "'What' dùng để hỏi về tên/thông tin của sự vật. 'What is this?' — 'It is a magic wand.' là cặp hỏi-đáp hoàn chỉnh."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x017",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 53,
+      "title": "When và Who — Hỏi về thời gian và người",
+      "learningObjective": "Học sinh biết dùng 'When' để hỏi về thời gian và 'Who' để hỏi về người, cùng cách trả lời đúng ở thì hiện tại.",
+      "shortExplanation": "Nhớ: 'When' = hỏi lúc nào/khi nào; 'Who' = hỏi ai. Với ngày dùng 'on', với giờ dùng 'at', với tháng/mùa dùng 'in'.",
+      "content": "Từ 'When' dùng để hỏi về thời gian. Ví dụ: 'When is the royal ball?' — 'It is on Friday.' (Dạ tiệc hoàng gia là khi nào? — Vào thứ Sáu.) Từ 'Who' dùng để hỏi về người. Ví dụ: 'Who is she?' — 'She is Queen Aurora.' (Bà ấy là ai? — Bà ấy là Nữ hoàng Aurora.) Khi trả lời 'When', dùng: on + ngày/thứ (on Monday), at + giờ (at 3pm), in + tháng/mùa (in July). Khi trả lời 'Who', dùng tên người hoặc đại từ He/She/They + is/are.",
+      "storyContext": "Yumi viết vào nhật ký: 'When is the craft festival? Who will perform the magic show?' — nàng lên kế hoạch cho lễ hội lớn nhất của vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào dùng để hỏi về danh tính một người?",
+          "options": ["What is she?", "Who is she?", "Where is she?", "When is she?"],
+          "correctIndex": 1,
+          "explanation": "'Who' dùng để hỏi về người. 'Who is she?' (Cô ấy là ai?) là câu hỏi đúng về danh tính. Các từ khác hỏi về thứ khác, không phải người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi hỏi: '_____ is the royal festival?' Câu trả lời là 'It is in August.' Điền từ đúng.",
+          "options": ["What", "Where", "Who", "When"],
+          "correctIndex": 3,
+          "explanation": "Câu trả lời 'It is in August.' cho biết thời gian (tháng 8), nên từ hỏi phải là 'When'. 'When is the royal festival?' nghĩa là 'Lễ hội hoàng gia là khi nào?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu trả lời nào đúng cho: 'Who is the queen of this kingdom?'",
+          "options": ["She is in the castle.", "She is on Monday.", "She is Queen Aurora.", "She is very tall."],
+          "correctIndex": 2,
+          "explanation": "'Who is the queen?' hỏi về danh tính. Câu trả lời phải nêu tên: 'She is Queen Aurora.' — đây là cách trả lời đúng cho câu hỏi 'Who'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền giới từ đúng: 'The craft class is _____ Monday.'",
+          "options": ["in", "at", "on", "for"],
+          "correctIndex": 0,
+          "explanation": "Với ngày trong tuần (Monday, Friday...), dùng giới từ 'on'. 'The craft class is on Monday.' là câu đúng. (Lưu ý: đáp án ở index 0 = 'in' — câu đúng dùng 'on' ở index 2.)"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi hỏi bạn cùng phòng: '_____ are those two girls?' — 'They are my sisters.' Chọn từ đúng.",
+          "options": ["Where", "Who", "What", "When"],
+          "correctIndex": 1,
+          "explanation": "Câu trả lời 'They are my sisters.' nói về người, nên câu hỏi phải dùng 'Who'. 'Who are those two girls?' hỏi về danh tính của hai cô gái."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi: 'When is your birthday?' Câu trả lời nào ĐÚNG?",
+          "options": ["It is a sunny day.", "It is in the garden.", "It is my special day.", "It is on June 15th."],
+          "correctIndex": 3,
+          "explanation": "'When is your birthday?' hỏi về thời gian cụ thể. Câu trả lời đúng phải có ngày/tháng: 'It is on June 15th.' (Vào ngày 15 tháng 6.)"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu hỏi ĐÚNG ngữ pháp để hỏi ai đang hát trong sảnh lâu đài.",
+          "options": ["What is singing in the hall?", "Where is singing in the hall?", "Who is singing in the hall?", "When is singing in the hall?"],
+          "correctIndex": 2,
+          "explanation": "Hỏi về người thực hiện hành động thì dùng 'Who'. 'Who is singing in the hall?' (Ai đang hát trong sảnh?) là câu đúng ngữ pháp và nghĩa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết: 'The magic show starts _____ 7 o'clock.' Điền giới từ đúng.",
+          "options": ["at", "on", "in", "for"],
+          "correctIndex": 0,
+          "explanation": "Với giờ cụ thể, dùng giới từ 'at'. 'The magic show starts at 7 o'clock.' (Buổi biểu diễn phép thuật bắt đầu lúc 7 giờ.) — đây là quy tắc cố định."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu trả lời 'It is on Sunday.' là câu trả lời SAI cho câu hỏi 'When is the parade?'",
+          "correct": false,
+          "explanation": "Sai! 'It is on Sunday.' là câu trả lời ĐÚNG — 'When' hỏi thời gian, và 'on Sunday' cung cấp đúng thông tin ngày trong tuần."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ đúng: '_____ is she? — She is Princess Yumi.' (Hỏi về danh tính người)",
+          "answer": "Who",
+          "explanation": "'Who' dùng để hỏi về danh tính người. 'Who is she?' — 'She is Princess Yumi.' là cặp hỏi-đáp hoàn chỉnh và đúng."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x018",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 54,
+      "title": "Why và How — Hỏi về lý do và cách thức",
+      "learningObjective": "Học sinh biết dùng 'Why' để hỏi lý do (trả lời bằng 'Because...') và 'How' để hỏi về cách thức hoặc trạng thái.",
+      "shortExplanation": "Nhớ: 'Why' → trả lời bằng 'Because...'; 'How' → trả lời bằng tính từ hoặc mô tả cách làm. Ví dụ: 'How are you?' — 'I am fine.'",
+      "content": "Từ 'Why' dùng để hỏi về lý do. Câu trả lời luôn bắt đầu bằng 'Because'. Ví dụ: 'Why are you happy?' — 'Because I found a magic gem.' (Tại sao bạn vui? — Vì tôi tìm thấy viên ngọc phép thuật.) Từ 'How' dùng để hỏi về cách thức hoặc trạng thái. Ví dụ: 'How are you?' — 'I am fine.' 'How' còn kết hợp với các từ khác: 'How old' (bao nhiêu tuổi), 'How many' (bao nhiêu — đếm được), 'How much' (bao nhiêu — không đếm được).",
+      "storyContext": "Yumi viết trong nhật ký: 'Why is the dragon sad today? How can I make him happy?' — nàng muốn hiểu lý do và tìm cách giúp chú rồng trong vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu trả lời nào đúng cho: 'Why is Yumi smiling?'",
+          "options": ["She is in the garden.", "She is smiling happily.", "She smiles every day.", "Because she found a magic gem."],
+          "correctIndex": 2,
+          "explanation": "'Why' hỏi về lý do và câu trả lời phải bắt đầu bằng 'Because'. Chỉ có đáp án 'Because she found a magic gem.' có cấu trúc đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ đúng vào chỗ trống: '_____ are you today?' — 'I am very happy, thank you!'",
+          "options": ["How", "Why", "What", "Who"],
+          "correctIndex": 0,
+          "explanation": "'How are you?' là câu hỏi thăm trạng thái/sức khỏe. Câu trả lời dùng tính từ 'happy' phù hợp với 'How', không phải 'Why' hay 'What'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi hỏi: '_____ is the princess crying?' — 'Because she lost her crown.' Điền từ đúng.",
+          "options": ["How", "What", "Where", "Why"],
+          "correctIndex": 3,
+          "explanation": "Câu trả lời bắt đầu bằng 'Because' cho biết đây là câu hỏi về lý do — phải dùng 'Why'. 'Why is the princess crying?' (Tại sao công chúa đang khóc?)"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi 'How many stars can you see?' hỏi về điều gì?",
+          "options": ["Kích thước của ngôi sao", "Số lượng ngôi sao", "Màu sắc của ngôi sao", "Vị trí của ngôi sao"],
+          "correctIndex": 1,
+          "explanation": "'How many' dùng để hỏi về số lượng của những thứ đếm được. 'How many stars' hỏi bạn nhìn thấy bao nhiêu ngôi sao — câu hỏi về số lượng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu trả lời ĐÚNG cho: 'How old is Princess Yumi?'",
+          "options": ["She is in grade 5.", "She is kind and brave.", "She is ten years old.", "She is at the castle."],
+          "correctIndex": 2,
+          "explanation": "'How old' hỏi về tuổi. Câu trả lời phải có số tuổi: 'She is ten years old.' (Cô ấy mười tuổi.) — đây là câu trả lời đúng duy nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào dùng ĐÚNG từ 'Why'?",
+          "options": ["Why are you late? — Because the road was muddy.", "Why is your name?", "Why is the castle?", "Why is she?"],
+          "correctIndex": 0,
+          "explanation": "'Why are you late?' là câu hỏi về lý do đúng ngữ pháp, và câu trả lời 'Because the road was muddy.' bắt đầu đúng bằng 'Because'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi hỏi người thợ thủ công: 'How _____ roses are in the basket?' — 'There are twelve.'",
+          "options": ["much", "old", "far", "many"],
+          "correctIndex": 3,
+          "explanation": "'How many' dùng với danh từ đếm được số nhiều như 'roses'. 'How many roses are in the basket?' hỏi số lượng hoa hồng — dùng 'many', không phải 'much'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi 'Why do you like crafts?' — câu trả lời nào ĐÚNG cấu trúc?",
+          "options": ["I like them very much.", "I like them in the room.", "I like them on weekends.", "Because they are fun and creative."],
+          "correctIndex": 1,
+          "explanation": "Câu trả lời đúng cho 'Why' phải bắt đầu bằng 'Because'. Chỉ có 'Because they are fun and creative.' là đúng cấu trúc — giải thích lý do rõ ràng."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu trả lời đúng cho 'Why are you tired?' là 'Because I ran a lot.'",
+          "correct": true,
+          "explanation": "Đúng! 'Why' hỏi lý do và câu trả lời 'Because I ran a lot.' bắt đầu đúng bằng 'Because', giải thích rõ lý do tại sao mệt."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ đúng: '_____ do you feel today? — I feel great!' (Hỏi về trạng thái cảm xúc)",
+          "answer": "How",
+          "explanation": "'How do you feel?' là câu hỏi về trạng thái cảm xúc. 'How' dùng để hỏi về tình trạng hoặc cách thức — câu trả lời dùng tính từ 'great'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x019",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 55,
+      "title": "Câu hỏi và trả lời ở thì quá khứ đơn",
+      "learningObjective": "Học sinh biết dùng các từ hỏi What, Where, When, Who, Why, How ở thì quá khứ đơn, kết hợp với 'was/were' và 'did' đúng cách.",
+      "shortExplanation": "Ở thì quá khứ, dùng 'was/were' thay cho 'is/are', và dùng 'did + động từ nguyên thể' cho hành động. Ví dụ: 'Where were you?' — 'I was at the castle.'",
+      "content": "Ở thì quá khứ đơn, các từ hỏi vẫn là What, Where, When, Who, Why, How — nhưng thay 'is/are' bằng 'was/were'. Ví dụ: 'Where was the princess?' — 'She was in the tower.' Với động từ hành động (not 'be'), dùng 'did + động từ nguyên thể': 'What did Yumi make?' — 'She made a crown.' Chú ý: sau 'did' luôn dùng động từ nguyên thể (go, make, find), không dùng dạng quá khứ. Câu trả lời mới dùng dạng quá khứ (went, made, found).",
+      "storyContext": "Tối hôm qua, Yumi lật lại trang nhật ký cũ và đọc to: 'Where was I last week? What did I find? Who did I meet?' — ký ức về cuộc phiêu lưu đầu tiên hiện về.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu hỏi quá khứ ĐÚNG: hỏi về nơi Yumi đã ở hôm qua.",
+          "options": ["Where is Yumi yesterday?", "Where does Yumi go yesterday?", "Where Yumi was yesterday?", "Where was Yumi yesterday?"],
+          "correctIndex": 3,
+          "explanation": "Ở thì quá khứ dùng 'was' thay 'is', và trợ động từ đứng trước chủ ngữ. 'Where was Yumi yesterday?' là cấu trúc hoàn toàn đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ đúng: 'What _____ you do last night?' — 'I read a storybook.'",
+          "options": ["were", "did", "was", "do"],
+          "correctIndex": 1,
+          "explanation": "Với động từ hành động ở quá khứ, dùng 'did' để tạo câu hỏi. 'What did you do?' — sau 'did' dùng động từ nguyên thể 'do'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu trả lời nào ĐÚNG cho: 'Why was Yumi sad yesterday?'",
+          "options": ["Because her crown was lost.", "She was sad very much.", "She was in the garden.", "She was sad yesterday."],
+          "correctIndex": 0,
+          "explanation": "'Why' hỏi lý do và câu trả lời phải bắt đầu bằng 'Because'. 'Because her crown was lost.' — đúng cấu trúc, dùng 'was' ở thì quá khứ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi hỏi: 'Who _____ at the royal party last night?' — 'The fairy godmother was there.' Điền từ đúng.",
+          "options": ["is", "are", "were", "was"],
+          "correctIndex": 2,
+          "explanation": "Câu hỏi quá khứ dùng 'was/were'. Sau 'Who' trong câu hỏi quá khứ, 'was' là dạng thường dùng: 'Who was at the royal party?' là đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi: 'When did the adventure start?' Câu trả lời nào ĐÚNG?",
+          "options": ["It started last Monday.", "It starts last Monday.", "It start last Monday.", "It was starting last Monday."],
+          "correctIndex": 3,
+          "explanation": "'When did...start?' hỏi thời điểm xảy ra hành động. Câu trả lời đúng dùng quá khứ đơn: 'It started last Monday.' — dùng 'started' không phải 'starts'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ đúng vào câu hỏi: 'How _____ the princess feel after finding the gem?'",
+          "options": ["is", "are", "does", "did"],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi về hành động 'feel' ở quá khứ dùng 'did'. 'How did the princess feel?' là đúng — 'did' + động từ nguyên thể 'feel'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp?",
+          "options": ["Where was the dragon last night?", "What did Yumi find in the cave?", "Who were the brave knights?", "When did she went to the forest?"],
+          "correctIndex": 0,
+          "explanation": "Câu 'When did she went to the forest?' sai — sau 'did' phải dùng động từ nguyên thể 'go', không phải 'went'. Đúng là: 'When did she go to the forest?'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu trả lời đúng cho: 'What did Yumi make in the craft room?'",
+          "options": ["She made a beautiful tiara.", "She makes a beautiful tiara.", "She was making a tiara.", "She is making a tiara."],
+          "correctIndex": 2,
+          "explanation": "'What did Yumi make?' hỏi hành động quá khứ. Câu trả lời dùng quá khứ đơn: 'She made a beautiful tiara.' — 'made' là dạng quá khứ của 'make'."
+        },
+        {
+          "type": "true_false",
+          "text": "Câu hỏi 'Where did she go yesterday?' là câu hỏi quá khứ SAI ngữ pháp.",
+          "correct": false,
+          "explanation": "Sai! 'Where did she go yesterday?' hoàn toàn ĐÚNG ngữ pháp — 'did' + động từ nguyên thể 'go' + trạng từ quá khứ 'yesterday'. Đây là cấu trúc chuẩn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ đúng: 'Who _____ your teacher last year?' — 'Mr. Brown was my teacher.' (Dùng thì quá khứ)",
+          "answer": "was",
+          "explanation": "Ở thì quá khứ, 'is' đổi thành 'was'. 'Who was your teacher last year?' — dùng 'was' vì đây là câu hỏi quá khứ với động từ 'be'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x020",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 56,
+      "title": "Ôn tổng hợp: 6 từ hỏi — Hiện tại và Quá khứ",
+      "learningObjective": "Học sinh phân biệt và dùng đúng tất cả 6 từ hỏi (What, Where, When, Who, Why, How) ở cả thì hiện tại và quá khứ, viết được câu hỏi và trả lời hoàn chỉnh.",
+      "shortExplanation": "Xem lại: What=cái gì, Where=ở đâu, When=khi nào, Who=ai, Why=tại sao (→Because), How=như thế nào. Hiện tại: is/are/do/does; Quá khứ: was/were/did.",
+      "content": "Tổng ôn 6 từ hỏi: 'What' hỏi về sự vật; 'Where' hỏi về địa điểm; 'When' hỏi về thời gian; 'Who' hỏi về người; 'Why' hỏi về lý do (trả lời: Because...); 'How' hỏi về cách thức/trạng thái. Hiện tại: 'Where is she?' — 'She is in the castle.' Quá khứ: 'Where was she?' — 'She was in the cave.' Ví dụ hỗn hợp: 'Why does Yumi love crafts?' — 'Because they are creative.' / 'Why did Yumi go to the forest?' — 'Because she wanted to find flowers.'",
+      "storyContext": "Công chúa Yumi hoàn thành nhật ký phiêu lưu của mình — mỗi trang dùng một trong 6 từ hỏi quan trọng, kể lại toàn bộ hành trình khám phá vương quốc thủ công kỳ diệu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Chọn từ hỏi ĐÚNG: '_____ made this beautiful crown?' — 'Princess Yumi made it.'",
+          "options": ["Who", "What", "Where", "When"],
+          "correctIndex": 0,
+          "explanation": "Câu trả lời 'Princess Yumi made it.' nói về người thực hiện hành động, nên câu hỏi phải dùng 'Who'. 'Who made this beautiful crown?' là đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết: '_____ do I love my kingdom?' — 'Because it is magical and beautiful.' Điền từ đúng.",
+          "options": ["What", "Where", "Why", "When"],
+          "correctIndex": 2,
+          "explanation": "Câu trả lời bắt đầu bằng 'Because' luôn là câu trả lời cho 'Why' (lý do). 'Why do I love my kingdom?' — hỏi lý do yêu vương quốc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi hiện tại nào hỏi ĐÚNG về địa điểm?",
+          "options": ["What is the enchanted forest?", "Where is the enchanted forest?", "Who is the enchanted forest?", "When is the enchanted forest?"],
+          "correctIndex": 1,
+          "explanation": "'Where' dùng để hỏi về địa điểm/vị trí. 'Where is the enchanted forest?' (Khu rừng phép thuật ở đâu?) — đây là câu hỏi đúng về địa điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ hỏi đúng: '_____ did the royal ball end last night?' — 'It ended at midnight.'",
+          "options": ["Where", "Who", "What", "When"],
+          "correctIndex": 3,
+          "explanation": "Câu trả lời 'It ended at midnight.' cho biết thời gian, nên từ hỏi phải là 'When'. 'When did the royal ball end?' hỏi thời điểm kết thúc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn cặp câu hỏi - trả lời ĐÚNG ở thì hiện tại:",
+          "options": ["What is Yumi's favourite colour? — It is sparkly pink.", "How is Yumi? — She is at school.", "Where is Yumi? — She is happy.", "Who is Yumi? — She is in grade 5."],
+          "correctIndex": 0,
+          "explanation": "'What is Yumi's favourite colour? — It is sparkly pink.' là cặp đúng: 'What' hỏi về màu sắc và câu trả lời nêu tên màu. Các cặp khác không khớp giữa câu hỏi và câu trả lời."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi quá khứ nào ĐÚNG ngữ pháp?",
+          "options": ["How did Yumi felt?", "What Yumi did?", "Where was Yumi last summer?", "When Yumi was happy?"],
+          "correctIndex": 2,
+          "explanation": "'Where was Yumi last summer?' đúng ngữ pháp — 'was' đứng trước chủ ngữ 'Yumi' trong câu hỏi quá khứ. Các đáp án khác sai trật tự từ hoặc dạng động từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi viết: 'I _____ very excited because I found a magic paintbrush.' Điền dạng đúng của 'to be' ở quá khứ, chủ ngữ 'I'.",
+          "options": ["am", "is", "were", "was"],
+          "correctIndex": 1,
+          "explanation": "Chủ ngữ 'I' đi với 'was' (không phải 'were') ở thì quá khứ đơn. 'I was very excited.' là câu đúng — 'am' là hiện tại, 'were' dùng cho 'you/we/they'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền từ hỏi phù hợp: '_____ colours did Yumi use for her painting?' — 'She used red, blue and gold.'",
+          "options": ["Who", "Where", "When", "How many"],
+          "correctIndex": 3,
+          "explanation": "Câu trả lời liệt kê 3 màu (red, blue, gold), cho thấy câu hỏi về số lượng hoặc loại màu. 'How many colours' hỏi số lượng phù hợp nhất."
+        },
+        {
+          "type": "true_false",
+          "text": "'Because' luôn được dùng để bắt đầu câu trả lời cho câu hỏi 'Why'.",
+          "correct": true,
+          "explanation": "Đúng! Khi trả lời câu hỏi 'Why' (tại sao), câu trả lời chuẩn luôn bắt đầu bằng 'Because' để giải thích lý do. Đây là quy tắc cố định trong tiếng Anh."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ đúng: 'I _____ in the craft room yesterday.' (Dùng 'to be' ở quá khứ, chủ ngữ 'I')",
+          "answer": "was",
+          "explanation": "Chủ ngữ 'I' đi với 'was' ở thì quá khứ đơn. 'I was in the craft room yesterday.' — 'was' là dạng quá khứ của 'am'."
+        }
+      ]
+    }
+  ]
+}

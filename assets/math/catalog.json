@@ -1,0 +1,19 @@
+{
+  "_schema": "Summer Quest Asset Catalog v1",
+  "_subject": "math",
+  "_note": "Add an entry here for every asset file added to this folder. Asset IDs are permanent — never rename after a lesson references them.",
+  "_entry_template": {
+    "assetId": "math-{type}-{description-slug}-{nn}",
+    "subject": "math",
+    "type": "diagram | illustration | chart | equation",
+    "path": "assets/math/{type}s/{assetId}.png",
+    "grade": 3,
+    "tags": ["tag1", "tag2"],
+    "source": "original | adapted | licensed",
+    "description": "One sentence describing the asset content",
+    "sourceId": "src-math-g4-smart-start",
+    "sourcePage": 0,
+    "addedAt": "YYYY-MM-DD"
+  },
+  "assets": []
+}

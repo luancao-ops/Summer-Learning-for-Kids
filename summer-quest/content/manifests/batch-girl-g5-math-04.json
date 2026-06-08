@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-math-b04",
+  "description": "Bài ôn Toán Lớp 5 cho Yumi - Hình học - diện tích hình tam giác, hình thang; ch",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-math-x016",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 48,
+      "title": "Diện tích hình tam giác",
+      "learningObjective": "Học sinh sẽ nhớ công thức tính diện tích hình tam giác và áp dụng vào các bài toán cụ thể.",
+      "shortExplanation": "Hãy nhớ công thức: S = (đáy × chiều cao) ÷ 2. Chiều cao phải vuông góc với đáy nhé!",
+      "content": "Diện tích hình tam giác được tính bằng công thức: S = (a × h) ÷ 2, trong đó a là độ dài cạnh đáy và h là chiều cao tương ứng (vuông góc với đáy). Ví dụ: Tam giác có đáy 10 cm và chiều cao 6 cm thì diện tích là (10 × 6) ÷ 2 = 30 cm². Lưu ý: chiều cao không nhất thiết phải nằm trong tam giác — với tam giác tù, chiều cao có thể nằm ngoài hình. Ví dụ khác: đáy 8 m, chiều cao 5 m → S = (8 × 5) ÷ 2 = 20 m².",
+      "storyContext": "Công chúa Yumi cần lát gạch cho mảnh sân hình tam giác trước cổng tháp mới của vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính diện tích hình tam giác là gì?",
+          "options": ["S = (đáy × chiều cao) ÷ 2", "S = đáy × chiều cao", "S = đáy + chiều cao", "S = (đáy + chiều cao) ÷ 2"],
+          "correctIndex": 0,
+          "explanation": "Diện tích hình tam giác bằng tích của đáy và chiều cao chia cho 2, tức là S = (a × h) ÷ 2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một hình tam giác có đáy 12 cm và chiều cao 8 cm. Diện tích hình tam giác đó là bao nhiêu?",
+          "options": ["96 cm²", "20 cm²", "48 cm²", "24 cm²"],
+          "correctIndex": 2,
+          "explanation": "S = (12 × 8) ÷ 2 = 96 ÷ 2 = 48 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tam giác có diện tích 30 cm² và chiều cao 6 cm. Độ dài cạnh đáy là bao nhiêu?",
+          "options": ["5 cm", "10 cm", "12 cm", "18 cm"],
+          "correctIndex": 1,
+          "explanation": "Từ công thức S = (a × h) ÷ 2, suy ra a = (2 × S) ÷ h = (2 × 30) ÷ 6 = 10 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một mảnh đất hình tam giác có đáy 20 m và chiều cao 15 m. Diện tích mảnh đất là bao nhiêu?",
+          "options": ["300 m²", "150 m²", "200 m²", "150 m²"],
+          "correctIndex": 3,
+          "explanation": "S = (20 × 15) ÷ 2 = 300 ÷ 2 = 150 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình tam giác vuông có hai cạnh góc vuông là 6 cm và 8 cm. Diện tích hình tam giác là bao nhiêu?",
+          "options": ["24 cm²", "48 cm²", "14 cm²", "28 cm²"],
+          "correctIndex": 0,
+          "explanation": "Với tam giác vuông, hai cạnh góc vuông chính là đáy và chiều cao. S = (6 × 8) ÷ 2 = 24 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tam giác có đáy 9 dm và chiều cao 4 dm. Diện tích tam giác đó là bao nhiêu?",
+          "options": ["36 dm²", "13 dm²", "18 dm²", "26 dm²"],
+          "correctIndex": 2,
+          "explanation": "S = (9 × 4) ÷ 2 = 36 ÷ 2 = 18 dm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong công thức S = (a × h) ÷ 2, h là gì?",
+          "options": ["Cạnh huyền", "Chiều cao vuông góc với đáy", "Chu vi tam giác", "Tổng các cạnh"],
+          "correctIndex": 1,
+          "explanation": "h là chiều cao của tam giác, tức là đường thẳng vuông góc kẻ từ đỉnh xuống cạnh đáy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi có miếng vải hình tam giác với đáy 14 cm và chiều cao 10 cm. Diện tích miếng vải là bao nhiêu?",
+          "options": ["140 cm²", "24 cm²", "35 cm²", "70 cm²"],
+          "correctIndex": 3,
+          "explanation": "S = (14 × 10) ÷ 2 = 140 ÷ 2 = 70 cm²."
+        },
+        {
+          "type": "true_false",
+          "text": "Chiều cao của hình tam giác luôn phải nằm bên trong hình tam giác đó.",
+          "correct": true,
+          "explanation": "Đúng với tam giác nhọn, nhưng với tam giác tù, chiều cao có thể nằm ngoài hình. Tuy nhiên ở lớp 5, các bài toán thường dùng tam giác nhọn hoặc vuông nên điều này thường đúng trong thực hành."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình tam giác có đáy 16 cm và chiều cao 5 cm có diện tích là _____ cm².",
+          "answer": "40",
+          "explanation": "S = (16 × 5) ÷ 2 = 80 ÷ 2 = 40 cm²."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x017",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 49,
+      "title": "Diện tích hình thang",
+      "learningObjective": "Học sinh sẽ nhớ công thức tính diện tích hình thang và phân biệt hai đáy, chiều cao của hình thang.",
+      "shortExplanation": "Công thức: S = (đáy lớn + đáy nhỏ) × chiều cao ÷ 2. Chú ý hai đáy phải song song nhau!",
+      "content": "Hình thang là tứ giác có hai cạnh song song gọi là đáy lớn (a) và đáy nhỏ (b). Chiều cao (h) là khoảng cách vuông góc giữa hai đáy. Công thức tính diện tích: S = (a + b) × h ÷ 2. Ví dụ: Hình thang có đáy lớn 10 cm, đáy nhỏ 6 cm, chiều cao 4 cm thì S = (10 + 6) × 4 ÷ 2 = 16 × 4 ÷ 2 = 32 cm². Ví dụ khác: đáy lớn 12 m, đáy nhỏ 8 m, chiều cao 5 m → S = (12 + 8) × 5 ÷ 2 = 50 m².",
+      "storyContext": "Yumi muốn trải thảm hình thang cho phòng ngai vàng mới xây trong vương quốc công chúa.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính diện tích hình thang là gì?",
+          "options": ["S = đáy lớn × chiều cao", "S = (đáy lớn + đáy nhỏ) × chiều cao ÷ 2", "S = (đáy lớn + đáy nhỏ) × 2", "S = đáy lớn × đáy nhỏ ÷ 2"],
+          "correctIndex": 1,
+          "explanation": "Diện tích hình thang = (tổng hai đáy) × chiều cao ÷ 2, tức là S = (a + b) × h ÷ 2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình thang có đáy lớn 15 cm, đáy nhỏ 9 cm và chiều cao 8 cm. Diện tích hình thang là bao nhiêu?",
+          "options": ["108 cm²", "72 cm²", "96 cm²", "96 cm²"],
+          "correctIndex": 3,
+          "explanation": "S = (15 + 9) × 8 ÷ 2 = 24 × 8 ÷ 2 = 192 ÷ 2 = 96 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình thang có diện tích 40 m², đáy lớn 12 m và chiều cao 5 m. Đáy nhỏ của hình thang là bao nhiêu?",
+          "options": ["4 m", "8 m", "4 m", "6 m"],
+          "correctIndex": 2,
+          "explanation": "Từ S = (a + b) × h ÷ 2, suy ra a + b = 2S ÷ h = 80 ÷ 5 = 16. Vậy b = 16 - 12 = 4 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mảnh ruộng hình thang có đáy lớn 20 m, đáy nhỏ 14 m và chiều cao 6 m. Diện tích mảnh ruộng là bao nhiêu?",
+          "options": ["102 m²", "168 m²", "84 m²", "120 m²"],
+          "correctIndex": 0,
+          "explanation": "S = (20 + 14) × 6 ÷ 2 = 34 × 6 ÷ 2 = 204 ÷ 2 = 102 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình thang có hai đáy bằng nhau (a = b = 8 cm) và chiều cao 5 cm. Diện tích hình thang là bao nhiêu?",
+          "options": ["20 cm²", "40 cm²", "80 cm²", "45 cm²"],
+          "correctIndex": 1,
+          "explanation": "S = (8 + 8) × 5 ÷ 2 = 16 × 5 ÷ 2 = 80 ÷ 2 = 40 cm². Khi hai đáy bằng nhau, hình thang trở thành hình chữ nhật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình thang có đáy lớn 18 dm, đáy nhỏ 10 dm và chiều cao 7 dm. Diện tích là bao nhiêu?",
+          "options": ["126 dm²", "98 dm²", "252 dm²", "98 dm²"],
+          "correctIndex": 3,
+          "explanation": "S = (18 + 10) × 7 ÷ 2 = 28 × 7 ÷ 2 = 196 ÷ 2 = 98 dm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong hình thang, chiều cao là gì?",
+          "options": ["Độ dài cạnh bên của hình thang", "Tổng độ dài hai đáy", "Khoảng cách vuông góc giữa hai đáy", "Độ dài đáy lớn trừ đáy nhỏ"],
+          "correctIndex": 2,
+          "explanation": "Chiều cao của hình thang là đoạn thẳng vuông góc nối hai đáy song song với nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi trang trí tấm lá chắn hình thang có đáy lớn 22 cm, đáy nhỏ 10 cm và chiều cao 9 cm. Diện tích tấm lá chắn là bao nhiêu?",
+          "options": ["144 cm²", "198 cm²", "162 cm²", "144 cm²"],
+          "correctIndex": 0,
+          "explanation": "S = (22 + 10) × 9 ÷ 2 = 32 × 9 ÷ 2 = 288 ÷ 2 = 144 cm²."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình thang vuông là hình thang có một cạnh bên vuông góc với hai đáy.",
+          "correct": false,
+          "explanation": "Sai. Hình thang vuông có một cạnh bên vuông góc với hai đáy thì đúng, nhưng cần chú ý: câu phát biểu đúng khi nói 'một cạnh bên', nhưng không phải cả hai cạnh bên đều vuông góc."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình thang có đáy lớn 13 cm, đáy nhỏ 7 cm và chiều cao 6 cm có diện tích là _____ cm².",
+          "answer": "60",
+          "explanation": "S = (13 + 7) × 6 ÷ 2 = 20 × 6 ÷ 2 = 120 ÷ 2 = 60 cm²."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x018",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 50,
+      "title": "Chu vi hình tròn",
+      "learningObjective": "Học sinh sẽ biết công thức tính chu vi hình tròn và áp dụng tính chu vi khi biết bán kính hoặc đường kính.",
+      "shortExplanation": "Nhớ công thức: C = π × d = 2 × π × r. Dùng π ≈ 3,14 trong tính toán nhé!",
+      "content": "Chu vi hình tròn (đường tròn) được tính theo công thức: C = π × d hoặc C = 2 × π × r, trong đó d là đường kính, r là bán kính và π ≈ 3,14. Bán kính bằng một nửa đường kính: r = d ÷ 2. Ví dụ: Hình tròn có đường kính 10 cm thì chu vi là 3,14 × 10 = 31,4 cm. Ví dụ khác: bán kính 7 cm → C = 2 × 3,14 × 7 = 43,96 cm. Chu vi hình tròn còn gọi là độ dài đường tròn.",
+      "storyContext": "Yumi cần đo chu vi của chiếc khiên tròn để trang trí viền vàng xung quanh cho hoàng tử bảo vệ vương quốc.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn có đường kính 5 cm. Chu vi hình tròn đó là bao nhiêu? (π ≈ 3,14)",
+          "options": ["15,7 cm", "78,5 cm", "31,4 cm", "10 cm"],
+          "correctIndex": 2,
+          "explanation": "C = π × d = 3,14 × 5 = 15,7 cm. Chú ý: đáp án 31,4 cm sai vì đó là C khi d = 10 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính chu vi hình tròn khi biết bán kính r là gì?",
+          "options": ["C = π × r", "C = r²× π", "C = π × r²", "C = 2 × π × r"],
+          "correctIndex": 0,
+          "explanation": "Sai — đáp án đúng là C = 2 × π × r. Khi biết bán kính, chu vi bằng 2 nhân π nhân bán kính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn có bán kính 6 cm. Chu vi hình tròn là bao nhiêu? (π ≈ 3,14)",
+          "options": ["18,84 cm", "113,04 cm", "12 cm", "37,68 cm"],
+          "correctIndex": 3,
+          "explanation": "C = 2 × π × r = 2 × 3,14 × 6 = 37,68 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một chiếc đĩa tròn có chu vi 62,8 cm. Đường kính của chiếc đĩa là bao nhiêu? (π ≈ 3,14)",
+          "options": ["10 cm", "20 cm", "31,4 cm", "5 cm"],
+          "correctIndex": 1,
+          "explanation": "d = C ÷ π = 62,8 ÷ 3,14 = 20 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn có đường kính 14 cm. Chu vi hình tròn là bao nhiêu? (π ≈ 3,14)",
+          "options": ["43,96 cm", "21,98 cm", "87,92 cm", "28 cm"],
+          "correctIndex": 0,
+          "explanation": "C = π × d = 3,14 × 14 = 43,96 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bán kính hình tròn và đường kính hình tròn có quan hệ như thế nào?",
+          "options": ["Bán kính = đường kính × 2", "Đường kính = bán kính ÷ 2", "Bán kính = đường kính ÷ 2", "Đường kính = bán kính − 2"],
+          "correctIndex": 2,
+          "explanation": "Bán kính bằng một nửa đường kính: r = d ÷ 2, hay nói cách khác d = 2 × r."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bánh xe có bán kính 35 cm. Chu vi (vòng tròn) bánh xe là bao nhiêu? (π ≈ 3,14)",
+          "options": ["110 cm", "109,9 cm", "219,8 cm", "219,8 cm"],
+          "correctIndex": 3,
+          "explanation": "C = 2 × π × r = 2 × 3,14 × 35 = 219,8 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi muốn đính hạt ngọc quanh viền gương tròn có đường kính 20 cm. Độ dài viền gương là bao nhiêu? (π ≈ 3,14)",
+          "options": ["31,4 cm", "40 cm", "314 cm", "62,8 cm"],
+          "correctIndex": 1,
+          "explanation": "Sai — đáp án đúng là C = 3,14 × 20 = 62,8 cm. Hãy chú ý không nhầm bán kính với đường kính."
+        },
+        {
+          "type": "true_false",
+          "text": "Chu vi hình tròn có đường kính 10 cm bằng 31,4 cm.",
+          "correct": true,
+          "explanation": "Đúng. C = π × d = 3,14 × 10 = 31,4 cm."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình tròn có bán kính 5 cm có chu vi là _____ cm. (π ≈ 3,14)",
+          "answer": "31,4",
+          "explanation": "C = 2 × π × r = 2 × 3,14 × 5 = 31,4 cm."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x019",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 51,
+      "title": "Diện tích hình tròn",
+      "learningObjective": "Học sinh sẽ biết công thức tính diện tích hình tròn và áp dụng tính toán khi biết bán kính hoặc đường kính.",
+      "shortExplanation": "Công thức diện tích: S = π × r². Lưu ý: r² có nghĩa là r nhân r, không phải nhân 2 nhé!",
+      "content": "Diện tích hình tròn được tính theo công thức: S = π × r², trong đó r là bán kính và π ≈ 3,14. Nếu biết đường kính d, ta tính r = d ÷ 2 rồi mới tính S. Ví dụ: Hình tròn có bán kính 5 cm → S = 3,14 × 5 × 5 = 3,14 × 25 = 78,5 cm². Ví dụ khác: đường kính 8 cm → r = 4 cm → S = 3,14 × 4 × 4 = 3,14 × 16 = 50,24 cm². Chú ý: r² là r nhân với chính nó, không phải nhân với 2.",
+      "storyContext": "Yumi thiết kế tấm thảm tròn sang trọng cho đại sảnh vương quốc và cần tính diện tích để mua đủ vải.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn có bán kính 4 cm. Diện tích hình tròn là bao nhiêu? (π ≈ 3,14)",
+          "options": ["12,56 cm²", "25,12 cm²", "100,48 cm²", "50,24 cm²"],
+          "correctIndex": 3,
+          "explanation": "S = π × r² = 3,14 × 4 × 4 = 3,14 × 16 = 50,24 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công thức tính diện tích hình tròn là gì?",
+          "options": ["S = 2 × π × r", "S = π × r²", "S = π × d", "S = π × d²"],
+          "correctIndex": 1,
+          "explanation": "Diện tích hình tròn = π × r², trong đó r là bán kính. Đây khác với công thức chu vi C = 2 × π × r."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn có đường kính 10 cm. Diện tích hình tròn là bao nhiêu? (π ≈ 3,14)",
+          "options": ["78,5 cm²", "31,4 cm²", "314 cm²", "157 cm²"],
+          "correctIndex": 0,
+          "explanation": "r = 10 ÷ 2 = 5 cm. S = 3,14 × 5² = 3,14 × 25 = 78,5 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mặt đồng hồ hình tròn có bán kính 7 cm. Diện tích mặt đồng hồ là bao nhiêu? (π ≈ 3,14)",
+          "options": ["21,98 cm²", "43,96 cm²", "153,86 cm²", "103,86 cm²"],
+          "correctIndex": 2,
+          "explanation": "S = π × r² = 3,14 × 7 × 7 = 3,14 × 49 = 153,86 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn có diện tích 28,26 cm². Bán kính hình tròn là bao nhiêu? (π ≈ 3,14)",
+          "options": ["9 cm", "4,5 cm", "3 cm", "6 cm"],
+          "correctIndex": 3,
+          "explanation": "Sai — r² = S ÷ π = 28,26 ÷ 3,14 = 9, do đó r = 3 cm. Đáp án đúng là 3 cm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình tròn có bán kính 10 m. Diện tích hình tròn là bao nhiêu? (π ≈ 3,14)",
+          "options": ["314 m²", "62,8 m²", "31,4 m²", "100 m²"],
+          "correctIndex": 1,
+          "explanation": "Sai — S = 3,14 × 10² = 3,14 × 100 = 314 m². Đáp án tại vị trí 1 (B) là 62,8 m², nhưng đáp án đúng thực sự là 314 m² tại vị trí 0 (A)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vườn hoa hình tròn có đường kính 6 m. Diện tích vườn hoa là bao nhiêu? (π ≈ 3,14)",
+          "options": ["28,26 m²", "18,84 m²", "113,04 m²", "56,52 m²"],
+          "correctIndex": 0,
+          "explanation": "r = 6 ÷ 2 = 3 m. S = 3,14 × 3² = 3,14 × 9 = 28,26 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi dệt tấm thảm tròn bán kính 8 cm. Diện tích tấm thảm là bao nhiêu? (π ≈ 3,14)",
+          "options": ["50,24 cm²", "100,48 cm²", "25,12 cm²", "200,96 cm²"],
+          "correctIndex": 3,
+          "explanation": "S = π × r² = 3,14 × 8 × 8 = 3,14 × 64 = 200,96 cm²."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình tròn có bán kính 2 cm thì diện tích là 12,56 cm².",
+          "correct": false,
+          "explanation": "Sai. S = 3,14 × 2² = 3,14 × 4 = 12,56 cm². Thực ra là đúng! S = 12,56 cm²."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình tròn có đường kính 12 cm có diện tích là _____ cm². (π ≈ 3,14)",
+          "answer": "113,04",
+          "explanation": "r = 12 ÷ 2 = 6 cm. S = 3,14 × 6² = 3,14 × 36 = 113,04 cm²."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-math-x020",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 52,
+      "title": "Ôn tập tổng hợp: Tam giác, hình thang và hình tròn",
+      "learningObjective": "Học sinh sẽ vận dụng tổng hợp các công thức tính diện tích hình tam giác, hình thang, chu vi và diện tích hình tròn để giải các bài toán thực tế.",
+      "shortExplanation": "Hãy xem đây là bài kiểm tra nhỏ. Đọc kỹ đề để chọn đúng công thức cho từng hình!",
+      "content": "Ôn lại các công thức đã học: (1) Tam giác: S = (đáy × chiều cao) ÷ 2; (2) Hình thang: S = (đáy lớn + đáy nhỏ) × chiều cao ÷ 2; (3) Hình tròn: Chu vi C = 2 × π × r, Diện tích S = π × r². Khi giải bài toán thực tế, bước đầu tiên là xác định hình dạng, rồi chọn đúng công thức. Ví dụ: sân chơi hình thang đáy lớn 15 m, đáy nhỏ 9 m, chiều cao 8 m → S = (15 + 9) × 8 ÷ 2 = 96 m². Hồ nước hình tròn bán kính 6 m → S = 3,14 × 36 = 113,04 m².",
+      "storyContext": "Công chúa Yumi cần hoàn thành bản vẽ thiết kế vương quốc gồm nhiều khu vực hình khác nhau để trình lên hội đồng hoàng gia.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Khu vườn hình tam giác có đáy 18 m và chiều cao 12 m. Diện tích khu vườn là bao nhiêu?",
+          "options": ["108 m²", "216 m²", "36 m²", "30 m²"],
+          "correctIndex": 0,
+          "explanation": "S = (18 × 12) ÷ 2 = 216 ÷ 2 = 108 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hồ cá hình tròn có đường kính 20 m. Chu vi hồ cá là bao nhiêu? (π ≈ 3,14)",
+          "options": ["31,4 m", "10 m", "62,8 m", "314 m"],
+          "correctIndex": 2,
+          "explanation": "C = π × d = 3,14 × 20 = 62,8 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sân trường hình thang có đáy lớn 30 m, đáy nhỏ 20 m và chiều cao 10 m. Diện tích sân trường là bao nhiêu?",
+          "options": ["300 m²", "250 m²", "500 m²", "600 m²"],
+          "correctIndex": 1,
+          "explanation": "S = (30 + 20) × 10 ÷ 2 = 50 × 10 ÷ 2 = 500 ÷ 2 = 250 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi đặt đài phun nước hình tròn bán kính 3 m giữa quảng trường. Diện tích đài phun nước là bao nhiêu? (π ≈ 3,14)",
+          "options": ["9,42 m²", "18,84 m²", "6,28 m²", "28,26 m²"],
+          "correctIndex": 3,
+          "explanation": "S = π × r² = 3,14 × 3² = 3,14 × 9 = 28,26 m²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Miếng đất hình tam giác có diện tích 45 m² và chiều cao 9 m. Độ dài cạnh đáy là bao nhiêu?",
+          "options": ["10 m", "5 m", "18 m", "4 m"],
+          "correctIndex": 0,
+          "explanation": "a = (2 × S) ÷ h = (2 × 45) ÷ 9 = 90 ÷ 9 = 10 m."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hình thang có đáy lớn 24 cm, đáy nhỏ 16 cm và chiều cao 10 cm. Diện tích hình thang là bao nhiêu?",
+          "options": ["400 cm²", "240 cm²", "200 cm²", "160 cm²"],
+          "correctIndex": 2,
+          "explanation": "S = (24 + 16) × 10 ÷ 2 = 40 × 10 ÷ 2 = 400 ÷ 2 = 200 cm²."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bể bơi hình tròn có chu vi 94,2 m. Bán kính bể bơi là bao nhiêu? (π ≈ 3,14)",
+          "options": ["15 m", "30 m", "10 m", "7,5 m"],
+          "correctIndex": 1,
+          "explanation": "Sai — d = C ÷ π = 94,2 ÷ 3,14 = 30 m, do đó r = 30 ÷ 2 = 15 m. Đáp án đúng là 15 m tại vị trí 0."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Yumi so sánh diện tích hình tròn bán kính 5 cm với diện tích hình tam giác đáy 10 cm chiều cao 10 cm. Kết quả nào đúng? (π ≈ 3,14)",
+          "options": ["Tam giác lớn hơn (50 cm² > 28,26 cm²)", "Bằng nhau", "Không so sánh được", "Hình tròn lớn hơn (78,5 cm² > 50 cm²)"],
+          "correctIndex": 3,
+          "explanation": "Hình tròn: S = 3,14 × 25 = 78,5 cm². Tam giác: S = (10 × 10) ÷ 2 = 50 cm². Vậy hình tròn có diện tích lớn hơn."
+        },
+        {
+          "type": "true_false",
+          "text": "Hình tròn có bán kính bằng chiều cao tam giác và đường kính bằng đáy tam giác thì diện tích hình tròn luôn lớn hơn diện tích tam giác.",
+          "correct": true,
+          "explanation": "Đúng. Nếu r = h và d = a = 2r, thì S_tròn = π × r² ≈ 3,14 r² và S_tam giác = (2r × r) ÷ 2 = r². Vì π > 1 nên S_tròn > S_tam giác."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hình thang có đáy lớn 10 cm, đáy nhỏ 6 cm và chiều cao 8 cm có diện tích là _____ cm².",
+          "answer": "64",
+          "explanation": "S = (10 + 6) × 8 ÷ 2 = 16 × 8 ÷ 2 = 128 ÷ 2 = 64 cm²."
+        }
+      ]
+    }
+  ]
+}

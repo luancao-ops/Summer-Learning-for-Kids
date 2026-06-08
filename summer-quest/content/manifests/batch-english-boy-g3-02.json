@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "batchId": "batch-english-boy-g3-02",
+  "description": "Boy Grade 3 English — Batch 2: Places, Transport, Feelings, Past Tense, Frequency",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-en-x006",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 17,
+      "title": "Places in Town",
+      "learningObjective": "After this lesson, Johnny will know 7 community place names in English and can say what happens at each place.",
+      "shortExplanation": "Learn the names of places in a town in English. Con học tên các địa điểm trong thành phố!",
+      "content": "## Places in Town\n- **library** (thư viện) — a place where you borrow and read books for free\n- **hospital** (bệnh viện) — a place where doctors and nurses help sick people\n- **park** (công viên) — an outdoor green space for walking, playing, and resting\n- **market** (chợ) — a place where people buy and sell food and goods\n- **zoo** (vườn thú) — a place where you can see wild animals safely\n- **school** (trường học) — a place where children go to learn every day\n- **post office** (bưu điện) — a place where you send and receive letters and parcels\n\n## Useful Phrases\n- I go to the **library** to borrow books.\n- Mum takes me to the **hospital** when I am sick.\n- We feed the ducks at the **park**.\n- Dad buys vegetables at the **market**.\n- At the **zoo**, I saw a lion and a giraffe!\n\n## Summary\nA town has many useful places. Each place has a special purpose. The library is for books, the hospital is for health, the zoo is for seeing animals. Which place do you visit most often?",
+      "storyContext": "ROBO and Johnny go on a map adventure through a town, visiting each place and learning its English name.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Where do you go to borrow books for free?",
+          "options": ["Market", "Library", "Hospital", "Zoo"],
+          "correctIndex": 1,
+          "explanation": "You borrow books at a library. Library = thư viện. It is free to borrow books.",
+          "hint": "You can borrow books here without paying."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Where do you go when you are sick?",
+          "options": ["Park", "Library", "Market", "Hospital"],
+          "correctIndex": 3,
+          "explanation": "You go to the hospital when you are sick. Hospital = bệnh viện. Doctors help you there.",
+          "hint": "Doctors and nurses work at this place."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'công viên' in English?",
+          "options": ["Zoo", "School", "Park", "Market"],
+          "correctIndex": 2,
+          "explanation": "Công viên = Park in English. A park is a green outdoor space for relaxing and playing.",
+          "hint": "Công viên has grass, trees, and benches."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Where do you buy fruits and vegetables?",
+          "options": ["Market", "Library", "Park", "Hospital"],
+          "correctIndex": 0,
+          "explanation": "You buy food at the market. Market = cái chợ. Sellers bring fresh food every day.",
+          "hint": "People sell food and goods here."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Where can you see lions and elephants?",
+          "options": ["Park", "School", "Market", "Zoo"],
+          "correctIndex": 3,
+          "explanation": "You can see wild animals at a zoo. Zoo = vườn thú. Animals live in safe enclosures.",
+          "hint": "Wild animals like lions and giraffes live here safely."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you do at a post office?",
+          "options": ["Buy food", "Send letters and parcels", "Borrow books", "See animals"],
+          "correctIndex": 1,
+          "explanation": "At a post office, you send letters and parcels. Post office = bưu điện.",
+          "hint": "You go here to mail something to someone far away."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Where do children go to study every day?",
+          "options": ["School", "Zoo", "Hospital", "Market"],
+          "correctIndex": 0,
+          "explanation": "Children go to school to study. School = trường học. Teachers teach us there.",
+          "hint": "You go here Monday to Friday to learn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do people do at a park?",
+          "options": ["Buy medicine", "Study", "Walk and play", "Send letters"],
+          "correctIndex": 2,
+          "explanation": "People go to a park to walk, play, and relax. Park = công viên.",
+          "hint": "Think about what you do outside in a green space."
+        },
+        {
+          "type": "true_false",
+          "text": "You can borrow books at a library.",
+          "correct": true,
+          "explanation": "True! A library is where you borrow books for free. Library = thư viện.",
+          "hint": "What is the main purpose of a library?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "We buy vegetables at the ___.",
+          "answer": "market",
+          "explanation": "We buy vegetables at the market. Market = cái chợ.",
+          "hint": "The English word for chợ."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x007",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 18,
+      "title": "Transport and Vehicles",
+      "learningObjective": "After this lesson, Johnny will know 7 vehicle names in English and can describe how each one moves.",
+      "shortExplanation": "Learn vehicle and transport words in English. Con học tên các phương tiện giao thông!",
+      "content": "## Vehicle Words\n- **car** (xe ô tô) — a 4-wheeled vehicle driven on roads\n- **bus** (xe buýt) — a large vehicle that carries many passengers on fixed routes\n- **bicycle** (xe đạp) — a 2-wheeled vehicle you pedal with your feet\n- **motorbike** (xe máy) — a 2-wheeled vehicle with an engine\n- **train** (xe lửa / tàu hỏa) — a long vehicle that travels on rails\n- **plane** (máy bay) — a vehicle that flies through the air\n- **boat** (thuyền / tàu) — a vehicle that travels on water\n\n## How They Move\n- Car, bus, motorbike → on roads\n- Train → on rails (đường ray)\n- Plane → in the air (trên không)\n- Boat → on water (trên nước)\n- Bicycle → on roads, you pedal (đạp bàn đạp)\n\n## Example Sentences\n- I go to school by **bus** every morning.\n- The **train** is faster than a **car**.\n- A **plane** can fly across the world in hours.\n- Dad rides a **motorbike** to work.\n\n## Summary\nDifferent vehicles travel in different places: on roads, on rails, in the air, or on water. The bicycle is the most eco-friendly because it uses no fuel — just your legs!",
+      "storyContext": "ROBO and Johnny design a map of transport routes at the Robot Sport Lab and label each vehicle in English.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Which vehicle travels on rails?",
+          "options": ["Car", "Bus", "Train", "Plane"],
+          "correctIndex": 2,
+          "explanation": "A train travels on rails. Train = xe lửa or tàu hỏa. It cannot drive on normal roads.",
+          "hint": "This long vehicle moves on a special metal track."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which vehicle travels in the air?",
+          "options": ["Plane", "Bus", "Bicycle", "Car"],
+          "correctIndex": 0,
+          "explanation": "A plane travels in the air. Plane = máy bay. It needs a runway to take off.",
+          "hint": "This vehicle has wings and flies very high."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is a vehicle with two wheels that you pedal?",
+          "options": ["Car", "Bus", "Motorcycle", "Bicycle"],
+          "correctIndex": 3,
+          "explanation": "A bicycle has two wheels and you pedal it with your feet. Bicycle = xe đạp.",
+          "hint": "You use your legs to power this vehicle."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which vehicle carries many people on city roads?",
+          "options": ["Bicycle", "Bus", "Plane", "Boat"],
+          "correctIndex": 1,
+          "explanation": "A bus carries many passengers on fixed routes in a city. Bus = xe buýt.",
+          "hint": "Many people sit inside this large road vehicle."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'xe máy' in English?",
+          "options": ["Motorbike", "Bicycle", "Bus", "Truck"],
+          "correctIndex": 0,
+          "explanation": "Xe máy = Motorbike in English. It has two wheels and runs on fuel.",
+          "hint": "Xe máy has an engine but only two wheels."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which vehicle travels on water?",
+          "options": ["Bus", "Plane", "Boat", "Train"],
+          "correctIndex": 2,
+          "explanation": "A boat travels on water. Boat = thuyền or tàu. It floats on rivers and the sea.",
+          "hint": "This vehicle floats and moves through water."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "How many wheels does a car have?",
+          "options": ["Two", "Four", "Six", "Eight"],
+          "correctIndex": 1,
+          "explanation": "A car has four wheels. Car = xe ô tô. It drives on roads using fuel.",
+          "hint": "Count the tyres on a normal family car."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What does a plane need to take off?",
+          "options": ["Water", "Rails", "A road", "A runway"],
+          "correctIndex": 3,
+          "explanation": "A plane needs a runway, which is a long, flat road at an airport, to take off.",
+          "hint": "This is the long flat road at an airport."
+        },
+        {
+          "type": "true_false",
+          "text": "A bicycle has two wheels.",
+          "correct": true,
+          "explanation": "True! A bicycle has exactly two wheels. Bicycle = xe đạp.",
+          "hint": "Count the wheels on a bicycle."
+        },
+        {
+          "type": "fill_blank",
+          "text": "A ___ flies in the sky.",
+          "answer": "plane",
+          "explanation": "A plane flies in the sky. Plane = máy bay. It has wings and a jet engine.",
+          "hint": "The vehicle that flies above the clouds."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x008",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 19,
+      "title": "Feelings and Emotions",
+      "learningObjective": "After this lesson, Johnny will know 7 feeling words in English and can describe his own emotions.",
+      "shortExplanation": "Learn feeling and emotion words in English. Con học cách nói về cảm xúc bằng tiếng Anh!",
+      "content": "## Feeling Words\n- **happy** (vui / hạnh phúc) — feeling good and smiling\n- **sad** (buồn) — feeling unhappy or upset\n- **angry** (tức giận) — feeling very upset or mad\n- **tired** (mệt mỏi) — feeling like you need to rest or sleep\n- **scared** (sợ hãi) — feeling afraid of something\n- **excited** (hào hứng) — feeling very happy and energetic about something coming\n- **surprised** (ngạc nhiên) — feeling shocked by something unexpected\n\n## Expressing Feelings\n- I am **happy** today! (Hôm nay tôi vui!)\n- She feels **sad** because her dog is sick. (Cô ấy buồn vì chó bệnh.)\n- He is **angry** because he lost the game.\n- I am so **excited** about the robot competition!\n\n## Asking About Feelings\n- How are you? → I am fine / happy / tired.\n- Are you OK? → Yes, I am. / No, I am sad.\n\n## Summary\nWe all have feelings every day. Feelings change depending on what happens. It is good to talk about your feelings. When you are happy, smile! When you are sad, talk to a friend or family member.",
+      "storyContext": "After a big robot race at the Sport Lab, ROBO asks Johnny how he feels and they practise emotion words together.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "What do you feel when you receive a birthday present?",
+          "options": ["Sad", "Angry", "Tired", "Happy"],
+          "correctIndex": 3,
+          "explanation": "Most people feel happy when they receive a gift. Happy = vui / hạnh phúc.",
+          "hint": "Receiving a gift usually makes you smile."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you feel when you lose a game?",
+          "options": ["Excited", "Sad", "Happy", "Surprised"],
+          "correctIndex": 1,
+          "explanation": "Losing a game can make you feel sad. Sad = buồn in Vietnamese.",
+          "hint": "This is the opposite of happy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is 'tức giận' in English?",
+          "options": ["Angry", "Happy", "Tired", "Scared"],
+          "correctIndex": 0,
+          "explanation": "Tức giận = Angry in English. You feel angry when something upsets you very much.",
+          "hint": "Tức giận is a strong, hot feeling when something goes wrong."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you feel when you see something very scary?",
+          "options": ["Happy", "Excited", "Scared", "Bored"],
+          "correctIndex": 2,
+          "explanation": "You feel scared when you see something frightening. Scared = sợ hãi.",
+          "hint": "This feeling makes your heart beat fast."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you feel just before a big competition?",
+          "options": ["Sad", "Excited", "Tired", "Angry"],
+          "correctIndex": 1,
+          "explanation": "You feel excited before a big event. Excited = hào hứng. Your energy goes up!",
+          "hint": "This happy, energetic feeling happens before something fun."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What do you feel after running a very long race?",
+          "options": ["Happy", "Scared", "Angry", "Tired"],
+          "correctIndex": 3,
+          "explanation": "You feel tired after a long race. Tired = mệt mỏi. Your body needs rest.",
+          "hint": "Your legs ache and you want to sit down."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Ngạc nhiên' in English is?",
+          "options": ["Happy", "Tired", "Surprised", "Scared"],
+          "correctIndex": 2,
+          "explanation": "Ngạc nhiên = Surprised in English. You feel this when something unexpected happens.",
+          "hint": "Ngạc nhiên is what you feel when something shocks you."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "A smiling face shows which feeling?",
+          "options": ["Happy", "Sad", "Scared", "Angry"],
+          "correctIndex": 0,
+          "explanation": "A smiling face shows that someone is happy. Happy = vui / hạnh phúc.",
+          "hint": "When you smile, you show this feeling."
+        },
+        {
+          "type": "true_false",
+          "text": "'Tired' describes the feeling of wanting to rest.",
+          "correct": true,
+          "explanation": "True! Tired means you feel like you need to stop and rest. Tired = mệt mỏi.",
+          "hint": "How do you feel after a long day of sport?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "I am very ___ because I won the robot race!",
+          "answer": "happy",
+          "explanation": "Winning makes you feel happy! Happy = vui / hạnh phúc.",
+          "hint": "The feeling you get when something wonderful happens."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x009",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 20,
+      "title": "Simple Past Tense",
+      "learningObjective": "After this lesson, Johnny will know 6 common past tense verb forms and can make correct past tense sentences.",
+      "shortExplanation": "Learn how to talk about things that already happened using the past tense. Con học thì quá khứ đơn!",
+      "content": "## Regular Past Tense\nAdd **-ed** to most verbs:\n- play → **played** (chơi → đã chơi)\n- watch → **watched** (xem → đã xem)\n- walk → **walked** (đi bộ → đã đi bộ)\n- kick → **kicked** (đá → đã đá)\n\n## Irregular Past Tense\nSome verbs change completely:\n- go → **went** (đi → đã đi)\n- eat → **ate** (ăn → đã ăn)\n- swim → **swam** (bơi → đã bơi)\n- run → **ran** (chạy → đã chạy)\n- do → **did** (làm → đã làm)\n\n## Time Words for Past\n- **yesterday** (hôm qua)\n- **last week** (tuần trước)\n- **this morning** (sáng nay)\n\n## Example Sentences\n- I **went** to school yesterday.\n- She **ate** rice for lunch.\n- We **played** football last Saturday.\n- He **swam** in the pool this morning.\n\n## Summary\nUse the past tense to talk about things that already happened. Add -ed for regular verbs. Some verbs are irregular and must be memorised: go→went, eat→ate, swim→swam.",
+      "storyContext": "ROBO asks Johnny about his day and Johnny uses past tense verbs to describe everything he did at the Robot Sport Lab.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "What is the past tense of 'go'?",
+          "options": ["Went", "Goes", "Going", "Gone"],
+          "correctIndex": 0,
+          "explanation": "Go → Went. 'Went' is the irregular past tense of 'go'. It does not follow the -ed rule.",
+          "hint": "This is an irregular verb — it changes completely."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the past tense of 'eat'?",
+          "options": ["Eated", "Eats", "Ate", "Eating"],
+          "correctIndex": 2,
+          "explanation": "Eat → Ate. 'Ate' is the irregular past tense of 'eat'. We do not say 'eated'.",
+          "hint": "'Eat' is irregular — it does not just add -ed."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Choose the correct past tense sentence:",
+          "options": ["I go to school yesterday.", "I went to school yesterday.", "I goes to school yesterday.", "I going to school yesterday."],
+          "correctIndex": 1,
+          "explanation": "'I went to school yesterday' is correct. We use 'went' (past tense of go) with 'yesterday'.",
+          "hint": "Yesterday = past tense is needed."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the past tense of 'play'?",
+          "options": ["Plays", "Plaied", "Playing", "Played"],
+          "correctIndex": 3,
+          "explanation": "Play → Played. We add -ed to 'play' to make the past tense. It is a regular verb.",
+          "hint": "This is a regular verb — just add -ed."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the past tense of 'swim'?",
+          "options": ["Swimmed", "Swam", "Swimming", "Swims"],
+          "correctIndex": 1,
+          "explanation": "Swim → Swam. 'Swam' is the irregular past tense of 'swim'. Not 'swimmed'.",
+          "hint": "'Swim' is an irregular verb like 'go' and 'eat'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Yesterday, I ___ my homework.' Choose the correct word.",
+          "options": ["did", "do", "doing", "does"],
+          "correctIndex": 0,
+          "explanation": "'Did' is the past tense of 'do'. Yesterday + past tense → I did my homework.",
+          "hint": "Do → ??? (irregular past tense, one short word)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which sentence is in the past tense?",
+          "options": ["I run fast.", "I am running.", "I will run.", "I ran fast."],
+          "correctIndex": 3,
+          "explanation": "'I ran fast' uses 'ran', which is the past tense of 'run'. The other options are present or future.",
+          "hint": "Look for the irregular past form of 'run'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "What is the past tense of 'watch'?",
+          "options": ["Watchs", "Watching", "Watched", "Watcher"],
+          "correctIndex": 2,
+          "explanation": "Watch → Watched. We add -ed to make the past tense. Watch is a regular verb.",
+          "hint": "Regular verb: add -ed to the end."
+        },
+        {
+          "type": "true_false",
+          "text": "'I went to the park.' is a past tense sentence.",
+          "correct": true,
+          "explanation": "True! 'Went' is the past tense of 'go'. The sentence describes something that already happened.",
+          "hint": "Is 'went' a past tense form?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Yesterday, I ___ football with my friends.",
+          "answer": "played",
+          "explanation": "Yesterday → past tense needed. Play → Played (regular verb, add -ed).",
+          "hint": "Add -ed to the verb 'play'."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-en-x010",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "orderIndex": 21,
+      "title": "Frequency Adverbs",
+      "learningObjective": "After this lesson, Johnny will know 4 frequency adverbs and can use them correctly in sentences.",
+      "shortExplanation": "Learn how to say how often you do things: always, usually, sometimes, never. Con học trạng từ tần suất!",
+      "content": "## Frequency Adverbs\n- **always** (luôn luôn) — 100% of the time, every time\n- **usually** (thường thường) — most of the time, not every time\n- **sometimes** (đôi khi) — not very often, only occasionally\n- **never** (không bao giờ) — 0% of the time, not even once\n\n## Order in a Sentence\nFrequency adverbs come **before the main verb**:\n- I **always** eat breakfast. ✓\n- I **never** eat spiders. ✓\n- She **usually** walks to school. ✓\n\nOr **after the verb 'to be'**:\n- He is **always** late. ✓\n- They are **never** sad. ✓\n\n## Example Sentences\n- Johnny **always** trains hard at the Robot Sport Lab.\n- He **usually** wakes up at 6 a.m.\n- He **sometimes** watches football on TV.\n- He **never** gives up on a challenge!\n\n## Summary\nFrequency adverbs tell us how often something happens. Always = 100%, usually = most times, sometimes = a few times, never = 0%. Put them before the main verb in a sentence.",
+      "storyContext": "ROBO tracks Johnny's training schedule and uses frequency adverbs to describe what Johnny does every day.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Which word means you do something 100% of the time?",
+          "options": ["Never", "Sometimes", "Always", "Usually"],
+          "correctIndex": 2,
+          "explanation": "'Always' means every time, 100% of the time. Always = luôn luôn in Vietnamese.",
+          "hint": "This word means 'every single time, without exception'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which word means you do something 0% of the time?",
+          "options": ["Always", "Usually", "Sometimes", "Never"],
+          "correctIndex": 3,
+          "explanation": "'Never' means 0%, not even once. Never = không bao giờ in Vietnamese.",
+          "hint": "This is the opposite of 'always'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Tôi thường ăn sáng.' — which English word means 'thường'?",
+          "options": ["Usually", "Never", "Always", "Sometimes"],
+          "correctIndex": 0,
+          "explanation": "Thường = Usually in English. Usually means most of the time, but not always.",
+          "hint": "Thường = most of the time."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which sentence uses 'sometimes' correctly?",
+          "options": ["I sometimes is happy.", "I sometimes feel sad.", "Sometimes I am always late.", "I never sometimes play."],
+          "correctIndex": 1,
+          "explanation": "'I sometimes feel sad' is correct. 'Sometimes' goes before the main verb 'feel'.",
+          "hint": "Put the adverb before the main verb."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'Không bao giờ' in English is?",
+          "options": ["Always", "Usually", "Sometimes", "Never"],
+          "correctIndex": 3,
+          "explanation": "Không bao giờ = Never in English. It means something does not happen at any time.",
+          "hint": "Không bao giờ = not even once."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Put the words in the correct order: 'I / football / play / always'.",
+          "options": ["Football always play I.", "I football always play.", "I always play football.", "Always I play football."],
+          "correctIndex": 2,
+          "explanation": "'I always play football' is correct. The adverb 'always' comes before the verb 'play'.",
+          "hint": "Subject + adverb + verb + object."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "'He ___ brushes his teeth before bed.' Choose the best word.",
+          "options": ["Never", "Always", "Yesterday", "Before"],
+          "correctIndex": 1,
+          "explanation": "'Always' fits best because brushing teeth before bed is a good daily habit done every night.",
+          "hint": "Brushing teeth is a habit done every single night."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which sentence is grammatically correct?",
+          "options": ["She never eats meat.", "She not eat never meat.", "She always doesn't eat.", "Never she eats meat."],
+          "correctIndex": 0,
+          "explanation": "'She never eats meat' is correct. 'Never' goes before the main verb 'eats'.",
+          "hint": "Subject + never + verb."
+        },
+        {
+          "type": "true_false",
+          "text": "'Always' means you do something every time, 100% of the time.",
+          "correct": true,
+          "explanation": "True! Always = 100%, every single time. Always = luôn luôn.",
+          "hint": "Is 'always' the strongest frequency word?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "He ___ watches TV on Sundays. (every Sunday without fail)",
+          "answer": "always",
+          "explanation": "'Always' means every time. He watches TV every Sunday without exception.",
+          "hint": "Which word means 100% of the time?"
+        }
+      ]
+    }
+  ]
+}

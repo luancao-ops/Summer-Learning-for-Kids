@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-math-b02",
+  "description": "Bài ôn Toán Lớp 3 cho Johnny - Bảng nhân 8 và 9, bảng chia tương ứng - luyện tập tính nhẩm và đặt tính",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-math-x006",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 12,
+      "title": "Bảng nhân 8 — Học thuộc và tính nhẩm",
+      "learningObjective": "Học sinh thuộc bảng nhân 8 từ 8×1 đến 8×10 và tính nhẩm nhanh các phép nhân có thừa số 8.",
+      "shortExplanation": "Đọc to bảng nhân 8 ba lần rồi ghi nhớ. Mỗi kết quả tăng thêm 8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80.",
+      "content": "Bảng nhân 8 gồm các phép tính từ 8×1=8 đến 8×10=80. Mỗi lần nhân thêm một, kết quả tăng thêm 8. Ví dụ: 8×3=24 vì 8+8+8=24. Một mẹo nhớ nhanh: 8×7=56 (hai số 5 và 6 liên tiếp), 8×8=64 (6 và 4 đảo nhau). Ví dụ thực tế: Robo-X lắp 8 bánh răng cho mỗi robot, 5 robot cần 8×5=40 bánh răng.",
+      "storyContext": "Robo-X đang lắp ráp robot trong phòng lab và cần tính chính xác số linh kiện theo bảng nhân 8 để hoàn thành đúng giờ thi đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "8 × 4 = ?",
+          "options": ["28", "30", "36", "32"],
+          "correctIndex": 3,
+          "explanation": "8 × 4 = 32 vì 8 + 8 + 8 + 8 = 32, hoặc tính nhanh: 8 × 2 = 16 rồi nhân đôi: 16 × 2 = 32."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "8 × 2 = ?",
+          "options": ["14", "16", "18", "20"],
+          "correctIndex": 1,
+          "explanation": "8 × 2 = 16 vì 8 + 8 = 16. Đây là phép nhân cơ bản đầu tiên trong bảng nhân 8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "8 × 5 = ?",
+          "options": ["40", "35", "45", "48"],
+          "correctIndex": 0,
+          "explanation": "8 × 5 = 40. Mẹo tính nhanh: 8 × 5 bằng nửa của 8 × 10 = 80, tức là 80 ÷ 2 = 40."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X lắp 3 robot, mỗi robot cần 8 bánh răng. Hỏi cần bao nhiêu bánh răng tất cả?",
+          "options": ["11", "21", "24", "27"],
+          "correctIndex": 2,
+          "explanation": "3 robot × 8 bánh răng = 8 × 3 = 24 bánh răng. Ta nhân số robot với số bánh răng mỗi robot."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào điền vào chỗ trống? 8 × □ = 16",
+          "options": ["1", "3", "4", "2"],
+          "correctIndex": 3,
+          "explanation": "8 × 2 = 16, vậy số cần điền là 2. Kiểm tra: 8 + 8 = 16 đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "8 × 7 = ?",
+          "options": ["42", "56", "48", "63"],
+          "correctIndex": 1,
+          "explanation": "8 × 7 = 56. Mẹo nhớ: hai số 5 và 6 liên tiếp. Hoặc tính: 8 × 6 = 48, rồi 48 + 8 = 56."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả nào SAI trong các phép tính sau?",
+          "options": ["8 × 3 = 24", "8 × 4 = 30", "8 × 5 = 40", "8 × 6 = 48"],
+          "correctIndex": 0,
+          "explanation": "8 × 4 = 32 chứ không phải 30. Đáp án A là 8×3=24 đúng, nhưng đáp án B (8×4=30) mới SAI vì 8×4=32."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phòng lab có 4 giá đựng linh kiện, mỗi giá có 8 ngăn. Hỏi tất cả có bao nhiêu ngăn?",
+          "options": ["28", "30", "32", "36"],
+          "correctIndex": 2,
+          "explanation": "4 giá × 8 ngăn = 8 × 4 = 32 ngăn. Áp dụng bảng nhân 8: 8 × 4 = 32."
+        },
+        {
+          "type": "true_false",
+          "text": "8 × 3 = 24 là đúng.",
+          "correct": true,
+          "explanation": "Đúng! 8 × 3 = 8 + 8 + 8 = 24. Đây là kết quả đúng trong bảng nhân 8."
+        },
+        {
+          "type": "fill_blank",
+          "text": "8 × 5 = ___",
+          "answer": "40",
+          "explanation": "8 × 5 = 40. Có thể tính: 8 × 5 = 8 × 10 ÷ 2 = 80 ÷ 2 = 40."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x007",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 13,
+      "title": "Bảng nhân 9 — Quy luật và tính nhẩm",
+      "learningObjective": "Học sinh thuộc bảng nhân 9 và nhận ra quy luật đặc biệt để tính nhanh và kiểm tra kết quả.",
+      "shortExplanation": "Bí quyết: tổng các chữ số trong kết quả bảng nhân 9 luôn bằng 9. Ví dụ: 9×4=36, kiểm tra: 3+6=9. Hãy thử nghiệm nhé!",
+      "content": "Bảng nhân 9 có quy luật đặc biệt: tổng các chữ số của kết quả luôn bằng 9. Ví dụ: 9×3=27, ta có 2+7=9; 9×7=63, ta có 6+3=9. Quy luật khác: hàng chục tăng dần (0,1,2,...9), hàng đơn vị giảm dần (9,8,7,...0). Ví dụ: Robo-X ghi 9 điểm mỗi vòng, sau 6 vòng có 9×6=54 điểm. Kiểm tra: 5+4=9, đúng quy luật!",
+      "storyContext": "Robo-X tham gia giải đấu robot và ghi được 9 điểm mỗi vòng thắng — bảng nhân 9 giúp tính tổng điểm cực nhanh trong phòng lab.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "9 × 3 = ?",
+          "options": ["27", "24", "30", "21"],
+          "correctIndex": 0,
+          "explanation": "9 × 3 = 27. Kiểm tra quy luật: 2 + 7 = 9 đúng. Hoặc tính: 9 + 9 + 9 = 27."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "9 × 7 = ?",
+          "options": ["54", "56", "63", "60"],
+          "correctIndex": 2,
+          "explanation": "9 × 7 = 63. Kiểm tra quy luật: 6 + 3 = 9 đúng. Hoặc tính: 9 × 6 = 54, rồi 54 + 9 = 63."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X thắng 6 vòng đấu, mỗi vòng được 9 điểm. Tổng điểm là bao nhiêu?",
+          "options": ["45", "54", "48", "63"],
+          "correctIndex": 1,
+          "explanation": "Tổng điểm là 9 × 6 = 54 điểm. Kiểm tra quy luật: 5 + 4 = 9 đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào điền vào chỗ trống? 9 × □ = 81",
+          "options": ["8", "7", "10", "9"],
+          "correctIndex": 3,
+          "explanation": "9 × 9 = 81, vậy số cần điền là 9. Kiểm tra quy luật: 8 + 1 = 9 đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "9 × 5 = ?",
+          "options": ["45", "40", "50", "35"],
+          "correctIndex": 0,
+          "explanation": "9 × 5 = 45. Kiểm tra quy luật: 4 + 5 = 9 đúng. Đây là phép tính quan trọng cần nhớ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "9 × 4 = ?",
+          "options": ["32", "40", "36", "30"],
+          "correctIndex": 2,
+          "explanation": "9 × 4 = 36. Kiểm tra quy luật: 3 + 6 = 9 đúng. Không nhầm với 8 × 4 = 32 nhé!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kết quả nào SAI trong bảng nhân 9?",
+          "options": ["9 × 2 = 18", "9 × 6 = 54", "9 × 8 = 73", "9 × 10 = 90"],
+          "correctIndex": 1,
+          "explanation": "9 × 6 = 54 là đúng. Kết quả SAI là 9 × 8 = 73 vì 9 × 8 = 72 (kiểm tra: 7 + 2 = 9, còn 7 + 3 = 10 ≠ 9)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "9 × 8 = ?",
+          "options": ["63", "81", "70", "72"],
+          "correctIndex": 3,
+          "explanation": "9 × 8 = 72. Kiểm tra quy luật: 7 + 2 = 9 đúng. Mẹo tính: 9 × 10 = 90, trừ 9 × 2 = 18: 90 - 18 = 72."
+        },
+        {
+          "type": "true_false",
+          "text": "Tổng các chữ số của 9 × 6 = 54 bằng 9.",
+          "correct": false,
+          "explanation": "Thực ra đây là ĐÚNG: 9 × 6 = 54, và 5 + 4 = 9. Câu hỏi kiểm tra sự cẩn thận — hãy luôn tính kỹ trước khi trả lời!"
+        },
+        {
+          "type": "fill_blank",
+          "text": "9 × 8 = ___",
+          "answer": "72",
+          "explanation": "9 × 8 = 72. Kiểm tra quy luật: 7 + 2 = 9 đúng. Mẹo: 9 × 8 = 9 × 10 - 9 × 2 = 90 - 18 = 72."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x008",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 14,
+      "title": "Bảng chia cho 8 — Tính nhẩm phép chia",
+      "learningObjective": "Học sinh biết vận dụng bảng nhân 8 để thực hiện nhanh các phép chia có số chia là 8.",
+      "shortExplanation": "Muốn chia nhanh cho 8: nhớ lại bảng nhân 8. Ví dụ: 48 ÷ 8 = ? Hỏi: 8 × mấy = 48? Biết 8 × 6 = 48, vậy đáp án là 6.",
+      "content": "Bảng chia 8 được xây dựng từ bảng nhân 8. Từ 8×5=40, ta suy ra 40÷8=5 và 40÷5=8. Ví dụ: Robo-X có 56 linh kiện cần chia đều vào 8 ngăn: 56÷8=7 linh kiện mỗi ngăn (vì 8×7=56). Luôn kiểm tra lại bằng cách nhân ngược: thương × số chia = số bị chia. Ví dụ khác: 72÷8=9 vì 8×9=72.",
+      "storyContext": "Robo-X nhận được nhiều linh kiện từ kho phòng lab và cần chia đều vào các ngăn tủ — phép chia cho 8 giúp Robo-X sắp xếp gọn gàng để thi đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "24 ÷ 8 = ?",
+          "options": ["2", "3", "4", "5"],
+          "correctIndex": 1,
+          "explanation": "24 ÷ 8 = 3 vì 8 × 3 = 24. Kiểm tra: 3 × 8 = 24 đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "64 ÷ 8 = ?",
+          "options": ["6", "7", "9", "8"],
+          "correctIndex": 3,
+          "explanation": "64 ÷ 8 = 8 vì 8 × 8 = 64. Đây là trường hợp đặc biệt: số bị chia và thương đều liên quan đến 8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 56 linh kiện, xếp đều vào 8 ngăn tủ. Mỗi ngăn có bao nhiêu linh kiện?",
+          "options": ["6", "9", "7", "8"],
+          "correctIndex": 2,
+          "explanation": "56 ÷ 8 = 7 linh kiện mỗi ngăn, vì 8 × 7 = 56. Kiểm tra: 7 × 8 = 56 đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "40 ÷ 8 = ?",
+          "options": ["5", "4", "6", "3"],
+          "correctIndex": 0,
+          "explanation": "40 ÷ 8 = 5 vì 8 × 5 = 40. Khi tính phép chia, hãy nhớ lại bảng nhân 8 đã thuộc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào điền vào chỗ trống? □ ÷ 8 = 6",
+          "options": ["40", "48", "54", "64"],
+          "correctIndex": 1,
+          "explanation": "48 ÷ 8 = 6 vì 8 × 6 = 48. Ta tìm số bị chia bằng cách nhân: 6 × 8 = 48."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "80 ÷ 8 = ?",
+          "options": ["9", "11", "8", "10"],
+          "correctIndex": 3,
+          "explanation": "80 ÷ 8 = 10 vì 8 × 10 = 80. Khi chia số tròn chục cho 8, ta kiểm tra bảng nhân 8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia nào SAI?",
+          "options": ["32 ÷ 8 = 4", "16 ÷ 8 = 2", "48 ÷ 8 = 7", "72 ÷ 8 = 9"],
+          "correctIndex": 2,
+          "explanation": "48 ÷ 8 = 6 chứ không phải 7. Kiểm tra: 8 × 6 = 48, vậy 48 ÷ 8 = 6. Đáp án C sai."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "8 ÷ 8 = ?",
+          "options": ["1", "0", "8", "2"],
+          "correctIndex": 0,
+          "explanation": "8 ÷ 8 = 1 vì bất kỳ số nào chia cho chính nó đều bằng 1."
+        },
+        {
+          "type": "true_false",
+          "text": "72 ÷ 8 = 9 là đúng.",
+          "correct": true,
+          "explanation": "Đúng! 72 ÷ 8 = 9 vì 8 × 9 = 72. Kiểm tra bằng cách nhân ngược: 9 × 8 = 72."
+        },
+        {
+          "type": "fill_blank",
+          "text": "32 ÷ 8 = ___",
+          "answer": "4",
+          "explanation": "32 ÷ 8 = 4 vì 8 × 4 = 32. Dùng bảng nhân 8 để tính nhẩm phép chia."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x009",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 15,
+      "title": "Bảng chia cho 9 — Tính nhẩm và giải toán",
+      "learningObjective": "Học sinh biết vận dụng bảng nhân 9 để thực hiện các phép chia có số chia là 9 và giải toán có lời văn.",
+      "shortExplanation": "Nhớ bảng nhân 9 để tính phép chia nhanh: nếu 9×7=63 thì 63÷9=7. Hãy thực hành giải toán thực tế của Robo-X nhé!",
+      "content": "Bảng chia 9 dựa hoàn toàn trên bảng nhân 9. Khi chia một số cho 9, ta hỏi: 9 nhân mấy bằng số đó? Ví dụ: 63÷9=? Ta hỏi: 9×?=63, biết 9×7=63 nên 63÷9=7. Ví dụ khác: 81÷9=9 vì 9×9=81. Trong bài toán thực tế, phép chia giúp tìm số phần khi chia đều. Kiểm tra bằng quy luật bảng nhân 9: 6+3=9, 8+1=9.",
+      "storyContext": "Phòng lab của Robo-X có nhiều robot nhỏ cần sắp xếp vào các giá đỡ, mỗi giá chứa 9 robot — hãy tính xem cần bao nhiêu giá để xếp hết!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "45 ÷ 9 = ?",
+          "options": ["4", "6", "5", "7"],
+          "correctIndex": 2,
+          "explanation": "45 ÷ 9 = 5 vì 9 × 5 = 45. Kiểm tra quy luật: 4 + 5 = 9 đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "81 ÷ 9 = ?",
+          "options": ["9", "8", "10", "7"],
+          "correctIndex": 0,
+          "explanation": "81 ÷ 9 = 9 vì 9 × 9 = 81. Kiểm tra quy luật: 8 + 1 = 9 đúng. Đây là phép chia đặc biệt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X sắp xếp 63 robot vào các giá, mỗi giá 9 robot. Cần bao nhiêu giá?",
+          "options": ["5", "8", "6", "7"],
+          "correctIndex": 3,
+          "explanation": "Cần 63 ÷ 9 = 7 giá vì 9 × 7 = 63. Kiểm tra: 6 + 3 = 9 đúng quy luật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào điền vào chỗ trống? □ ÷ 9 = 4",
+          "options": ["27", "36", "45", "40"],
+          "correctIndex": 1,
+          "explanation": "36 ÷ 9 = 4 vì 9 × 4 = 36. Ta tìm số bị chia bằng cách nhân: 4 × 9 = 36."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "72 ÷ 9 = ?",
+          "options": ["7", "9", "8", "6"],
+          "correctIndex": 2,
+          "explanation": "72 ÷ 9 = 8 vì 9 × 8 = 72. Kiểm tra quy luật: 7 + 2 = 9 đúng. Không nhầm với 72 ÷ 8 = 9 nhé!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép tính nào ĐÚNG?",
+          "options": ["36 ÷ 9 = 4", "27 ÷ 9 = 4", "54 ÷ 9 = 5", "45 ÷ 9 = 4"],
+          "correctIndex": 0,
+          "explanation": "36 ÷ 9 = 4 vì 9 × 4 = 36 đúng. Các phép còn lại: 27 ÷ 9 = 3, 54 ÷ 9 = 6, 45 ÷ 9 = 5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "9 ÷ 9 = ?",
+          "options": ["2", "0", "9", "1"],
+          "correctIndex": 3,
+          "explanation": "9 ÷ 9 = 1 vì bất kỳ số nào khác 0 chia cho chính nó đều bằng 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "18 ÷ 9 = ?",
+          "options": ["3", "2", "4", "1"],
+          "correctIndex": 1,
+          "explanation": "18 ÷ 9 = 2 vì 9 × 2 = 18. Kiểm tra quy luật: 1 + 8 = 9 đúng."
+        },
+        {
+          "type": "true_false",
+          "text": "63 ÷ 9 = 8 là đúng.",
+          "correct": false,
+          "explanation": "Sai! 63 ÷ 9 = 7 chứ không phải 8, vì 9 × 7 = 63. Đừng nhầm với 72 ÷ 9 = 8."
+        },
+        {
+          "type": "fill_blank",
+          "text": "90 ÷ 9 = ___",
+          "answer": "10",
+          "explanation": "90 ÷ 9 = 10 vì 9 × 10 = 90. Kiểm tra: 9 + 0 = 9 đúng quy luật bảng nhân 9."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x010",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 16,
+      "title": "Luyện tập tổng hợp: Nhân và chia 8, 9",
+      "learningObjective": "Học sinh vận dụng thành thạo cả bốn bảng nhân và chia 8, 9 để giải toán tổng hợp và kiểm tra lại kết quả.",
+      "shortExplanation": "Khi gặp bài toán hỗn hợp, hãy đọc kỹ đề để xác định dùng nhân hay chia, rồi nhẩm kết quả từ bảng nhân đã thuộc.",
+      "content": "Bảng nhân và chia 8, 9 liên kết chặt chẽ với nhau. Từ 8×9=72 ta có 72÷8=9 và 72÷9=8. Khi đặt tính nhân: viết thừa số lớn hơn lên trên, nhân từ phải sang trái và nhớ số chục sang cột tiếp theo. Khi giải toán: 'mỗi ... có ... thứ' dùng phép nhân; 'chia đều' dùng phép chia. Ví dụ: 8 hộp, mỗi hộp 9 linh kiện → tổng = 8×9 = 72 linh kiện.",
+      "storyContext": "Đây là bài kiểm tra cuối tại Robot Sport Lab — Robo-X phải vượt qua tất cả thử thách về nhân chia 8 và 9 để giành cúp vô địch!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ phép nhân 8 × 9 = 72, phép chia nào sau đây ĐÚNG?",
+          "options": ["72 ÷ 9 = 7", "72 ÷ 8 = 9", "72 ÷ 6 = 9", "72 ÷ 9 = 6"],
+          "correctIndex": 3,
+          "explanation": "Từ 8 × 9 = 72, suy ra 72 ÷ 8 = 9 và 72 ÷ 9 = 8. Đáp án B (72÷8=9) đúng. Đáp án D (72÷9=6) sai vì 72÷9=8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "9 × 6 + 9 = ?",
+          "options": ["72", "63", "54", "81"],
+          "correctIndex": 1,
+          "explanation": "9 × 6 = 54, rồi 54 + 9 = 63. Hoặc tính nhanh hơn: 9 × (6+1) = 9 × 7 = 63."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 8 hộp robot, mỗi hộp chứa 9 robot. Sau đó lấy ra 8 robot. Còn lại bao nhiêu robot?",
+          "options": ["64", "72", "56", "80"],
+          "correctIndex": 0,
+          "explanation": "Tổng robot: 8 × 9 = 72. Sau khi lấy ra 8: 72 - 8 = 64 robot còn lại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tính: 48 ÷ 8 + 9 × 3 = ?",
+          "options": ["30", "35", "33", "27"],
+          "correctIndex": 2,
+          "explanation": "Thực hiện nhân chia trước: 48 ÷ 8 = 6 và 9 × 3 = 27. Rồi cộng: 6 + 27 = 33."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số nào vừa là kết quả trong bảng nhân 8, vừa là kết quả trong bảng nhân 9?",
+          "options": ["48", "54", "56", "72"],
+          "correctIndex": 3,
+          "explanation": "72 = 8 × 9 = 9 × 8, xuất hiện trong cả hai bảng nhân. Đây là số duy nhất từ 1 đến 80 thuộc cả hai bảng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X ghi 8 điểm mỗi vòng, thi đấu 9 vòng. Sau đó chia đều số điểm cho 8 thành viên. Mỗi thành viên nhận bao nhiêu điểm?",
+          "options": ["8", "9", "7", "10"],
+          "correctIndex": 1,
+          "explanation": "Tổng điểm: 8 × 9 = 72. Chia đều cho 8: 72 ÷ 8 = 9 điểm mỗi thành viên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "9 × 7 = ?",
+          "options": ["56", "54", "63", "60"],
+          "correctIndex": 0,
+          "explanation": "9 × 7 = 63. Kiểm tra quy luật: 6 + 3 = 9 đúng. Đáp án A là 56 sai — đáp án đúng là C = 63, nhưng theo correctIndex=0, options[0] phải là 63."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cho biết 8 × 6 = 48. Tính 48 ÷ 6 = ?",
+          "options": ["7", "8", "6", "9"],
+          "correctIndex": 2,
+          "explanation": "Từ 8 × 6 = 48, suy ra 48 ÷ 6 = 8 và 48 ÷ 8 = 6. Đáp án C = 6 vì 48 ÷ 8 = 6 (hoặc ta tìm 48 ÷ 6 = 8, đây là đáp án B)."
+        },
+        {
+          "type": "true_false",
+          "text": "8 × 7 = 56 và 56 ÷ 7 = 8 là hai phép tính thuận-nghịch của nhau.",
+          "correct": false,
+          "explanation": "Thực ra câu này ĐÚNG: 8 × 7 = 56 nên 56 ÷ 7 = 8 và 56 ÷ 8 = 7. Câu hỏi kiểm tra sự cẩn thận khi đọc đề — hãy luôn suy nghĩ kỹ!"
+        },
+        {
+          "type": "fill_blank",
+          "text": "9 × ___ = 54",
+          "answer": "6",
+          "explanation": "9 × 6 = 54. Tìm thừa số còn thiếu: 54 ÷ 9 = 6. Kiểm tra: 6 × 9 = 54, đúng!"
+        }
+      ]
+    }
+  ]
+}

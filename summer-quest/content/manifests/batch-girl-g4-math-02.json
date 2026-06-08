@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "girl-g4-math-b02",
+  "description": "Bài ôn Toán Lớp 4 cho Yumi - Phân số - so sánh hai phân số cùng mẫu và khác mẫu",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "crown"
+  },
+  "lessons": [
+    {
+      "id": "girl-g4-math-x006",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 13,
+      "title": "So sánh hai phân số cùng mẫu số",
+      "learningObjective": "Học sinh biết cách so sánh hai phân số có cùng mẫu số bằng cách so sánh tử số. Học sinh áp dụng được quy tắc vào các bài toán thực tế.",
+      "shortExplanation": "Khi hai phân số cùng mẫu số, phân số nào có tử số lớn hơn thì lớn hơn. Nhớ: cùng mẫu, so sánh tử!",
+      "content": "Khi so sánh hai phân số cùng mẫu số, ta chỉ cần so sánh tử số với nhau. Phân số nào có tử số lớn hơn thì phân số đó lớn hơn. Ví dụ: so sánh 3/7 và 5/7 — vì cùng mẫu 7, so sánh tử: 3 < 5, nên 3/7 < 5/7. Ví dụ khác: 6/9 > 4/9 vì 6 > 4 và hai phân số cùng mẫu 9. Nếu tử số bằng nhau thì hai phân số bằng nhau.",
+      "storyContext": "Công chúa Yumi đang chia những viên ngọc quý vào các túi phép thuật — mỗi túi có cùng số ngăn, nên túi nào chứa nhiều ngọc hơn trong cùng số ngăn thì túi đó có giá trị cao hơn!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "So sánh hai phân số 2/8 và 5/8. Kết quả nào đúng?",
+          "options": ["2/8 > 5/8", "2/8 < 5/8", "2/8 = 5/8", "Không so sánh được"],
+          "correctIndex": 1,
+          "explanation": "Hai phân số cùng mẫu 8, ta so sánh tử: 2 < 5, nên 2/8 < 5/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong các phân số sau có cùng mẫu số 11: 4/11, 7/11, 9/11, 2/11. Phân số nào lớn nhất?",
+          "options": ["4/11", "7/11", "2/11", "9/11"],
+          "correctIndex": 3,
+          "explanation": "Cùng mẫu 11, phân số có tử lớn nhất là 9, nên 9/11 là lớn nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi cắt một tấm vải thành 10 phần bằng nhau. Cô dùng 3/10 để may áo và 7/10 để may váy. Phần vải nào nhiều hơn?",
+          "options": ["Phần may áo (3/10) nhiều hơn", "Hai phần bằng nhau", "Phần may váy (7/10) nhiều hơn", "Không xác định được"],
+          "correctIndex": 2,
+          "explanation": "Cùng mẫu 10, so sánh tử: 7 > 3, nên 7/10 > 3/10, phần vải may váy nhiều hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền dấu thích hợp vào chỗ trống: 5/13 ___ 8/13",
+          "options": ["<", ">", "=", "Không xác định"],
+          "correctIndex": 0,
+          "explanation": "Hai phân số cùng mẫu 13, so sánh tử: 5 < 8, nên 5/13 < 8/13."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào nhỏ nhất trong các phân số: 6/15, 11/15, 3/15, 9/15?",
+          "options": ["6/15", "3/15", "9/15", "11/15"],
+          "correctIndex": 1,
+          "explanation": "Cùng mẫu 15, phân số có tử nhỏ nhất là 3, nên 3/15 là nhỏ nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hai phân số 7/12 và 7/12 khi so sánh với nhau thì:",
+          "options": ["7/12 > 7/12", "7/12 < 7/12", "Không so sánh được", "7/12 = 7/12"],
+          "correctIndex": 3,
+          "explanation": "Hai phân số giống hệt nhau (cùng tử 7 và cùng mẫu 12) nên bằng nhau: 7/12 = 7/12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi trồng hoa trong vườn. Cô trồng được 5/9 vườn hoa hồng vào buổi sáng. Bạn Linh trồng được 5/9 vườn hoa cúc vào buổi chiều. Hai người trồng được bao nhiêu phần vườn so với nhau?",
+          "options": ["Yumi trồng nhiều hơn", "Linh trồng nhiều hơn", "Hai người trồng bằng nhau", "Không so sánh được vì khác loại hoa"],
+          "correctIndex": 2,
+          "explanation": "Hai phân số giống nhau đều là 5/9, nên Yumi và Linh đều trồng được đúng 5/9 vườn — hai người trồng bằng nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền số thích hợp vào chỗ trống: 3/10 < ___/10 < 7/10. Số nào dưới đây có thể điền vào chỗ trống?",
+          "options": ["5", "2", "8", "9"],
+          "correctIndex": 0,
+          "explanation": "Cần tìm số x sao cho 3 < x < 7. Số 5 thỏa mãn vì 3 < 5 < 7, nên 3/10 < 5/10 < 7/10."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong hai phân số cùng mẫu số, phân số có tử số nhỏ hơn thì bé hơn.",
+          "correct": true,
+          "explanation": "Đúng! Khi hai phân số có cùng mẫu số, ta chỉ so sánh tử số: tử nhỏ hơn thì phân số nhỏ hơn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "So sánh 5/9 và 8/9: 5/9 ___ 8/9 (điền dấu <, > hoặc =)",
+          "answer": "<",
+          "explanation": "Cùng mẫu 9 và 5 < 8, nên 5/9 < 8/9."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x007",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 14,
+      "title": "So sánh hai phân số khác mẫu số bằng quy đồng",
+      "learningObjective": "Học sinh biết cách so sánh hai phân số khác mẫu số bằng cách quy đồng mẫu số. Học sinh thực hiện được các bước quy đồng để đưa về cùng mẫu rồi so sánh.",
+      "shortExplanation": "Để so sánh phân số khác mẫu, hãy tìm mẫu chung (BCNN hoặc tích hai mẫu), quy đồng rồi so sánh tử!",
+      "content": "Khi hai phân số có mẫu số khác nhau, ta không thể so sánh trực tiếp tử số. Cần quy đồng mẫu số: tìm mẫu chung rồi đổi cả hai phân số về cùng mẫu đó. Ví dụ: so sánh 1/2 và 1/3 — mẫu chung là 6, đổi: 1/2 = 3/6 và 1/3 = 2/6. Vì 3 > 2 nên 3/6 > 2/6, tức 1/2 > 1/3. Ví dụ khác: so sánh 2/3 và 3/4 — mẫu chung 12: 2/3 = 8/12, 3/4 = 9/12. Vì 8 < 9 nên 2/3 < 3/4.",
+      "storyContext": "Công chúa Yumi muốn so sánh hai cuộn chỉ phép thuật có độ dài khác nhau — nàng phải quy đổi về cùng đơn vị trước khi xem cuộn nào dài hơn để thêu áo hoàng gia!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 1/3 và 1/4 bằng cách quy đồng mẫu 12. Kết quả là:",
+          "options": ["1/3 < 1/4", "1/3 = 1/4", "1/3 > 1/4", "Không so sánh được"],
+          "correctIndex": 2,
+          "explanation": "1/3 = 4/12 và 1/4 = 3/12. Vì 4 > 3 nên 1/3 > 1/4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quy đồng mẫu số của 2/5 và 3/10 với mẫu chung là 10, ta được kết quả nào?",
+          "options": ["4/10 và 3/10", "2/10 và 3/10", "2/5 và 6/10", "10/10 và 3/10"],
+          "correctIndex": 0,
+          "explanation": "2/5 = (2×2)/(5×2) = 4/10. Phân số 3/10 giữ nguyên. Kết quả: 4/10 và 3/10."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 3/4 và 5/8 bằng cách quy đồng mẫu 8. Kết quả đúng là:",
+          "options": ["3/4 < 5/8", "3/4 = 5/8", "Không xác định được", "3/4 > 5/8"],
+          "correctIndex": 3,
+          "explanation": "3/4 = 6/8. So sánh 6/8 và 5/8: vì 6 > 5 nên 6/8 > 5/8, tức 3/4 > 5/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi dùng 2/3 cuộn vải xanh và 3/5 cuộn vải đỏ để may áo. Loại vải nào dùng ít hơn?",
+          "options": ["Vải xanh (2/3) ít hơn", "Vải đỏ (3/5) ít hơn", "Hai loại bằng nhau", "Không xác định"],
+          "correctIndex": 1,
+          "explanation": "Mẫu chung 15: 2/3 = 10/15, 3/5 = 9/15. Vì 9 < 10 nên 3/5 < 2/3, vải đỏ dùng ít hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 5/6 và 7/9 bằng cách quy đồng mẫu 18. Kết quả là:",
+          "options": ["5/6 = 7/9", "5/6 < 7/9", "5/6 > 7/9", "Không so sánh được"],
+          "correctIndex": 2,
+          "explanation": "5/6 = 15/18 và 7/9 = 14/18. Vì 15 > 14 nên 5/6 > 7/9."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mẫu chung nhỏ nhất (BCNN) của 1/4 và 1/6 là bao nhiêu?",
+          "options": ["12", "8", "10", "24"],
+          "correctIndex": 0,
+          "explanation": "BCNN(4, 6) = 12. Vì 4 = 2² và 6 = 2×3, BCNN = 2²×3 = 12."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 2/7 và 3/14 bằng cách quy đồng mẫu 14. Kết quả là:",
+          "options": ["2/7 < 3/14", "2/7 = 3/14", "Không xác định", "2/7 > 3/14"],
+          "correctIndex": 3,
+          "explanation": "2/7 = 4/14. So sánh 4/14 và 3/14: vì 4 > 3 nên 2/7 > 3/14."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tháp A trong vương quốc Yumi cao 4/5 đơn vị phép thuật, tháp B cao 7/10 đơn vị. Tháp nào cao hơn?",
+          "options": ["Tháp B (7/10) cao hơn", "Tháp A (4/5) cao hơn", "Hai tháp bằng nhau", "Không xác định"],
+          "correctIndex": 1,
+          "explanation": "4/5 = 8/10. So sánh 8/10 và 7/10: vì 8 > 7 nên 4/5 > 7/10, tháp A cao hơn."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi so sánh hai phân số khác mẫu, bắt buộc phải quy đồng mẫu số trước mới có thể kết luận được.",
+          "correct": false,
+          "explanation": "Sai! Có những trường hợp đặc biệt không cần quy đồng: ví dụ nếu hai phân số cùng tử số, phân số nào mẫu lớn hơn thì nhỏ hơn. Tuy nhiên, cách chắc chắn nhất là quy đồng mẫu."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Quy đồng mẫu: 3/4 = ___/12 (điền tử số thích hợp vào chỗ trống)",
+          "answer": "9",
+          "explanation": "3/4 = (3×3)/(4×3) = 9/12. Vậy số cần điền là 9."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x008",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 15,
+      "title": "Rút gọn phân số về dạng tối giản",
+      "learningObjective": "Học sinh biết cách rút gọn phân số bằng cách chia cả tử và mẫu cho ước chung lớn nhất (ƯCLN). Học sinh nhận biết được phân số tối giản.",
+      "shortExplanation": "Rút gọn phân số: tìm ƯCLN của tử và mẫu, rồi chia cả hai cho ƯCLN đó. Phân số tối giản khi ƯCLN(tử, mẫu) = 1.",
+      "content": "Rút gọn phân số là tìm phân số bằng nó nhưng có tử số và mẫu số nhỏ hơn. Ta chia cả tử và mẫu cho cùng một ước chung. Để rút gọn về dạng tối giản, ta chia cho ước chung lớn nhất (ƯCLN). Ví dụ: rút gọn 6/8 — ƯCLN(6, 8) = 2, chia cả hai cho 2: 6/8 = 3/4. Phân số 3/4 là tối giản vì ƯCLN(3, 4) = 1. Ví dụ khác: rút gọn 12/18 — ƯCLN(12, 18) = 6, nên 12/18 = 2/3.",
+      "storyContext": "Công chúa Yumi học phép thuật rút gọn — nàng thu nhỏ cuộn chỉ dài 12/18 sải tay thành 2/3 sải tay mà vẫn giữ nguyên độ dài thực sự để may váy dạ tiệc hoàng gia!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Rút gọn phân số 4/6 về dạng tối giản. Kết quả là:",
+          "options": ["1/2", "2/4", "4/6", "2/3"],
+          "correctIndex": 3,
+          "explanation": "ƯCLN(4, 6) = 2. Chia cả tử và mẫu cho 2: 4÷2=2, 6÷2=3. Vậy 4/6 = 2/3 (tối giản vì ƯCLN(2,3)=1)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào dưới đây đã ở dạng tối giản?",
+          "options": ["4/8", "3/7", "6/9", "10/15"],
+          "correctIndex": 1,
+          "explanation": "3/7 là tối giản vì ƯCLN(3, 7) = 1. Các phân số còn lại đều rút gọn được: ƯCLN(4,8)=4, ƯCLN(6,9)=3, ƯCLN(10,15)=5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Rút gọn 12/16 về dạng tối giản:",
+          "options": ["3/4", "6/8", "2/4", "4/16"],
+          "correctIndex": 0,
+          "explanation": "ƯCLN(12, 16) = 4. Chia cả hai cho 4: 12÷4=3, 16÷4=4. Kết quả: 3/4 (tối giản)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi may áo dùng hết 8/12 cuộn vải. Phân số tối giản tương đương là bao nhiêu?",
+          "options": ["4/8", "3/4", "2/3", "6/12"],
+          "correctIndex": 2,
+          "explanation": "ƯCLN(8, 12) = 4. Chia cả hai cho 4: 8÷4=2, 12÷4=3. Vậy 8/12 = 2/3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "ƯCLN(15, 20) bằng bao nhiêu? (Cần biết để rút gọn 15/20 về tối giản)",
+          "options": ["3", "10", "2", "5"],
+          "correctIndex": 3,
+          "explanation": "Ước của 15: 1, 3, 5, 15. Ước của 20: 1, 2, 4, 5, 10, 20. ƯCLN(15, 20) = 5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Rút gọn 9/15 về dạng tối giản:",
+          "options": ["9/15", "3/5", "1/5", "3/15"],
+          "correctIndex": 1,
+          "explanation": "ƯCLN(9, 15) = 3. Chia cả hai cho 3: 9÷3=3, 15÷3=5. Kết quả: 3/5 (tối giản)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số 6/10 rút gọn về dạng tối giản bằng:",
+          "options": ["3/5", "2/5", "6/10", "1/2"],
+          "correctIndex": 0,
+          "explanation": "ƯCLN(6, 10) = 2. Chia cả hai cho 2: 6÷2=3, 10÷2=5. Kết quả: 3/5 (tối giản vì ƯCLN(3,5)=1)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong vương quốc Yumi, 4/14 ô đất trồng hoa phép thuật. Phân số tối giản tương đương là:",
+          "options": ["3/7", "5/7", "2/7", "4/7"],
+          "correctIndex": 2,
+          "explanation": "ƯCLN(4, 14) = 2. Chia cả hai cho 2: 4÷2=2, 14÷2=7. Vậy 4/14 = 2/7."
+        },
+        {
+          "type": "true_false",
+          "text": "Phân số 7/14 đã ở dạng tối giản.",
+          "correct": false,
+          "explanation": "Sai! ƯCLN(7, 14) = 7. Chia cả hai cho 7: 7÷7=1, 14÷7=2. Phân số tối giản là 1/2."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Rút gọn 10/25 về dạng tối giản: 10/25 = ___/5 (điền tử số thích hợp)",
+          "answer": "2",
+          "explanation": "ƯCLN(10, 25) = 5. Chia cả hai cho 5: 10÷5=2, 25÷5=5. Vậy 10/25 = 2/5, số cần điền là 2."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x009",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 16,
+      "title": "So sánh phân số bằng phân số trung gian và cùng tử số",
+      "learningObjective": "Học sinh biết so sánh hai phân số khác mẫu bằng cách so sánh với phân số trung gian (1/2) và biết so sánh hai phân số cùng tử số. Học sinh rút gọn phân số trước khi so sánh để đơn giản hóa.",
+      "shortExplanation": "Mẹo hay: nếu hai phân số cùng tử số thì mẫu lớn hơn phân số nhỏ hơn! Hoặc so sánh cả hai với 1/2 để quyết định nhanh hơn.",
+      "content": "Khi hai phân số có cùng tử số, phân số nào mẫu lớn hơn thì nhỏ hơn. Ví dụ: 1/5 < 1/3 vì mẫu 5 > 3 nhưng tử bằng nhau. Ta còn có thể so sánh phân số với mốc 1/2: nếu tử số lớn hơn một nửa mẫu số thì phân số lớn hơn 1/2. Ví dụ: 3/5 > 1/2 vì 3 > 5/2 = 2,5. Ngược lại, 2/7 < 1/2 vì 2 < 7/2 = 3,5. Kết hợp hai mẹo này giúp so sánh nhanh mà không cần quy đồng.",
+      "storyContext": "Công chúa Yumi dùng phép thuật so sánh nhanh — nàng đặt phân số ma thuật 1/2 làm mốc để xem thỏi vàng nào trong kho báu vương quốc chiếm phần lớn hơn!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 3/8 với 1/2. Kết quả là:",
+          "options": ["3/8 < 1/2", "3/8 > 1/2", "3/8 = 1/2", "Không so sánh được"],
+          "correctIndex": 0,
+          "explanation": "1/2 = 4/8. Vì 3 < 4 nên 3/8 < 4/8 = 1/2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào sau đây lớn hơn 1/2?",
+          "options": ["2/6", "1/4", "3/5", "3/8"],
+          "correctIndex": 2,
+          "explanation": "3/5 > 1/2 vì 3 > 5÷2 = 2,5. Các phân số còn lại đều nhỏ hơn 1/2: 2/6 < 3/6, 1/4 < 2/4, 3/8 < 4/8."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hai phân số 3/7 và 3/5 có cùng tử số là 3. Phân số nào nhỏ hơn?",
+          "options": ["3/7 = 3/5", "3/7 nhỏ hơn (3/7 < 3/5)", "3/5 nhỏ hơn (3/5 < 3/7)", "Không so sánh được"],
+          "correctIndex": 1,
+          "explanation": "Khi cùng tử số, mẫu lớn hơn thì phân số nhỏ hơn. Vì 7 > 5 nên 3/7 < 3/5, tức 3/7 nhỏ hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi đo hai đoạn vải: vải xanh dài 5/6 m và vải hồng dài 7/12 m. Sau khi quy đồng về mẫu 12, ta có 5/6 = 10/12. So sánh 10/12 và 7/12, kết luận nào đúng?",
+          "options": ["Vải hồng (7/12) dài hơn vải xanh (10/12)", "Hai đoạn vải bằng nhau vì cùng mẫu 12", "Không thể kết luận khi chưa đo thực tế", "Vải xanh (10/12) dài hơn vải hồng (7/12)"],
+          "correctIndex": 3,
+          "explanation": "Sau khi quy đồng, 5/6 = 10/12. So sánh 10/12 và 7/12 cùng mẫu 12: vì 10 > 7 nên 10/12 > 7/12, tức vải xanh dài hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào dưới đây nhỏ hơn 1?",
+          "options": ["7/8", "5/4", "9/8", "8/7"],
+          "correctIndex": 0,
+          "explanation": "7/8 < 1 vì tử 7 < mẫu 8. Các phân số còn lại đều lớn hơn 1: 5/4, 9/8, 8/7 đều có tử lớn hơn mẫu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trước khi so sánh 10/15 và 3/5, ta nên rút gọn 10/15 trước. Kết quả rút gọn của 10/15 là:",
+          "options": ["5/10", "1/3", "2/3", "4/5"],
+          "correctIndex": 2,
+          "explanation": "ƯCLN(10, 15) = 5. Chia cả hai cho 5: 10÷5=2, 15÷5=3. Vậy 10/15 = 2/3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 8/15 và 3/5 bằng cách quy đồng mẫu 15. Kết quả là:",
+          "options": ["8/15 > 3/5", "8/15 < 3/5", "8/15 = 3/5", "Không xác định"],
+          "correctIndex": 1,
+          "explanation": "3/5 = 9/15. So sánh 8/15 và 9/15: vì 8 < 9 nên 8/15 < 3/5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép thuật của Công chúa Yumi hoạt động trong 4/6 ngày mùa hè và 3/4 ngày mùa đông. Mùa nào phép thuật hoạt động nhiều hơn?",
+          "options": ["Mùa hè (4/6) nhiều hơn", "Hai mùa bằng nhau", "Không xác định", "Mùa đông (3/4) nhiều hơn"],
+          "correctIndex": 3,
+          "explanation": "4/6 rút gọn = 2/3. So sánh 2/3 và 3/4: mẫu chung 12: 2/3=8/12, 3/4=9/12. Vì 9 > 8 nên 3/4 > 2/3, mùa đông phép thuật hoạt động nhiều hơn."
+        },
+        {
+          "type": "true_false",
+          "text": "Nếu hai phân số có cùng tử số, phân số nào có mẫu số lớn hơn thì nhỏ hơn.",
+          "correct": true,
+          "explanation": "Đúng! Ví dụ 1/5 < 1/3 vì mẫu 5 > 3. Chia cùng một lượng cho nhiều phần hơn thì mỗi phần nhỏ hơn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Rút gọn 15/20 về dạng tối giản: 15/20 = 3/___ (điền mẫu số thích hợp)",
+          "answer": "4",
+          "explanation": "ƯCLN(15, 20) = 5. Chia cả hai cho 5: 15÷5=3, 20÷5=4. Vậy 15/20 = 3/4, mẫu số là 4."
+        }
+      ]
+    },
+    {
+      "id": "girl-g4-math-x010",
+      "studentTarget": "girl",
+      "grade": 4,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 17,
+      "title": "Tổng hợp: So sánh và rút gọn phân số nâng cao",
+      "learningObjective": "Học sinh vận dụng tổng hợp các kỹ năng rút gọn và so sánh phân số để giải các bài toán phức hợp. Học sinh biết chọn phương pháp phù hợp nhất cho từng dạng bài.",
+      "shortExplanation": "Kết hợp cả ba kỹ năng: rút gọn trước, rồi quy đồng, cuối cùng so sánh. Luôn rút gọn phân số trước để tính toán đơn giản hơn!",
+      "content": "Trong thực tế, ta thường cần kết hợp nhiều bước: rút gọn phân số trước, rồi quy đồng mẫu, cuối cùng mới so sánh. Ví dụ: so sánh 6/10 và 4/6. Bước 1 - rút gọn: 6/10 = 3/5 và 4/6 = 2/3. Bước 2 - quy đồng mẫu 15: 3/5 = 9/15 và 2/3 = 10/15. Bước 3 - so sánh: 9 < 10 nên 6/10 < 4/6. Ngoài ra, hai phân số bằng nhau khi chúng rút gọn về cùng dạng tối giản, ví dụ 8/12 = 2/3 và 6/9 = 2/3.",
+      "storyContext": "Công chúa Yumi chuẩn bị đại tiệc hoàng gia — nàng phải rút gọn và so sánh các phần nguyên liệu phép thuật để bảo đảm mỗi món ăn đều đúng tỉ lệ ma thuật hoàn hảo!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Rút gọn 6/10 và 4/6 rồi so sánh. Kết quả đúng là:",
+          "options": ["6/10 > 4/6", "6/10 < 4/6", "6/10 = 4/6", "Không xác định"],
+          "correctIndex": 1,
+          "explanation": "6/10 = 3/5 và 4/6 = 2/3. Quy đồng mẫu 15: 3/5 = 9/15, 2/3 = 10/15. Vì 9 < 10 nên 6/10 < 4/6."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ba phân số 1/2, 2/5, 3/4. Sắp xếp theo thứ tự từ lớn đến nhỏ là:",
+          "options": ["2/5, 1/2, 3/4", "1/2, 2/5, 3/4", "2/5, 3/4, 1/2", "3/4, 1/2, 2/5"],
+          "correctIndex": 3,
+          "explanation": "Quy đồng mẫu 20: 1/2=10/20, 2/5=8/20, 3/4=15/20. Từ lớn đến nhỏ: 15/20 > 10/20 > 8/20, tức 3/4 > 1/2 > 2/5."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi dùng 8/12 túi bột thần kỳ loại A và 6/9 túi bột loại B. Hai loại bột có bằng nhau không?",
+          "options": ["Loại A nhiều hơn", "Loại B nhiều hơn", "Hai loại bằng nhau", "Không xác định"],
+          "correctIndex": 2,
+          "explanation": "8/12 rút gọn = 2/3 và 6/9 rút gọn = 2/3. Cả hai đều bằng 2/3 nên hai loại bột bằng nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào sau đây bằng 3/4?",
+          "options": ["9/12", "6/10", "4/6", "8/14"],
+          "correctIndex": 0,
+          "explanation": "9/12 rút gọn: ƯCLN(9,12)=3, 9÷3=3, 12÷3=4, nên 9/12 = 3/4. Các phân số còn lại: 6/10=3/5, 4/6=2/3, 8/14=4/7 đều không bằng 3/4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "So sánh 6/12 và 10/15 sau khi rút gọn cả hai về dạng tối giản. Kết quả là:",
+          "options": ["6/12 = 10/15", "6/12 < 10/15", "6/12 > 10/15", "Không xác định"],
+          "correctIndex": 1,
+          "explanation": "6/12 rút gọn = 1/2. 10/15 rút gọn = 2/3. So sánh 1/2 và 2/3: mẫu chung 6: 1/2=3/6, 2/3=4/6. Vì 3 < 4 nên 6/12 < 10/15."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong kho báu vương quốc, 15/20 viên đá là đá đỏ và 14/21 viên đá là đá xanh. Loại đá nào chiếm phần lớn hơn?",
+          "options": ["Đá xanh (14/21) nhiều hơn", "Đá đỏ (15/20) nhiều hơn", "Hai loại bằng nhau", "Đá đỏ nhiều hơn vì 15/20 = 3/4 > 2/3 = 14/21"],
+          "correctIndex": 3,
+          "explanation": "15/20 rút gọn = 3/4 và 14/21 rút gọn = 2/3. Mẫu chung 12: 3/4=9/12, 2/3=8/12. Vì 9 > 8 nên đá đỏ chiếm phần lớn hơn (3/4 > 2/3)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phân số nào sau đây KHÔNG bằng 2/3?",
+          "options": ["4/6", "6/9", "5/6", "8/12"],
+          "correctIndex": 2,
+          "explanation": "4/6 = 2/3 (chia 2), 6/9 = 2/3 (chia 3), 8/12 = 2/3 (chia 4). Còn 5/6 rút gọn vẫn là 5/6 (vì ƯCLN(5,6)=1) và 5/6 ≠ 2/3. Vậy 5/6 là phân số không bằng 2/3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công chúa Yumi xây tháp Yumi cao 12/16 tầng phép thuật và tháp lân cận cao 8/12 tầng. Tháp nào cao hơn?",
+          "options": ["Tháp Yumi (12/16) cao hơn", "Tháp lân cận (8/12) cao hơn", "Hai tháp bằng nhau", "Không so sánh được"],
+          "correctIndex": 0,
+          "explanation": "12/16 rút gọn = 3/4. 8/12 rút gọn = 2/3. Mẫu chung 12: 3/4=9/12, 2/3=8/12. Vì 9 > 8 nên tháp Yumi (12/16 = 3/4) cao hơn."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi rút gọn một phân số, giá trị của phân số đó thay đổi.",
+          "correct": false,
+          "explanation": "Sai! Rút gọn phân số chỉ thay đổi cách biểu diễn, giá trị không thay đổi. Ví dụ: 6/8 = 3/4, hai phân số này bằng nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền số thích hợp: 4/6 = ___/9 (tìm tử số của phân số tương đương)",
+          "answer": "6",
+          "explanation": "4/6 = 2/3 (rút gọn). 2/3 = (2×3)/(3×3) = 6/9. Vậy số cần điền là 6."
+        }
+      ]
+    }
+  ]
+}

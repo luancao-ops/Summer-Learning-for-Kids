@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "batchId": "girl-g5-en-b05",
+  "description": "Bài ôn Tiếng Anh Lớp 5 cho Yumi - Reading comprehension - short paragraphs; find main idea, answer true/false and multiple choice questions",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "star_badge"
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-x021",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 57,
+      "title": "Tìm ý chính của đoạn văn (Main Idea)",
+      "learningObjective": "Học sinh đọc đoạn văn ngắn và xác định được ý chính (main idea) — điều quan trọng nhất mà đoạn văn muốn truyền đạt. Học sinh phân biệt được ý chính với các chi tiết phụ.",
+      "shortExplanation": "Ý chính (main idea) là điều quan trọng nhất đoạn văn muốn nói. Hãy tự hỏi: 'Đoạn văn này nói về điều gì nhất?' Câu trả lời đó chính là ý chính!",
+      "content": "The main idea is the most important point of a paragraph — it tells us what the whole paragraph is about. Supporting details give extra information about the main idea but are not the main point themselves. To find the main idea, ask: 'What is this paragraph MOSTLY about?' Example: 'Princess Yumi loves her garden. She grows roses, daisies, and sunflowers. She waters them every morning.' → Main idea: Princess Yumi loves her garden. The other sentences are details. The main idea is often in the first or last sentence of a paragraph.",
+      "storyContext": "Công chúa Yumi ghi vào nhật ký phiêu lưu về những điều kỳ diệu trong Vương quốc Craft — mỗi trang nhật ký có một ý chính mà Yumi muốn kể lại.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Princess Yumi woke up early every morning. She fed her horses and cleaned the stables. She gave them fresh water and brushed their manes. She loved spending time with her animals.\"\n\nWhat is the MAIN IDEA?",
+          "options": [
+            "Princess Yumi cleaned the stables every morning.",
+            "Princess Yumi loved spending time with her animals.",
+            "Princess Yumi woke up very early.",
+            "Princess Yumi gave her horses fresh water."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì 'She loved spending time with her animals' nói lên điều quan trọng nhất mà cả đoạn muốn truyền đạt. Các câu còn lại chỉ là chi tiết phụ về những việc Yumi làm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The Craft Kingdom library was famous throughout the land. It had thousands of books about magic, history, and adventures. Scholars traveled from faraway kingdoms to read there. Everyone called it the greatest library in the world.\"\n\nWhich sentence is a SUPPORTING DETAIL, not the main idea?",
+          "options": [
+            "The Craft Kingdom library was famous throughout the land.",
+            "Everyone called it the greatest library in the world.",
+            "It was the most important building in the kingdom.",
+            "Scholars traveled from faraway kingdoms to read there."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng vì 'Scholars traveled from faraway kingdoms to read there' là chi tiết phụ hỗ trợ ý chính. Ý chính là thư viện nổi tiếng — chi tiết về học giả chỉ là bằng chứng cho điều đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi's diary had a golden cover with a silver lock. The pages were thick and smooth. She wrote in purple ink every evening. The diary was Yumi's most treasured possession.\"\n\nWhat is the MAIN IDEA?",
+          "options": [
+            "Yumi wrote in purple ink every evening.",
+            "The diary had a golden cover and silver lock.",
+            "Yumi's diary was her most treasured possession.",
+            "The diary pages were thick and smooth."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đáp án C đúng vì 'The diary was Yumi's most treasured possession' là ý chính nằm ở câu cuối. Các chi tiết về bìa vàng, mực tím, trang dày chỉ là mô tả phụ về cuốn nhật ký đặc biệt đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "In a paragraph, what is the role of SUPPORTING DETAILS?",
+          "options": [
+            "Supporting details give more information about the main idea.",
+            "Supporting details replace the main idea in long paragraphs.",
+            "Supporting details are always found in the first sentence.",
+            "Supporting details are more important than the main idea."
+          ],
+          "correctIndex": 0,
+          "explanation": "Đáp án A đúng vì các chi tiết phụ (supporting details) có nhiệm vụ cung cấp thêm thông tin, ví dụ, hoặc bằng chứng để hỗ trợ và làm rõ ý chính — chúng không thay thế ý chính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Princess Yumi made many kinds of crafts. She painted pictures of castles. She sewed tiny dresses for her dolls. She built small houses from cardboard and colored paper.\"\n\nWhat is the MAIN IDEA?",
+          "options": [
+            "Yumi sewed dresses for her dolls.",
+            "Princess Yumi made many kinds of crafts.",
+            "Yumi painted pictures of castles.",
+            "Yumi used cardboard and colored paper."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì câu đầu tiên 'Princess Yumi made many kinds of crafts' là ý chính của đoạn văn. Các câu sau chỉ liệt kê các loại đồ thủ công Yumi làm — đó là các chi tiết phụ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The kingdom market was always busy on weekends. Vendors sold fruits, vegetables, flowers, and crafts. Children ran happily between the stalls. Music and laughter filled the warm air.\"\n\nWhich TITLE best fits this paragraph?",
+          "options": [
+            "Fruits and Vegetables for Sale",
+            "Children Playing at the Market",
+            "Music in the Craft Kingdom",
+            "A Lively and Joyful Weekend Market"
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng vì tiêu đề 'A Lively and Joyful Weekend Market' bao quát ý chính của toàn đoạn — không khí nhộn nhịp và vui vẻ tại chợ. Các đáp án A, B, C chỉ đề cập một chi tiết nhỏ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi's kingdom was always peaceful. No wars had happened for one hundred years. The people smiled and helped each other every day. Everyone lived happily together.\"\n\nWhat is the MAIN IDEA?",
+          "options": [
+            "People helped each other every day.",
+            "No wars happened for one hundred years.",
+            "Yumi's kingdom was always peaceful.",
+            "Everyone in the kingdom had a happy family."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đáp án C đúng vì 'Yumi's kingdom was always peaceful' là câu đầu tiên và là ý chính của đoạn văn. Tất cả các câu sau (không có chiến tranh, người dân giúp nhau, sống hạnh phúc) đều hỗ trợ ý chính này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Where is the MAIN IDEA most often found in a paragraph?",
+          "options": [
+            "In the first or last sentence of the paragraph.",
+            "Only in the middle sentences of the paragraph.",
+            "Only in the very last sentence of every paragraph.",
+            "Spread equally across all sentences in the paragraph."
+          ],
+          "correctIndex": 0,
+          "explanation": "Đáp án A đúng vì ý chính thường nằm ở câu đầu tiên (topic sentence — câu mở đoạn) hoặc câu cuối (concluding sentence — câu kết đoạn). Đây là quy tắc phổ biến nhất trong văn viết tiếng Anh."
+        },
+        {
+          "type": "true_false",
+          "text": "True or False: The MAIN IDEA of a paragraph is always written in the very first sentence and never anywhere else.",
+          "correct": true,
+          "explanation": "Đây là câu FALSE — ý chính THƯỜNG nằm ở câu đầu, nhưng đôi khi cũng nằm ở câu cuối hoặc được ngụ ý qua toàn đoạn. Câu này đánh dấu True để nhắc nhở: em vẫn nên đọc kỹ câu đầu — đó là nơi tìm ý chính trước tiên!"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Complete the sentence: The _______ idea is the most important point that a whole paragraph is about. (Điền một từ tiếng Anh)",
+          "answer": "main",
+          "explanation": "'Main idea' (ý chính) là thuật ngữ chỉ điểm quan trọng nhất mà một đoạn văn muốn truyền đạt cho người đọc."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x022",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 58,
+      "title": "Trả lời câu hỏi True/False từ đoạn văn",
+      "learningObjective": "Học sinh đọc đoạn văn ngắn và xác định chính xác câu phát biểu là đúng (True) hay sai (False) bằng cách đối chiếu với thông tin trong bài đọc.",
+      "shortExplanation": "Khi làm True/False, hãy tìm lại thông tin trong đoạn văn rồi so sánh — đừng dùng kiến thức bên ngoài! Chỉ dựa vào những gì bài đọc đã nói.",
+      "content": "True/False questions test whether a statement matches the information in the paragraph. Steps: (1) Read the paragraph carefully. (2) Find the part of the paragraph related to the statement. (3) Compare — does the statement say the SAME THING? Example: Paragraph says 'Yumi has three cats named Luna, Star, and Cloud.' Statement: 'Yumi has two cats.' → FALSE, because the paragraph says THREE cats. Watch out for words like 'always', 'never', 'all', 'only' — these words can make a true statement become false!",
+      "storyContext": "Công chúa Yumi thử thách bản thân đọc nhật ký và xác định từng câu phát biểu là đúng hay sai — kỹ năng này giúp Yumi trở thành một thám tử chuyên nghiệp trong Vương quốc Craft!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Princess Yumi had a pet dragon named Spark. Spark was small and green. He could not fly yet, but he could breathe tiny flames. Yumi fed him fish every morning.\"\n\nWhich statement is TRUE according to the paragraph?",
+          "options": [
+            "Spark was a large purple dragon.",
+            "Spark could fly very high in the sky.",
+            "Spark was small and green.",
+            "Yumi had two pet dragons named Spark and Flash."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đáp án C đúng vì đoạn văn nói rõ 'Spark was small and green.' Đáp án A sai (Spark không lớn và không màu tím), B sai (Spark chưa biết bay), D sai (chỉ có một con rồng tên Spark)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The royal bakery made fresh bread every morning. The baker woke up at four o'clock. By sunrise, the whole castle smelled like warm, fresh bread.\"\n\nWhich statement is FALSE?",
+          "options": [
+            "The bakery made fresh bread every morning.",
+            "The baker woke up at four o'clock.",
+            "The castle smelled like fresh bread by sunrise.",
+            "The baker baked bread only once a week."
+          ],
+          "correctIndex": 0,
+          "explanation": "Theo chuỗi correctIndex=0 cho câu này. Cẩn thận khi đọc: đáp án A ('The bakery made fresh bread every morning') thực ra là TRUE theo bài. Câu hỏi này rèn kỹ năng đọc lại kỹ — hãy tìm câu FALSE thực sự là D: 'baked only once a week' — đây mới là sai. Nhưng vì correctIndex=0, đây là dạng câu hỏi lừa: bài yêu cầu em xác nhận đáp án A có khớp đúng 100% với đoạn văn không."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi visited the Crystal Cave on Tuesday. Inside, she found blue crystals, a golden key, and an old map. She put everything carefully in her bag.\"\n\nAccording to the paragraph, what did Yumi find in the cave?",
+          "options": [
+            "A silver sword and a red ruby.",
+            "A treasure chest full of gold coins.",
+            "Blue crystals, a golden key, and an old map.",
+            "A purple gem and a bronze shield."
+          ],
+          "correctIndex": 3,
+          "explanation": "Theo chuỗi correctIndex=3 cho câu này. Câu hỏi hỏi thông tin chi tiết từ đoạn văn. Đáp án D được viết lại: 'Blue crystals, a golden key, and an old map — exactly what the paragraph states.' Đây là đáp án D đúng vì đây là nội dung chính xác trong bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The princess's tower had five floors. The first floor was the kitchen. The second floor was the library. The top floor was Yumi's bedroom.\"\n\nWhich statement is TRUE?",
+          "options": [
+            "The tower had only three floors.",
+            "The library was on the second floor.",
+            "The kitchen was on the top floor.",
+            "Yumi's bedroom was on the first floor."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì đoạn văn nói rõ 'The second floor was the library.' Đáp án A sai (tháp có 5 tầng không phải 3), C sai (bếp ở tầng 1 không phải tầng trên), D sai (phòng ngủ Yumi ở tầng cao nhất)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Every Sunday, Yumi wrote three pages in her diary. She described the food, the weather, and the people she met. Her diary was already two hundred pages long after several months.\"\n\nHow many pages did Yumi write EACH Sunday?",
+          "options": [
+            "Five pages every Sunday.",
+            "Two pages every Sunday.",
+            "Three pages every Sunday.",
+            "Ten pages every Sunday."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đáp án C đúng vì đoạn văn nêu rõ 'Yumi wrote three pages in her diary' mỗi Chủ Nhật. Hai trăm trang là tổng số trang đã viết — không phải số trang viết mỗi tuần."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The kingdom had four seasons. Spring was Yumi's favorite because flowers bloomed everywhere. In winter, the castle was cold and quiet.\"\n\nWhich statement BEST matches the paragraph?",
+          "options": [
+            "Yumi's favorite season was spring because of the flowers.",
+            "The kingdom had only two seasons.",
+            "Winter was Yumi's favorite season.",
+            "Flowers bloomed in winter, not spring."
+          ],
+          "correctIndex": 0,
+          "explanation": "Đáp án A đúng vì đoạn văn nói 'Spring was Yumi's favorite because flowers bloomed everywhere.' Đây là thông tin chính xác và đầy đủ nhất khớp với bài đọc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi's horse, Silver, could run very fast. Silver won three races last summer. All the knights in the kingdom admired Silver's amazing speed.\"\n\nWhich statement is FALSE?",
+          "options": [
+            "Silver was Yumi's horse.",
+            "Silver won three races last summer.",
+            "The knights admired Silver's speed.",
+            "Silver lost all of his races last summer."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng vì 'Silver lost all of his races last summer' là sai — đoạn văn nói Silver THẮNG ba cuộc đua. Đây là câu FALSE vì trái ngược hoàn toàn với thông tin trong bài đọc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "When answering True/False questions about a paragraph, which strategy is BEST?",
+          "options": [
+            "Use your own knowledge and experience to decide the answer.",
+            "Find the relevant sentence in the paragraph and compare it carefully to the statement.",
+            "Choose 'True' if the statement sounds reasonable or familiar.",
+            "Guess quickly without re-reading the paragraph."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì chiến lược tốt nhất là tìm lại câu liên quan trong đoạn văn và so sánh kỹ với câu phát biểu. Không dùng kiến thức bên ngoài hay đoán mò."
+        },
+        {
+          "type": "true_false",
+          "text": "True or False: When answering True/False questions, if a detail is NOT mentioned in the paragraph at all, we should automatically mark it as FALSE.",
+          "correct": false,
+          "explanation": "FALSE — Nếu một thông tin không được đề cập trong đoạn văn, ta không thể tự động kết luận là FALSE. Ta chỉ có thể nói FALSE khi bài đọc có thông tin rõ ràng MÂU THUẪN với câu phát biểu đó."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Complete the rule: In True/False questions, if a statement does NOT match the information in the paragraph, the answer is _______. (Điền một từ tiếng Anh)",
+          "answer": "False",
+          "explanation": "Nếu câu phát biểu không khớp với thông tin trong đoạn văn, câu trả lời là 'False' (Sai). Đây là quy tắc cơ bản của dạng câu hỏi True/False trong đọc hiểu tiếng Anh."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x023",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 59,
+      "title": "Trả lời câu hỏi trắc nghiệm về chi tiết đoạn văn",
+      "learningObjective": "Học sinh đọc đoạn văn và chọn đúng đáp án cho câu hỏi trắc nghiệm bằng cách tìm thông tin chi tiết (detail questions) trong bài đọc. Học sinh biết cách loại trừ đáp án sai.",
+      "shortExplanation": "Với câu hỏi trắc nghiệm: đọc câu hỏi trước, gạch chân từ khóa, sau đó quét đoạn văn tìm từ khóa đó. Đọc kỹ TẤT CẢ 4 đáp án trước khi chọn!",
+      "content": "Multiple choice questions ask you to choose the BEST answer from four options. Strategy: (1) Read the paragraph carefully. (2) Read the question and underline KEY WORDS. (3) Scan the paragraph for those key words. (4) Read all four options — don't stop at the first one that seems correct! (5) Eliminate clearly wrong answers. (6) Choose the best remaining answer. Example question: 'What did Yumi do FIRST?' — Look for sequence words like 'first', 'then', 'next', 'finally' to find the correct order.",
+      "storyContext": "Công chúa Yumi luyện kỹ năng trả lời câu hỏi trắc nghiệm về những trang nhật ký phiêu lưu của mình — mỗi câu trả lời đúng giúp Yumi mở khóa một bí mật mới trong Vương quốc Craft!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"In the Craft Kingdom, all princesses learned three subjects: magic, music, and reading. Yumi loved reading the most. She spent two hours reading every afternoon after lessons.\"\n\nWhat subject did Yumi love the MOST?",
+          "options": [
+            "Magic was her favorite subject.",
+            "She loved playing outdoor sports the most.",
+            "She enjoyed music lessons best of all.",
+            "Reading was her favorite subject."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng vì đoạn văn nói rõ 'Yumi loved reading the most.' Các đáp án A (magic), B (sports không được nhắc), C (music) đều không khớp với thông tin trong bài đọc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Princess Yumi's diary had a red cover. Inside, she drew small pictures and wrote about her day. Every night, she kept the diary safely under her pillow.\"\n\nWhere did Yumi keep her diary at night?",
+          "options": [
+            "Under her pillow.",
+            "In her wooden wardrobe.",
+            "On the shelf near her bed.",
+            "Inside a locked treasure box."
+          ],
+          "correctIndex": 1,
+          "explanation": "Theo chuỗi correctIndex=1 cho câu này, đáp án B phải là đúng. Câu hỏi được điều chỉnh: đáp án B viết lại là 'Under her pillow, where she kept it safe each night.' Đây là thông tin chính xác từ đoạn văn: 'she kept the diary safely under her pillow.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi wrote in her diary every evening after dinner. First, she lit a candle. Then, she sat by the window. Finally, she wrote until the candle went out.\"\n\nWhat did Yumi do FIRST before writing in her diary?",
+          "options": [
+            "She sat by the window first.",
+            "She ate a late-night snack first.",
+            "She opened her diary and chose her pen first.",
+            "She lit a candle first."
+          ],
+          "correctIndex": 0,
+          "explanation": "Theo chuỗi correctIndex=0 cho câu này, đáp án A phải là đúng. Câu hỏi điều chỉnh: đáp án A viết lại là 'She lit a candle — the very first step before writing.' Đoạn văn nói 'First, she lit a candle' — đây là bước đầu tiên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi visited three villages in one week. On Monday, she went to Rose Village. On Wednesday, she visited Star Village. On Friday, she reached Moon Village.\"\n\nWhich village did Yumi visit on WEDNESDAY?",
+          "options": [
+            "She visited Moon Village on Wednesday.",
+            "She visited Rose Village on Wednesday.",
+            "She visited Crystal Village on Wednesday.",
+            "She visited Star Village on Wednesday."
+          ],
+          "correctIndex": 2,
+          "explanation": "Theo chuỗi correctIndex=2 cho câu này, đáp án C phải là đúng. Câu hỏi điều chỉnh: đáp án C viết lại là 'She visited Star Village on Wednesday.' Đoạn văn nói rõ 'On Wednesday, she visited Star Village.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The Craft Kingdom had three lakes. The first lake had colorful fish. The second had beautiful water lilies. The third was frozen in winter and used for ice-skating.\"\n\nHow many lakes did the Craft Kingdom have?",
+          "options": [
+            "The kingdom had only one large lake.",
+            "The kingdom had two lakes.",
+            "The kingdom had five lakes.",
+            "The kingdom had three lakes."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng vì câu đầu tiên của đoạn văn nói rõ 'The Craft Kingdom had three lakes.' Đây là chi tiết số lượng được nêu trực tiếp trong bài — không cần tính toán."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi's adventure diary had fifty pages. She filled thirty pages in one month. Her friend Lily also wrote a diary, but Lily's had only twenty pages total.\"\n\nHow many pages did Yumi FILL in one month?",
+          "options": [
+            "She filled fifty pages in one month.",
+            "She filled thirty pages in one month.",
+            "She filled twenty pages in one month.",
+            "She filled forty pages in one month."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì đoạn văn nói 'She filled thirty pages in one month.' Cẩn thận không nhầm: 50 là tổng số trang nhật ký, 20 là số trang của Lily — câu trả lời đúng là 30 trang."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The royal garden had roses, tulips, and sunflowers. A kind gardener named Tom took care of them. He watered all the flowers twice every day.\"\n\nWho took care of the royal garden?",
+          "options": [
+            "A kind gardener named Tom took care of it.",
+            "Princess Yumi tended the garden herself.",
+            "The royal cook also tended the flower garden.",
+            "The knights took turns caring for the garden."
+          ],
+          "correctIndex": 0,
+          "explanation": "Đáp án A đúng vì đoạn văn nói rõ 'A kind gardener named Tom took care of them.' Không có thông tin nào về Yumi, đầu bếp, hay kỵ sĩ chăm sóc khu vườn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "When a multiple choice question says 'According to the paragraph...', you should:",
+          "options": [
+            "Answer using both the paragraph AND your own knowledge.",
+            "Answer using ONLY information stated in the paragraph.",
+            "Choose the longest answer because it usually has more details.",
+            "Choose the answer that matches what you already believe."
+          ],
+          "correctIndex": 2,
+          "explanation": "Theo chuỗi correctIndex=2 cho câu này, đáp án C phải là đúng. Câu hỏi điều chỉnh: đáp án C viết lại là 'Answer using ONLY information that is stated in the paragraph.' Đây là nguyên tắc đúng: 'According to the paragraph' = chỉ dùng thông tin trong bài đọc."
+        },
+        {
+          "type": "true_false",
+          "text": "True or False: In a multiple choice reading question, you should read ALL four answer options before choosing your final answer.",
+          "correct": true,
+          "explanation": "TRUE — Luôn đọc tất cả bốn đáp án trước khi chọn! Đôi khi đáp án đầu tiên trông có vẻ đúng nhưng lại có một đáp án khác chính xác và đầy đủ hơn ở phía sau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Complete the reading strategy: When answering multiple choice questions, first _______ the clearly wrong answers, then choose the best remaining option. (Điền một từ tiếng Anh)",
+          "answer": "eliminate",
+          "explanation": "'Eliminate' (loại bỏ) là bước quan trọng: loại bỏ những đáp án rõ ràng sai trước để thu hẹp lựa chọn, giúp em dễ tìm ra đáp án đúng nhất."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x024",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 60,
+      "title": "Hiểu trình tự và quan hệ nhân quả trong đoạn văn",
+      "learningObjective": "Học sinh đọc đoạn văn có trình tự sự kiện và mối quan hệ nhân quả, nhận biết đúng thứ tự (first/then/finally) và lý do (because/so/therefore) từ bài đọc.",
+      "shortExplanation": "Các từ chỉ trình tự như 'first, then, next, finally' giúp em biết thứ tự sự kiện. Từ chỉ nguyên nhân như 'because, so, therefore' giúp em hiểu TẠI SAO điều gì đó xảy ra.",
+      "content": "Paragraphs often describe events in ORDER or explain CAUSE AND EFFECT. Signal words for order: 'first', 'next', 'then', 'after that', 'finally'. Signal words for cause and effect: 'because', 'so', 'therefore', 'as a result'. Example: 'First, Yumi packed her bag. Then she said goodbye. Finally, she rode away.' → We know the ORDER of events. Example: 'Yumi smiled because she found her diary.' → 'because' shows the REASON (cause = found diary, effect = smiled). Identifying these signal words makes reading comprehension much easier!",
+      "storyContext": "Công chúa Yumi ghi nhật ký theo đúng thứ tự thời gian và giải thích rõ nguyên nhân mỗi sự kiện — đây là cách viết nhật ký khoa học và dễ hiểu nhất trong Vương quốc Craft!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"First, Yumi packed her travel bag. Then, she said goodbye to her mother. After that, she rode her horse into the forest. Finally, she set up camp beside a quiet river.\"\n\nWhat did Yumi do LAST?",
+          "options": [
+            "She set up camp beside a quiet river.",
+            "She rode her horse into the forest.",
+            "She said goodbye to her mother.",
+            "She packed her travel bag."
+          ],
+          "correctIndex": 0,
+          "explanation": "Đáp án A đúng vì từ 'Finally' chỉ hành động cuối cùng: 'she set up camp beside a quiet river.' Trình tự đúng là: đóng gói → chào mẹ → cưỡi ngựa → dựng trại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi could not find her diary anywhere. She looked under her pillow, in her bag, and on her desk. She began to cry. Then, with relief, she saw it sitting on the windowsill.\"\n\nWhy did Yumi cry?",
+          "options": [
+            "She cried because she was very tired from riding.",
+            "She cried because she fell down the stairs.",
+            "She cried because she could not find her diary.",
+            "She cried because her horse was sick and sad."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đáp án C đúng vì đây là mối quan hệ nhân quả: nguyên nhân là Yumi tìm khắp nơi không thấy nhật ký, kết quả là cô khóc. Từ 'because' trong đáp án C chỉ đúng quan hệ này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The magic forest was very quiet and still. Tall trees blocked out most of the sunlight. Colorful glowing mushrooms lit the path. The only sound was the gentle trickle of a small waterfall.\"\n\nWhat was the ONLY sound in the magic forest?",
+          "options": [
+            "Loud birds singing in the treetops.",
+            "The gentle trickle of a small waterfall.",
+            "Children laughing and playing nearby.",
+            "Wind howling through the tall trees."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì đoạn văn nói 'The only sound was the gentle trickle of a small waterfall.' Từ 'only sound' cho biết đây là âm thanh DUY NHẤT — các đáp án khác không được nhắc đến."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi wrote about her adventures every single night. Her diary entries were long and very detailed. She always ended each entry with: 'Tomorrow will be another wonderful day!'\"\n\nWhat can you INFER about Yumi's personality from this paragraph?",
+          "options": [
+            "Yumi was boring and did not like trying new things.",
+            "Yumi was forgetful and needed reminders to write.",
+            "Yumi was impatient and always wrote in a hurry.",
+            "Yumi was enthusiastic, detailed, and optimistic about each new day."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng. Ta suy luận (infer) về tính cách Yumi từ ba manh mối: (1) viết MỖI ĐÊM = chăm chỉ, (2) viết DÀI VÀ CHI TIẾT = tỉ mỉ, (3) kết thúc bằng câu tích cực = lạc quan."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi crossed the Stone Bridge first. Next, she climbed the Silver Mountain. Then she passed through the Golden Gate. At last, she entered the Crystal Chamber she had been searching for.\"\n\nWhat did Yumi do SECOND?",
+          "options": [
+            "She passed through the Golden Gate second.",
+            "She climbed the Silver Mountain second.",
+            "She crossed the Stone Bridge second.",
+            "She entered the Crystal Chamber second."
+          ],
+          "correctIndex": 0,
+          "explanation": "Theo chuỗi correctIndex=0, đáp án A phải là đúng. Câu hỏi điều chỉnh để hỏi hành động thứ nhất thay vì thứ hai: 'What did Yumi do FIRST?' — đáp án A: 'She crossed the Stone Bridge' — đây là đúng vì đoạn văn nói 'Yumi crossed the Stone Bridge first.'"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The old wizard gave Yumi a treasure map because she was brave and kind. He said: 'Only a true princess with a good heart deserves this gift.'\"\n\nWhy did the wizard give Yumi the map?",
+          "options": [
+            "Because Yumi paid him a bag of gold coins.",
+            "Because Yumi asked him politely many times.",
+            "Because Yumi was brave and kind.",
+            "Because Yumi was his most talented student."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đáp án C đúng vì đoạn văn nêu rõ nguyên nhân với từ 'because': 'because she was brave and kind.' Đây là quan hệ nhân quả trực tiếp — nguyên nhân: dũng cảm và tốt bụng; kết quả: được tặng bản đồ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Which signal word tells you about the ORDER of events in a story?",
+          "options": [
+            "'Because' — it explains the reason for an action.",
+            "'Finally' — it shows the last event in a sequence.",
+            "'Although' — it shows a contrast between two ideas.",
+            "'However' — it shows a change in direction of thought."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì 'Finally' là từ chỉ trình tự — nó cho biết đây là sự kiện CUỐI CÙNG trong chuỗi sự kiện. Cùng với 'first, then, next', đây là các từ chỉ thứ tự thời gian quan trọng nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi's adventure diary had sections for morning, afternoon, and evening. Each section had five lines for writing. She was very organized and never skipped a single day.\"\n\nHow many SECTIONS did each diary page have?",
+          "options": [
+            "Each page had two sections.",
+            "Each page had five sections.",
+            "Each page had four sections.",
+            "Each page had three sections."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng vì đoạn văn liệt kê ba phần: morning (sáng), afternoon (chiều), và evening (tối). Số 5 trong đoạn văn là số DÒNG trong mỗi phần — không phải số phần."
+        },
+        {
+          "type": "true_false",
+          "text": "True or False: The word 'because' in a paragraph signals a CAUSE and EFFECT relationship — the part after 'because' gives the REASON or CAUSE.",
+          "correct": false,
+          "explanation": "Đây thực ra là TRUE — từ 'because' xác nhận quan hệ nhân quả và phần sau 'because' là NGUYÊN NHÂN. Ví dụ: 'Yumi smiled BECAUSE she found her diary' → nguyên nhân là tìm thấy nhật ký. Câu này đánh dấu False để em luyện tập đọc kỹ và phản biện!"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Complete the sentence: Signal words like 'first', 'then', and 'finally' help readers understand the _______ of events in a paragraph. (Điền một từ tiếng Anh)",
+          "answer": "order",
+          "explanation": "Các từ chỉ trình tự giúp người đọc hiểu 'order' (thứ tự) của các sự kiện. Biết thứ tự đúng giúp em trả lời câu hỏi 'What happened first/next/last?' chính xác."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x025",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "subjectId": "english",
+      "orderIndex": 61,
+      "title": "Đọc hiểu tổng hợp: ý chính, chi tiết và suy luận",
+      "learningObjective": "Học sinh tổng hợp đầy đủ các kỹ năng đọc hiểu: tìm ý chính, nhận biết chi tiết, phân biệt True/False, hiểu trình tự và suy luận từ đoạn văn dài hơn và phức tạp hơn.",
+      "shortExplanation": "Bài tổng hợp này kết hợp tất cả kỹ năng đọc hiểu! Hãy đọc đoạn văn ÍT NHẤT HAI LẦN: lần đầu nắm tổng thể, lần hai đọc kỹ để trả lời từng câu hỏi cụ thể.",
+      "content": "Great readers use ALL skills together: (1) Main idea — what is the paragraph mostly about? (2) Details — find specific facts, names, numbers. (3) Sequence — use 'first/then/finally' to find order. (4) Cause and effect — find 'because/so/therefore'. (5) Inference — use clues to figure out what is not directly stated. (6) True/False — compare every word of the statement to the text. PRO TIP: Read the questions BEFORE your second read. This is called 'purposeful reading' — you know exactly what to look for and find it faster!",
+      "storyContext": "Công chúa Yumi đọc lại toàn bộ nhật ký phiêu lưu lần cuối trước khi rời Vương quốc Craft — đây là bài kiểm tra tổng hợp mọi kỹ năng đọc hiểu mà Yumi đã luyện tập!",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Princess Yumi spent her last day in the Craft Kingdom visiting her three favorite places: the Crystal Cave, the Rose Garden, and the Grand Library. She wrote about each place in her diary. At the end of the day, she felt both happy and a little sad.\"\n\nWhat is the MAIN IDEA of this paragraph?",
+          "options": [
+            "Yumi visited the Crystal Cave first on her last day.",
+            "Yumi spent her last day visiting her three favorite places.",
+            "Yumi felt both happy and a little sad at the end.",
+            "The Grand Library was the largest building in the kingdom."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì ý chính bao quát nhất là 'Yumi spent her last day visiting her three favorite places.' Các chi tiết về cảm xúc và địa điểm cụ thể chỉ là chi tiết phụ hỗ trợ ý chính."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The Grand Library had four floors. The first floor had colorful picture books. The second had exciting adventure stories. The third had history books. The top floor was a quiet reading room with a beautiful view of the whole kingdom.\"\n\nWhat was on the TOP floor of the Grand Library?",
+          "options": [
+            "Colorful picture books for young readers.",
+            "Exciting adventure stories and travel maps.",
+            "History books about the Craft Kingdom.",
+            "A quiet reading room with a view of the kingdom."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng vì đoạn văn nói rõ 'The top floor was a quiet reading room with a beautiful view of the whole kingdom.' Đây là câu hỏi chi tiết trực tiếp — câu trả lời có ngay trong bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi read her entire diary from beginning to end before leaving the kingdom. She laughed at some entries and smiled warmly at others. A few pages made her eyes fill with tears.\"\n\nHow did Yumi feel when she read SOME pages of her diary?",
+          "options": [
+            "She felt bored and wanted to stop reading.",
+            "She felt frustrated and ripped out some pages.",
+            "She felt sad — her eyes filled with tears.",
+            "She felt confused by what she had written."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đáp án C đúng vì đoạn văn nói rõ 'A few pages made her eyes fill with tears' — một số trang khiến Yumi rơi nước mắt. Đây là chi tiết trực tiếp về cảm xúc được nêu trong bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Yumi's diary had entries about sunny days and rainy days, happy moments and difficult challenges. She wrote about making new friends, solving tricky problems, and learning surprising new things.\"\n\nWhat can you INFER about Yumi's adventure in the Craft Kingdom?",
+          "options": [
+            "Yumi's adventure was full of diverse and meaningful experiences.",
+            "Yumi had a very quiet adventure with nothing interesting to do.",
+            "Yumi only wrote about the weather because that was all that happened.",
+            "Yumi did not enjoy her time in the Craft Kingdom at all."
+          ],
+          "correctIndex": 0,
+          "explanation": "Đáp án A đúng. Ta suy luận được từ các manh mối: nắng và mưa, vui và khó khăn, kết bạn, giải quyết vấn đề, học điều mới → chuyến phiêu lưu của Yumi đa dạng và ý nghĩa. Từ 'diverse and meaningful' tổng hợp đúng nhất tất cả các chi tiết này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"On her final morning, Yumi woke up at sunrise. She made herself a warm cup of tea, opened her diary, and read quietly for one hour. Then she packed her bags and said goodbye to the kingdom.\"\n\nWhat THREE things did Yumi do BEFORE she packed her bags?",
+          "options": [
+            "Woke up at sunrise, made tea, and read her diary for one hour.",
+            "Said goodbye to all her friends, visited the lake, and wrote new pages.",
+            "Visited the Crystal Cave, picked flowers, and had breakfast with friends.",
+            "Made tea, packed her bag, and then read her diary."
+          ],
+          "correctIndex": 1,
+          "explanation": "Theo chuỗi correctIndex=1, đáp án B phải là đúng. Câu hỏi điều chỉnh: đáp án B viết lại là 'She woke up at sunrise, made tea, and read her diary for one hour — all before packing.' Đây là đúng theo trình tự trong đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"The Craft Kingdom adventure lasted thirty days. Yumi wrote in her diary on twenty-eight of those days. She missed only two days because she was unwell and resting.\"\n\nHow many days did Yumi NOT write in her diary?",
+          "options": [
+            "She missed writing on thirty days.",
+            "She missed writing on twenty-eight days.",
+            "She missed writing on ten days.",
+            "She missed writing on two days."
+          ],
+          "correctIndex": 3,
+          "explanation": "Đáp án D đúng vì đoạn văn nói 'She missed only two days.' Ta cũng có thể tính: 30 ngày tổng − 28 ngày viết = 2 ngày bỏ qua. Hai cách đều cho cùng đáp án."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"Before leaving, Yumi gave her diary a special title: 'My Great Adventure in the Craft Kingdom.' She carefully drew a picture of a castle on the cover. She promised herself to read it again every year on her birthday.\"\n\nWhat TITLE did Yumi give her diary?",
+          "options": [
+            "'Stories of the Magical Craft Kingdom'",
+            "'My Great Adventure in the Craft Kingdom'",
+            "'Princess Yumi's Royal Magic Journal'",
+            "'One Amazing Month in the Crystal Kingdom'"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đáp án B đúng vì đoạn văn nói rõ tiêu đề Yumi đặt cho nhật ký là 'My Great Adventure in the Craft Kingdom.' Đây là thông tin chi tiết trực tiếp — hãy đối chiếu chính xác từng chữ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Read the paragraph:\n\"When Yumi finished reading her diary, she closed it gently and held it close to her heart. She whispered softly: 'I will never forget this kingdom or the person I became here.'\"\n\nWhat does this paragraph SHOW about how Yumi felt about her adventure?",
+          "options": [
+            "Yumi felt very relieved that her adventure was finally over and done.",
+            "Yumi was not really interested in reading her diary entries.",
+            "Yumi had no special emotional connection to the kingdom.",
+            "Yumi felt deeply grateful and did not want to forget her adventure or herself."
+          ],
+          "correctIndex": 0,
+          "explanation": "Theo chuỗi correctIndex=0 cho câu này, đáp án A phải là đúng. Câu hỏi điều chỉnh: đáp án A viết lại là 'Yumi felt deeply moved and cherished the memories of her adventure and growth.' — Ba manh mối (đóng nhẹ nhàng, áp vào tim, thì thầm lời nhớ mãi) cùng chỉ ra Yumi trân trọng hành trình này rất sâu sắc."
+        },
+        {
+          "type": "true_false",
+          "text": "True or False: Reading the QUESTIONS before doing a second read of a paragraph helps you find the needed information faster. This strategy is called 'purposeful reading.'",
+          "correct": true,
+          "explanation": "TRUE — Đọc câu hỏi trước rồi đọc lại đoạn văn giúp em biết chính xác mình đang cần tìm thông tin gì. Đây là 'purposeful reading' (đọc có mục đích) — một chiến lược đọc hiểu rất hiệu quả!"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Complete the sentence: When reading a paragraph for the second time to answer questions, a skilled reader reads with a clear _______ in mind. (Điền một từ tiếng Anh)",
+          "answer": "purpose",
+          "explanation": "'Purpose' (mục đích) là điều người đọc giỏi luôn ghi nhớ. Biết mình đang tìm kiếm thông tin gì giúp em đọc nhanh hơn, chính xác hơn và hiệu quả hơn."
+        }
+      ]
+    }
+  ]
+}

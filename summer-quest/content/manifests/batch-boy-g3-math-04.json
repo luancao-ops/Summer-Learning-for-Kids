@@ -1,0 +1,427 @@
+{
+  "version": 1,
+  "batchId": "boy-g3-math-b04",
+  "description": "Bài ôn Toán Lớp 3 cho Johnny - Chia số có 2-3 chữ số cho số có 1 chữ số - chia hết, chia có dư; kiểm tra bằng phép nhân",
+  "defaults": {
+    "approved": true,
+    "minimumQuestions": 10,
+    "rewardType": "robot_part"
+  },
+  "lessons": [
+    {
+      "id": "boy-g3-math-x016",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 22,
+      "title": "Chia số có hai chữ số cho số có một chữ số (chia hết)",
+      "learningObjective": "Học sinh biết thực hiện phép chia số có hai chữ số cho số có một chữ số khi chia hết, và kiểm tra kết quả đúng bằng phép nhân.",
+      "shortExplanation": "Khi chia số có hai chữ số, hãy chia chục trước rồi chia đơn vị. Kiểm tra lại bằng phép nhân: kết quả nhân số chia phải bằng số bị chia.",
+      "content": "Phép chia hết là phép chia không có số dư. Ví dụ: 48 : 4 = 12 vì 4 × 12 = 48. Để tính 84 : 4, ta chia 8 chục cho 4 được 2 chục, rồi chia 4 đơn vị cho 4 được 1 đơn vị, kết quả là 21. Kiểm tra: 4 × 21 = 84. Trong phép chia hết, số dư luôn bằng 0.",
+      "storyContext": "Robo-X cần chia đều 48 linh kiện vào 4 ngăn tủ trong phòng lab để chuẩn bị thi đấu robot.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "48 : 4 = ?",
+          "options": ["14", "12", "11", "16"],
+          "correctIndex": 1,
+          "explanation": "48 : 4 = 12 vì 4 × 12 = 48. Ta chia 4 chục cho 4 được 1 chục, rồi chia 8 đơn vị cho 4 được 2 đơn vị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "66 : 3 = ?",
+          "options": ["23", "21", "24", "22"],
+          "correctIndex": 3,
+          "explanation": "66 : 3 = 22 vì 3 × 22 = 66. Ta chia 6 chục cho 3 được 2 chục, rồi chia 6 đơn vị cho 3 được 2 đơn vị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "84 : 4 = ?",
+          "options": ["20", "22", "21", "24"],
+          "correctIndex": 2,
+          "explanation": "84 : 4 = 21 vì 4 × 21 = 84. Ta chia 8 chục cho 4 được 2 chục, rồi chia 4 đơn vị cho 4 được 1 đơn vị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 36 bánh xe robot, chia đều cho 3 hộp. Mỗi hộp có bao nhiêu bánh xe?",
+          "options": ["12", "14", "11", "13"],
+          "correctIndex": 0,
+          "explanation": "36 : 3 = 12. Mỗi hộp có 12 bánh xe vì 3 × 12 = 36."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia nào dưới đây có kết quả bằng 13?",
+          "options": ["52 : 3", "52 : 4", "56 : 3", "39 : 4"],
+          "correctIndex": 1,
+          "explanation": "52 : 4 = 13 vì 4 × 13 = 52. Các phép chia còn lại đều không cho kết quả là 13."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để kiểm tra 96 : 3 = 32, ta làm phép tính nào?",
+          "options": ["32 + 3 = 35", "96 - 32 = 64", "32 - 3 = 29", "3 × 32 = 96"],
+          "correctIndex": 3,
+          "explanation": "Kiểm tra phép chia bằng phép nhân: 3 × 32 = 96. Nếu kết quả bằng số bị chia thì phép chia đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "88 : 4 = ?",
+          "options": ["24", "26", "22", "20"],
+          "correctIndex": 2,
+          "explanation": "88 : 4 = 22 vì 4 × 22 = 88. Ta chia 8 chục cho 4 được 2 chục, rồi chia 8 đơn vị cho 4 được 2 đơn vị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng lab có 60 điểm thi đấu, chia đều cho 3 đội robot. Mỗi đội được bao nhiêu điểm?",
+          "options": ["20", "18", "25", "15"],
+          "correctIndex": 0,
+          "explanation": "60 : 3 = 20. Mỗi đội được 20 điểm vì 3 × 20 = 60."
+        },
+        {
+          "type": "true_false",
+          "text": "72 : 4 = 18 là phép chia hết (không có số dư).",
+          "correct": true,
+          "explanation": "Đúng! 72 : 4 = 18 và 4 × 18 = 72, không có số dư nên đây là phép chia hết."
+        },
+        {
+          "type": "fill_blank",
+          "text": "96 : 4 = ___",
+          "answer": "24",
+          "explanation": "96 : 4 = 24 vì 4 × 24 = 96."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x017",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 23,
+      "title": "Chia số có hai chữ số cho số có một chữ số (có dư)",
+      "learningObjective": "Học sinh biết thực hiện phép chia có dư, xác định đúng số dư và hiểu điều kiện số dư phải nhỏ hơn số chia.",
+      "shortExplanation": "Khi chia có dư, số dư luôn phải nhỏ hơn số chia. Kiểm tra bằng công thức: (thương × số chia) + số dư = số bị chia.",
+      "content": "Phép chia có dư là phép chia mà sau khi chia vẫn còn thừa một số. Ví dụ: 47 : 4 = 11 dư 3 vì 4 × 11 = 44 và 44 + 3 = 47. Số dư luôn phải nhỏ hơn số chia (3 < 4). Để kiểm tra: (thương × số chia) + số dư = số bị chia. Ví dụ khác: 55 : 3 = 18 dư 1 vì 3 × 18 = 54 và 54 + 1 = 55.",
+      "storyContext": "Robo-X chia 47 linh kiện vào các hộp mỗi hộp 4 chiếc, và đếm xem còn dư mấy linh kiện chưa xếp được vào hộp.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "47 : 4 = ?",
+          "options": ["10 dư 3", "12 dư 1", "11 dư 3", "11 dư 1"],
+          "correctIndex": 2,
+          "explanation": "47 : 4 = 11 dư 3 vì 4 × 11 = 44 và 44 + 3 = 47. Số dư là 3, nhỏ hơn số chia là 4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "55 : 3 = ?",
+          "options": ["18 dư 1", "17 dư 4", "19 dư 2", "16 dư 3"],
+          "correctIndex": 0,
+          "explanation": "55 : 3 = 18 dư 1 vì 3 × 18 = 54 và 54 + 1 = 55. Số dư là 1, nhỏ hơn số chia là 3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số dư trong phép chia 67 : 5 là bao nhiêu?",
+          "options": ["1", "4", "3", "2"],
+          "correctIndex": 3,
+          "explanation": "67 : 5 = 13 dư 2 vì 5 × 13 = 65 và 65 + 2 = 67. Số dư là 2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 29 điểm thi đấu, chia đều cho 4 vòng đấu. Mỗi vòng được bao nhiêu điểm và còn dư mấy điểm?",
+          "options": ["8 dư 3", "7 dư 1", "6 dư 5", "7 dư 2"],
+          "correctIndex": 1,
+          "explanation": "29 : 4 = 7 dư 1 vì 4 × 7 = 28 và 28 + 1 = 29. Mỗi vòng được 7 điểm và còn dư 1 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong phép chia có dư, số dư so với số chia thì phải như thế nào?",
+          "options": ["Số dư bằng số chia", "Số dư lớn hơn số chia", "Số dư phải nhỏ hơn số chia", "Số dư bằng 0"],
+          "correctIndex": 2,
+          "explanation": "Số dư luôn phải nhỏ hơn số chia (đáp án C). Nếu số dư bằng hoặc lớn hơn số chia, ta có thể chia thêm được nữa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kiểm tra phép chia 38 : 3 = 12 dư 2, ta tính: 3 × 12 + 2 = ?",
+          "options": ["38", "36", "40", "34"],
+          "correctIndex": 0,
+          "explanation": "3 × 12 = 36 và 36 + 2 = 38. Kết quả bằng số bị chia (38), vậy phép chia đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "83 : 4 = ?",
+          "options": ["20 dư 2", "21 dư 3", "22 dư 1", "20 dư 3"],
+          "correctIndex": 3,
+          "explanation": "83 : 4 = 20 dư 3 vì 4 × 20 = 80 và 80 + 3 = 83. Số dư là 3, nhỏ hơn số chia là 4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia nào dưới đây có số dư bằng 2?",
+          "options": ["45 : 4", "37 : 5", "52 : 5", "61 : 3"],
+          "correctIndex": 1,
+          "explanation": "37 : 5 = 7 dư 2 vì 5 × 7 = 35 và 35 + 2 = 37. Đây là phép chia có số dư bằng 2."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong phép chia 59 : 4, số dư có thể bằng 4.",
+          "correct": false,
+          "explanation": "Sai! Số dư phải nhỏ hơn số chia. Vì số chia là 4, số dư chỉ có thể là 0, 1, 2, hoặc 3, không thể bằng 4."
+        },
+        {
+          "type": "fill_blank",
+          "text": "75 : 4 = 18 dư ___",
+          "answer": "3",
+          "explanation": "75 : 4 = 18 dư 3 vì 4 × 18 = 72 và 72 + 3 = 75."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x018",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 24,
+      "title": "Chia số có ba chữ số cho số có một chữ số (chia hết)",
+      "learningObjective": "Học sinh biết thực hiện phép chia số có ba chữ số cho số có một chữ số khi chia hết, và kiểm tra kết quả bằng phép nhân.",
+      "shortExplanation": "Khi chia số có ba chữ số, hãy chia từng bước từ trái sang phải: trăm rồi chục rồi đơn vị. Luôn kiểm tra lại bằng phép nhân để chắc chắn kết quả đúng.",
+      "content": "Phép chia số có ba chữ số cho số có một chữ số thực hiện từng bước từ hàng trăm sang hàng đơn vị. Ví dụ: 369 : 3 = 123 vì ta chia 3 trăm cho 3 được 1 trăm, 6 chục cho 3 được 2 chục, 9 đơn vị cho 3 được 3 đơn vị. Kiểm tra: 3 × 123 = 369. Ví dụ khác: 488 : 4 = 122 vì 4 × 122 = 488.",
+      "storyContext": "Robo-X thi đấu được 369 điểm trong một mùa giải và chia đều cho 3 đội robot trong phòng lab để tính điểm thưởng.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "369 : 3 = ?",
+          "options": ["132", "113", "120", "123"],
+          "correctIndex": 3,
+          "explanation": "369 : 3 = 123 vì 3 × 123 = 369. Ta chia từng bước: 3 : 3 = 1, 6 : 3 = 2, 9 : 3 = 3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "488 : 4 = ?",
+          "options": ["132", "122", "121", "124"],
+          "correctIndex": 1,
+          "explanation": "488 : 4 = 122 vì 4 × 122 = 488. Ta chia từng bước: 4 : 4 = 1, 8 : 4 = 2, 8 : 4 = 2."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 639 linh kiện robot, xếp đều vào 3 thùng. Mỗi thùng có bao nhiêu linh kiện?",
+          "options": ["213", "203", "220", "231"],
+          "correctIndex": 0,
+          "explanation": "639 : 3 = 213 vì 3 × 213 = 639. Mỗi thùng có 213 linh kiện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "844 : 4 = ?",
+          "options": ["210", "220", "211", "200"],
+          "correctIndex": 2,
+          "explanation": "844 : 4 = 211 vì 4 × 211 = 844. Ta chia từng bước: 8 : 4 = 2, 4 : 4 = 1, 4 : 4 = 1."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để kiểm tra 936 : 3 = 312, ta dùng phép tính nào?",
+          "options": ["312 + 3 = 315", "936 - 312 = 624", "936 + 3 = 939", "3 × 312 = 936"],
+          "correctIndex": 3,
+          "explanation": "Kiểm tra phép chia bằng phép nhân: 3 × 312 = 936. Kết quả bằng số bị chia nên phép chia đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia nào dưới đây có kết quả là 231?",
+          "options": ["693 : 2", "462 : 2", "924 : 3", "693 : 4"],
+          "correctIndex": 1,
+          "explanation": "462 : 2 = 231 vì 2 × 231 = 462. Các phép chia còn lại đều không cho kết quả là 231."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "999 : 3 = ?",
+          "options": ["333", "300", "330", "303"],
+          "correctIndex": 0,
+          "explanation": "999 : 3 = 333 vì 3 × 333 = 999. Ta chia đều từng bước: 9 : 3 = 3, 9 : 3 = 3, 9 : 3 = 3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng lab có 884 điểm thi đấu, chia đều cho 4 robot. Mỗi robot được bao nhiêu điểm?",
+          "options": ["231", "221", "241", "201"],
+          "correctIndex": 2,
+          "explanation": "884 : 4 = 221 vì 4 × 221 = 884. Mỗi robot được 221 điểm."
+        },
+        {
+          "type": "true_false",
+          "text": "693 : 3 = 231 là phép chia hết (không có số dư).",
+          "correct": true,
+          "explanation": "Đúng! 693 : 3 = 231 và 3 × 231 = 693, không có số dư nên đây là phép chia hết."
+        },
+        {
+          "type": "fill_blank",
+          "text": "636 : 3 = ___",
+          "answer": "212",
+          "explanation": "636 : 3 = 212 vì 3 × 212 = 636."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x019",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 25,
+      "title": "Chia số có ba chữ số cho số có một chữ số (có dư)",
+      "learningObjective": "Học sinh biết thực hiện phép chia số có ba chữ số cho số có một chữ số khi có dư, xác định đúng số dư và kiểm tra kết quả bằng phép nhân.",
+      "shortExplanation": "Khi chia số có ba chữ số và có số dư, nhớ kiểm tra: (thương × số chia) + số dư phải bằng số bị chia. Số dư luôn phải nhỏ hơn số chia.",
+      "content": "Khi chia số có ba chữ số và có số dư, ta vẫn thực hiện từng bước từ hàng trăm. Ví dụ: 367 : 3 = 122 dư 1 vì 3 × 122 = 366 và 366 + 1 = 367. Số dư (1) nhỏ hơn số chia (3). Kiểm tra: 3 × 122 + 1 = 367. Ví dụ khác: 487 : 4 = 121 dư 3 vì 4 × 121 = 484 và 484 + 3 = 487.",
+      "storyContext": "Robo-X cần chia 367 điểm thi đấu cho 3 đội robot, nhưng còn dư lại một số điểm chưa phân chia được hết.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "367 : 3 = ?",
+          "options": ["122 dư 1", "121 dư 4", "123 dư 2", "120 dư 7"],
+          "correctIndex": 0,
+          "explanation": "367 : 3 = 122 dư 1 vì 3 × 122 = 366 và 366 + 1 = 367. Số dư là 1, nhỏ hơn số chia là 3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Số dư trong phép chia 487 : 4 là bao nhiêu?",
+          "options": ["2", "4", "3", "1"],
+          "correctIndex": 2,
+          "explanation": "487 : 4 = 121 dư 3 vì 4 × 121 = 484 và 484 + 3 = 487. Số dư là 3."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X có 250 linh kiện, xếp vào các hộp mỗi hộp 4 linh kiện. Còn dư mấy linh kiện?",
+          "options": ["3", "2", "1", "0"],
+          "correctIndex": 1,
+          "explanation": "250 : 4 = 62 dư 2 vì 4 × 62 = 248 và 248 + 2 = 250. Còn dư 2 linh kiện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kiểm tra phép chia 569 : 5 = 113 dư 4, ta tính: 5 × 113 + 4 = ?",
+          "options": ["570", "567", "565", "569"],
+          "correctIndex": 3,
+          "explanation": "5 × 113 = 565 và 565 + 4 = 569. Kết quả bằng số bị chia (569), vậy phép chia đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "735 : 4 = ?",
+          "options": ["183 dư 3", "184 dư 2", "182 dư 1", "185 dư 0"],
+          "correctIndex": 0,
+          "explanation": "735 : 4 = 183 dư 3 vì 4 × 183 = 732 và 732 + 3 = 735. Số dư là 3, nhỏ hơn số chia là 4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia 897 : 4 có kết quả là:",
+          "options": ["225 dư 1", "223 dư 3", "224 dư 1", "222 dư 2"],
+          "correctIndex": 2,
+          "explanation": "897 : 4 = 224 dư 1 vì 4 × 224 = 896 và 896 + 1 = 897. Số dư là 1, nhỏ hơn số chia là 4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng lab có 659 điểm thi đấu, chia cho 3 đội robot. Mỗi đội được bao nhiêu điểm và còn dư mấy điểm?",
+          "options": ["219 dư 2", "219 dư 4", "220 dư 1", "218 dư 5"],
+          "correctIndex": 1,
+          "explanation": "659 : 3 = 219 dư 2 vì 3 × 219 = 657 và 657 + 2 = 659. Mỗi đội được 219 điểm và còn dư 2 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia nào dưới đây có số dư là 1?",
+          "options": ["764 : 3", "563 : 4", "847 : 4", "439 : 2"],
+          "correctIndex": 3,
+          "explanation": "439 : 2 = 219 dư 1 vì 2 × 219 = 438 và 438 + 1 = 439. Phép chia này có số dư bằng 1."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong phép chia 758 : 5, số dư có thể bằng 5.",
+          "correct": false,
+          "explanation": "Sai! Số dư luôn phải nhỏ hơn số chia. Vì số chia là 5, số dư chỉ có thể là 0, 1, 2, 3, hoặc 4, không thể bằng 5."
+        },
+        {
+          "type": "fill_blank",
+          "text": "567 : 4 = 141 dư ___",
+          "answer": "3",
+          "explanation": "567 : 4 = 141 dư 3 vì 4 × 141 = 564 và 564 + 3 = 567."
+        }
+      ]
+    },
+    {
+      "id": "boy-g3-math-x020",
+      "studentTarget": "boy",
+      "grade": 3,
+      "phase": "review",
+      "subjectId": "math",
+      "orderIndex": 26,
+      "title": "Ôn tập: Chia hết và chia có dư - Kiểm tra bằng phép nhân",
+      "learningObjective": "Học sinh vận dụng thành thạo phép chia số có hai và ba chữ số cho số có một chữ số, phân biệt chia hết và chia có dư, kiểm tra kết quả bằng phép nhân.",
+      "shortExplanation": "Ôn lại tất cả dạng chia: chia hết (số dư = 0) và chia có dư (số dư > 0 và nhỏ hơn số chia). Luôn kiểm tra bằng phép nhân hoặc công thức (thương × số chia) + số dư = số bị chia.",
+      "content": "Trong bài này chúng ta ôn lại toàn bộ phép chia. Chia hết: 48 : 4 = 12, kiểm tra 4 × 12 = 48. Chia có dư: 50 : 4 = 12 dư 2, kiểm tra 4 × 12 + 2 = 50. Với số có ba chữ số: 369 : 3 = 123 (chia hết), 370 : 3 = 123 dư 1 (chia có dư). Quy tắc quan trọng: số dư luôn nhỏ hơn số chia.",
+      "storyContext": "Robo-X hoàn thành mùa giải Robot Sport Lab và tổng kết toàn bộ điểm thi đấu, chia đều cho tất cả các đội robot tham gia giải đấu.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "96 : 3 = ?",
+          "options": ["33", "32", "31", "34"],
+          "correctIndex": 1,
+          "explanation": "96 : 3 = 32 vì 3 × 32 = 96. Ta chia 9 chục cho 3 được 3 chục, rồi 6 đơn vị cho 3 được 2 đơn vị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia nào dưới đây là phép chia có dư?",
+          "options": ["84 : 4", "72 : 3", "96 : 4", "65 : 3"],
+          "correctIndex": 3,
+          "explanation": "65 : 3 = 21 dư 2, đây là phép chia có dư. Các phép còn lại: 84 : 4 = 21, 72 : 3 = 24, 96 : 4 = 24 đều là chia hết."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "486 : 3 = ?",
+          "options": ["161", "163", "162", "160"],
+          "correctIndex": 2,
+          "explanation": "486 : 3 = 162 vì 3 × 162 = 486. Ta chia từng bước: 4 trăm... cho ra thương 162."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Robo-X thi đấu được 97 điểm trong 4 vòng đấu. Trung bình mỗi vòng được bao nhiêu điểm và còn dư mấy điểm?",
+          "options": ["24 dư 1", "25 dư 3", "23 dư 5", "26 dư 1"],
+          "correctIndex": 0,
+          "explanation": "97 : 4 = 24 dư 1 vì 4 × 24 = 96 và 96 + 1 = 97. Trung bình mỗi vòng được 24 điểm và dư 1 điểm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kiểm tra phép chia 847 : 3 = 282 dư 1, ta tính: ?",
+          "options": ["282 + 1 = 283", "3 × 282 + 1 = 847", "847 - 282 = 565", "847 : 1 = 847"],
+          "correctIndex": 1,
+          "explanation": "Kiểm tra phép chia có dư: (thương × số chia) + số dư = số bị chia. 3 × 282 + 1 = 846 + 1 = 847. Đúng!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phép chia 999 : 4 có kết quả là:",
+          "options": ["250 dư 3", "249 dư 2", "248 dư 1", "249 dư 3"],
+          "correctIndex": 3,
+          "explanation": "999 : 4 = 249 dư 3 vì 4 × 249 = 996 và 996 + 3 = 999. Số dư là 3, nhỏ hơn số chia là 4."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng lab có 756 linh kiện robot, xếp đều vào 3 thùng. Mỗi thùng có bao nhiêu linh kiện?",
+          "options": ["251", "254", "252", "250"],
+          "correctIndex": 2,
+          "explanation": "756 : 3 = 252 vì 3 × 252 = 756. Đây là phép chia hết, mỗi thùng có đúng 252 linh kiện."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "568 : 4 = ?",
+          "options": ["142", "141", "143", "140"],
+          "correctIndex": 0,
+          "explanation": "568 : 4 = 142 vì 4 × 142 = 568. Đây là phép chia hết, số dư bằng 0."
+        },
+        {
+          "type": "true_false",
+          "text": "Phép chia 846 : 4 = 211 dư 2 là đúng.",
+          "correct": true,
+          "explanation": "Đúng! Kiểm tra: 4 × 211 = 844 và 844 + 2 = 846. Kết quả bằng số bị chia nên phép chia đúng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "789 : 3 = ___",
+          "answer": "263",
+          "explanation": "789 : 3 = 263 vì 3 × 263 = 789. Đây là phép chia hết."
+        }
+      ]
+    }
+  ]
+}
