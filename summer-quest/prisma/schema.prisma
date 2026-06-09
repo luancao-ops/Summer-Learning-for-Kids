@@ -31,6 +31,7 @@ model Student {
   studentRewards   StudentReward[]
   choreAssignments ChoreAssignment[]
   readingEntries   ReadingEntry[]
+  questionReports  QuestionReport[]
 }
 
 model ThemeConfig {
@@ -70,10 +71,11 @@ model Lesson {
   approved          Boolean  @default(true)
   createdAt         DateTime @default(now())
 
-  subject   Subject    @relation(fields: [subjectId], references: [id])
+  subject   Subject          @relation(fields: [subjectId], references: [id])
   questions Question[]
   attempts  Attempt[]
   mistakes  Mistake[]
+  reports   QuestionReport[]
 
   @@index([studentTarget, subjectId, grade, phase])
 }
@@ -92,6 +94,7 @@ model Question {
   lesson         Lesson          @relation(fields: [lessonId], references: [id], onDelete: Cascade)
   attemptAnswers AttemptAnswer[]
   mistakes       Mistake[]
+  reports        QuestionReport[]
 
   @@index([lessonId, orderIndex])
 }
@@ -254,4 +257,23 @@ model ReadingEntry {
 model SiteConfig {
   key   String @id
   value String
+}
+
+model QuestionReport {
+  id         String   @id @default(cuid())
+  questionId String
+  lessonId   String
+  studentId  String?
+  reportedBy String
+  reason     String
+  note       String   @default("")
+  resolved   Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  lesson   Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  student  Student? @relation(fields: [studentId], references: [id])
+
+  @@index([resolved, createdAt])
+  @@index([questionId])
 }

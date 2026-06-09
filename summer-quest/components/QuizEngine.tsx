@@ -90,6 +90,10 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme,
   const [readyForNext, setReadyForNext] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [result, setResult] = useState<QuizResult | null>(null);
+  const [reportPhase, setReportPhase] = useState<"idle" | "open" | "done">("idle");
+  const [reportReason, setReportReason] = useState("");
+  const [reportNote, setReportNote] = useState("");
+  const [isReporting, setIsReporting] = useState(false);
 
   const currentQuestion = questions[currentIndex];
   const progress = Math.round(((currentIndex + 1) / questions.length) * 100);
@@ -225,12 +229,38 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme,
     setIsSubmitting(false);
   }
 
+  async function handleSubmitReport() {
+    if (!reportReason || isReporting) return;
+    setIsReporting(true);
+    try {
+      await fetch("/api/report-question", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          questionId: currentQuestion.id,
+          lessonId,
+          studentId,
+          reportedBy: "student",
+          reason: reportReason,
+          note: reportNote,
+        }),
+      });
+    } catch {
+      // best-effort — still show confirmation
+    }
+    setReportPhase("done");
+    setIsReporting(false);
+  }
+
   function handleNext() {
     const nextIndex = currentIndex + 1;
     setFeedback(null);
     setReadyForNext(false);
     setSelectedAnswer("");
     setFillValue("");
+    setReportPhase("idle");
+    setReportReason("");
+    setReportNote("");
 
     if (nextIndex >= questions.length) {
       void submitQuiz(answers);
@@ -289,6 +319,82 @@ export function QuizEngine({ studentId, lessonId, lessonTitle, questions, theme,
       {feedback ? (
         <div className="mt-5">
           <FeedbackMessage tone={feedback.tone} message={feedback.message} explanation={feedback.explanation} />
+          {readyForNext && (
+            <div className="mt-2">
+              {reportPhase === "idle" && (
+                <button
+                  type="button"
+                  onClick={() => setReportPhase("open")}
+                  className="text-sm font-semibold transition-colors"
+                  style={{ color: "#94a3b8", touchAction: "manipulation" }}
+                  onMouseEnter={(e) => { (e.currentTarget as HTMLButtonElement).style.color = "#f43f5e"; }}
+                  onMouseLeave={(e) => { (e.currentTarget as HTMLButtonElement).style.color = "#94a3b8"; }}
+                >
+                  🚩 Báo cáo câu hỏi này
+                </button>
+              )}
+              {reportPhase === "open" && (
+                <div className="mt-2 rounded-[8px] border p-4" style={{ borderColor: "#fecdd3", backgroundColor: "#fff1f2" }}>
+                  <p className="text-sm font-black" style={{ color: "#9f1239" }}>Câu hỏi có vấn đề gì?</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {([
+                      { id: "wrong_answer", label: "❌ Đáp án sai" },
+                      { id: "wrong_explanation", label: "📝 Giải thích sai" },
+                      { id: "other", label: "❓ Vấn đề khác" },
+                    ] as const).map((opt) => (
+                      <button
+                        key={opt.id}
+                        type="button"
+                        onClick={() => setReportReason(opt.id)}
+                        className="rounded-lg px-3 py-2 text-sm font-bold transition-colors"
+                        style={{
+                          border: "2px solid",
+                          borderColor: reportReason === opt.id ? "#e11d48" : "#fecdd3",
+                          backgroundColor: reportReason === opt.id ? "#e11d48" : "#ffffff",
+                          color: reportReason === opt.id ? "#ffffff" : "#9f1239",
+                          touchAction: "manipulation",
+                        }}
+                      >
+                        {opt.label}
+                      </button>
+                    ))}
+                  </div>
+                  <textarea
+                    value={reportNote}
+                    onChange={(e) => setReportNote(e.target.value)}
+                    placeholder="Mô tả thêm cho ba mẹ (không bắt buộc)..."
+                    rows={2}
+                    className="mt-3 w-full rounded-[8px] p-2 text-sm font-semibold outline-none"
+                    style={{ border: "1px solid #fecdd3", color: "#1e293b", backgroundColor: "#ffffff" }}
+                  />
+                  <div className="mt-3 flex gap-2">
+                    <button
+                      type="button"
+                      onClick={handleSubmitReport}
+                      disabled={!reportReason || isReporting}
+                      className="h-9 rounded-lg px-4 text-sm font-black text-white disabled:opacity-50"
+                      style={{ backgroundColor: "#e11d48", touchAction: "manipulation" }}
+                    >
+                      {isReporting ? "Đang gửi..." : "Gửi báo cáo"}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => { setReportPhase("idle"); setReportReason(""); setReportNote(""); }}
+                      className="h-9 rounded-lg px-4 text-sm font-bold"
+                      style={{ border: "1px solid #e2e8f0", color: "#64748b", backgroundColor: "#ffffff", touchAction: "manipulation" }}
+                    >
+                      Huỷ
+                    </button>
+                  </div>
+                </div>
+              )}
+              {reportPhase === "done" && (
+                <p className="mt-1 text-sm font-bold" style={{ color: "#059669" }}>
+                  ✓ Đã gửi báo cáo cho ba mẹ xem.
+                </p>
+              )}
+            </div>
+          )}
         </div>
       ) : null}
 

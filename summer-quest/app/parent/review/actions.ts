@@ -3,6 +3,21 @@
 import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 
+export async function resolveReportAction(
+  _prevState: unknown,
+  formData: FormData,
+): Promise<{ ok: boolean }> {
+  const reportId = formData.get("reportId") as string;
+  if (!reportId) return { ok: false };
+  try {
+    await prisma.$executeRaw`UPDATE "QuestionReport" SET "resolved" = true WHERE "id" = ${reportId}`;
+    revalidatePath("/parent/review");
+    return { ok: true };
+  } catch {
+    return { ok: false };
+  }
+}
+
 export type ReviewActionState = { ok: boolean; action: "approve" | "reject" | null; error?: string };
 
 export async function approveLessonAction(

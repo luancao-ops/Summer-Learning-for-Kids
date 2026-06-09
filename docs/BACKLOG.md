@@ -1131,3 +1131,48 @@ Protect all `/parent/*` routes with a PIN code so children cannot accidentally a
 - [x] All 4 parent pages are protected
 - [x] Build passes zero TypeScript errors
 - [x] `npm run build` zero errors
+
+---
+
+## Epic 22 — Question Flag / Report System (Sprint 8)
+
+> **Yêu cầu từ phụ huynh (2026-06-09):** Thêm nút báo cáo câu hỏi sai vào giao diện quiz. Học sinh hoặc phụ huynh có thể đánh dấu câu có đáp án sai hoặc giải thích sai. Báo cáo được lưu vào danh sách để phụ huynh kiểm tra và xử lý.
+
+**P1** `TICKET-054` ✅ **Question Flag / Report Button** *(Done — Sprint 8)*
+
+Cho phép học sinh đánh dấu câu hỏi có vấn đề ngay trong lúc làm bài.
+
+**Files created:**
+- `prisma/migrations/20260609100000_add_question_report/migration.sql` — CREATE TABLE QuestionReport
+- `app/api/report-question/route.ts` — POST: submit a question report
+- `components/ResolveReportButton.tsx` — client component for parent to mark resolved
+
+**Files modified:**
+- `prisma/schema.prisma` — added `QuestionReport` model + relations to Question, Lesson, Student
+- `components/QuizEngine.tsx` — flag button + inline report form after answer revealed
+- `app/parent/review/page.tsx` — new section at top showing unresolved reports
+- `app/parent/review/actions.ts` — added `resolveReportAction`
+
+**How it works:**
+1. After answering a question (final — correct or revealed), a small 🚩 button appears below the feedback
+2. Click → form with 3 reason buttons: ❌ Đáp án sai · 📝 Giải thích sai · ❓ Vấn đề khác
+3. Optional text note → "Gửi báo cáo" → saved to `QuestionReport` table
+4. Student sees "✓ Đã gửi báo cáo cho ba mẹ xem."
+5. Parent visits `/parent/review` → new "🚩 Câu hỏi bị báo cáo" section at top
+6. Each report shows: reason badge, question text, stored answer, reporter name, timestamp, optional note
+7. "Đã xem & xử lý" button → marks resolved, removes from list
+
+**DB schema:**
+- `QuestionReport` model: id, questionId, lessonId, studentId?, reportedBy, reason, note, resolved, createdAt
+- All DB ops use `$executeRaw`/`$queryRaw` (avoids prisma generate EPERM risk)
+
+**Acceptance criteria:** ✅ All met
+- [x] Flag button appears after answer confirmed/revealed (not on retry)
+- [x] 3 reason options; note field optional; cancel button works
+- [x] Submitting shows "✓ Đã gửi báo cáo cho ba mẹ xem."
+- [x] Flag state resets when moving to next question
+- [x] Parent `/parent/review` shows new section when reports exist
+- [x] Each report shows full context: reason, question, lesson, who reported, when
+- [x] "Đã xem & xử lý" marks resolved and removes from list
+- [x] `npx tsc --noEmit` zero errors
+- [x] Migration applied successfully
