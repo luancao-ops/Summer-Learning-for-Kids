@@ -32,7 +32,7 @@ type LessonSeed = {
   studentTarget: "girl" | "boy";
   grade: number;
   phase: "review" | "prep";
-  subjectId: "math" | "vietnamese" | "english";
+  subjectId: "math" | "vietnamese" | "english" | "science_life_skills";
   orderIndex: number;
   title: string;
   learningObjective: string;
@@ -48,6 +48,7 @@ const subjects = [
   { id: "math", label: "Toán", emoji: "🔢", orderIndex: 1 },
   { id: "vietnamese", label: "Tiếng Việt", emoji: "📖", orderIndex: 2 },
   { id: "english", label: "Tiếng Anh", emoji: "🌍", orderIndex: 3 },
+  { id: "science_life_skills", label: "Kỹ năng sống", emoji: "🌱", orderIndex: 4 },
 ];
 
 const choreTemplates = [

@@ -1,16 +1,16 @@
 # English Content Repository
 
 ## Status
-Empty — no source PDFs processed yet.
 
-## Planned Sources
+| Source | Grade | Status | Knowledge Package |
+|---|---|---|---|
+| **Family and Friends 5** (Oxford) | 5 | ✅ Knowledge extracted | `imports/english/grade5/FamilyandFriend5/` |
+| Family & Friends Grade 3 | 3 | Planned | — |
+| Family & Friends Grade 4 | 4 | Planned | — |
+| Let's Go Grade 3 | 3 | Planned | — |
+| Cambridge Movers Preparation | 4–5 | Planned | — |
 
-| Source | Grade | Status |
-|---|---|---|
-| Family & Friends Grade 3 | 3 | Planned |
-| Family & Friends Grade 4 | 4 | Planned |
-| Let's Go Grade 3 | 3 | Planned |
-| Cambridge Movers Preparation | 4–5 | Planned |
+**Note:** `source_materials/english/2 Family and Friends 5.pdf` — PDF rendering (pdftoppm) unavailable on this machine. Knowledge package built from textbook curriculum. Asset extraction pending (install poppler-utils).
 
 ## Folder Structure
 

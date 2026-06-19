@@ -126,7 +126,8 @@
         {
           "type": "fill_blank",
           "text": "Câu nêu lên nội dung quan trọng nhất, bao quát toàn bộ đoạn văn được gọi là câu ______.",
-          "answer": "chủ đề"
+          "answer": "chủ đề",
+          "explanation": "Câu chủ đề (ý chính) là câu bao quát toàn bộ nội dung đoạn văn. Các câu còn lại là ý phụ, dùng để giải thích và minh họa cho câu chủ đề."
         }
       ]
     },
@@ -249,7 +250,8 @@
         {
           "type": "fill_blank",
           "text": "Nhân vật trung tâm, xuất hiện xuyên suốt câu chuyện và mọi sự kiện đều xoay quanh nhân vật đó được gọi là nhân vật ______.",
-          "answer": "chính"
+          "answer": "chính",
+          "explanation": "Nhân vật chính là trung tâm của câu chuyện — xuất hiện nhiều nhất và mọi sự kiện đều xoay quanh nhân vật đó. Các nhân vật phụ chỉ hỗ trợ và tương tác với nhân vật chính."
         }
       ]
     },
@@ -374,7 +376,8 @@
         {
           "type": "fill_blank",
           "text": "Khi đọc hiểu đoạn văn, em cần đọc kỹ ít nhất ______ lần để hiểu cả tổng quát lẫn chi tiết.",
-          "answer": "hai"
+          "answer": "hai",
+          "explanation": "Cần đọc ít nhất hai lần: lần đầu đọc tổng quát để nắm chủ đề và nội dung chung, lần hai đọc kỹ từng chi tiết để trả lời các câu hỏi cụ thể chính xác hơn."
         }
       ]
     },
@@ -499,7 +502,8 @@
         {
           "type": "fill_blank",
           "text": "Khi xác định nhận định đúng hay sai, phải tìm câu trong đoạn văn ______ với nhận định đó để so sánh.",
-          "answer": "liên quan"
+          "answer": "liên quan",
+          "explanation": "Bước quan trọng nhất là tìm câu trong đoạn văn LIÊN QUAN trực tiếp đến nhận định, rồi so sánh từng chi tiết để kiểm tra xem nhận định có khớp với thông tin trong văn bản không."
         }
       ]
     },
@@ -621,7 +625,8 @@
         {
           "type": "fill_blank",
           "text": "Điều mà tác giả muốn người đọc hiểu hoặc cảm nhận sau khi đọc xong câu chuyện được gọi là ______ của tác phẩm.",
-          "answer": "thông điệp"
+          "answer": "thông điệp",
+          "explanation": "Thông điệp là điều tác giả muốn truyền đạt qua câu chuyện — thường thể hiện qua hành động và kết quả của nhân vật. Ví dụ: 'kiên trì sẽ vượt qua thử thách' là thông điệp phổ biến trong truyện cổ tích."
         }
       ]
     }

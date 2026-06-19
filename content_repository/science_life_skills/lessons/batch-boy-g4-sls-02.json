@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "batchId": "batch-boy-g4-sls-02",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-sls-x006",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 6,
+      "title": "Bữa sáng và năng lượng cho ngày mới",
+      "learningObjective": "Sau bài này Johnny sẽ hiểu tại sao bữa sáng quan trọng và biết chọn thức ăn sáng tốt để có năng lượng cho cả buổi học.",
+      "shortExplanation": "Bữa sáng là lần nạp nhiên liệu đầu tiên sau 8 tiếng nhịn đói khi ngủ. Kỹ sư nhỏ cần nhiên liệu tốt để não và cơ thể hoạt động tối ưu!",
+      "content": "## ⚙️ Dữ liệu khoa học\n\nSau 8 tiếng ngủ, lượng đường trong máu xuống thấp. Não cần glucose (đường từ thức ăn) để hoạt động. Bỏ bữa sáng giống như khởi động máy tính mà không cắm điện.\n\nNghiên cứu cho thấy trẻ em ăn sáng đầy đủ:\n- Tập trung tốt hơn trong 4 tiếng đầu học\n- Ghi nhớ thông tin hiệu quả hơn\n- Ít mệt mỏi và khó chịu giữa buổi\n\n## 🍳 Nhiên liệu tốt cho bữa sáng\n\n**Nguồn năng lượng bền vững:**\n- Cơm, bánh mì, bún, phở (tinh bột giải phóng năng lượng từ từ)\n- Trứng, thịt, đậu (protein giúp no lâu)\n- Rau xanh và trái cây (vitamin và khoáng chất)\n\n**Cần hạn chế:**\n- Bánh ngọt nhiều đường (năng lượng tăng nhanh nhưng giảm nhanh)\n- Nước ngọt thay thế bữa sáng\n\n## ⏰ Thời gian ăn sáng\n\nNên ăn trong vòng 1 tiếng sau khi thức dậy. Không nên ăn ngay lập tức — cho cơ thể 15 phút để tỉnh hẳn trước.\n\n## 🚀 Lợi ích thực tế\n\n- Học bài tốt hơn trong buổi sáng\n- Không bị đói hay mất tập trung trước giờ nghỉ\n- Ổn định tâm trạng — không cáu kỉnh vì đói\n\n## 🌟 Thực hành\n\nSáng mai con hãy dành 10 phút ăn sáng trước khi đến trường và theo dõi mức độ tập trung của mình trong buổi học!",
+      "storyContext": "Kỹ sư nhỏ Johnny phân tích dữ liệu về bữa sáng và khám phá công thức nạp năng lượng tối ưu cho não bộ.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao bữa sáng quan trọng sau một đêm ngủ dài?",
+          "options": [
+            "Vì ngủ dậy luôn cảm thấy đói",
+            "Vì sau 8 tiếng nhịn đói, đường trong máu xuống thấp và cơ thể cần nạp năng lượng",
+            "Vì bữa sáng giúp con cao hơn",
+            "Vì ba mẹ muốn con ăn sáng"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sau 8 tiếng ngủ không ăn, lượng đường trong máu giảm xuống thấp. Não cần glucose từ bữa sáng để bắt đầu hoạt động hiệu quả.",
+          "hint": "Cơ thể đã 'nhịn đói' bao lâu trong khi ngủ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trẻ em ăn sáng đầy đủ có khả năng học tốt hơn trong bao nhiêu tiếng đầu?",
+          "options": [
+            "10 tiếng",
+            "Chỉ 30 phút",
+            "Cả ngày không cần nghỉ",
+            "Khoảng 4 tiếng đầu buổi học"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nghiên cứu cho thấy bữa sáng đủ dinh dưỡng giúp trẻ tập trung và học tốt hơn trong 4 tiếng đầu — đây là khoảng thời gian quan trọng nhất của buổi sáng.",
+          "hint": "Hiệu quả của bữa sáng kéo dài đủ cho một buổi học."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Loại thức ăn nào là nguồn năng lượng bền vững tốt nhất cho bữa sáng?",
+          "options": [
+            "Bánh ngọt và kẹo",
+            "Nước ngọt có gas",
+            "Cơm, bánh mì hoặc phở với trứng hoặc thịt",
+            "Không ăn gì, chỉ uống nước"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tinh bột từ cơm/bánh mì giải phóng năng lượng từ từ và bền hơn, protein từ trứng/thịt giúp no lâu và cung cấp amino acid cho não.",
+          "hint": "Nguồn năng lượng bền vững là loại giải phóng chậm và đều."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao bánh ngọt nhiều đường không phải lựa chọn tốt cho bữa sáng?",
+          "options": [
+            "Vì bánh ngọt không ngon vào buổi sáng",
+            "Vì làm năng lượng tăng đột ngột rồi giảm nhanh, dễ bị đói và mệt sớm",
+            "Vì nhiều đường gây sâu răng ngay",
+            "Vì ba mẹ không cho ăn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đường đơn trong bánh ngọt hấp thụ nhanh, làm năng lượng tăng vọt rồi giảm mạnh sau 1 đến 2 tiếng, khiến con đói và mất tập trung sớm hơn.",
+          "hint": "Năng lượng tăng nhanh đồng nghĩa với điều gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nên ăn sáng trong vòng bao lâu sau khi thức dậy?",
+          "options": [
+            "Trong vòng 1 tiếng sau khi thức dậy",
+            "Sau 4 tiếng",
+            "Ngay lập tức khi vừa thức dậy",
+            "Không quan trọng lúc nào"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nên ăn sáng trong vòng 1 tiếng sau khi thức dậy, nhưng để cơ thể tỉnh hẳn khoảng 15 phút trước khi ăn.",
+          "hint": "Không quá vội, không quá muộn — 1 tiếng là cửa sổ lý tưởng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra nếu con đến trường mà không ăn sáng?",
+          "options": [
+            "Con sẽ tập trung tốt hơn vì bụng trống",
+            "Không có gì xảy ra",
+            "Con sẽ khó tập trung, dễ mệt và mất tập trung trong buổi học",
+            "Con sẽ ăn trưa nhiều hơn nên không sao"
+          ],
+          "correctIndex": 0,
+          "explanation": "Thiếu glucose cho não, con sẽ khó tập trung, phản ứng chậm hơn, dễ cáu kỉnh và không ghi nhớ bài tốt như khi đã ăn sáng.",
+          "hint": "Não hoạt động thế nào khi thiếu nhiên liệu glucose?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Protein (trứng, thịt) trong bữa sáng giúp gì cho cơ thể?",
+          "options": [
+            "Làm con cao lên nhanh hơn",
+            "Giúp no lâu hơn và cung cấp dưỡng chất cho não và cơ bắp",
+            "Chỉ giúp cơ bắp to lên",
+            "Không có tác dụng đặc biệt"
+          ],
+          "correctIndex": 1,
+          "explanation": "Protein tiêu hóa chậm hơn tinh bột, giúp con no lâu hơn và cung cấp amino acid cần thiết cho não và cơ bắp hoạt động.",
+          "hint": "Protein tiêu hóa chậm, điều đó có ý nghĩa gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ngoài thức ăn, nên uống gì trong bữa sáng?",
+          "options": [
+            "Nước ngọt có gas",
+            "Cà phê",
+            "Không cần uống gì",
+            "Nước lọc hoặc sữa để bổ sung nước và canxi"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nước giúp cơ thể bổ sung sau 8 tiếng ngủ. Sữa cung cấp canxi tốt cho xương và răng đang phát triển của trẻ em.",
+          "hint": "Cơ thể cần gì sau 8 tiếng không uống nước?"
+        },
+        {
+          "type": "true_false",
+          "text": "Nếu bận không có thời gian, bỏ bữa sáng và ăn thêm vào bữa trưa là cách giải quyết tốt.",
+          "correct": false,
+          "explanation": "Bỏ bữa sáng làm não thiếu glucose trong buổi học quan trọng nhất. Không thể 'bù lại' về sau vì buổi học đã qua rồi.",
+          "hint": "Năng lượng cần được cung cấp đúng lúc, không thể bù sau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Bữa sáng cung cấp ___ cho não hoạt động sau 8 tiếng ngủ không ăn.",
+          "answer": "năng lượng",
+          "explanation": "Sau 8 tiếng không ăn, cơ thể cần được nạp năng lượng. Bữa sáng là bước khởi động cho một ngày học hiệu quả.",
+          "hint": "Thứ mà não cần để hoạt động, giống như điện cho máy tính."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x007",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 7,
+      "title": "Giữ bàn học gọn gàng",
+      "learningObjective": "Sau bài này Johnny sẽ biết cách tổ chức bàn học và hiểu tại sao môi trường gọn gàng giúp não hoạt động hiệu quả hơn.",
+      "shortExplanation": "Bàn học gọn gàng là 'không gian làm việc' tối ưu. Kỹ sư nhỏ biết rằng bộ não tìm đồ nhanh hơn khi mọi thứ đúng chỗ!",
+      "content": "## 🔬 Khoa học đằng sau sự gọn gàng\n\nNão bộ phải xử lý toàn bộ thông tin thị giác trong tầm nhìn, kể cả những thứ không liên quan đến bài học. Khi bàn bừa bộn, não tiêu tốn năng lượng để 'lọc' những thứ không cần thiết — năng lượng đó đáng ra dùng cho việc học.\n\n**Kết quả nghiên cứu:** Học sinh làm việc trong không gian gọn gàng hoàn thành bài tập nhanh hơn 20% so với trong không gian bừa bộn.\n\n## ⚙️ Nguyên tắc tổ chức\n\n**Nguyên tắc cốt lõi:** Mỗi đồ vật có một chỗ cố định.\n\n**Phân loại đồ dùng học tập:**\n- Nhóm viết: bút, bút chì, tẩy → hộp bút\n- Nhóm sách vở: xếp theo môn học\n- Nhóm dụng cụ: thước, ê-ke, compa → ngăn kéo\n- Điện tử (máy tính, điện thoại): tắt hoặc cất xa khi học\n\n## 🛠️ Quy trình dọn bàn trước khi học\n\n1. Lấy ra chỉ đồ dùng cần cho buổi học này\n2. Cất hết thứ không cần thiết\n3. Đặt sách/vở cần dùng ở vị trí trung tâm\n4. Chuẩn bị bút, thước sẵn sàng\n5. Đặt nước uống ở góc\n\n**Thời gian:** 2 phút — đủ để chuẩn bị tốt.\n\n## 🚀 Lợi ích\n\n- Tập trung tốt hơn ngay khi ngồi xuống\n- Tìm đồ dùng nhanh, không mất thời gian\n- Hoàn thành bài tập nhanh hơn\n- Ít bị phân tâm bởi đồ vật xung quanh\n\n## 🌟 Thực hành\n\nTrước buổi học tối nay: dọn bàn trong 2 phút và đặt đồng hồ đo xem học xong bài trong thời gian bao lâu!",
+      "storyContext": "Kỹ sư nhỏ Johnny thiết kế hệ thống workspace tối ưu — bàn học gọn gàng như phòng lab chuyên nghiệp.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao bàn học bừa bộn làm giảm hiệu suất học tập?",
+          "options": [
+            "Vì bàn bẩn gây mùi khó chịu",
+            "Vì não phải xử lý nhiều kích thích thị giác không cần thiết, tốn năng lượng",
+            "Vì không tìm thấy chỗ để sách",
+            "Vì ánh sáng bị che khuất bởi đồ vật"
+          ],
+          "correctIndex": 3,
+          "explanation": "Não xử lý toàn bộ thứ trong tầm nhìn, kể cả những thứ không liên quan. Bàn bừa làm não tiêu năng lượng không cần thiết.",
+          "hint": "Não làm gì với mọi thứ nằm trong tầm nhìn?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nghiên cứu cho thấy học sinh ở môi trường gọn gàng hoàn thành bài nhanh hơn bao nhiêu?",
+          "options": [
+            "1%",
+            "Không có sự khác biệt",
+            "Gấp 5 lần",
+            "Khoảng 20% nhanh hơn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nghiên cứu cho thấy môi trường gọn gàng giúp hoàn thành bài nhanh hơn khoảng 20% do não tập trung tốt hơn.",
+          "hint": "Một con số thực tế dựa trên nghiên cứu khoa học."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nguyên tắc cốt lõi giúp bàn học luôn gọn gàng là gì?",
+          "options": [
+            "Dọn bàn mỗi cuối tuần",
+            "Chỉ để 1 quyển sách trên bàn",
+            "Mỗi đồ vật có một chỗ cố định và luôn trả về đúng chỗ",
+            "Cất hết đồ vào ngăn kéo sau mỗi buổi học"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nguyên tắc 'mỗi thứ có một chỗ' là đơn giản nhất và hiệu quả nhất — khi mọi thứ có chỗ cố định, không bao giờ bị bừa.",
+          "hint": "Nguyên tắc đơn giản nhất nhưng quan trọng nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bút, bút chì và tẩy nên được tổ chức như thế nào?",
+          "options": [
+            "Để rải trên mặt bàn cho dễ lấy",
+            "Để tất cả trong ngăn kéo sâu nhất",
+            "Để vào hộp bút hoặc cốc đựng bút",
+            "Cất vào cặp sau mỗi lần dùng"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hộp bút là giải pháp tổ chức tốt nhất — nhóm đồ dùng viết lại với nhau, dễ lấy và bàn không bị lộn xộn.",
+          "hint": "Dụng cụ viết cần được nhóm lại ở một chỗ dễ tiếp cận."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điện thoại và máy tính bảng nên được xử lý thế nào khi con ngồi học?",
+          "options": [
+            "Để trên bàn nhưng úp màn hình xuống",
+            "Tắt hoặc cất xa tầm nhìn",
+            "Mở nhạc từ điện thoại để tập trung hơn",
+            "Để ngay cạnh để tra cứu nhanh"
+          ],
+          "correctIndex": 1,
+          "explanation": "Điện thoại trong tầm nhìn — dù tắt âm — vẫn làm não bị kéo sự chú ý. Cất xa tầm nhìn giúp tập trung tốt hơn đáng kể.",
+          "hint": "Ngay cả khi tắt tiếng, điện thoại vẫn gây phân tâm thế nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quy trình dọn bàn trước khi học kéo dài bao lâu?",
+          "options": [
+            "30 phút",
+            "Chỉ 2 phút nếu mọi thứ có chỗ cố định",
+            "1 tiếng đồng hồ",
+            "Không cần dọn nếu đã gọn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Với hệ thống tổ chức tốt, dọn bàn trước khi học chỉ mất 2 phút — đặt đúng đồ vật và cất thứ không cần thiết.",
+          "hint": "Hệ thống tốt làm cho việc dọn dẹp trở nên nhanh chóng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi học xong một buổi, con nên làm gì với bàn học?",
+          "options": [
+            "Để nguyên vì mai còn học tiếp",
+            "Cất sách vở vào cặp và trả đồ dùng về đúng chỗ",
+            "Xếp tất cả vào một đống để trên bàn",
+            "Chỉ dọn khi bàn quá bừa"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dọn bàn sau mỗi buổi học giúp sẵn sàng cho buổi tiếp theo và duy trì thói quen ngăn nắp.",
+          "hint": "Thói quen dọn dẹp sau khi hoàn thành việc là kỹ năng tốt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi bắt đầu buổi học, chỉ nên để gì trên bàn?",
+          "options": [
+            "Tất cả sách vở của mọi môn để không phải lấy thêm",
+            "Đồ chơi để vừa học vừa chơi",
+            "Chỉ đồ dùng cần thiết cho môn đang học",
+            "Điện thoại để nghe nhạc"
+          ],
+          "correctIndex": 3,
+          "explanation": "Chỉ đặt đồ dùng cần thiết cho buổi học cụ thể lên bàn — giảm kích thích không cần thiết và giúp tập trung vào một nhiệm vụ.",
+          "hint": "Ít hơn trên bàn nghĩa là ít thứ phân tâm hơn."
+        },
+        {
+          "type": "true_false",
+          "text": "Bàn học bừa bộn không ảnh hưởng gì đến khả năng tập trung học bài.",
+          "correct": false,
+          "explanation": "Nghiên cứu khoa học chứng minh bàn bừa bộn làm giảm khả năng tập trung do não phải xử lý nhiều kích thích thị giác. Môi trường gọn gàng giúp tập trung tốt hơn 20%.",
+          "hint": "Khoa học đã đo lường được tác động của môi trường lên não bộ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi bàn học ___, não bộ không phải xử lý thông tin thừa và có thể tập trung tốt hơn vào bài học.",
+          "answer": "gọn gàng",
+          "explanation": "Môi trường gọn gàng giảm tải nhận thức cho não, giúp toàn bộ năng lượng não tập trung vào việc học.",
+          "hint": "Từ nào mô tả trạng thái đối lập với bừa bộn?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x008",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 8,
+      "title": "Nói lời xin lỗi đúng cách",
+      "learningObjective": "Sau bài này Johnny sẽ biết khi nào cần xin lỗi và cách xin lỗi chân thành để sửa chữa mối quan hệ.",
+      "shortExplanation": "Xin lỗi khi sai là dũng cảm và thông minh. Kỹ sư nhỏ biết rằng nhận lỗi và sửa chữa giúp hệ thống — dù là máy móc hay bạn bè — hoạt động tốt trở lại!",
+      "content": "## 🤝 Tình huống\n\nJohnny lỡ đẩy bạn khi đang chạy và bạn bị ngã. Johnny biết mình sai nhưng ngại nói xin lỗi. Cuối cùng Johnny bỏ đi và hai bạn không nói chuyện cả tuần. Nếu Johnny xin lỗi ngay, chuyện gì sẽ xảy ra?\n\n## ⚙️ Tại sao xin lỗi quan trọng\n\nXin lỗi là giao thức sửa lỗi trong giao tiếp con người:\n- Báo hiệu con nhận ra mình đã sai\n- Cho người kia biết con tôn trọng họ\n- Mở đường để mối quan hệ được phục hồi\n- Giúp con cảm thấy nhẹ lòng hơn\n\nKhông xin lỗi = lỗi chưa được giải quyết = mối quan hệ tiếp tục bị tổn thương.\n\n## 📋 Cách xin lỗi hiệu quả\n\n**Công thức 3 phần:**\n1. Nhận lỗi cụ thể: 'Mình xin lỗi vì đã đẩy bạn'\n2. Thể hiện hiểu tác động: 'Mình biết điều đó làm bạn đau'\n3. Cam kết cải thiện: 'Mình sẽ cẩn thận hơn'\n\n**Không xin lỗi kiểu này:**\n- 'Xin lỗi nhưng bạn đứng vào chỗ của mình'\n- 'Ừ, xin lỗi thì xin lỗi' (không chân thành)\n\n## 🚀 Kết quả\n\n- Mối quan hệ được sửa chữa nhanh hơn\n- Người kia cảm thấy được tôn trọng\n- Con học được từ lỗi và không lặp lại\n- Tiếng tăm tốt: 'Johnny là người dũng cảm nhận lỗi'\n\n## 🌟 Thực hành\n\nNếu con có lỗi nào chưa xin lỗi, hôm nay là cơ hội tốt!",
+      "storyContext": "Kỹ sư nhỏ Johnny học giao thức sửa lỗi trong hệ thống quan hệ — cách xin lỗi đúng cách và hiệu quả.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Johnny lỡ tay làm vỡ đồ chơi của bạn. Con nên làm gì ngay?",
+          "options": [
+            "Giả vờ không phải mình làm",
+            "Bỏ đi không nói gì",
+            "Nhận lỗi ngay và nói 'Mình xin lỗi vì đã làm vỡ đồ chơi của bạn'",
+            "Đổ lỗi cho hoàn cảnh"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhận lỗi ngay và xin lỗi cụ thể là cách dũng cảm và đúng đắn nhất. Điều này cho thấy con tôn trọng bạn và trưởng thành.",
+          "hint": "Nhận lỗi ngay giúp giải quyết vấn đề nhanh nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lời xin lỗi nào là đúng và chân thành nhất?",
+          "options": [
+            "'Xin lỗi nhưng bạn cũng có lỗi đấy'",
+            "'Ừ thôi xin lỗi đi cho xong'",
+            "'Mình xin lỗi vì đã đẩy bạn. Mình biết điều đó làm bạn đau và mình sẽ cẩn thận hơn'",
+            "'Xin lỗi nha' và đi luôn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Xin lỗi chân thành cần: nhận lỗi cụ thể + thể hiện hiểu tác động + cam kết cải thiện. Không đổ lỗi ngược lại cho người kia.",
+          "hint": "Xin lỗi thật sự không kèm theo 'nhưng'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao xin lỗi đúng cách là dũng cảm chứ không phải yếu đuối?",
+          "options": [
+            "Vì người dũng cảm không bao giờ sai",
+            "Vì nhận lỗi là điều dễ làm",
+            "Vì nhận ra lỗi của mình và nói ra đòi hỏi sự can đảm và tự trọng",
+            "Vì người yếu mới xin lỗi"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nhận lỗi đòi hỏi con phải đối mặt với sự xấu hổ và chấp nhận trách nhiệm — điều đó cần nhiều dũng khí hơn là im lặng hay đổ lỗi.",
+          "hint": "Điều gì cần nhiều dũng khí hơn — nhận lỗi hay tránh né?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu con không xin lỗi sau khi làm sai, điều gì thường xảy ra?",
+          "options": [
+            "Mọi chuyện tự hết sau vài ngày",
+            "Mối quan hệ tiếp tục bị tổn thương và bạn bè có thể tránh xa con",
+            "Con được coi là người mạnh mẽ",
+            "Không có gì thay đổi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lỗi chưa được xin lỗi giống như bug chưa được fix — vẫn còn đó và tiếp tục gây ra sự cố. Mối quan hệ sẽ ngày càng xấu đi.",
+          "hint": "Bug chưa được fix thì hệ thống tiếp tục hoạt động thế nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu xin lỗi cần bao gồm những gì để hiệu quả?",
+          "options": [
+            "Chỉ nói 'xin lỗi' là đủ",
+            "Nhận lỗi cụ thể + thể hiện hiểu tác động + cam kết không lặp lại",
+            "Giải thích tại sao mình làm vậy",
+            "Tặng quà để bù lại"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lời xin lỗi hiệu quả gồm 3 phần: nhận lỗi cụ thể, thể hiện mình hiểu tác động đến người kia, và cam kết cải thiện.",
+          "hint": "Ba phần của một lời xin lỗi đầy đủ và chân thành."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao nói 'Xin lỗi nhưng...' thường không phải là xin lỗi thật sự?",
+          "options": [
+            "Vì 'nhưng' là từ không được dùng",
+            "Vì 'nhưng' sau đó thường đổ lỗi cho người kia, làm mất đi sự chân thành",
+            "Vì câu quá dài",
+            "Vì người nhận không hiểu"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Xin lỗi nhưng bạn cũng sai...' cho thấy con không thực sự nhận lỗi mà đang chia sẻ lỗi với người kia — không giải quyết được vấn đề.",
+          "hint": "Từ 'nhưng' làm gì với ý nghĩa của lời xin lỗi?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi xin lỗi, con cần làm thêm gì để thực sự sửa lỗi?",
+          "options": [
+            "Không cần làm gì thêm sau khi đã nói xin lỗi",
+            "Cố gắng không lặp lại lỗi tương tự",
+            "Yêu cầu người kia tha thứ ngay lập tức",
+            "Tránh mặt người đó"
+          ],
+          "correctIndex": 1,
+          "explanation": "Xin lỗi thật sự kèm theo hành động thay đổi. Không lặp lại lỗi là bằng chứng rõ ràng nhất cho thấy lời xin lỗi của con chân thành.",
+          "hint": "Hành động nói lên nhiều hơn lời nói sau khi xin lỗi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con lỡ nói điều không hay với bạn. Nên xin lỗi khi nào?",
+          "options": [
+            "Đợi vài ngày cho hạ hỏa rồi mới xin lỗi",
+            "Chờ bạn xin lỗi trước",
+            "Không cần xin lỗi, thời gian sẽ xóa đi",
+            "Xin lỗi ngay khi nhận ra mình sai, đừng để lâu"
+          ],
+          "correctIndex": 0,
+          "explanation": "Xin lỗi sớm nhất có thể sau khi nhận ra lỗi là tốt nhất. Để lâu làm tổn thương tích tụ và khó hàn gắn hơn.",
+          "hint": "Xin lỗi sớm hay muộn — cái nào hiệu quả hơn?"
+        },
+        {
+          "type": "true_false",
+          "text": "Người nhận lỗi và xin lỗi thường bị coi là yếu đuối hơn người không xin lỗi.",
+          "correct": false,
+          "explanation": "Thực tế ngược lại — người dám nhận lỗi và xin lỗi được tôn trọng hơn vì cho thấy họ có tự trọng, trách nhiệm và trưởng thành.",
+          "hint": "Xã hội đánh giá người nhận lỗi thế nào so với người tránh né?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Xin lỗi chân thành cần nhận ___ cụ thể, không đổ lỗi cho người khác.",
+          "answer": "lỗi",
+          "explanation": "Nhận lỗi cụ thể — không phán xét, không đổ lỗi ngược — là phần quan trọng nhất của lời xin lỗi hiệu quả.",
+          "hint": "Bước đầu tiên và quan trọng nhất khi xin lỗi."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x009",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 9,
+      "title": "Cất đồ chơi và đồ dùng đúng chỗ",
+      "learningObjective": "Sau bài này Johnny sẽ biết cách cất đồ vật về đúng chỗ sau khi dùng và hiểu hệ thống tổ chức đồ đạc.",
+      "shortExplanation": "Cất đồ đúng chỗ là kỹ năng tổ chức cơ bản. Kỹ sư nhỏ biết rằng hệ thống có tổ chức tốt sẽ hoạt động hiệu quả và ít gây ra lỗi!",
+      "content": "## 🔧 Tình huống\n\nJohnny tìm mãi không thấy bộ lắp ráp Lego yêu thích đâu. Phòng ngập đầy đồ vật. Tìm mất 30 phút nhưng vẫn không thấy. Nếu có hệ thống tổ chức, chuyện này không xảy ra!\n\n## ⚙️ Nguyên lý hệ thống\n\nMỗi đồ vật có một vị trí cố định trong hệ thống. Khi không cần dùng, nó trở về đúng vị trí đó. Đây là nguyên lý giống như trong kho chứa phần tử điện tử hoặc thư viện — mọi thứ có địa chỉ cụ thể.\n\n**Quy tắc vàng:** Bất cứ khi nào lấy thứ gì ra dùng, hãy nghĩ ngay đến việc cất nó về chỗ cũ sau khi dùng xong.\n\n## 📦 Cách xây dựng hệ thống tổ chức\n\n**Phân loại theo nhóm:**\n- Nhóm Lego và đồ lắp ráp → hộp riêng\n- Nhóm đồ chơi điện → ngăn kệ riêng\n- Nhóm sách truyện → giá sách\n- Nhóm đồ thể thao → góc riêng\n\n**Dán nhãn:** Viết tên hoặc dán ảnh lên hộp để nhớ\n\n## 🛠️ Quy trình cất đồ\n\n1. Nhận biết loại đồ vật\n2. Xác định vị trí của nó trong hệ thống\n3. Cất về đúng chỗ\n4. Kiểm tra: có còn thứ gì chưa cất không?\n\n## 🚀 Lợi ích\n\n- Tìm đồ trong vòng 10 giây thay vì 30 phút\n- Đồ vật ít bị mất hay hỏng\n- Phòng luôn gọn gàng không cần dọn nhiều\n- Tiết kiệm thời gian và tránh căng thẳng\n\n## 🌟 Thực hành\n\nHôm nay con hãy chọn 3 loại đồ vật và tạo một 'địa chỉ' cố định cho mỗi loại trong phòng!",
+      "storyContext": "Kỹ sư nhỏ Johnny xây dựng hệ thống lưu trữ đồ vật thông minh — mọi thứ có địa chỉ cố định.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Nguyên tắc 'mỗi đồ vật có một vị trí cố định' giúp gì cho cuộc sống hàng ngày?",
+          "options": [
+            "Giúp mua được nhiều đồ hơn",
+            "Giúp nhà cửa trông đẹp hơn",
+            "Giúp phòng tự động sạch sẽ",
+            "Giúp tìm đồ nhanh và không mất thời gian tìm kiếm"
+          ],
+          "correctIndex": 3,
+          "explanation": "Khi mọi thứ có địa chỉ cố định, con tìm thấy bất kỳ thứ gì trong vài giây thay vì phải mất nhiều phút lục tung mọi chỗ.",
+          "hint": "Hệ thống tổ chức tốt tiết kiệm điều gì quý giá nhất?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quy tắc vàng khi dùng xong một món đồ là gì?",
+          "options": [
+            "Để lại chỗ mình vừa dùng cho tiện lần sau",
+            "Cất về đúng chỗ cũ ngay sau khi dùng xong",
+            "Nhờ người khác cất giúp",
+            "Cất khi nào rảnh thì cất"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cất về đúng chỗ ngay sau khi dùng là thói quen quan trọng nhất. Để sau sẽ quên và đồ vật sẽ dần dần không về đúng chỗ.",
+          "hint": "Thời điểm nào để cất đồ là tốt nhất và giúp duy trì hệ thống?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao nên phân loại đồ vật theo nhóm khi cất?",
+          "options": [
+            "Vì nhóm đồ vật cùng loại ít bị hỏng hơn",
+            "Vì phân loại theo nhóm giúp tìm dễ hơn và hệ thống dễ duy trì",
+            "Vì đó là quy định của nhà trường",
+            "Vì đồ cùng loại không chiếm nhiều chỗ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Phân loại theo nhóm giúp não nhớ 'Lego nằm ở khu Lego, sách nằm ở khu sách' — tìm kiếm theo nhóm nhanh và logic hơn.",
+          "hint": "Tại sao thư viện sắp xếp sách theo chủ đề?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách nào giúp con nhớ chỗ cất từng loại đồ vật?",
+          "options": [
+            "Học thuộc lòng vị trí từng thứ",
+            "Dán nhãn hoặc viết tên lên hộp/ngăn",
+            "Nhờ mẹ nhớ thay",
+            "Không cần nhớ, lục tìm khi cần"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nhãn dán là hệ thống chỉ dẫn trực quan — giống như biển hiệu trong kho. Con nhìn vào nhãn và biết ngay đồ vật đó thuộc về đâu.",
+          "hint": "Hệ thống chỉ dẫn trực quan là gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra khi đồ vật không được cất đúng chỗ thường xuyên?",
+          "options": [
+            "Đồ vật tự tìm chỗ phù hợp",
+            "Không có vấn đề gì",
+            "Hệ thống sụp đổ — đồ vật nằm khắp nơi và tìm kiếm mất nhiều thời gian",
+            "Đồ vật trở nên sạch hơn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Khi liên tục không cất đúng chỗ, hệ thống tổ chức sụp đổ — đồ vật nằm lung tung và con sẽ phải mất nhiều thời gian tìm kiếm như trước.",
+          "hint": "Hệ thống chỉ hoạt động khi mọi người tuân thủ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đồ thể thao như bóng, vợt nên được cất ở đâu?",
+          "options": [
+            "Bất cứ đâu trong phòng",
+            "Trộn lẫn với đồ chơi khác",
+            "Một góc riêng dành cho đồ thể thao",
+            "Bên dưới giường"
+          ],
+          "correctIndex": 1,
+          "explanation": "Góc dành riêng cho đồ thể thao giúp con tìm và lấy nhanh khi cần, đồng thời không lẫn lộn với đồ chơi hay sách vở.",
+          "hint": "Nhóm đồ thể thao cần khu vực riêng phù hợp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi nào là thời điểm tốt nhất để cất đồ sau khi chơi xong?",
+          "options": [
+            "Cuối tuần khi dọn phòng",
+            "Khi ba mẹ nhắc",
+            "Ngay khi vừa chơi xong, trước khi làm việc tiếp theo",
+            "Trước khi đi ngủ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cất đồ ngay sau khi dùng xong là thói quen tốt nhất. Để lâu càng khó cất hơn và dễ bị quên.",
+          "hint": "Thời điểm gần nhất sau khi dùng xong."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hệ thống cất đồ tốt giúp tiết kiệm điều gì trong cuộc sống?",
+          "options": [
+            "Tiền bạc vì không cần mua đồ mới",
+            "Thời gian tìm kiếm và giảm căng thẳng khi cần dùng đồ gấp",
+            "Không gian trong phòng",
+            "Không tiết kiệm gì cả"
+          ],
+          "correctIndex": 2,
+          "explanation": "Khi đồ vật có hệ thống, con tìm thấy trong vài giây thay vì vài phút. Thời gian tiết kiệm được cộng dồn rất nhiều theo năm tháng.",
+          "hint": "Tài nguyên quý giá nhất mà hệ thống tổ chức tiết kiệm."
+        },
+        {
+          "type": "true_false",
+          "text": "Chỉ cần dọn phòng cuối tuần một lần là đủ, không cần cất đồ ngay sau khi dùng.",
+          "correct": false,
+          "explanation": "Cất đồ ngay sau khi dùng là nguyên tắc quan trọng nhất. Nếu chỉ dọn cuối tuần, cả tuần phòng sẽ lộn xộn và tìm đồ rất khó.",
+          "hint": "So sánh: cất ngay sau khi dùng vs chỉ dọn cuối tuần — cái nào hiệu quả hơn?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Mỗi đồ vật cần có một ___ cố định để dễ tìm và hệ thống phòng luôn gọn gàng.",
+          "answer": "chỗ",
+          "explanation": "Nguyên tắc 'mỗi thứ có một chỗ' là nền tảng của hệ thống tổ chức hiệu quả trong mọi lĩnh vực — từ phòng ngủ đến nhà kho công nghiệp.",
+          "hint": "Từ mô tả vị trí cố định của một đồ vật."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x010",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 10,
+      "title": "Lắng nghe trước khi trả lời",
+      "learningObjective": "Sau bài này Johnny sẽ biết cách lắng nghe đầy đủ và xử lý thông tin trước khi phản hồi để giao tiếp hiệu quả hơn.",
+      "shortExplanation": "Lắng nghe đầy đủ trước khi trả lời giúp con hiểu đúng ý người nói và đưa ra câu trả lời chính xác hơn. Đây là kỹ năng giao tiếp quan trọng nhất!",
+      "content": "## 🔬 Thực nghiệm thú vị\n\nNghiên cứu cho thấy con người thường bắt đầu chuẩn bị câu trả lời khi mới nghe được 50% câu hỏi. Điều này dẫn đến hiểu sai và trả lời không trúng ý người hỏi.\n\n## ⚙️ Tại sao lắng nghe đầy đủ quan trọng\n\nKhi con ngắt lời hoặc trả lời quá sớm:\n- Có thể trả lời sai vì chưa hiểu đủ câu hỏi\n- Người nói cảm thấy không được tôn trọng\n- Dễ xảy ra hiểu lầm và xung đột\n\n**Lắng nghe đầy đủ = xử lý thông tin chính xác = phản hồi đúng và hiệu quả**\n\n## 📋 Kỹ thuật lắng nghe tốt\n\n**Trong khi nghe:**\n- Nhìn vào người nói\n- Không ngắt lời\n- Không nhìn điện thoại hay đồ khác\n- Gật đầu nhẹ để cho biết mình đang nghe\n\n**Trước khi trả lời:**\n- Đợi người kia nói xong hoàn toàn\n- Dành 2 đến 3 giây để suy nghĩ\n- Nếu chưa hiểu, hỏi lại: 'Ý bạn là...' hay 'Bạn có thể nói lại không?'\n\n## 🚀 Kết quả\n\n- Câu trả lời chính xác và hữu ích hơn\n- Người nói cảm thấy được tôn trọng và tin tưởng con hơn\n- Ít xảy ra hiểu lầm trong giao tiếp\n- Con được đánh giá là người biết lắng nghe — đây là phẩm chất rất quý\n\n## 🌟 Thực hành\n\nHôm nay trong mỗi cuộc trò chuyện, con hãy đợi người kia nói xong hẳn trước khi bắt đầu trả lời. Theo dõi xem điều đó thay đổi cuộc trò chuyện thế nào!",
+      "storyContext": "Kỹ sư nhỏ Johnny nâng cấp kỹ năng lắng nghe — thu thập đủ dữ liệu trước khi đưa ra câu trả lời tối ưu.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Vấn đề gì xảy ra khi con bắt đầu chuẩn bị câu trả lời khi chỉ mới nghe được một nửa câu hỏi?",
+          "options": [
+            "Con trả lời nhanh hơn",
+            "Con có thể hiểu sai và trả lời không trúng ý người hỏi",
+            "Tiết kiệm được thời gian của cả hai",
+            "Người hỏi sẽ vui vì con nhanh nhẹn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi chuẩn bị trả lời quá sớm, não dành năng lượng cho câu trả lời thay vì lắng nghe phần còn lại — dễ hiểu sai và trả lời không đúng ý.",
+          "hint": "Nếu chưa nghe hết câu hỏi, con có đủ thông tin để trả lời đúng không?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi người khác đang nói chuyện với con, con nên làm gì?",
+          "options": [
+            "Nhìn vào mắt họ và không ngắt lời",
+            "Chuẩn bị câu trả lời trong đầu ngay",
+            "Nhìn điện thoại để chờ",
+            "Nghĩ về việc khác để tiết kiệm thời gian"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nhìn vào mắt và không ngắt lời là hai hành động quan trọng nhất — cho thấy con đang thực sự lắng nghe và tôn trọng người nói.",
+          "hint": "Hai hành động nào thể hiện con đang thực sự lắng nghe?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu con không hiểu câu hỏi, con nên làm gì?",
+          "options": [
+            "Trả lời đại để cho qua",
+            "Im lặng không nói gì",
+            "Hỏi lại: 'Ý bạn là...' hoặc 'Bạn có thể nói rõ hơn không?'",
+            "Giả vờ hiểu và trả lời bừa"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hỏi lại khi chưa hiểu là thông minh và dũng cảm. Trả lời bừa khi không hiểu gây hiểu lầm và mất thời gian cả hai.",
+          "hint": "Cách xử lý thông minh nhất khi thiếu thông tin."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nên dành bao nhiêu giây suy nghĩ trước khi trả lời?",
+          "options": [
+            "0 giây — trả lời ngay lập tức",
+            "10 phút",
+            "Không cần suy nghĩ",
+            "2 đến 3 giây để xử lý thông tin và suy nghĩ câu trả lời"
+          ],
+          "correctIndex": 2,
+          "explanation": "2 đến 3 giây cho não xử lý thông tin vừa nghe và chuẩn bị câu trả lời chính xác. Đây không phải chậm chạp mà là thông minh.",
+          "hint": "Não cần một chút thời gian để xử lý thông tin hiệu quả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lắng nghe đầy đủ trước khi trả lời giúp ích gì cho cuộc trò chuyện?",
+          "options": [
+            "Làm cuộc trò chuyện ngắn hơn",
+            "Giúp câu trả lời chính xác và người nói cảm thấy được tôn trọng",
+            "Giúp con nói nhiều hơn",
+            "Không có ảnh hưởng gì"
+          ],
+          "correctIndex": 0,
+          "explanation": "Lắng nghe đầy đủ giúp hiểu đúng ý → trả lời chính xác → người nói thấy được tôn trọng → cuộc trò chuyện hiệu quả hơn.",
+          "hint": "Kết quả của việc hiểu đúng thông tin trước khi phản hồi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi thầy giáo đang giải thích bài, con nên làm gì?",
+          "options": [
+            "Giơ tay ngắt lời ngay khi nghĩ ra câu hỏi",
+            "Nghe đến hết phần giải thích rồi mới đặt câu hỏi nếu chưa hiểu",
+            "Nói chuyện nhỏ với bạn bên cạnh",
+            "Nhìn ra ngoài cửa sổ"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nghe hết phần giải thích trước vì câu hỏi của con có thể được giải đáp ngay trong phần còn lại. Nếu vẫn chưa hiểu, đặt câu hỏi sau.",
+          "hint": "Câu hỏi có thể được giải đáp trong phần còn lại của giải thích."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Người biết lắng nghe tốt thường được đánh giá thế nào?",
+          "options": [
+            "Bị coi là chậm chạp và kém thông minh",
+            "Được tôn trọng và tin tưởng hơn vì biết lắng nghe là kỹ năng hiếm",
+            "Bị coi là nhút nhát",
+            "Không được để ý"
+          ],
+          "correctIndex": 2,
+          "explanation": "Khả năng lắng nghe tốt là kỹ năng hiếm và quý. Người biết lắng nghe thường được tin tưởng, tôn trọng và có mối quan hệ tốt hơn.",
+          "hint": "Kỹ năng hiếm có thì được đánh giá thế nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao ngắt lời người đang nói là không lịch sự?",
+          "options": [
+            "Vì đó là quy tắc ở trường",
+            "Vì ngắt lời cho thấy con không thực sự lắng nghe và không tôn trọng người nói",
+            "Vì ngắt lời làm người kia quên mất những gì đang nói",
+            "Vì người lớn không thích bị ngắt lời"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ngắt lời truyền thông điệp: 'Câu con muốn nói quan trọng hơn câu bạn đang nói.' Điều đó thể hiện không tôn trọng và thiếu lắng nghe.",
+          "hint": "Ngắt lời gửi đi thông điệp gì đến người đang nói?"
+        },
+        {
+          "type": "true_false",
+          "text": "Trả lời nhanh ngay lập tức luôn tốt hơn dành vài giây suy nghĩ trước khi trả lời.",
+          "correct": false,
+          "explanation": "Dành 2 đến 3 giây để suy nghĩ giúp câu trả lời chính xác và có giá trị hơn. Trả lời quá nhanh thường dẫn đến trả lời sai hoặc không đúng ý.",
+          "hint": "Tốc độ phản hồi có luôn tương quan với chất lượng phản hồi không?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Trước khi trả lời, hãy đợi người kia ___ hẳn để đảm bảo con đã nghe đủ thông tin.",
+          "answer": "nói xong",
+          "explanation": "Đợi người kia nói xong hẳn là bước quan trọng nhất của lắng nghe tốt. Không bao giờ phỏng đoán ý định trước khi họ kết thúc câu.",
+          "hint": "Con cần đợi điều gì xảy ra trước khi bắt đầu trả lời?"
+        }
+      ]
+    }
+  ]
+}

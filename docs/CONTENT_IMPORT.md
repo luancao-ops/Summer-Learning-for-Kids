@@ -10,13 +10,15 @@
 **PDF and raw source files are temporary. Structured data is permanent.**
 
 ```
-Source material (PDF / textbook / notes)
-    ↓
-Extract and structure (OCR → Asset Extraction → Knowledge Extraction)
-    ↓
-JSON manifest  →  content_repository/{subject}/
-    ↓
-Import to database (npm run content:import)
+source_materials/{subject}/              ← Raw PDFs / textbooks (gitignored)
+    ↓  (OCR + knowledge extraction)
+content_repository/{subject}/lessons/    ← Validated JSON (long-term storage)
+    ↓  (optional staging)
+imports/{subject}/                       ← Staged batches waiting for import run
+    ↓  (copy to manifests)
+summer-quest/content/manifests/          ← Active import queue
+    ↓  (npm run content:import)
+summer-quest/prisma/dev.db               ← Live database
     ↓
 Parent review (/parent/review)
     ↓
@@ -34,8 +36,12 @@ Never read PDFs at runtime. Never store PDFs in the database. Process once, reus
 Place a JSON file in `summer-quest/content/manifests/`:
 
 ```
-summer-quest/content/manifests/batch-{subject}-{studentTarget}-g{grade}-{n}.json
+summer-quest/content/manifests/batch-{studentTarget}-g{grade}-{subject}-{n}.json
 ```
+
+**Example:** `batch-girl-g4-math-01.json`, `batch-boy-g3-vi-04.json`
+
+*(Note: 4 legacy files use `batch-english-boy-g3-{n}.json` — do not use this pattern for new batches)*
 
 Format: see `docs/AI_DATA_STANDARDS.md` for full schema.
 
@@ -97,27 +103,39 @@ summer-quest/lib/content-import.ts        ← import logic
 |---|---|---|
 | `Cannot read properties of undefined (reading 'trim')` | A field is `null`/`undefined` in a manifest | Find the null field in the failing manifest and fix it |
 | `Unique constraint failed on id` | Lesson ID already exists | Import skipped it — correct behavior, not an error |
-| `Foreign key constraint failed` | `subjectId` not in `Subject` table | Use only `math`, `vietnamese`, or `english` |
+| `Foreign key constraint failed` | `subjectId` not in `Subject` table | Use only `math`, `vietnamese`, `english`, or `science_life_skills` |
 
 ---
 
-## Part 2 — PDF Import Workflow (V2 — Planned)
+## Part 2 — Book Import Workflow (V2 — Active)
 
-> This workflow is for future use when processing physical textbooks or PDF study materials.
-> Do NOT start this workflow until the asset system (Phase 7) and RAG foundation (Phase 8) are approved.
+> Full step-by-step guide: `tools/import_book/import_workflow.md`
+> Overview: `tools/import_book/README.md`
 
-### Overview
+### End-to-End Pipeline
 
 ```
-PDF source
-    ↓ [Step 1] PDF Import — register source, archive safely
+source_materials/{subject}/         ← PDF placed here (gitignored, never committed)
+    ↓ [Step 1] Register source in content_repository/{subject}/metadata/sources.json
     ↓ [Step 2] OCR — extract raw text, preserve structure
     ↓ [Step 3] Asset Extraction — pull diagrams, images, tables
-    ↓ [Step 4] Knowledge Extraction — AI transforms raw text into lesson JSON
-    ↓ [Step 5] JSON Manifest — validated, ready for database import
-    ↓ [Step 6] content_repository/ — permanent structured storage
-    ↓ [Step 7] npm run content:import — load into database
+    ↓ [Step 4] Knowledge Package — create imports/{subject}/grade{N}/{BookSlug}/
+                  manifest.json       ← package identity + parent review record
+                  curriculum.json     ← unit map, objectives, skills
+                  vocabulary.json     ← all words with Vietnamese hints
+                  grammar.json        ← grammar structures, examples, common errors
+                  assessment_seed.json← question topics + stems (NOT actual quizzes)
+                  assets.json         ← asset catalogue with extraction status
+    ↓ [Step 5] Parent Review — approve units/scope via manifest.json parentReview field
+    ↓ [Step 6] Lesson Generation — content_repository/{subject}/lessons/
+                  (AI reads Knowledge Package, NOT the PDF)
+    ↓ [Step 7] Validation — node scripts/validate-answers.js (zero errors required)
+    ↓ [Step 8] Copy to summer-quest/content/manifests/ → npm run content:import
+    ↓ [Step 9] Parent approves at /parent/review
+    ↓ Children learn ✅
 ```
+
+**Rule:** Once a Knowledge Package exists at `imports/`, the PDF is never read again. All lesson generation uses the Knowledge Package as the sole source of truth.
 
 ### Step 1: PDF Registration
 
@@ -418,13 +436,15 @@ Set `importedToDb: true` after running `npm run content:import` successfully.
 ## Manifest Naming Convention
 
 ```
-batch-{subject}-{studentTarget}-g{grade}-{n}.json
+batch-{studentTarget}-g{grade}-{subject}-{n}.json
 
 Examples:
-  batch-math-girl-g5-01.json
-  batch-vietnamese-boy-g4-03.json
-  batch-english-girl-g4-02.json
+  batch-girl-g5-math-01.json
+  batch-boy-g4-vietnamese-03.json
+  batch-girl-g4-english-02.json
 ```
+
+*(Note: 4 legacy files use `batch-english-boy-g3-{n}.json` — do not use this pattern for new batches)*
 
 ---
 

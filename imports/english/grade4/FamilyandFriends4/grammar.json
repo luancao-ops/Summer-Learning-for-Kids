@@ -1,0 +1,246 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g4-family-and-friends-4",
+    "title": "Family and Friends 4 — Grammar Reference",
+    "extractedAt": "2026-06-09",
+    "totalStructures": 8,
+    "organisation": "One structure per unit"
+  },
+
+  "structures": [
+    {
+      "unit": 1,
+      "structureId": "g4-gram-01",
+      "name": "Gerunds after like / love / hate / enjoy",
+      "vietnameseName": "Danh động từ (-ing) sau like/love/hate/enjoy",
+      "forms": [
+        "Subject + love/enjoy/like/don't mind/dislike/hate + verb-ing",
+        "I love swimming.",
+        "She enjoys reading books.",
+        "He hates getting up early.",
+        "We don't mind doing homework."
+      ],
+      "rules": [
+        "After verbs of opinion (love, enjoy, like, don't mind, dislike, hate), use verb + -ing (gerund)",
+        "The gerund (-ing form) acts as a noun — it is the object of the opinion verb",
+        "Spelling: drop silent e before -ing (ride → riding); double consonant if short vowel + consonant (swim → swimming)"
+      ],
+      "commonErrors": [
+        "❌ I love to swim. (incorrect for this structure — use -ing)",
+        "❌ She enjoy reading. (missing -s on enjoy for he/she/it)",
+        "❌ He hates get up early. (must use -ing after hate)",
+        "✅ He hates getting up early."
+      ],
+      "howOften": {
+        "question": "How often do you...?",
+        "frequencyAdverbs": ["always", "usually", "often", "sometimes", "rarely", "never"],
+        "example": "How often do you go cycling? — I usually go cycling on Saturdays."
+      },
+      "examTips": "Common error: using infinitive (to + verb) instead of gerund after like/love/enjoy/hate. Always use -ing."
+    },
+    {
+      "unit": 2,
+      "structureId": "g4-gram-02",
+      "name": "Comparative adjectives",
+      "vietnameseName": "Tính từ so sánh hơn",
+      "forms": [
+        "Short adjectives (1 syllable): adjective + -er + than",
+        "cold → colder than | hot → hotter than | big → bigger than",
+        "Long adjectives (2+ syllables): more + adjective + than",
+        "dangerous → more dangerous than | exciting → more exciting than",
+        "Irregular: good → better than | bad → worse than | far → further/farther than",
+        "as ... as: It is as cold as the North Pole."
+      ],
+      "rules": [
+        "1-syllable adjectives: add -er (short + single final consonant: double it — hot → hotter)",
+        "2-syllable adjectives ending in -y: change y to i + -er (foggy → foggier)",
+        "2+ syllable adjectives: use 'more' before the adjective",
+        "as...as: used for equal comparison; not as...as for unequal"
+      ],
+      "commonErrors": [
+        "❌ It is more hot than yesterday.",
+        "✅ It is hotter than yesterday.",
+        "❌ London is more cold than Hanoi.",
+        "✅ London is colder than Hanoi.",
+        "❌ This storm is more bad than the last one.",
+        "✅ This storm is worse than the last one."
+      ],
+      "examTips": "Remember irregular comparatives: good→better, bad→worse. Never use 'more' with short adjectives like hot, cold, big, tall, fast."
+    },
+    {
+      "unit": 3,
+      "structureId": "g4-gram-03",
+      "name": "Present continuous (for now AND future arrangements)",
+      "vietnameseName": "Thì hiện tại tiếp diễn (hành động đang xảy ra và sắp xếp tương lai)",
+      "forms": [
+        "Affirmative: Subject + am/is/are + verb-ing",
+        "Negative: Subject + am/is/are + not + verb-ing",
+        "Question: Am/Is/Are + Subject + verb-ing?",
+        "For future arrangements: I am meeting my friend tomorrow. (already planned)"
+      ],
+      "rules": [
+        "Use present continuous for: (1) actions happening right now; (2) fixed future arrangements",
+        "Spelling: drop silent e (make → making); double consonant if short vowel + consonant (run → running)",
+        "Key time words for future use: tomorrow, next week, on Saturday, this evening"
+      ],
+      "commonErrors": [
+        "❌ I am liking pizza. (stative verb — 'like' is not used in continuous)",
+        "❌ She is go to school now.",
+        "✅ She is going to school now.",
+        "❌ They are travel to France next week.",
+        "✅ They are travelling to France next week."
+      ],
+      "examTips": "Stative verbs (like, love, know, want, have, need) are NOT normally used in continuous form. Also note: 'be going to' and 'present continuous for future' are different — present continuous implies a definite arrangement."
+    },
+    {
+      "unit": 4,
+      "structureId": "g4-gram-04",
+      "name": "be going to (future plans and intentions)",
+      "vietnameseName": "Cấu trúc be going to (kế hoạch và dự định tương lai)",
+      "forms": [
+        "Affirmative: Subject + am/is/are + going to + verb",
+        "Negative: Subject + am/is/are + not + going to + verb",
+        "Question: Am/Is/Are + Subject + going to + verb?",
+        "I am going to buy new shoes tomorrow.",
+        "She isn't going to wear that dress.",
+        "Are you going to visit the market?"
+      ],
+      "rules": [
+        "Use 'going to' for plans already decided before speaking",
+        "Use 'going to' for predictions based on visible evidence",
+        "The verb after 'going to' is always the base form (infinitive without 'to')"
+      ],
+      "commonErrors": [
+        "❌ I am going to bought shoes.",
+        "✅ I am going to buy shoes.",
+        "❌ She going to travel next week.",
+        "✅ She is going to travel next week.",
+        "❌ Are they going to to visit us?",
+        "✅ Are they going to visit us?"
+      ],
+      "examTips": "Do not put 'to' after 'going to' again — the structure is 'going to + BASE verb', not 'going to + to + verb'. Also: 'going to go somewhere' is often replaced by 'going somewhere' in informal speech."
+    },
+    {
+      "unit": 5,
+      "structureId": "g4-gram-05",
+      "name": "Countable and uncountable nouns; some / any; How much / How many",
+      "vietnameseName": "Danh từ đếm được / không đếm được; some / any; How much / How many",
+      "forms": [
+        "Countable: apple → apples | egg → eggs | banana → bananas",
+        "Uncountable: water, milk, rice, sugar, flour, butter, oil (NO plural -s)",
+        "some + affirmative: I need some sugar. / There are some apples.",
+        "any + question/negative: Is there any milk? / We don't have any flour.",
+        "How many + countable: How many eggs do we need?",
+        "How much + uncountable: How much water is left?"
+      ],
+      "rules": [
+        "Countable nouns can be singular or plural: one apple / two apples",
+        "Uncountable nouns have no plural form — never add -s",
+        "some → affirmative sentences; any → questions and negatives",
+        "Exception: use 'some' in questions when offering/requesting politely: 'Would you like some tea?'",
+        "How many → countable; How much → uncountable"
+      ],
+      "commonErrors": [
+        "❌ I need some rices. (rice is uncountable)",
+        "✅ I need some rice.",
+        "❌ Are there some apples? (question → any)",
+        "✅ Are there any apples?",
+        "❌ How many milk do we have?",
+        "✅ How much milk do we have?"
+      ],
+      "examTips": "The most tested point: remembering which nouns are uncountable (water, milk, rice, sugar, flour, butter, cheese, bread). Avoid adding -s to uncountable nouns."
+    },
+    {
+      "unit": 6,
+      "structureId": "g4-gram-06",
+      "name": "Past simple (regular and irregular verbs)",
+      "vietnameseName": "Thì quá khứ đơn (động từ có quy tắc và bất quy tắc)",
+      "forms": [
+        "Regular affirmative: Subject + verb-ed",
+        "walked, played, visited, cooked, finished, watched",
+        "Irregular affirmative: go→went, come→came, see→saw, eat→ate, buy→bought, ride→rode, swim→swam, run→ran",
+        "Negative: Subject + didn't + base verb",
+        "She didn't come to school yesterday.",
+        "Question: Did + Subject + base verb?",
+        "Did you see that film? — Yes, I did. / No, I didn't."
+      ],
+      "rules": [
+        "Regular verbs: add -ed (walk→walked; double consonant: stop→stopped; drop e: like→liked; y→ied: study→studied)",
+        "Irregular verbs must be memorised — there is no rule",
+        "For negatives and questions: use 'did' + BASE verb (NOT past form)",
+        "Time expressions: yesterday, last week, ago, in 2022"
+      ],
+      "commonErrors": [
+        "❌ She didn't went to school. (use base verb after didn't)",
+        "✅ She didn't go to school.",
+        "❌ Did they ate lunch? (use base verb in questions)",
+        "✅ Did they eat lunch?",
+        "❌ We goed to the park. (go is irregular)",
+        "✅ We went to the park."
+      ],
+      "examTips": "Key irregular verbs to memorise: go/went, come/came, see/saw, eat/ate, have/had, buy/bought, run/ran, swim/swam, take/took, make/made, say/said, find/found."
+    },
+    {
+      "unit": 7,
+      "structureId": "g4-gram-07",
+      "name": "should / shouldn't (advice)",
+      "vietnameseName": "Should / shouldn't (đưa ra lời khuyên)",
+      "forms": [
+        "Affirmative: Subject + should + base verb",
+        "You should rest and drink lots of water.",
+        "Negative: Subject + shouldn't + base verb",
+        "You shouldn't eat too much sugar.",
+        "Question: Should + Subject + base verb?",
+        "Should I see a doctor? — Yes, you should. / No, you shouldn't."
+      ],
+      "rules": [
+        "should = it is a good idea to do this (advice / recommendation)",
+        "shouldn't = it is a bad idea to do this (negative advice)",
+        "The verb after should/shouldn't is always the BASE form",
+        "should is a modal verb — same form for all subjects (no -s for he/she/it)"
+      ],
+      "commonErrors": [
+        "❌ You should to rest.",
+        "✅ You should rest.",
+        "❌ She shouldn't eats sweets.",
+        "✅ She shouldn't eat sweets.",
+        "❌ He shoulds go to the doctor.",
+        "✅ He should go to the doctor."
+      ],
+      "examTips": "No 'to' after should/shouldn't. No -s for he/she/it. Contrast: 'must' = obligation (stronger); 'should' = advice (softer, not compulsory)."
+    },
+    {
+      "unit": 8,
+      "structureId": "g4-gram-08",
+      "name": "can / can't (present ability); could / couldn't (past ability)",
+      "vietnameseName": "Can/can't (khả năng hiện tại); could/couldn't (khả năng trong quá khứ)",
+      "forms": [
+        "Present ability: Subject + can + base verb",
+        "I can swim. / She can't fly a plane.",
+        "Past ability: Subject + could + base verb",
+        "He could run very fast when he was young.",
+        "She couldn't speak English before she went to school.",
+        "Question (present): Can + Subject + base verb?",
+        "Can you ride a bike? — Yes, I can. / No, I can't.",
+        "Question (past): Could + Subject + base verb?",
+        "Could you cook when you were six?"
+      ],
+      "rules": [
+        "can/could are modal verbs — same form for all subjects",
+        "can → present ability or possibility",
+        "could → past ability (what you were able to do before)",
+        "The verb after can/can't/could/couldn't is always the BASE form",
+        "can also expresses permission and possibility: Can I open the window? / It can get very cold here."
+      ],
+      "commonErrors": [
+        "❌ She cans swim. (no -s on modal verbs)",
+        "✅ She can swim.",
+        "❌ They could to play the piano. (no 'to' after could)",
+        "✅ They could play the piano.",
+        "❌ I can't swam last year. (use could/couldn't for past)",
+        "✅ I couldn't swim last year."
+      ],
+      "examTips": "can = present; could = past. No -s for he/she/it. No 'to' after can/could. Contrast with 'be able to' which is more formal and works in all tenses."
+    }
+  ]
+}

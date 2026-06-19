@@ -13,6 +13,11 @@
  *   correctAnswer="C" (option text "4/5"), explanation says "phân số là 4/9"
  *   → flags because 4/9 matches option D, not C
  *
+ * CHECK 3 — Human-flagged questions (all subjects)
+ * Reads all unresolved QuestionReport records. These are questions that a student
+ * or parent manually flagged during use. Shown as a separate section at the end.
+ * These require manual investigation — the script cannot auto-fix them.
+ *
  * What is NOT detected (still needs manual/parent review):
  * - Language/grammar questions where the wrong option is described without
  *   naming a letter or fraction (e.g., "Nhanh nhẹn là tính từ" without saying "C")
@@ -169,29 +174,80 @@ async function main() {
     }
   }
 
-  if (errors.length === 0) {
+  // ── Check 3: Human-flagged questions ─────────────────────────────────────────
+  const humanFlags = await p.$queryRaw`
+    SELECT
+      qr.id,
+      qr.reason,
+      qr.note,
+      qr.reportedBy,
+      strftime('%Y-%m-%d %H:%M', qr.createdAt)  AS flaggedAt,
+      q.orderIndex,
+      q.text                                     AS questionText,
+      q.correctAnswer,
+      l.id                                       AS lessonId,
+      l.title                                    AS lessonTitle,
+      subj.label                                 AS subjectLabel,
+      st.displayName                             AS studentName
+    FROM "QuestionReport" qr
+    INNER JOIN "Question" q    ON q.id    = qr.questionId
+    INNER JOIN "Lesson"   l    ON l.id    = qr.lessonId
+    INNER JOIN "Subject"  subj ON subj.id = l.subjectId
+    LEFT  JOIN "Student"  st   ON st.id   = qr.studentId
+    WHERE qr.resolved = false
+    ORDER BY qr.createdAt DESC
+  `;
+
+  // ── Output ────────────────────────────────────────────────────────────────────
+
+  const autoErrors = errors.length;
+  const humanCount = humanFlags.length;
+
+  if (autoErrors === 0 && humanCount === 0) {
     console.log(`✅ All ${questions.length} MC questions checked — no answer contradictions found.`);
-    console.log(`   (Checks: explicit letter mentions + math fraction endings)`);
+    console.log(`   (Checks: explicit letter mentions + math fraction endings + human flags)`);
     await p.$disconnect();
     return;
   }
 
-  console.log(`\n❌ Found ${errors.length} answer contradiction(s):\n`);
-  let currentLesson = '';
-  for (const q of errors) {
-    if (q.lessonId !== currentLesson) {
-      currentLesson = q.lessonId;
-      console.log(`  ${q.lessonId}`);
+  if (autoErrors > 0) {
+    console.log(`\n❌ Found ${autoErrors} auto-detected answer contradiction(s):\n`);
+    let currentLesson = '';
+    for (const q of errors) {
+      if (q.lessonId !== currentLesson) {
+        currentLesson = q.lessonId;
+        console.log(`  ${q.lessonId}`);
+      }
+      const snippet = (q.explanation || '').slice(0, 100).replace(/\n/g, ' ');
+      console.log(`    Q${q.orderIndex} [${q.type}]: stored="${q.correctAnswer}" but ${q.detail}`);
+      console.log(`             "${snippet}"`);
     }
-    const snippet = (q.explanation || '').slice(0, 100).replace(/\n/g, ' ');
-    console.log(`    Q${q.orderIndex} [${q.type}]: stored="${q.correctAnswer}" but ${q.detail}`);
-    console.log(`             "${snippet}"`);
+    console.log(`\nTo fix: update correctAnswer in the DB to match the letter named in the explanation.`);
   }
 
-  console.log(`\nTotal checked: ${questions.length} | Flagged: ${errors.length}`);
-  console.log('\nTo fix: update correctAnswer in the DB to match the letter named in the explanation.');
+  if (humanCount > 0) {
+    const REASON = { wrong_answer: 'Đáp án sai', wrong_explanation: 'Giải thích sai', other: 'Vấn đề khác' };
+    console.log(`\n🚩 Found ${humanCount} human-flagged question(s) (unresolved):\n`);
+    let currentLesson = '';
+    for (const r of humanFlags) {
+      if (r.lessonId !== currentLesson) {
+        currentLesson = r.lessonId;
+        console.log(`  ${r.lessonId}  (${r.lessonTitle})`);
+      }
+      const reporter = r.studentName ?? r.reportedBy;
+      const reasonLabel = REASON[r.reason] ?? r.reason;
+      console.log(`    Q${r.orderIndex} [${reasonLabel}]: stored="${r.correctAnswer}" — flagged by ${reporter} at ${r.flaggedAt}`);
+      console.log(`             "${(r.questionText || '').slice(0, 100)}"`);
+      if (r.note) console.log(`             Note: "${r.note}"`);
+    }
+    console.log(`\nTo resolve: fix the question in the DB, then mark resolved at /parent/review.`);
+  }
+
+  console.log(`\nTotal checked: ${questions.length} MC questions`);
+  if (autoErrors > 0) console.log(`  Auto-detected errors : ${autoErrors}`);
+  if (humanCount > 0)  console.log(`  Human-flagged (open) : ${humanCount}`);
   await p.$disconnect();
-  process.exit(1);
+  if (autoErrors > 0) process.exit(1);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

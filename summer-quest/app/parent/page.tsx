@@ -26,6 +26,43 @@ export default async function ParentPage() {
   const readingCutoff = recentDateCutoff(7);
   const students = await prisma.student.findMany({ orderBy: { id: "asc" } });
   const pendingReviewCount = await prisma.lesson.count({ where: { approved: false } });
+
+  type FlaggedReport = {
+    id: string;
+    reason: string;
+    note: string;
+    createdAt: string;
+    questionText: string;
+    correctAnswer: string;
+    orderIndex: number;
+    lessonId: string;
+    lessonTitle: string;
+    subjectEmoji: string;
+    subjectLabel: string;
+    studentName: string | null;
+  };
+
+  const flaggedReports = await prisma.$queryRaw<FlaggedReport[]>`
+    SELECT
+      qr.id, qr.reason, qr.note,
+      strftime('%d/%m %H:%M', qr.createdAt)  AS createdAt,
+      q.text                                  AS questionText,
+      q.correctAnswer,
+      q.orderIndex,
+      l.id                                    AS lessonId,
+      l.title                                 AS lessonTitle,
+      subj.emoji                              AS subjectEmoji,
+      subj.label                              AS subjectLabel,
+      st.displayName                          AS studentName
+    FROM "QuestionReport" qr
+    INNER JOIN "Question" q    ON q.id    = qr.questionId
+    INNER JOIN "Lesson"   l    ON l.id    = qr.lessonId
+    INNER JOIN "Subject"  subj ON subj.id = l.subjectId
+    LEFT  JOIN "Student"  st   ON st.id   = qr.studentId
+    WHERE qr.resolved = false
+    ORDER BY qr.createdAt DESC
+    LIMIT 100
+  `;
   const resetDataCounts: ResetDataCounts = {
     attempts: await prisma.attempt.count(),
     mistakes: await prisma.mistake.count(),
@@ -122,7 +159,12 @@ export default async function ParentPage() {
               </Link>
               <Link href="/parent/review" className="flex h-12 items-center gap-2 rounded-2xl bg-gradient-to-r from-indigo-700 to-violet-600 px-5 font-black text-white shadow-lg shadow-indigo-200">
                 Duyệt nội dung
-                <span className="rounded-full bg-white px-2 py-0.5 text-sm text-indigo-700">{pendingReviewCount}</span>
+                {pendingReviewCount > 0 && (
+                  <span className="rounded-full bg-white px-2 py-0.5 text-sm text-indigo-700">{pendingReviewCount}</span>
+                )}
+                {flaggedReports.length > 0 && (
+                  <span className="rounded-full bg-rose-500 px-2 py-0.5 text-sm text-white">🚩 {flaggedReports.length}</span>
+                )}
               </Link>
             </div>
           </div>
@@ -144,6 +186,55 @@ export default async function ParentPage() {
             return <ParentSummary key={student.id} student={student} progress={progress} />;
           })}
         </section>
+
+        {flaggedReports.length > 0 && (
+          <section className="rounded-2xl p-5 shadow-sm" style={{ backgroundColor: "#fff1f2", border: "2px solid #fecdd3" }}>
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <h2 className="text-2xl font-black" style={{ color: "#9f1239" }}>
+                🚩 Câu hỏi bị báo cáo ({flaggedReports.length})
+              </h2>
+              <Link href="/parent/review" className="text-sm font-black" style={{ color: "#e11d48" }}>
+                Xem &amp; xử lý tất cả →
+              </Link>
+            </div>
+            <p className="mt-1 text-sm font-semibold" style={{ color: "#be123c" }}>
+              Học sinh đánh dấu những câu này có vấn đề. Kiểm tra và nhấn "Đã xem & xử lý" để xóa khỏi danh sách.
+            </p>
+            <div className="mt-4 space-y-3">
+              {flaggedReports.map((r) => {
+                const reasonLabel: Record<string, string> = {
+                  wrong_answer: "❌ Đáp án sai",
+                  wrong_explanation: "📝 Giải thích sai",
+                  other: "❓ Vấn đề khác",
+                };
+                return (
+                  <div key={r.id} className="rounded-xl p-4" style={{ backgroundColor: "#ffffff" }}>
+                    <div className="flex flex-wrap items-start gap-3">
+                      <span className="shrink-0 rounded-full px-3 py-1 text-xs font-black text-white" style={{ backgroundColor: "#e11d48" }}>
+                        {reasonLabel[r.reason] ?? r.reason}
+                      </span>
+                      <span className="text-xs font-semibold" style={{ color: "#64748b" }}>
+                        {r.subjectEmoji} {r.subjectLabel} · {r.lessonTitle} · Câu {r.orderIndex}
+                      </span>
+                      <span className="text-xs" style={{ color: "#94a3b8" }}>
+                        {r.studentName ?? "Phụ huynh"} · {r.createdAt}
+                      </span>
+                    </div>
+                    <p className="mt-2 font-bold" style={{ color: "#1e293b" }}>{r.questionText}</p>
+                    <p className="mt-1 text-sm font-semibold" style={{ color: "#64748b" }}>
+                      Đáp án đang lưu: <span className="font-black text-slate-800">{r.correctAnswer}</span>
+                    </p>
+                    {r.note && (
+                      <p className="mt-2 rounded-lg p-2 text-sm font-semibold" style={{ backgroundColor: "#fef9c3", color: "#713f12" }}>
+                        "{r.note}"
+                      </p>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
         <section className="rounded-2xl bg-white p-5 shadow-sm">
           <h2 className="text-2xl font-black">🏠 Công việc nhà hôm nay</h2>

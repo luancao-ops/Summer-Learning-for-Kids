@@ -1,0 +1,267 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g4-family-and-friends-4",
+    "title": "Family and Friends 4 — Vocabulary Index",
+    "extractedAt": "2026-06-09",
+    "totalWords": 144,
+    "organisation": "By unit, then by vocabulary set within each unit"
+  },
+
+  "byUnit": [
+    {
+      "unit": 1,
+      "unitTitle": "Free time!",
+      "sets": [
+        {
+          "setId": "u1-s1",
+          "setName": "Hobbies and activities",
+          "words": [
+            { "word": "skateboarding", "partOfSpeech": "noun/gerund", "definition": "Riding on a board with wheels", "example": "He goes skateboarding in the park.", "vietnameseHint": "trượt ván" },
+            { "word": "cycling", "partOfSpeech": "noun/gerund", "definition": "Riding a bicycle", "example": "I love cycling along the river.", "vietnameseHint": "đạp xe" },
+            { "word": "hiking", "partOfSpeech": "noun/gerund", "definition": "Walking long distances in nature", "example": "We go hiking in the mountains.", "vietnameseHint": "đi bộ đường dài" },
+            { "word": "photography", "partOfSpeech": "noun", "definition": "Taking photos as a hobby", "example": "She loves photography and has a good camera.", "vietnameseHint": "nhiếp ảnh" },
+            { "word": "gardening", "partOfSpeech": "noun/gerund", "definition": "Growing plants and flowers", "example": "My mum enjoys gardening at weekends.", "vietnameseHint": "làm vườn" },
+            { "word": "birdwatching", "partOfSpeech": "noun/gerund", "definition": "Observing birds in nature", "example": "Birdwatching is very relaxing.", "vietnameseHint": "quan sát chim" },
+            { "word": "collecting", "partOfSpeech": "noun/gerund", "definition": "Gathering objects of the same type", "example": "He enjoys collecting stamps from different countries.", "vietnameseHint": "sưu tập" },
+            { "word": "doing puzzles", "partOfSpeech": "verb phrase", "definition": "Completing jigsaw or word puzzles", "example": "She spends hours doing puzzles.", "vietnameseHint": "ghép hình / giải câu đố" }
+          ]
+        },
+        {
+          "setId": "u1-s2",
+          "setName": "Opinions about activities",
+          "words": [
+            { "word": "love", "partOfSpeech": "verb", "definition": "Like very, very much", "example": "I love swimming in the sea.", "vietnameseHint": "yêu thích / rất thích" },
+            { "word": "enjoy", "partOfSpeech": "verb", "definition": "Get pleasure from something", "example": "We enjoy playing board games.", "vietnameseHint": "thích / tận hưởng" },
+            { "word": "like", "partOfSpeech": "verb", "definition": "Find something pleasant", "example": "She likes drawing pictures.", "vietnameseHint": "thích" },
+            { "word": "don't mind", "partOfSpeech": "verb phrase", "definition": "It is okay — not strongly for or against", "example": "I don't mind washing the dishes.", "vietnameseHint": "không ngại / cũng được" },
+            { "word": "dislike", "partOfSpeech": "verb", "definition": "Not enjoy something", "example": "He dislikes getting up early.", "vietnameseHint": "không thích" },
+            { "word": "hate", "partOfSpeech": "verb", "definition": "Strongly dislike", "example": "I hate being late for school.", "vietnameseHint": "ghét" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Wild weather!",
+      "sets": [
+        {
+          "setId": "u2-s1",
+          "setName": "Weather adjectives",
+          "words": [
+            { "word": "foggy", "partOfSpeech": "adjective", "definition": "Full of thick mist, hard to see", "example": "It's foggy this morning — I can't see the road.", "vietnameseHint": "có sương mù" },
+            { "word": "icy", "partOfSpeech": "adjective", "definition": "Covered in ice, very cold", "example": "The roads are icy — drive carefully.", "vietnameseHint": "phủ băng / rất lạnh" },
+            { "word": "stormy", "partOfSpeech": "adjective", "definition": "With strong winds, heavy rain or thunder", "example": "It was a stormy night.", "vietnameseHint": "có bão / giông bão" },
+            { "word": "humid", "partOfSpeech": "adjective", "definition": "Warm and full of water vapour in the air", "example": "Vietnam is very humid in summer.", "vietnameseHint": "ẩm ướt / nóng ẩm" },
+            { "word": "boiling", "partOfSpeech": "adjective (informal)", "definition": "Extremely hot", "example": "It's boiling today — over 40 degrees!", "vietnameseHint": "nóng như thiêu đốt" },
+            { "word": "freezing", "partOfSpeech": "adjective (informal)", "definition": "Extremely cold", "example": "Don't go out — it's freezing outside!", "vietnameseHint": "lạnh cóng" },
+            { "word": "mild", "partOfSpeech": "adjective", "definition": "Not too hot or too cold — pleasant", "example": "Spring is usually mild and sunny.", "vietnameseHint": "ôn hòa / không quá lạnh hay nóng" },
+            { "word": "overcast", "partOfSpeech": "adjective", "definition": "Covered with clouds, grey sky", "example": "The sky is overcast — it might rain.", "vietnameseHint": "âm u / trời nhiều mây" }
+          ]
+        },
+        {
+          "setId": "u2-s2",
+          "setName": "Extreme weather events",
+          "words": [
+            { "word": "flood", "partOfSpeech": "noun", "definition": "Large amount of water covering land", "example": "The flood destroyed many houses.", "vietnameseHint": "lũ lụt" },
+            { "word": "drought", "partOfSpeech": "noun", "definition": "Long period of very little rain", "example": "The drought killed the crops.", "vietnameseHint": "hạn hán" },
+            { "word": "hurricane", "partOfSpeech": "noun", "definition": "Very powerful tropical storm with strong winds", "example": "The hurricane caused huge damage.", "vietnameseHint": "bão nhiệt đới (ở Đại Tây Dương)" },
+            { "word": "blizzard", "partOfSpeech": "noun", "definition": "Severe snowstorm with strong winds", "example": "The blizzard blocked the roads.", "vietnameseHint": "bão tuyết" },
+            { "word": "heatwave", "partOfSpeech": "noun", "definition": "Period of unusually hot weather", "example": "The heatwave lasted two weeks.", "vietnameseHint": "đợt nắng nóng cực đoan" },
+            { "word": "thunderstorm", "partOfSpeech": "noun", "definition": "Storm with thunder, lightning and heavy rain", "example": "A thunderstorm hit the city last night.", "vietnameseHint": "giông sét" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "unitTitle": "On the move!",
+      "sets": [
+        {
+          "setId": "u3-s1",
+          "setName": "Means of transport",
+          "words": [
+            { "word": "tram", "partOfSpeech": "noun", "definition": "Electric vehicle running on rails in a city", "example": "The tram stops at the market.", "vietnameseHint": "xe điện (tàu điện)" },
+            { "word": "ferry", "partOfSpeech": "noun", "definition": "Boat that carries people across water", "example": "We take the ferry to the island.", "vietnameseHint": "phà / tàu phà" },
+            { "word": "cable car", "partOfSpeech": "noun", "definition": "Vehicle that travels up mountains on a cable", "example": "We rode the cable car up the mountain.", "vietnameseHint": "cáp treo" },
+            { "word": "hot air balloon", "partOfSpeech": "noun", "definition": "Large balloon that flies through the air", "example": "She flew in a hot air balloon.", "vietnameseHint": "khinh khí cầu" },
+            { "word": "scooter", "partOfSpeech": "noun", "definition": "Small two-wheeled motor vehicle", "example": "Mum rides a scooter to work.", "vietnameseHint": "xe tay ga / xe scooter" },
+            { "word": "submarine", "partOfSpeech": "noun", "definition": "Vehicle that travels underwater", "example": "The submarine went deep under the sea.", "vietnameseHint": "tàu ngầm" }
+          ]
+        },
+        {
+          "setId": "u3-s2",
+          "setName": "Travel verbs and phrases",
+          "words": [
+            { "word": "depart", "partOfSpeech": "verb", "definition": "Leave a place (formal)", "example": "The train departs at 8 o'clock.", "vietnameseHint": "khởi hành" },
+            { "word": "arrive", "partOfSpeech": "verb", "definition": "Reach a destination", "example": "We arrive in Paris at noon.", "vietnameseHint": "đến nơi" },
+            { "word": "board", "partOfSpeech": "verb", "definition": "Get onto a plane, ship or train", "example": "Passengers, please board the plane.", "vietnameseHint": "lên (máy bay/tàu)" },
+            { "word": "check in", "partOfSpeech": "verb phrase", "definition": "Register at airport or hotel", "example": "We checked in two hours early.", "vietnameseHint": "làm thủ tục / nhận phòng" },
+            { "word": "miss", "partOfSpeech": "verb", "definition": "Be too late to catch transport", "example": "We missed the bus by one minute.", "vietnameseHint": "lỡ (xe/tàu/máy bay)" },
+            { "word": "catch", "partOfSpeech": "verb", "definition": "Be in time to get on transport", "example": "Run — we can still catch the train!", "vietnameseHint": "kịp (chuyến xe/tàu)" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "unitTitle": "Let's go shopping!",
+      "sets": [
+        {
+          "setId": "u4-s1",
+          "setName": "Clothes and accessories",
+          "words": [
+            { "word": "coat", "partOfSpeech": "noun", "definition": "Long warm outer garment", "example": "Wear your coat — it's cold outside.", "vietnameseHint": "áo khoác dài" },
+            { "word": "scarf", "partOfSpeech": "noun", "definition": "Cloth worn around the neck for warmth", "example": "She has a red scarf.", "vietnameseHint": "khăn quàng cổ" },
+            { "word": "gloves", "partOfSpeech": "noun (plural)", "definition": "Coverings for the hands with separate fingers", "example": "Put on your gloves — it's freezing.", "vietnameseHint": "găng tay" },
+            { "word": "boots", "partOfSpeech": "noun (plural)", "definition": "Shoes that cover the ankle or leg", "example": "She wears boots in winter.", "vietnameseHint": "giày/ủng cao cổ" },
+            { "word": "tracksuit", "partOfSpeech": "noun", "definition": "Matching top and trousers for sport", "example": "He wears a tracksuit to PE class.", "vietnameseHint": "bộ thể thao" },
+            { "word": "dungarees", "partOfSpeech": "noun (plural)", "definition": "Trousers with a top part attached by straps", "example": "She wore cute dungarees and a t-shirt.", "vietnameseHint": "quần yếm" },
+            { "word": "belt", "partOfSpeech": "noun", "definition": "Strip of leather or cloth worn round the waist", "example": "He needs a belt to hold his trousers up.", "vietnameseHint": "thắt lưng / dây nịt" },
+            { "word": "cap", "partOfSpeech": "noun", "definition": "Soft flat hat often with a peak", "example": "He wore a blue cap at the match.", "vietnameseHint": "mũ lưỡi trai" }
+          ]
+        },
+        {
+          "setId": "u4-s2",
+          "setName": "Shopping language",
+          "words": [
+            { "word": "afford", "partOfSpeech": "verb", "definition": "Have enough money to buy something", "example": "I can't afford that dress — it's too expensive.", "vietnameseHint": "đủ tiền mua" },
+            { "word": "discount", "partOfSpeech": "noun", "definition": "Reduction in price", "example": "There's a 20% discount on all shoes.", "vietnameseHint": "giảm giá" },
+            { "word": "receipt", "partOfSpeech": "noun", "definition": "Paper showing what you bought and paid", "example": "Keep the receipt in case you return the item.", "vietnameseHint": "hóa đơn" },
+            { "word": "try on", "partOfSpeech": "verb phrase", "definition": "Put on clothes to see if they fit", "example": "Can I try on these jeans?", "vietnameseHint": "thử (quần áo)" },
+            { "word": "in stock", "partOfSpeech": "adjective phrase", "definition": "Available to buy right now", "example": "Is this shirt in stock in size medium?", "vietnameseHint": "còn hàng" },
+            { "word": "out of stock", "partOfSpeech": "adjective phrase", "definition": "Not available — sold out", "example": "Sorry, those boots are out of stock.", "vietnameseHint": "hết hàng" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "Yummy food!",
+      "sets": [
+        {
+          "setId": "u5-s1",
+          "setName": "Food groups and types",
+          "words": [
+            { "word": "grains", "partOfSpeech": "noun (plural)", "definition": "Starchy foods: bread, rice, pasta, cereal", "example": "Grains give us energy.", "vietnameseHint": "ngũ cốc (gạo, mì, bánh mì)" },
+            { "word": "dairy", "partOfSpeech": "noun (uncountable)", "definition": "Milk products: cheese, yoghurt, butter", "example": "Dairy products are rich in calcium.", "vietnameseHint": "sản phẩm từ sữa" },
+            { "word": "protein", "partOfSpeech": "noun (uncountable)", "definition": "Meat, fish, eggs, beans — builds muscles", "example": "Eat protein every day to stay strong.", "vietnameseHint": "đạm (chất đạm)" },
+            { "word": "legumes", "partOfSpeech": "noun (plural)", "definition": "Beans, peas, and lentils", "example": "Lentils and chickpeas are legumes.", "vietnameseHint": "các loại đậu" },
+            { "word": "cereal", "partOfSpeech": "noun", "definition": "Breakfast food made from grains", "example": "She has cereal with milk every morning.", "vietnameseHint": "ngũ cốc ăn sáng" },
+            { "word": "yoghurt", "partOfSpeech": "noun", "definition": "Thick dairy food made from fermented milk", "example": "He eats yoghurt with fruit.", "vietnameseHint": "sữa chua" },
+            { "word": "tofu", "partOfSpeech": "noun (uncountable)", "definition": "Soft white food made from soya beans", "example": "Tofu is a good protein for vegetarians.", "vietnameseHint": "đậu phụ / tàu hũ" },
+            { "word": "spinach", "partOfSpeech": "noun (uncountable)", "definition": "Dark green leafy vegetable", "example": "Spinach is full of iron.", "vietnameseHint": "rau chân vịt" }
+          ]
+        },
+        {
+          "setId": "u5-s2",
+          "setName": "Cooking methods and equipment",
+          "words": [
+            { "word": "boil", "partOfSpeech": "verb", "definition": "Cook in very hot water (100°C)", "example": "Boil the eggs for 6 minutes.", "vietnameseHint": "luộc" },
+            { "word": "fry", "partOfSpeech": "verb", "definition": "Cook in hot oil in a pan", "example": "Fry the onions until golden.", "vietnameseHint": "chiên / xào" },
+            { "word": "bake", "partOfSpeech": "verb", "definition": "Cook in an oven with dry heat", "example": "Bake the cake for 30 minutes.", "vietnameseHint": "nướng (trong lò)" },
+            { "word": "grill", "partOfSpeech": "verb", "definition": "Cook with heat from above or below", "example": "Grill the chicken for 10 minutes each side.", "vietnameseHint": "nướng (trên vỉ)" },
+            { "word": "steam", "partOfSpeech": "verb", "definition": "Cook using steam from boiling water", "example": "Steam the vegetables to keep vitamins.", "vietnameseHint": "hấp" },
+            { "word": "blend", "partOfSpeech": "verb", "definition": "Mix food into a smooth liquid using a blender", "example": "Blend the fruit to make a smoothie.", "vietnameseHint": "xay nhuyễn" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "What a day!",
+      "sets": [
+        {
+          "setId": "u6-s1",
+          "setName": "Irregular past simple verbs",
+          "words": [
+            { "word": "went (go)", "partOfSpeech": "verb (irregular past)", "definition": "Past tense of 'go'", "example": "We went to the beach last Sunday.", "vietnameseHint": "đã đi (go → went)" },
+            { "word": "came (come)", "partOfSpeech": "verb (irregular past)", "definition": "Past tense of 'come'", "example": "She came home late yesterday.", "vietnameseHint": "đã đến (come → came)" },
+            { "word": "saw (see)", "partOfSpeech": "verb (irregular past)", "definition": "Past tense of 'see'", "example": "I saw a rainbow this morning.", "vietnameseHint": "đã nhìn thấy (see → saw)" },
+            { "word": "ate (eat)", "partOfSpeech": "verb (irregular past)", "definition": "Past tense of 'eat'", "example": "We ate pizza for dinner.", "vietnameseHint": "đã ăn (eat → ate)" },
+            { "word": "bought (buy)", "partOfSpeech": "verb (irregular past)", "definition": "Past tense of 'buy'", "example": "Dad bought a new bike for me.", "vietnameseHint": "đã mua (buy → bought)" },
+            { "word": "rode (ride)", "partOfSpeech": "verb (irregular past)", "definition": "Past tense of 'ride'", "example": "She rode her horse in the park.", "vietnameseHint": "đã cưỡi/đạp (ride → rode)" },
+            { "word": "swam (swim)", "partOfSpeech": "verb (irregular past)", "definition": "Past tense of 'swim'", "example": "He swam across the river.", "vietnameseHint": "đã bơi (swim → swam)" },
+            { "word": "ran (run)", "partOfSpeech": "verb (irregular past)", "definition": "Past tense of 'run'", "example": "The children ran all the way home.", "vietnameseHint": "đã chạy (run → ran)" }
+          ]
+        },
+        {
+          "setId": "u6-s2",
+          "setName": "Time expressions for the past",
+          "words": [
+            { "word": "yesterday", "partOfSpeech": "adverb", "definition": "The day before today", "example": "I finished my homework yesterday.", "vietnameseHint": "hôm qua" },
+            { "word": "last week", "partOfSpeech": "adverbial phrase", "definition": "The week before this week", "example": "We visited Grandma last week.", "vietnameseHint": "tuần trước" },
+            { "word": "ago", "partOfSpeech": "adverb", "definition": "Before now (used with a time period: two days ago)", "example": "She started school three years ago.", "vietnameseHint": "trước đây (... năm/ngày trước)" },
+            { "word": "the day before yesterday", "partOfSpeech": "adverbial phrase", "definition": "Two days before today", "example": "It rained heavily the day before yesterday.", "vietnameseHint": "hôm kia" },
+            { "word": "once upon a time", "partOfSpeech": "phrase", "definition": "Traditional story opening — a long time ago", "example": "Once upon a time, there was a princess.", "vietnameseHint": "ngày xửa ngày xưa" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "unitTitle": "Stay healthy!",
+      "sets": [
+        {
+          "setId": "u7-s1",
+          "setName": "Parts of the body",
+          "words": [
+            { "word": "shoulder", "partOfSpeech": "noun", "definition": "The joint between arm and body at the top", "example": "My shoulder hurts after swimming.", "vietnameseHint": "vai" },
+            { "word": "elbow", "partOfSpeech": "noun", "definition": "The joint in the middle of the arm", "example": "She hit her elbow on the door.", "vietnameseHint": "khuỷu tay" },
+            { "word": "wrist", "partOfSpeech": "noun", "definition": "The joint between hand and arm", "example": "He sprained his wrist playing tennis.", "vietnameseHint": "cổ tay" },
+            { "word": "ankle", "partOfSpeech": "noun", "definition": "The joint between foot and leg", "example": "She twisted her ankle on the stairs.", "vietnameseHint": "mắt cá chân" },
+            { "word": "knee", "partOfSpeech": "noun", "definition": "The joint in the middle of the leg", "example": "He fell and scraped his knee.", "vietnameseHint": "đầu gối" },
+            { "word": "spine", "partOfSpeech": "noun", "definition": "The backbone — row of bones down the back", "example": "Sit up straight — it's good for your spine.", "vietnameseHint": "xương sống" },
+            { "word": "chest", "partOfSpeech": "noun", "definition": "The front of the body between neck and stomach", "example": "My chest hurts when I breathe deeply.", "vietnameseHint": "ngực" },
+            { "word": "heel", "partOfSpeech": "noun", "definition": "The back part of the foot", "example": "New shoes gave me a blister on my heel.", "vietnameseHint": "gót chân" }
+          ]
+        },
+        {
+          "setId": "u7-s2",
+          "setName": "Health problems and treatments",
+          "words": [
+            { "word": "cut", "partOfSpeech": "noun", "definition": "A wound made by something sharp", "example": "I have a cut on my finger.", "vietnameseHint": "vết cắt / vết thương" },
+            { "word": "bruise", "partOfSpeech": "noun", "definition": "Dark mark on skin after a knock", "example": "She has a bruise on her arm from the fall.", "vietnameseHint": "vết bầm tím" },
+            { "word": "blister", "partOfSpeech": "noun", "definition": "Small bubble of fluid on skin from rubbing or heat", "example": "New shoes gave me blisters on my feet.", "vietnameseHint": "phồng rộp" },
+            { "word": "sprain", "partOfSpeech": "noun/verb", "definition": "Injury from twisting a joint", "example": "He has a bad sprain in his ankle.", "vietnameseHint": "bong gân / trẹo" },
+            { "word": "bandage", "partOfSpeech": "noun/verb", "definition": "Strip of cloth to wrap a wound", "example": "Nurse put a bandage on his arm.", "vietnameseHint": "băng bó / băng y tế" },
+            { "word": "plaster", "partOfSpeech": "noun", "definition": "Small sticky bandage for minor cuts (UK English)", "example": "Put a plaster on that cut.", "vietnameseHint": "băng cá nhân (miếng dán)" },
+            { "word": "ice pack", "partOfSpeech": "noun", "definition": "Bag of ice used to reduce swelling", "example": "Apply an ice pack to reduce the swelling.", "vietnameseHint": "túi đá lạnh" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "unitTitle": "Our planet!",
+      "sets": [
+        {
+          "setId": "u8-s1",
+          "setName": "Natural wonders and landforms",
+          "words": [
+            { "word": "rainforest", "partOfSpeech": "noun", "definition": "Dense tropical forest with heavy rainfall", "example": "The Amazon is the world's largest rainforest.", "vietnameseHint": "rừng nhiệt đới ẩm" },
+            { "word": "coral reef", "partOfSpeech": "noun", "definition": "Underwater structure made by coral animals", "example": "The Great Barrier Reef is a famous coral reef.", "vietnameseHint": "rạn san hô" },
+            { "word": "glacier", "partOfSpeech": "noun", "definition": "Huge slow-moving river of ice", "example": "Glaciers are melting because of global warming.", "vietnameseHint": "sông băng" },
+            { "word": "volcano", "partOfSpeech": "noun", "definition": "Mountain that can erupt with lava and ash", "example": "The volcano erupted last year.", "vietnameseHint": "núi lửa" },
+            { "word": "canyon", "partOfSpeech": "noun", "definition": "Deep valley with steep rocky sides", "example": "The Grand Canyon is in the USA.", "vietnameseHint": "hẻm núi / vực sâu" },
+            { "word": "waterfall", "partOfSpeech": "noun", "definition": "Water falling over a cliff or rocks", "example": "Ban Gioc is a beautiful waterfall in Vietnam.", "vietnameseHint": "thác nước" },
+            { "word": "delta", "partOfSpeech": "noun", "definition": "Land at the mouth of a river where it meets the sea", "example": "The Mekong Delta is very fertile.", "vietnameseHint": "đồng bằng châu thổ" },
+            { "word": "tundra", "partOfSpeech": "noun", "definition": "Flat, treeless Arctic landscape with frozen soil", "example": "Polar bears live on the tundra.", "vietnameseHint": "lãnh nguyên" }
+          ]
+        },
+        {
+          "setId": "u8-s2",
+          "setName": "Environmental problems and solutions",
+          "words": [
+            { "word": "pollution", "partOfSpeech": "noun (uncountable)", "definition": "Damage to air, water or land by harmful substances", "example": "Air pollution in cities can damage health.", "vietnameseHint": "ô nhiễm" },
+            { "word": "deforestation", "partOfSpeech": "noun (uncountable)", "definition": "Cutting down forests on a large scale", "example": "Deforestation destroys animal habitats.", "vietnameseHint": "phá rừng" },
+            { "word": "global warming", "partOfSpeech": "noun (uncountable)", "definition": "Increase in Earth's temperature due to greenhouse gases", "example": "Global warming is causing sea levels to rise.", "vietnameseHint": "nóng lên toàn cầu" },
+            { "word": "habitat loss", "partOfSpeech": "noun (uncountable)", "definition": "Destruction of animals' natural homes", "example": "Habitat loss is the main reason for extinction.", "vietnameseHint": "mất môi trường sống" },
+            { "word": "recycling", "partOfSpeech": "noun (uncountable)", "definition": "Turning used materials into new products", "example": "Recycling helps reduce waste.", "vietnameseHint": "tái chế" },
+            { "word": "conservation", "partOfSpeech": "noun (uncountable)", "definition": "Protection of nature and wildlife", "example": "Conservation projects help save endangered animals.", "vietnameseHint": "bảo tồn" },
+            { "word": "reforestation", "partOfSpeech": "noun (uncountable)", "definition": "Planting new trees to replace lost forests", "example": "Reforestation helps fight climate change.", "vietnameseHint": "trồng rừng lại" }
+          ]
+        }
+      ]
+    }
+  ]
+}

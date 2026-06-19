@@ -1,0 +1,328 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g5-family-and-friends-5",
+    "title": "Family and Friends 5 — Grammar Reference",
+    "extractedAt": "2026-06-09",
+    "totalStructures": 8,
+    "targetCEFR": "A2–B1",
+    "note": "Each structure includes form, examples, common errors, and a teaching note for lesson generation."
+  },
+
+  "structures": [
+    {
+      "unitNumber": 1,
+      "structureId": "g1-present-perfect-just",
+      "name": "Present perfect with 'just'",
+      "concept": "An action that happened very recently",
+      "form": {
+        "affirmative": "Subject + have/has + just + past participle",
+        "negative": "Subject + haven't/hasn't + just + past participle",
+        "question": "Have/Has + subject + just + past participle + ?",
+        "shortAnswer": "Yes, I/we have. / No, I/we haven't. / Yes, he/she has. / No, he/she hasn't."
+      },
+      "examples": {
+        "affirmative": [
+          "I have just arrived home.",
+          "She has just finished her homework.",
+          "They have just eaten dinner.",
+          "He has just called me."
+        ],
+        "negative": [
+          "I haven't just woken up — I've been awake for hours.",
+          "She hasn't just started — she's nearly finished."
+        ],
+        "questions": [
+          "Have you just seen that film?",
+          "Has she just left the house?"
+        ]
+      },
+      "keyIrregularParticiples": [
+        { "base": "go", "pastParticiple": "gone" },
+        { "base": "eat", "pastParticiple": "eaten" },
+        { "base": "see", "pastParticiple": "seen" },
+        { "base": "write", "pastParticiple": "written" },
+        { "base": "finish", "pastParticiple": "finished" },
+        { "base": "arrive", "pastParticiple": "arrived" },
+        { "base": "do", "pastParticiple": "done" },
+        { "base": "make", "pastParticiple": "made" },
+        { "base": "take", "pastParticiple": "taken" }
+      ],
+      "commonErrors": [
+        { "error": "She has just went home.", "correction": "She has just gone home.", "explanation": "Past participle of 'go' is 'gone', not 'went'" },
+        { "error": "I have just ate.", "correction": "I have just eaten.", "explanation": "Past participle of 'eat' is 'eaten', not 'ate'" },
+        { "error": "He just has arrived.", "correction": "He has just arrived.", "explanation": "'Just' goes between 'have/has' and the past participle" }
+      ],
+      "teachingNote": "Emphasise the position of 'just': it always comes between 'have/has' and the past participle. Use gestures (just now, a moment ago) to reinforce the 'very recently' meaning.",
+      "vietnameseNote": "Tương đương 'vừa mới' trong tiếng Việt: 'Tôi vừa mới về nhà' = 'I have just arrived home'"
+    },
+    {
+      "unitNumber": 2,
+      "structureId": "g2-present-perfect-ever-never",
+      "name": "Present perfect with 'ever' and 'never'",
+      "concept": "Talking about life experiences — things you have or have never done",
+      "form": {
+        "question": "Have/Has + subject + ever + past participle + ?",
+        "affirmativeAnswer": "Yes, I/we have. / Yes, he/she has.",
+        "negativeAnswer": "No, I/we haven't. / No, he/she hasn't.",
+        "negativeStatement": "Subject + have/has + never + past participle"
+      },
+      "examples": {
+        "questions": [
+          "Have you ever seen a polar bear?",
+          "Have you ever eaten sushi?",
+          "Has she ever been to London?",
+          "Have they ever climbed a mountain?"
+        ],
+        "affirmativeAnswers": [
+          "Yes, I have. I saw one at the zoo.",
+          "Yes, she has. She visited London last year."
+        ],
+        "negativeAnswers": [
+          "No, I haven't.",
+          "No, she hasn't."
+        ],
+        "neverStatements": [
+          "I have never eaten octopus.",
+          "He has never been abroad.",
+          "They have never seen snow."
+        ]
+      },
+      "keyDistinction": "'Ever' is used in questions. 'Never' is used in negative statements (never replaces not). Do not say 'I have not never' — this is a double negative.",
+      "commonErrors": [
+        { "error": "Have you ever been see a lion?", "correction": "Have you ever seen a lion?", "explanation": "Use only the past participle after 'ever', not 'been + infinitive'" },
+        { "error": "I have never not eaten pizza.", "correction": "I have never eaten pizza.", "explanation": "Double negative — 'never' already makes the sentence negative" },
+        { "error": "Has he ever go to France?", "correction": "Has he ever been to France?", "explanation": "For places, use 'been to' not 'go'" }
+      ],
+      "teachingNote": "Practise with a class survey: 'Have you ever...?' — students ask and answer in pairs, then report to class. This makes the structure feel natural and communicative.",
+      "vietnameseNote": "'Have you ever...?' = 'Bạn đã từng...chưa?' | 'I have never...' = 'Tôi chưa bao giờ...'"
+    },
+    {
+      "unitNumber": 3,
+      "structureId": "g3-have-to-dont-have-to",
+      "name": "have to / don't have to",
+      "concept": "Obligation (must do) vs absence of obligation (not necessary to do)",
+      "form": {
+        "obligation": "Subject + have to / has to + base verb",
+        "noObligation": "Subject + don't have to / doesn't have to + base verb",
+        "question": "Do/Does + subject + have to + base verb + ?",
+        "shortAnswer": "Yes, I/we do. / No, I/we don't. / Yes, he/she does. / No, he/she doesn't."
+      },
+      "examples": {
+        "obligation": [
+          "I have to vacuum the floor every day.",
+          "She has to do her homework before dinner.",
+          "They have to wear a uniform at school."
+        ],
+        "noObligation": [
+          "You don't have to cook dinner — we're having takeaway.",
+          "He doesn't have to wake up early on Sundays.",
+          "They don't have to wear a uniform at weekends."
+        ],
+        "questions": [
+          "Do you have to do chores at home?",
+          "Does she have to work on Saturdays?"
+        ]
+      },
+      "keyDistinction": {
+        "haveToVsMust": "Both express obligation. 'Must' is stronger/more formal; 'have to' is more everyday. For this level, focus on 'have to'.",
+        "dontHaveToVsMustnot": "DON'T HAVE TO = not necessary (you can choose); MUSTN'T = prohibited (you must NOT do it). This is a common confusion point."
+      },
+      "commonErrors": [
+        { "error": "She don't have to clean.", "correction": "She doesn't have to clean.", "explanation": "Third person singular requires 'doesn't'" },
+        { "error": "I have to not wash the dishes.", "correction": "I don't have to wash the dishes.", "explanation": "Negative is 'don't/doesn't have to', not 'have to not'" }
+      ],
+      "teachingNote": "The don't have to / mustn't distinction is critical. Create clear contrast: 'You don't have to wear a helmet (but you can)' vs 'You mustn't run near the pool (it's against the rules)'.",
+      "vietnameseNote": "'have to' = 'phải (làm việc gì đó)' | 'don't have to' = 'không cần phải (không bắt buộc)'"
+    },
+    {
+      "unitNumber": 4,
+      "structureId": "g4-should-shouldnt",
+      "name": "should / shouldn't",
+      "concept": "Giving and receiving advice",
+      "form": {
+        "advice": "Subject + should + base verb",
+        "againstAdvice": "Subject + shouldn't + base verb",
+        "question": "Should + subject + base verb + ?",
+        "shortAnswer": "Yes, you/he/she should. / No, you/he/she shouldn't."
+      },
+      "examples": {
+        "advice": [
+          "You should rest and drink lots of water.",
+          "She should see a doctor about that rash.",
+          "He should eat more vegetables.",
+          "They should wear sunscreen at the beach."
+        ],
+        "againstAdvice": [
+          "You shouldn't eat so much sugar.",
+          "He shouldn't stay up late when he has a test.",
+          "She shouldn't go to school with a fever."
+        ],
+        "questions": [
+          "Should I take medicine for this headache?",
+          "Should we call the doctor?"
+        ]
+      },
+      "commonErrors": [
+        { "error": "You should to rest.", "correction": "You should rest.", "explanation": "After modal verbs (should, must, will), use the base verb WITHOUT 'to'" },
+        { "error": "She shoulds eat less sugar.", "correction": "She should eat less sugar.", "explanation": "Modal verbs never add -s for third person singular" }
+      ],
+      "teachingNote": "Role-play is ideal for this structure. One student describes a problem; the other gives advice using should/shouldn't. Then swap. Use real-life scenarios: headache, stomachache, tired.",
+      "vietnameseNote": "'should' = 'nên' | 'shouldn't' = 'không nên'"
+    },
+    {
+      "unitNumber": 5,
+      "structureId": "g5-countable-uncountable-some-any",
+      "name": "Countable/uncountable nouns; some / any; how much / how many",
+      "concept": "Quantifying food and other items",
+      "form": {
+        "countable": "Things you can count individually — a banana, two apples, three eggs",
+        "uncountable": "Things you cannot count individually — water, rice, sugar, milk",
+        "some": "Used in affirmative sentences with both countable and uncountable",
+        "any": "Used in questions and negative sentences",
+        "howMany": "How many + countable noun? (How many eggs do we need?)",
+        "howMuch": "How much + uncountable noun? (How much sugar is in this?)"
+      },
+      "examples": {
+        "some": [
+          "I need some apples from the market. (countable)",
+          "There is some milk in the fridge. (uncountable)",
+          "Can I have some water, please? (polite request)"
+        ],
+        "any": [
+          "Is there any cheese left? (question)",
+          "We don't have any bread. (negative)",
+          "Are there any eggs in the fridge? (question)"
+        ],
+        "howManyHowMuch": [
+          "How many oranges do you want?",
+          "How much butter do I need?",
+          "How many students are in your class?"
+        ]
+      },
+      "commonUncountableNouns": ["water", "milk", "juice", "rice", "bread", "sugar", "salt", "flour", "butter", "oil", "cheese", "meat", "fish", "coffee", "tea"],
+      "commonErrors": [
+        { "error": "I need some informations.", "correction": "I need some information.", "explanation": "'Information' is uncountable in English — no plural 's'" },
+        { "error": "How many milk do we need?", "correction": "How much milk do we need?", "explanation": "'Milk' is uncountable — use 'how much'" },
+        { "error": "There isn't some bread.", "correction": "There isn't any bread.", "explanation": "Use 'any' in negative sentences, not 'some'" }
+      ],
+      "teachingNote": "Play a 'What's in the fridge?' game with picture cards. Students say what they can and can't see using some/any. Then create a shopping list together.",
+      "vietnameseNote": "'some' = 'một ít, một số' | 'any' = (dùng trong câu hỏi và phủ định) | 'how much/how many' = 'bao nhiêu'"
+    },
+    {
+      "unitNumber": 6,
+      "structureId": "g6-must-mustnt",
+      "name": "must / mustn't",
+      "concept": "Rules, strong obligation, and prohibition",
+      "form": {
+        "obligation": "Subject + must + base verb (strong obligation or rule)",
+        "prohibition": "Subject + mustn't + base verb (forbidden — you must NOT do this)"
+      },
+      "examples": {
+        "obligation": [
+          "You must wear a seatbelt in the car.",
+          "Students must arrive on time.",
+          "You must wash your hands before eating."
+        ],
+        "prohibition": [
+          "You mustn't run near the swimming pool.",
+          "You mustn't touch the electric fence.",
+          "Students mustn't use phones during the exam."
+        ]
+      },
+      "keyDistinctionFromUnit3": {
+        "mustnt": "Prohibited — it is NOT allowed",
+        "dontHaveTo": "Not necessary — but you can if you want"
+      },
+      "commonErrors": [
+        { "error": "You must to wear a helmet.", "correction": "You must wear a helmet.", "explanation": "No 'to' after modal verbs" },
+        { "error": "She musts follow the rules.", "correction": "She must follow the rules.", "explanation": "Modal verbs never add -s" }
+      ],
+      "teachingNote": "Create a list of classroom/school rules. Students identify which are 'must' rules and which are 'mustn't' rules. Compare: 'You don't have to wear a tie (not compulsory) vs You mustn't wear jewellery (forbidden)'.",
+      "vietnameseNote": "'must' = 'phải' (mạnh hơn have to) | 'mustn't' = 'không được (cấm)'"
+    },
+    {
+      "unitNumber": 7,
+      "structureId": "g7-will-wont-predictions",
+      "name": "will / won't for predictions and future plans",
+      "concept": "Making predictions about the future",
+      "form": {
+        "affirmative": "Subject + will + base verb",
+        "negative": "Subject + won't (will not) + base verb",
+        "question": "Will + subject + base verb + ?",
+        "shortAnswer": "Yes, I/we/he/she will. / No, I/we/he/she won't."
+      },
+      "examples": {
+        "predictions": [
+          "In 50 years, robots will do most household chores.",
+          "Electric cars won't need petrol.",
+          "Will people live on Mars in the future?",
+          "I think technology will make our lives easier.",
+          "She won't need to drive — her car will drive itself."
+        ],
+        "futurePlans": [
+          "I will call you tomorrow.",
+          "He won't be at school on Friday.",
+          "Will you come to my party?"
+        ]
+      },
+      "contraction": "'will' contracts to 'll in informal writing: 'I'll', 'she'll', 'they'll'. 'will not' contracts to 'won't' (NOT 'willn't').",
+      "commonErrors": [
+        { "error": "I think robots will can cook.", "correction": "I think robots will be able to cook.", "explanation": "Two modals cannot be used together. Use 'be able to' after 'will'" },
+        { "error": "I will to visit Paris.", "correction": "I will visit Paris.", "explanation": "No 'to' after 'will'" },
+        { "error": "She willn't come.", "correction": "She won't come.", "explanation": "The contraction of 'will not' is 'won't', not 'willn't'" }
+      ],
+      "teachingNote": "Ask students to make 3 predictions about the world in 50 years. Then vote on which predictions the class agrees with. Use opinion starters: 'I think...', 'I believe...', 'I'm sure...'.",
+      "vietnameseNote": "'will' = 'sẽ' | 'won't' = 'sẽ không'"
+    },
+    {
+      "unitNumber": 8,
+      "structureId": "g8-relative-clauses-who-which-that",
+      "name": "Defining relative clauses with who / which / that",
+      "concept": "Adding essential information to identify a person, place, or thing",
+      "form": {
+        "who": "Used for PEOPLE — 'A teacher is a person who teaches students.'",
+        "which": "Used for THINGS/ANIMALS — 'A violin is an instrument which has four strings.'",
+        "that": "Can replace both who and which in defining clauses — 'A person that is kind is easy to like.'"
+      },
+      "examples": {
+        "who": [
+          "She is the artist who painted the Mona Lisa.",
+          "The boy who sits next to me is very funny.",
+          "A doctor is someone who helps people when they are sick."
+        ],
+        "which": [
+          "The painting which hangs in the hall is very old.",
+          "A drum is an instrument which you hit with sticks.",
+          "This is the camera which my uncle gave me."
+        ],
+        "that": [
+          "The song that won the competition was amazing.",
+          "The girl that plays the violin is in my class.",
+          "This is the book that I told you about."
+        ]
+      },
+      "keyPoints": [
+        "The relative clause immediately follows the noun it describes",
+        "Defining clauses give ESSENTIAL information — without them, the sentence is unclear",
+        "Do NOT use commas around defining relative clauses"
+      ],
+      "commonErrors": [
+        { "error": "She is the girl which won the prize.", "correction": "She is the girl who won the prize.", "explanation": "'Who' for people, 'which' for things" },
+        { "error": "The book which I read it was great.", "correction": "The book which I read was great.", "explanation": "Do not repeat the pronoun inside the relative clause" }
+      ],
+      "teachingNote": "Play a definitions game: one student describes something using a relative clause, others guess what it is. Example: 'It's a thing which you play music on and it has strings.' → violin",
+      "vietnameseNote": "Mệnh đề quan hệ xác định: 'who' cho người, 'which' cho vật | Không dùng dấu phẩy | Tương đương 'mà/mà...đó' trong tiếng Việt"
+    }
+  ],
+
+  "phonicsSummary": [
+    { "unit": 1, "sound": "oy", "examples": ["boy", "toy", "enjoy", "annoy", "destroy", "oyster"] },
+    { "unit": 2, "sound": "air (various spellings)", "examples": ["chair", "hair", "fair", "there", "wear", "care", "share", "bare"] },
+    { "unit": 3, "sound": "ear (various spellings)", "examples": ["ear", "hear", "near", "fear", "here", "weird"] },
+    { "unit": 4, "sound": "ure", "examples": ["sure", "cure", "pure", "future", "picture", "nature", "creature", "adventure"] },
+    { "unit": 5, "sound": "oo (long vs short)", "examples": { "long": ["food", "moon", "school", "blue", "true"], "short": ["book", "foot", "cook", "good", "look"] } },
+    { "unit": 6, "sound": "ow (two sounds)", "examples": { "ow1": ["now", "town", "brown", "crowd", "power"], "ow2": ["show", "know", "grow", "blow", "own"] } },
+    { "unit": 7, "sound": "tion suffix", "examples": ["action", "station", "invention", "information", "education", "pollution", "solution", "condition"] },
+    { "unit": 8, "sound": "silent letters k and b", "examples": { "silentK": ["knife", "know", "knight", "kneel", "knock"], "silentB": ["climb", "comb", "thumb", "lamb", "bomb"] } }
+  ]
+}

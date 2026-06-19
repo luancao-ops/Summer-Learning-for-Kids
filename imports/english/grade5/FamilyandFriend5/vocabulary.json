@@ -1,0 +1,276 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g5-family-and-friends-5",
+    "title": "Family and Friends 5 — Vocabulary Index",
+    "extractedAt": "2026-06-09",
+    "totalWords": 144,
+    "organisation": "By unit, then by vocabulary set within each unit"
+  },
+
+  "byUnit": [
+    {
+      "unit": 1,
+      "unitTitle": "That's a big family!",
+      "sets": [
+        {
+          "setId": "u1-s1",
+          "setName": "Extended family",
+          "words": [
+            { "word": "aunt", "partOfSpeech": "noun", "definition": "Your parent's sister", "example": "My aunt lives in Hanoi.", "vietnameseHint": "cô/dì" },
+            { "word": "uncle", "partOfSpeech": "noun", "definition": "Your parent's brother", "example": "My uncle is a doctor.", "vietnameseHint": "chú/cậu/bác" },
+            { "word": "cousin", "partOfSpeech": "noun", "definition": "Your aunt or uncle's child", "example": "I have three cousins.", "vietnameseHint": "anh/chị/em họ" },
+            { "word": "nephew", "partOfSpeech": "noun", "definition": "Your brother or sister's son", "example": "My nephew is five years old.", "vietnameseHint": "cháu trai" },
+            { "word": "niece", "partOfSpeech": "noun", "definition": "Your brother or sister's daughter", "example": "My niece loves drawing.", "vietnameseHint": "cháu gái" },
+            { "word": "grandparents", "partOfSpeech": "noun (plural)", "definition": "Your parents' parents", "example": "We visit our grandparents every weekend.", "vietnameseHint": "ông bà ngoại/nội" },
+            { "word": "relatives", "partOfSpeech": "noun (plural)", "definition": "All members of your extended family", "example": "We have a big party with all our relatives.", "vietnameseHint": "họ hàng" },
+            { "word": "immediate family", "partOfSpeech": "noun phrase", "definition": "Parents, brothers, and sisters only", "example": "My immediate family has five people.", "vietnameseHint": "gia đình thân thiết (cha mẹ, anh chị em)" },
+            { "word": "extended family", "partOfSpeech": "noun phrase", "definition": "Immediate family + aunts, uncles, cousins, grandparents", "example": "My extended family is very large.", "vietnameseHint": "đại gia đình" }
+          ]
+        },
+        {
+          "setId": "u1-s2",
+          "setName": "Physical appearance",
+          "words": [
+            { "word": "curly", "partOfSpeech": "adjective", "definition": "Hair with tight waves or spirals", "example": "She has curly brown hair.", "vietnameseHint": "xoăn" },
+            { "word": "straight", "partOfSpeech": "adjective", "definition": "Hair with no waves or curls", "example": "He has straight black hair.", "vietnameseHint": "thẳng" },
+            { "word": "wavy", "partOfSpeech": "adjective", "definition": "Hair with gentle waves", "example": "My aunt has long wavy hair.", "vietnameseHint": "gợn sóng" },
+            { "word": "bald", "partOfSpeech": "adjective", "definition": "Having no hair on the head", "example": "My grandfather is bald.", "vietnameseHint": "hói đầu" },
+            { "word": "slim", "partOfSpeech": "adjective", "definition": "Thin and well-proportioned", "example": "She is tall and slim.", "vietnameseHint": "mảnh mai" },
+            { "word": "plump", "partOfSpeech": "adjective", "definition": "Slightly overweight in a pleasant way", "example": "The baby has plump little cheeks.", "vietnameseHint": "mũm mĩm" },
+            { "word": "elderly", "partOfSpeech": "adjective", "definition": "Polite word for old (used for people)", "example": "My elderly grandmother is 80.", "vietnameseHint": "lớn tuổi, cao niên" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Amazing animals!",
+      "sets": [
+        {
+          "setId": "u2-s1",
+          "setName": "Animal status and classification",
+          "words": [
+            { "word": "endangered", "partOfSpeech": "adjective", "definition": "At serious risk of becoming extinct", "example": "Tigers are endangered animals.", "vietnameseHint": "có nguy cơ tuyệt chủng" },
+            { "word": "extinct", "partOfSpeech": "adjective", "definition": "No longer existing anywhere on Earth", "example": "Dinosaurs have been extinct for 66 million years.", "vietnameseHint": "tuyệt chủng hoàn toàn" },
+            { "word": "habitat", "partOfSpeech": "noun", "definition": "The natural environment where an animal lives", "example": "The panda's habitat is the bamboo forest.", "vietnameseHint": "môi trường sống" },
+            { "word": "predator", "partOfSpeech": "noun", "definition": "An animal that hunts and eats other animals", "example": "A lion is a powerful predator.", "vietnameseHint": "thú săn mồi" },
+            { "word": "prey", "partOfSpeech": "noun", "definition": "An animal that is hunted by a predator", "example": "Rabbits are the prey of foxes.", "vietnameseHint": "con mồi" },
+            { "word": "mammal", "partOfSpeech": "noun", "definition": "A warm-blooded animal that feeds its young with milk", "example": "Dogs, whales, and humans are mammals.", "vietnameseHint": "động vật có vú" },
+            { "word": "reptile", "partOfSpeech": "noun", "definition": "A cold-blooded, scaly animal — snakes, lizards, crocodiles", "example": "A crocodile is a reptile.", "vietnameseHint": "bò sát" },
+            { "word": "amphibian", "partOfSpeech": "noun", "definition": "An animal that lives on land and in water — frogs, toads", "example": "A frog is an amphibian.", "vietnameseHint": "động vật lưỡng cư" },
+            { "word": "primate", "partOfSpeech": "noun", "definition": "A group including monkeys, apes, and humans", "example": "Gorillas are the largest primates.", "vietnameseHint": "linh trưởng" },
+            { "word": "species", "partOfSpeech": "noun", "definition": "A group of animals that can breed together", "example": "There are over 8 million species on Earth.", "vietnameseHint": "loài" }
+          ]
+        },
+        {
+          "setId": "u2-s2",
+          "setName": "Habitats",
+          "words": [
+            { "word": "rainforest", "partOfSpeech": "noun", "definition": "A dense forest with heavy rainfall near the equator", "example": "Gorillas live in the African rainforest.", "vietnameseHint": "rừng nhiệt đới" },
+            { "word": "Arctic", "partOfSpeech": "proper noun", "definition": "The icy region around the North Pole", "example": "Polar bears live in the Arctic.", "vietnameseHint": "Bắc Cực" },
+            { "word": "Antarctic", "partOfSpeech": "proper noun", "definition": "The icy continent around the South Pole", "example": "Penguins live in the Antarctic.", "vietnameseHint": "Nam Cực" },
+            { "word": "desert", "partOfSpeech": "noun", "definition": "A very hot, dry area with little rainfall", "example": "Camels are adapted to desert life.", "vietnameseHint": "sa mạc" },
+            { "word": "ocean", "partOfSpeech": "noun", "definition": "The very large area of salt water covering most of Earth", "example": "Dolphins swim freely in the ocean.", "vietnameseHint": "đại dương" },
+            { "word": "grassland", "partOfSpeech": "noun", "definition": "A large open area of grass — savanna", "example": "Elephants roam the African grasslands.", "vietnameseHint": "đồng cỏ" },
+            { "word": "migrate", "partOfSpeech": "verb", "definition": "To travel long distances each season for food or warmth", "example": "Birds migrate south in winter.", "vietnameseHint": "di trú, di cư" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "unitTitle": "Hard work!",
+      "sets": [
+        {
+          "setId": "u3-s1",
+          "setName": "Household chores",
+          "words": [
+            { "word": "vacuum", "partOfSpeech": "verb/noun", "definition": "To clean the floor using a vacuum cleaner", "example": "I have to vacuum the living room.", "vietnameseHint": "hút bụi" },
+            { "word": "mop", "partOfSpeech": "verb/noun", "definition": "To clean the floor with a wet mop", "example": "She mops the kitchen floor every day.", "vietnameseHint": "lau sàn" },
+            { "word": "dust", "partOfSpeech": "verb", "definition": "To remove dust from furniture surfaces", "example": "He dusts the shelves on Saturdays.", "vietnameseHint": "phủi bụi" },
+            { "word": "sweep", "partOfSpeech": "verb", "definition": "To clean the floor with a broom", "example": "Please sweep the porch.", "vietnameseHint": "quét" },
+            { "word": "polish", "partOfSpeech": "verb", "definition": "To make something shiny by rubbing it", "example": "She polishes the furniture with wax.", "vietnameseHint": "đánh bóng" },
+            { "word": "iron", "partOfSpeech": "verb/noun", "definition": "To make clothes smooth using a hot iron", "example": "He irons his school uniform.", "vietnameseHint": "ủi quần áo" },
+            { "word": "rake", "partOfSpeech": "verb/noun", "definition": "To gather fallen leaves using a rake", "example": "We rake the leaves in autumn.", "vietnameseHint": "cào lá" },
+            { "word": "weed", "partOfSpeech": "verb/noun", "definition": "To remove unwanted plants from the garden", "example": "She weeds the garden every week.", "vietnameseHint": "nhổ cỏ dại" },
+            { "word": "tidy", "partOfSpeech": "verb/adjective", "definition": "To put things in order and make a place neat", "example": "Tidy your room before dinner.", "vietnameseHint": "dọn dẹp ngăn nắp" }
+          ]
+        },
+        {
+          "setId": "u3-s2",
+          "setName": "Adverbs of frequency",
+          "words": [
+            { "word": "always", "partOfSpeech": "adverb", "definition": "100% of the time", "example": "I always brush my teeth.", "vietnameseHint": "luôn luôn" },
+            { "word": "usually", "partOfSpeech": "adverb", "definition": "Most of the time (~80%)", "example": "She usually wakes up early.", "vietnameseHint": "thường thường" },
+            { "word": "often", "partOfSpeech": "adverb", "definition": "Frequently, many times (~60%)", "example": "We often cook together.", "vietnameseHint": "thường xuyên" },
+            { "word": "sometimes", "partOfSpeech": "adverb", "definition": "Occasionally, not all the time (~40%)", "example": "He sometimes forgets his homework.", "vietnameseHint": "đôi khi" },
+            { "word": "rarely", "partOfSpeech": "adverb", "definition": "Almost never (~10%)", "example": "They rarely eat fast food.", "vietnameseHint": "hiếm khi" },
+            { "word": "never", "partOfSpeech": "adverb", "definition": "0% of the time", "example": "I never miss school.", "vietnameseHint": "không bao giờ" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "unitTitle": "Feeling good!",
+      "sets": [
+        {
+          "setId": "u4-s1",
+          "setName": "Ailments and illnesses",
+          "words": [
+            { "word": "headache", "partOfSpeech": "noun", "definition": "A pain in the head", "example": "I have a terrible headache.", "vietnameseHint": "đau đầu" },
+            { "word": "stomachache", "partOfSpeech": "noun", "definition": "A pain in the stomach", "example": "She has a stomachache after lunch.", "vietnameseHint": "đau bụng" },
+            { "word": "backache", "partOfSpeech": "noun", "definition": "A pain in the back", "example": "He has a backache from lifting boxes.", "vietnameseHint": "đau lưng" },
+            { "word": "earache", "partOfSpeech": "noun", "definition": "A pain in the ear", "example": "The baby has an earache.", "vietnameseHint": "đau tai" },
+            { "word": "toothache", "partOfSpeech": "noun", "definition": "A pain in a tooth", "example": "I have a toothache — I need to see the dentist.", "vietnameseHint": "đau răng" },
+            { "word": "sore throat", "partOfSpeech": "noun phrase", "definition": "Pain when swallowing", "example": "She has a sore throat and can't speak loudly.", "vietnameseHint": "đau họng" },
+            { "word": "cold", "partOfSpeech": "noun", "definition": "A common illness with runny nose and cough", "example": "He has a cold and is sneezing.", "vietnameseHint": "cảm lạnh" },
+            { "word": "fever", "partOfSpeech": "noun", "definition": "A high body temperature above normal (37°C)", "example": "She has a fever of 39 degrees.", "vietnameseHint": "sốt" },
+            { "word": "rash", "partOfSpeech": "noun", "definition": "Red spots or patches on the skin", "example": "He has a rash on his arm.", "vietnameseHint": "phát ban" },
+            { "word": "sprain", "partOfSpeech": "noun/verb", "definition": "An injury from twisting a joint", "example": "She sprained her ankle playing football.", "vietnameseHint": "bong gân" }
+          ]
+        },
+        {
+          "setId": "u4-s2",
+          "setName": "Health advice",
+          "words": [
+            { "word": "rest", "partOfSpeech": "verb/noun", "definition": "To relax and not do much activity", "example": "You should rest if you have a fever.", "vietnameseHint": "nghỉ ngơi" },
+            { "word": "fluids", "partOfSpeech": "noun (plural)", "definition": "Liquids — water, juice, soup", "example": "Drink plenty of fluids when you're sick.", "vietnameseHint": "nước và chất lỏng" },
+            { "word": "medicine", "partOfSpeech": "noun", "definition": "Drugs or tablets to treat illness", "example": "Take this medicine twice a day.", "vietnameseHint": "thuốc" },
+            { "word": "apply ice", "partOfSpeech": "verb phrase", "definition": "Put ice on an injury to reduce swelling", "example": "Apply ice to your sprained ankle.", "vietnameseHint": "chườm đá" },
+            { "word": "appointment", "partOfSpeech": "noun", "definition": "A scheduled time to see a doctor", "example": "I made a doctor's appointment for tomorrow.", "vietnameseHint": "lịch hẹn khám bác sĩ" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "Let's have lunch",
+      "sets": [
+        {
+          "setId": "u5-s1",
+          "setName": "Food containers",
+          "words": [
+            { "word": "jar", "partOfSpeech": "noun", "definition": "A glass container with a lid — used for jam, honey", "example": "a jar of honey", "vietnameseHint": "lọ thủy tinh" },
+            { "word": "can / tin", "partOfSpeech": "noun", "definition": "A metal container — used for soup, beans", "example": "a can of tomatoes", "vietnameseHint": "hộp thiếc" },
+            { "word": "bag", "partOfSpeech": "noun", "definition": "A paper or plastic container — used for flour, crisps", "example": "a bag of rice", "vietnameseHint": "túi" },
+            { "word": "box", "partOfSpeech": "noun", "definition": "A cardboard container — used for cereal, eggs", "example": "a box of cereal", "vietnameseHint": "hộp" },
+            { "word": "bottle", "partOfSpeech": "noun", "definition": "A glass or plastic container — used for water, oil", "example": "a bottle of olive oil", "vietnameseHint": "chai" },
+            { "word": "carton", "partOfSpeech": "noun", "definition": "A cardboard/waxed container — used for milk, juice", "example": "a carton of orange juice", "vietnameseHint": "hộp giấy" },
+            { "word": "packet", "partOfSpeech": "noun", "definition": "A small sealed container — used for biscuits, crisps", "example": "a packet of biscuits", "vietnameseHint": "gói" },
+            { "word": "tube", "partOfSpeech": "noun", "definition": "A squeezable container — used for toothpaste, tomato paste", "example": "a tube of tomato paste", "vietnameseHint": "tuýp" },
+            { "word": "bunch", "partOfSpeech": "noun", "definition": "A group of things tied together — bananas, grapes", "example": "a bunch of bananas", "vietnameseHint": "nải (chuối), chùm (nho)" },
+            { "word": "loaf", "partOfSpeech": "noun", "definition": "A whole baked piece of bread", "example": "a loaf of bread", "vietnameseHint": "ổ bánh mì" }
+          ]
+        },
+        {
+          "setId": "u5-s2",
+          "setName": "Food adjectives",
+          "words": [
+            { "word": "fresh", "partOfSpeech": "adjective", "definition": "Not frozen or tinned — recently picked or made", "example": "fresh vegetables from the market", "vietnameseHint": "tươi" },
+            { "word": "organic", "partOfSpeech": "adjective", "definition": "Grown without chemicals or pesticides", "example": "organic fruit and vegetables", "vietnameseHint": "hữu cơ" },
+            { "word": "frozen", "partOfSpeech": "adjective", "definition": "Preserved by freezing", "example": "frozen peas from the freezer", "vietnameseHint": "đông lạnh" },
+            { "word": "tinned / canned", "partOfSpeech": "adjective", "definition": "Preserved in a sealed metal can", "example": "tinned tomatoes", "vietnameseHint": "đóng hộp" },
+            { "word": "dried", "partOfSpeech": "adjective", "definition": "Preserved by removing water", "example": "dried fruit and herbs", "vietnameseHint": "sấy khô" },
+            { "word": "spicy", "partOfSpeech": "adjective", "definition": "Has a hot, strong taste from spices", "example": "spicy Thai food", "vietnameseHint": "cay" },
+            { "word": "mild", "partOfSpeech": "adjective", "definition": "Not strong or spicy in taste", "example": "a mild curry for children", "vietnameseHint": "nhẹ, không cay" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "Be safe!",
+      "sets": [
+        {
+          "setId": "u6-s1",
+          "setName": "Safety equipment",
+          "words": [
+            { "word": "helmet", "partOfSpeech": "noun", "definition": "A hard hat that protects your head", "example": "Always wear a helmet when cycling.", "vietnameseHint": "mũ bảo hiểm" },
+            { "word": "seatbelt", "partOfSpeech": "noun", "definition": "A belt that holds you safely in a car seat", "example": "You must wear a seatbelt in the car.", "vietnameseHint": "dây an toàn" },
+            { "word": "life jacket", "partOfSpeech": "noun", "definition": "An inflatable jacket that keeps you afloat in water", "example": "Put on a life jacket before getting in the boat.", "vietnameseHint": "áo phao" },
+            { "word": "safety goggles", "partOfSpeech": "noun (plural)", "definition": "Protective glasses worn in science class or workshops", "example": "Wear safety goggles during the experiment.", "vietnameseHint": "kính bảo hộ" },
+            { "word": "knee pads", "partOfSpeech": "noun (plural)", "definition": "Protective pads worn on knees for skating/cycling", "example": "She wears knee pads when skateboarding.", "vietnameseHint": "miếng bảo vệ đầu gối" },
+            { "word": "reflective vest", "partOfSpeech": "noun", "definition": "A bright vest that makes you visible in traffic", "example": "Cyclists should wear a reflective vest at night.", "vietnameseHint": "áo phản quang" },
+            { "word": "first aid kit", "partOfSpeech": "noun", "definition": "A box with bandages and medicine for small injuries", "example": "There is a first aid kit in every classroom.", "vietnameseHint": "hộp sơ cứu" }
+          ]
+        },
+        {
+          "setId": "u6-s2",
+          "setName": "Hazard adjectives",
+          "words": [
+            { "word": "dangerous", "partOfSpeech": "adjective", "definition": "Likely to cause harm or injury", "example": "It is dangerous to run near a swimming pool.", "vietnameseHint": "nguy hiểm" },
+            { "word": "slippery", "partOfSpeech": "adjective", "definition": "Smooth and easy to slip on when wet", "example": "The floor is slippery — walk carefully.", "vietnameseHint": "trơn trượt" },
+            { "word": "fragile", "partOfSpeech": "adjective", "definition": "Easily broken or damaged", "example": "Handle the glass carefully — it is fragile.", "vietnameseHint": "dễ vỡ" },
+            { "word": "poisonous", "partOfSpeech": "adjective", "definition": "Harmful or deadly if touched or eaten", "example": "Some mushrooms are poisonous.", "vietnameseHint": "có độc" },
+            { "word": "flammable", "partOfSpeech": "adjective", "definition": "Catches fire easily", "example": "Petrol is highly flammable.", "vietnameseHint": "dễ cháy" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "unitTitle": "Technology",
+      "sets": [
+        {
+          "setId": "u7-s1",
+          "setName": "Technology items",
+          "words": [
+            { "word": "robot", "partOfSpeech": "noun", "definition": "A machine that can perform tasks automatically", "example": "Robots help build cars in factories.", "vietnameseHint": "người máy" },
+            { "word": "tablet", "partOfSpeech": "noun", "definition": "A flat touchscreen device", "example": "She reads books on her tablet.", "vietnameseHint": "máy tính bảng" },
+            { "word": "solar panel", "partOfSpeech": "noun", "definition": "A device that converts sunlight into electricity", "example": "Solar panels are on the roof of our school.", "vietnameseHint": "tấm pin năng lượng mặt trời" },
+            { "word": "electric car", "partOfSpeech": "noun", "definition": "A car powered by electricity, not petrol", "example": "Electric cars are better for the environment.", "vietnameseHint": "ô tô điện" },
+            { "word": "drone", "partOfSpeech": "noun", "definition": "A small flying machine controlled remotely", "example": "The farmer used a drone to check his crops.", "vietnameseHint": "máy bay không người lái" },
+            { "word": "3D printer", "partOfSpeech": "noun", "definition": "A machine that creates three-dimensional objects", "example": "They printed a model house with a 3D printer.", "vietnameseHint": "máy in 3D" },
+            { "word": "virtual reality", "partOfSpeech": "noun phrase", "definition": "A computer-generated environment you can 'enter' with a headset", "example": "Virtual reality lets you visit the Amazon rainforest.", "vietnameseHint": "thực tế ảo" }
+          ]
+        },
+        {
+          "setId": "u7-s2",
+          "setName": "Technology verbs",
+          "words": [
+            { "word": "download", "partOfSpeech": "verb", "definition": "To copy files from the internet to your device", "example": "Download the app before the trip.", "vietnameseHint": "tải xuống" },
+            { "word": "upload", "partOfSpeech": "verb", "definition": "To send files from your device to the internet", "example": "Upload your photos to share them.", "vietnameseHint": "tải lên" },
+            { "word": "charge", "partOfSpeech": "verb", "definition": "To refill the battery of a device", "example": "Charge your tablet overnight.", "vietnameseHint": "sạc pin" },
+            { "word": "stream", "partOfSpeech": "verb", "definition": "To watch or listen to media online without downloading", "example": "We stream movies on the weekend.", "vietnameseHint": "xem/nghe trực tuyến" },
+            { "word": "programme", "partOfSpeech": "verb", "definition": "To write instructions for a computer or robot", "example": "She programmed the robot to dance.", "vietnameseHint": "lập trình" }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "unitTitle": "Art and music",
+      "sets": [
+        {
+          "setId": "u8-s1",
+          "setName": "Art forms",
+          "words": [
+            { "word": "sculpture", "partOfSpeech": "noun", "definition": "Three-dimensional art made from clay, stone, or metal", "example": "He made a clay sculpture of a horse.", "vietnameseHint": "điêu khắc" },
+            { "word": "photography", "partOfSpeech": "noun", "definition": "The art of taking pictures with a camera", "example": "Wildlife photography is her hobby.", "vietnameseHint": "nhiếp ảnh" },
+            { "word": "pottery", "partOfSpeech": "noun", "definition": "Making objects from clay on a wheel", "example": "She made a bowl in pottery class.", "vietnameseHint": "gốm sứ" },
+            { "word": "portrait", "partOfSpeech": "noun", "definition": "A painting or drawing of a person's face", "example": "The Mona Lisa is a famous portrait.", "vietnameseHint": "tranh chân dung" },
+            { "word": "landscape", "partOfSpeech": "noun", "definition": "A painting of natural scenery — hills, rivers, countryside", "example": "He painted a landscape of the mountains.", "vietnameseHint": "tranh phong cảnh" },
+            { "word": "abstract", "partOfSpeech": "adjective/noun", "definition": "Art that uses shapes and colours, not realistic images", "example": "Abstract art can mean different things to different people.", "vietnameseHint": "trừu tượng" },
+            { "word": "collage", "partOfSpeech": "noun", "definition": "Art made by sticking pieces of paper and photos together", "example": "She made a collage of her family photos.", "vietnameseHint": "tranh ghép" },
+            { "word": "watercolour", "partOfSpeech": "noun", "definition": "Paint mixed with water; painting made with this paint", "example": "She painted flowers in watercolour.", "vietnameseHint": "màu nước" }
+          ]
+        },
+        {
+          "setId": "u8-s2",
+          "setName": "Musical instruments",
+          "words": [
+            { "word": "violin", "partOfSpeech": "noun", "definition": "A small four-stringed instrument played with a bow", "example": "She plays the violin in the school orchestra.", "vietnameseHint": "đàn vi-ô-lông" },
+            { "word": "trumpet", "partOfSpeech": "noun", "definition": "A brass wind instrument with three buttons", "example": "He plays the trumpet in the jazz band.", "vietnameseHint": "kèn trumpet" },
+            { "word": "drums", "partOfSpeech": "noun (plural)", "definition": "Percussion instruments hit with sticks", "example": "She plays the drums in a rock band.", "vietnameseHint": "trống" },
+            { "word": "flute", "partOfSpeech": "noun", "definition": "A thin metal wind instrument held sideways", "example": "He plays the flute very beautifully.", "vietnameseHint": "sáo flute" },
+            { "word": "saxophone", "partOfSpeech": "noun", "definition": "A curved brass-and-reed wind instrument", "example": "Jazz musicians often play the saxophone.", "vietnameseHint": "kèn saxophone" },
+            { "word": "harp", "partOfSpeech": "noun", "definition": "A large stringed instrument with an angular frame", "example": "The harp sounds magical.", "vietnameseHint": "đàn hạc" },
+            { "word": "cello", "partOfSpeech": "noun", "definition": "A large stringed instrument played between the knees", "example": "She plays the cello in the orchestra.", "vietnameseHint": "đàn cello" },
+            { "word": "clarinet", "partOfSpeech": "noun", "definition": "A long black wind instrument with a reed mouthpiece", "example": "He started learning the clarinet last year.", "vietnameseHint": "kèn clarinet" }
+          ]
+        }
+      ]
+    }
+  ]
+}

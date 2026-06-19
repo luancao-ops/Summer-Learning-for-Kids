@@ -17,7 +17,7 @@
 | Database | SQLite (local file) | — |
 | Testing | Vitest | ^4 |
 
-**Build output directory:** `distDir: ".next-build6"` (`.next` through `.next-build5` are NTFS-locked)
+**Build output directory:** `distDir: ".next-build9"` (`.next` through `.next-build7` are NTFS-locked)
 
 ---
 
@@ -48,7 +48,7 @@ Full source of truth: `prisma/schema.prisma`
 |---|---|---|
 | `Student` | Profile + progress | `id` (plain string), `xp`, `coins`, `streak`, `readingStreak`, `accessCodeHash` |
 | `ThemeConfig` | Visual theme config | Seeded; links to Student and Reward |
-| `Subject` | Static subject definitions | `id`: `math` / `vietnamese` / `english` |
+| `Subject` | Static subject definitions | `id`: `math` / `vietnamese` / `english` / `science_life_skills` |
 | `Lesson` | Content unit + quiz container | `approved` flag (gate for student visibility), `studentTarget`, `grade`, `phase` |
 | `Question` | Quiz questions | `type`: `multiple_choice`/`true_false`/`fill_blank`; `options` stored as JSON string |
 | `Attempt` | Completed quiz record | `score`, `xpEarned`, `coinsEarned` |
@@ -61,6 +61,7 @@ Full source of truth: `prisma/schema.prisma`
 | `ChoreCompletion` | Student's self-report | `level` field |
 | `ReadingEntry` | Daily reading journal | `bookTitle`, `pagesRead`, `summary` |
 | `SiteConfig` | Key-value app settings | `parentPinHash` stored here |
+| `QuestionReport` | Student/parent flag on a question | `questionId`, `lessonId`, `studentId`, `reason`, `note`, `resolved`; added Sprint 8 via raw SQL migration |
 
 **Key schema constraints:**
 - `Lesson.approved` defaults `true` (seed data). AI-imported content must set `false`.
@@ -68,6 +69,7 @@ Full source of truth: `prisma/schema.prisma`
 - `Student.id` is `"girl"` or `"boy"` — plain string, not auto-generated.
 - No `onDelete: Cascade` on most relations — child records must be deleted manually first.
 - Dates stored as `"YYYY-MM-DD"` strings (not `DateTime`).
+- `SiteConfig` and `QuestionReport` must be accessed via `$queryRaw`/`$executeRaw` — `prisma generate` was not re-run after Sprint 8 schema addition (EPERM while server running).
 
 ---
 
@@ -87,6 +89,7 @@ Full source of truth: `prisma/schema.prisma`
 | `math` | Toán | both |
 | `vietnamese` | Tiếng Việt | both |
 | `english` | English | both |
+| `science_life_skills` | Kỹ năng sống | both |
 
 ---
 
@@ -126,6 +129,7 @@ Full source of truth: `prisma/schema.prisma`
 | `/api/parent/set-pin` | POST/DELETE | Set or remove parent PIN |
 | `/api/student/lock` | POST | Lock student account |
 | `/api/student/unlock` | POST | Unlock with access code |
+| `/api/report-question` | POST | Submit a flag/report on a quiz question (Sprint 8) |
 
 ---
 
@@ -154,7 +158,8 @@ summer-quest/
 │   ├── ParentUnlockForm.tsx      ← PIN entry form (client)
 │   ├── ParentPinSetup.tsx        ← Set/change/remove PIN (client)
 │   ├── FeedbackMessage.tsx       ← Quiz feedback (client)
-│   └── RewardBanner.tsx          ← XP/coin reward animation (client)
+│   ├── RewardBanner.tsx          ← XP/coin reward animation (client)
+│   └── ResolveReportButton.tsx   ← Resolve a QuestionReport (client, useActionState) — Sprint 8
 ├── app/globals.css               ← CSS utilities: page-shell, deco-layer, card-hero
 ├── content/manifests/            ← JSON lesson batches (import source)
 └── scripts/                      ← import-lessons.ts, etc.
@@ -205,13 +210,39 @@ Applied via CSS vars (`themeStyle(theme)`) on `.page-shell`.
 | Limitation | Notes |
 |---|---|
 | Fixed 2 students | `"girl"` and `"boy"` are hardcoded IDs; no UI to add students |
-| 3 subjects only | math/vietnamese/english; no science, no art, etc. |
+| 4 subjects | math / vietnamese / english / science_life_skills (Kỹ năng sống) |
 | No grade 5+ or 6+ content yet | Lessons exist for grades 3-5 across subjects |
 | No image/asset support | Lesson content is Markdown text only; no images embedded |
 | Flat lesson structure | No Book → Unit → Lesson hierarchy; flat list per subject |
 | No RAG / vector search | All content loaded directly from SQLite |
 | No PDF import pipeline | New content requires manual AI generation + JSON manifest |
 | No multi-family support | Single SQLite file; no accounts or tenant isolation |
-| No science subject | Science module defined in roadmap but not yet in DB |
 | Content approval manual | Parent must manually review each AI-generated lesson |
 | No scheduled/adaptive sequencing | Lessons shown in orderIndex order; no spaced repetition |
+
+---
+
+## Sprint 8 Additions (2026-06-09)
+
+### New DB Model: `QuestionReport`
+Students and parents can flag quiz questions with wrong answers or explanations. Migration applied via `prisma migrate deploy`. Accessed only via raw SQL because `prisma generate` EPERM while server running.
+
+```
+Fields: id, questionId, lessonId, studentId (optional), reportedBy, reason, note, resolved, createdAt
+Indexes: (resolved, createdAt), (questionId)
+```
+
+### New API Route: `POST /api/report-question`
+Accepts: `{ questionId, lessonId, reportedBy, reason, studentId?, note? }`. Uses `prisma.$executeRaw`.
+
+### New Component: `ResolveReportButton.tsx`
+Client component at `/parent/review`. Uses `useActionState(resolveReportAction, null)`. Server action in `app/parent/review/actions.ts`.
+
+### QuizEngine Changes
+Added flag/report UI in `components/QuizEngine.tsx`: appears after feedback when `readyForNext === true`. Three phases: `idle` → `open` → `done`.
+
+### Parent Dashboard Changes
+`app/parent/page.tsx` and `app/parent/review/page.tsx` now query `QuestionReport` and surface unresolved flags prominently.
+
+### Audit Script Enhancement
+`scripts/validate-answers.js` now includes CHECK 3 (human-flagged questions from `QuestionReport` table).

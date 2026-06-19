@@ -1,0 +1,1977 @@
+{
+  "version": 1,
+  "batchId": "batch-girl-g5-en-08",
+  "sourceReference": "Family and Friends 5 (Oxford University Press) — Units 6-8",
+  "checks": {
+    "answerDistribution": "girl-g5-en-rea-x001: Q1=B Q2=A Q3=C Q4=D Q5=B Q6=C Q7=A Q8=D — A×2 B×2 C×2 D×2, no consecutive repeats | girl-g5-en-rea-x002: Q1=C Q2=A Q3=D Q4=B Q5=D Q6=A Q7=C Q8=B — A×2 B×2 C×2 D×2, no consecutive repeats | girl-g5-en-rea-x003: Q1=D Q2=B Q3=A Q4=C Q5=D Q6=A Q7=C Q8=B — A×2 B×2 C×2 D×2, no consecutive repeats | girl-g5-en-rea-x004: Q1=A Q2=C Q3=B Q4=D Q5=A Q6=C Q7=B Q8=D — A×2 B×2 C×2 D×2, no consecutive repeats | girl-g5-en-wri-x001: Q1=B Q2=D Q3=A Q4=C Q5=B Q6=D Q7=A Q8=C — A×2 B×2 C×2 D×2, no consecutive repeats",
+    "noConsecutiveSameAnswer": true,
+    "languageLevel": "CEFR A2 Grade 5",
+    "contentOriginal": true
+  },
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-rea-x001",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 72,
+      "title": "Kỳ nghỉ ở sân bay và bãi biển",
+      "learningObjective": "Sau bài này bé sẽ đọc hiểu được một đoạn văn về chuyến đi nghỉ, từ vựng sân bay và cách dùng past simple trong ngữ cảnh quen thuộc.",
+      "shortExplanation": "Bé sẽ theo chân Mia trong một chuyến đi nghỉ và chú ý xem các sự việc đã xảy ra theo thứ tự nào.",
+      "storyContext": "Mia viết nhật ký về ngày đầu tiên đi nghỉ cùng gia đình.",
+      "content": "# On Holiday 📖\n\n> Bé hãy tưởng tượng mình đang kéo va-li ra sân bay cùng Mia nhé.\n\n---\n\n## Đọc đoạn văn sau\n\nLast Friday, Mia and her family went on holiday to Da Nang. They woke up early because their flight left at eight o'clock. At the airport, Mia held her boarding pass and checked the departure board with her dad. Her little brother pushed a small suitcase, but Mia carried the big blue bag with the swimsuits.\n\nAfter they passed security, they waited near Gate 6 and ate sandwiches. Mia looked out of the window and watched the planes land and take off. When the loudspeaker called their flight, the family walked onto the plane and sat down quickly.\n\nTwo hours later, they arrived in Da Nang. The weather was sunny, so they drove straight to the hotel and changed clothes. In the afternoon, Mia played on the beach, collected shells, and built a sandcastle with her brother. In the evening, she wrote in her diary, “Today was busy, but it was the best start to our holiday.”\n\n---\n\n## Từ mới\n\n| English | Vietnamese | Example from passage |\n|---|---|---|\n| airport | sân bay | \"At the airport, Mia held her boarding pass...\" |\n| boarding pass | thẻ lên máy bay | \"Mia held her boarding pass...\" |\n| departure board | bảng chuyến bay | \"checked the departure board with her dad\" |\n| suitcase | va-li | \"Her little brother pushed a small suitcase\" |\n| security | khu kiểm tra an ninh | \"After they passed security...\" |\n| gate | cổng ra máy bay | \"they waited near Gate 6\" |\n\n---\n\n## Trước khi làm bài, thử trả lời\n\n- Mia đi đâu vào thứ Sáu tuần trước?\n- Gia đình bạn ấy làm gì ở sân bay?\n- Buổi chiều Mia làm gì ở bãi biển?",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Mia và gia đình đi nghỉ ở đâu?",
+          "options": [
+            "Nha Trang",
+            "Đà Nẵng",
+            "Hà Nội",
+            "Huế"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn nói rõ gia đình Mia bay tới Đà Nẵng vào thứ Sáu tuần trước.",
+          "hint": "Hãy tìm tên thành phố xuất hiện ở đầu đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ở sân bay, Mia cầm vật gì trên tay?",
+          "options": [
+            "Thẻ lên máy bay",
+            "Hộ chiếu của em trai",
+            "Một cuốn bản đồ",
+            "Chìa khóa khách sạn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mia held her boarding pass, tức là Mia cầm thẻ lên máy bay.",
+          "hint": "Đọc câu có từ 'held' ở đoạn đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Gia đình Mia làm gì sau khi qua khu kiểm tra an ninh?",
+          "options": [
+            "Đi thẳng lên máy bay",
+            "Mua đồ bơi mới",
+            "Chờ gần Gate 6 và ăn bánh mì",
+            "Đổi quần áo ở khách sạn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau security, cả nhà waited near Gate 6 and ate sandwiches.",
+          "hint": "Nhìn vào câu bắt đầu bằng 'After they passed security'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'departure board' trong bài có nghĩa gần nhất là gì?",
+          "options": [
+            "Quầy gửi hành lý",
+            "Nhà chờ ăn uống",
+            "Cửa kiểm tra vé",
+            "Bảng thông tin chuyến bay"
+          ],
+          "correctIndex": 3,
+          "explanation": "Departure board là bảng hiển thị giờ bay và cổng ra máy bay.",
+          "hint": "Đó là nơi hành khách nhìn để biết chuyến bay của mình."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Buổi chiều ở Đà Nẵng, Mia KHÔNG làm việc nào sau đây?",
+          "options": [
+            "Chơi trên bãi biển",
+            "Mua quà lưu niệm ở chợ đêm",
+            "Nhặt vỏ sò",
+            "Xây lâu đài cát"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn chỉ kể Mia chơi trên bãi biển, nhặt vỏ sò và xây lâu đài cát.",
+          "hint": "Đọc đoạn cuối nói về hoạt động buổi chiều."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao câu cuối cho thấy Mia cảm thấy vui về ngày đầu tiên?",
+          "options": [
+            "Vì bạn ấy muốn về nhà sớm",
+            "Vì trời bắt đầu mưa",
+            "Vì bạn ấy viết đó là khởi đầu tuyệt vời nhất",
+            "Vì bạn ấy ngủ trên máy bay"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhật ký của Mia nói 'it was the best start to our holiday', cho thấy bạn ấy rất hào hứng.",
+          "hint": "Hãy chú ý dòng nhật ký trong ngoặc kép."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'suitcase' trong bài nghĩa là gì?",
+          "options": [
+            "Va-li",
+            "Áo bơi",
+            "Vé máy bay",
+            "Ghế gần cửa sổ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Suitcase là chiếc va-li dùng để đựng quần áo khi đi du lịch.",
+          "hint": "Đó là đồ em trai của Mia đẩy ở sân bay."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng past simple đúng với nội dung bài đọc?",
+          "options": [
+            "They arrive in Da Nang now.",
+            "They are arriving two hours later.",
+            "They have arrive in Da Nang.",
+            "They arrived in Da Nang two hours later."
+          ],
+          "correctIndex": 3,
+          "explanation": "Arrived là động từ quá khứ đúng để kể việc đã xảy ra trong chuyến đi.",
+          "hint": "Tìm câu kể sự việc đã hoàn thành trong ngày hôm đó."
+        },
+        {
+          "type": "true_false",
+          "text": "Gia đình Mia lên máy bay trước khi nghe loa gọi chuyến bay của mình.",
+          "correct": false,
+          "explanation": "Sai vì cả nhà chờ gần Gate 6, rồi chỉ khi loa gọi chuyến bay họ mới đi lên máy bay.",
+          "hint": "So sánh thứ tự: chờ ở cổng trước, lên máy bay sau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Mia looked out of the window and watched the planes land and take _____.",
+          "answer": "off",
+          "explanation": "Cụm đúng trong bài là 'take off', nghĩa là cất cánh.",
+          "hint": "Đây là cụm động từ đi cùng với 'land'."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-rea-x001-q1",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Mia và gia đình đi nghỉ ở đâu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nha Trang"
+            },
+            {
+              "id": "B",
+              "text": "Đà Nẵng"
+            },
+            {
+              "id": "C",
+              "text": "Hà Nội"
+            },
+            {
+              "id": "D",
+              "text": "Huế"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đoạn văn nói rõ gia đình Mia bay tới Đà Nẵng vào thứ Sáu tuần trước.",
+          "hint": "Hãy tìm tên thành phố xuất hiện ở đầu đoạn văn."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q2",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Ở sân bay, Mia cầm vật gì trên tay?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Thẻ lên máy bay"
+            },
+            {
+              "id": "B",
+              "text": "Hộ chiếu của em trai"
+            },
+            {
+              "id": "C",
+              "text": "Một cuốn bản đồ"
+            },
+            {
+              "id": "D",
+              "text": "Chìa khóa khách sạn"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Mia held her boarding pass, tức là Mia cầm thẻ lên máy bay.",
+          "hint": "Đọc câu có từ 'held' ở đoạn đầu."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q3",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Gia đình Mia làm gì sau khi qua khu kiểm tra an ninh?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Đi thẳng lên máy bay"
+            },
+            {
+              "id": "B",
+              "text": "Mua đồ bơi mới"
+            },
+            {
+              "id": "C",
+              "text": "Chờ gần Gate 6 và ăn bánh mì"
+            },
+            {
+              "id": "D",
+              "text": "Đổi quần áo ở khách sạn"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Sau security, cả nhà waited near Gate 6 and ate sandwiches.",
+          "hint": "Nhìn vào câu bắt đầu bằng 'After they passed security'."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q4",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Từ 'departure board' trong bài có nghĩa gần nhất là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Quầy gửi hành lý"
+            },
+            {
+              "id": "B",
+              "text": "Nhà chờ ăn uống"
+            },
+            {
+              "id": "C",
+              "text": "Cửa kiểm tra vé"
+            },
+            {
+              "id": "D",
+              "text": "Bảng thông tin chuyến bay"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Departure board là bảng hiển thị giờ bay và cổng ra máy bay.",
+          "hint": "Đó là nơi hành khách nhìn để biết chuyến bay của mình."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q5",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Buổi chiều ở Đà Nẵng, Mia KHÔNG làm việc nào sau đây?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chơi trên bãi biển"
+            },
+            {
+              "id": "B",
+              "text": "Mua quà lưu niệm ở chợ đêm"
+            },
+            {
+              "id": "C",
+              "text": "Nhặt vỏ sò"
+            },
+            {
+              "id": "D",
+              "text": "Xây lâu đài cát"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đoạn văn chỉ kể Mia chơi trên bãi biển, nhặt vỏ sò và xây lâu đài cát.",
+          "hint": "Đọc đoạn cuối nói về hoạt động buổi chiều."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q6",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Vì sao câu cuối cho thấy Mia cảm thấy vui về ngày đầu tiên?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì bạn ấy muốn về nhà sớm"
+            },
+            {
+              "id": "B",
+              "text": "Vì trời bắt đầu mưa"
+            },
+            {
+              "id": "C",
+              "text": "Vì bạn ấy viết đó là khởi đầu tuyệt vời nhất"
+            },
+            {
+              "id": "D",
+              "text": "Vì bạn ấy ngủ trên máy bay"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Nhật ký của Mia nói 'it was the best start to our holiday', cho thấy bạn ấy rất hào hứng.",
+          "hint": "Hãy chú ý dòng nhật ký trong ngoặc kép."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q7",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Từ 'suitcase' trong bài nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Va-li"
+            },
+            {
+              "id": "B",
+              "text": "Áo bơi"
+            },
+            {
+              "id": "C",
+              "text": "Vé máy bay"
+            },
+            {
+              "id": "D",
+              "text": "Ghế gần cửa sổ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Suitcase là chiếc va-li dùng để đựng quần áo khi đi du lịch.",
+          "hint": "Đó là đồ em trai của Mia đẩy ở sân bay."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q8",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào dùng past simple đúng với nội dung bài đọc?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They arrive in Da Nang now."
+            },
+            {
+              "id": "B",
+              "text": "They are arriving two hours later."
+            },
+            {
+              "id": "C",
+              "text": "They have arrive in Da Nang."
+            },
+            {
+              "id": "D",
+              "text": "They arrived in Da Nang two hours later."
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Arrived là động từ quá khứ đúng để kể việc đã xảy ra trong chuyến đi.",
+          "hint": "Tìm câu kể sự việc đã hoàn thành trong ngày hôm đó."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q9",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Gia đình Mia lên máy bay trước khi nghe loa gọi chuyến bay của mình.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì cả nhà chờ gần Gate 6, rồi chỉ khi loa gọi chuyến bay họ mới đi lên máy bay.",
+          "hint": "So sánh thứ tự: chờ ở cổng trước, lên máy bay sau."
+        },
+        {
+          "id": "girl-g5-en-rea-x001-q10",
+          "lessonId": "girl-g5-en-rea-x001",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Mia looked out of the window and watched the planes land and take _____.",
+          "options": [],
+          "correctAnswer": "off",
+          "explanation": "Cụm đúng trong bài là 'take off', nghĩa là cất cánh.",
+          "hint": "Đây là cụm động từ đi cùng với 'land'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-rea-x002",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 73,
+      "title": "Sức khỏe và lời khuyên mỗi ngày",
+      "learningObjective": "Sau bài này bé sẽ đọc hiểu đoạn văn về sức khỏe, từ vựng bệnh thường gặp và cách dùng should hoặc shouldn't để cho lời khuyên.",
+      "shortExplanation": "Bé sẽ gặp một nhân vật bị mệt và xem bạn bè, cô giáo đã khuyên bạn ấy thế nào.",
+      "storyContext": "Linh bị không khỏe ở trường và nhận được nhiều lời khuyên hữu ích.",
+      "content": "# Health Matters 📖\n\n> Khi cơ thể mệt, mình cần lắng nghe cơ thể và làm theo lời khuyên đúng nhé.\n\n---\n\n## Đọc đoạn văn sau\n\nOn Monday morning, Linh did not feel well at school. Her head hurt, her throat felt sore, and she had a small cough. During art class, she looked tired and moved slowly. Her friend Anna touched Linh's arm and said, “You should tell the teacher.”\n\nThe teacher took Linh to the school nurse. The nurse checked her temperature and gave her a glass of warm water. “You should rest this afternoon,” the nurse said. “You shouldn't eat ice cream today, and you should drink more water.”\n\nAfter lunch, Linh called her mum. At home, she lay on the sofa with a blanket and read a comic. Her mum made lemon tea with honey. In the evening, Linh felt a little better because she followed the advice. She brushed her teeth, took her medicine, and went to bed early. The next morning, her cough was softer and her throat did not hurt so much.\n\n---\n\n## Từ mới\n\n| English | Vietnamese | Example from passage |\n|---|---|---|\n| sore throat | đau họng | \"her throat felt sore\" |\n| cough | ho | \"she had a small cough\" |\n| temperature | nhiệt độ cơ thể | \"The nurse checked her temperature\" |\n| rest | nghỉ ngơi | \"You should rest this afternoon\" |\n| medicine | thuốc | \"she took her medicine\" |\n| advice | lời khuyên | \"she followed the advice\" |\n\n---\n\n## Trước khi làm bài, thử trả lời\n\n- Linh bị đau ở đâu?\n- Cô y tá khuyên Linh làm gì?\n- Buổi tối Linh thấy thế nào?",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Triệu chứng nào của Linh được nhắc tới ở đầu bài?",
+          "options": [
+            "Đau chân, sốt cao và chóng mặt",
+            "Đau bụng và đau tai",
+            "Đau đầu, đau họng và ho nhẹ",
+            "Mỏi mắt và chảy nước mũi"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đoạn đầu nói Linh đau đầu, đau họng và có một cơn ho nhẹ.",
+          "hint": "Tìm ba triệu chứng xuất hiện cùng nhau trong đoạn đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Anna đã khuyên Linh làm gì?",
+          "options": [
+            "Nói với cô giáo",
+            "Về nhà ngay lập tức",
+            "Ăn kem cho dễ chịu",
+            "Tiếp tục chạy ngoài sân"
+          ],
+          "correctIndex": 0,
+          "explanation": "Anna nói 'You should tell the teacher.'",
+          "hint": "Đọc câu bạn Anna nói trực tiếp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cô y tá cho Linh uống gì?",
+          "options": [
+            "Nước cam lạnh",
+            "Sữa chocolate",
+            "Nước đá chanh",
+            "Một cốc nước ấm"
+          ],
+          "correctIndex": 3,
+          "explanation": "The nurse gave her a glass of warm water, tức là một cốc nước ấm.",
+          "hint": "Tìm câu mô tả việc cô y tá giúp Linh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo lời cô y tá, hôm đó Linh không nên làm gì?",
+          "options": [
+            "Ngủ sớm",
+            "Ăn kem",
+            "Uống thêm nước",
+            "Nghỉ buổi chiều"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cô y tá nói rõ 'You shouldn't eat ice cream today.'",
+          "hint": "Hãy tìm câu có từ shouldn't."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'medicine' trong bài nghĩa là gì?",
+          "options": [
+            "Khăn chăn",
+            "Nước chanh",
+            "Nhiệt kế",
+            "Thuốc"
+          ],
+          "correctIndex": 3,
+          "explanation": "Medicine là thuốc, thứ Linh uống trước khi đi ngủ.",
+          "hint": "Đó là thứ Linh dùng vào buổi tối để khỏe hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao tối hôm đó Linh cảm thấy đỡ hơn?",
+          "options": [
+            "Vì bạn ấy làm theo lời khuyên",
+            "Vì bạn ấy ăn rất nhiều kem",
+            "Vì bạn ấy chơi ngoài trời lâu",
+            "Vì bạn ấy không nghỉ ngơi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc nói Linh felt a little better because she followed the advice.",
+          "hint": "Hãy tìm câu bắt đầu bằng 'In the evening'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'rest' trong bài gần nghĩa nhất với từ nào?",
+          "options": [
+            "Chạy nhanh",
+            "Nói chuyện",
+            "Nghỉ ngơi",
+            "Uống thuốc"
+          ],
+          "correctIndex": 2,
+          "explanation": "Rest nghĩa là nghỉ ngơi để cơ thể hồi phục.",
+          "hint": "Đó là việc cô y tá bảo Linh làm vào buổi chiều."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào thể hiện lời khuyên đúng theo bài đọc?",
+          "options": [
+            "You should eat ice cream today.",
+            "You should drink more water.",
+            "You shouldn't go to bed early.",
+            "You should skip your medicine."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu đúng được nêu trực tiếp trong lời cô y tá dành cho Linh.",
+          "hint": "Tìm câu khuyên Linh làm điều tốt cho cổ họng."
+        },
+        {
+          "type": "true_false",
+          "text": "Sáng hôm sau, cơn ho của Linh nặng hơn đêm hôm trước.",
+          "correct": false,
+          "explanation": "Sai vì sáng hôm sau cơn ho của Linh nhẹ hơn và cổ họng cũng đỡ đau hơn.",
+          "hint": "Đọc câu cuối cùng của đoạn văn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Her mum made lemon tea with _____.",
+          "answer": "honey",
+          "explanation": "Mẹ của Linh pha trà chanh với mật ong để giúp cổ họng dễ chịu hơn.",
+          "hint": "Từ này là thứ ngọt tự nhiên do ong làm ra."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-rea-x002-q1",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Triệu chứng nào của Linh được nhắc tới ở đầu bài?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Đau chân, sốt cao và chóng mặt"
+            },
+            {
+              "id": "B",
+              "text": "Đau bụng và đau tai"
+            },
+            {
+              "id": "C",
+              "text": "Đau đầu, đau họng và ho nhẹ"
+            },
+            {
+              "id": "D",
+              "text": "Mỏi mắt và chảy nước mũi"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Đoạn đầu nói Linh đau đầu, đau họng và có một cơn ho nhẹ.",
+          "hint": "Tìm ba triệu chứng xuất hiện cùng nhau trong đoạn đầu."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q2",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Anna đã khuyên Linh làm gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nói với cô giáo"
+            },
+            {
+              "id": "B",
+              "text": "Về nhà ngay lập tức"
+            },
+            {
+              "id": "C",
+              "text": "Ăn kem cho dễ chịu"
+            },
+            {
+              "id": "D",
+              "text": "Tiếp tục chạy ngoài sân"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Anna nói 'You should tell the teacher.'",
+          "hint": "Đọc câu bạn Anna nói trực tiếp."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q3",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Cô y tá cho Linh uống gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nước cam lạnh"
+            },
+            {
+              "id": "B",
+              "text": "Sữa chocolate"
+            },
+            {
+              "id": "C",
+              "text": "Nước đá chanh"
+            },
+            {
+              "id": "D",
+              "text": "Một cốc nước ấm"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "The nurse gave her a glass of warm water, tức là một cốc nước ấm.",
+          "hint": "Tìm câu mô tả việc cô y tá giúp Linh."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q4",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Theo lời cô y tá, hôm đó Linh không nên làm gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ngủ sớm"
+            },
+            {
+              "id": "B",
+              "text": "Ăn kem"
+            },
+            {
+              "id": "C",
+              "text": "Uống thêm nước"
+            },
+            {
+              "id": "D",
+              "text": "Nghỉ buổi chiều"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Cô y tá nói rõ 'You shouldn't eat ice cream today.'",
+          "hint": "Hãy tìm câu có từ shouldn't."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q5",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Từ 'medicine' trong bài nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Khăn chăn"
+            },
+            {
+              "id": "B",
+              "text": "Nước chanh"
+            },
+            {
+              "id": "C",
+              "text": "Nhiệt kế"
+            },
+            {
+              "id": "D",
+              "text": "Thuốc"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Medicine là thuốc, thứ Linh uống trước khi đi ngủ.",
+          "hint": "Đó là thứ Linh dùng vào buổi tối để khỏe hơn."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q6",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Vì sao tối hôm đó Linh cảm thấy đỡ hơn?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì bạn ấy làm theo lời khuyên"
+            },
+            {
+              "id": "B",
+              "text": "Vì bạn ấy ăn rất nhiều kem"
+            },
+            {
+              "id": "C",
+              "text": "Vì bạn ấy chơi ngoài trời lâu"
+            },
+            {
+              "id": "D",
+              "text": "Vì bạn ấy không nghỉ ngơi"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Bài đọc nói Linh felt a little better because she followed the advice.",
+          "hint": "Hãy tìm câu bắt đầu bằng 'In the evening'."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q7",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Từ 'rest' trong bài gần nghĩa nhất với từ nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chạy nhanh"
+            },
+            {
+              "id": "B",
+              "text": "Nói chuyện"
+            },
+            {
+              "id": "C",
+              "text": "Nghỉ ngơi"
+            },
+            {
+              "id": "D",
+              "text": "Uống thuốc"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Rest nghĩa là nghỉ ngơi để cơ thể hồi phục.",
+          "hint": "Đó là việc cô y tá bảo Linh làm vào buổi chiều."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q8",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào thể hiện lời khuyên đúng theo bài đọc?",
+          "options": [
+            {
+              "id": "A",
+              "text": "You should eat ice cream today."
+            },
+            {
+              "id": "B",
+              "text": "You should drink more water."
+            },
+            {
+              "id": "C",
+              "text": "You shouldn't go to bed early."
+            },
+            {
+              "id": "D",
+              "text": "You should skip your medicine."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Câu đúng được nêu trực tiếp trong lời cô y tá dành cho Linh.",
+          "hint": "Tìm câu khuyên Linh làm điều tốt cho cổ họng."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q9",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Sáng hôm sau, cơn ho của Linh nặng hơn đêm hôm trước.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì sáng hôm sau cơn ho của Linh nhẹ hơn và cổ họng cũng đỡ đau hơn.",
+          "hint": "Đọc câu cuối cùng của đoạn văn."
+        },
+        {
+          "id": "girl-g5-en-rea-x002-q10",
+          "lessonId": "girl-g5-en-rea-x002",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Her mum made lemon tea with _____.",
+          "options": [],
+          "correctAnswer": "honey",
+          "explanation": "Mẹ của Linh pha trà chanh với mật ong để giúp cổ họng dễ chịu hơn.",
+          "hint": "Từ này là thứ ngọt tự nhiên do ong làm ra."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-rea-x003",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 74,
+      "title": "Hành tinh xanh và điều kiện đầu tiên",
+      "learningObjective": "Sau bài này bé sẽ đọc hiểu một bài về bảo vệ môi trường và nhận ra cấu trúc If + present, will + verb trong ngữ cảnh gần gũi.",
+      "shortExplanation": "Bé sẽ xem câu lạc bộ xanh ở trường đã làm gì và điều gì sẽ xảy ra nếu mọi người cùng giúp Trái Đất.",
+      "storyContext": "Câu lạc bộ Green Team đang chuẩn bị cho Ngày Trái Đất ở trường.",
+      "content": "# Our Planet 📖\n\n> Trái Đất sẽ vui hơn nếu mỗi bạn nhỏ làm một việc tốt cho môi trường mỗi ngày.\n\n---\n\n## Đọc đoạn văn sau\n\nThe Green Team at Hoa Binh School met on Wednesday to plan Earth Day. Mai brought old newspapers, Nam carried two cloth bags, and Lucy drew bright posters with the words “Save Water” and “Plant Trees.” Their teacher said, “If we work together, our playground will look cleaner.”\n\nFirst, the team picked up plastic bottles and empty cans near the school gate. Then they sorted the rubbish into paper, plastic, and metal boxes. After that, they planted three young trees beside the fence. Mai smiled and said, “If these trees get enough water, they will grow tall and strong.”\n\nAt the end of the afternoon, the students visited each classroom to share simple ideas. “If you turn off the lights, you will save electricity,” Lucy told the younger children. “If you use a reusable bottle, you will make less waste.” Everyone clapped because the message was easy to understand. The Green Team went home tired, but they felt proud because they had helped the planet in a real way.\n\n---\n\n## Từ mới\n\n| English | Vietnamese | Example from passage |\n|---|---|---|\n| cloth bag | túi vải | \"Nam carried two cloth bags\" |\n| sort | phân loại | \"they sorted the rubbish\" |\n| reusable | có thể dùng lại | \"use a reusable bottle\" |\n| waste | rác thải | \"you will make less waste\" |\n| electricity | điện năng | \"you will save electricity\" |\n| planet | hành tinh | \"they had helped the planet\" |\n\n---\n\n## Trước khi làm bài, thử trả lời\n\n- Green Team đã dọn những gì?\n- Các bạn ấy trồng cây ở đâu?\n- Câu nào trong bài dùng If + present, will + verb?",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Green Team gặp nhau để chuẩn bị cho ngày nào?",
+          "options": [
+            "Sports Day",
+            "Teachers' Day",
+            "Book Fair",
+            "Earth Day"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ngay câu đầu nói nhóm gặp nhau để plan Earth Day.",
+          "hint": "Tìm tên ngày đặc biệt xuất hiện ở câu đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nam mang theo vật gì?",
+          "options": [
+            "Ba cây non",
+            "Hai chiếc túi vải",
+            "Một hộp kim loại",
+            "Những chai nhựa cũ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc nói Nam carried two cloth bags.",
+          "hint": "Nhìn vào danh sách mỗi bạn mang gì đến buổi họp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi nhặt rác, nhóm đã làm gì tiếp theo?",
+          "options": [
+            "Phân loại rác vào các hộp",
+            "Về nhà ngay",
+            "Tưới cây trong vườn",
+            "Tắt hết đèn trong lớp"
+          ],
+          "correctIndex": 0,
+          "explanation": "Các bạn nhặt chai lọ xong rồi sorted the rubbish into boxes.",
+          "hint": "Đọc chuỗi hoạt động với từ First, Then, After that."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'reusable' gần nghĩa nhất với cách hiểu nào?",
+          "options": [
+            "Rất nặng để mang",
+            "Được làm bằng kim loại",
+            "Có thể dùng lại nhiều lần",
+            "Chỉ dùng được một lần"
+          ],
+          "correctIndex": 2,
+          "explanation": "Reusable bottle là bình có thể dùng lại, giúp giảm rác.",
+          "hint": "Hãy nghĩ đến một chai nước không bị vứt đi sau một lần dùng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mai nói điều gì sẽ xảy ra nếu cây được tưới đủ nước?",
+          "options": [
+            "Chúng sẽ đổi màu xanh sang vàng",
+            "Chúng sẽ biến thành hoa",
+            "Chúng sẽ cần ít ánh nắng hơn",
+            "Chúng sẽ lớn cao và khỏe"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mai nói rõ: If these trees get enough water, they will grow tall and strong.",
+          "hint": "Tìm câu nói trực tiếp của Mai."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây đúng theo cấu trúc first conditional trong bài?",
+          "options": [
+            "If you turn off the lights, you will save electricity.",
+            "If you will turn off the lights, you save electricity.",
+            "If you turned off the lights, you will save electricity.",
+            "If you turn off the lights, you saving electricity."
+          ],
+          "correctIndex": 0,
+          "explanation": "Đây là mẫu đúng: If + present simple, will + động từ nguyên mẫu.",
+          "hint": "Tìm câu cô bé Lucy nói với các em nhỏ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao mọi người vỗ tay ở cuối buổi chiều?",
+          "options": [
+            "Vì trời bắt đầu mưa lớn",
+            "Vì các hộp rác bị đổ",
+            "Vì thông điệp của nhóm dễ hiểu",
+            "Vì các bạn được nghỉ học sớm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc viết everyone clapped because the message was easy to understand.",
+          "hint": "Đọc phần cuối sau khi nhóm đi từng lớp học."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'waste' trong bài nghĩa là gì?",
+          "options": [
+            "Năng lượng mặt trời",
+            "Rác thải",
+            "Nước sạch",
+            "Đất trồng cây"
+          ],
+          "correctIndex": 1,
+          "explanation": "Waste là rác thải, thứ sẽ ít hơn khi dùng chai có thể tái sử dụng.",
+          "hint": "Đó là thứ môi trường muốn giảm bớt."
+        },
+        {
+          "type": "true_false",
+          "text": "Green Team chỉ dọn dẹp mà không đi chia sẻ ý tưởng với các lớp khác.",
+          "correct": false,
+          "explanation": "Sai vì cuối buổi chiều các bạn còn tới từng lớp để chia sẻ những ý tưởng đơn giản giúp bảo vệ môi trường.",
+          "hint": "Hãy đọc đoạn cuối xem nhóm có làm thêm việc gì sau khi trồng cây."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: If you use a reusable bottle, you will make less _____.",
+          "answer": "waste",
+          "explanation": "Câu trong bài nói dùng bình có thể dùng lại sẽ tạo ra ít rác thải hơn.",
+          "hint": "Đó là từ chỉ thứ bị vứt đi."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-rea-x003-q1",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Green Team gặp nhau để chuẩn bị cho ngày nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sports Day"
+            },
+            {
+              "id": "B",
+              "text": "Teachers' Day"
+            },
+            {
+              "id": "C",
+              "text": "Book Fair"
+            },
+            {
+              "id": "D",
+              "text": "Earth Day"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Ngay câu đầu nói nhóm gặp nhau để plan Earth Day.",
+          "hint": "Tìm tên ngày đặc biệt xuất hiện ở câu đầu."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q2",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Nam mang theo vật gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ba cây non"
+            },
+            {
+              "id": "B",
+              "text": "Hai chiếc túi vải"
+            },
+            {
+              "id": "C",
+              "text": "Một hộp kim loại"
+            },
+            {
+              "id": "D",
+              "text": "Những chai nhựa cũ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bài đọc nói Nam carried two cloth bags.",
+          "hint": "Nhìn vào danh sách mỗi bạn mang gì đến buổi họp."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q3",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Sau khi nhặt rác, nhóm đã làm gì tiếp theo?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Phân loại rác vào các hộp"
+            },
+            {
+              "id": "B",
+              "text": "Về nhà ngay"
+            },
+            {
+              "id": "C",
+              "text": "Tưới cây trong vườn"
+            },
+            {
+              "id": "D",
+              "text": "Tắt hết đèn trong lớp"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Các bạn nhặt chai lọ xong rồi sorted the rubbish into boxes.",
+          "hint": "Đọc chuỗi hoạt động với từ First, Then, After that."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q4",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Từ 'reusable' gần nghĩa nhất với cách hiểu nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rất nặng để mang"
+            },
+            {
+              "id": "B",
+              "text": "Được làm bằng kim loại"
+            },
+            {
+              "id": "C",
+              "text": "Có thể dùng lại nhiều lần"
+            },
+            {
+              "id": "D",
+              "text": "Chỉ dùng được một lần"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Reusable bottle là bình có thể dùng lại, giúp giảm rác.",
+          "hint": "Hãy nghĩ đến một chai nước không bị vứt đi sau một lần dùng."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q5",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Mai nói điều gì sẽ xảy ra nếu cây được tưới đủ nước?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chúng sẽ đổi màu xanh sang vàng"
+            },
+            {
+              "id": "B",
+              "text": "Chúng sẽ biến thành hoa"
+            },
+            {
+              "id": "C",
+              "text": "Chúng sẽ cần ít ánh nắng hơn"
+            },
+            {
+              "id": "D",
+              "text": "Chúng sẽ lớn cao và khỏe"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Mai nói rõ: If these trees get enough water, they will grow tall and strong.",
+          "hint": "Tìm câu nói trực tiếp của Mai."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q6",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Câu nào dưới đây đúng theo cấu trúc first conditional trong bài?",
+          "options": [
+            {
+              "id": "A",
+              "text": "If you turn off the lights, you will save electricity."
+            },
+            {
+              "id": "B",
+              "text": "If you will turn off the lights, you save electricity."
+            },
+            {
+              "id": "C",
+              "text": "If you turned off the lights, you will save electricity."
+            },
+            {
+              "id": "D",
+              "text": "If you turn off the lights, you saving electricity."
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Đây là mẫu đúng: If + present simple, will + động từ nguyên mẫu.",
+          "hint": "Tìm câu cô bé Lucy nói với các em nhỏ."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q7",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Vì sao mọi người vỗ tay ở cuối buổi chiều?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì trời bắt đầu mưa lớn"
+            },
+            {
+              "id": "B",
+              "text": "Vì các hộp rác bị đổ"
+            },
+            {
+              "id": "C",
+              "text": "Vì thông điệp của nhóm dễ hiểu"
+            },
+            {
+              "id": "D",
+              "text": "Vì các bạn được nghỉ học sớm"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Bài đọc viết everyone clapped because the message was easy to understand.",
+          "hint": "Đọc phần cuối sau khi nhóm đi từng lớp học."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q8",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Từ 'waste' trong bài nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Năng lượng mặt trời"
+            },
+            {
+              "id": "B",
+              "text": "Rác thải"
+            },
+            {
+              "id": "C",
+              "text": "Nước sạch"
+            },
+            {
+              "id": "D",
+              "text": "Đất trồng cây"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Waste là rác thải, thứ sẽ ít hơn khi dùng chai có thể tái sử dụng.",
+          "hint": "Đó là thứ môi trường muốn giảm bớt."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q9",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Green Team chỉ dọn dẹp mà không đi chia sẻ ý tưởng với các lớp khác.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì cuối buổi chiều các bạn còn tới từng lớp để chia sẻ những ý tưởng đơn giản giúp bảo vệ môi trường.",
+          "hint": "Hãy đọc đoạn cuối xem nhóm có làm thêm việc gì sau khi trồng cây."
+        },
+        {
+          "id": "girl-g5-en-rea-x003-q10",
+          "lessonId": "girl-g5-en-rea-x003",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: If you use a reusable bottle, you will make less _____.",
+          "options": [],
+          "correctAnswer": "waste",
+          "explanation": "Câu trong bài nói dùng bình có thể dùng lại sẽ tạo ra ít rác thải hơn.",
+          "hint": "Đó là từ chỉ thứ bị vứt đi."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-rea-x004",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 75,
+      "title": "Một ngày ở bảo tàng",
+      "learningObjective": "Sau bài này bé sẽ đọc hiểu đoạn văn về chuyến đi bảo tàng và nhận ra sự khác nhau cơ bản giữa past simple và present perfect qua ngữ cảnh.",
+      "shortExplanation": "Bé sẽ theo dõi chuyến tham quan bảo tàng và tìm các câu kể việc đã xảy ra cùng các trải nghiệm đã từng có.",
+      "storyContext": "Sara ghi lại chuyến đi tới bảo tàng thành phố cùng lớp học.",
+      "content": "# A Day at the Museum 📖\n\n> Có những việc xảy ra vào một thời điểm rõ ràng trong quá khứ, và cũng có những trải nghiệm ta chỉ nói là đã từng có.\n\n---\n\n## Đọc đoạn văn sau\n\nYesterday, Sara's class visited the city museum for a history project. They arrived at nine o'clock, left their bags in a locker, and followed a guide named Mr. Ben. First, the class walked into a room with old maps, coins, and family photos from one hundred years ago. Sara wrote notes because she wanted to remember every detail.\n\nLater, the guide asked, “Have you ever seen a machine like this before?” He pointed to a large printing press. Sara had not seen one before, but her friend Leo had read about it in a book. In another room, the children looked at dinosaur bones. Leo whispered, “I have never stood this close to such huge fossils.”\n\nAt noon, the class ate lunch in the museum garden. After lunch, Sara bought a postcard for her grandmother. Before going home, the students completed a short quiz. Sara felt happy because she learned many new facts, and she has already decided to visit the museum again with her family next month.\n\n---\n\n## Từ mới\n\n| English | Vietnamese | Example from passage |\n|---|---|---|\n| locker | tủ để đồ có khóa | \"left their bags in a locker\" |\n| guide | hướng dẫn viên | \"followed a guide named Mr. Ben\" |\n| printing press | máy in cổ | \"He pointed to a large printing press\" |\n| fossil | hóa thạch | \"such huge fossils\" |\n| postcard | bưu thiếp | \"Sara bought a postcard\" |\n| decide | quyết định | \"she has already decided\" |\n\n---\n\n## Trước khi làm bài, thử trả lời\n\n- Sara làm gì lúc chín giờ?\n- Câu hỏi của hướng dẫn viên dùng thì nào?\n- Sara đã quyết định điều gì vào cuối bài?",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Lớp của Sara đến bảo tàng vào lúc mấy giờ?",
+          "options": [
+            "Chín giờ",
+            "Bảy giờ",
+            "Mười một giờ",
+            "Một giờ chiều"
+          ],
+          "correctIndex": 0,
+          "explanation": "Đoạn đầu nói rõ they arrived at nine o'clock.",
+          "hint": "Tìm mốc thời gian ở câu đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Các bạn nhỏ để túi ở đâu trước khi tham quan?",
+          "options": [
+            "Dưới bàn ăn trưa",
+            "Trong xe buýt",
+            "Trong một tủ có khóa",
+            "Tại quầy bán bưu thiếp"
+          ],
+          "correctIndex": 2,
+          "explanation": "They left their bags in a locker, nghĩa là trong tủ cất đồ có khóa.",
+          "hint": "Từ cần tìm nằm trong đoạn đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hướng dẫn viên hỏi: 'Have you ever seen a machine like this before?' Câu hỏi này dùng để hỏi về điều gì?",
+          "options": [
+            "Một kế hoạch cho ngày mai",
+            "Một trải nghiệm đã từng có",
+            "Một hành động đang diễn ra",
+            "Một thói quen mỗi ngày"
+          ],
+          "correctIndex": 1,
+          "explanation": "Present perfect với 'Have you ever...?' hỏi xem ai đó đã từng có trải nghiệm đó chưa.",
+          "hint": "Nhìn vào cụm 'Have you ever'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Leo nói rằng bạn ấy chưa từng đứng gần vật gì như vậy?",
+          "options": [
+            "Một chiếc xe buýt cũ",
+            "Một cái máy ảnh mới",
+            "Một cây cổ thụ",
+            "Những bộ hóa thạch rất lớn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Leo nói 'I have never stood this close to such huge fossils.'",
+          "hint": "Tìm câu Leo thì thầm trong phòng thứ hai."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'postcard' trong bài nghĩa là gì?",
+          "options": [
+            "Bưu thiếp",
+            "Vé vào cổng",
+            "Bản đồ cổ",
+            "Quyển sổ ghi chép"
+          ],
+          "correctIndex": 0,
+          "explanation": "Postcard là bưu thiếp, món Sara mua cho bà.",
+          "hint": "Đó là món quà giấy nhỏ thường có hình đẹp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Việc nào xảy ra sau bữa trưa?",
+          "options": [
+            "Cả lớp cất túi vào locker",
+            "Các bạn nhìn bản đồ cổ",
+            "Sara mua một bưu thiếp cho bà",
+            "Hướng dẫn viên bắt đầu chuyến tham quan"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau bữa trưa trong vườn, Sara bought a postcard for her grandmother.",
+          "hint": "Đọc câu ngay sau 'After lunch'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào trong bài là một ví dụ của present perfect?",
+          "options": [
+            "They arrived at nine o'clock.",
+            "She has already decided to visit the museum again.",
+            "Sara bought a postcard for her grandmother.",
+            "The class ate lunch in the museum garden."
+          ],
+          "correctIndex": 1,
+          "explanation": "Has already decided là present perfect, nhấn mạnh quyết định đã có trước hiện tại.",
+          "hint": "Hãy tìm câu có has + past participle."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo bài đọc, vì sao Sara cảm thấy vui?",
+          "options": [
+            "Vì bạn ấy được nghỉ học cả tuần",
+            "Vì bạn ấy không phải làm bài kiểm tra",
+            "Vì bạn ấy mua rất nhiều quà",
+            "Vì bạn ấy học được nhiều điều mới"
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu cuối nói Sara felt happy because she learned many new facts.",
+          "hint": "Đọc phần kết của đoạn văn."
+        },
+        {
+          "type": "true_false",
+          "text": "Sara đã từng nhìn thấy chiếc máy in cổ trước chuyến đi này.",
+          "correct": false,
+          "explanation": "Sai vì bài đọc nói Sara had not seen one before.",
+          "hint": "So sánh trải nghiệm của Sara với bạn Leo."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Sara has already decided to visit the museum again next _____.",
+          "answer": "month",
+          "explanation": "Cuối bài cho biết Sara đã quyết định sẽ quay lại bảo tàng cùng gia đình vào tháng sau.",
+          "hint": "Đây là đơn vị thời gian dài hơn tuần."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-rea-x004-q1",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Lớp của Sara đến bảo tàng vào lúc mấy giờ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chín giờ"
+            },
+            {
+              "id": "B",
+              "text": "Bảy giờ"
+            },
+            {
+              "id": "C",
+              "text": "Mười một giờ"
+            },
+            {
+              "id": "D",
+              "text": "Một giờ chiều"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Đoạn đầu nói rõ they arrived at nine o'clock.",
+          "hint": "Tìm mốc thời gian ở câu đầu."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q2",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Các bạn nhỏ để túi ở đâu trước khi tham quan?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dưới bàn ăn trưa"
+            },
+            {
+              "id": "B",
+              "text": "Trong xe buýt"
+            },
+            {
+              "id": "C",
+              "text": "Trong một tủ có khóa"
+            },
+            {
+              "id": "D",
+              "text": "Tại quầy bán bưu thiếp"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "They left their bags in a locker, nghĩa là trong tủ cất đồ có khóa.",
+          "hint": "Từ cần tìm nằm trong đoạn đầu."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q3",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Hướng dẫn viên hỏi: 'Have you ever seen a machine like this before?' Câu hỏi này dùng để hỏi về điều gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Một kế hoạch cho ngày mai"
+            },
+            {
+              "id": "B",
+              "text": "Một trải nghiệm đã từng có"
+            },
+            {
+              "id": "C",
+              "text": "Một hành động đang diễn ra"
+            },
+            {
+              "id": "D",
+              "text": "Một thói quen mỗi ngày"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Present perfect với 'Have you ever...?' hỏi xem ai đó đã từng có trải nghiệm đó chưa.",
+          "hint": "Nhìn vào cụm 'Have you ever'."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q4",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Leo nói rằng bạn ấy chưa từng đứng gần vật gì như vậy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Một chiếc xe buýt cũ"
+            },
+            {
+              "id": "B",
+              "text": "Một cái máy ảnh mới"
+            },
+            {
+              "id": "C",
+              "text": "Một cây cổ thụ"
+            },
+            {
+              "id": "D",
+              "text": "Những bộ hóa thạch rất lớn"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Leo nói 'I have never stood this close to such huge fossils.'",
+          "hint": "Tìm câu Leo thì thầm trong phòng thứ hai."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q5",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Từ 'postcard' trong bài nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bưu thiếp"
+            },
+            {
+              "id": "B",
+              "text": "Vé vào cổng"
+            },
+            {
+              "id": "C",
+              "text": "Bản đồ cổ"
+            },
+            {
+              "id": "D",
+              "text": "Quyển sổ ghi chép"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Postcard là bưu thiếp, món Sara mua cho bà.",
+          "hint": "Đó là món quà giấy nhỏ thường có hình đẹp."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q6",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Việc nào xảy ra sau bữa trưa?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cả lớp cất túi vào locker"
+            },
+            {
+              "id": "B",
+              "text": "Các bạn nhìn bản đồ cổ"
+            },
+            {
+              "id": "C",
+              "text": "Sara mua một bưu thiếp cho bà"
+            },
+            {
+              "id": "D",
+              "text": "Hướng dẫn viên bắt đầu chuyến tham quan"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Sau bữa trưa trong vườn, Sara bought a postcard for her grandmother.",
+          "hint": "Đọc câu ngay sau 'After lunch'."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q7",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Câu nào trong bài là một ví dụ của present perfect?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They arrived at nine o'clock."
+            },
+            {
+              "id": "B",
+              "text": "She has already decided to visit the museum again."
+            },
+            {
+              "id": "C",
+              "text": "Sara bought a postcard for her grandmother."
+            },
+            {
+              "id": "D",
+              "text": "The class ate lunch in the museum garden."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Has already decided là present perfect, nhấn mạnh quyết định đã có trước hiện tại.",
+          "hint": "Hãy tìm câu có has + past participle."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q8",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Theo bài đọc, vì sao Sara cảm thấy vui?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì bạn ấy được nghỉ học cả tuần"
+            },
+            {
+              "id": "B",
+              "text": "Vì bạn ấy không phải làm bài kiểm tra"
+            },
+            {
+              "id": "C",
+              "text": "Vì bạn ấy mua rất nhiều quà"
+            },
+            {
+              "id": "D",
+              "text": "Vì bạn ấy học được nhiều điều mới"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Câu cuối nói Sara felt happy because she learned many new facts.",
+          "hint": "Đọc phần kết của đoạn văn."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q9",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Sara đã từng nhìn thấy chiếc máy in cổ trước chuyến đi này.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì bài đọc nói Sara had not seen one before.",
+          "hint": "So sánh trải nghiệm của Sara với bạn Leo."
+        },
+        {
+          "id": "girl-g5-en-rea-x004-q10",
+          "lessonId": "girl-g5-en-rea-x004",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Sara has already decided to visit the museum again next _____.",
+          "options": [],
+          "correctAnswer": "month",
+          "explanation": "Cuối bài cho biết Sara đã quyết định sẽ quay lại bảo tàng cùng gia đình vào tháng sau.",
+          "hint": "Đây là đơn vị thời gian dài hơn tuần."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-wri-x001",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 76,
+      "title": "Viết lời khuyên với should và shouldn't",
+      "learningObjective": "Sau bài này bé sẽ viết được câu khuyên bảo đơn giản với should và shouldn't, đồng thời tránh các lỗi thường gặp khi thêm to hoặc chia sai động từ.",
+      "shortExplanation": "Should dùng để khuyên nên làm gì, còn shouldn't dùng để khuyên không nên làm gì.",
+      "storyContext": "Yumi đang viết bảng lời khuyên sức khỏe cho câu lạc bộ chăm sóc bản thân ở trường.",
+      "content": "# Should / Shouldn't ✏️\n\n## Quy tắc ngữ pháp\n\nTa dùng **should** để đưa ra lời khuyên tích cực và **shouldn't** để nói điều không nên làm. Sau cả hai từ này, động từ luôn ở dạng nguyên mẫu, không thêm **to**, không thêm **-s**.\n\n---\n\n## Công thức\n\n| Dạng câu | Cấu trúc | Ví dụ |\n|---|---|---|\n| Khẳng định | Subject + should + verb | \"You should drink water.\" |\n| Phủ định | Subject + shouldn't + verb | \"You shouldn't stay up late.\" |\n| Câu hỏi | Should + subject + verb? | \"Should I take this medicine?\" |\n\n---\n\n## Đúng ✅ và Sai ❌\n\n| Câu | Nhận xét |\n|---|---|\n| ✅ \"You should rest after school.\" | Đúng vì sau should là động từ nguyên mẫu. |\n| ❌ \"You should to rest after school.\" | Sai vì không dùng **to** sau should. |\n| ✅ \"He shouldn't eat too much candy.\" | Đúng vì shouldn't + eat. |\n| ❌ \"He shouldn't eats too much candy.\" | Sai vì không thêm **-s** vào động từ sau modal verb. |\n| ✅ \"Should we open the window?\" | Đúng vì câu hỏi bắt đầu bằng Should. |\n| ❌ \"Do we should open the window?\" | Sai vì không dùng do với should. |\n\n---\n\n## Lỗi thường gặp\n\n> ❌ Đừng viết: \"She should to sleep early.\"\n> ✅ Hãy viết: \"She should sleep early.\"\n> Lý do: modal verb đi với động từ nguyên mẫu không có **to**.\n\n> ❌ Đừng viết: \"He shouldn't drinks cola.\"\n> ✅ Hãy viết: \"He shouldn't drink cola.\"\n> Lý do: sau shouldn't, động từ không thêm **-s**.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng ngữ pháp?",
+          "options": [
+            "You should to drink more water.",
+            "You should drink more water.",
+            "You should drinks more water.",
+            "You should drinking more water."
+          ],
+          "correctIndex": 1,
+          "explanation": "Sau should dùng động từ nguyên mẫu: drink.",
+          "hint": "Nhìn xem câu nào không có to và không thêm -s."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là lời khuyên phủ định đúng?",
+          "options": [
+            "You shouldn't to stay up late.",
+            "You shouldn't stayed up late.",
+            "You shouldn't stays up late.",
+            "You shouldn't stay up late."
+          ],
+          "correctIndex": 3,
+          "explanation": "Shouldn't đi với động từ nguyên mẫu: stay.",
+          "hint": "Hãy chọn câu có shouldn't + verb."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào viết đúng với should?",
+          "options": [
+            "Should I call my mum now?",
+            "Do I should call my mum now?",
+            "Should I to call my mum now?",
+            "Shoulds I call my mum now?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu hỏi đúng bắt đầu bằng Should + subject + verb.",
+          "hint": "Đừng dùng do hay to trong mẫu này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng khi khuyên bạn bị ho?",
+          "options": [
+            "She should to rest at home.",
+            "She should resting at home.",
+            "She should rest at home.",
+            "She should rests at home."
+          ],
+          "correctIndex": 2,
+          "explanation": "Should + rest là cấu trúc đúng.",
+          "hint": "Động từ sau should phải ở dạng nguyên mẫu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lỗi phổ biến trong câu 'You should to sleep early' là gì?",
+          "options": [
+            "Thiếu chủ ngữ",
+            "Thêm 'to' sau should",
+            "Sai thì quá khứ",
+            "Thiếu mạo từ a"
+          ],
+          "correctIndex": 1,
+          "explanation": "Should không đi với to, nên phải viết 'should sleep'.",
+          "hint": "Hãy nhìn ngay sau từ should."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng should để nói ý nghĩa 'nên đeo áo mưa'?",
+          "options": [
+            "You should wears a raincoat.",
+            "You should to wear a raincoat.",
+            "You should wearing a raincoat.",
+            "You should wear a raincoat."
+          ],
+          "correctIndex": 3,
+          "explanation": "Wear là động từ nguyên mẫu đúng sau should.",
+          "hint": "Chọn câu có should + wear."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào phù hợp nhất nếu muốn khuyên không nên ăn quá nhiều đồ ngọt?",
+          "options": [
+            "You shouldn't eat too many sweets.",
+            "You shouldn't eats too many sweets.",
+            "You shouldn't to eat too many sweets.",
+            "You don't should eat too many sweets."
+          ],
+          "correctIndex": 0,
+          "explanation": "Cấu trúc đúng là shouldn't + eat.",
+          "hint": "Hãy tránh cả to lẫn -s."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau should hoặc shouldn't, dạng đúng của động từ là gì?",
+          "options": [
+            "Danh từ",
+            "Động từ thêm -ing",
+            "Động từ nguyên mẫu",
+            "Động từ quá khứ"
+          ],
+          "correctIndex": 2,
+          "explanation": "Modal verb should luôn đi với động từ nguyên mẫu.",
+          "hint": "Hãy nhớ công thức trong bảng."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu với should, động từ phía sau không thêm to.",
+          "correct": true,
+          "explanation": "Đúng vì should + verb nguyên mẫu là quy tắc cơ bản.",
+          "hint": "Nhìn lại dòng công thức trong bài."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: You shouldn't _____ too much cola before bed.",
+          "answer": "drink",
+          "explanation": "Sau shouldn't phải dùng drink ở dạng nguyên mẫu.",
+          "hint": "Đây là động từ chỉ hành động uống."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-wri-x001-q1",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng ngữ pháp?",
+          "options": [
+            {
+              "id": "A",
+              "text": "You should to drink more water."
+            },
+            {
+              "id": "B",
+              "text": "You should drink more water."
+            },
+            {
+              "id": "C",
+              "text": "You should drinks more water."
+            },
+            {
+              "id": "D",
+              "text": "You should drinking more water."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sau should dùng động từ nguyên mẫu: drink.",
+          "hint": "Nhìn xem câu nào không có to và không thêm -s."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q2",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Câu nào là lời khuyên phủ định đúng?",
+          "options": [
+            {
+              "id": "A",
+              "text": "You shouldn't to stay up late."
+            },
+            {
+              "id": "B",
+              "text": "You shouldn't stayed up late."
+            },
+            {
+              "id": "C",
+              "text": "You shouldn't stays up late."
+            },
+            {
+              "id": "D",
+              "text": "You shouldn't stay up late."
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Shouldn't đi với động từ nguyên mẫu: stay.",
+          "hint": "Hãy chọn câu có shouldn't + verb."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q3",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào viết đúng với should?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Should I call my mum now?"
+            },
+            {
+              "id": "B",
+              "text": "Do I should call my mum now?"
+            },
+            {
+              "id": "C",
+              "text": "Should I to call my mum now?"
+            },
+            {
+              "id": "D",
+              "text": "Shoulds I call my mum now?"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Câu hỏi đúng bắt đầu bằng Should + subject + verb.",
+          "hint": "Đừng dùng do hay to trong mẫu này."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q4",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng khi khuyên bạn bị ho?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She should to rest at home."
+            },
+            {
+              "id": "B",
+              "text": "She should resting at home."
+            },
+            {
+              "id": "C",
+              "text": "She should rest at home."
+            },
+            {
+              "id": "D",
+              "text": "She should rests at home."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Should + rest là cấu trúc đúng.",
+          "hint": "Động từ sau should phải ở dạng nguyên mẫu."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q5",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Lỗi phổ biến trong câu 'You should to sleep early' là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Thiếu chủ ngữ"
+            },
+            {
+              "id": "B",
+              "text": "Thêm 'to' sau should"
+            },
+            {
+              "id": "C",
+              "text": "Sai thì quá khứ"
+            },
+            {
+              "id": "D",
+              "text": "Thiếu mạo từ a"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Should không đi với to, nên phải viết 'should sleep'.",
+          "hint": "Hãy nhìn ngay sau từ should."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q6",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Câu nào dùng should để nói ý nghĩa 'nên đeo áo mưa'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "You should wears a raincoat."
+            },
+            {
+              "id": "B",
+              "text": "You should to wear a raincoat."
+            },
+            {
+              "id": "C",
+              "text": "You should wearing a raincoat."
+            },
+            {
+              "id": "D",
+              "text": "You should wear a raincoat."
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Wear là động từ nguyên mẫu đúng sau should.",
+          "hint": "Chọn câu có should + wear."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q7",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Câu nào phù hợp nhất nếu muốn khuyên không nên ăn quá nhiều đồ ngọt?",
+          "options": [
+            {
+              "id": "A",
+              "text": "You shouldn't eat too many sweets."
+            },
+            {
+              "id": "B",
+              "text": "You shouldn't eats too many sweets."
+            },
+            {
+              "id": "C",
+              "text": "You shouldn't to eat too many sweets."
+            },
+            {
+              "id": "D",
+              "text": "You don't should eat too many sweets."
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Cấu trúc đúng là shouldn't + eat.",
+          "hint": "Hãy tránh cả to lẫn -s."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q8",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Sau should hoặc shouldn't, dạng đúng của động từ là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Danh từ"
+            },
+            {
+              "id": "B",
+              "text": "Động từ thêm -ing"
+            },
+            {
+              "id": "C",
+              "text": "Động từ nguyên mẫu"
+            },
+            {
+              "id": "D",
+              "text": "Động từ quá khứ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Modal verb should luôn đi với động từ nguyên mẫu.",
+          "hint": "Hãy nhớ công thức trong bảng."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q9",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Trong câu với should, động từ phía sau không thêm to.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng vì should + verb nguyên mẫu là quy tắc cơ bản.",
+          "hint": "Nhìn lại dòng công thức trong bài."
+        },
+        {
+          "id": "girl-g5-en-wri-x001-q10",
+          "lessonId": "girl-g5-en-wri-x001",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: You shouldn't _____ too much cola before bed.",
+          "options": [],
+          "correctAnswer": "drink",
+          "explanation": "Sau shouldn't phải dùng drink ở dạng nguyên mẫu.",
+          "hint": "Đây là động từ chỉ hành động uống."
+        }
+      ]
+    }
+  ]
+}

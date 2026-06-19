@@ -70,7 +70,7 @@ Full workflow in `docs/AGENTS.md`.
 - If using `fetch()`: always wrap in try-catch to prevent permanently stuck loading states
 
 ### 3.8 Build & Launcher
-- `distDir: ".next-build6"` in `next.config.ts` — do NOT change back to `.next` through `.next-build5`
+- `distDir: ".next-build9"` in `next.config.ts` — do NOT change back to `.next` through `.next-build8`
 - `Start Summer Quest.cmd` uses `next start` (production) — never change to `next dev`
 - Dev mode (`npm run dev:local`) is for Claude/Codex only, never for family use
 

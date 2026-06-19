@@ -30,13 +30,64 @@
 
   "content-generation": [
     "docs/AGENTS.md",
-    "summer-quest/content/README.md"
+    "summer-quest/content/README.md",
+    "docs/AI_DATA_STANDARDS.md",
+    "docs/LESSON_CREATION_GUIDE.md"
   ],
 
   "content-import": [
     "docs/CONTENT_IMPORT.md",
     "docs/AI_DATA_STANDARDS.md",
     "summer-quest/lib/content-import.ts"
+  ],
+
+  "lesson-creation-math": [
+    "modules/math/LESSON_CREATION_GUIDE.md",
+    "docs/LESSON_CREATION_GUIDE.md",
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "lesson-creation-vietnamese": [
+    "modules/vietnamese/LESSON_CREATION_GUIDE.md",
+    "docs/LESSON_CREATION_GUIDE.md",
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "lesson-creation-english": [
+    "modules/english/LESSON_CREATION_GUIDE.md",
+    "docs/LESSON_CREATION_GUIDE.md",
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "lesson-creation-science-life-skills": [
+    "modules/science_life_skills/LESSON_CREATION_GUIDE.md",
+    "docs/LESSON_CREATION_GUIDE.md",
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "import-math": [
+    "modules/math/IMPORT_GUIDE.md",
+    "docs/CONTENT_IMPORT.md",
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "import-vietnamese": [
+    "modules/vietnamese/IMPORT_GUIDE.md",
+    "docs/CONTENT_IMPORT.md",
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "import-english": [
+    "modules/english/IMPORT_GUIDE.md",
+    "docs/LESSON_CREATION_GUIDE.md",
+    "docs/CONTENT_IMPORT.md",
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "import-science-life-skills": [
+    "modules/science_life_skills/IMPORT_GUIDE.md",
+    "docs/CONTENT_IMPORT.md",
+    "docs/AI_DATA_STANDARDS.md"
   ],
 
   "pdf-import": [
@@ -90,7 +141,19 @@
   "architecture-v2": [
     "docs/ARCHITECTURE_BASELINE.md",
     "docs/MODULE_ARCHITECTURE.md",
-    "docs/RAG_ARCHITECTURE.md"
+    "docs/RAG_ARCHITECTURE.md",
+    "docs/ARCHITECTURE_AUDIT_REPORT.md",
+    "docs/KNOWLEDGE_GRAPH.md",
+    "docs/ROUTING_AUDIT.md"
+  ],
+
+  "routing": [
+    "docs/ROUTING_AUDIT.md",
+    "docs/TECHNICAL.md"
+  ],
+
+  "token-optimization": [
+    "docs/TOKEN_OPTIMIZATION_REPORT.md"
   ],
 
   "modules": [
@@ -140,5 +203,51 @@
 
   "prisma-generate-eperm": [
     "docs/INCIDENTS.md"
+  ],
+
+  "question-reports": [
+    "docs/ARCHITECTURE_BASELINE.md",
+    "summer-quest/app/api/report-question/route.ts",
+    "summer-quest/components/QuizEngine.tsx",
+    "summer-quest/components/ResolveReportButton.tsx",
+    "summer-quest/app/parent/review/page.tsx",
+    "summer-quest/app/parent/review/actions.ts"
+  ],
+
+  "audit-validation": [
+    "summer-quest/scripts/validate-answers.js",
+    "docs/AI_DATA_STANDARDS.md"
+  ],
+
+  "content-repository": [
+    "content_repository/README.md",
+    "docs/CONTENT_REPOSITORY_GUIDE.md"
+  ],
+
+  "source-materials": [
+    "source_materials/README.md",
+    "docs/CONTENT_IMPORT.md"
+  ],
+
+  "import-staging": [
+    "imports/README.md",
+    "docs/CONTENT_IMPORT.md",
+    "summer-quest/content/README.md"
+  ],
+
+  "family-and-friends-5": [
+    "imports/english/grade5/FamilyandFriend5/manifest.json",
+    "imports/english/grade5/FamilyandFriend5/curriculum.json",
+    "imports/english/grade5/FamilyandFriend5/vocabulary.json",
+    "imports/english/grade5/FamilyandFriend5/grammar.json",
+    "imports/english/grade5/FamilyandFriend5/assessment_seed.json",
+    "imports/english/grade5/FamilyandFriend5/assets.json"
+  ],
+
+  "book_import": [
+    "docs/01_RULES.md",
+    "docs/CONTENT_IMPORT.md",
+    "tools/import_book/README.md",
+    "tools/import_book/import_workflow.md"
   ]
 }

@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "batchId": "batch-boy-g4-sls-01",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-sls-x001",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 1,
+      "title": "Uống đủ nước mỗi ngày",
+      "learningObjective": "Sau bài này Johnny sẽ hiểu vì sao cơ thể cần nước và biết cách bổ sung đủ nước để cơ thể hoạt động như máy móc tốt nhất.",
+      "shortExplanation": "Nước là nhiên liệu thiết yếu cho cơ thể. Kỹ sư nhỏ Johnny cần nạp đủ nước mỗi ngày để não và cơ bắp hoạt động ở hiệu suất tốt nhất!",
+      "content": "## 🔧 Tình huống\n\nJohnny đang chơi bóng ngoài sân dưới trời nắng. Sau 30 phút, Johnny thấy đầu nặng, người mệt và khó tập trung. Bạn bè gọi nhưng Johnny phản ứng chậm hơn bình thường. Đây là dấu hiệu cơ thể cần nước gấp!\n\n## ⚙️ Nguyên lý hoạt động\n\nCơ thể con người gồm hơn 70% nước. Nước làm nhiệm vụ như dầu nhớt trong máy móc:\n- Vận chuyển oxy và chất dinh dưỡng đến các tế bào\n- Điều hòa nhiệt độ cơ thể qua mồ hôi\n- Thải chất thải ra ngoài qua thận\n- Duy trì chức năng não và phản xạ\n\nKhi thiếu nước, cơ thể giống như robot hết pin — chậm chạp, không tập trung.\n\n## 💧 Mục tiêu nạp nước\n\n**Mỗi ngày cần:** 6 đến 8 ly nước lọc sạch\n\n**Nhiên liệu tốt:** Nước lọc, nước đun sôi để nguội\n\n**Nhiên liệu kém:** Nước ngọt có gas, trà đặc, nước có nhiều đường\n\n## 🚀 Lợi ích\n\n- Não hoạt động nhanh và tập trung tốt hơn\n- Cơ bắp có sức bền khi chơi thể thao\n- Không bị đau đầu hay chóng mặt\n- Da khỏe và ít mụn hơn\n- Hệ tiêu hóa hoạt động trơn tru\n\n## 🌟 Thực hành\n\nHôm nay Johnny hãy thử đặt bình nước trên bàn học và uống mỗi 30 phút một lần. Đây là bài kiểm tra nhỏ: theo dõi xem con uống được mấy ly trong ngày!",
+      "storyContext": "Johnny, kỹ sư nhỏ, học cách bảo trì cơ thể như chăm sóc một robot khỏe mạnh.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Nước đóng vai trò gì trong cơ thể con người?",
+          "options": [
+            "Chỉ giúp giải khát",
+            "Vận chuyển chất dinh dưỡng, điều hòa nhiệt độ và thải chất thải",
+            "Giúp cơ thể to lớn hơn",
+            "Giúp con ngủ nhiều hơn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nước thực hiện nhiều chức năng quan trọng: vận chuyển chất dinh dưỡng, điều hòa nhiệt độ cơ thể và thải chất thải — giống như hệ thống làm mát và nhiên liệu trong máy móc.",
+          "hint": "Nước không chỉ giải khát mà còn làm nhiều việc quan trọng hơn trong cơ thể."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con cần uống khoảng bao nhiêu ly nước lọc mỗi ngày?",
+          "options": [
+            "6 đến 8 ly",
+            "1 đến 2 ly",
+            "20 ly",
+            "Không cần uống cố định"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cơ thể cần khoảng 6 đến 8 ly nước mỗi ngày để duy trì hoạt động tối ưu — giống như mức nhiên liệu cần thiết để máy hoạt động tốt.",
+          "hint": "Lượng nước cần thiết để cơ thể hoạt động đúng mức."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi con đang chơi thể thao dưới trời nắng, con cần làm gì?",
+          "options": [
+            "Không uống nước vì dễ bị đau bụng khi vận động",
+            "Chỉ uống khi dừng chơi hẳn",
+            "Uống thêm nước vì cơ thể mất nước qua mồ hôi nhiều hơn",
+            "Uống nước ngọt để có năng lượng nhanh"
+          ],
+          "correctIndex": 3,
+          "explanation": "Khi vận động và đổ mồ hôi, cơ thể mất nước nhanh hơn. Cần uống nước bổ sung thường xuyên để không bị mất nước.",
+          "hint": "Mồ hôi là cơ chế làm mát nhưng cũng làm mất nước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dấu hiệu nào cho biết cơ thể đang thiếu nước?",
+          "options": [
+            "Tay chân lạnh",
+            "Bụng đau nhói",
+            "Chóng mặt",
+            "Môi khô, khát nước và đầu nặng"
+          ],
+          "correctIndex": 1,
+          "explanation": "Môi khô, cảm thấy khát, đầu nặng và khó tập trung là những tín hiệu cơ thể báo động thiếu nước.",
+          "hint": "Cơ thể gửi tín hiệu báo động khi cần nước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Loại nước nào là nhiên liệu tốt nhất cho cơ thể?",
+          "options": [
+            "Nước ngọt có gas",
+            "Nước tăng lực",
+            "Nước lọc sạch hoặc nước đun sôi để nguội",
+            "Nước trái cây đóng hộp"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nước lọc sạch là lựa chọn tốt nhất — không đường, không chất phụ gia, cơ thể hấp thụ trực tiếp và hiệu quả nhất.",
+          "hint": "Nhiên liệu tốt nhất là loại sạch nhất, không có tạp chất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao không nên đợi đến khi khát mới uống nước?",
+          "options": [
+            "Vì uống khi không khát giúp con uống nhiều hơn",
+            "Vì cảm giác khát xuất hiện khi cơ thể đã bị thiếu nước rồi",
+            "Vì uống trước khi khát giúp ngủ ngon hơn",
+            "Vì đó là quy tắc của người lớn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Cảm giác khát là tín hiệu muộn — cơ thể đã thiếu nước trước đó rồi. Uống đều đặn ngăn cơ thể rơi vào trạng thái thiếu nước.",
+          "hint": "Tín hiệu khát đến muộn hơn so với thời điểm cơ thể thực sự cần."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Uống đủ nước ảnh hưởng thế nào đến não và khả năng học tập?",
+          "options": [
+            "Giúp não hoạt động tốt hơn và con tập trung học tốt hơn",
+            "Không ảnh hưởng gì đến não",
+            "Làm con buồn ngủ hơn",
+            "Làm con phân tâm vì hay phải đi vệ sinh"
+          ],
+          "correctIndex": 0,
+          "explanation": "Não cần nước để hoạt động tốt. Khi đủ nước, con tập trung, phản ứng nhanh và ghi nhớ tốt hơn.",
+          "hint": "Não cũng cần nước như các cơ quan khác."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách nào tốt nhất để nhớ uống nước đều đặn trong ngày?",
+          "options": [
+            "Chỉ uống khi ăn cơm",
+            "Đặt bình nước nơi dễ thấy và uống theo giờ cố định",
+            "Nhờ người khác nhắc",
+            "Uống thật nhiều một lúc vào buổi sáng"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đặt bình nước nơi dễ thấy và tạo thói quen uống theo giờ giúp con không quên bổ sung nước suốt ngày.",
+          "hint": "Hệ thống nhắc nhở tốt nhất là cái nào tự động và dễ thực hiện."
+        },
+        {
+          "type": "true_false",
+          "text": "Nước ngọt có gas có thể thay thế hoàn toàn nước lọc để bổ sung nước cho cơ thể.",
+          "correct": false,
+          "explanation": "Nước ngọt chứa đường và axit làm hỏng men răng, không tốt bằng nước lọc. Cơ thể cần nước lọc sạch để hoạt động tối ưu.",
+          "hint": "Nước ngọt có thành phần gì khác so với nước lọc thuần túy?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Kỹ sư nhỏ cần uống đủ nước mỗi ngày để ___ và cơ bắp hoạt động tốt.",
+          "answer": "não",
+          "explanation": "Cả não và cơ bắp đều cần nước để hoạt động hiệu quả. Uống đủ nước là cách đơn giản nhất để duy trì hiệu suất cao.",
+          "hint": "Cơ quan điều khiển tư duy và phản xạ cần nước để hoạt động tốt."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x002",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 2,
+      "title": "Đánh răng đúng kỹ thuật",
+      "learningObjective": "Sau bài này Johnny sẽ biết đánh răng đúng kỹ thuật 2 lần mỗi ngày và hiểu cơ chế tại sao điều đó bảo vệ răng.",
+      "shortExplanation": "Đánh răng là bảo trì hệ thống nhai của cơ thể. Kỹ sư nhỏ Johnny biết rằng bảo trì đúng cách sẽ giúp thiết bị hoạt động tốt hàng chục năm!",
+      "content": "## ⚙️ Tình huống\n\nJohnny ăn kẹo suốt buổi chiều rồi không đánh răng. Ba ngày sau Johnny đau răng và phải đi nha sĩ. Nha sĩ giải thích: răng bị vi khuẩn tấn công vì không được làm sạch đúng cách. Làm thế nào tránh điều này?\n\n## 🔬 Nguyên lý khoa học\n\nSau khi ăn, mảng bám hình thành trên răng trong vòng 20 phút. Mảng bám chứa vi khuẩn sản sinh axit ăn mòn men răng — giống như gỉ sét tấn công kim loại.\n\nĐánh răng phá vỡ mảng bám và làm sạch vi khuẩn trước khi chúng gây hại.\n\n**Lịch bảo trì:** Đánh răng 2 lần mỗi ngày:\n- Sáng: xóa mảng bám tích tụ trong đêm\n- Tối trước ngủ: loại bỏ thức ăn còn sót từ cả ngày\n\n## 🛠️ Kỹ thuật đánh răng\n\n1. Lấy kem lượng bằng hạt đậu\n2. Đặt bàn chải nghiêng 45° so với nướu\n3. Chải nhẹ theo chuyển động tròn nhỏ\n4. Chải từng nhóm 2 đến 3 răng\n5. Chải mặt ngoài, mặt trong, mặt nhai\n6. Chải lưỡi nhẹ nhàng\n7. Súc miệng và rửa bàn chải\n\n**Thời gian:** 2 phút\n\n## 🚀 Kết quả\n\n- Răng bền vững nhiều năm\n- Tiết kiệm chi phí nha khoa\n- Hơi thở thơm tho khi giao tiếp\n- Nụ cười tự tin\n\n## 🌟 Thực hành\n\nTối nay con hãy đặt hẹn giờ 2 phút và chải răng đủ thời gian. Kiểm tra: có bỏ sót vùng nào không?",
+      "storyContext": "Kỹ sư nhỏ Johnny áp dụng kỹ thuật đánh răng chuẩn xác như bảo dưỡng máy móc để giữ răng luôn khỏe mạnh.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi ăn, mảng bám vi khuẩn bắt đầu hình thành trên răng trong bao lâu?",
+          "options": [
+            "Sau 20 phút",
+            "Sau 2 ngày",
+            "Chỉ sau khi ngủ dậy",
+            "Sau 1 tuần"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mảng bám bắt đầu hình thành trong khoảng 20 phút sau ăn. Đây là lý do cần đánh răng đều đặn để ngăn chặn quá trình này.",
+          "hint": "Thời gian ngắn hơn con nghĩ — vi khuẩn hoạt động rất nhanh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vi khuẩn trong mảng bám gây hại cho răng bằng cách nào?",
+          "options": [
+            "Làm răng đổi màu vàng ngay lập tức",
+            "Sản sinh axit ăn mòn men răng và gây sâu răng",
+            "Làm răng lung lay và rụng",
+            "Làm đau nướu ngay lập tức"
+          ],
+          "correctIndex": 3,
+          "explanation": "Vi khuẩn tiêu thụ đường và sản sinh axit. Axit ăn mòn lớp men răng bảo vệ, dần dần tạo thành lỗ sâu răng.",
+          "hint": "Vi khuẩn tạo ra loại chất gì có thể phá hủy men răng?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nên đặt bàn chải ở góc nào so với nướu khi đánh răng?",
+          "options": [
+            "Vuông góc 90° so với răng",
+            "Song song với nướu",
+            "Nghiêng 45° so với đường nướu",
+            "Không cần quan tâm góc độ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đặt bàn chải nghiêng 45° giúp lông bàn chải tiếp cận được phần rãnh giữa răng và nướu — nơi vi khuẩn hay tích tụ nhất.",
+          "hint": "Góc đặt bàn chải quyết định hiệu quả làm sạch."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao phải đánh răng cả buổi tối trước khi ngủ?",
+          "options": [
+            "Vì buổi tối không tiết nước bọt nhiều, vi khuẩn từ thức ăn còn sót tấn công răng suốt đêm",
+            "Vì đánh răng buổi tối giúp ngủ ngon",
+            "Vì ba mẹ yêu cầu",
+            "Vì răng mọc ban đêm cần được chăm sóc"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ban đêm, miệng tiết ít nước bọt hơn nên khả năng tự làm sạch kém hơn. Vi khuẩn trong thức ăn còn sót sẽ tấn công răng suốt 8 tiếng ngủ.",
+          "hint": "Nước bọt là gì và tại sao nó quan trọng cho răng?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nên đánh răng theo chuyển động nào để hiệu quả nhất?",
+          "options": [
+            "Chà mạnh qua lại theo chiều ngang",
+            "Chuyển động tròn nhỏ và nhẹ nhàng theo nhóm 2 đến 3 răng",
+            "Chà lên xuống thật mạnh",
+            "Không cần kỹ thuật, chà sao cũng được"
+          ],
+          "correctIndex": 0,
+          "explanation": "Chuyển động tròn nhỏ nhẹ nhàng làm sạch hiệu quả mà không gây tổn thương nướu hay mòn men răng.",
+          "hint": "Kỹ thuật nhẹ nhàng thường hiệu quả hơn chà mạnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bàn chải đánh răng cần được thay khi nào?",
+          "options": [
+            "Mỗi 3 tháng hoặc khi lông bàn chải xòe ra",
+            "Mỗi 3 năm",
+            "Chỉ khi bàn chải gãy",
+            "Không cần thay nếu rửa sạch"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sau 3 tháng, lông bàn chải mòn và biến dạng, làm giảm hiệu quả làm sạch đáng kể. Lông xòe ra là tín hiệu cần thay ngay.",
+          "hint": "Dụng cụ bị mòn không thực hiện chức năng tốt như ban đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lượng kem đánh răng phù hợp cho trẻ em là bao nhiêu?",
+          "options": [
+            "Lượng bằng hạt đậu là đủ",
+            "Càng nhiều càng tốt",
+            "Phủ đầy bề mặt bàn chải",
+            "Không cần dùng kem"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lượng kem bằng hạt đậu là đủ để tạo bọt và làm sạch hiệu quả — không cần dùng nhiều hơn.",
+          "hint": "Lượng đủ dùng không phải là lượng nhiều nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi đánh răng, nên để bàn chải ở đâu?",
+          "options": [
+            "Trong túi kín",
+            "Nằm ngang trên bồn rửa",
+            "Úp xuống để ráo nước",
+            "Ngược đầu lên giá để lông khô nhanh và không tích tụ vi khuẩn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Để bàn chải ngược đầu lên cho phép nước chảy ra và không khí tiếp xúc với lông bàn chải, giúp khô nhanh và sạch hơn.",
+          "hint": "Bàn chải cần khô ráo sau mỗi lần dùng để tránh vi khuẩn."
+        },
+        {
+          "type": "true_false",
+          "text": "Chà răng thật mạnh giúp làm sạch tốt hơn so với chải nhẹ nhàng.",
+          "correct": false,
+          "explanation": "Chà mạnh gây mòn men răng và tổn thương nướu. Kỹ thuật tròn nhẹ nhàng làm sạch tốt hơn mà không gây hại.",
+          "hint": "Trong kỹ thuật, lực mạnh không phải lúc nào cũng hiệu quả hơn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Đánh răng đúng kỹ thuật trong ___ phút, 2 lần mỗi ngày giúp bảo vệ răng khỏi sâu răng.",
+          "answer": "2",
+          "explanation": "2 phút là thời gian đủ để làm sạch toàn bộ các bề mặt răng. Ít hơn nghĩa là bỏ sót nhiều vùng vi khuẩn.",
+          "hint": "Thời gian tối thiểu để làm sạch đủ tất cả các bề mặt răng."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x003",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 3,
+      "title": "Rửa tay đúng lúc và đúng cách",
+      "learningObjective": "Sau bài này Johnny sẽ biết những thời điểm bắt buộc rửa tay và cách thực hiện để loại bỏ vi khuẩn hiệu quả.",
+      "shortExplanation": "Tay là thiết bị tiếp xúc với hàng nghìn bề mặt mỗi ngày. Rửa tay đúng cách là cách đơn giản nhất để không cho vi khuẩn xâm nhập cơ thể!",
+      "content": "## 🔬 Dữ liệu thực tế\n\nMột bàn tay bình thường có thể có hàng triệu vi khuẩn. Mắt người không thể nhìn thấy chúng. Nghiên cứu y tế cho thấy rửa tay đúng cách có thể ngăn ngừa hơn 80% bệnh lây qua tay.\n\n## ⚙️ Tại sao rửa tay quan trọng\n\nTay người tiếp xúc với cửa, lan can, bàn phím, đồng tiền, thú vật... Vi khuẩn từ những bề mặt này bám lên tay và có thể vào cơ thể khi con chạm vào mặt hoặc cầm thức ăn.\n\n**Vi khuẩn phổ biến trên tay gây:** Tiêu chảy, nôn mửa, viêm đường hô hấp.\n\n## 📋 Thời điểm bắt buộc rửa tay\n\n1. Trước khi ăn hoặc cầm thức ăn\n2. Sau khi đi vệ sinh\n3. Sau khi chơi ngoài sân hoặc tiếp xúc đất\n4. Sau khi chạm vào thú vật\n5. Sau khi ho hoặc hắt hơi vào tay\n6. Sau khi chạm vào rác hoặc đồ bẩn\n\n## 🛠️ Quy trình 6 bước\n\n1. Làm ướt tay dưới nước sạch\n2. Thoa xà phòng đủ lượng\n3. Chà kỹ: lòng bàn tay, mu bàn tay, kẽ ngón, đầu ngón (20 giây)\n4. Xả sạch hoàn toàn\n5. Lau khô bằng khăn sạch\n6. Tắt vòi bằng khăn để không tái nhiễm\n\n## 🌟 Thực hành\n\nHôm nay con hãy đếm số lần rửa tay. Mục tiêu: ít nhất 5 lần đúng cách!",
+      "storyContext": "Kỹ sư nhỏ Johnny lập trình thói quen rửa tay đúng lúc để bảo vệ hệ thống cơ thể khỏi vi khuẩn.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Rửa tay đúng cách có thể ngăn ngừa bao nhiêu phần trăm bệnh lây qua tay?",
+          "options": [
+            "Khoảng 10%",
+            "Hơn 80%",
+            "Khoảng 30%",
+            "Không có tác dụng đáng kể"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nghiên cứu y tế cho thấy rửa tay đúng cách với xà phòng có thể ngăn ngừa hơn 80% bệnh lây qua tiếp xúc tay.",
+          "hint": "Rửa tay hiệu quả hơn nhiều so với những gì con nghĩ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao tay trông sạch vẫn cần rửa trước khi ăn?",
+          "options": [
+            "Vì đó là quy định bắt buộc ở nhà trường",
+            "Vì vi khuẩn quá nhỏ để nhìn thấy bằng mắt thường",
+            "Vì nước làm tay mát hơn",
+            "Vì xà phòng mùi thơm dễ chịu"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vi khuẩn có kích thước từ 1 đến 10 micromet — mắt thường không thể nhìn thấy. Tay trông sạch vẫn có thể chứa hàng triệu vi khuẩn.",
+          "hint": "Kích thước vi khuẩn so với khả năng nhìn của mắt thường."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao cần chà xà phòng ít nhất 20 giây?",
+          "options": [
+            "Để xà phòng ngấm vào da",
+            "Vì đó là thời gian cần thiết để cơ chế ma sát phá vỡ lớp màng bảo vệ của vi khuẩn",
+            "Vì 20 giây giúp da mềm hơn",
+            "Không cần 20 giây, 5 giây là đủ"
+          ],
+          "correctIndex": 0,
+          "explanation": "20 giây là thời gian đủ để xà phòng và ma sát phá vỡ màng bảo vệ của vi khuẩn và tách chúng khỏi da.",
+          "hint": "Xà phòng cần thời gian để hoạt động hiệu quả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thứ tự đúng khi rửa tay là gì?",
+          "options": [
+            "Thoa xà phòng → làm ướt tay → chà → xả → lau khô",
+            "Lau khô → thoa xà phòng → làm ướt → xả",
+            "Xả nước → lau khô → thoa xà phòng",
+            "Làm ướt tay → thoa xà phòng → chà kỹ 20 giây → xả sạch → lau khô"
+          ],
+          "correctIndex": 3,
+          "explanation": "Thứ tự đúng: ướt tay → xà phòng → chà kỹ → xả sạch hoàn toàn → lau khô. Mỗi bước có mục đích khoa học cụ thể.",
+          "hint": "Tay phải ướt trước khi thoa xà phòng để xà phòng hoạt động."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vùng nào trên tay dễ bị bỏ sót nhất khi rửa?",
+          "options": [
+            "Lòng bàn tay",
+            "Kẽ ngón tay và đầu ngón tay",
+            "Mu bàn tay",
+            "Cổ tay"
+          ],
+          "correctIndex": 2,
+          "explanation": "Kẽ ngón tay và đầu ngón tay là nơi vi khuẩn hay tích tụ nhưng thường bị bỏ sót. Cần chà kỹ những vùng này.",
+          "hint": "Vùng nào khó tiếp cận và hay bị bỏ qua khi rửa tay?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi rửa tay, nên tắt vòi nước bằng cách nào để không tái nhiễm vi khuẩn?",
+          "options": [
+            "Tắt bằng tay vừa rửa sạch bình thường",
+            "Tắt bằng khăn giấy hoặc cùi chỏ",
+            "Không cần tắt vòi",
+            "Tắt bằng chân"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tay vừa bật vòi khi còn bẩn nên núm vòi có vi khuẩn. Dùng khăn hoặc cùi chỏ để tắt tránh tái nhiễm vi khuẩn lên tay vừa sạch.",
+          "hint": "Bề mặt nào con đã chạm vào trước khi rửa tay?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chỉ lau tay vào khăn khô có loại bỏ vi khuẩn được không?",
+          "options": [
+            "Có, khăn hút hết vi khuẩn",
+            "Không, khăn chỉ thấm nước chứ không diệt hoặc loại bỏ vi khuẩn",
+            "Có, nếu khăn là khăn mới",
+            "Có, nếu lau đủ mạnh"
+          ],
+          "correctIndex": 3,
+          "explanation": "Khăn lau chỉ thấm nước, không có khả năng diệt hoặc loại bỏ vi khuẩn khỏi tay. Chỉ xà phòng và nước mới làm được điều đó.",
+          "hint": "Khăn là dụng cụ thấm nước, không phải dụng cụ diệt khuẩn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bệnh nào có thể phòng ngừa hiệu quả bằng cách rửa tay đúng cách?",
+          "options": [
+            "Bệnh cận thị",
+            "Gãy xương",
+            "Tiêu chảy và bệnh đường tiêu hóa",
+            "Dị ứng thực phẩm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vi khuẩn trên tay bẩn chủ yếu gây các bệnh đường tiêu hóa như tiêu chảy, nôn mửa. Rửa tay là biện pháp phòng ngừa số 1.",
+          "hint": "Bệnh nào lây qua đường tay — thức ăn — miệng?"
+        },
+        {
+          "type": "true_false",
+          "text": "Rửa tay nhanh trong 3 giây mà không dùng xà phòng là đủ để loại bỏ vi khuẩn.",
+          "correct": false,
+          "explanation": "Cần ít nhất 20 giây chà xà phòng để phá vỡ màng bảo vệ vi khuẩn. Rửa nhanh mà không có xà phòng gần như không có tác dụng.",
+          "hint": "Xà phòng và thời gian đủ là 2 yếu tố quan trọng."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Cần chà xà phòng ít nhất ___ giây để loại bỏ vi khuẩn hiệu quả khi rửa tay.",
+          "answer": "20",
+          "explanation": "20 giây là thời gian tối thiểu cần thiết để xà phòng và ma sát làm sạch vi khuẩn khỏi tay.",
+          "hint": "Thời gian tối thiểu theo khuyến nghị y tế."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x004",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 4,
+      "title": "Dọn giường sau khi ngủ dậy",
+      "learningObjective": "Sau bài này Johnny sẽ biết cách dọn giường gọn gàng và hiểu lý do tại sao đây là thói quen hiệu quả để bắt đầu ngày mới.",
+      "shortExplanation": "Dọn giường là nhiệm vụ đầu tiên của ngày mới — chỉ mất 3 phút nhưng cho thấy kỹ sư nhỏ đã sẵn sàng hoàn thành mọi thứ trong ngày!",
+      "content": "## 🔧 Quan sát thú vị\n\nNghiên cứu cho thấy những người có thói quen dọn giường mỗi sáng có xu hướng hoàn thành tốt hơn các nhiệm vụ trong ngày. Một đô đốc hải quân Mỹ đã dạy binh lính: 'Làm tốt việc nhỏ đầu tiên sẽ tạo đà cho mọi thứ tiếp theo.'\n\n## ⚙️ Tại sao nó hoạt động\n\nKhi con dọn giường ngay sau khi thức dậy:\n1. Não nhận tín hiệu: 'Mình vừa hoàn thành một nhiệm vụ'\n2. Cơ thể chuyển sang chế độ hoạt động\n3. Phòng ngủ gọn gàng giúp não không bị phân tâm\n4. Chất lượng giấc ngủ tối hôm sau cũng tốt hơn\n\n## 🛠️ Quy trình 3 phút\n\n**Bước 1 (60 giây):** Vuốt phẳng tờ ga trải giường\n**Bước 2 (60 giây):** Gấp hoặc cuộn gọn chăn\n**Bước 3 (30 giây):** Xếp gối ngay ngắn\n**Bước 4 (30 giây):** Kiểm tra tổng thể\n\n**Kết quả:** Giường gọn gàng, sẵn sàng cho đêm sau.\n\n## 🚀 Lợi ích dài hạn\n\n- Tạo thói quen hoàn thành nhiệm vụ\n- Phòng ngủ ít bụi hơn\n- Tâm lý thoải mái khi về phòng buổi tối\n- Phát triển tính kỷ luật tự giác\n\n## 🌟 Thực hành\n\nSáng mai: dọn giường trước khi ăn sáng và đặt hẹn giờ xem mất bao lâu!",
+      "storyContext": "Kỹ sư nhỏ Johnny tối ưu hóa phòng ngủ mỗi sáng — dọn giường gọn gàng như reset hệ thống để bắt đầu ngày mới.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao dọn giường được coi là nhiệm vụ quan trọng đầu tiên của ngày?",
+          "options": [
+            "Vì nó mất nhiều thời gian nhất",
+            "Vì ba mẹ yêu cầu",
+            "Vì hoàn thành nhiệm vụ nhỏ đầu tiên tạo đà tốt cho cả ngày",
+            "Vì giường dơ gây bệnh ngay lập tức"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hoàn thành nhiệm vụ đầu tiên — dù nhỏ — kích hoạt não theo chế độ 'hoàn thành nhiệm vụ' và tạo động lực cho phần còn lại của ngày.",
+          "hint": "Não bộ phản ứng thế nào khi hoàn thành một việc thành công?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mất bao lâu để dọn xong giường nếu làm đúng quy trình?",
+          "options": [
+            "30 phút",
+            "Khoảng 3 phút",
+            "10 phút",
+            "Cả tiếng đồng hồ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Với quy trình đúng: vuốt ga (60s) + gấp chăn (60s) + xếp gối (30s) + kiểm tra (30s) = khoảng 3 phút tổng cộng.",
+          "hint": "Tổng cộng thời gian từng bước trong quy trình 4 bước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng ngủ gọn gàng ảnh hưởng đến não bộ thế nào?",
+          "options": [
+            "Không có ảnh hưởng gì",
+            "Làm não mệt hơn do phải nhìn nhiều thứ",
+            "Giảm kích thích thị giác không cần thiết giúp não tập trung tốt hơn",
+            "Giúp não ngủ nhanh hơn vào ban ngày"
+          ],
+          "correctIndex": 0,
+          "explanation": "Môi trường gọn gàng giảm số lượng kích thích thị giác mà não phải xử lý, giúp con tập trung tốt hơn vào việc học hay hoạt động khác.",
+          "hint": "Não phản ứng thế nào khi có ít thứ phân tán sự chú ý?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bước đầu tiên trong quy trình dọn giường là gì?",
+          "options": [
+            "Xếp gối",
+            "Kiểm tra tổng thể",
+            "Gấp chăn",
+            "Vuốt phẳng tờ ga trải giường"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bước đầu tiên là vuốt phẳng ga trải giường để tạo nền phẳng trước, sau đó mới gấp chăn và xếp gối.",
+          "hint": "Cần tạo mặt phẳng trước khi sắp xếp các thứ lên trên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu không dọn giường, bụi tích tụ trên chăn gối ảnh hưởng thế nào?",
+          "options": [
+            "Bụi trong chăn gối có thể gây dị ứng và ảnh hưởng chất lượng giấc ngủ",
+            "Không có vấn đề gì với bụi",
+            "Bụi giúp chăn ấm hơn",
+            "Bụi chỉ gây khó chịu về mặt thẩm mỹ"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bụi và mạt bụi nhà tích tụ trên chăn gối có thể gây dị ứng, ngứa mũi và ảnh hưởng chất lượng giấc ngủ theo thời gian.",
+          "hint": "Những gì tích tụ trên chăn gối ảnh hưởng đến gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dọn giường mỗi sáng giúp phát triển kỹ năng gì quan trọng?",
+          "options": [
+            "Kỹ năng thiết kế nội thất",
+            "Kỹ năng toán học",
+            "Kỷ luật tự giác và thói quen hoàn thành nhiệm vụ",
+            "Kỹ năng nấu ăn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Làm một việc đều đặn mỗi ngày xây dựng kỷ luật tự giác — khả năng tự hoàn thành nhiệm vụ mà không cần nhắc nhở.",
+          "hint": "Thói quen lặp lại hàng ngày xây dựng loại kỹ năng gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Gối nên được đặt ở đâu sau khi dọn giường?",
+          "options": [
+            "Ngay ngắn ở đầu giường",
+            "Trên sàn nhà cho thoáng",
+            "Trong tủ để giữ sạch",
+            "Không quan trọng, để đâu cũng được"
+          ],
+          "correctIndex": 3,
+          "explanation": "Gối xếp ngay ngắn ở đầu giường là vị trí chuẩn — giường trông gọn đẹp và gối sẵn sàng cho đêm sau.",
+          "hint": "Vị trí chuẩn của gối trên giường là ở đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi nào là thời điểm tốt nhất để dọn giường?",
+          "options": [
+            "Buổi tối trước khi ngủ",
+            "Ngay sau khi thức dậy buổi sáng",
+            "Cuối tuần khi có nhiều thời gian",
+            "Khi ba mẹ nhắc nhở"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dọn giường ngay sau khi thức dậy khi cơ thể còn đang chuyển từ ngủ sang thức — đây là thời điểm nhiệm vụ này hiệu quả nhất.",
+          "hint": "Thời điểm ngay lập tức sau khi hoàn thành việc ngủ."
+        },
+        {
+          "type": "true_false",
+          "text": "Dọn giường mỗi sáng mất quá nhiều thời gian và không mang lại lợi ích thực tế nào.",
+          "correct": false,
+          "explanation": "Dọn giường chỉ mất 3 phút và mang lại nhiều lợi ích: kỷ luật tự giác, phòng sạch hơn, và tâm lý tốt hơn để bắt đầu ngày mới.",
+          "hint": "3 phút có phải là 'quá nhiều thời gian' không?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Dọn giường là nhiệm vụ ___ của ngày mới, giúp tạo đà tốt cho cả ngày.",
+          "answer": "đầu tiên",
+          "explanation": "Hoàn thành nhiệm vụ đầu tiên trong ngày, dù nhỏ, kích hoạt tâm lý thành công và tạo đà tốt để hoàn thành mọi thứ tiếp theo.",
+          "hint": "Nhiệm vụ nào nên được thực hiện ngay khi thức dậy?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x005",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 5,
+      "title": "Chào hỏi lễ phép",
+      "learningObjective": "Sau bài này Johnny sẽ biết cách chào hỏi đúng trong các tình huống khác nhau và hiểu tại sao đây là kỹ năng giao tiếp cơ bản quan trọng.",
+      "shortExplanation": "Chào hỏi đúng cách là giao thức giao tiếp cơ bản. Kỹ sư nhỏ biết rằng giao thức đúng giúp kết nối với người khác hiệu quả hơn!",
+      "content": "## 🤝 Dữ liệu thú vị\n\nNghiên cứu cho thấy ấn tượng đầu tiên với một người hình thành trong vòng 7 giây. Lời chào và cử chỉ chào hỏi đóng vai trò lớn trong ấn tượng đó. Người biết chào hỏi đúng cách thường được người khác đánh giá tích cực hơn.\n\n## ⚙️ Tại sao chào hỏi quan trọng\n\nChào hỏi là cách con:\n- Báo hiệu sự tôn trọng với người đối diện\n- Mở đầu mối quan hệ tốt đẹp\n- Thể hiện con được gia đình giáo dục tốt\n- Tạo không khí thoải mái cho cuộc trò chuyện\n\n## 📋 Giao thức chào hỏi\n\n**Với người lớn hơn** (ông bà, thầy cô, hàng xóm):\n- Cúi đầu nhẹ hoặc khoanh tay\n- Nói rõ ràng: 'Con chào [ông/bà/thầy/cô]!'\n- Nhìn vào mặt người đó\n\n**Với bạn bè cùng tuổi:**\n- Mỉm cười\n- Nói: 'Chào bạn!' hoặc gọi tên\n\n**Khi vào nhà người khác:**\n- Gõ cửa trước\n- Chào bố mẹ bạn ngay khi vào\n\n## 🚀 Nguyên tắc chính\n\n- Chủ động chào trước\n- Nhìn vào mắt người được chào\n- Nói đủ to và rõ ràng\n- Không cần chờ người kia chào trước\n\n## 🌟 Thực hành\n\nHôm nay con hãy chủ động chào ít nhất 3 người lớn và ghi lại phản ứng của họ!",
+      "storyContext": "Kỹ sư nhỏ Johnny học giao thức chào hỏi — cách mở đầu mọi kết nối xã hội thành công.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Ấn tượng đầu tiên với một người được hình thành trong bao lâu?",
+          "options": [
+            "1 tiếng đồng hồ",
+            "1 ngày",
+            "Khoảng 7 giây",
+            "1 tuần"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ấn tượng đầu tiên hình thành trong khoảng 7 giây đầu gặp mặt. Lời chào và cử chỉ đóng vai trò quan trọng trong 7 giây đó.",
+          "hint": "Ấn tượng đầu tiên hình thành rất nhanh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi gặp thầy giáo ở hành lang trường, con nên làm gì?",
+          "options": [
+            "Cúi đầu và nói 'Con chào thầy ạ!'",
+            "Đi thẳng qua vì đang bận",
+            "Chỉ cười và đi tiếp",
+            "Chờ thầy chào trước"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cúi đầu và nói lời chào thầy cô là giao thức chuẩn thể hiện sự tôn trọng trong môi trường học đường.",
+          "hint": "Với thầy cô, cử chỉ và lời nói đều quan trọng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao nên chủ động chào người lớn trước thay vì chờ họ chào mình?",
+          "options": [
+            "Vì người lớn thường quên chào",
+            "Vì chào trước thể hiện con tôn trọng và tự tin trong giao tiếp",
+            "Vì nếu không chào trước sẽ bị phạt",
+            "Vì người lớn trông đợi điều đó"
+          ],
+          "correctIndex": 3,
+          "explanation": "Chủ động chào người lớn trước thể hiện con tự tin, tôn trọng và có kỹ năng giao tiếp tốt — không cần đợi người khác bắt đầu.",
+          "hint": "Chủ động nói lên điều gì về tính cách và sự tôn trọng?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đến nhà bạn chơi, bước đầu tiên con cần làm là gì?",
+          "options": [
+            "Gõ cửa và chào bố mẹ bạn khi vào",
+            "Đi thẳng vào phòng bạn",
+            "Gọi to tên bạn từ ngoài",
+            "Chờ ở ngoài cho đến khi bạn ra đón"
+          ],
+          "correctIndex": 0,
+          "explanation": "Gõ cửa và chào bố mẹ bạn là giao thức cơ bản khi vào nhà người khác — thể hiện tôn trọng và lịch sự.",
+          "hint": "Giao thức vào nhà người khác bắt đầu bằng việc gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì quan trọng nhất khi nói lời chào?",
+          "options": [
+            "Nói thật to",
+            "Cúi đầu thật sâu",
+            "Nhìn vào mắt người được chào và nói rõ ràng",
+            "Nhớ đúng câu chào"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhìn vào mắt và nói rõ ràng là hai yếu tố quan trọng nhất — cho thấy con chào chân thành và tập trung, không phải chào lấy lệ.",
+          "hint": "Sự kết hợp của ánh mắt và giọng nói tạo ra điều gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chào hỏi đúng cách giúp con trong cuộc sống như thế nào?",
+          "options": [
+            "Được điểm cao hơn ở trường",
+            "Tạo ấn tượng tốt và mở đầu mối quan hệ tốt đẹp với mọi người",
+            "Không phải làm bài tập",
+            "Được nhiều quà hơn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Kỹ năng chào hỏi đúng cách tạo ấn tượng tốt đầu tiên và là nền tảng của các mối quan hệ tốt đẹp trong cuộc sống.",
+          "hint": "Giao tiếp tốt mở ra điều gì trong cuộc sống?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi khách đến nhà, con nên làm gì?",
+          "options": [
+            "Bước ra chào hỏi khách lễ phép",
+            "Trốn vào phòng vì ngại",
+            "Tiếp tục chơi game",
+            "Để ba mẹ tiếp khách"
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi có khách, con nên bước ra chào hỏi — đây là phép lịch sự của chủ nhà và thể hiện con được gia đình giáo dục tốt.",
+          "hint": "Vai trò của chủ nhà khi có khách đến là gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con gặp ông bà vào buổi sáng. Lời chào phù hợp nhất là gì?",
+          "options": [
+            "'Ông bà cho con ăn sáng đi!'",
+            "Gật đầu mà không nói gì",
+            "'Xong rồi ạ.'",
+            "'Con chào ông/bà ạ! Ông/bà đã dậy rồi ạ!'"
+          ],
+          "correctIndex": 3,
+          "explanation": "Chào kết hợp với hỏi thăm là lời chào đầy đủ và ấm áp nhất — thể hiện con quan tâm đến ông bà, không chỉ nói chào cho qua.",
+          "hint": "Lời chào hay nhất kết hợp cả chào và hỏi thăm."
+        },
+        {
+          "type": "true_false",
+          "text": "Chỉ cần chào hỏi ở trường, không cần chào hỏi ở nhà hay ngoài đường.",
+          "correct": false,
+          "explanation": "Kỹ năng chào hỏi cần được thực hiện ở mọi nơi — trường học, nhà, ngoài đường. Chào hỏi không phải quy tắc nhà trường mà là kỹ năng sống.",
+          "hint": "Kỹ năng sống không chỉ áp dụng ở một nơi."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi chào hỏi, cần nhìn vào ___ của người được chào để thể hiện sự tôn trọng chân thành.",
+          "answer": "mắt",
+          "explanation": "Nhìn vào mắt khi chào cho thấy con đang chú ý và chào hỏi chân thành, không phải chào lấy lệ.",
+          "hint": "Cơ quan nào trên mặt thể hiện sự chú ý và chân thành?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1977 @@
+{
+  "version": 1,
+  "batchId": "batch-boy-g4-en-02",
+  "sourceReference": "Family and Friends 4 (Oxford University Press) — Units 2-8",
+  "checks": {
+    "answerDistribution": "boy-g4-en-rea-x001: Q1=B Q2=D Q3=A Q4=C Q5=B Q6=D Q7=A Q8=C — A×2 B×2 C×2 D×2, no consecutive repeats | boy-g4-en-rea-x002: Q1=C Q2=A Q3=D Q4=B Q5=C Q6=A Q7=D Q8=B — A×2 B×2 C×2 D×2, no consecutive repeats | boy-g4-en-rea-x003: Q1=D Q2=B Q3=A Q4=C Q5=B Q6=D Q7=A Q8=C — A×2 B×2 C×2 D×2, no consecutive repeats | boy-g4-en-rea-x004: Q1=A Q2=C Q3=B Q4=D Q5=A Q6=C Q7=B Q8=D — A×2 B×2 C×2 D×2, no consecutive repeats | boy-g4-en-wri-x001: Q1=C Q2=A Q3=D Q4=B Q5=C Q6=A Q7=D Q8=B — A×2 B×2 C×2 D×2, no consecutive repeats",
+    "noConsecutiveSameAnswer": true,
+    "languageLevel": "CEFR A1-A2 Grade 4",
+    "contentOriginal": true
+  },
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-en-rea-x001",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 41,
+      "title": "Đi quanh thành phố",
+      "learningObjective": "Sau bài này bé sẽ đọc hiểu một đoạn chỉ đường trong thành phố và nhận ra các giới từ chuyển động như go past, turn left, cross.",
+      "shortExplanation": "Johnny đang tìm đường tới thư viện, nên bé hãy chú ý từng bước di chuyển trong bài đọc.",
+      "storyContext": "Johnny và bạn robot đi bộ qua thành phố để tới thư viện mới.",
+      "content": "# In the City 📖\n\n> Khi đi trong thành phố, mình cần biết tên các nơi chốn và cách chỉ đường thật rõ ràng.\n\n---\n\n## Đọc đoạn văn sau\n\nOn Saturday morning, Johnny and his robot friend Max went to the new city library. They started at the bus station because Johnny's dad dropped them there. Max looked at the map and said, “First, go past the bakery. Then turn left at the bank.”\n\nJohnny counted the streets carefully. They walked past a toy shop, crossed the road at the traffic lights, and stopped in front of a post office. “Are we lost?” Johnny asked. Max smiled and pointed ahead. “No. The library is next to the park. We only need to go straight for one more block.”\n\nSoon they reached the park gate. Children were flying kites on the grass, and an old man was feeding pigeons near the fountain. Beside the park, the new library stood between a museum and a small café. Johnny felt proud because he followed every direction correctly. Inside the library, he borrowed a book about space and promised to come back next week.\n\n---\n\n## Từ mới\n\n| English | Vietnamese | Example from passage |\n|---|---|---|\n| bakery | tiệm bánh | \"go past the bakery\" |\n| turn left | rẽ trái | \"turn left at the bank\" |\n| cross the road | băng qua đường | \"crossed the road at the traffic lights\" |\n| block | dãy nhà, một quãng phố | \"one more block\" |\n| beside | bên cạnh | \"Beside the park\" |\n| borrow | mượn | \"he borrowed a book\" |\n\n---\n\n## Trước khi làm bài, thử trả lời\n\n- Johnny bắt đầu từ đâu?\n- Thư viện nằm cạnh nơi nào?\n- Max đã cho Johnny những chỉ dẫn nào?",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Johnny và Max bắt đầu hành trình ở đâu?",
+          "options": [
+            "Công viên",
+            "Bến xe buýt",
+            "Bảo tàng",
+            "Tiệm bánh"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hai bạn bắt đầu ở bus station vì bố Johnny thả họ ở đó.",
+          "hint": "Đọc câu đầu của đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Max bảo Johnny làm gì sau khi đi qua tiệm bánh?",
+          "options": [
+            "Rẽ phải ở bảo tàng",
+            "Qua đường ngay",
+            "Vào quán cà phê",
+            "Rẽ trái ở ngân hàng"
+          ],
+          "correctIndex": 3,
+          "explanation": "Max nói: 'Then turn left at the bank.'",
+          "hint": "Xem lời chỉ đường trực tiếp của Max."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Hai bạn băng qua đường ở đâu?",
+          "options": [
+            "Ở đèn giao thông",
+            "Ở trước công viên",
+            "Ở bến xe buýt",
+            "Bên cạnh tiệm bánh"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài viết nói they crossed the road at the traffic lights.",
+          "hint": "Tìm cụm 'crossed the road'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thư viện mới nằm ở đâu?",
+          "options": [
+            "Sau bến xe buýt",
+            "Trong tiệm đồ chơi",
+            "Bên cạnh công viên",
+            "Đối diện ngân hàng"
+          ],
+          "correctIndex": 2,
+          "explanation": "Max nói library is next to the park, và đoạn cuối cũng xác nhận điều đó.",
+          "hint": "Hãy chú ý từ next to và beside."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny mượn gì khi vào thư viện?",
+          "options": [
+            "Một bản đồ thành phố",
+            "Một cuốn sách về không gian",
+            "Một chiếc diều",
+            "Một bộ rô-bốt"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu cuối nói Johnny borrowed a book about space.",
+          "hint": "Đọc kết thúc của bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'cross the road' nghĩa là gì?",
+          "options": [
+            "Đi dọc con đường",
+            "Rẽ vào đường nhỏ",
+            "Đứng ở lề đường",
+            "Băng qua đường"
+          ],
+          "correctIndex": 3,
+          "explanation": "Cross the road là đi từ bên này sang bên kia đường.",
+          "hint": "Đó là hành động làm ở chỗ có đèn giao thông."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao Johnny cảm thấy tự hào?",
+          "options": [
+            "Vì bạn ấy đi đúng theo các chỉ dẫn",
+            "Vì bạn ấy mua được bánh",
+            "Vì bạn ấy bay diều rất giỏi",
+            "Vì bạn ấy lái xe buýt"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc nói Johnny felt proud because he followed every direction correctly.",
+          "hint": "Tìm câu gần cuối đoạn văn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'bakery' trong bài nghĩa là gì?",
+          "options": [
+            "Thư viện",
+            "Ngân hàng",
+            "Tiệm bánh",
+            "Bưu điện"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bakery là nơi bán bánh mì và bánh ngọt.",
+          "hint": "Đây là địa điểm đầu tiên Max nhắc tới."
+        },
+        {
+          "type": "true_false",
+          "text": "Thư viện mới nằm giữa bảo tàng và một quán cà phê nhỏ.",
+          "correct": true,
+          "explanation": "Đúng. Đoạn cuối nói thư viện đứng giữa một museum và một small café.",
+          "hint": "Đọc câu mô tả vị trí thư viện ở đoạn cuối."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: The library is next to the _____.",
+          "answer": "park",
+          "explanation": "Thư viện nằm cạnh công viên, nên từ cần điền là park.",
+          "hint": "Đó là nơi trẻ em đang thả diều."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-rea-x001-q1",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Johnny và Max bắt đầu hành trình ở đâu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Công viên"
+            },
+            {
+              "id": "B",
+              "text": "Bến xe buýt"
+            },
+            {
+              "id": "C",
+              "text": "Bảo tàng"
+            },
+            {
+              "id": "D",
+              "text": "Tiệm bánh"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Hai bạn bắt đầu ở bus station vì bố Johnny thả họ ở đó.",
+          "hint": "Đọc câu đầu của đoạn văn."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q2",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Max bảo Johnny làm gì sau khi đi qua tiệm bánh?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rẽ phải ở bảo tàng"
+            },
+            {
+              "id": "B",
+              "text": "Qua đường ngay"
+            },
+            {
+              "id": "C",
+              "text": "Vào quán cà phê"
+            },
+            {
+              "id": "D",
+              "text": "Rẽ trái ở ngân hàng"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Max nói: 'Then turn left at the bank.'",
+          "hint": "Xem lời chỉ đường trực tiếp của Max."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q3",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Hai bạn băng qua đường ở đâu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ở đèn giao thông"
+            },
+            {
+              "id": "B",
+              "text": "Ở trước công viên"
+            },
+            {
+              "id": "C",
+              "text": "Ở bến xe buýt"
+            },
+            {
+              "id": "D",
+              "text": "Bên cạnh tiệm bánh"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Bài viết nói they crossed the road at the traffic lights.",
+          "hint": "Tìm cụm 'crossed the road'."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q4",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Thư viện mới nằm ở đâu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sau bến xe buýt"
+            },
+            {
+              "id": "B",
+              "text": "Trong tiệm đồ chơi"
+            },
+            {
+              "id": "C",
+              "text": "Bên cạnh công viên"
+            },
+            {
+              "id": "D",
+              "text": "Đối diện ngân hàng"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Max nói library is next to the park, và đoạn cuối cũng xác nhận điều đó.",
+          "hint": "Hãy chú ý từ next to và beside."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q5",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Johnny mượn gì khi vào thư viện?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Một bản đồ thành phố"
+            },
+            {
+              "id": "B",
+              "text": "Một cuốn sách về không gian"
+            },
+            {
+              "id": "C",
+              "text": "Một chiếc diều"
+            },
+            {
+              "id": "D",
+              "text": "Một bộ rô-bốt"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Câu cuối nói Johnny borrowed a book about space.",
+          "hint": "Đọc kết thúc của bài."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q6",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Từ 'cross the road' nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Đi dọc con đường"
+            },
+            {
+              "id": "B",
+              "text": "Rẽ vào đường nhỏ"
+            },
+            {
+              "id": "C",
+              "text": "Đứng ở lề đường"
+            },
+            {
+              "id": "D",
+              "text": "Băng qua đường"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Cross the road là đi từ bên này sang bên kia đường.",
+          "hint": "Đó là hành động làm ở chỗ có đèn giao thông."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q7",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Vì sao Johnny cảm thấy tự hào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì bạn ấy đi đúng theo các chỉ dẫn"
+            },
+            {
+              "id": "B",
+              "text": "Vì bạn ấy mua được bánh"
+            },
+            {
+              "id": "C",
+              "text": "Vì bạn ấy bay diều rất giỏi"
+            },
+            {
+              "id": "D",
+              "text": "Vì bạn ấy lái xe buýt"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Bài đọc nói Johnny felt proud because he followed every direction correctly.",
+          "hint": "Tìm câu gần cuối đoạn văn."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q8",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Từ 'bakery' trong bài nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Thư viện"
+            },
+            {
+              "id": "B",
+              "text": "Ngân hàng"
+            },
+            {
+              "id": "C",
+              "text": "Tiệm bánh"
+            },
+            {
+              "id": "D",
+              "text": "Bưu điện"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Bakery là nơi bán bánh mì và bánh ngọt.",
+          "hint": "Đây là địa điểm đầu tiên Max nhắc tới."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q9",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Thư viện mới nằm giữa bảo tàng và một quán cà phê nhỏ.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Đoạn cuối nói thư viện đứng giữa một museum và một small café.",
+          "hint": "Đọc câu mô tả vị trí thư viện ở đoạn cuối."
+        },
+        {
+          "id": "boy-g4-en-rea-x001-q10",
+          "lessonId": "boy-g4-en-rea-x001",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: The library is next to the _____.",
+          "options": [],
+          "correctAnswer": "park",
+          "explanation": "Thư viện nằm cạnh công viên, nên từ cần điền là park.",
+          "hint": "Đó là nơi trẻ em đang thả diều."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-rea-x002",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 42,
+      "title": "Món ăn tuyệt vời và công thức đơn giản",
+      "learningObjective": "Sau bài này bé sẽ đọc hiểu một đoạn về nấu ăn, từ vựng món ăn và cách dùng can hoặc can't để nói khả năng.",
+      "shortExplanation": "Johnny đang giúp làm món salad trái cây và học xem ai có thể làm những việc gì trong bếp.",
+      "storyContext": "Johnny và chị gái làm một bữa ăn nhẹ cho buổi dã ngoại của gia đình.",
+      "content": "# Fantastic Food 📖\n\n> Trong bếp, mỗi người có thể giúp một việc khác nhau và làm theo từng bước rất vui.\n\n---\n\n## Đọc đoạn văn sau\n\nOn Sunday, Johnny and his sister Emma made fruit salad for a family picnic. First, Emma washed the apples and grapes. Johnny could peel bananas, but he couldn't cut the pineapple alone, so Dad helped him with a sharp knife.\n\nNext, Emma mixed the fruit in a large bowl. She added yogurt and a little honey. Johnny read the recipe aloud: “First wash the fruit. Then cut it into small pieces. After that, mix everything together and put it in the fridge for twenty minutes.”\n\nWhile they waited, Johnny set the table outside. He could carry plates and cups, and Emma could make lemonade. When the salad was ready, everyone tasted it. Mum smiled and said, “This is fresh and sweet!” Johnny felt happy because he learned that he can help in the kitchen when he listens carefully and follows each step.\n\n---\n\n## Từ mới\n\n| English | Vietnamese | Example from passage |\n|---|---|---|\n| peel | bóc vỏ | \"Johnny could peel bananas\" |\n| pineapple | quả dứa | \"cut the pineapple\" |\n| recipe | công thức nấu ăn | \"Johnny read the recipe aloud\" |\n| mix | trộn | \"Emma mixed the fruit\" |\n| fridge | tủ lạnh | \"put it in the fridge\" |\n| fresh | tươi mát | \"This is fresh and sweet\" |\n\n---\n\n## Trước khi làm bài, thử trả lời\n\n- Johnny làm được việc gì trong bếp?\n- Công thức có mấy bước chính?\n- Món salad được để ở đâu trong 20 phút?",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Johnny và Emma đã làm món gì?",
+          "options": [
+            "Bánh mì nướng",
+            "Súp rau",
+            "Salad trái cây",
+            "Trứng rán"
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu đầu nói hai chị em made fruit salad for a family picnic.",
+          "hint": "Tìm tên món ăn ở câu đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny có thể tự làm việc nào?",
+          "options": [
+            "Bóc vỏ chuối",
+            "Cắt dứa một mình",
+            "Làm nước chanh",
+            "Rửa nho và táo"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc nói Johnny could peel bananas, nhưng không thể tự cắt dứa.",
+          "hint": "Xem câu đầu đoạn hai chị em chuẩn bị trái cây."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao bố phải giúp Johnny?",
+          "options": [
+            "Vì Johnny làm đổ sữa chua",
+            "Vì Emma quên công thức",
+            "Vì bàn ăn quá nặng",
+            "Vì Johnny không thể tự cắt quả dứa"
+          ],
+          "correctIndex": 3,
+          "explanation": "Johnny couldn't cut the pineapple alone, nên Dad helped him.",
+          "hint": "Hãy tìm câu có couldn't."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo công thức, sau khi cắt trái cây nhỏ ra thì làm gì tiếp theo?",
+          "options": [
+            "Rửa trái cây lại lần nữa",
+            "Trộn mọi thứ lại với nhau",
+            "Mang ra ngoài sân",
+            "Cho thêm nhiều đường"
+          ],
+          "correctIndex": 1,
+          "explanation": "Recipe nói: First wash, then cut, after that mix everything together.",
+          "hint": "Đọc phần Johnny đọc to công thức."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Món salad được để ở đâu trong 20 phút?",
+          "options": [
+            "Trên bàn ngoài sân",
+            "Trong lò nướng",
+            "Trong tủ lạnh",
+            "Trong bồn rửa"
+          ],
+          "correctIndex": 2,
+          "explanation": "Công thức yêu cầu put it in the fridge for twenty minutes.",
+          "hint": "Tìm từ fridge trong công thức."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'recipe' nghĩa là gì?",
+          "options": [
+            "Công thức nấu ăn",
+            "Chiếc dao sắc",
+            "Bàn ăn ngoài trời",
+            "Bát to để trộn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Recipe là công thức hướng dẫn các bước nấu món ăn.",
+          "hint": "Đó là thứ Johnny đọc to cho cả nhà nghe."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ai làm nước chanh?",
+          "options": [
+            "Johnny",
+            "Dad",
+            "Mum",
+            "Emma"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bài đọc nói Emma could make lemonade.",
+          "hint": "Đọc phần nói về lúc chờ salad trong tủ lạnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với ý của bài đọc?",
+          "options": [
+            "Johnny can't carry plates and cups.",
+            "Johnny can help in the kitchen when he follows each step.",
+            "Emma can't mix fruit in a bowl.",
+            "Dad can't use a sharp knife."
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu cuối nói Johnny can help in the kitchen when he listens carefully and follows each step.",
+          "hint": "Nhìn ý kết luận của bài."
+        },
+        {
+          "type": "true_false",
+          "text": "Mẹ nói món salad tươi và ngọt.",
+          "correct": true,
+          "explanation": "Đúng. Mum smiled and said, 'This is fresh and sweet!'",
+          "hint": "Đọc câu gần cuối đoạn văn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Johnny couldn't cut the _____ alone.",
+          "answer": "pineapple",
+          "explanation": "Johnny không thể tự cắt quả dứa, nên bố đã giúp bạn ấy.",
+          "hint": "Đây là loại trái cây có vỏ xù và mắt nhỏ."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-rea-x002-q1",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Johnny và Emma đã làm món gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bánh mì nướng"
+            },
+            {
+              "id": "B",
+              "text": "Súp rau"
+            },
+            {
+              "id": "C",
+              "text": "Salad trái cây"
+            },
+            {
+              "id": "D",
+              "text": "Trứng rán"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Câu đầu nói hai chị em made fruit salad for a family picnic.",
+          "hint": "Tìm tên món ăn ở câu đầu."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q2",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Johnny có thể tự làm việc nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bóc vỏ chuối"
+            },
+            {
+              "id": "B",
+              "text": "Cắt dứa một mình"
+            },
+            {
+              "id": "C",
+              "text": "Làm nước chanh"
+            },
+            {
+              "id": "D",
+              "text": "Rửa nho và táo"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Bài đọc nói Johnny could peel bananas, nhưng không thể tự cắt dứa.",
+          "hint": "Xem câu đầu đoạn hai chị em chuẩn bị trái cây."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q3",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Vì sao bố phải giúp Johnny?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì Johnny làm đổ sữa chua"
+            },
+            {
+              "id": "B",
+              "text": "Vì Emma quên công thức"
+            },
+            {
+              "id": "C",
+              "text": "Vì bàn ăn quá nặng"
+            },
+            {
+              "id": "D",
+              "text": "Vì Johnny không thể tự cắt quả dứa"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Johnny couldn't cut the pineapple alone, nên Dad helped him.",
+          "hint": "Hãy tìm câu có couldn't."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q4",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Theo công thức, sau khi cắt trái cây nhỏ ra thì làm gì tiếp theo?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rửa trái cây lại lần nữa"
+            },
+            {
+              "id": "B",
+              "text": "Trộn mọi thứ lại với nhau"
+            },
+            {
+              "id": "C",
+              "text": "Mang ra ngoài sân"
+            },
+            {
+              "id": "D",
+              "text": "Cho thêm nhiều đường"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Recipe nói: First wash, then cut, after that mix everything together.",
+          "hint": "Đọc phần Johnny đọc to công thức."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q5",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Món salad được để ở đâu trong 20 phút?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trên bàn ngoài sân"
+            },
+            {
+              "id": "B",
+              "text": "Trong lò nướng"
+            },
+            {
+              "id": "C",
+              "text": "Trong tủ lạnh"
+            },
+            {
+              "id": "D",
+              "text": "Trong bồn rửa"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Công thức yêu cầu put it in the fridge for twenty minutes.",
+          "hint": "Tìm từ fridge trong công thức."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q6",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Từ 'recipe' nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Công thức nấu ăn"
+            },
+            {
+              "id": "B",
+              "text": "Chiếc dao sắc"
+            },
+            {
+              "id": "C",
+              "text": "Bàn ăn ngoài trời"
+            },
+            {
+              "id": "D",
+              "text": "Bát to để trộn"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Recipe là công thức hướng dẫn các bước nấu món ăn.",
+          "hint": "Đó là thứ Johnny đọc to cho cả nhà nghe."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q7",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Ai làm nước chanh?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Johnny"
+            },
+            {
+              "id": "B",
+              "text": "Dad"
+            },
+            {
+              "id": "C",
+              "text": "Mum"
+            },
+            {
+              "id": "D",
+              "text": "Emma"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Bài đọc nói Emma could make lemonade.",
+          "hint": "Đọc phần nói về lúc chờ salad trong tủ lạnh."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q8",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với ý của bài đọc?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Johnny can't carry plates and cups."
+            },
+            {
+              "id": "B",
+              "text": "Johnny can help in the kitchen when he follows each step."
+            },
+            {
+              "id": "C",
+              "text": "Emma can't mix fruit in a bowl."
+            },
+            {
+              "id": "D",
+              "text": "Dad can't use a sharp knife."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Câu cuối nói Johnny can help in the kitchen when he listens carefully and follows each step.",
+          "hint": "Nhìn ý kết luận của bài."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q9",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Mẹ nói món salad tươi và ngọt.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Mum smiled and said, 'This is fresh and sweet!'",
+          "hint": "Đọc câu gần cuối đoạn văn."
+        },
+        {
+          "id": "boy-g4-en-rea-x002-q10",
+          "lessonId": "boy-g4-en-rea-x002",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Johnny couldn't cut the _____ alone.",
+          "options": [],
+          "correctAnswer": "pineapple",
+          "explanation": "Johnny không thể tự cắt quả dứa, nên bố đã giúp bạn ấy.",
+          "hint": "Đây là loại trái cây có vỏ xù và mắt nhỏ."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-rea-x003",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 43,
+      "title": "Cơ thể tuyệt vời và so sánh hơn",
+      "learningObjective": "Sau bài này bé sẽ đọc hiểu đoạn văn về cơ thể con người và dùng comparative adjectives như stronger, faster, taller trong ngữ cảnh đơn giản.",
+      "shortExplanation": "Bé sẽ khám phá một ngày hội thể thao và xem các bạn so sánh khả năng của mình thế nào.",
+      "storyContext": "Trường của Johnny tổ chức ngày hội thể thao với nhiều thử thách cơ thể.",
+      "content": "# Amazing Bodies 📖\n\n> Cơ thể chúng ta có thể chạy, nhảy, giữ thăng bằng và lớn lên khỏe mạnh mỗi ngày.\n\n---\n\n## Đọc đoạn văn sau\n\nAt school sports day, Johnny joined three fun activities. In the first game, he ran across the playground with Ben. Ben was taller, but Johnny was faster, so he reached the finish line first. Their teacher laughed and said, “Different bodies are good at different things.”\n\nNext, the class tried a climbing wall. Mai had stronger arms than Johnny, so she climbed higher and touched the red flag at the top. Johnny did not win that game, but he was proud because he stayed balanced and did not give up.\n\nIn the final activity, the children measured how far they could jump. Emma jumped farther than her little brother because her legs were longer. After the games, the coach talked about healthy habits. “If you sleep well and exercise often, your body will grow stronger,” he said. Johnny went home tired but excited. He wrote in his notebook, “Today I learned that being faster is great, but being brave is important too.”\n\n---\n\n## Từ mới\n\n| English | Vietnamese | Example from passage |\n|---|---|---|\n| taller | cao hơn | \"Ben was taller\" |\n| faster | nhanh hơn | \"Johnny was faster\" |\n| stronger | khỏe hơn | \"Mai had stronger arms\" |\n| balanced | giữ thăng bằng | \"he stayed balanced\" |\n| farther | xa hơn | \"Emma jumped farther\" |\n| brave | dũng cảm | \"being brave is important too\" |\n\n---\n\n## Trước khi làm bài, thử trả lời\n\n- Ai chạy nhanh hơn ở trò đầu tiên?\n- Vì sao Mai leo cao hơn?\n- Huấn luyện viên khuyên điều gì để cơ thể khỏe hơn?",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Ai về đích trước ở trò chạy đầu tiên?",
+          "options": [
+            "Ben",
+            "Mai",
+            "Emma",
+            "Johnny"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ben cao hơn nhưng Johnny chạy nhanh hơn nên về đích trước.",
+          "hint": "Đọc câu nói về first game."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ben được miêu tả như thế nào so với Johnny?",
+          "options": [
+            "Nhanh hơn",
+            "Cao hơn",
+            "Khỏe tay hơn",
+            "Nhảy xa hơn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn nói rõ Ben was taller.",
+          "hint": "Tìm tính từ so sánh đi với Ben."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao Mai leo được cao hơn Johnny?",
+          "options": [
+            "Vì tay của bạn ấy khỏe hơn",
+            "Vì bạn ấy chạy nhanh hơn",
+            "Vì chân bạn ấy dài hơn",
+            "Vì bạn ấy có dây thừng riêng"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mai had stronger arms than Johnny, nên leo cao hơn.",
+          "hint": "Đọc đoạn nói về climbing wall."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong hoạt động cuối, ai nhảy xa hơn em trai mình?",
+          "options": [
+            "Mai",
+            "Ben",
+            "Emma",
+            "Teacher"
+          ],
+          "correctIndex": 2,
+          "explanation": "Emma jumped farther than her little brother.",
+          "hint": "Tìm tên người trong đoạn nói về jumping."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'balanced' trong bài gần nghĩa nhất với gì?",
+          "options": [
+            "Bị mệt",
+            "Giữ thăng bằng tốt",
+            "Rất cao",
+            "Rất nhanh"
+          ],
+          "correctIndex": 1,
+          "explanation": "Balanced nghĩa là giữ cơ thể vững và không bị ngã.",
+          "hint": "Đó là điều Johnny làm tốt ở trò leo tường."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Huấn luyện viên nói điều gì sẽ giúp cơ thể khỏe hơn?",
+          "options": [
+            "Ăn thật nhiều kẹo",
+            "Leo tường mỗi ngày không nghỉ",
+            "Chỉ chạy nhanh vào cuối tuần",
+            "Ngủ tốt và tập thể dục thường xuyên"
+          ],
+          "correctIndex": 3,
+          "explanation": "Coach nói nếu ngủ tốt và exercise often, body will grow stronger.",
+          "hint": "Đọc lời khuyên trực tiếp của coach."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'stronger' là dạng so sánh của từ nào?",
+          "options": [
+            "strong",
+            "strength",
+            "arm",
+            "sport"
+          ],
+          "correctIndex": 0,
+          "explanation": "Stronger là comparative adjective của strong.",
+          "hint": "Hãy bỏ phần -er để tìm từ gốc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo Johnny, ngoài việc nhanh hơn thì điều gì cũng quan trọng?",
+          "options": [
+            "Cao hơn",
+            "Nặng hơn",
+            "Dũng cảm",
+            "Yên lặng hơn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Johnny viết rằng being brave is important too.",
+          "hint": "Tìm điều Johnny ghi trong sổ ở câu cuối."
+        },
+        {
+          "type": "true_false",
+          "text": "Johnny thắng trò leo tường vì bạn ấy có cánh tay khỏe nhất.",
+          "correct": false,
+          "explanation": "Sai vì Mai có cánh tay khỏe hơn và leo cao hơn Johnny.",
+          "hint": "So sánh Johnny với Mai ở hoạt động thứ hai."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Ben was taller, but Johnny was _____, so he reached the finish line first.",
+          "answer": "faster",
+          "explanation": "Johnny chạy nhanh hơn nên thắng cuộc đua đầu tiên.",
+          "hint": "Đây là tính từ so sánh nói về tốc độ."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-rea-x003-q1",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Ai về đích trước ở trò chạy đầu tiên?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ben"
+            },
+            {
+              "id": "B",
+              "text": "Mai"
+            },
+            {
+              "id": "C",
+              "text": "Emma"
+            },
+            {
+              "id": "D",
+              "text": "Johnny"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Ben cao hơn nhưng Johnny chạy nhanh hơn nên về đích trước.",
+          "hint": "Đọc câu nói về first game."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q2",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Ben được miêu tả như thế nào so với Johnny?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nhanh hơn"
+            },
+            {
+              "id": "B",
+              "text": "Cao hơn"
+            },
+            {
+              "id": "C",
+              "text": "Khỏe tay hơn"
+            },
+            {
+              "id": "D",
+              "text": "Nhảy xa hơn"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đoạn văn nói rõ Ben was taller.",
+          "hint": "Tìm tính từ so sánh đi với Ben."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q3",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Vì sao Mai leo được cao hơn Johnny?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì tay của bạn ấy khỏe hơn"
+            },
+            {
+              "id": "B",
+              "text": "Vì bạn ấy chạy nhanh hơn"
+            },
+            {
+              "id": "C",
+              "text": "Vì chân bạn ấy dài hơn"
+            },
+            {
+              "id": "D",
+              "text": "Vì bạn ấy có dây thừng riêng"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Mai had stronger arms than Johnny, nên leo cao hơn.",
+          "hint": "Đọc đoạn nói về climbing wall."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q4",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Trong hoạt động cuối, ai nhảy xa hơn em trai mình?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mai"
+            },
+            {
+              "id": "B",
+              "text": "Ben"
+            },
+            {
+              "id": "C",
+              "text": "Emma"
+            },
+            {
+              "id": "D",
+              "text": "Teacher"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Emma jumped farther than her little brother.",
+          "hint": "Tìm tên người trong đoạn nói về jumping."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q5",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Từ 'balanced' trong bài gần nghĩa nhất với gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bị mệt"
+            },
+            {
+              "id": "B",
+              "text": "Giữ thăng bằng tốt"
+            },
+            {
+              "id": "C",
+              "text": "Rất cao"
+            },
+            {
+              "id": "D",
+              "text": "Rất nhanh"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Balanced nghĩa là giữ cơ thể vững và không bị ngã.",
+          "hint": "Đó là điều Johnny làm tốt ở trò leo tường."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q6",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Huấn luyện viên nói điều gì sẽ giúp cơ thể khỏe hơn?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ăn thật nhiều kẹo"
+            },
+            {
+              "id": "B",
+              "text": "Leo tường mỗi ngày không nghỉ"
+            },
+            {
+              "id": "C",
+              "text": "Chỉ chạy nhanh vào cuối tuần"
+            },
+            {
+              "id": "D",
+              "text": "Ngủ tốt và tập thể dục thường xuyên"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Coach nói nếu ngủ tốt và exercise often, body will grow stronger.",
+          "hint": "Đọc lời khuyên trực tiếp của coach."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q7",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Từ 'stronger' là dạng so sánh của từ nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "strong"
+            },
+            {
+              "id": "B",
+              "text": "strength"
+            },
+            {
+              "id": "C",
+              "text": "arm"
+            },
+            {
+              "id": "D",
+              "text": "sport"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Stronger là comparative adjective của strong.",
+          "hint": "Hãy bỏ phần -er để tìm từ gốc."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q8",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Theo Johnny, ngoài việc nhanh hơn thì điều gì cũng quan trọng?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cao hơn"
+            },
+            {
+              "id": "B",
+              "text": "Nặng hơn"
+            },
+            {
+              "id": "C",
+              "text": "Dũng cảm"
+            },
+            {
+              "id": "D",
+              "text": "Yên lặng hơn"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Johnny viết rằng being brave is important too.",
+          "hint": "Tìm điều Johnny ghi trong sổ ở câu cuối."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q9",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Johnny thắng trò leo tường vì bạn ấy có cánh tay khỏe nhất.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì Mai có cánh tay khỏe hơn và leo cao hơn Johnny.",
+          "hint": "So sánh Johnny với Mai ở hoạt động thứ hai."
+        },
+        {
+          "id": "boy-g4-en-rea-x003-q10",
+          "lessonId": "boy-g4-en-rea-x003",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Ben was taller, but Johnny was _____, so he reached the finish line first.",
+          "options": [],
+          "correctAnswer": "faster",
+          "explanation": "Johnny chạy nhanh hơn nên thắng cuộc đua đầu tiên.",
+          "hint": "Đây là tính từ so sánh nói về tốc độ."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-rea-x004",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 44,
+      "title": "Chuyến đi nghỉ với động từ quá khứ đều",
+      "learningObjective": "Sau bài này bé sẽ đọc hiểu đoạn văn về chuyến đi nghỉ và nhận ra các động từ quá khứ đều thêm -ed trong bối cảnh kể chuyện.",
+      "shortExplanation": "Johnny ghi nhật ký về chuyến đi biển, vì thế nhiều động từ sẽ ở thì quá khứ đơn.",
+      "storyContext": "Gia đình Johnny vừa trở về sau một chuyến nghỉ cuối tuần ở biển.",
+      "content": "# Going on Holiday 📖\n\n> Khi kể lại chuyến đi đã qua, mình thường dùng past simple để nói từng hoạt động theo thứ tự.\n\n---\n\n## Đọc đoạn văn sau\n\nLast weekend, Johnny travelled to Vung Tau with his family. They packed their bags on Friday night and started the trip early on Saturday morning. During the drive, Johnny listened to music and counted the motorbikes on the road.\n\nWhen the family arrived at the hotel, they opened the windows and smelled the salty sea air. After lunch, Johnny walked on the beach and collected smooth shells. His sister painted a small picture, and Dad carried a kite to the sand. The children played near the water until the sky turned orange.\n\nIn the evening, the family visited a seafood market and watched the bright boats in the harbor. Johnny tasted grilled corn and laughed with a friendly shopkeeper. On Sunday, they climbed a hill, looked at the sea again, and returned home before dinner. Johnny wrote, “We enjoyed every part of the trip, and I wanted one more day by the beach.”\n\n---\n\n## Từ mới\n\n| English | Vietnamese | Example from passage |\n|---|---|---|\n| travelled | đã đi du lịch | \"Johnny travelled to Vung Tau\" |\n| packed | đã đóng gói | \"They packed their bags\" |\n| arrived | đã đến nơi | \"the family arrived at the hotel\" |\n| collected | đã nhặt, sưu tập | \"collected smooth shells\" |\n| visited | đã ghé thăm | \"visited a seafood market\" |\n| returned | đã trở về | \"returned home before dinner\" |\n\n---\n\n## Trước khi làm bài, thử trả lời\n\n- Gia đình Johnny đi đâu?\n- Johnny làm gì trên bãi biển?\n- Đoạn văn có những động từ nào thêm -ed?",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Johnny đi đâu vào cuối tuần trước?",
+          "options": [
+            "Vũng Tàu",
+            "Đà Lạt",
+            "Huế",
+            "Cần Thơ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu đầu nói Johnny travelled to Vung Tau with his family.",
+          "hint": "Tìm tên địa điểm ở câu đầu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Gia đình đóng gói hành lý khi nào?",
+          "options": [
+            "Sáng thứ Bảy",
+            "Chiều Chủ nhật",
+            "Tối thứ Sáu",
+            "Trưa thứ Sáu"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc nói they packed their bags on Friday night.",
+          "hint": "Đọc chi tiết về thời gian chuẩn bị chuyến đi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny đã làm gì trên bãi biển sau bữa trưa?",
+          "options": [
+            "Bay diều và bơi xa",
+            "Đi bộ và nhặt vỏ sò",
+            "Mua cá ở chợ",
+            "Ngủ trong khách sạn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sau lunch, Johnny walked on the beach and collected smooth shells.",
+          "hint": "Xem đoạn giữa nói về buổi chiều."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Buổi tối cả nhà ghé thăm nơi nào?",
+          "options": [
+            "Một bảo tàng",
+            "Một thư viện",
+            "Một sân bóng",
+            "Một chợ hải sản"
+          ],
+          "correctIndex": 3,
+          "explanation": "In the evening, the family visited a seafood market.",
+          "hint": "Đọc đoạn bắt đầu bằng 'In the evening'."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'returned' trong bài nghĩa là gì?",
+          "options": [
+            "Trở về",
+            "Mua thêm",
+            "Đi bộ ra",
+            "Nhảy lên"
+          ],
+          "correctIndex": 0,
+          "explanation": "Returned home before dinner nghĩa là trở về nhà trước bữa tối.",
+          "hint": "Đó là hành động cuối của chuyến đi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có động từ quá khứ đều đúng theo bài?",
+          "options": [
+            "They pack their bags on Friday night.",
+            "They packeding their bags on Friday night.",
+            "They packed their bags on Friday night.",
+            "They did packed their bags on Friday night."
+          ],
+          "correctIndex": 2,
+          "explanation": "Packed là past simple đúng của pack.",
+          "hint": "Động từ đều thường thêm -ed."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny nếm món gì ở chợ hải sản?",
+          "options": [
+            "Bánh ngọt",
+            "Ngô nướng",
+            "Súp nóng",
+            "Nước cam"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn nói Johnny tasted grilled corn.",
+          "hint": "Tìm món ăn được nếm vào buổi tối."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo đoạn văn, vào Chủ nhật cả nhà làm gì trước khi về nhà?",
+          "options": [
+            "Đến công viên giải trí",
+            "Mua một chiếc thuyền nhỏ",
+            "Ngủ thêm ở khách sạn",
+            "Leo lên một ngọn đồi và ngắm biển"
+          ],
+          "correctIndex": 3,
+          "explanation": "On Sunday, they climbed a hill, looked at the sea again, and returned home.",
+          "hint": "Đọc phần gần cuối của bài."
+        },
+        {
+          "type": "true_false",
+          "text": "Johnny viết rằng bạn ấy muốn có thêm một ngày ở bãi biển.",
+          "correct": true,
+          "explanation": "Đúng. Câu cuối ghi 'I wanted one more day by the beach.'",
+          "hint": "Xem phần nhật ký cuối cùng trong ngoặc kép."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: After lunch, Johnny walked on the beach and _____ smooth shells.",
+          "answer": "collected",
+          "explanation": "Collected là động từ quá khứ đều mô tả việc Johnny nhặt vỏ sò.",
+          "hint": "Đây là động từ nghĩa là nhặt, sưu tập."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-rea-x004-q1",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Johnny đi đâu vào cuối tuần trước?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vũng Tàu"
+            },
+            {
+              "id": "B",
+              "text": "Đà Lạt"
+            },
+            {
+              "id": "C",
+              "text": "Huế"
+            },
+            {
+              "id": "D",
+              "text": "Cần Thơ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Câu đầu nói Johnny travelled to Vung Tau with his family.",
+          "hint": "Tìm tên địa điểm ở câu đầu."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q2",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Gia đình đóng gói hành lý khi nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sáng thứ Bảy"
+            },
+            {
+              "id": "B",
+              "text": "Chiều Chủ nhật"
+            },
+            {
+              "id": "C",
+              "text": "Tối thứ Sáu"
+            },
+            {
+              "id": "D",
+              "text": "Trưa thứ Sáu"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Bài đọc nói they packed their bags on Friday night.",
+          "hint": "Đọc chi tiết về thời gian chuẩn bị chuyến đi."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q3",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Johnny đã làm gì trên bãi biển sau bữa trưa?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bay diều và bơi xa"
+            },
+            {
+              "id": "B",
+              "text": "Đi bộ và nhặt vỏ sò"
+            },
+            {
+              "id": "C",
+              "text": "Mua cá ở chợ"
+            },
+            {
+              "id": "D",
+              "text": "Ngủ trong khách sạn"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sau lunch, Johnny walked on the beach and collected smooth shells.",
+          "hint": "Xem đoạn giữa nói về buổi chiều."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q4",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Buổi tối cả nhà ghé thăm nơi nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Một bảo tàng"
+            },
+            {
+              "id": "B",
+              "text": "Một thư viện"
+            },
+            {
+              "id": "C",
+              "text": "Một sân bóng"
+            },
+            {
+              "id": "D",
+              "text": "Một chợ hải sản"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "In the evening, the family visited a seafood market.",
+          "hint": "Đọc đoạn bắt đầu bằng 'In the evening'."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q5",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Từ 'returned' trong bài nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trở về"
+            },
+            {
+              "id": "B",
+              "text": "Mua thêm"
+            },
+            {
+              "id": "C",
+              "text": "Đi bộ ra"
+            },
+            {
+              "id": "D",
+              "text": "Nhảy lên"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Returned home before dinner nghĩa là trở về nhà trước bữa tối.",
+          "hint": "Đó là hành động cuối của chuyến đi."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q6",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Câu nào có động từ quá khứ đều đúng theo bài?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They pack their bags on Friday night."
+            },
+            {
+              "id": "B",
+              "text": "They packeding their bags on Friday night."
+            },
+            {
+              "id": "C",
+              "text": "They packed their bags on Friday night."
+            },
+            {
+              "id": "D",
+              "text": "They did packed their bags on Friday night."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Packed là past simple đúng của pack.",
+          "hint": "Động từ đều thường thêm -ed."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q7",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Johnny nếm món gì ở chợ hải sản?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bánh ngọt"
+            },
+            {
+              "id": "B",
+              "text": "Ngô nướng"
+            },
+            {
+              "id": "C",
+              "text": "Súp nóng"
+            },
+            {
+              "id": "D",
+              "text": "Nước cam"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đoạn văn nói Johnny tasted grilled corn.",
+          "hint": "Tìm món ăn được nếm vào buổi tối."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q8",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Theo đoạn văn, vào Chủ nhật cả nhà làm gì trước khi về nhà?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Đến công viên giải trí"
+            },
+            {
+              "id": "B",
+              "text": "Mua một chiếc thuyền nhỏ"
+            },
+            {
+              "id": "C",
+              "text": "Ngủ thêm ở khách sạn"
+            },
+            {
+              "id": "D",
+              "text": "Leo lên một ngọn đồi và ngắm biển"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "On Sunday, they climbed a hill, looked at the sea again, and returned home.",
+          "hint": "Đọc phần gần cuối của bài."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q9",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Johnny viết rằng bạn ấy muốn có thêm một ngày ở bãi biển.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Câu cuối ghi 'I wanted one more day by the beach.'",
+          "hint": "Xem phần nhật ký cuối cùng trong ngoặc kép."
+        },
+        {
+          "id": "boy-g4-en-rea-x004-q10",
+          "lessonId": "boy-g4-en-rea-x004",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: After lunch, Johnny walked on the beach and _____ smooth shells.",
+          "options": [],
+          "correctAnswer": "collected",
+          "explanation": "Collected là động từ quá khứ đều mô tả việc Johnny nhặt vỏ sò.",
+          "hint": "Đây là động từ nghĩa là nhặt, sưu tập."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-wri-x001",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 45,
+      "title": "Can và can't để nói khả năng",
+      "learningObjective": "Sau bài này bé sẽ viết đúng câu với can và can't để nói khả năng, đồng thời tránh lỗi thêm to sau can.",
+      "shortExplanation": "Can dùng để nói làm được, còn can't dùng để nói không làm được.",
+      "storyContext": "Johnny đang viết hồ sơ cho câu lạc bộ kỹ năng và phải mô tả mình làm được những gì.",
+      "content": "# Can / Can't ✏️\n\n## Quy tắc ngữ pháp\n\nTa dùng **can** để nói một người có thể làm được điều gì. Ta dùng **can't** để nói không thể làm được điều gì. Sau **can / can't**, động từ luôn ở dạng nguyên mẫu, không thêm **to**.\n\n---\n\n## Công thức\n\n| Dạng câu | Cấu trúc | Ví dụ |\n|---|---|---|\n| Khẳng định | Subject + can + verb | \"I can swim.\" |\n| Phủ định | Subject + can't + verb | \"He can't drive.\" |\n| Câu hỏi | Can + subject + verb? | \"Can she cook?\" |\n\n---\n\n## Đúng ✅ và Sai ❌\n\n| Câu | Nhận xét |\n|---|---|\n| ✅ \"I can swim fast.\" | Đúng vì can + swim. |\n| ❌ \"I can to swim fast.\" | Sai vì không dùng **to** sau can. |\n| ✅ \"She can't lift the box.\" | Đúng vì can't + lift. |\n| ❌ \"She can't lifts the box.\" | Sai vì không thêm **-s** sau can't. |\n| ✅ \"Can you draw a cat?\" | Đúng vì câu hỏi bắt đầu bằng Can. |\n| ❌ \"Do you can draw a cat?\" | Sai vì không dùng do với can. |\n\n---\n\n## Lỗi thường gặp\n\n> ❌ Đừng viết: \"I can to swim.\"\n> ✅ Hãy viết: \"I can swim.\"\n> Lý do: can đi với động từ nguyên mẫu.\n\n> ❌ Đừng viết: \"He can't rides a bike.\"\n> ✅ Hãy viết: \"He can't ride a bike.\"\n> Lý do: sau can't, động từ không thêm **-s**.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng ngữ pháp?",
+          "options": [
+            "I can to ride a bike.",
+            "I can rides a bike.",
+            "I can ride a bike.",
+            "I can riding a bike."
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau can dùng ride ở dạng nguyên mẫu.",
+          "hint": "Không dùng to, -s hay -ing sau can."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với nghĩa 'Bạn ấy không thể bơi'?",
+          "options": [
+            "He can't swim.",
+            "He can't to swim.",
+            "He can't swims.",
+            "He doesn't can swim."
+          ],
+          "correctIndex": 0,
+          "explanation": "Can't + swim là cấu trúc phủ định đúng.",
+          "hint": "Chọn câu có can't + verb."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lỗi chính trong câu 'I can to swim' là gì?",
+          "options": [
+            "Thiếu chủ ngữ",
+            "Sai dấu chấm",
+            "Dùng sai đại từ",
+            "Thêm 'to' sau can"
+          ],
+          "correctIndex": 3,
+          "explanation": "Can không đi với to, nên phải viết 'can swim'.",
+          "hint": "Nhìn vào từ đứng ngay sau can."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào viết đúng với can?",
+          "options": [
+            "Do she can cook noodles?",
+            "Can she cook noodles?",
+            "Can she to cook noodles?",
+            "Cans she cook noodles?"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu hỏi đúng là Can + subject + verb.",
+          "hint": "Đừng dùng do hay thêm s vào can."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng để nói khả năng của Johnny?",
+          "options": [
+            "Johnny can carries the plates.",
+            "Johnny can to carry the plates.",
+            "Johnny can carry the plates.",
+            "Johnny can carrying the plates."
+          ],
+          "correctIndex": 2,
+          "explanation": "Can + carry là cấu trúc chuẩn.",
+          "hint": "Động từ sau can phải ở dạng gốc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là phủ định đúng?",
+          "options": [
+            "We can't open the jar.",
+            "We can't opens the jar.",
+            "We can't to open the jar.",
+            "We don't can open the jar."
+          ],
+          "correctIndex": 0,
+          "explanation": "Can't + open là đúng.",
+          "hint": "Chọn câu có can't + verb nguyên mẫu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau can hoặc can't, dạng nào của động từ được dùng?",
+          "options": [
+            "Động từ thêm -ed",
+            "Động từ thêm -s",
+            "Động từ thêm -ing",
+            "Động từ nguyên mẫu"
+          ],
+          "correctIndex": 3,
+          "explanation": "Can và can't đều đi với động từ nguyên mẫu.",
+          "hint": "Hãy nhớ bảng công thức."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng với nghĩa 'Em có thể vẽ một con rô-bốt'?",
+          "options": [
+            "I can to draw a robot.",
+            "I can draw a robot.",
+            "I can draws a robot.",
+            "I can drawing a robot."
+          ],
+          "correctIndex": 1,
+          "explanation": "Can + draw là cấu trúc đúng.",
+          "hint": "Đừng thêm gì sau draw."
+        },
+        {
+          "type": "true_false",
+          "text": "Sau can, động từ không đi với to.",
+          "correct": true,
+          "explanation": "Đúng. Can luôn đi với động từ nguyên mẫu không có to.",
+          "hint": "Nhìn lại ví dụ đầu tiên trong bài."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: She can't _____ the heavy box.",
+          "answer": "lift",
+          "explanation": "Sau can't phải dùng lift ở dạng nguyên mẫu.",
+          "hint": "Đây là động từ nghĩa là nhấc lên."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-wri-x001-q1",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng ngữ pháp?",
+          "options": [
+            {
+              "id": "A",
+              "text": "I can to ride a bike."
+            },
+            {
+              "id": "B",
+              "text": "I can rides a bike."
+            },
+            {
+              "id": "C",
+              "text": "I can ride a bike."
+            },
+            {
+              "id": "D",
+              "text": "I can riding a bike."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Sau can dùng ride ở dạng nguyên mẫu.",
+          "hint": "Không dùng to, -s hay -ing sau can."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q2",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với nghĩa 'Bạn ấy không thể bơi'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He can't swim."
+            },
+            {
+              "id": "B",
+              "text": "He can't to swim."
+            },
+            {
+              "id": "C",
+              "text": "He can't swims."
+            },
+            {
+              "id": "D",
+              "text": "He doesn't can swim."
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Can't + swim là cấu trúc phủ định đúng.",
+          "hint": "Chọn câu có can't + verb."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q3",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Lỗi chính trong câu 'I can to swim' là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Thiếu chủ ngữ"
+            },
+            {
+              "id": "B",
+              "text": "Sai dấu chấm"
+            },
+            {
+              "id": "C",
+              "text": "Dùng sai đại từ"
+            },
+            {
+              "id": "D",
+              "text": "Thêm 'to' sau can"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Can không đi với to, nên phải viết 'can swim'.",
+          "hint": "Nhìn vào từ đứng ngay sau can."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q4",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào viết đúng với can?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Do she can cook noodles?"
+            },
+            {
+              "id": "B",
+              "text": "Can she cook noodles?"
+            },
+            {
+              "id": "C",
+              "text": "Can she to cook noodles?"
+            },
+            {
+              "id": "D",
+              "text": "Cans she cook noodles?"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Câu hỏi đúng là Can + subject + verb.",
+          "hint": "Đừng dùng do hay thêm s vào can."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q5",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng để nói khả năng của Johnny?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Johnny can carries the plates."
+            },
+            {
+              "id": "B",
+              "text": "Johnny can to carry the plates."
+            },
+            {
+              "id": "C",
+              "text": "Johnny can carry the plates."
+            },
+            {
+              "id": "D",
+              "text": "Johnny can carrying the plates."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Can + carry là cấu trúc chuẩn.",
+          "hint": "Động từ sau can phải ở dạng gốc."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q6",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Câu nào là phủ định đúng?",
+          "options": [
+            {
+              "id": "A",
+              "text": "We can't open the jar."
+            },
+            {
+              "id": "B",
+              "text": "We can't opens the jar."
+            },
+            {
+              "id": "C",
+              "text": "We can't to open the jar."
+            },
+            {
+              "id": "D",
+              "text": "We don't can open the jar."
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Can't + open là đúng.",
+          "hint": "Chọn câu có can't + verb nguyên mẫu."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q7",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Sau can hoặc can't, dạng nào của động từ được dùng?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Động từ thêm -ed"
+            },
+            {
+              "id": "B",
+              "text": "Động từ thêm -s"
+            },
+            {
+              "id": "C",
+              "text": "Động từ thêm -ing"
+            },
+            {
+              "id": "D",
+              "text": "Động từ nguyên mẫu"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Can và can't đều đi với động từ nguyên mẫu.",
+          "hint": "Hãy nhớ bảng công thức."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q8",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng với nghĩa 'Em có thể vẽ một con rô-bốt'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "I can to draw a robot."
+            },
+            {
+              "id": "B",
+              "text": "I can draw a robot."
+            },
+            {
+              "id": "C",
+              "text": "I can draws a robot."
+            },
+            {
+              "id": "D",
+              "text": "I can drawing a robot."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Can + draw là cấu trúc đúng.",
+          "hint": "Đừng thêm gì sau draw."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q9",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Sau can, động từ không đi với to.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Can luôn đi với động từ nguyên mẫu không có to.",
+          "hint": "Nhìn lại ví dụ đầu tiên trong bài."
+        },
+        {
+          "id": "boy-g4-en-wri-x001-q10",
+          "lessonId": "boy-g4-en-wri-x001",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: She can't _____ the heavy box.",
+          "options": [],
+          "correctAnswer": "lift",
+          "explanation": "Sau can't phải dùng lift ở dạng nguyên mẫu.",
+          "hint": "Đây là động từ nghĩa là nhấc lên."
+        }
+      ]
+    }
+  ]
+}

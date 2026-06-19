@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g4-family-and-friends-4",
+    "title": "Family and Friends 4 — Assessment Seed",
+    "extractedAt": "2026-06-09",
+    "note": "Question TOPICS and STEMS only — not actual quiz questions. Use this file as input when generating lesson checks."
+  },
+
+  "byUnit": [
+    {
+      "unit": 1,
+      "unitTitle": "Free time!",
+      "vocabularyPriority": ["skateboarding", "cycling", "hiking", "photography", "gardening", "birdwatching", "love/enjoy/like/dislike/hate + gerund", "frequency adverbs"],
+      "grammarPatterns": [
+        "Gerund after opinion verb: I love ___ (swimming / to swim / swims)",
+        "Frequency adverb placement: She ___ goes hiking. (always / always she / she always)",
+        "How often question form: ___ do you go cycling? (How often / How many / How much)",
+        "Negative opinion: He hates ___ up early. (get / getting / got)"
+      ],
+      "skillAreas": ["vocabulary identification", "gerund formation", "frequency adverb usage", "opinion expression"],
+      "sampleStems": [
+        "Which activity involves taking photos as a hobby?",
+        "Choose the correct sentence: 'I love [swim / swimming / swam] in the sea.'",
+        "Fill in: 'How ___ do you go cycling?' (often / many / much)",
+        "Which adverb means 'not very often, but sometimes'?",
+        "True/False: 'enjoy' is followed by the -ing form of a verb",
+        "Complete: 'She ___ (never / always) does her homework late — she is very responsible.'"
+      ]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Wild weather!",
+      "vocabularyPriority": ["foggy", "icy", "stormy", "humid", "boiling", "freezing", "flood", "drought", "hurricane", "blizzard", "heatwave"],
+      "grammarPatterns": [
+        "Short adjective comparative: London is ___ than Hanoi in winter. (colder / more cold / coldest)",
+        "Long adjective comparative: A hurricane is ___ than a thunderstorm. (more dangerous / dangerouser / most dangerous)",
+        "Irregular comparative: Yesterday was ___ than today. (badder / worse / more bad)",
+        "as...as: Today is ___ cold ___ yesterday. (as / so / more)"
+      ],
+      "skillAreas": ["weather vocabulary", "comparative formation", "irregular comparatives", "as...as structure"],
+      "sampleStems": [
+        "What do we call a very long period with almost no rain?",
+        "Choose the correct comparative: 'Today is [hotter / more hot / hot] than yesterday.'",
+        "True/False: We use 'more' before short one-syllable adjectives like 'cold'.",
+        "Fill in: 'A blizzard is ___ than regular snow.' (more dangerous / dangerouser / most dangerous)",
+        "What word means 'extremely cold (informal)'?",
+        "Complete: 'The heatwave was ___ than last summer.' (bad → ___)"
+      ]
+    },
+    {
+      "unit": 3,
+      "unitTitle": "On the move!",
+      "vocabularyPriority": ["tram", "ferry", "cable car", "hot air balloon", "scooter", "depart", "arrive", "board", "check in", "miss", "catch"],
+      "grammarPatterns": [
+        "Present continuous for now: Look — the train ___! (is leaving / leaves / left)",
+        "Present continuous for future: We ___ the 5pm ferry tomorrow. (are taking / take / took)",
+        "Question form: ___ you ___ to the airport now? (Are / going / Are...going)",
+        "Negative: She ___ cycling to school today — it's raining. (isn't / don't / not)"
+      ],
+      "skillAreas": ["transport vocabulary", "present continuous for current action", "present continuous for future arrangements", "question formation"],
+      "sampleStems": [
+        "Which transport travels underwater?",
+        "Choose the correct form: 'Look! The children [are running / run / ran] for the bus!'",
+        "True/False: We can use present continuous for fixed future plans.",
+        "Fill in: 'They ___ flying to London next Monday.' (are / is / do)",
+        "What does 'board' mean in the context of travel?",
+        "Complete: 'We missed the ferry — the next one ___ at 3pm.' (is leaving / leaves — both may be correct, discuss which to use and why)"
+      ]
+    },
+    {
+      "unit": 4,
+      "unitTitle": "Let's go shopping!",
+      "vocabularyPriority": ["coat", "scarf", "gloves", "boots", "tracksuit", "afford", "discount", "receipt", "try on", "in stock", "out of stock"],
+      "grammarPatterns": [
+        "going to affirmative: She ___ buy a new coat. (is going to / going to / will)",
+        "going to question: ___ you going to wear boots today? (Are / Is / Do)",
+        "going to negative: I ___ going to spend all my money. (am not / don't / isn't)",
+        "going to + base verb: He is going to ___ on those jeans. (try / tries / trying)"
+      ],
+      "skillAreas": ["clothes vocabulary", "shopping language", "going to affirmative/negative/question", "future plans"],
+      "sampleStems": [
+        "What do you call a strip of cloth worn around the neck for warmth?",
+        "Choose the correct form: 'I [am going to / going to / will going to] buy some gloves.'",
+        "True/False: After 'going to', we use the past form of the verb.",
+        "Fill in: '___ she going to try on those boots?' (Is / Are / Does)",
+        "What does 'in stock' mean?",
+        "Complete: 'I can't afford this coat — it's too ___.' (expensive / discount / receipt)"
+      ]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "Yummy food!",
+      "vocabularyPriority": ["grains", "dairy", "protein", "legumes", "boil", "fry", "bake", "grill", "steam", "blend", "countable vs uncountable"],
+      "grammarPatterns": [
+        "Uncountable noun with some: We need ___ flour for the cake. (some / any / a)",
+        "any in question: Is there ___ milk in the fridge? (any / some / a)",
+        "How much vs how many: ___ eggs do we need? (How many / How much / How often)",
+        "Uncountable — no plural: I bought three ___. (rices ❌ / rice ✅)"
+      ],
+      "skillAreas": ["food group vocabulary", "cooking method vocabulary", "countable/uncountable distinction", "some/any usage", "how much/many"],
+      "sampleStems": [
+        "Which food is uncountable — you cannot say 'two ___'?",
+        "Choose: 'Is there [some / any] sugar in the cupboard?'",
+        "True/False: 'Rice' is a countable noun — we can say 'three rices'.",
+        "Fill in: 'How ___ butter do we need?' (much / many / often)",
+        "What cooking method uses steam from boiling water?",
+        "Complete: 'We don't have ___ cheese — we need to buy some.' (any / some / a)"
+      ]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "What a day!",
+      "vocabularyPriority": ["went/go", "came/come", "saw/see", "ate/eat", "bought/buy", "rode/ride", "swam/swim", "ran/run", "yesterday", "last week", "ago"],
+      "grammarPatterns": [
+        "Irregular past: We ___ to the market yesterday. (went / go / goed)",
+        "Past negative: She ___ eat breakfast this morning. (didn't / doesn't / don't)",
+        "Past question: ___ you see that film last week? (Did / Do / Does)",
+        "Regular past: He ___ his homework an hour ago. (finished / finish / finishes)"
+      ],
+      "skillAreas": ["irregular verb past forms", "past simple affirmative/negative/question", "time expressions for past", "regular and irregular distinction"],
+      "sampleStems": [
+        "What is the past simple form of 'buy'?",
+        "Choose the correct sentence: 'She [went / goed / go] to the zoo last Sunday.'",
+        "True/False: In past simple questions, we use 'did' + past form of the verb.",
+        "Fill in: '___ you eat breakfast this morning? — Yes, I ___.' (Did / did)",
+        "What does 'the day before yesterday' mean?",
+        "Complete: 'They didn't ___ swimming — they played tennis.' (go / went / going)"
+      ]
+    },
+    {
+      "unit": 7,
+      "unitTitle": "Stay healthy!",
+      "vocabularyPriority": ["shoulder", "elbow", "wrist", "ankle", "knee", "spine", "cut", "bruise", "blister", "sprain", "bandage", "plaster", "ice pack"],
+      "grammarPatterns": [
+        "should for advice: You ___ rest and drink water. (should / must / have to)",
+        "shouldn't for negative advice: She ___ eat spicy food with a stomachache. (shouldn't / mustn't / didn't)",
+        "should question: ___ I see a doctor? (Should / Must / Do)",
+        "should + base verb: You should ___ to bed early. (go / going / went)"
+      ],
+      "skillAreas": ["body part vocabulary", "health problem vocabulary", "should/shouldn't for advice", "question with should"],
+      "sampleStems": [
+        "What is the joint between your hand and your arm called?",
+        "Choose: 'You [should / shouldn't] eat lots of vegetables — they are good for you.'",
+        "True/False: We say 'You should to rest' when giving health advice.",
+        "Fill in: '___ I put a plaster on this cut?' (Should / Must / Do)",
+        "What is a 'bruise'?",
+        "Complete: 'She has a blister on her heel. She ___ wear more comfortable shoes.' (should / shouldn't — choose the right one)"
+      ]
+    },
+    {
+      "unit": 8,
+      "unitTitle": "Our planet!",
+      "vocabularyPriority": ["rainforest", "coral reef", "glacier", "volcano", "canyon", "waterfall", "pollution", "deforestation", "global warming", "recycling", "conservation"],
+      "grammarPatterns": [
+        "can for ability: A dolphin ___ swim very fast. (can / could / cans)",
+        "can't for inability: Fish ___ breathe air. (can't / couldn't / don't can)",
+        "could for past ability: She ___ ride a bike when she was five. (could / can / cans)",
+        "couldn't for past inability: I ___ speak English before I started school. (couldn't / can't / didn't could)"
+      ],
+      "skillAreas": ["natural landform vocabulary", "environmental problem/solution vocabulary", "can/can't for present ability", "could/couldn't for past ability"],
+      "sampleStems": [
+        "What do we call a huge slow-moving river of ice?",
+        "Choose: 'My brother [can / could / cans] play chess when he was four years old.'",
+        "True/False: 'Could' is used for past ability, while 'can' is used for present ability.",
+        "Fill in: 'Before taking lessons, I ___ swim at all.' (couldn't / can't / didn't)",
+        "What is 'deforestation'?",
+        "Complete: 'Glaciers ___ melt if we don't reduce global warming.' (can / could — present possibility)"
+      ]
+    }
+  ]
+}

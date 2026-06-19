@@ -1,0 +1,222 @@
+{
+  "packageId": "english-g5-FamilyandFriend5",
+  "sourceId": "src-english-g5-family-and-friends-5",
+  "_note": "This file provides question topics and stems for quiz generation. It is NOT a quiz. AI agents generating lessons read this file to decide what to test — they must write original questions using the vocabulary and grammar in the Knowledge Package.",
+
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "People and Places",
+      "assessmentTopics": [
+        "Extended family vocabulary (grandparents, uncle, aunt, cousin, niece, nephew)",
+        "Describing physical appearance using adjectives (curly, straight, wavy, bald, freckles, dimples)",
+        "Present perfect with 'just' to describe recent actions"
+      ],
+      "questionStems": [
+        "Your mother's brother is your ___.",
+        "Your aunt's daughter is your ___.",
+        "Which word describes hair that is tightly coiled?",
+        "Complete: 'She has ___ hair.' (small marks on skin)",
+        "Complete: 'He has just ___ his homework.' (present perfect)",
+        "'They have just ___ lunch.' — which verb form is correct?",
+        "Which sentence uses 'just' correctly with present perfect?",
+        "What is the Vietnamese meaning of 'nephew'?",
+        "True or false: 'dimples' are marks on the face when you smile.",
+        "Fill in: 'My father's sister is my ___.'",
+        "Which adjective describes hair that is not straight and not curly — somewhere in between?",
+        "Complete: 'She ___ just arrived.' (has/have)"
+      ],
+      "vocabularyPriority": ["nephew", "niece", "dimples", "freckles", "curly", "straight", "wavy", "bald"],
+      "grammarPatterns": ["present perfect with just"],
+      "skillAreas": ["vocabulary-meaning", "grammar-application", "family-relations"]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Our World",
+      "assessmentTopics": [
+        "Natural world vocabulary (waterfall, glacier, cave, volcano, canyon, rainforest)",
+        "Describing geographical features",
+        "Present perfect with 'ever' and 'never' for experiences"
+      ],
+      "questionStems": [
+        "A ___ is a large mass of ice that moves slowly.",
+        "Which natural feature is formed when water falls from a high place?",
+        "Complete: 'Have you ___ visited a volcano?' (ever/never)",
+        "'I have ___ seen a glacier.' — which word completes this negative sentence?",
+        "Which sentence correctly asks about experience with 'ever'?",
+        "True or false: A canyon is a deep valley with steep sides.",
+        "Fill in: 'She has ___ been to a rainforest.' (never)",
+        "What is the Vietnamese meaning of 'waterfall'?",
+        "Which of these is found underground? (cave / rainforest / glacier / volcano)",
+        "Complete: '___ you ever climbed a mountain?' (Have/Has)",
+        "Which geographical feature is most associated with lava?",
+        "True or false: 'ever' is used in negative sentences."
+      ],
+      "vocabularyPriority": ["waterfall", "glacier", "cave", "volcano", "canyon", "rainforest", "cliff", "desert"],
+      "grammarPatterns": ["present perfect with ever/never"],
+      "skillAreas": ["vocabulary-meaning", "grammar-application", "geography-knowledge"]
+    },
+    {
+      "unit": 3,
+      "unitTitle": "Helping Out",
+      "assessmentTopics": [
+        "Household chores and responsibilities (vacuum, mow the lawn, take out the trash, wash up)",
+        "Obligations with 'have to' and 'don't have to'",
+        "Advice with 'should' and 'shouldn't'"
+      ],
+      "questionStems": [
+        "Complete: 'You ___ to vacuum the living room every week.' (have/has)",
+        "Which sentence shows something is NOT necessary?",
+        "You ___ eat too much sugar. (shouldn't/should)",
+        "Fill in: 'She doesn't ___ to cook dinner tonight.' (have)",
+        "True or false: 'should' means the same as 'must'.",
+        "Which chore involves cutting grass outside?",
+        "Complete: 'We ___ take out the trash on Mondays.' (have to)",
+        "What does 'wash up' mean? (wash the dishes / wash your hair / wash the car)",
+        "You look tired. You ___ go to bed earlier. (should/shouldn't)",
+        "Fill in: 'He ___ have to wear a uniform at home.' (doesn't/don't)",
+        "Which word means to clean a floor using a machine?",
+        "True or false: 'have to' expresses obligation."
+      ],
+      "vocabularyPriority": ["vacuum", "mow", "trash", "chore", "tidy", "responsible", "household"],
+      "grammarPatterns": ["have to/don't have to", "should/shouldn't"],
+      "skillAreas": ["vocabulary-meaning", "grammar-application", "obligation-advice"]
+    },
+    {
+      "unit": 4,
+      "unitTitle": "Food and Health",
+      "assessmentTopics": [
+        "Countable and uncountable nouns (rice, bread, apple, egg)",
+        "Using 'some' and 'any' correctly",
+        "Food vocabulary and nutrition"
+      ],
+      "questionStems": [
+        "Is 'rice' countable or uncountable?",
+        "Complete: 'There is ___ milk in the fridge.' (some/any)",
+        "Complete: 'Are there ___ apples left?' (some/any)",
+        "Which word is uncountable? (egg / water / orange / sandwich)",
+        "True or false: We use 'any' in negative sentences.",
+        "Fill in: 'She doesn't have ___ sugar.' (some/any)",
+        "Complete: 'I need ___ bread for the sandwich.' (some/any)",
+        "Which sentence is correct? (There is some rice. / There is any rice.)",
+        "What is the Vietnamese meaning of 'uncountable'?",
+        "True or false: 'some' is used in questions to offer something.",
+        "Fill in: 'Do you have ___ homework tonight?' (some/any)",
+        "Which food is countable? (water / juice / cookie / salt)"
+      ],
+      "vocabularyPriority": ["countable", "uncountable", "portion", "nutrition", "ingredient", "recipe"],
+      "grammarPatterns": ["countable/uncountable nouns", "some/any"],
+      "skillAreas": ["vocabulary-meaning", "grammar-application", "food-nutrition"]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "Rules and Regulations",
+      "assessmentTopics": [
+        "School and public rules vocabulary",
+        "Prohibition and obligation with 'must' and 'mustn't'",
+        "Difference between 'must' and 'have to'"
+      ],
+      "questionStems": [
+        "Complete: 'You ___ run in the corridors.' (must/mustn't)",
+        "Which word shows something is prohibited?",
+        "True or false: 'must' and 'mustn't' are opposites.",
+        "Fill in: 'Students ___ wear their school uniform.' (must)",
+        "Complete: 'You ___ talk during the exam.' (mustn't)",
+        "Which sentence is a rule? Choose the one with 'must'.",
+        "What is the Vietnamese meaning of 'prohibited'?",
+        "True or false: 'mustn't' means 'it is not necessary'.",
+        "Fill in: 'You ___ drop litter in the park.' (mustn't)",
+        "Complete: 'Visitors ___ show their ID cards.' (must)",
+        "Which word describes an official rule that must be followed?",
+        "In which place would you most likely see the rule 'You must be quiet'?"
+      ],
+      "vocabularyPriority": ["prohibited", "regulation", "corridor", "litter", "uniform", "visitor"],
+      "grammarPatterns": ["must/mustn't"],
+      "skillAreas": ["vocabulary-meaning", "grammar-application", "rules-regulations"]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "The Future",
+      "assessmentTopics": [
+        "Future predictions and plans with 'will' and 'won't'",
+        "Technology and future vocabulary (robot, solar panel, electric car, renewable energy)",
+        "Making predictions about the future"
+      ],
+      "questionStems": [
+        "Complete: 'In the future, cars ___ use petrol.' (will/won't — negative prediction)",
+        "Which sentence makes a positive prediction about the future?",
+        "True or false: 'won't' is the short form of 'will not'.",
+        "Fill in: 'Scientists think robots ___ do most jobs.' (will)",
+        "Complete: 'People ___ live on the moon one day.' (will/won't)",
+        "What is the Vietnamese meaning of 'renewable energy'?",
+        "Which technology uses the sun to make electricity?",
+        "True or false: Electric cars use petrol.",
+        "Fill in: 'I think it ___ rain tomorrow.' (will)",
+        "Complete: 'She ___ be late — she left early.' (won't)",
+        "Which word describes energy sources that don't run out?",
+        "In which sentence is 'will' used for a spontaneous decision?"
+      ],
+      "vocabularyPriority": ["renewable", "solar", "electric", "robot", "prediction", "technology", "petrol"],
+      "grammarPatterns": ["will/won't for predictions"],
+      "skillAreas": ["vocabulary-meaning", "grammar-application", "future-technology"]
+    },
+    {
+      "unit": 7,
+      "unitTitle": "People Who Help Us",
+      "assessmentTopics": [
+        "Jobs and community helpers vocabulary (paramedic, firefighter, surgeon, architect, journalist)",
+        "Defining relative clauses with 'who', 'which', and 'that'",
+        "Describing people and things using relative clauses"
+      ],
+      "questionStems": [
+        "Complete: 'A paramedic is someone ___ gives emergency medical treatment.' (who/which)",
+        "Complete: 'That is the building ___ was designed by a famous architect.' (who/which/that)",
+        "True or false: We use 'who' for people and 'which' for things.",
+        "Fill in: 'She is the journalist ___ wrote that article.' (who/that)",
+        "Complete: 'A surgeon is a doctor ___ performs operations.' (who)",
+        "What is the Vietnamese meaning of 'paramedic'?",
+        "Which word can replace both 'who' and 'which' in a relative clause?",
+        "True or false: 'that' can only be used for things, not people.",
+        "Fill in: 'This is the machine ___ prints the newspaper.' (which/that)",
+        "Complete: 'The firefighter ___ rescued the child received an award.' (who/that)",
+        "Which job involves designing buildings?",
+        "What does a journalist do? (report news / fight fires / perform surgery / design buildings)"
+      ],
+      "vocabularyPriority": ["paramedic", "firefighter", "surgeon", "architect", "journalist", "emergency", "community"],
+      "grammarPatterns": ["defining relative clauses with who/which/that"],
+      "skillAreas": ["vocabulary-meaning", "grammar-application", "relative-clauses", "community-jobs"]
+    },
+    {
+      "unit": 8,
+      "unitTitle": "Celebrations",
+      "assessmentTopics": [
+        "Festival and celebration vocabulary (carnival, fireworks, costume, parade, lantern, feast)",
+        "Review of all grammar structures from Units 1–8",
+        "Describing celebrations and cultural events"
+      ],
+      "questionStems": [
+        "Which word describes a large public celebration with music and dancing in the streets?",
+        "Complete: 'People wear ___ at costume parties.' (costumes/carnivals)",
+        "True or false: Fireworks are usually displayed during daytime celebrations.",
+        "Fill in: 'The festival ___ just started.' (has/have — present perfect)",
+        "Complete: 'You ___ miss the lantern festival — it's beautiful!' (shouldn't)",
+        "What is the Vietnamese meaning of 'feast'?",
+        "Which sentence uses a relative clause correctly to describe a festival?",
+        "Complete: 'There will ___ be fireworks tonight.' (will/won't — affirmative)",
+        "True or false: A parade is a procession of people moving through a public place.",
+        "Fill in: 'Have you ___ attended a carnival?' (ever)",
+        "Which celebration is most associated with lanterns in Vietnamese culture?",
+        "Complete: 'She has ___ prepared the feast.' (just)"
+      ],
+      "vocabularyPriority": ["carnival", "fireworks", "costume", "parade", "lantern", "feast", "celebrate", "festival"],
+      "grammarPatterns": [
+        "present perfect with just",
+        "present perfect with ever/never",
+        "should/shouldn't",
+        "will/won't",
+        "defining relative clauses"
+      ],
+      "skillAreas": ["vocabulary-meaning", "grammar-review", "cultural-knowledge", "celebrations"]
+    }
+  ]
+}

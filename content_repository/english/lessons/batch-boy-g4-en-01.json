@@ -1,0 +1,676 @@
+{
+  "version": 1,
+  "batchId": "boy-g4-en-b01",
+  "description": "Family and Friends 4 — Unit 1: Free time! — Hobbies vocabulary + gerunds after love/enjoy/like/hate/dislike/don't mind + How often + frequency adverbs",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-en-x001",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 32,
+      "title": "Sở thích thú vị: từ vựng về hoạt động tự do",
+      "learningObjective": "Sau bài này bé sẽ biết tên 8 sở thích trong tiếng Anh: skateboarding, cycling, hiking, photography, gardening, birdwatching, collecting, doing puzzles.",
+      "shortExplanation": "Mỗi người có sở thích khác nhau. Hôm nay chúng ta học tên tiếng Anh của 8 sở thích phổ biến mà trẻ em trên thế giới đều yêu thích!",
+      "storyContext": "Johnny và đội Robot Squad đang tổ chức Ngày Hội Sở Thích. Mỗi robot trong đội có một sở thích đặc biệt. Hãy giúp Johnny học tên các sở thích để tham gia cuộc thi đố vui!",
+      "content": "## Sở thích và hoạt động tự do (Hobbies and Free-time Activities)\n\n### 8 sở thích quan trọng cần nhớ:\n\n| Tiếng Anh | Tiếng Việt | Mô tả |\n|---|---|---|\n| **skateboarding** | trượt ván | Đứng trên ván có bánh xe, lướt trên mặt phẳng |\n| **cycling** | đạp xe | Đi xe đạp để dạo chơi hoặc tập thể thao |\n| **hiking** | đi bộ đường dài | Đi bộ trong thiên nhiên, trên núi hoặc rừng |\n| **photography** | nhiếp ảnh | Chụp ảnh như một sở thích nghệ thuật |\n| **gardening** | làm vườn | Trồng và chăm sóc cây, hoa trong vườn |\n| **birdwatching** | quan sát chim | Nhìn và nhận biết các loài chim trong tự nhiên |\n| **collecting** | sưu tập | Thu thập các đồ vật cùng loại (tem, đồng xu, hình robot...) |\n| **doing puzzles** | ghép hình / giải câu đố | Lắp ghép các mảnh hình hoặc giải đố |\n\n### Mẹo nhớ:\n- **skate**boarding → trượt **ván** (skate = ván trượt)\n- **cycle** → **đạp** xe (cycle = bánh xe)\n- **hike** → đi bộ **xa** trong thiên nhiên\n- **photo**graphy → **chụp** ảnh (photo = ảnh)\n- **garden**ing → làm **vườn** (garden = vườn)\n- **bird**watching → quan sát **chim** (bird = chim)\n- **collect**ing → **sưu tập** (collect = thu thập)\n- **puzzle** → **đố** / ghép hình",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "\"Skateboarding\" nghĩa là gì?",
+          "options": [
+            "Trượt ván trên mặt phẳng với ván có bánh xe",
+            "Đạp xe đi dạo trong công viên",
+            "Đi bộ đường dài trong thiên nhiên",
+            "Sưu tập các đồ vật yêu thích"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Skateboarding\" là trượt ván — bạn đứng trên một chiếc ván có 4 bánh xe nhỏ và lướt đi. Từ \"skate\" có nghĩa là trượt.",
+          "hint": "\"Skate\" = trượt. \"Board\" = ván. Trượt + ván = ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Photography\" là sở thích gì?",
+          "options": [
+            "Quan sát và nhận biết các loài chim",
+            "Nhiếp ảnh — chụp ảnh như một nghệ thuật",
+            "Ghép hình và giải câu đố",
+            "Sưu tập các đồ vật cùng loại"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Photography\" là nhiếp ảnh — sở thích dùng máy ảnh để chụp lại những khoảnh khắc đẹp. Từ \"photo\" có nghĩa là ảnh chụp.",
+          "hint": "\"Photo\" = ảnh. \"Photography\" liên quan đến ảnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Hiking\" có nghĩa là gì?",
+          "options": [
+            "Đạp xe leo dốc trên núi",
+            "Trượt ván ngoài công viên",
+            "Đi bộ đường dài trong thiên nhiên, rừng hoặc núi",
+            "Chụp ảnh phong cảnh thiên nhiên"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Hiking\" là đi bộ đường dài trong thiên nhiên — trên núi, trong rừng hoặc dọc theo các con đường mòn. Đây là cách khám phá thiên nhiên tuyệt vời!",
+          "hint": "Hike = đi bộ đường dài. Bạn đi bộ, không đạp xe hay trượt ván."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sở thích nào được gọi là \"birdwatching\"?",
+          "options": [
+            "Chụp ảnh các loài chim bằng máy ảnh",
+            "Nuôi chim cảnh trong lồng ở nhà",
+            "Nghe tiếng chim hót mỗi sáng",
+            "Quan sát và nhận biết các loài chim trong tự nhiên"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Birdwatching\" là quan sát chim — bạn ra ngoài thiên nhiên, dùng ống nhòm để nhìn và nhận biết các loài chim. \"Bird\" = chim, \"watching\" = quan sát.",
+          "hint": "\"Bird\" = chim. \"Watch\" = nhìn/quan sát. Ghép lại = ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Gardening\" nghĩa là gì?",
+          "options": [
+            "Trồng cây và chăm sóc vườn như một sở thích",
+            "Đi bộ trong vườn quốc gia",
+            "Quan sát côn trùng và cây cỏ trong thiên nhiên",
+            "Chụp ảnh hoa và cây cối"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Gardening\" là làm vườn — trồng hoa, rau, cây cối và chăm sóc khu vườn. \"Garden\" = vườn. Đây là sở thích rất phổ biến ở nhiều nước!",
+          "hint": "\"Garden\" = vườn. \"Gardening\" = làm gì với vườn?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Cycling\" là hoạt động gì?",
+          "options": [
+            "Trượt ván trên đường phố",
+            "Đạp xe đi dạo hoặc tập thể thao",
+            "Đi bộ leo núi dài ngày",
+            "Làm vườn trong công viên"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Cycling\" là đạp xe — bạn đi xe đạp để vui chơi, tập thể thao hoặc di chuyển. \"Cycle\" = bánh xe / xe đạp.",
+          "hint": "\"Cycle\" = xe đạp / bánh xe. \"Cycling\" = đang làm gì với xe đạp?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Collecting\" khi nói về sở thích có nghĩa là?",
+          "options": [
+            "Đạp xe thu gom rác trong công viên",
+            "Chụp ảnh và lưu lại kỷ niệm",
+            "Sưu tập các đồ vật cùng loại như tem, đồng xu, mô hình robot",
+            "Quan sát và ghi chép về thiên nhiên"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Collecting\" là sưu tập — bạn thu thập nhiều đồ vật cùng loại và giữ gìn chúng. Ví dụ: collecting stamps (sưu tập tem), collecting robots (sưu tập robot).",
+          "hint": "\"Collect\" = thu thập / sưu tập. Johnny thích \"collecting robot figures\" đó!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Doing puzzles\" là sở thích gì?",
+          "options": [
+            "Đi bộ giải quyết các bí ẩn ngoài trời",
+            "Chụp ảnh các hình khối đặc biệt",
+            "Tập thể thao và giải quyết thử thách thể lực",
+            "Ghép các mảnh hình lại với nhau hoặc giải câu đố"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Doing puzzles\" là ghép hình / giải câu đố. \"Puzzle\" là câu đố hoặc bộ hình ghép mảnh. Đây là sở thích rèn luyện não bộ rất tốt!",
+          "hint": "\"Puzzle\" = câu đố / hình ghép mảnh. \"Doing\" = đang làm."
+        },
+        {
+          "type": "true_false",
+          "text": "\"Hiking\" trong tiếng Anh có nghĩa là đạp xe đường trường.",
+          "correct": false,
+          "explanation": "SAI! \"Hiking\" là đi bộ đường dài trong thiên nhiên, không phải đạp xe. Đạp xe trong tiếng Anh là \"cycling\". Hai sở thích này khác nhau hoàn toàn.",
+          "hint": "Hiking = đi bộ. Cycling = đạp xe. Hai từ khác nhau!"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Robot Cam thích chụp ảnh thiên nhiên. Sở thích của Robot Cam trong tiếng Anh là ___.",
+          "answer": "photography",
+          "explanation": "Sở thích chụp ảnh trong tiếng Anh là \"photography\". Robot Cam là nhiếp ảnh gia của đội Robot Squad! Từ \"photo\" = ảnh, \"photography\" = nghệ thuật/sở thích chụp ảnh.",
+          "hint": "\"Photo\" = ảnh. Sở thích chụp ảnh = photo + graphy = ?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-x002",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 33,
+      "title": "Yêu thích và thích: love / enjoy / like + danh động từ (-ing)",
+      "learningObjective": "Sau bài này bé sẽ biết cách dùng đúng love, enjoy, like theo sau bởi động từ -ing để diễn tả sở thích yêu thích.",
+      "shortExplanation": "Khi muốn nói bạn thích làm gì, dùng: love/enjoy/like + động từ thêm -ing. Ví dụ: I love cycling. She enjoys hiking.",
+      "storyContext": "Johnny đang điền vào hồ sơ tham gia giải đấu Robot Sport. Huấn luyện viên robot hỏi: 'What activities do you love doing?' Johnny muốn trả lời đúng để được chọn vào đội!",
+      "content": "## Love / Enjoy / Like + Danh động từ (-ing)\n\n### Quy tắc vàng:\nSau các động từ ý kiến **love**, **enjoy**, **like** → dùng **verb + -ing** (danh động từ)\n\n| Động từ ý kiến | Mức độ | Ví dụ |\n|---|---|---|\n| **love** | Rất rất thích (❤️❤️❤️) | I **love swimming** in the pool. |\n| **enjoy** | Thích và tận hưởng (😊) | She **enjoys hiking** in the forest. |\n| **like** | Thích (👍) | He **likes cycling** on weekends. |\n\n### Cách thêm -ing:\n| Động từ gốc | Quy tắc | Dạng -ing |\n|---|---|---|\n| swim | Phụ âm + nguyên âm + phụ âm → nhân đôi | swimming |\n| hike | Kết thúc bằng -e → bỏ e + ing | hiking |\n| cycle | Kết thúc bằng -e → bỏ e + ing | cycling |\n| collect | Kết thúc bình thường → thêm -ing | collecting |\n| garden | Kết thúc bình thường → thêm -ing | gardening |\n| watch | Kết thúc bình thường → thêm -ing | watching |\n\n### Ví dụ câu:\n- **I love** skateboarding in the park.\n- **She enjoys** doing puzzles on rainy days.\n- **We like** cycling along the river.\n- **Johnny loves** collecting robot figures.\n\n### Lỗi cần tránh:\n❌ I love swim. → ✅ I love **swimming**.\n❌ She enjoy hiking. → ✅ She **enjoys** hiking. *(he/she/it → enjoy**s**)*\n❌ He likes to cycled. → ✅ He likes **cycling**.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng về ngữ pháp?",
+          "options": [
+            "I love swim in the pool.",
+            "I love swimming in the pool.",
+            "I love to swam in the pool.",
+            "I loves swimming in the pool."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đúng là \"I love swimming\" — sau \"love\" ta dùng động từ + ing. Các lỗi: swim (thiếu -ing), to swam (sai cả to và swam), loves (với I không thêm -s).",
+          "hint": "love + ___ (verb-ing). Với chủ ngữ I không thêm -s vào love."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền đúng dạng: \"She enjoys ___ photos of wildlife.\" (take)",
+          "options": [
+            "take",
+            "takes",
+            "taking",
+            "took"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau \"enjoys\" dùng verb + -ing → \"taking\". Quy tắc: take → bỏ e → tak + ing = taking. \"She enjoys taking photos of wildlife.\"",
+          "hint": "enjoy + verb-ing. take → bỏ -e rồi thêm -ing = ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng về ngữ pháp?",
+          "options": [
+            "We enjoy doing puzzles on rainy days.",
+            "We enjoy do puzzles on rainy days.",
+            "We enjoying doing puzzles together.",
+            "We enjoys doing puzzles at home."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"We enjoy doing puzzles\" là đúng — sau enjoy dùng verb-ing, và với \"we\" không thêm -s. Lỗi B: thiếu -ing. Lỗi C: dùng enjoying thay enjoy. Lỗi D: we + enjoys sai.",
+          "hint": "We (chủ ngữ số nhiều) → enjoy (không -s). Sau enjoy → ___ing."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: \"My dad loves ___ in his garden every morning.\" (garden)",
+          "options": [
+            "garden",
+            "gardens",
+            "gardening",
+            "gardened"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau \"loves\" dùng verb + -ing → \"gardening\". Quy tắc thêm -ing vào garden: đơn giản chỉ cần thêm -ing (garden + ing = gardening).",
+          "hint": "loves + verb-ing. garden + ing = ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền đúng: \"Johnny ___ collecting robot figures.\" (love)",
+          "options": [
+            "love",
+            "loves",
+            "loving",
+            "loved"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Johnny\" = he/she/it (ngôi thứ ba số ít) → thêm -s vào love → \"loves\". Câu đầy đủ: \"Johnny loves collecting robot figures.\"",
+          "hint": "Johnny = he → love + s = ? (quy tắc ngôi thứ ba số ít hiện tại đơn)"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền đúng dạng: \"My sister likes ___ (cycle) in the park on Sundays.\"",
+          "options": [
+            "cycle",
+            "cycles",
+            "cycling",
+            "cycled"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau \"likes\" dùng verb-ing → \"cycling\". Quy tắc: cycle kết thúc bằng -e → bỏ e + ing → cyc**l**ing.",
+          "hint": "likes + verb-ing. cycle → bỏ -e rồi thêm -ing."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG về ngữ pháp?",
+          "options": [
+            "She likes collecting stamps from different countries.",
+            "She likes collect stamps from different countries.",
+            "She like collecting stamps from different countries.",
+            "She likes to collected stamps from different countries."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"She likes collecting stamps\" đúng: she → like+s, sau likes → collecting (verb-ing). Lỗi B: thiếu -ing. Lỗi C: like thiếu -s. Lỗi D: to + collected sai.",
+          "hint": "She → likes. Sau likes → collecting (verb-ing). Kiểm tra cả hai điều!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cấu trúc đúng sau enjoy/like/love là gì?",
+          "options": [
+            "enjoy + to + base verb",
+            "like + past tense verb",
+            "love + subject",
+            "enjoy / like / love + verb-ing"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sau enjoy, like, love → dùng verb + -ing (danh động từ). Đây là quy tắc không thay đổi cho cả ba động từ ý kiến này.",
+          "hint": "Sau love/enjoy/like: verb + ___?"
+        },
+        {
+          "type": "true_false",
+          "text": "Sau động từ \"enjoy\", ta dùng dạng -ing của động từ (danh động từ).",
+          "correct": true,
+          "explanation": "ĐÚNG! Sau enjoy ta dùng verb-ing. Ví dụ: enjoy swimming, enjoy hiking, enjoy doing puzzles. Đây là quy tắc bắt buộc.",
+          "hint": "enjoy + swimming hay enjoy + swim?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền đúng dạng: \"Johnny loves ___ (watch) robots compete in tournaments.\"",
+          "answer": "watching",
+          "explanation": "Sau \"loves\" dùng verb-ing. watch + ing = watching (không cần bỏ hay nhân đôi). Câu đầy đủ: \"Johnny loves watching robots compete in tournaments.\"",
+          "hint": "loves + verb-ing. watch + ing = ?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-x003",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 34,
+      "title": "Ghét và không ngại: hate / dislike / don't mind + -ing",
+      "learningObjective": "Sau bài này bé sẽ biết dùng hate, dislike, don't mind theo sau bởi verb-ing để diễn tả cảm giác không thích hoặc trung lập.",
+      "shortExplanation": "'Hate' nghĩa là ghét (rất mạnh), 'dislike' là không thích, còn 'don't mind' là trung lập — không thích nhưng cũng không ghét. Tất cả đều dùng + verb-ing!",
+      "storyContext": "Đội Robot Squad đang khảo sát sở thích để phân chia nhiệm vụ. Robot Trưởng hỏi từng thành viên: 'What do you dislike doing? What don't you mind doing?' Hãy giúp Johnny trả lời đúng!",
+      "content": "## Hate / Dislike / Don't mind + Verb-ing\n\n### Mức độ cảm xúc từ yêu thích đến ghét:\n\n| Tiếng Anh | Tiếng Việt | Mức độ |\n|---|---|---|\n| **love** | yêu thích / rất rất thích | ❤️❤️❤️ (mạnh nhất) |\n| **enjoy** | thích và tận hưởng | 😊😊 |\n| **like** | thích | 👍 |\n| **don't mind** | không ngại / cũng được (trung lập) | 😐 |\n| **dislike** | không thích | 👎 |\n| **hate** | ghét / không muốn làm gì hết | 😤 (mạnh nhất) |\n\n### Tất cả đều theo sau bởi verb-ing:\n- I **hate waking** up before 7am.\n- She **dislikes doing** chores.\n- We **don't mind waiting** a little.\n- He **hates losing** games — he always wants to win!\n\n### Don't mind — trường hợp đặc biệt:\n**don't mind** = trung lập → \"Tôi không ngại làm điều đó.\"\n- \"I **don't mind** helping.\" = Tôi không ngại giúp đỡ.\n- \"She **doesn't mind** waiting.\" = Cô ấy không ngại chờ đợi.\n\n### Lỗi cần tránh:\n❌ I hate wake up early. → ✅ I hate **waking** up early.\n❌ She dislike swimming. → ✅ She **dislikes** swimming. *(she → dislike**s**)*\n❌ We don't mind to wait. → ✅ We don't mind **waiting**.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng về ngữ pháp?",
+          "options": [
+            "I hate wake up early for school.",
+            "I hate woke up early for school.",
+            "I hate waking up early for school.",
+            "I hate to woke up early for school."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"I hate waking up early\" đúng — sau hate dùng verb-ing (waking). wake → waking (thêm -ing). Các lỗi khác đều dùng sai dạng động từ sau hate.",
+          "hint": "hate + verb-ing. wake + ing = waking."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Don't mind\" có nghĩa gì?",
+          "options": [
+            "Không ngại — cảm giác trung lập, không thích nhưng cũng không ghét",
+            "Ghét rất nhiều và tuyệt đối không muốn làm",
+            "Yêu thích và muốn làm thường xuyên",
+            "Không bao giờ làm điều đó"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Don't mind\" = trung lập. Bạn không ngại làm điều đó, nhưng cũng không phải rất thích. Ví dụ: \"I don't mind waiting\" = Tôi không ngại chờ một chút.",
+          "hint": "Don't mind = không ngại. Mức độ nằm giữa like và dislike."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền đúng dạng: \"She ___ doing homework late at night.\" (dislike)",
+          "options": [
+            "dislike to do homework late at night.",
+            "dislikes to do homework late at night.",
+            "disliking doing homework late at night.",
+            "dislikes doing homework late at night."
+          ],
+          "correctIndex": 3,
+          "explanation": "\"She dislikes doing homework\" đúng: she → dislike+s, sau dislikes → doing (verb-ing). \"Dislike\" cũng theo sau bởi verb-ing, giống như hate và love.",
+          "hint": "She → dislikes (thêm -s). Sau dislikes → verb-ing."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cụm từ nào diễn tả CẢM GIÁC TRUNG LẬP (không thích không ghét)?",
+          "options": [
+            "I hate...",
+            "I don't mind...",
+            "I love...",
+            "I dislike..."
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Don't mind\" là cảm giác trung lập — không ngại, không ghét nhưng cũng không đặc biệt thích. Hate và dislike là tiêu cực; love là tích cực mạnh.",
+          "hint": "Trung lập = ở giữa. Cụm nào không mang nghĩa thích hay ghét?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền đúng dạng: \"He doesn't like ___ (get) up before 7am.\"",
+          "options": [
+            "get",
+            "gets",
+            "getting",
+            "got"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau \"doesn't like\" dùng verb-ing → \"getting\". Quy tắc: get → nhân đôi phụ âm cuối (vì g-e-t: nguyên âm ngắn + phụ âm) → get + t + ing = getting.",
+          "hint": "doesn't like + verb-ing. get → nhân đôi t rồi thêm ing = get**t**ing."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào ĐÚNG về ngữ pháp?",
+          "options": [
+            "They hate waiting in line at the cafeteria.",
+            "They hate wait in line at the cafeteria.",
+            "They hates waiting in line at the cafeteria.",
+            "They hate to waited in line at the cafeteria."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"They hate waiting\" đúng: they → hate (không +s), sau hate → waiting (verb-ing). Lỗi B: thiếu -ing. Lỗi C: they+hates sai. Lỗi D: to+waited sai.",
+          "hint": "They → hate (không -s). Sau hate → waiting (verb-ing)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cấu trúc đúng với \"don't mind\" là?",
+          "options": [
+            "don't mind + to + base verb",
+            "don't mind + past tense",
+            "don't mind + base verb (no -ing)",
+            "don't mind + verb-ing"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Don't mind\" cũng theo sau bởi verb-ing, giống hate, dislike, like, love, enjoy. Ví dụ: \"I don't mind helping\" (không nói \"I don't mind to help\" hay \"I don't mind help\").",
+          "hint": "Don't mind theo cùng quy tắc với hate/like/love → verb + ___?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp?",
+          "options": [
+            "She hates losing robot games.",
+            "She hates to lost robot games.",
+            "She doesn't mind losing sometimes.",
+            "She dislikes losing every time."
+          ],
+          "correctIndex": 1,
+          "explanation": "\"She hates to lost\" sai vì sau hate phải dùng -ing (losing), không dùng \"to + past tense\". Câu đúng: \"She hates losing robot games.\"",
+          "hint": "Sau hate: verb-ing (không phải to + past tense). Câu nào dùng sai dạng?"
+        },
+        {
+          "type": "true_false",
+          "text": "\"Don't mind\" có nghĩa là bạn ghét điều gì đó rất nhiều.",
+          "correct": false,
+          "explanation": "SAI! \"Don't mind\" nghĩa là TRUNG LẬP — không ngại, không ghét nhưng cũng không đặc biệt thích. Còn \"hate\" mới là ghét rất nhiều. Don't mind ≠ hate!",
+          "hint": "Don't mind và hate có nghĩa giống nhau không?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền đúng: \"She ___ (hate) waiting, so she always arrives early.\" (dạng đúng của hate)",
+          "answer": "hates",
+          "explanation": "\"She\" = ngôi thứ ba số ít → hate + s = \"hates\". Câu đầy đủ: \"She hates waiting, so she always arrives early.\" (Cô ấy ghét chờ đợi nên luôn đến sớm.)",
+          "hint": "She = he/she/it → động từ thêm -s. hate + s = ?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-x004",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 35,
+      "title": "Hỏi mức độ thường xuyên: How often + frequency adverbs",
+      "learningObjective": "Sau bài này bé sẽ biết cách hỏi 'How often do you...?' và trả lời bằng các trạng từ tần suất: always, usually, often, sometimes, rarely, never.",
+      "shortExplanation": "'How often' dùng để hỏi về mức độ thường xuyên. Trả lời bằng: always (luôn luôn), usually (thường), often (hay), sometimes (thỉnh thoảng), rarely (hiếm khi), never (không bao giờ).",
+      "storyContext": "Nhật ký tập luyện của đội Robot Sport cần điền thông tin. Robot Huấn Luyện Viên hỏi mỗi thành viên: 'How often do you practise?' Johnny cần trả lời đúng để được vào đội chính thức!",
+      "content": "## How often...? + Trạng từ tần suất\n\n### Câu hỏi: How often do you...?\n- **How often do you** go cycling? → How often = Bao lâu một lần?\n- **How often does she** go hiking?\n- **How often do they** do puzzles?\n\n### 6 trạng từ tần suất (từ mạnh nhất đến yếu nhất):\n\n| Trạng từ | Tiếng Việt | Tần suất (%) |\n|---|---|---|\n| **always** | luôn luôn | ~100% |\n| **usually** | thường thường | ~80% |\n| **often** | thường xuyên | ~60% |\n| **sometimes** | thỉnh thoảng | ~40% |\n| **rarely** | hiếm khi | ~20% |\n| **never** | không bao giờ | 0% |\n\n### Vị trí trong câu:\nTrạng từ tần suất đứng **TRƯỚC** động từ thường:\n- She **always** goes cycling on weekends. ✅\n- He **usually** does puzzles after school. ✅\n- They **never** go birdwatching in winter. ✅\n\n❌ She goes always cycling. (Sai — always phải đứng trước goes)\n\n### Ví dụ câu hỏi và trả lời:\n- **How often do you** go skateboarding? → I **usually** go skateboarding on Saturdays.\n- **How often does he** do photography? → He **sometimes** takes photos in the park.\n- **How often do they** go hiking? → They **rarely** go hiking — they prefer cycling.",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "\"How often\" dùng để hỏi về điều gì?",
+          "options": [
+            "Số lượng đồ vật",
+            "Thời gian cụ thể (mấy giờ)",
+            "Nơi chốn (ở đâu)",
+            "Mức độ thường xuyên của một hoạt động"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"How often\" hỏi về TẦN SUẤT — bao lâu một lần, mức độ thường xuyên. Ví dụ: \"How often do you exercise?\" hỏi bạn tập thể dục mấy lần một tuần.",
+          "hint": "How often = bao lâu một lần = hỏi về tần suất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu trả lời đúng cho \"How often do you go cycling?\" là:",
+          "options": [
+            "Yes, I do cycling every day.",
+            "I usually go cycling on weekends.",
+            "I cycling on Sundays always.",
+            "Go cycling sometimes I do."
+          ],
+          "correctIndex": 1,
+          "explanation": "\"I usually go cycling on weekends\" đúng — dùng trạng từ tần suất (usually) trước động từ (go). Đây là cấu trúc chuẩn để trả lời \"How often\".",
+          "hint": "Trả lời How often = dùng trạng từ tần suất + cấu trúc câu bình thường."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Never\" có nghĩa là?",
+          "options": [
+            "Không bao giờ (0 lần)",
+            "Thỉnh thoảng (vài lần)",
+            "Thường xuyên (nhiều lần)",
+            "Luôn luôn (mọi lúc)"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Never\" = không bao giờ (0%). Đây là trạng từ tần suất yếu nhất. Ví dụ: \"I never go birdwatching\" = Tôi không bao giờ đi quan sát chim.",
+          "hint": "Never = không bao giờ. Tần suất = 0%."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trạng từ nào có nghĩa là \"thường thường\" (~80% thời gian)?",
+          "options": [
+            "never",
+            "sometimes",
+            "usually",
+            "rarely"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Usually\" = thường thường, khoảng 80% thời gian. Đây là mức độ cao thứ hai sau \"always\". Ví dụ: \"I usually do homework after dinner.\"",
+          "hint": "Xếp từ trên xuống: always (100%) → usually (80%) → often → sometimes → rarely → never (0%)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có vị trí trạng từ tần suất ĐÚNG?",
+          "options": [
+            "He goes always hiking on Sundays.",
+            "Always he goes hiking on Sundays.",
+            "He goes hiking always on Sundays.",
+            "He always goes hiking on Sundays."
+          ],
+          "correctIndex": 3,
+          "explanation": "\"He always goes hiking\" đúng — trạng từ tần suất đứng TRƯỚC động từ thường (goes). \"Always\" không đứng sau động từ hay đứng đầu câu bình thường.",
+          "hint": "Vị trí trạng từ tần suất: Subject + always/usually/often + VERB."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Rarely\" có nghĩa gì?",
+          "options": [
+            "Luôn luôn",
+            "Hiếm khi (chỉ vài lần, không thường xuyên)",
+            "Thường xuyên",
+            "Không bao giờ"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Rarely\" = hiếm khi, khoảng 20% thời gian. Không phải không bao giờ (never), nhưng rất ít. Ví dụ: \"She rarely goes birdwatching\" = Cô ấy hiếm khi đi quan sát chim.",
+          "hint": "Rarely nằm gần never trong thang tần suất — hiếm khi, không thường xuyên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào đúng để hỏi về tần suất?",
+          "options": [
+            "How often do you go birdwatching?",
+            "How many do you go birdwatching?",
+            "How much do you birdwatch?",
+            "How often you go birdwatching?"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"How often do you go birdwatching?\" đúng — dùng How often + do/does + subject + verb. Câu D sai vì thiếu \"do\" (không đảo ngữ đúng).",
+          "hint": "Cấu trúc: How often + DO/DOES + subject + verb?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thứ tự từ MẠNH NHẤT đến YẾU NHẤT của trạng từ tần suất là:",
+          "options": [
+            "never → rarely → sometimes → often → usually → always",
+            "always → often → usually → sometimes → rarely → never",
+            "always → usually → often → sometimes → rarely → never",
+            "sometimes → usually → always → often → rarely → never"
+          ],
+          "correctIndex": 2,
+          "explanation": "Thứ tự đúng từ mạnh nhất (100%) đến yếu nhất (0%): always → usually → often → sometimes → rarely → never. Đây là thang tần suất chuẩn.",
+          "hint": "Bắt đầu với always (luôn luôn) và kết thúc với never (không bao giờ). Điền các từ còn lại theo thứ tự."
+        },
+        {
+          "type": "true_false",
+          "text": "\"How often\" được dùng để hỏi về mức độ thường xuyên của một hoạt động.",
+          "correct": true,
+          "explanation": "ĐÚNG! \"How often\" dùng để hỏi về tần suất — bao lâu một lần, mấy lần một tuần. Ví dụ: \"How often do you exercise?\" → \"I always exercise.\" / \"I sometimes exercise.\"",
+          "hint": "How often = bao lâu một lần = tần suất."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền đúng: \"___ do you go skateboarding?\" (Từ dùng để hỏi tần suất)",
+          "answer": "How often",
+          "explanation": "\"How often do you go skateboarding?\" — \"How often\" là cụm từ dùng để hỏi về tần suất. Đây là câu hỏi đặc trưng của Unit 1 Family and Friends 4.",
+          "hint": "Hỏi tần suất = How ___ ?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-x005",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 36,
+      "title": "Ôn tập Unit 1: Free time — Sở thích, gerund và tần suất",
+      "learningObjective": "Ôn tập tổng hợp Unit 1: từ vựng sở thích, cấu trúc verb-ing sau love/enjoy/like/hate/dislike/don't mind, và cách dùng How often + trạng từ tần suất.",
+      "shortExplanation": "Unit 1 đã học 3 điều quan trọng: (1) tên 8 sở thích, (2) cấu trúc love/hate/enjoy + -ing, (3) How often + always/usually/often/sometimes/rarely/never.",
+      "storyContext": "Giải đấu Robot Sport sắp bắt đầu! Robot Trưởng kiểm tra kiến thức của từng thành viên. Johnny cần vượt qua bài kiểm tra tiếng Anh về sở thích để chính thức gia nhập đội. Cố lên Johnny!",
+      "content": "## Ôn tập Unit 1: Free time!\n\n### Phần 1 — Từ vựng sở thích:\n| Sở thích | Tiếng Việt |\n|---|---|\n| skateboarding | trượt ván |\n| cycling | đạp xe |\n| hiking | đi bộ đường dài |\n| photography | nhiếp ảnh |\n| gardening | làm vườn |\n| birdwatching | quan sát chim |\n| collecting | sưu tập |\n| doing puzzles | ghép hình / giải đố |\n\n### Phần 2 — Verb + -ing sau động từ ý kiến:\n| Yêu thích → | love | enjoy | like |\n|---|---|---|---|\n| Trung lập → | don't mind |\n| Không thích → | dislike | hate |\n\n**Tất cả đều + verb-ing:** She **loves cycling**. He **hates waiting**. We **don't mind helping**.\n\n### Phần 3 — How often + tần suất:\n**Câu hỏi:** How often **do/does** + subject + verb?\n**Trả lời:** always > usually > often > sometimes > rarely > never\n**Vị trí:** Subject + trạng từ tần suất + VERB chính\n\n### Tổng kết:\n> \"Johnny **loves** skate**boarding** and he **always** practises on weekends. **How often do** you practise your hobby?\"",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "\"Hiking\" nghĩa là gì?",
+          "options": [
+            "Đi bộ đường dài trong thiên nhiên",
+            "Đạp xe địa hình trên núi",
+            "Trượt ván tốc độ cao",
+            "Chụp ảnh trên đỉnh núi"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Hiking\" = đi bộ đường dài trong thiên nhiên (núi, rừng, đồng quê). Đây khác với cycling (đạp xe) và skateboarding (trượt ván).",
+          "hint": "Hike = đi bộ xa trong thiên nhiên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền đúng dạng: \"She loves ___ (cycle) along the river every morning.\"",
+          "options": [
+            "cycle",
+            "cycles",
+            "cycling",
+            "cycled"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau \"loves\" dùng verb-ing. cycle → bỏ -e + ing = cycling. \"She loves cycling along the river every morning.\"",
+          "hint": "loves + verb-ing. cycle → bỏ e + ing."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cụm từ nào có nghĩa TRUNG LẬP (không thích không ghét)?",
+          "options": [
+            "hate",
+            "love",
+            "dislike",
+            "don't mind"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Don't mind\" = trung lập — không ngại làm điều gì đó. Không mang nghĩa tích cực (love/enjoy/like) hay tiêu cực (hate/dislike).",
+          "hint": "Trung lập = ở giữa. Don't mind = không ngại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"How often do you go birdwatching?\" — Câu trả lời đúng:",
+          "options": [
+            "I go birdwatching yes.",
+            "I sometimes go birdwatching in the park.",
+            "Birdwatching sometimes I do go.",
+            "How often yes I go."
+          ],
+          "correctIndex": 1,
+          "explanation": "\"I sometimes go birdwatching in the park\" đúng — dùng trạng từ tần suất (sometimes) + cấu trúc câu thông thường để trả lời How often.",
+          "hint": "Trả lời How often: Subject + frequency adverb + verb (+ details)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi đúng về tần suất:",
+          "options": [
+            "How often does he go skateboarding?",
+            "How many does he go skateboarding?",
+            "How much does he go skateboarding?",
+            "How often he does go skateboarding?"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"How often does he go skateboarding?\" đúng — dùng How often + does (ngôi thứ ba) + subject + base verb. Câu D sai vì đảo ngữ không đúng.",
+          "hint": "How often + does/do + subject + base verb?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào SAI ngữ pháp?",
+          "options": [
+            "I enjoy doing puzzles.",
+            "She hates losing games.",
+            "We like to doing photography.",
+            "He loves collecting robot figures."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"We like to doing photography\" SAI — sau \"like\" dùng verb-ing trực tiếp, không dùng \"to + -ing\". Câu đúng: \"We like doing photography.\"",
+          "hint": "Sau like/love/enjoy/hate: verb-ing. Không dùng \"to + -ing\" cùng một lúc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trạng từ tần suất nào nghĩa là \"thường xuyên\" (~60% thời gian)?",
+          "options": [
+            "always",
+            "never",
+            "rarely",
+            "often"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Often\" = thường xuyên (~60%). Thang: always (100%) > usually (80%) > often (60%) > sometimes (40%) > rarely (20%) > never (0%).",
+          "hint": "Often nằm ở giữa thang — thường xuyên nhưng không phải luôn luôn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Birdwatching\" là?",
+          "options": [
+            "Nuôi chim cảnh trong lồng ở nhà",
+            "Quan sát và nhận biết các loài chim trong tự nhiên",
+            "Chụp ảnh các loài chim bay",
+            "Nghe âm thanh của chim bằng tai nghe robot"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Birdwatching\" = quan sát chim trong tự nhiên — bạn ra ngoài, nhìn và nhận biết các loài chim. \"Bird\" = chim, \"watching\" = quan sát.",
+          "hint": "Bird = chim. Watching = quan sát. Birdwatching = quan sát chim."
+        },
+        {
+          "type": "true_false",
+          "text": "Sau tất cả các động từ love, enjoy, like, hate, dislike, don't mind — ta đều dùng dạng -ing của động từ.",
+          "correct": true,
+          "explanation": "ĐÚNG! Tất cả 6 động từ ý kiến (love, enjoy, like, don't mind, dislike, hate) đều theo sau bởi verb-ing (danh động từ). Đây là quy tắc nhất quán, không có ngoại lệ.",
+          "hint": "Tất cả 6 động từ ý kiến → verb-ing. Không có ngoại lệ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền đúng dạng: \"Johnny ___ (love) collecting robot figures and he ___ (always) practises on weekends.\" (Điền từ đầu tiên)",
+          "answer": "loves",
+          "explanation": "\"Johnny loves\" — Johnny = he (ngôi thứ ba số ít) → love + s = loves. Câu đầy đủ: \"Johnny loves collecting robot figures and he always practises on weekends.\"",
+          "hint": "Johnny = he → love + s = loves (quy tắc ngôi thứ ba số ít)."
+        }
+      ]
+    }
+  ]
+}

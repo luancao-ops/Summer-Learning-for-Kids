@@ -1,0 +1,1977 @@
+{
+  "version": 1,
+  "batchId": "batch-girl-g5-en-09",
+  "sourceReference": "Family and Friends 5 (Oxford University Press) — Units 6-8",
+  "checks": {
+    "answerDistribution": "girl-g5-en-wri-x002: Q1=C Q2=A Q3=D Q4=B Q5=C Q6=A Q7=D Q8=B — A×2 B×2 C×2 D×2, no consecutive repeats | girl-g5-en-wri-x003: Q1=D Q2=B Q3=A Q4=C Q5=B Q6=D Q7=A Q8=C — A×2 B×2 C×2 D×2, no consecutive repeats | girl-g5-en-lis-x001: Q1=B Q2=D Q3=A Q4=C Q5=B Q6=D Q7=A Q8=C — A×2 B×2 C×2 D×2, no consecutive repeats | girl-g5-en-lis-x002: Q1=C Q2=A Q3=D Q4=B Q5=C Q6=A Q7=D Q8=B — A×2 B×2 C×2 D×2, no consecutive repeats | girl-g5-en-spe-x001: Q1=A Q2=C Q3=B Q4=D Q5=A Q6=C Q7=B Q8=D — A×2 B×2 C×2 D×2, no consecutive repeats",
+    "noConsecutiveSameAnswer": true,
+    "languageLevel": "CEFR A2 Grade 5",
+    "contentOriginal": true
+  },
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-wri-x002",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 77,
+      "title": "Câu điều kiện loại 1 với if",
+      "learningObjective": "Sau bài này bé sẽ viết được câu điều kiện loại 1 với If + hiện tại đơn, will + động từ nguyên mẫu và tránh lỗi dùng will ở cả hai mệnh đề.",
+      "shortExplanation": "First conditional dùng để nói: nếu điều này xảy ra, thì kết quả có thể xảy ra trong tương lai.",
+      "storyContext": "Mia đang viết poster cho câu lạc bộ môi trường và cần các câu dự đoán rõ ràng, đúng ngữ pháp.",
+      "content": "# First Conditional ✏️\n\n## Quy tắc ngữ pháp\n\nTa dùng **first conditional** để nói về điều có thể xảy ra trong tương lai nếu một điều kiện được đáp ứng. Công thức chuẩn là **If + simple present, will + verb**.\n\n---\n\n## Công thức\n\n| Dạng câu | Cấu trúc | Ví dụ |\n|---|---|---|\n| Khẳng định | If + subject + verb, subject + will + verb | \"If it rains, we will stay inside.\" |\n| Phủ định kết quả | If + subject + verb, subject + won't + verb | \"If you hurry, you won't miss the bus.\" |\n| Đảo vị trí | Subject + will + verb if + subject + verb | \"We will plant trees if it is sunny.\" |\n\n---\n\n## Đúng ✅ và Sai ❌\n\n| Câu | Nhận xét |\n|---|---|\n| ✅ \"If she studies, she will pass.\" | Đúng vì mệnh đề sau if dùng hiện tại đơn. |\n| ❌ \"If she will study, she will pass.\" | Sai vì không dùng **will** ngay sau if. |\n| ✅ \"If we save water, we will help the planet.\" | Đúng vì kết quả ở mệnh đề will. |\n| ❌ \"If we saved water, we will help the planet.\" | Sai vì động từ sau if không ở hiện tại đơn. |\n| ✅ \"We will stay home if it rains.\" | Đúng dù đổi vị trí hai mệnh đề. |\n| ❌ \"We will stay home if it will rain.\" | Sai vì sau if vẫn không dùng will. |\n\n---\n\n## Lỗi thường gặp\n\n> ❌ Đừng viết: \"If she will come, I will smile.\"\n> ✅ Hãy viết: \"If she comes, I will smile.\"\n> Lý do: mệnh đề if dùng hiện tại đơn, không dùng will.\n\n> ❌ Đừng viết: \"If the weather is nice, we going to the park.\"\n> ✅ Hãy viết: \"If the weather is nice, we will go to the park.\"\n> Lý do: mệnh đề kết quả cần có will + động từ nguyên mẫu.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng theo first conditional?",
+          "options": [
+            "If it will rain, we will stay inside.",
+            "If it rains, we stay inside will.",
+            "If it rains, we will stay inside.",
+            "If it raining, we will stay inside."
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau if dùng hiện tại đơn: rains. Mệnh đề kết quả dùng will stay.",
+          "hint": "Kiểm tra xem will đứng ở mệnh đề nào."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lỗi trong câu 'If she will come, I will smile' là gì?",
+          "options": [
+            "Dùng will sau if",
+            "Thiếu chủ ngữ",
+            "Sai dấu phẩy",
+            "Thiếu mạo từ the"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sau if không dùng will, phải là 'If she comes...'.",
+          "hint": "Hãy nhìn ngay sau từ if."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng nếu nói 'Nếu em học, em sẽ nhớ bài'?",
+          "options": [
+            "If you will study, you will remember the lesson.",
+            "If you studied, you will remember the lesson.",
+            "If you study, you remembering the lesson.",
+            "If you study, you will remember the lesson."
+          ],
+          "correctIndex": 3,
+          "explanation": "Study là hiện tại đơn trong mệnh đề if, will remember là kết quả tương lai.",
+          "hint": "Cần đúng cả hai phần của công thức."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng khi đổi vị trí hai mệnh đề?",
+          "options": [
+            "We plant trees if it will be sunny.",
+            "We will plant trees if it is sunny.",
+            "We will plant trees if it will sunny.",
+            "We will planted trees if it is sunny."
+          ],
+          "correctIndex": 1,
+          "explanation": "Dù mệnh đề kết quả đứng trước, phần sau if vẫn là hiện tại đơn: it is sunny.",
+          "hint": "Đừng thêm will vào mệnh đề if."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chọn câu viết đúng về việc tiết kiệm điện:",
+          "options": [
+            "If you will turn off the fan, you save electricity.",
+            "If you turn off the fan, you will saving electricity.",
+            "If you turn off the fan, you will save electricity.",
+            "If you turned off the fan, you will save electricity."
+          ],
+          "correctIndex": 2,
+          "explanation": "Cấu trúc đúng là If + turn off, will save.",
+          "hint": "Một vế hiện tại đơn, một vế will + verb."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cụm nào phải đứng ở mệnh đề kết quả của first conditional?",
+          "options": [
+            "will + động từ nguyên mẫu",
+            "động từ thêm -ing",
+            "động từ quá khứ",
+            "has + past participle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mệnh đề kết quả dùng will + verb để nói điều sẽ xảy ra.",
+          "hint": "Nhìn bảng công thức ở giữa bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là ví dụ đúng của mệnh đề if?",
+          "options": [
+            "If the bus will be late",
+            "If the bus being late",
+            "If the bus was late yesterday",
+            "If the bus is late"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mệnh đề if trong first conditional dùng hiện tại đơn: is late.",
+          "hint": "Chỉ xét phần điều kiện, chưa cần phần kết quả."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu muốn nói 'Nếu em dậy sớm, em sẽ không lỡ xe buýt', câu nào đúng?",
+          "options": [
+            "If you will get up early, you won't miss the bus.",
+            "If you get up early, you won't miss the bus.",
+            "If you got up early, you won't miss the bus.",
+            "If you get up early, you won't misses the bus."
+          ],
+          "correctIndex": 1,
+          "explanation": "Get up là hiện tại đơn, won't miss là kết quả phủ định đúng.",
+          "hint": "Nhớ rằng won't cũng đi với động từ nguyên mẫu."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong first conditional, mệnh đề sau if không dùng will.",
+          "correct": true,
+          "explanation": "Đúng. Sau if ta dùng hiện tại đơn, còn will nằm ở mệnh đề kết quả.",
+          "hint": "Đây là lỗi phổ biến nhất của cấu trúc này."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: If she comes on time, we will _____ the game together.",
+          "answer": "start",
+          "explanation": "Sau will phải dùng start ở dạng nguyên mẫu.",
+          "hint": "Đây là động từ nghĩa là 'bắt đầu'."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-wri-x002-q1",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng theo first conditional?",
+          "options": [
+            {
+              "id": "A",
+              "text": "If it will rain, we will stay inside."
+            },
+            {
+              "id": "B",
+              "text": "If it rains, we stay inside will."
+            },
+            {
+              "id": "C",
+              "text": "If it rains, we will stay inside."
+            },
+            {
+              "id": "D",
+              "text": "If it raining, we will stay inside."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Sau if dùng hiện tại đơn: rains. Mệnh đề kết quả dùng will stay.",
+          "hint": "Kiểm tra xem will đứng ở mệnh đề nào."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q2",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Lỗi trong câu 'If she will come, I will smile' là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dùng will sau if"
+            },
+            {
+              "id": "B",
+              "text": "Thiếu chủ ngữ"
+            },
+            {
+              "id": "C",
+              "text": "Sai dấu phẩy"
+            },
+            {
+              "id": "D",
+              "text": "Thiếu mạo từ the"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Sau if không dùng will, phải là 'If she comes...'.",
+          "hint": "Hãy nhìn ngay sau từ if."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q3",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng nếu nói 'Nếu em học, em sẽ nhớ bài'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "If you will study, you will remember the lesson."
+            },
+            {
+              "id": "B",
+              "text": "If you studied, you will remember the lesson."
+            },
+            {
+              "id": "C",
+              "text": "If you study, you remembering the lesson."
+            },
+            {
+              "id": "D",
+              "text": "If you study, you will remember the lesson."
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Study là hiện tại đơn trong mệnh đề if, will remember là kết quả tương lai.",
+          "hint": "Cần đúng cả hai phần của công thức."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q4",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng khi đổi vị trí hai mệnh đề?",
+          "options": [
+            {
+              "id": "A",
+              "text": "We plant trees if it will be sunny."
+            },
+            {
+              "id": "B",
+              "text": "We will plant trees if it is sunny."
+            },
+            {
+              "id": "C",
+              "text": "We will plant trees if it will sunny."
+            },
+            {
+              "id": "D",
+              "text": "We will planted trees if it is sunny."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Dù mệnh đề kết quả đứng trước, phần sau if vẫn là hiện tại đơn: it is sunny.",
+          "hint": "Đừng thêm will vào mệnh đề if."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q5",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Chọn câu viết đúng về việc tiết kiệm điện:",
+          "options": [
+            {
+              "id": "A",
+              "text": "If you will turn off the fan, you save electricity."
+            },
+            {
+              "id": "B",
+              "text": "If you turn off the fan, you will saving electricity."
+            },
+            {
+              "id": "C",
+              "text": "If you turn off the fan, you will save electricity."
+            },
+            {
+              "id": "D",
+              "text": "If you turned off the fan, you will save electricity."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Cấu trúc đúng là If + turn off, will save.",
+          "hint": "Một vế hiện tại đơn, một vế will + verb."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q6",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Cụm nào phải đứng ở mệnh đề kết quả của first conditional?",
+          "options": [
+            {
+              "id": "A",
+              "text": "will + động từ nguyên mẫu"
+            },
+            {
+              "id": "B",
+              "text": "động từ thêm -ing"
+            },
+            {
+              "id": "C",
+              "text": "động từ quá khứ"
+            },
+            {
+              "id": "D",
+              "text": "has + past participle"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Mệnh đề kết quả dùng will + verb để nói điều sẽ xảy ra.",
+          "hint": "Nhìn bảng công thức ở giữa bài."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q7",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Câu nào là ví dụ đúng của mệnh đề if?",
+          "options": [
+            {
+              "id": "A",
+              "text": "If the bus will be late"
+            },
+            {
+              "id": "B",
+              "text": "If the bus being late"
+            },
+            {
+              "id": "C",
+              "text": "If the bus was late yesterday"
+            },
+            {
+              "id": "D",
+              "text": "If the bus is late"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Mệnh đề if trong first conditional dùng hiện tại đơn: is late.",
+          "hint": "Chỉ xét phần điều kiện, chưa cần phần kết quả."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q8",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Nếu muốn nói 'Nếu em dậy sớm, em sẽ không lỡ xe buýt', câu nào đúng?",
+          "options": [
+            {
+              "id": "A",
+              "text": "If you will get up early, you won't miss the bus."
+            },
+            {
+              "id": "B",
+              "text": "If you get up early, you won't miss the bus."
+            },
+            {
+              "id": "C",
+              "text": "If you got up early, you won't miss the bus."
+            },
+            {
+              "id": "D",
+              "text": "If you get up early, you won't misses the bus."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Get up là hiện tại đơn, won't miss là kết quả phủ định đúng.",
+          "hint": "Nhớ rằng won't cũng đi với động từ nguyên mẫu."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q9",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Trong first conditional, mệnh đề sau if không dùng will.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Sau if ta dùng hiện tại đơn, còn will nằm ở mệnh đề kết quả.",
+          "hint": "Đây là lỗi phổ biến nhất của cấu trúc này."
+        },
+        {
+          "id": "girl-g5-en-wri-x002-q10",
+          "lessonId": "girl-g5-en-wri-x002",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: If she comes on time, we will _____ the game together.",
+          "options": [],
+          "correctAnswer": "start",
+          "explanation": "Sau will phải dùng start ở dạng nguyên mẫu.",
+          "hint": "Đây là động từ nghĩa là 'bắt đầu'."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-wri-x003",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 78,
+      "title": "Past simple với động từ đều và bất quy tắc",
+      "learningObjective": "Sau bài này bé sẽ viết đúng past simple với cả động từ thêm -ed và động từ bất quy tắc như go, eat, see.",
+      "shortExplanation": "Một số động từ chỉ cần thêm -ed, nhưng có những động từ phải học dạng đặc biệt trong quá khứ.",
+      "storyContext": "Mia đang viết nhật ký cuối tuần và phải chọn đúng dạng quá khứ cho từng việc đã làm.",
+      "content": "# Past Simple Review ✏️\n\n## Quy tắc ngữ pháp\n\nPast simple dùng để kể việc đã xảy ra và kết thúc trong quá khứ. Với động từ đều, ta thường thêm **-ed**; với động từ bất quy tắc, ta phải nhớ dạng riêng như **go → went**, **eat → ate**, **see → saw**.\n\n---\n\n## Công thức\n\n| Dạng câu | Cấu trúc | Ví dụ |\n|---|---|---|\n| Khẳng định | Subject + past simple verb | \"We visited the park.\" |\n| Phủ định | Subject + did not + base verb | \"We did not visit the park.\" |\n| Câu hỏi | Did + subject + base verb? | \"Did you see the show?\" |\n\n---\n\n## Đúng ✅ và Sai ❌\n\n| Câu | Nhận xét |\n|---|---|\n| ✅ \"Yesterday, we watched a film.\" | Đúng vì watch là động từ đều → watched. |\n| ❌ \"Yesterday, we watch a film.\" | Sai vì thiếu dạng quá khứ. |\n| ✅ \"She ate breakfast early.\" | Đúng vì eat → ate là bất quy tắc. |\n| ❌ \"She eated breakfast early.\" | Sai vì không thêm -ed vào eat. |\n| ✅ \"Did you see the museum?\" | Đúng vì sau did dùng động từ nguyên mẫu. |\n| ❌ \"Did you saw the museum?\" | Sai vì sau did không dùng saw. |\n\n---\n\n## Lỗi thường gặp\n\n> ❌ Đừng viết: \"We goed home.\"\n> ✅ Hãy viết: \"We went home.\"\n> Lý do: go là động từ bất quy tắc.\n\n> ❌ Đừng viết: \"Did she ate lunch?\"\n> ✅ Hãy viết: \"Did she eat lunch?\"\n> Lý do: sau did quay về động từ nguyên mẫu.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng ở thì quá khứ đơn?",
+          "options": [
+            "We visit our aunt yesterday.",
+            "We visiting our aunt yesterday.",
+            "We did visited our aunt yesterday.",
+            "We visited our aunt yesterday."
+          ],
+          "correctIndex": 3,
+          "explanation": "Visited là past simple đúng của visit.",
+          "hint": "Câu kể quá khứ cần động từ quá khứ, không thêm did nếu đã có past form."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của 'go' là gì?",
+          "options": [
+            "goed",
+            "went",
+            "gone",
+            "goes"
+          ],
+          "correctIndex": 1,
+          "explanation": "Go là động từ bất quy tắc nên dạng quá khứ là went.",
+          "hint": "Đây là một trong ba động từ đặc biệt được nhắc rõ trong bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng với động từ 'eat'?",
+          "options": [
+            "She ate lunch at noon.",
+            "She eated lunch at noon.",
+            "She eat lunch at noon yesterday.",
+            "She did ate lunch at noon."
+          ],
+          "correctIndex": 0,
+          "explanation": "Eat là bất quy tắc, quá khứ đúng là ate.",
+          "hint": "Đừng thêm -ed vào eat."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào đúng ở past simple?",
+          "options": [
+            "Did you saw the new poster?",
+            "Did you seen the new poster?",
+            "Did you see the new poster?",
+            "You did see the new poster?"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sau did dùng động từ nguyên mẫu: see.",
+          "hint": "Tìm câu có did + subject + base verb."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Động từ nào là dạng quá khứ đúng của 'see'?",
+          "options": [
+            "seed",
+            "saw",
+            "seen",
+            "seeed"
+          ],
+          "correctIndex": 1,
+          "explanation": "See ở past simple là saw. Seen là past participle, không dùng ở đây.",
+          "hint": "Bài đang ôn past simple, không phải present perfect."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với động từ đều thêm -ed?",
+          "options": [
+            "They play football after school yesterday.",
+            "They plaied football after school.",
+            "They did played football after school.",
+            "They played football after school."
+          ],
+          "correctIndex": 3,
+          "explanation": "Play là động từ đều, quá khứ đơn là played.",
+          "hint": "Chọn câu có dạng thêm -ed đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lỗi trong câu 'Did she ate breakfast?' là gì?",
+          "options": [
+            "Sau did phải dùng động từ nguyên mẫu",
+            "Thiếu chủ ngữ she",
+            "Thiếu từ yesterday",
+            "Dùng sai dấu hỏi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sau did không dùng ate mà phải quay về eat.",
+          "hint": "Hãy xem động từ đứng sau did."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng về chuyến đi hôm qua?",
+          "options": [
+            "We goed to the museum yesterday.",
+            "We go to the museum yesterday.",
+            "We went to the museum yesterday.",
+            "We did went to the museum yesterday."
+          ],
+          "correctIndex": 2,
+          "explanation": "Went là dạng quá khứ đúng của go.",
+          "hint": "Đừng vừa dùng did vừa dùng past form."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong câu hỏi với did, động từ phía sau trở về dạng nguyên mẫu.",
+          "correct": true,
+          "explanation": "Đúng. Vì did đã mang dấu hiệu quá khứ nên động từ sau đó dùng dạng gốc.",
+          "hint": "Nhìn lại ví dụ 'Did you see...?' trong bài."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Last night, we _____ a funny film on TV. (see)",
+          "answer": "saw",
+          "explanation": "See ở past simple là saw, nên câu đúng là 'we saw a funny film'.",
+          "hint": "Đây là dạng quá khứ bất quy tắc của see."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-wri-x003-q1",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng ở thì quá khứ đơn?",
+          "options": [
+            {
+              "id": "A",
+              "text": "We visit our aunt yesterday."
+            },
+            {
+              "id": "B",
+              "text": "We visiting our aunt yesterday."
+            },
+            {
+              "id": "C",
+              "text": "We did visited our aunt yesterday."
+            },
+            {
+              "id": "D",
+              "text": "We visited our aunt yesterday."
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Visited là past simple đúng của visit.",
+          "hint": "Câu kể quá khứ cần động từ quá khứ, không thêm did nếu đã có past form."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q2",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của 'go' là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "goed"
+            },
+            {
+              "id": "B",
+              "text": "went"
+            },
+            {
+              "id": "C",
+              "text": "gone"
+            },
+            {
+              "id": "D",
+              "text": "goes"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Go là động từ bất quy tắc nên dạng quá khứ là went.",
+          "hint": "Đây là một trong ba động từ đặc biệt được nhắc rõ trong bài."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q3",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng với động từ 'eat'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She ate lunch at noon."
+            },
+            {
+              "id": "B",
+              "text": "She eated lunch at noon."
+            },
+            {
+              "id": "C",
+              "text": "She eat lunch at noon yesterday."
+            },
+            {
+              "id": "D",
+              "text": "She did ate lunch at noon."
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Eat là bất quy tắc, quá khứ đúng là ate.",
+          "hint": "Đừng thêm -ed vào eat."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q4",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Câu hỏi nào đúng ở past simple?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Did you saw the new poster?"
+            },
+            {
+              "id": "B",
+              "text": "Did you seen the new poster?"
+            },
+            {
+              "id": "C",
+              "text": "Did you see the new poster?"
+            },
+            {
+              "id": "D",
+              "text": "You did see the new poster?"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Sau did dùng động từ nguyên mẫu: see.",
+          "hint": "Tìm câu có did + subject + base verb."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q5",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Động từ nào là dạng quá khứ đúng của 'see'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "seed"
+            },
+            {
+              "id": "B",
+              "text": "saw"
+            },
+            {
+              "id": "C",
+              "text": "seen"
+            },
+            {
+              "id": "D",
+              "text": "seeed"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "See ở past simple là saw. Seen là past participle, không dùng ở đây.",
+          "hint": "Bài đang ôn past simple, không phải present perfect."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q6",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với động từ đều thêm -ed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They play football after school yesterday."
+            },
+            {
+              "id": "B",
+              "text": "They plaied football after school."
+            },
+            {
+              "id": "C",
+              "text": "They did played football after school."
+            },
+            {
+              "id": "D",
+              "text": "They played football after school."
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Play là động từ đều, quá khứ đơn là played.",
+          "hint": "Chọn câu có dạng thêm -ed đúng."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q7",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Lỗi trong câu 'Did she ate breakfast?' là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sau did phải dùng động từ nguyên mẫu"
+            },
+            {
+              "id": "B",
+              "text": "Thiếu chủ ngữ she"
+            },
+            {
+              "id": "C",
+              "text": "Thiếu từ yesterday"
+            },
+            {
+              "id": "D",
+              "text": "Dùng sai dấu hỏi"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Sau did không dùng ate mà phải quay về eat.",
+          "hint": "Hãy xem động từ đứng sau did."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q8",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng về chuyến đi hôm qua?",
+          "options": [
+            {
+              "id": "A",
+              "text": "We goed to the museum yesterday."
+            },
+            {
+              "id": "B",
+              "text": "We go to the museum yesterday."
+            },
+            {
+              "id": "C",
+              "text": "We went to the museum yesterday."
+            },
+            {
+              "id": "D",
+              "text": "We did went to the museum yesterday."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Went là dạng quá khứ đúng của go.",
+          "hint": "Đừng vừa dùng did vừa dùng past form."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q9",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Trong câu hỏi với did, động từ phía sau trở về dạng nguyên mẫu.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Vì did đã mang dấu hiệu quá khứ nên động từ sau đó dùng dạng gốc.",
+          "hint": "Nhìn lại ví dụ 'Did you see...?' trong bài."
+        },
+        {
+          "id": "girl-g5-en-wri-x003-q10",
+          "lessonId": "girl-g5-en-wri-x003",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: Last night, we _____ a funny film on TV. (see)",
+          "options": [],
+          "correctAnswer": "saw",
+          "explanation": "See ở past simple là saw, nên câu đúng là 'we saw a funny film'.",
+          "hint": "Đây là dạng quá khứ bất quy tắc của see."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-lis-x001",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 79,
+      "title": "Đoạn hội thoại ở sân bay",
+      "learningObjective": "Sau bài này bé sẽ hiểu được đoạn hội thoại ngắn ở sân bay, nhận ra từ vựng quen thuộc về chuyến bay và trả lời câu hỏi theo từng lời thoại.",
+      "shortExplanation": "Bé hãy đọc kỹ từng câu trong hội thoại vì nhiều câu hỏi sẽ hỏi trực tiếp nhân vật đã nói gì.",
+      "storyContext": "Mia và bố đang chuẩn bị lên máy bay đi nghỉ hè.",
+      "content": "# At the Airport 🎧\n\n> 🎧 Nghe đoạn hội thoại sau.\n\n---\n\n## Đoạn hội thoại (Transcript)\n\n[Dad]: \"Mia, please check your boarding pass. Our flight is at 8:30.\"\n[Mia]: \"I have it here, Dad. We are at Gate 6, right?\"\n[Dad]: \"Yes. Put your suitcase next to the chair and keep your backpack with you.\"\n[Mia]: \"Okay. Can I buy a bottle of water before we board?\"\n[Dad]: \"Yes, but come back quickly. They will call our flight in ten minutes.\"\n[Mia]: \"I will be fast. I don't want to miss the plane!\"\n\n---\n\n## Từ mới (New Words)\n\n| English | Vietnamese | Heard in dialogue |\n|---|---|---|\n| boarding pass | thẻ lên máy bay | \"check your boarding pass\" |\n| flight | chuyến bay | \"Our flight is at 8:30.\" |\n| gate | cổng ra máy bay | \"We are at Gate 6\" |\n| suitcase | va-li | \"Put your suitcase next to the chair\" |\n| board | lên máy bay | \"before we board\" |\n| miss | lỡ | \"I don't want to miss the plane\" |\n\n---\n\n## Ghi nhớ sau khi nghe\n\n- Mia và bố đang chờ gần Gate 6.\n- Bố nhắc Mia giữ ba lô bên mình.\n- Mia muốn mua nước nhưng phải quay lại nhanh.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong lời thoại đầu tiên, bố nói chuyến bay của họ lúc mấy giờ?",
+          "options": [
+            "7:30",
+            "8:30",
+            "8:00",
+            "9:30"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dad nói rõ: 'Our flight is at 8:30.'",
+          "hint": "Nhìn vào dòng đầu tiên của bố."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mia hỏi cả hai đang ở cổng số mấy?",
+          "options": [
+            "Gate 4",
+            "Gate 5",
+            "Gate 8",
+            "Gate 6"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mia nói: 'We are at Gate 6, right?'",
+          "hint": "Đọc dòng thứ hai của Mia."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bố bảo Mia đặt va-li ở đâu?",
+          "options": [
+            "Bên cạnh cái ghế",
+            "Dưới bàn",
+            "Gần cửa sổ",
+            "Trong quầy hàng"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dad nói 'Put your suitcase next to the chair'.",
+          "hint": "Tìm câu có từ suitcase."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mia muốn mua gì trước khi lên máy bay?",
+          "options": [
+            "Một chiếc bản đồ",
+            "Một chiếc áo khoác",
+            "Một chai nước",
+            "Một hộp bánh"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mia hỏi: 'Can I buy a bottle of water before we board?'",
+          "hint": "Đọc dòng thứ tư của Mia."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bố nói họ sẽ được gọi chuyến bay sau bao lâu?",
+          "options": [
+            "Hai phút nữa",
+            "Mười phút nữa",
+            "Ba mươi phút nữa",
+            "Một giờ nữa"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dad nói: 'They will call our flight in ten minutes.'",
+          "hint": "Tìm cụm thời gian ở lời thoại thứ năm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu cuối, Mia lo điều gì?",
+          "options": [
+            "Bị mất ba lô",
+            "Bị khát nước",
+            "Bị quên boarding pass",
+            "Bị lỡ máy bay"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mia nói: 'I don't want to miss the plane!'",
+          "hint": "Xem dòng cuối Mia nói gì."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'board' trong đoạn hội thoại nghĩa là gì?",
+          "options": [
+            "Lên máy bay",
+            "Mua vé",
+            "Xách hành lý",
+            "Rời sân bay"
+          ],
+          "correctIndex": 0,
+          "explanation": "Board ở đây nghĩa là bước lên máy bay để bắt đầu chuyến đi.",
+          "hint": "Đó là việc xảy ra ngay trước khi cất cánh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'boarding pass' nghĩa là gì?",
+          "options": [
+            "Bảng giờ bay",
+            "Giấy khai sức khỏe",
+            "Thẻ lên máy bay",
+            "Cổng kiểm tra an ninh"
+          ],
+          "correctIndex": 2,
+          "explanation": "Boarding pass là thẻ cho phép hành khách lên máy bay.",
+          "hint": "Đây là thứ bố bảo Mia kiểm tra ngay từ đầu."
+        },
+        {
+          "type": "true_false",
+          "text": "Bố bảo Mia để ba lô trên ghế và đi mua nước thật chậm.",
+          "correct": false,
+          "explanation": "Sai vì bố bảo Mia giữ ba lô bên mình và quay lại nhanh.",
+          "hint": "So sánh lời dặn về backpack và about coming back."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống theo lời thoại: 'I don't want to miss the _____!'",
+          "answer": "plane",
+          "explanation": "Mia nói bạn ấy không muốn lỡ máy bay: miss the plane.",
+          "hint": "Đây là phương tiện mà cả hai sắp đi."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-lis-x001-q1",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Trong lời thoại đầu tiên, bố nói chuyến bay của họ lúc mấy giờ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "7:30"
+            },
+            {
+              "id": "B",
+              "text": "8:30"
+            },
+            {
+              "id": "C",
+              "text": "8:00"
+            },
+            {
+              "id": "D",
+              "text": "9:30"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Dad nói rõ: 'Our flight is at 8:30.'",
+          "hint": "Nhìn vào dòng đầu tiên của bố."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q2",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Mia hỏi cả hai đang ở cổng số mấy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Gate 4"
+            },
+            {
+              "id": "B",
+              "text": "Gate 5"
+            },
+            {
+              "id": "C",
+              "text": "Gate 8"
+            },
+            {
+              "id": "D",
+              "text": "Gate 6"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Mia nói: 'We are at Gate 6, right?'",
+          "hint": "Đọc dòng thứ hai của Mia."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q3",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Bố bảo Mia đặt va-li ở đâu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bên cạnh cái ghế"
+            },
+            {
+              "id": "B",
+              "text": "Dưới bàn"
+            },
+            {
+              "id": "C",
+              "text": "Gần cửa sổ"
+            },
+            {
+              "id": "D",
+              "text": "Trong quầy hàng"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Dad nói 'Put your suitcase next to the chair'.",
+          "hint": "Tìm câu có từ suitcase."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q4",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Mia muốn mua gì trước khi lên máy bay?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Một chiếc bản đồ"
+            },
+            {
+              "id": "B",
+              "text": "Một chiếc áo khoác"
+            },
+            {
+              "id": "C",
+              "text": "Một chai nước"
+            },
+            {
+              "id": "D",
+              "text": "Một hộp bánh"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Mia hỏi: 'Can I buy a bottle of water before we board?'",
+          "hint": "Đọc dòng thứ tư của Mia."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q5",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Bố nói họ sẽ được gọi chuyến bay sau bao lâu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hai phút nữa"
+            },
+            {
+              "id": "B",
+              "text": "Mười phút nữa"
+            },
+            {
+              "id": "C",
+              "text": "Ba mươi phút nữa"
+            },
+            {
+              "id": "D",
+              "text": "Một giờ nữa"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Dad nói: 'They will call our flight in ten minutes.'",
+          "hint": "Tìm cụm thời gian ở lời thoại thứ năm."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q6",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Trong câu cuối, Mia lo điều gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bị mất ba lô"
+            },
+            {
+              "id": "B",
+              "text": "Bị khát nước"
+            },
+            {
+              "id": "C",
+              "text": "Bị quên boarding pass"
+            },
+            {
+              "id": "D",
+              "text": "Bị lỡ máy bay"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Mia nói: 'I don't want to miss the plane!'",
+          "hint": "Xem dòng cuối Mia nói gì."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q7",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Từ 'board' trong đoạn hội thoại nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lên máy bay"
+            },
+            {
+              "id": "B",
+              "text": "Mua vé"
+            },
+            {
+              "id": "C",
+              "text": "Xách hành lý"
+            },
+            {
+              "id": "D",
+              "text": "Rời sân bay"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Board ở đây nghĩa là bước lên máy bay để bắt đầu chuyến đi.",
+          "hint": "Đó là việc xảy ra ngay trước khi cất cánh."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q8",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Từ 'boarding pass' nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bảng giờ bay"
+            },
+            {
+              "id": "B",
+              "text": "Giấy khai sức khỏe"
+            },
+            {
+              "id": "C",
+              "text": "Thẻ lên máy bay"
+            },
+            {
+              "id": "D",
+              "text": "Cổng kiểm tra an ninh"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Boarding pass là thẻ cho phép hành khách lên máy bay.",
+          "hint": "Đây là thứ bố bảo Mia kiểm tra ngay từ đầu."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q9",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Bố bảo Mia để ba lô trên ghế và đi mua nước thật chậm.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì bố bảo Mia giữ ba lô bên mình và quay lại nhanh.",
+          "hint": "So sánh lời dặn về backpack và about coming back."
+        },
+        {
+          "id": "girl-g5-en-lis-x001-q10",
+          "lessonId": "girl-g5-en-lis-x001",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống theo lời thoại: 'I don't want to miss the _____!'",
+          "options": [],
+          "correctAnswer": "plane",
+          "explanation": "Mia nói bạn ấy không muốn lỡ máy bay: miss the plane.",
+          "hint": "Đây là phương tiện mà cả hai sắp đi."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-lis-x002",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 80,
+      "title": "Lời khuyên của bác sĩ",
+      "learningObjective": "Sau bài này bé sẽ hiểu đoạn hội thoại giữa bác sĩ và bệnh nhân, nhận ra từ vựng về đau ốm và lời khuyên đơn giản bằng tiếng Anh.",
+      "shortExplanation": "Bé hãy đọc kỹ từng lời của bác sĩ để biết bệnh nhân nên và không nên làm gì.",
+      "storyContext": "Linh đến phòng khám sau khi bị đau họng và ho.",
+      "content": "# Doctor's Advice 🎧\n\n> 🎧 Nghe đoạn hội thoại sau.\n\n---\n\n## Đoạn hội thoại (Transcript)\n\n[Doctor]: \"Hello, Linh. What is the matter today?\"\n[Linh]: \"My throat hurts, and I have a cough.\"\n[Doctor]: \"You should drink warm water and rest after school.\"\n[Linh]: \"Can I eat ice cream tonight?\"\n[Doctor]: \"No, you shouldn't. You should take this medicine after dinner.\"\n[Linh]: \"Okay, doctor. I will go to bed early.\"\n\n---\n\n## Từ mới (New Words)\n\n| English | Vietnamese | Heard in dialogue |\n|---|---|---|\n| matter | vấn đề, bị sao | \"What is the matter today?\" |\n| throat | cổ họng | \"My throat hurts\" |\n| cough | cơn ho | \"I have a cough\" |\n| warm water | nước ấm | \"drink warm water\" |\n| medicine | thuốc | \"take this medicine\" |\n| go to bed early | đi ngủ sớm | \"I will go to bed early\" |\n\n---\n\n## Ghi nhớ sau khi nghe\n\n- Linh bị đau họng và ho.\n- Bác sĩ khuyên uống nước ấm, nghỉ ngơi và uống thuốc.\n- Linh không nên ăn kem tối hôm đó.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trong câu đầu, bác sĩ hỏi Linh điều gì?",
+          "options": [
+            "Em đã ăn gì sáng nay",
+            "Em mấy tuổi",
+            "Hôm nay em bị sao",
+            "Em đến từ lớp nào"
+          ],
+          "correctIndex": 2,
+          "explanation": "Doctor hỏi: 'What is the matter today?' nghĩa là hôm nay em bị sao.",
+          "hint": "Đọc lời chào đầu tiên của bác sĩ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Linh nói mình bị gì?",
+          "options": [
+            "Đau họng và ho",
+            "Đau tai và sốt",
+            "Đau bụng và chóng mặt",
+            "Đau đầu và đau chân"
+          ],
+          "correctIndex": 0,
+          "explanation": "Linh nói: 'My throat hurts, and I have a cough.'",
+          "hint": "Xem câu trả lời đầu tiên của Linh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bác sĩ khuyên Linh uống gì?",
+          "options": [
+            "Nước đá",
+            "Nước ngọt",
+            "Sữa lạnh",
+            "Nước ấm"
+          ],
+          "correctIndex": 3,
+          "explanation": "Doctor nói Linh should drink warm water.",
+          "hint": "Tìm đồ uống trong lời khuyên của bác sĩ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Linh hỏi liệu tối nay có thể ăn gì?",
+          "options": [
+            "Bánh mì",
+            "Kem",
+            "Canh nóng",
+            "Táo đỏ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Linh hỏi: 'Can I eat ice cream tonight?'",
+          "hint": "Đọc câu hỏi của Linh ở dòng thứ tư."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bác sĩ bảo Linh uống thuốc vào lúc nào?",
+          "options": [
+            "Trước giờ học",
+            "Ngay lúc đó",
+            "Sau bữa tối",
+            "Sau khi chơi thể thao"
+          ],
+          "correctIndex": 2,
+          "explanation": "Doctor nói: 'take this medicine after dinner.'",
+          "hint": "Tìm cụm thời gian ở lời khuyên thứ hai của bác sĩ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Linh hứa sẽ làm gì ở câu cuối?",
+          "options": [
+            "Đi ngủ sớm",
+            "Ăn thêm kem",
+            "Uống nước lạnh",
+            "Đến trường thật muộn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Linh nói: 'I will go to bed early.'",
+          "hint": "Đọc câu cuối cùng của Linh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'medicine' trong đoạn hội thoại nghĩa là gì?",
+          "options": [
+            "Khăn ấm",
+            "Bác sĩ",
+            "Bữa tối",
+            "Thuốc"
+          ],
+          "correctIndex": 3,
+          "explanation": "Medicine là thuốc mà bác sĩ bảo Linh uống sau bữa tối.",
+          "hint": "Đó là thứ giúp Linh khỏe hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là lời khuyên trực tiếp của bác sĩ?",
+          "options": [
+            "My throat hurts, and I have a cough.",
+            "You should drink warm water and rest after school.",
+            "Can I eat ice cream tonight?",
+            "I will go to bed early."
+          ],
+          "correctIndex": 1,
+          "explanation": "Đây là câu bác sĩ dùng để khuyên Linh nên làm gì.",
+          "hint": "Hãy tìm câu bắt đầu bằng You should."
+        },
+        {
+          "type": "true_false",
+          "text": "Bác sĩ đồng ý cho Linh ăn kem tối hôm đó.",
+          "correct": false,
+          "explanation": "Sai vì bác sĩ trả lời 'No, you shouldn't.'",
+          "hint": "Đọc kỹ câu trả lời sau câu hỏi về kem."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống theo lời thoại: 'My _____ hurts, and I have a cough.'",
+          "answer": "throat",
+          "explanation": "Linh nói cổ họng mình đau, nên từ đúng là throat.",
+          "hint": "Đây là bộ phận nằm giữa miệng và ngực."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-lis-x002-q1",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Trong câu đầu, bác sĩ hỏi Linh điều gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Em đã ăn gì sáng nay"
+            },
+            {
+              "id": "B",
+              "text": "Em mấy tuổi"
+            },
+            {
+              "id": "C",
+              "text": "Hôm nay em bị sao"
+            },
+            {
+              "id": "D",
+              "text": "Em đến từ lớp nào"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Doctor hỏi: 'What is the matter today?' nghĩa là hôm nay em bị sao.",
+          "hint": "Đọc lời chào đầu tiên của bác sĩ."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q2",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Linh nói mình bị gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Đau họng và ho"
+            },
+            {
+              "id": "B",
+              "text": "Đau tai và sốt"
+            },
+            {
+              "id": "C",
+              "text": "Đau bụng và chóng mặt"
+            },
+            {
+              "id": "D",
+              "text": "Đau đầu và đau chân"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Linh nói: 'My throat hurts, and I have a cough.'",
+          "hint": "Xem câu trả lời đầu tiên của Linh."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q3",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Bác sĩ khuyên Linh uống gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nước đá"
+            },
+            {
+              "id": "B",
+              "text": "Nước ngọt"
+            },
+            {
+              "id": "C",
+              "text": "Sữa lạnh"
+            },
+            {
+              "id": "D",
+              "text": "Nước ấm"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Doctor nói Linh should drink warm water.",
+          "hint": "Tìm đồ uống trong lời khuyên của bác sĩ."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q4",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Linh hỏi liệu tối nay có thể ăn gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bánh mì"
+            },
+            {
+              "id": "B",
+              "text": "Kem"
+            },
+            {
+              "id": "C",
+              "text": "Canh nóng"
+            },
+            {
+              "id": "D",
+              "text": "Táo đỏ"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Linh hỏi: 'Can I eat ice cream tonight?'",
+          "hint": "Đọc câu hỏi của Linh ở dòng thứ tư."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q5",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Bác sĩ bảo Linh uống thuốc vào lúc nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trước giờ học"
+            },
+            {
+              "id": "B",
+              "text": "Ngay lúc đó"
+            },
+            {
+              "id": "C",
+              "text": "Sau bữa tối"
+            },
+            {
+              "id": "D",
+              "text": "Sau khi chơi thể thao"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Doctor nói: 'take this medicine after dinner.'",
+          "hint": "Tìm cụm thời gian ở lời khuyên thứ hai của bác sĩ."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q6",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Linh hứa sẽ làm gì ở câu cuối?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Đi ngủ sớm"
+            },
+            {
+              "id": "B",
+              "text": "Ăn thêm kem"
+            },
+            {
+              "id": "C",
+              "text": "Uống nước lạnh"
+            },
+            {
+              "id": "D",
+              "text": "Đến trường thật muộn"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Linh nói: 'I will go to bed early.'",
+          "hint": "Đọc câu cuối cùng của Linh."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q7",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Từ 'medicine' trong đoạn hội thoại nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Khăn ấm"
+            },
+            {
+              "id": "B",
+              "text": "Bác sĩ"
+            },
+            {
+              "id": "C",
+              "text": "Bữa tối"
+            },
+            {
+              "id": "D",
+              "text": "Thuốc"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Medicine là thuốc mà bác sĩ bảo Linh uống sau bữa tối.",
+          "hint": "Đó là thứ giúp Linh khỏe hơn."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q8",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào là lời khuyên trực tiếp của bác sĩ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "My throat hurts, and I have a cough."
+            },
+            {
+              "id": "B",
+              "text": "You should drink warm water and rest after school."
+            },
+            {
+              "id": "C",
+              "text": "Can I eat ice cream tonight?"
+            },
+            {
+              "id": "D",
+              "text": "I will go to bed early."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Đây là câu bác sĩ dùng để khuyên Linh nên làm gì.",
+          "hint": "Hãy tìm câu bắt đầu bằng You should."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q9",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Bác sĩ đồng ý cho Linh ăn kem tối hôm đó.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì bác sĩ trả lời 'No, you shouldn't.'",
+          "hint": "Đọc kỹ câu trả lời sau câu hỏi về kem."
+        },
+        {
+          "id": "girl-g5-en-lis-x002-q10",
+          "lessonId": "girl-g5-en-lis-x002",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống theo lời thoại: 'My _____ hurts, and I have a cough.'",
+          "options": [],
+          "correctAnswer": "throat",
+          "explanation": "Linh nói cổ họng mình đau, nên từ đúng là throat.",
+          "hint": "Đây là bộ phận nằm giữa miệng và ngực."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-spe-x001",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 81,
+      "title": "Phân biệt âm /ɪ/ và /iː/",
+      "learningObjective": "Sau bài này bé sẽ nhận ra và phát âm tốt hơn hai nguyên âm /ɪ/ và /iː/ qua bảng từ, cặp từ dễ nhầm và hội thoại mẫu.",
+      "shortExplanation": "Âm /ɪ/ ngắn hơn và miệng thả lỏng hơn, còn /iː/ dài hơn, kéo ra rõ hơn.",
+      "storyContext": "Yumi đang luyện phát âm trước giờ kể chuyện bằng tiếng Anh ở lớp.",
+      "content": "# /ɪ/ and /iː/ 🗣️\n\n## Quy tắc phát âm\n\nÂm **/ɪ/** là âm ngắn, miệng mở vừa và đọc nhanh như trong **ship** hay **sit**. Âm **/iː/** dài hơn, môi kéo nhẹ sang hai bên và giữ âm lâu hơn như trong **sheep** hay **seat**.\n\n---\n\n## Hướng dẫn phát âm\n\n| English word | Gợi ý phát âm (Vietnamese) | Ví dụ câu |\n|---|---|---|\n| ship | /sip ngắn/ | \"The ship is big.\" |\n| sit | /sit ngắn/ | \"Please sit here.\" |\n| bit | /bit ngắn/ | \"I ate a bit of cake.\" |\n| sheep | /siiip dài/ | \"The sheep is white.\" |\n| seat | /siit dài/ | \"This seat is mine.\" |\n| feel | /fiiil dài/ | \"I feel happy.\" |\n\n---\n\n## Cặp từ dễ nhầm\n\n| Word A | Word B | Khác nhau ở |\n|---|---|---|\n| ship | sheep | /ɪ/ ngắn vs /iː/ dài |\n| sit | seat | /ɪ/ ngắn vs /iː/ dài |\n| bit | beat | /ɪ/ ngắn vs /iː/ dài |\n| fill | feel | /ɪ/ ngắn vs /iː/ dài |\n\n---\n\n## Hội thoại mẫu\n\n[Yumi]: \"Please **sit** on this **seat**.\"\n[Mina]: \"Thank you! I can **feel** the cool breeze.\"\n[Yumi]: \"Look at the **sheep** near the hill.\"\n[Mina]: \"Yes, and the small **ship** on the lake is pretty.\"\n\nLuyện đọc chậm từng cặp từ rồi tăng tốc dần để tai nghe rõ sự khác nhau.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào có âm /ɪ/ ngắn?",
+          "options": [
+            "ship",
+            "sheep",
+            "seat",
+            "feel"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ship có âm /ɪ/ ngắn ở giữa từ.",
+          "hint": "Hãy chọn từ đi với âm ngắn, không kéo dài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào có âm /iː/ dài?",
+          "options": [
+            "sit",
+            "bit",
+            "seat",
+            "ship"
+          ],
+          "correctIndex": 2,
+          "explanation": "Seat có nguyên âm dài /iː/.",
+          "hint": "Âm này cần kéo dài hơn khi đọc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cặp từ nào minh họa đúng sự khác nhau giữa /ɪ/ và /iː/?",
+          "options": [
+            "cat / cut",
+            "fill / feel",
+            "ship / sheep",
+            "hot / hat"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ship / sheep và fill / feel đều là minimal pairs, nhưng đáp án được hỏi trực tiếp là fill / feel.",
+          "hint": "Chọn cặp chỉ khác nhau ở độ dài của nguyên âm i."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo bài học, âm /iː/ được đọc như thế nào?",
+          "options": [
+            "Rất ngắn và bật nhanh",
+            "Gần giống âm /a/",
+            "Không mở miệng",
+            "Dài hơn và giữ âm lâu hơn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bài giải thích /iː/ là âm dài, môi kéo nhẹ và giữ âm lâu hơn.",
+          "hint": "So sánh phần mô tả hai âm ở đầu bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong hội thoại mẫu, từ nào có âm /iː/ dài?",
+          "options": [
+            "feel",
+            "sit",
+            "ship",
+            "hill"
+          ],
+          "correctIndex": 0,
+          "explanation": "Feel có âm /iː/ dài.",
+          "hint": "Tìm từ trong câu thứ hai của Mina."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào có cùng âm với 'bit'?",
+          "options": [
+            "seat",
+            "sheep",
+            "sit",
+            "feel"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bit và sit cùng có âm /ɪ/ ngắn.",
+          "hint": "Hãy tìm từ có nguyên âm ngắn giống nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào chứa cả một từ âm /ɪ/ và một từ âm /iː/?",
+          "options": [
+            "The sheep is white.",
+            "Please sit on this seat.",
+            "I feel happy today.",
+            "This ship is old."
+          ],
+          "correctIndex": 1,
+          "explanation": "Sit có /ɪ/, còn seat có /iː/, nên câu này chứa cả hai âm.",
+          "hint": "Tìm câu có một cặp từ dễ nhầm xuất hiện cùng nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu muốn luyện âm /iː/, từ nào phù hợp nhất?",
+          "options": [
+            "ship",
+            "bit",
+            "fill",
+            "sheep"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sheep là từ mẫu rõ nhất cho âm /iː/ dài.",
+          "hint": "Chọn từ có thể kéo dài phần nguyên âm ở giữa."
+        },
+        {
+          "type": "true_false",
+          "text": "Âm /ɪ/ thường ngắn hơn âm /iː/.",
+          "correct": true,
+          "explanation": "Đúng. /ɪ/ là âm ngắn, còn /iː/ là âm dài.",
+          "hint": "Nhìn lại phần quy tắc phát âm ở đầu bài."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ còn thiếu trong cặp tối thiểu: sit / ____",
+          "answer": "seat",
+          "explanation": "Sit / seat là một minimal pair quen thuộc để so sánh /ɪ/ với /iː/.",
+          "hint": "Từ cần điền là từ chỉ 'ghế ngồi'."
+        }
+      ],
+      "questions": [
+        {
+          "id": "girl-g5-en-spe-x001-q1",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Từ nào có âm /ɪ/ ngắn?",
+          "options": [
+            {
+              "id": "A",
+              "text": "ship"
+            },
+            {
+              "id": "B",
+              "text": "sheep"
+            },
+            {
+              "id": "C",
+              "text": "seat"
+            },
+            {
+              "id": "D",
+              "text": "feel"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Ship có âm /ɪ/ ngắn ở giữa từ.",
+          "hint": "Hãy chọn từ đi với âm ngắn, không kéo dài."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q2",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Từ nào có âm /iː/ dài?",
+          "options": [
+            {
+              "id": "A",
+              "text": "sit"
+            },
+            {
+              "id": "B",
+              "text": "bit"
+            },
+            {
+              "id": "C",
+              "text": "seat"
+            },
+            {
+              "id": "D",
+              "text": "ship"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Seat có nguyên âm dài /iː/.",
+          "hint": "Âm này cần kéo dài hơn khi đọc."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q3",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Cặp từ nào minh họa đúng sự khác nhau giữa /ɪ/ và /iː/?",
+          "options": [
+            {
+              "id": "A",
+              "text": "cat / cut"
+            },
+            {
+              "id": "B",
+              "text": "fill / feel"
+            },
+            {
+              "id": "C",
+              "text": "ship / sheep"
+            },
+            {
+              "id": "D",
+              "text": "hot / hat"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Ship / sheep và fill / feel đều là minimal pairs, nhưng đáp án được hỏi trực tiếp là fill / feel.",
+          "hint": "Chọn cặp chỉ khác nhau ở độ dài của nguyên âm i."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q4",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Theo bài học, âm /iː/ được đọc như thế nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rất ngắn và bật nhanh"
+            },
+            {
+              "id": "B",
+              "text": "Gần giống âm /a/"
+            },
+            {
+              "id": "C",
+              "text": "Không mở miệng"
+            },
+            {
+              "id": "D",
+              "text": "Dài hơn và giữ âm lâu hơn"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Bài giải thích /iː/ là âm dài, môi kéo nhẹ và giữ âm lâu hơn.",
+          "hint": "So sánh phần mô tả hai âm ở đầu bài."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q5",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Trong hội thoại mẫu, từ nào có âm /iː/ dài?",
+          "options": [
+            {
+              "id": "A",
+              "text": "feel"
+            },
+            {
+              "id": "B",
+              "text": "sit"
+            },
+            {
+              "id": "C",
+              "text": "ship"
+            },
+            {
+              "id": "D",
+              "text": "hill"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Feel có âm /iː/ dài.",
+          "hint": "Tìm từ trong câu thứ hai của Mina."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q6",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Từ nào có cùng âm với 'bit'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "seat"
+            },
+            {
+              "id": "B",
+              "text": "sheep"
+            },
+            {
+              "id": "C",
+              "text": "sit"
+            },
+            {
+              "id": "D",
+              "text": "feel"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Bit và sit cùng có âm /ɪ/ ngắn.",
+          "hint": "Hãy tìm từ có nguyên âm ngắn giống nhau."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q7",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Câu nào chứa cả một từ âm /ɪ/ và một từ âm /iː/?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The sheep is white."
+            },
+            {
+              "id": "B",
+              "text": "Please sit on this seat."
+            },
+            {
+              "id": "C",
+              "text": "I feel happy today."
+            },
+            {
+              "id": "D",
+              "text": "This ship is old."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Sit có /ɪ/, còn seat có /iː/, nên câu này chứa cả hai âm.",
+          "hint": "Tìm câu có một cặp từ dễ nhầm xuất hiện cùng nhau."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q8",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Nếu muốn luyện âm /iː/, từ nào phù hợp nhất?",
+          "options": [
+            {
+              "id": "A",
+              "text": "ship"
+            },
+            {
+              "id": "B",
+              "text": "bit"
+            },
+            {
+              "id": "C",
+              "text": "fill"
+            },
+            {
+              "id": "D",
+              "text": "sheep"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Sheep là từ mẫu rõ nhất cho âm /iː/ dài.",
+          "hint": "Chọn từ có thể kéo dài phần nguyên âm ở giữa."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q9",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Âm /ɪ/ thường ngắn hơn âm /iː/.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. /ɪ/ là âm ngắn, còn /iː/ là âm dài.",
+          "hint": "Nhìn lại phần quy tắc phát âm ở đầu bài."
+        },
+        {
+          "id": "girl-g5-en-spe-x001-q10",
+          "lessonId": "girl-g5-en-spe-x001",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền từ còn thiếu trong cặp tối thiểu: sit / ____",
+          "options": [],
+          "correctAnswer": "seat",
+          "explanation": "Sit / seat là một minimal pair quen thuộc để so sánh /ɪ/ với /iː/.",
+          "hint": "Từ cần điền là từ chỉ 'ghế ngồi'."
+        }
+      ]
+    }
+  ]
+}

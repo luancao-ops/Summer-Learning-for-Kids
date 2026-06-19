@@ -1,0 +1,676 @@
+{
+  "version": 1,
+  "batchId": "batch-girl-g5-english-07",
+  "description": "Family and Friends 5 — Units 5-8 — Food containers, countable/uncountable, safety + must/mustn't, technology + will/won't, art + relative clauses",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-x027",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 63,
+      "title": "Hộp đựng thức ăn trong tiếng Anh",
+      "learningObjective": "Sau bài này bé sẽ biết tên các loại hộp đựng thức ăn trong tiếng Anh và dùng đúng cụm từ như 'a jar of honey', 'a carton of milk'.",
+      "shortExplanation": "Trong siêu thị, mỗi loại thức ăn được đựng trong một loại hộp khác nhau. Tiếng Anh có từ riêng cho từng loại — jar, can, bottle, carton, bag, tube, loaf, bunch!",
+      "storyContext": "Yumi và mẹ đi siêu thị mua đồ ăn. Mẹ đọc danh sách bằng tiếng Anh và Yumi phải tìm đúng đồ trong cửa hàng. Cùng học để giúp Yumi nhé!",
+      "content": "## Hộp đựng thức ăn (Food Containers)\n\nMỗi loại thức ăn thường đi kèm với một loại đồ đựng riêng. Trong tiếng Anh, ta hay nói **a [container] of [food]** — ví dụ: **a jar of honey** (một lọ mật ong).\n\n### Các loại đồ đựng quan trọng:\n\n| Tiếng Anh | Tiếng Việt | Ví dụ |\n|---|---|---|\n| **jar** | lọ thủy tinh có nắp | a jar of jam / a jar of honey |\n| **can / tin** | hộp thiếc kim loại | a can of tomatoes / a tin of beans |\n| **bottle** | chai thủy tinh hoặc nhựa | a bottle of water / a bottle of oil |\n| **carton** | hộp giấy | a carton of milk / a carton of juice |\n| **bag** | túi giấy hoặc nhựa | a bag of rice / a bag of flour |\n| **box** | hộp bìa cứng | a box of cereal / a box of chocolates |\n| **packet** | gói nhỏ kín | a packet of biscuits / a packet of crisps |\n| **tube** | tuýp bóp được | a tube of toothpaste / a tube of tomato paste |\n| **loaf** | ổ bánh mì nguyên | a loaf of bread |\n| **bunch** | chùm hoặc nải | a bunch of bananas / a bunch of grapes |\n\n### Tính từ mô tả thức ăn:\n- **fresh** (tươi) — vừa mới hái, không đông lạnh\n- **frozen** (đông lạnh) — frozen peas từ tủ lạnh\n- **organic** (hữu cơ) — trồng không dùng hóa chất\n- **tinned / canned** (đóng hộp) — tinned tomatoes\n- **spicy** (cay) — món ăn cay\n- **mild** (không cay, nhẹ) — món ăn nhẹ nhàng\n\n### Mẹo nhớ:\n- **jar** thường trong suốt và có nắp vặn → mứt (jam), mật ong (honey)\n- **carton** hình hộp bằng giấy → sữa (milk), nước cam (orange juice)\n- **tube** là ống dẻo bóp được → kem đánh răng (toothpaste), tương cà",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ \"jar\" trong tiếng Anh nghĩa là gì?",
+          "options": [
+            "Hộp giấy đựng sữa hoặc nước ép",
+            "Lọ thủy tinh có nắp vặn",
+            "Chai thủy tinh hoặc nhựa",
+            "Gói giấy nhỏ kín"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Jar\" là lọ thủy tinh có nắp vặn, thường dùng để đựng mứt (jam) hoặc mật ong (honey). Ví dụ: a jar of honey (một lọ mật ong).",
+          "hint": "Nghĩ đến lọ mứt hoặc lọ mật ong mà bạn thấy ở nhà."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thức uống nào thường được đựng trong \"carton\"?",
+          "options": [
+            "Sữa hoặc nước ép cam (milk / orange juice)",
+            "Dầu ăn (olive oil)",
+            "Mật ong (honey)",
+            "Nước lọc đóng chai (bottled water)"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Carton\" là hộp giấy dùng để đựng sữa hoặc nước ép. Ví dụ: a carton of milk (một hộp sữa), a carton of orange juice (một hộp nước cam).",
+          "hint": "Nghĩ đến hộp sữa hình chữ nhật bằng giấy mà bé uống mỗi sáng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"A bunch of\" thường đi với loại thức ăn nào?",
+          "options": [
+            "Bánh mì (bread)",
+            "Sữa (milk)",
+            "Đường (sugar)",
+            "Chuối hoặc nho (bananas / grapes)"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Bunch\" dùng cho những thứ mọc thành chùm hoặc buộc lại với nhau. Ví dụ: a bunch of bananas (một nải chuối), a bunch of grapes (một chùm nho).",
+          "hint": "Nghĩ đến trái cây mà bạn phải tách từng quả ra trước khi ăn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"A loaf of\" đi với thức ăn nào?",
+          "options": [
+            "Gạo (rice)",
+            "Đường (sugar)",
+            "Bánh mì nguyên ổ (bread)",
+            "Sữa (milk)"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Loaf\" là một ổ bánh mì nguyên chưa cắt lát. Ví dụ: a loaf of bread (một ổ bánh mì). Khi cắt ra từng miếng ta gọi là 'a slice of bread'.",
+          "hint": "Đây là từ chỉ cả một ổ bánh mì nguyên vẹn, chưa cắt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đồ đựng nào dùng cho kem đánh răng hoặc tương cà (tomato paste)?",
+          "options": [
+            "Box (hộp bìa cứng)",
+            "Tube (tuýp bóp được)",
+            "Can (hộp thiếc)",
+            "Jar (lọ thủy tinh)"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Tube\" là tuýp ống dẻo có thể bóp được, dùng cho kem đánh răng, tương cà, hoặc kem dưỡng da. Ví dụ: a tube of toothpaste (một tuýp kem đánh răng).",
+          "hint": "Đây là loại đồ đựng mềm mà bạn bóp để nặn ra."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"A can of\" hoặc \"a tin of\" thường dùng để đựng thứ gì?",
+          "options": [
+            "Đậu hoặc súp đóng hộp kim loại (canned beans / soup)",
+            "Bánh quy (biscuits)",
+            "Dầu ăn (cooking oil)",
+            "Mứt (jam)"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Can\" hoặc \"tin\" là hộp kim loại kín, thường dùng để bảo quản thức ăn lâu dài. Ví dụ: a can of tomatoes (một hộp cà chua), a tin of beans (một hộp đậu).",
+          "hint": "Hộp kim loại cần dùng cái mở hộp (can opener) mới mở được."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"A bag of\" thường đi với loại thức ăn nào?",
+          "options": [
+            "Nước cam (orange juice)",
+            "Mật ong (honey)",
+            "Sữa tươi (fresh milk)",
+            "Gạo hoặc bột mì (rice / flour)"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Bag\" là túi giấy hoặc nhựa, thường dùng để đựng gạo, bột mì, hoặc khoai tây chiên. Ví dụ: a bag of rice (một túi gạo), a bag of flour (một túi bột mì).",
+          "hint": "Hình dung túi gạo hoặc túi bột mì mà mẹ mua ở siêu thị."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thức ăn nào được gọi là \"organic\"?",
+          "options": [
+            "Thức ăn đông lạnh (frozen food)",
+            "Thức ăn đóng hộp thiếc (canned food)",
+            "Thức ăn được trồng không dùng hóa chất hay thuốc trừ sâu",
+            "Thức ăn được sấy khô để bảo quản lâu"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Organic\" có nghĩa là hữu cơ — được trồng hoặc sản xuất mà không dùng hóa chất hay thuốc trừ sâu. Ví dụ: organic fruit and vegetables (trái cây và rau củ hữu cơ).",
+          "hint": "\"Organic\" liên quan đến cách thức ăn được trồng trọt, không phải cách bảo quản."
+        },
+        {
+          "type": "true_false",
+          "text": "\"Fresh\" trong tiếng Anh có nghĩa là thức ăn đông lạnh (frozen food).",
+          "correct": false,
+          "explanation": "SAI. \"Fresh\" có nghĩa là TƯƠI — vừa mới hái hoặc làm, không đông lạnh và không đóng hộp. Ngược với \"fresh\" là \"frozen\" (đông lạnh) hoặc \"tinned\" (đóng hộp).",
+          "hint": "\"Fresh\" và \"frozen\" — hai từ này có nghĩa ngược nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Sữa hoặc nước ép thường được đựng trong một \"___ of milk\". Điền từ đúng vào chỗ trống.",
+          "answer": "carton",
+          "explanation": "\"Carton\" là hộp giấy dùng để đựng sữa hoặc nước ép. Cụm từ đầy đủ là \"a carton of milk\" (một hộp sữa) hoặc \"a carton of orange juice\".",
+          "hint": "Đây là loại hộp giấy hình chữ nhật bạn hay thấy trong tủ lạnh."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x028",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 64,
+      "title": "Some, any và danh từ đếm được / không đếm được",
+      "learningObjective": "Sau bài này bé sẽ phân biệt được danh từ đếm được (countable) và không đếm được (uncountable), và dùng đúng 'some', 'any', 'how much', 'how many'.",
+      "shortExplanation": "Trong tiếng Anh, một số từ có thể đếm được (apple → two apples), còn một số từ không đếm được (rice, milk, sugar). Cách dùng 'some' và 'any' phụ thuộc vào loại câu!",
+      "storyContext": "Yumi đang nấu ăn lần đầu tiên và cần hỏi mẹ về nguyên liệu. Nhưng mẹ chỉ trả lời bằng tiếng Anh! Hãy giúp Yumi hiểu cách hỏi và trả lời đúng nhé.",
+      "content": "## Countable và Uncountable Nouns\n\n### Danh từ ĐẾM ĐƯỢC (Countable Nouns)\nLà những thứ bạn có thể đếm từng cái:\n- one apple → **two apples** ✓\n- one egg → **three eggs** ✓\n- one banana → **five bananas** ✓\n\n### Danh từ KHÔNG ĐẾM ĐƯỢC (Uncountable Nouns)\nLà những thứ bạn KHÔNG thể đếm từng cái:\n- water (nước), milk (sữa), rice (gạo), sugar (đường)\n- flour (bột mì), butter (bơ), oil (dầu ăn), cheese (phô mai)\n\n❌ Không nói: two rices, three milks, four sugars\n\n---\n\n## SOME và ANY\n\n| Dùng | Khi nào |\n|---|---|\n| **some** | Câu khẳng định: \"I need **some** sugar.\" |\n| **any** | Câu hỏi: \"Is there **any** milk?\" |\n| **any** | Câu phủ định: \"We don't have **any** bread.\" |\n\n**Ngoại lệ:** Dùng **some** trong câu hỏi khi mời hoặc đề nghị:\n- \"Would you like **some** tea?\" (Bạn muốn uống trà không?)\n\n---\n\n## HOW MUCH và HOW MANY\n\n| Dùng | Với loại danh từ |\n|---|---|\n| **How many** | Đếm được → \"How many apples?\" |\n| **How much** | Không đếm được → \"How much sugar?\" |\n\n### Mẹo nhớ:\n> Nếu bạn có thể đếm → **how many** + thêm **-s**\n> Nếu bạn không thể đếm → **how much** (không thêm **-s**)",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Danh từ nào sau đây là UNCOUNTABLE (không đếm được)?",
+          "options": [
+            "Apple (quả táo)",
+            "Egg (quả trứng)",
+            "Rice (gạo)",
+            "Cookie (bánh quy)"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Rice\" (gạo) là danh từ không đếm được — ta không đếm từng hạt gạo. Các từ còn lại đều đếm được: one apple, two eggs, three cookies.",
+          "hint": "Bạn có thể nói \"two rices\" không? Nếu không → uncountable."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng \"some\" ĐÚNG?",
+          "options": [
+            "Are there some apples in the fridge? (câu hỏi)",
+            "I need some sugar for the cake.",
+            "We don't have some butter.",
+            "Did she buy some breads?"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Some\" được dùng trong câu khẳng định. \"I need some sugar\" đúng vì đây là câu khẳng định. Trong câu hỏi và câu phủ định, ta dùng \"any\".",
+          "hint": "\"Some\" đi với câu khẳng định (affirmative)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng \"any\" ĐÚNG?",
+          "options": [
+            "Is there any milk left in the fridge?",
+            "I have any oranges on the table.",
+            "She bought any bread this morning.",
+            "We need any flour for the recipe."
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Any\" được dùng trong câu hỏi và câu phủ định. \"Is there any milk?\" là câu hỏi nên dùng \"any\" là hoàn toàn đúng.",
+          "hint": "\"Any\" đi với câu hỏi (questions) và câu phủ định (negatives)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng \"how much\" ĐÚNG?",
+          "options": [
+            "How much apples do you want?",
+            "How much eggs are in the box?",
+            "How much sandwiches did she eat?",
+            "How much water should I drink every day?"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"How much\" dùng với danh từ không đếm được (uncountable). \"Water\" là uncountable nên \"How much water?\" là đúng. Apples, eggs, sandwiches đều đếm được → dùng \"How many\".",
+          "hint": "\"Water\" — bạn có thể đếm từng giọt nước không?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi nào ta được dùng \"some\" trong câu hỏi?",
+          "options": [
+            "Khi hỏi có hay không có gì đó trong nhà bếp",
+            "Khi mời hoặc đề nghị ai đó điều gì (polite offer)",
+            "Khi câu hỏi có nghĩa phủ định",
+            "Khi danh từ là đếm được (countable)"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Some\" có thể dùng trong câu hỏi khi mời hoặc đề nghị ai đó: \"Would you like some tea?\" (Bạn muốn uống trà không?). Đây là ngoại lệ đặc biệt của quy tắc chính.",
+          "hint": "Nghĩ đến khi mẹ hỏi \"Con có muốn ăn thêm không?\" — mời thì dùng \"some\"."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Danh từ nào sau đây là COUNTABLE (đếm được)?",
+          "options": [
+            "Milk (sữa)",
+            "Sugar (đường)",
+            "Banana (quả chuối)",
+            "Flour (bột mì)"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Banana\" là danh từ đếm được — ta có thể đếm: one banana, two bananas, three bananas. Milk, sugar, flour đều là uncountable.",
+          "hint": "Bạn có thể nói \"two bananas\" không? Nếu có → countable."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu phủ định nào ĐÚNG?",
+          "options": [
+            "We don't have any tomatoes.",
+            "She doesn't have some apples.",
+            "There isn't some cheese in the fridge.",
+            "He hasn't got some time today."
+          ],
+          "correctIndex": 0,
+          "explanation": "Trong câu phủ định, ta dùng \"any\", không dùng \"some\". \"We don't have any tomatoes\" là câu phủ định đúng.",
+          "hint": "Câu phủ định (don't, doesn't, isn't...) cần dùng \"any\" không phải \"some\"."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng \"how many\" ĐÚNG?",
+          "options": [
+            "How many butter do we need?",
+            "How many milk is left?",
+            "How many rice is in the bag?",
+            "How many cookies did she bake?"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"How many\" dùng với danh từ đếm được (countable). \"Cookie\" đếm được nên \"How many cookies?\" là đúng. Butter, milk, rice đều là uncountable → dùng \"How much\".",
+          "hint": "\"Cookies\" → bạn có thể đếm được → dùng \"how many\"."
+        },
+        {
+          "type": "true_false",
+          "text": "\"Bread\" (bánh mì) là danh từ đếm được (countable noun) — ta có thể nói \"two breads\".",
+          "correct": false,
+          "explanation": "SAI. \"Bread\" là danh từ KHÔNG đếm được (uncountable). Không nói \"two breads\". Để chỉ số lượng, ta dùng: a loaf of bread (một ổ bánh mì), a slice of bread (một lát bánh mì).",
+          "hint": "Bạn có nói \"two breads\" trong tiếng Anh không? Hãy nghĩ lại."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Hoàn thành câu: \"Are there _____ oranges in the basket?\" (Điền \"some\" hoặc \"any\")",
+          "answer": "any",
+          "explanation": "Vì đây là câu hỏi (interrogative), ta dùng \"any\". Câu đầy đủ: \"Are there any oranges in the basket?\" (Trong giỏ có quả cam nào không?)",
+          "hint": "Câu hỏi → some hay any?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x029",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 65,
+      "title": "Đồ bảo hộ và quy tắc an toàn: must / mustn't",
+      "learningObjective": "Sau bài này bé sẽ biết tên các đồ bảo hộ an toàn trong tiếng Anh và dùng đúng 'must' (bắt buộc) và 'mustn't' (cấm) để nói về quy tắc.",
+      "shortExplanation": "Để giữ an toàn, chúng ta phải tuân thủ các quy tắc. 'Must' có nghĩa là bắt buộc phải làm, còn 'mustn't' có nghĩa là tuyệt đối không được làm!",
+      "storyContext": "Yumi tham gia câu lạc bộ khoa học ở trường. Thầy giáo giải thích các quy tắc an toàn trong phòng thí nghiệm bằng tiếng Anh. Cùng Yumi học để hiểu và tuân thủ quy tắc nhé!",
+      "content": "## Đồ bảo hộ an toàn (Safety Equipment)\n\n| Tiếng Anh | Tiếng Việt | Dùng khi nào |\n|---|---|---|\n| **helmet** | mũ bảo hiểm | đi xe đạp, xe máy, chơi thể thao |\n| **seatbelt** | dây an toàn | ngồi trên ô tô |\n| **life jacket** | áo phao | đi thuyền, gần mặt nước |\n| **safety goggles** | kính bảo hộ | phòng thí nghiệm, xưởng |\n| **knee pads** | miếng bảo vệ đầu gối | trượt patin, xe đạp |\n| **reflective vest** | áo phản quang | đi đường ban đêm |\n| **first aid kit** | hộp sơ cứu | xử lý vết thương nhỏ |\n\n## Từ chỉ mối nguy hiểm\n- **dangerous** (nguy hiểm)\n- **slippery** (trơn trượt)\n- **flammable** (dễ cháy) — petrol is highly flammable\n- **fragile** (dễ vỡ)\n- **poisonous** (có độc)\n\n## Must và Mustn't\n\n**MUST** = bắt buộc phải làm\n> \"You **must** wear a helmet when cycling.\"\n\n**MUSTN'T** = tuyệt đối không được làm (cấm)\n> \"You **mustn't** run near the swimming pool.\"\n\n### Quy tắc ngữ pháp:\n✅ \"You must **wear** a helmet.\" → ĐÚNG\n❌ \"You must **to wear** a helmet.\" → SAI (không có 'to' sau must)\n❌ \"She **musts** follow the rules.\" → SAI (modal verbs không thêm -s)\n\n### Must vs. Don't have to:\n- **must** = bắt buộc → phải làm\n- **don't have to** = không bắt buộc → không cần, nhưng được phép\n- **mustn't** = bị CẤM → tuyệt đối không làm",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "\"Helmet\" trong tiếng Anh nghĩa là gì?",
+          "options": [
+            "Mũ bảo hiểm",
+            "Áo phao",
+            "Dây an toàn",
+            "Kính bảo hộ"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Helmet\" là mũ bảo hiểm, dùng để bảo vệ đầu khi đi xe đạp, xe máy, hoặc chơi thể thao. Ví dụ: Always wear a helmet when cycling.",
+          "hint": "Đây là thứ bạn đội lên đầu trước khi đi xe đạp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Mustn't\" được dùng khi nào?",
+          "options": [
+            "Khi một việc không bắt buộc (không cần làm)",
+            "Khi muốn đưa ra lời khuyên nhẹ nhàng",
+            "Khi một việc bị CẤM — tuyệt đối không được làm",
+            "Khi hỏi ai đó có muốn làm gì không"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Mustn't\" (must not) = BỊ CẤM. Ví dụ: \"You mustn't run near the pool\" (Không được chạy gần hồ bơi). Khác với \"don't have to\" — không bắt buộc nhưng được phép.",
+          "hint": "\"Mustn't\" mạnh hơn \"shouldn't\" — đây là quy tắc BẮT BUỘC không được vi phạm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Seatbelt\" được dùng để làm gì?",
+          "options": [
+            "Bảo vệ mắt trong phòng thí nghiệm",
+            "Giữ bạn an toàn trên ghế ô tô",
+            "Giúp bạn nổi trên mặt nước",
+            "Bảo vệ đầu gối khi trượt ván"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Seatbelt\" (dây an toàn) là dây đai trong xe hơi, giữ hành khách an toàn khi có va chạm. Ví dụ: You must wear a seatbelt in the car.",
+          "hint": "Đây là thứ bạn cài vào trước khi xe lăn bánh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Life jacket\" được dùng ở đâu?",
+          "options": [
+            "Khi đi xe đạp trên đường",
+            "Trong phòng thí nghiệm khoa học",
+            "Khi leo núi",
+            "Trên thuyền hoặc khi hoạt động gần mặt nước"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Life jacket\" (áo phao) giúp người mặc nổi trên mặt nước. Ví dụ: Put on a life jacket before getting in the boat (Mặc áo phao trước khi lên thuyền).",
+          "hint": "\"Life jacket\" giúp bạn không bị chìm — dùng ở đâu?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng \"must\" ĐÚNG về ngữ pháp?",
+          "options": [
+            "You must wear a helmet when cycling.",
+            "You must to wear a helmet when cycling.",
+            "You musts wear a helmet when cycling.",
+            "You must wearing a helmet when cycling."
+          ],
+          "correctIndex": 0,
+          "explanation": "Sau \"must\", ta dùng động từ nguyên mẫu KHÔNG có \"to\" (bare infinitive). Câu đúng là \"You must wear a helmet.\" Các lỗi: thêm \"to\" (B), thêm \"-s\" vào must (C), dùng \"-ing\" (D).",
+          "hint": "Sau \"must\": must + động từ (không to, không -ing, không -s)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Flammable\" có nghĩa là gì?",
+          "options": [
+            "Dễ vỡ (breaks easily)",
+            "Có độc, gây hại nếu ăn phải",
+            "Dễ bắt lửa và bốc cháy (catches fire easily)",
+            "Trơn trượt khi ướt"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Flammable\" có nghĩa là dễ cháy (catches fire easily). Ví dụ: Petrol is highly flammable (Xăng rất dễ cháy). Đây là từ cảnh báo nguy hiểm quan trọng.",
+          "hint": "\"Flame\" là ngọn lửa. \"Flammable\" liên quan đến lửa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Safety goggles\" dùng để bảo vệ bộ phận nào?",
+          "options": [
+            "Đầu",
+            "Mắt",
+            "Đầu gối",
+            "Tay"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Safety goggles\" (kính bảo hộ) là kính bảo vệ mắt, đeo trong phòng thí nghiệm hoặc khi làm các hoạt động có mảnh vỡ bắn vào mắt. Ví dụ: Wear safety goggles during the experiment.",
+          "hint": "\"Goggles\" là loại kính đặc biệt — dùng để bảo vệ bộ phận nào trên mặt?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là quy tắc an toàn đúng với \"mustn't\"?",
+          "options": [
+            "You mustn't wear a life jacket on the boat.",
+            "You mustn't eat healthy food every day.",
+            "You mustn't wear a seatbelt in the car.",
+            "You mustn't run near the swimming pool."
+          ],
+          "correctIndex": 3,
+          "explanation": "\"You mustn't run near the swimming pool\" (Không được chạy gần hồ bơi) là quy tắc an toàn đúng — chạy gần hồ bơi rất nguy hiểm vì sàn trơn. Các câu kia đều sai về logic an toàn.",
+          "hint": "\"Mustn't\" chỉ điều bị cấm vì nguy hiểm. Câu nào nói về điều nguy hiểm thật sự?"
+        },
+        {
+          "type": "true_false",
+          "text": "Câu \"You must to wear a helmet\" là đúng ngữ pháp tiếng Anh.",
+          "correct": false,
+          "explanation": "SAI. Câu này sai ngữ pháp. Sau \"must\" ta KHÔNG dùng \"to\". Câu đúng là \"You must wear a helmet.\" Quy tắc: modal verbs (must, should, will, can) + động từ nguyên mẫu không có \"to\".",
+          "hint": "Modal verbs như \"must\" không cần \"to\" phía sau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: \"You _____ touch the electric wires — it is very dangerous!\" (Đây là quy tắc CẤM)",
+          "answer": "mustn't",
+          "explanation": "\"Mustn't\" (must not) dùng để diễn tả điều bị cấm tuyệt đối. \"You mustn't touch the electric wires\" = Không được chạm vào dây điện — quy tắc an toàn quan trọng.",
+          "hint": "Đây là quy tắc CẤM, không phải lời khuyên → must___?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x030",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 66,
+      "title": "Công nghệ và dự đoán tương lai: will / won't",
+      "learningObjective": "Sau bài này bé sẽ biết tên các thiết bị công nghệ trong tiếng Anh và dùng 'will' và 'won't' để đưa ra dự đoán về tương lai.",
+      "shortExplanation": "Trong tương lai, công nghệ sẽ thay đổi cuộc sống rất nhiều! 'Will' dự đoán điều sẽ xảy ra và 'won't' dự đoán điều sẽ không xảy ra.",
+      "storyContext": "Yumi xem một chương trình khoa học về tương lai. Người dẫn chương trình nói bằng tiếng Anh: 'In the future, robots will do everything!' Yumi muốn hiểu và tự đưa ra dự đoán của mình.",
+      "content": "## Từ vựng Công nghệ (Technology Vocabulary)\n\n| Tiếng Anh | Tiếng Việt | Mô tả |\n|---|---|---|\n| **robot** | người máy | Máy tự động thực hiện nhiệm vụ |\n| **tablet** | máy tính bảng | Màn hình cảm ứng phẳng |\n| **solar panel** | tấm pin năng lượng mặt trời | Chuyển đổi ánh nắng thành điện |\n| **electric car** | ô tô điện | Chạy bằng điện, không cần xăng |\n| **drone** | máy bay drone | Máy bay nhỏ điều khiển từ xa |\n| **3D printer** | máy in 3D | Tạo ra vật thể ba chiều thật sự |\n| **virtual reality** | thực tế ảo | Thế giới ảo qua kính VR |\n\n### Động từ công nghệ:\n- **download** (tải xuống) — tải file từ internet về máy\n- **upload** (tải lên) — gửi file từ máy lên internet\n- **charge** (sạc pin) — sạc điện cho thiết bị\n- **stream** (xem trực tuyến) — xem không cần tải về\n- **programme** (lập trình) — viết lệnh cho máy tính/robot\n\n---\n\n## Will và Won't — Dự đoán tương lai\n\n| Dạng câu | Công thức | Ví dụ |\n|---|---|---|\n| **Khẳng định** | Subject + **will** + verb | Robots will do our chores. |\n| **Phủ định** | Subject + **won't** + verb | Cars won't need petrol. |\n| **Câu hỏi** | **Will** + subject + verb? | Will people live on Mars? |\n\n### Quy tắc quan trọng:\n✅ \"I **will visit** Paris.\" → Đúng\n❌ \"I **will to visit** Paris.\" → SAI (không có 'to' sau will)\n❌ \"She **willn't** come.\" → SAI ('will not' = **won't**, không phải 'willn't')\n❌ \"I think robots **will can** cook.\" → SAI (không dùng 2 modal liên tiếp)\n\n> **will** = sẽ | **won't** = sẽ không",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "\"Robot\" trong tiếng Anh là gì?",
+          "options": [
+            "Máy tính bảng (flat touchscreen device)",
+            "Người máy tự động thực hiện nhiệm vụ",
+            "Máy bay điều khiển từ xa",
+            "Kính thực tế ảo (VR headset)"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Robot\" là người máy — được lập trình để thực hiện các nhiệm vụ tự động. Ví dụ: Robots help build cars in factories (Người máy giúp lắp ráp ô tô trong nhà máy).",
+          "hint": "\"Robot\" là người máy trong phim khoa học viễn tưởng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào dùng \"will\" để dự đoán tương lai ĐÚNG?",
+          "options": [
+            "She will to visit her grandparents next week.",
+            "He willn't come to school tomorrow.",
+            "In the future, electric cars will be very common.",
+            "They will can fly to space easily."
+          ],
+          "correctIndex": 2,
+          "explanation": "\"In the future, electric cars will be very common\" là câu dự đoán đúng. Sau \"will\" dùng động từ nguyên mẫu. Lỗi: thêm \"to\" (A), dùng \"willn't\" thay \"won't\" (B), dùng hai modal liên tiếp (D).",
+          "hint": "Will + động từ nguyên mẫu (không to, không -ing, không -s)."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Drone\" nghĩa là gì?",
+          "options": [
+            "Máy bay nhỏ điều khiển từ xa",
+            "Máy in ba chiều",
+            "Tấm pin năng lượng mặt trời",
+            "Tai nghe thực tế ảo"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Drone\" là máy bay không người lái, điều khiển từ xa bằng bộ điều khiển. Ví dụ: The farmer used a drone to check his crops (Người nông dân dùng drone để kiểm tra cánh đồng lúa).",
+          "hint": "\"Drone\" bay trên không nhưng không có phi công bên trong."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Won't\" là viết tắt của cụm từ nào?",
+          "options": [
+            "Would not",
+            "Was not",
+            "Did not",
+            "Will not"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Won't\" = \"will not\". Đây là dạng phủ định viết tắt của \"will\". Ví dụ: \"Electric cars won't need petrol.\" KHÔNG viết \"willn't\" — không tồn tại.",
+          "hint": "\"Won't\" = will ___?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Solar panel\" được dùng để làm gì?",
+          "options": [
+            "In ra các vật thể ba chiều",
+            "Chuyển đổi ánh sáng mặt trời thành điện năng",
+            "Điều khiển máy bay drone từ xa",
+            "Kết nối internet tốc độ cao"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Solar panel\" (tấm pin năng lượng mặt trời) chuyển đổi năng lượng từ ánh sáng mặt trời thành điện năng. Ví dụ: Solar panels are on the roof of our school.",
+          "hint": "\"Solar\" liên quan đến mặt trời (sun). Tấm solar panel hấp thụ năng lượng gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Download\" nghĩa là gì?",
+          "options": [
+            "Sạc pin cho điện thoại",
+            "Gửi file từ máy bạn lên internet",
+            "Tải file từ internet về máy bạn",
+            "Xem phim trực tuyến mà không tải về"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Download\" (tải xuống) là sao chép file từ internet về thiết bị của bạn. Ví dụ: Download the app before the trip. Ngược lại là \"upload\" (tải lên).",
+          "hint": "\"Down\" = xuống → file đi từ internet VỀ máy bạn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Electric car\" khác với ô tô thông thường ở điểm nào?",
+          "options": [
+            "Chạy bằng điện, không cần xăng",
+            "Không có bánh xe, di chuyển trên đường ray",
+            "Chỉ có thể chạy vào ban đêm",
+            "Không có ghế ngồi bên trong"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Electric car\" (ô tô điện) chạy bằng điện thay vì xăng, thân thiện với môi trường hơn. Ví dụ: Electric cars won't need petrol (Ô tô điện sẽ không cần xăng).",
+          "hint": "\"Electric\" = dùng điện. Vậy ô tô điện dùng gì để chạy?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"3D printer\" (máy in 3D) có thể làm gì?",
+          "options": [
+            "Chụp ảnh ba chiều",
+            "Chiếu phim thực tế ảo",
+            "Phát sóng radio và podcast",
+            "Tạo ra các vật thể thật sự ba chiều từ dữ liệu số"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"3D printer\" (máy in 3D) có thể tạo ra các vật thể thực tế. Ví dụ: They printed a model house with a 3D printer (Họ in một ngôi nhà mô hình bằng máy in 3D).",
+          "hint": "\"3D\" = ba chiều (có chiều dài, rộng, cao). Máy in 3D tạo ra vật gì?"
+        },
+        {
+          "type": "true_false",
+          "text": "Dạng viết tắt của \"will not\" trong tiếng Anh là \"willn't\".",
+          "correct": false,
+          "explanation": "SAI! Dạng viết tắt ĐÚNG của \"will not\" là \"won't\". \"Willn't\" không tồn tại trong tiếng Anh. Ví dụ: \"She won't come tomorrow\" = \"She will not come tomorrow\".",
+          "hint": "Will not → w...n't. Nghĩ đến từ thông dụng bạn thường nghe."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: \"In the future, robots _____ do most household chores.\" (Dự đoán tương lai — câu khẳng định)",
+          "answer": "will",
+          "explanation": "\"Will\" dùng để dự đoán về tương lai (affirmative). Câu đầy đủ: \"In the future, robots will do most household chores\" (Trong tương lai, người máy sẽ làm hầu hết công việc nhà).",
+          "hint": "Câu khẳng định dự đoán tương lai → will hay won't?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-en-x031",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 67,
+      "title": "Nghệ thuật, âm nhạc và mệnh đề quan hệ: who / which / that",
+      "learningObjective": "Sau bài này bé sẽ biết tên các loại hình nghệ thuật và nhạc cụ trong tiếng Anh, đồng thời dùng đúng 'who', 'which', 'that' để mô tả người và đồ vật.",
+      "shortExplanation": "Tiếng Anh có cách rất hay để thêm thông tin vào câu: dùng 'who' cho người, 'which' cho đồ vật, và 'that' có thể thay cho cả hai!",
+      "storyContext": "Yumi đến thăm bảo tàng nghệ thuật cùng lớp. Hướng dẫn viên giải thích về các tác phẩm nghệ thuật bằng tiếng Anh. Yumi muốn hiểu và tự giới thiệu về các tác phẩm yêu thích!",
+      "content": "## Các loại hình nghệ thuật (Art Forms)\n\n| Tiếng Anh | Tiếng Việt | Mô tả |\n|---|---|---|\n| **sculpture** | điêu khắc | Tác phẩm 3D từ đất sét, đá, kim loại |\n| **photography** | nhiếp ảnh | Nghệ thuật chụp ảnh |\n| **pottery** | gốm sứ | Làm đồ từ đất sét trên bàn xoay |\n| **portrait** | tranh chân dung | Tranh vẽ khuôn mặt người |\n| **landscape** | tranh phong cảnh | Tranh vẽ thiên nhiên |\n| **abstract** | trừu tượng | Tranh dùng màu sắc và hình học |\n| **collage** | tranh ghép | Dán nhiều mảnh vật liệu lên nhau |\n| **watercolour** | màu nước | Sơn pha nước, cho ra tranh trong sáng |\n\n## Nhạc cụ (Musical Instruments)\n- **violin** (vi-ô-lông) — bộ dây, kéo vĩ\n- **trumpet** (kèn trumpet) — bộ đồng, thổi\n- **drums** (trống) — bộ gõ, đánh bằng dùi\n- **flute** (sáo flute) — bộ hơi, cầm ngang thổi\n- **harp** (đàn hạc) — bộ dây, rất lớn\n- **cello** (đàn cello) — bộ dây, to hơn violin\n\n---\n\n## Mệnh đề quan hệ (Defining Relative Clauses)\n\n| Từ | Dùng cho | Ví dụ |\n|---|---|---|\n| **who** | Người (people) | A teacher is a person **who** teaches students. |\n| **which** | Đồ vật / động vật | A violin is an instrument **which** has four strings. |\n| **that** | Cả người lẫn đồ vật | The song **that** won was amazing. |\n\n### Chú ý:\n- **who** → chỉ cho NGƯỜI\n- **which** → chỉ cho ĐỒ VẬT / động vật\n- **that** → có thể thay thế cho cả **who** và **which**",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "\"Sculpture\" nghĩa là gì?",
+          "options": [
+            "Tranh vẽ bằng màu nước (watercolour painting)",
+            "Tranh chân dung khuôn mặt người",
+            "Tác phẩm nghệ thuật ba chiều làm từ đất sét, đá hoặc kim loại",
+            "Tranh vẽ phong cảnh thiên nhiên"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Sculpture\" (điêu khắc) là nghệ thuật tạo ra tác phẩm ba chiều (3D) từ đất sét, đá, gỗ, hoặc kim loại. Ví dụ: He made a clay sculpture of a horse.",
+          "hint": "\"Sculpture\" là tác phẩm bạn có thể nhìn từ nhiều góc độ và sờ vào được."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trong mệnh đề quan hệ, \"who\" được dùng khi nào?",
+          "options": [
+            "Khi nói về con người",
+            "Khi nói về đồ vật hoặc động vật",
+            "Khi nói về địa điểm",
+            "Khi nói về thời gian"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Who\" dùng để bổ nghĩa cho danh từ chỉ NGƯỜI. Ví dụ: \"A teacher is a person who teaches students.\" Với đồ vật, ta dùng \"which\". Với cả hai, ta có thể dùng \"that\".",
+          "hint": "who = người, which = đồ vật / động vật."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Violin\" thuộc loại nhạc cụ nào?",
+          "options": [
+            "Nhạc cụ bộ gõ (đánh bằng dùi)",
+            "Nhạc cụ bộ hơi (thổi)",
+            "Nhạc cụ bộ đồng (kèn kim loại)",
+            "Nhạc cụ bộ dây (kéo bằng vĩ)"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Violin\" (đàn vi-ô-lông) là nhạc cụ bộ dây với 4 dây, được chơi bằng cách kéo một cây vĩ (bow) qua dây đàn. Ví dụ: She plays the violin in the school orchestra.",
+          "hint": "Violin có dây và được kéo bằng một cái cây nhỏ gọi là \"bow\"."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điền vào chỗ trống: \"A drum is an instrument _____ you hit with sticks.\"",
+          "options": [
+            "who",
+            "which",
+            "where",
+            "when"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Which\" dùng để bổ nghĩa cho danh từ chỉ ĐỒ VẬT. \"Instrument\" là đồ vật nên dùng \"which\". Câu đầy đủ: \"A drum is an instrument which you hit with sticks.\"",
+          "hint": "Drum là đồ vật hay con người? → Chọn who hay which?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Portrait\" là loại hình nghệ thuật nào?",
+          "options": [
+            "Tranh trừu tượng dùng hình học và màu sắc",
+            "Tranh ghép từ nhiều mảnh vật liệu khác nhau",
+            "Tranh hoặc ảnh chụp khuôn mặt và chân dung người",
+            "Tranh vẽ phong cảnh thiên nhiên như núi, sông"
+          ],
+          "correctIndex": 2,
+          "explanation": "\"Portrait\" (tranh chân dung) là bức tranh hoặc ảnh chụp khuôn mặt và chân dung người. Ví dụ: The Mona Lisa is a famous portrait.",
+          "hint": "\"Portrait\" miêu tả khuôn mặt của ai đó."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ \"that\" trong mệnh đề quan hệ có thể làm gì?",
+          "options": [
+            "Thay thế cho cả \"who\" (người) lẫn \"which\" (đồ vật)",
+            "Chỉ thay thế cho \"who\"",
+            "Chỉ thay thế cho \"which\"",
+            "Không thể thay thế cho \"who\" hoặc \"which\""
+          ],
+          "correctIndex": 0,
+          "explanation": "\"That\" rất linh hoạt — có thể thay thế cho cả \"who\" lẫn \"which\". Ví dụ: \"The song that won\" (= which won), \"The person that helped me\" (= who helped me).",
+          "hint": "\"That\" là từ đa năng trong mệnh đề quan hệ — nó thay thế được cả hai từ kia."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Watercolour\" nghĩa là gì?",
+          "options": [
+            "Tranh ghép từ ảnh và giấy báo",
+            "Tranh chụp bằng máy ảnh chuyên nghiệp",
+            "Tranh vẽ bằng bút than (charcoal)",
+            "Loại sơn pha với nước; tranh vẽ bằng loại sơn này"
+          ],
+          "correctIndex": 3,
+          "explanation": "\"Watercolour\" (màu nước) là loại sơn được pha với nước, tạo ra những bức tranh trong sáng, nhẹ nhàng. Ví dụ: She painted flowers in watercolour.",
+          "hint": "\"Water\" = nước + \"colour\" = màu → loại sơn dùng nước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "\"Collage\" là loại hình nghệ thuật nào?",
+          "options": [
+            "Nghệ thuật điêu khắc từ đất sét",
+            "Tranh được tạo bằng cách dán nhiều mảnh giấy, ảnh hoặc vải lên nhau",
+            "Ảnh chụp phong cảnh thiên nhiên",
+            "Tranh vẽ bằng màu dầu"
+          ],
+          "correctIndex": 1,
+          "explanation": "\"Collage\" (tranh ghép) là nghệ thuật tạo tranh bằng cách dán nhiều mảnh vật liệu như giấy, ảnh, vải. Ví dụ: She made a collage of her family photos.",
+          "hint": "\"Collage\" = cắt dán — nghĩ đến dự án thủ công ở trường."
+        },
+        {
+          "type": "true_false",
+          "text": "Trong mệnh đề quan hệ, \"who\" chỉ được dùng cho đồ vật, không được dùng cho người.",
+          "correct": false,
+          "explanation": "SAI! \"Who\" được dùng để nói về CON NGƯỜI, không phải đồ vật. Ví dụ: \"A doctor is someone who helps people.\" Với đồ vật, ta dùng \"which\" hoặc \"that\".",
+          "hint": "who = người hay đồ vật? Hãy nhớ bảng trong bài học."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: \"A violin is an instrument _____ has four strings.\" (Chọn từ thích hợp cho đồ vật)",
+          "answer": "which",
+          "explanation": "\"Which\" dùng để bổ nghĩa cho danh từ chỉ ĐỒ VẬT. \"Violin\" là nhạc cụ (đồ vật), nên ta dùng \"which\". Câu đầy đủ: \"A violin is an instrument which has four strings.\"",
+          "hint": "Violin là đồ vật hay người? → who hay which?"
+        }
+      ]
+    }
+  ]
+}

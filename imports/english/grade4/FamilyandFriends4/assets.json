@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g4-family-and-friends-4",
+    "title": "Family and Friends 4 — Asset Catalogue",
+    "extractedAt": "2026-06-09",
+    "note": "Asset extraction requires Poppler/pdftoppm installed on this Windows machine. All assets marked extracted:false until then. This catalogue lists EXPECTED assets based on textbook knowledge."
+  },
+
+  "extractionStatus": {
+    "toolRequired": "pdftoppm (Poppler) or PyMuPDF",
+    "toolInstalled": false,
+    "assetsExtracted": 0,
+    "assetsExpected": 30
+  },
+
+  "expectedAssets": [
+    {
+      "assetId": "english-illustration-hobbies-grid-01",
+      "type": "illustration",
+      "unit": 1,
+      "description": "Grid of hobby illustrations: skateboarding, cycling, hiking, photography, gardening, birdwatching",
+      "sourcePage": "approx. p5",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-weather-icons-01",
+      "type": "illustration",
+      "unit": 2,
+      "description": "Weather icons/symbols: foggy, stormy, icy, sunny, cloudy, rainy, etc.",
+      "sourcePage": "approx. p17",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-extreme-weather-01",
+      "type": "illustration",
+      "unit": 2,
+      "description": "Illustrations of extreme weather events: flood, hurricane, blizzard, drought",
+      "sourcePage": "approx. p20",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-transport-01",
+      "type": "illustration",
+      "unit": 3,
+      "description": "Transport vehicles: tram, ferry, cable car, hot air balloon, scooter, submarine",
+      "sourcePage": "approx. p29",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-busy-station-01",
+      "type": "illustration",
+      "unit": 3,
+      "description": "Busy transport station scene showing people doing various actions (present continuous)",
+      "sourcePage": "approx. p32",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-clothes-01",
+      "type": "illustration",
+      "unit": 4,
+      "description": "Clothes and accessories labelled: coat, scarf, gloves, boots, tracksuit, dungarees, belt, cap",
+      "sourcePage": "approx. p41",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-shopping-scene-01",
+      "type": "illustration",
+      "unit": 4,
+      "description": "Shopping scene in a clothes shop",
+      "sourcePage": "approx. p44",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-food-groups-01",
+      "type": "illustration",
+      "unit": 5,
+      "description": "Food pyramid or food groups diagram: grains, dairy, protein, vegetables, fruit",
+      "sourcePage": "approx. p53",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-cooking-methods-01",
+      "type": "illustration",
+      "unit": 5,
+      "description": "Cooking method icons: boil, fry, bake, grill, steam, blend",
+      "sourcePage": "approx. p56",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-past-activities-01",
+      "type": "illustration",
+      "unit": 6,
+      "description": "Children doing past activities: went to the park, swam, ran, ate pizza",
+      "sourcePage": "approx. p65",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-body-parts-01",
+      "type": "illustration",
+      "unit": 7,
+      "description": "Labelled body diagram: shoulder, elbow, wrist, knee, ankle, spine, chest, heel",
+      "sourcePage": "approx. p77",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-first-aid-01",
+      "type": "illustration",
+      "unit": 7,
+      "description": "First aid items: bandage, plaster, ice pack, medicine",
+      "sourcePage": "approx. p80",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-natural-wonders-01",
+      "type": "illustration",
+      "unit": 8,
+      "description": "Natural wonders: rainforest, coral reef, glacier, volcano, canyon, waterfall",
+      "sourcePage": "approx. p89",
+      "extracted": false,
+      "path": null
+    },
+    {
+      "assetId": "english-illustration-environment-problems-01",
+      "type": "illustration",
+      "unit": 8,
+      "description": "Environmental problem illustrations: pollution, deforestation, melting glacier",
+      "sourcePage": "approx. p92",
+      "extracted": false,
+      "path": null
+    }
+  ]
+}

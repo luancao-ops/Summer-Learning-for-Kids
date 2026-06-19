@@ -1,0 +1,1977 @@
+{
+  "version": 1,
+  "batchId": "batch-boy-g4-en-03",
+  "sourceReference": "Family and Friends 4 (Oxford University Press) — Units 2-8",
+  "checks": {
+    "answerDistribution": "boy-g4-en-wri-x002: Q1=B Q2=D Q3=A Q4=C Q5=B Q6=D Q7=A Q8=C — A×2 B×2 C×2 D×2, no consecutive repeats | boy-g4-en-wri-x003: Q1=A Q2=C Q3=B Q4=D Q5=A Q6=C Q7=B Q8=D — A×2 B×2 C×2 D×2, no consecutive repeats | boy-g4-en-lis-x001: Q1=B Q2=D Q3=A Q4=C Q5=B Q6=D Q7=A Q8=C — A×2 B×2 C×2 D×2, no consecutive repeats | boy-g4-en-lis-x002: Q1=C Q2=A Q3=D Q4=B Q5=C Q6=A Q7=D Q8=B — A×2 B×2 C×2 D×2, no consecutive repeats | boy-g4-en-spe-x001: Q1=D Q2=B Q3=A Q4=C Q5=B Q6=D Q7=A Q8=C — A×2 B×2 C×2 D×2, no consecutive repeats",
+    "noConsecutiveSameAnswer": true,
+    "languageLevel": "CEFR A1-A2 Grade 4",
+    "contentOriginal": true
+  },
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-en-wri-x002",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 46,
+      "title": "Tính từ so sánh hơn",
+      "learningObjective": "Sau bài này bé sẽ viết đúng comparative adjectives với từ ngắn, từ dài và hai dạng bất quy tắc better, worse.",
+      "shortExplanation": "Tính từ ngắn thường thêm -er, tính từ dài dùng more, còn good và bad có dạng đặc biệt.",
+      "storyContext": "Johnny đang so sánh các vận động viên trong ngày hội thể thao của lớp.",
+      "content": "# Comparative Adjectives ✏️\n\n## Quy tắc ngữ pháp\n\nKhi so sánh hai người hoặc hai vật, ta dùng **comparative adjectives**. Với tính từ ngắn, thường thêm **-er**; với tính từ dài, dùng **more**. Hai dạng đặc biệt cần nhớ là **good → better** và **bad → worse**.\n\n---\n\n## Công thức\n\n| Dạng câu | Cấu trúc | Ví dụ |\n|---|---|---|\n| Tính từ ngắn | A + be + adj-er + than + B | \"Ben is taller than Tom.\" |\n| Tính từ dài | A + be + more + adj + than + B | \"A train is more comfortable than a bike.\" |\n| Bất quy tắc | good → better / bad → worse | \"This book is better than that one.\" |\n\n---\n\n## Đúng ✅ và Sai ❌\n\n| Câu | Nhận xét |\n|---|---|\n| ✅ \"My bag is heavier than yours.\" | Đúng vì heavy → heavier. |\n| ❌ \"My bag is more heavy than yours.\" | Sai vì heavy là tính từ ngắn. |\n| ✅ \"A bus is more crowded than a bike.\" | Đúng vì crowded dài hơn. |\n| ❌ \"A bus is crowded-er than a bike.\" | Sai vì không thêm -er cho crowded. |\n| ✅ \"This game is better than the old one.\" | Đúng vì good → better. |\n| ❌ \"This game is gooder than the old one.\" | Sai vì good không thành gooder. |\n\n---\n\n## Lỗi thường gặp\n\n> ❌ Đừng viết: \"badder\"\n> ✅ Hãy viết: \"worse\"\n> Lý do: bad là tính từ bất quy tắc khi so sánh.\n\n> ❌ Đừng viết: \"more tall\"\n> ✅ Hãy viết: \"taller\"\n> Lý do: tall là tính từ ngắn nên thêm -er.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng?",
+          "options": [
+            "Ben is more tall than Tom.",
+            "Ben is taller than Tom.",
+            "Ben is tall than Tom.",
+            "Ben is tallest than Tom."
+          ],
+          "correctIndex": 1,
+          "explanation": "Tall là tính từ ngắn nên dạng so sánh là taller.",
+          "hint": "Chọn câu dùng -er đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng so sánh đúng của good là gì?",
+          "options": [
+            "gooder",
+            "more good",
+            "best",
+            "better"
+          ],
+          "correctIndex": 3,
+          "explanation": "Good là bất quy tắc nên comparative là better.",
+          "hint": "Đây là một trong hai dạng đặc biệt cần nhớ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với tính từ dài?",
+          "options": [
+            "A train is more comfortable than a bike.",
+            "A train is comfortabler than a bike.",
+            "A train is comfortable than a bike.",
+            "A train more comfortable than a bike."
+          ],
+          "correctIndex": 0,
+          "explanation": "Comfortable là tính từ dài nên dùng more comfortable.",
+          "hint": "Tính từ nhiều âm tiết thường đi với more."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng so sánh đúng của bad là gì?",
+          "options": [
+            "badder",
+            "more bad",
+            "worse",
+            "worst"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bad có comparative đặc biệt là worse.",
+          "hint": "Đừng chọn dạng tận cùng -er."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với heavy?",
+          "options": [
+            "My bag is more heavy than yours.",
+            "My bag is heavier than yours.",
+            "My bag is heavyer than yours.",
+            "My bag heavier than yours is."
+          ],
+          "correctIndex": 1,
+          "explanation": "Heavy đổi y thành i rồi thêm -er: heavier.",
+          "hint": "Nhớ quy tắc với từ tận cùng bằng y."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào nên dùng với more thay vì thêm -er?",
+          "options": [
+            "tall",
+            "fast",
+            "small",
+            "interesting"
+          ],
+          "correctIndex": 3,
+          "explanation": "Interesting là tính từ dài nên dùng more interesting.",
+          "hint": "Chọn từ dài nhất trong bốn từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng nghĩa 'Bài này tốt hơn bài cũ'?",
+          "options": [
+            "This lesson is better than the old one.",
+            "This lesson is gooder than the old one.",
+            "This lesson is more good than the old one.",
+            "This lesson better than the old one is."
+          ],
+          "correctIndex": 0,
+          "explanation": "Better là comparative đúng của good.",
+          "hint": "Đây là dạng bất quy tắc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lỗi trong câu 'This road is more narrow than that road' là gì?",
+          "options": [
+            "Thiếu chủ ngữ",
+            "Sai dấu chấm",
+            "Narrow là tính từ ngắn nên nên dùng narrower",
+            "Thiếu than"
+          ],
+          "correctIndex": 2,
+          "explanation": "Với từ ngắn như narrow ở mức tiểu học, cách thường dùng là narrower than.",
+          "hint": "Hãy xem nên dùng -er hay more."
+        },
+        {
+          "type": "true_false",
+          "text": "Good và bad có dạng so sánh hơn bất quy tắc.",
+          "correct": true,
+          "explanation": "Đúng. Good → better và bad → worse.",
+          "hint": "Nhớ hai cặp đặc biệt trong bài."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: My brother is _____ than me at running. (fast)",
+          "answer": "faster",
+          "explanation": "Fast là tính từ ngắn nên thêm -er thành faster.",
+          "hint": "Đây là từ chỉ tốc độ."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-wri-x002-q1",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ben is more tall than Tom."
+            },
+            {
+              "id": "B",
+              "text": "Ben is taller than Tom."
+            },
+            {
+              "id": "C",
+              "text": "Ben is tall than Tom."
+            },
+            {
+              "id": "D",
+              "text": "Ben is tallest than Tom."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Tall là tính từ ngắn nên dạng so sánh là taller.",
+          "hint": "Chọn câu dùng -er đúng."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q2",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Dạng so sánh đúng của good là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "gooder"
+            },
+            {
+              "id": "B",
+              "text": "more good"
+            },
+            {
+              "id": "C",
+              "text": "best"
+            },
+            {
+              "id": "D",
+              "text": "better"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Good là bất quy tắc nên comparative là better.",
+          "hint": "Đây là một trong hai dạng đặc biệt cần nhớ."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q3",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với tính từ dài?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A train is more comfortable than a bike."
+            },
+            {
+              "id": "B",
+              "text": "A train is comfortabler than a bike."
+            },
+            {
+              "id": "C",
+              "text": "A train is comfortable than a bike."
+            },
+            {
+              "id": "D",
+              "text": "A train more comfortable than a bike."
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Comfortable là tính từ dài nên dùng more comfortable.",
+          "hint": "Tính từ nhiều âm tiết thường đi với more."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q4",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Dạng so sánh đúng của bad là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "badder"
+            },
+            {
+              "id": "B",
+              "text": "more bad"
+            },
+            {
+              "id": "C",
+              "text": "worse"
+            },
+            {
+              "id": "D",
+              "text": "worst"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Bad có comparative đặc biệt là worse.",
+          "hint": "Đừng chọn dạng tận cùng -er."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q5",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với heavy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "My bag is more heavy than yours."
+            },
+            {
+              "id": "B",
+              "text": "My bag is heavier than yours."
+            },
+            {
+              "id": "C",
+              "text": "My bag is heavyer than yours."
+            },
+            {
+              "id": "D",
+              "text": "My bag heavier than yours is."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Heavy đổi y thành i rồi thêm -er: heavier.",
+          "hint": "Nhớ quy tắc với từ tận cùng bằng y."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q6",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Từ nào nên dùng với more thay vì thêm -er?",
+          "options": [
+            {
+              "id": "A",
+              "text": "tall"
+            },
+            {
+              "id": "B",
+              "text": "fast"
+            },
+            {
+              "id": "C",
+              "text": "small"
+            },
+            {
+              "id": "D",
+              "text": "interesting"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Interesting là tính từ dài nên dùng more interesting.",
+          "hint": "Chọn từ dài nhất trong bốn từ."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q7",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng nghĩa 'Bài này tốt hơn bài cũ'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "This lesson is better than the old one."
+            },
+            {
+              "id": "B",
+              "text": "This lesson is gooder than the old one."
+            },
+            {
+              "id": "C",
+              "text": "This lesson is more good than the old one."
+            },
+            {
+              "id": "D",
+              "text": "This lesson better than the old one is."
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Better là comparative đúng của good.",
+          "hint": "Đây là dạng bất quy tắc."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q8",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Lỗi trong câu 'This road is more narrow than that road' là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Thiếu chủ ngữ"
+            },
+            {
+              "id": "B",
+              "text": "Sai dấu chấm"
+            },
+            {
+              "id": "C",
+              "text": "Narrow là tính từ ngắn nên nên dùng narrower"
+            },
+            {
+              "id": "D",
+              "text": "Thiếu than"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Với từ ngắn như narrow ở mức tiểu học, cách thường dùng là narrower than.",
+          "hint": "Hãy xem nên dùng -er hay more."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q9",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Good và bad có dạng so sánh hơn bất quy tắc.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Good → better và bad → worse.",
+          "hint": "Nhớ hai cặp đặc biệt trong bài."
+        },
+        {
+          "id": "boy-g4-en-wri-x002-q10",
+          "lessonId": "boy-g4-en-wri-x002",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: My brother is _____ than me at running. (fast)",
+          "options": [],
+          "correctAnswer": "faster",
+          "explanation": "Fast là tính từ ngắn nên thêm -er thành faster.",
+          "hint": "Đây là từ chỉ tốc độ."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-wri-x003",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 47,
+      "title": "Quy tắc thêm -ed trong past simple",
+      "learningObjective": "Sau bài này bé sẽ viết đúng các động từ quá khứ đều như played, stopped, studied theo các quy tắc thêm -ed phổ biến.",
+      "shortExplanation": "Có động từ chỉ thêm -ed, có động từ gấp đôi phụ âm cuối, và có động từ đổi y thành i rồi thêm -ed.",
+      "storyContext": "Johnny đang viết nhật ký sau giờ học và muốn dùng đúng các động từ quá khứ đều.",
+      "content": "# Past Simple Spelling Rules ✏️\n\n## Quy tắc ngữ pháp\n\nVới nhiều động từ đều, ta tạo thì quá khứ bằng cách thêm **-ed**. Tuy nhiên, cách thêm có vài quy tắc nhỏ: **play → played** (thêm trực tiếp), **stop → stopped** (gấp đôi phụ âm cuối rồi thêm -ed), **study → studied** (đổi y thành i rồi thêm -ed).\n\n---\n\n## Công thức\n\n| Dạng câu | Cấu trúc | Ví dụ |\n|---|---|---|\n| Thêm trực tiếp | verb + ed | \"We played chess.\" |\n| Gấp đôi phụ âm cuối | short vowel + consonant → double + ed | \"He stopped the bike.\" |\n| Đổi y thành i | consonant + y → ied | \"She studied English.\" |\n\n---\n\n## Đúng ✅ và Sai ❌\n\n| Câu | Nhận xét |\n|---|---|\n| ✅ \"They played in the yard.\" | Đúng vì play chỉ thêm -ed. |\n| ❌ \"They plaied in the yard.\" | Sai vì play không đổi y. |\n| ✅ \"The car stopped near the gate.\" | Đúng vì stop gấp đôi p. |\n| ❌ \"The car stoped near the gate.\" | Sai vì thiếu phụ âm gấp đôi. |\n| ✅ \"She studied for the test.\" | Đúng vì study → studied. |\n| ❌ \"She studyed for the test.\" | Sai vì phải đổi y thành i trước khi thêm -ed. |\n\n---\n\n## Lỗi thường gặp\n\n> ❌ Đừng viết: \"stoped\"\n> ✅ Hãy viết: \"stopped\"\n> Lý do: stop là từ ngắn có nguyên âm ngắn + phụ âm cuối.\n\n> ❌ Đừng viết: \"plaied\"\n> ✅ Hãy viết: \"played\"\n> Lý do: play có nguyên âm + y nên chỉ thêm -ed.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của play là gì?",
+          "options": [
+            "played",
+            "plaied",
+            "playd",
+            "playeded"
+          ],
+          "correctIndex": 0,
+          "explanation": "Play chỉ cần thêm -ed thành played.",
+          "hint": "Không đổi y vì trước y là nguyên âm a."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của stop là gì?",
+          "options": [
+            "stoped",
+            "stopedd",
+            "stopped",
+            "stopt"
+          ],
+          "correctIndex": 2,
+          "explanation": "Stop cần gấp đôi p rồi thêm -ed.",
+          "hint": "Đây là từ ngắn kết thúc bằng phụ âm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của study là gì?",
+          "options": [
+            "studyed",
+            "studied",
+            "studyd",
+            "stopped"
+          ],
+          "correctIndex": 1,
+          "explanation": "Study đổi y thành i rồi thêm -ed thành studied.",
+          "hint": "Nhớ quy tắc với phụ âm + y."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng?",
+          "options": [
+            "We plaied football after school.",
+            "We play football after school yesterday.",
+            "We playing football after school.",
+            "We played football after school."
+          ],
+          "correctIndex": 3,
+          "explanation": "Played là dạng quá khứ đều đúng của play.",
+          "hint": "Chọn câu có spelling đúng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao 'stoped' là sai?",
+          "options": [
+            "Vì cần gấp đôi phụ âm cuối thành stopped",
+            "Vì phải đổi o thành a",
+            "Vì không được thêm -ed",
+            "Vì stop là bất quy tắc"
+          ],
+          "correctIndex": 0,
+          "explanation": "Stop là động từ ngắn nên cần gấp đôi p trước khi thêm -ed.",
+          "hint": "Nhìn vào chữ cuối của từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với động từ study?",
+          "options": [
+            "She studyed English last night.",
+            "She study English last night.",
+            "She studied English last night.",
+            "She was studied English last night."
+          ],
+          "correctIndex": 2,
+          "explanation": "Studied là dạng past simple đúng.",
+          "hint": "Đổi y thành i trước khi thêm -ed."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Quy tắc nào đúng cho play → played?",
+          "options": [
+            "Gấp đôi chữ y",
+            "Chỉ thêm -ed",
+            "Đổi y thành i",
+            "Bỏ a trước khi thêm -ed"
+          ],
+          "correctIndex": 1,
+          "explanation": "Play có nguyên âm + y, nên chỉ thêm -ed.",
+          "hint": "Không phải mọi từ có y đều đổi y."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào có lỗi chính tả past simple?",
+          "options": [
+            "They played in the park.",
+            "She studied in her room.",
+            "We cleaned the table.",
+            "He stoped at the red light."
+          ],
+          "correctIndex": 3,
+          "explanation": "Stoped sai vì thiếu chữ p gấp đôi.",
+          "hint": "Tìm câu có dạng quá khứ viết chưa đúng."
+        },
+        {
+          "type": "true_false",
+          "text": "Với study, ta đổi y thành i rồi thêm -ed.",
+          "correct": true,
+          "explanation": "Đúng. Study → studied là quy tắc chuẩn.",
+          "hint": "Đây là ví dụ có phụ âm đứng trước y."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: The bus _____ near the school gate. (stop)",
+          "answer": "stopped",
+          "explanation": "Stop là từ ngắn nên phải gấp đôi p thành stopped.",
+          "hint": "Đừng quên hai chữ p ở giữa."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-wri-x003-q1",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của play là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "played"
+            },
+            {
+              "id": "B",
+              "text": "plaied"
+            },
+            {
+              "id": "C",
+              "text": "playd"
+            },
+            {
+              "id": "D",
+              "text": "playeded"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Play chỉ cần thêm -ed thành played.",
+          "hint": "Không đổi y vì trước y là nguyên âm a."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q2",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của stop là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "stoped"
+            },
+            {
+              "id": "B",
+              "text": "stopedd"
+            },
+            {
+              "id": "C",
+              "text": "stopped"
+            },
+            {
+              "id": "D",
+              "text": "stopt"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Stop cần gấp đôi p rồi thêm -ed.",
+          "hint": "Đây là từ ngắn kết thúc bằng phụ âm."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q3",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Dạng quá khứ đúng của study là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "studyed"
+            },
+            {
+              "id": "B",
+              "text": "studied"
+            },
+            {
+              "id": "C",
+              "text": "studyd"
+            },
+            {
+              "id": "D",
+              "text": "stopped"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Study đổi y thành i rồi thêm -ed thành studied.",
+          "hint": "Nhớ quy tắc với phụ âm + y."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q4",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Câu nào viết đúng?",
+          "options": [
+            {
+              "id": "A",
+              "text": "We plaied football after school."
+            },
+            {
+              "id": "B",
+              "text": "We play football after school yesterday."
+            },
+            {
+              "id": "C",
+              "text": "We playing football after school."
+            },
+            {
+              "id": "D",
+              "text": "We played football after school."
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Played là dạng quá khứ đều đúng của play.",
+          "hint": "Chọn câu có spelling đúng."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q5",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Vì sao 'stoped' là sai?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì cần gấp đôi phụ âm cuối thành stopped"
+            },
+            {
+              "id": "B",
+              "text": "Vì phải đổi o thành a"
+            },
+            {
+              "id": "C",
+              "text": "Vì không được thêm -ed"
+            },
+            {
+              "id": "D",
+              "text": "Vì stop là bất quy tắc"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Stop là động từ ngắn nên cần gấp đôi p trước khi thêm -ed.",
+          "hint": "Nhìn vào chữ cuối của từ."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q6",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Câu nào đúng với động từ study?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She studyed English last night."
+            },
+            {
+              "id": "B",
+              "text": "She study English last night."
+            },
+            {
+              "id": "C",
+              "text": "She studied English last night."
+            },
+            {
+              "id": "D",
+              "text": "She was studied English last night."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Studied là dạng past simple đúng.",
+          "hint": "Đổi y thành i trước khi thêm -ed."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q7",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Quy tắc nào đúng cho play → played?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Gấp đôi chữ y"
+            },
+            {
+              "id": "B",
+              "text": "Chỉ thêm -ed"
+            },
+            {
+              "id": "C",
+              "text": "Đổi y thành i"
+            },
+            {
+              "id": "D",
+              "text": "Bỏ a trước khi thêm -ed"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Play có nguyên âm + y, nên chỉ thêm -ed.",
+          "hint": "Không phải mọi từ có y đều đổi y."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q8",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào có lỗi chính tả past simple?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They played in the park."
+            },
+            {
+              "id": "B",
+              "text": "She studied in her room."
+            },
+            {
+              "id": "C",
+              "text": "We cleaned the table."
+            },
+            {
+              "id": "D",
+              "text": "He stoped at the red light."
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Stoped sai vì thiếu chữ p gấp đôi.",
+          "hint": "Tìm câu có dạng quá khứ viết chưa đúng."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q9",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Với study, ta đổi y thành i rồi thêm -ed.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Study → studied là quy tắc chuẩn.",
+          "hint": "Đây là ví dụ có phụ âm đứng trước y."
+        },
+        {
+          "id": "boy-g4-en-wri-x003-q10",
+          "lessonId": "boy-g4-en-wri-x003",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: The bus _____ near the school gate. (stop)",
+          "options": [],
+          "correctAnswer": "stopped",
+          "explanation": "Stop là từ ngắn nên phải gấp đôi p thành stopped.",
+          "hint": "Đừng quên hai chữ p ở giữa."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-lis-x001",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 48,
+      "title": "Mua đồ ở chợ",
+      "learningObjective": "Sau bài này bé sẽ hiểu một đoạn hội thoại mua bán ở chợ, giá cả đơn giản và các câu lịch sự như Can I have...?, How much is...?.",
+      "shortExplanation": "Bé hãy chú ý xem người mua muốn gì, giá bao nhiêu và người bán trả lời ra sao.",
+      "storyContext": "Johnny đi chợ cùng mẹ và tập nói tiếng Anh với người bán hàng.",
+      "content": "# At the Market 🎧\n\n> 🎧 Nghe đoạn hội thoại sau.\n\n---\n\n## Đoạn hội thoại (Transcript)\n\n[Buyer]: \"Good morning. Can I have two apples and a kilo of tomatoes, please?\"\n[Seller]: \"Of course. The apples are 20,000 dong, and the tomatoes are 30,000 dong.\"\n[Buyer]: \"Thank you. How much is the watermelon?\"\n[Seller]: \"It is 40,000 dong today.\"\n[Buyer]: \"Great. I will take one watermelon too.\"\n[Seller]: \"Here you are. Thank you for shopping here.\"\n\n---\n\n## Từ mới (New Words)\n\n| English | Vietnamese | Heard in dialogue |\n|---|---|---|\n| buyer | người mua | \"[Buyer]...\" |\n| seller | người bán | \"[Seller]...\" |\n| kilo | ki-lô | \"a kilo of tomatoes\" |\n| watermelon | dưa hấu | \"How much is the watermelon?\" |\n| take | lấy, mua | \"I will take one watermelon too.\" |\n| shopping | mua sắm | \"Thank you for shopping here.\" |\n\n---\n\n## Ghi nhớ sau khi nghe\n\n- Người mua muốn táo, cà chua và thêm một quả dưa hấu.\n- Người bán nói giá của từng món rất rõ.\n- Câu hỏi lịch sự và câu hỏi giá đều xuất hiện trong đoạn hội thoại.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Người mua muốn bao nhiêu quả táo?",
+          "options": [
+            "Một quả",
+            "Hai quả",
+            "Ba quả",
+            "Bốn quả"
+          ],
+          "correctIndex": 1,
+          "explanation": "Buyer nói rõ: 'two apples'.",
+          "hint": "Đọc dòng đầu tiên của người mua."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Người mua muốn thêm bao nhiêu cà chua?",
+          "options": [
+            "Hai ki-lô",
+            "Ba quả",
+            "Một túi nhỏ",
+            "Một ki-lô"
+          ],
+          "correctIndex": 3,
+          "explanation": "Buyer nói 'a kilo of tomatoes'.",
+          "hint": "Tìm đơn vị đi với tomatoes."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Táo giá bao nhiêu?",
+          "options": [
+            "20,000 đồng",
+            "30,000 đồng",
+            "40,000 đồng",
+            "50,000 đồng"
+          ],
+          "correctIndex": 0,
+          "explanation": "Seller nói apples are 20,000 dong.",
+          "hint": "Đọc câu trả lời đầu tiên của người bán."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Người mua hỏi giá của món nào?",
+          "options": [
+            "Táo",
+            "Cà chua",
+            "Dưa hấu",
+            "Nước cam"
+          ],
+          "correctIndex": 2,
+          "explanation": "Buyer hỏi: 'How much is the watermelon?'",
+          "hint": "Đọc dòng thứ ba của người mua."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dưa hấu hôm nay giá bao nhiêu?",
+          "options": [
+            "20,000 đồng",
+            "40,000 đồng",
+            "30,000 đồng",
+            "60,000 đồng"
+          ],
+          "correctIndex": 1,
+          "explanation": "Seller trả lời watermelon is 40,000 dong today.",
+          "hint": "Tìm con số ở lời thoại thứ tư."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Người mua quyết định làm gì sau khi nghe giá dưa hấu?",
+          "options": [
+            "Bỏ luôn cả cà chua",
+            "Chỉ mua táo thôi",
+            "Xin giảm giá",
+            "Lấy thêm một quả dưa hấu"
+          ],
+          "correctIndex": 3,
+          "explanation": "Buyer nói: 'I will take one watermelon too.'",
+          "hint": "Đọc dòng thứ năm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'seller' trong hội thoại nghĩa là gì?",
+          "options": [
+            "Người bán",
+            "Người mua",
+            "Người chở hàng",
+            "Người trồng cây"
+          ],
+          "correctIndex": 0,
+          "explanation": "Seller là người bán hàng ở chợ.",
+          "hint": "Nhìn tên người nói đứng trong ngoặc vuông."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào là cách hỏi giá lịch sự trong đoạn hội thoại?",
+          "options": [
+            "Can I have two apples?",
+            "I will take one watermelon too.",
+            "How much is the watermelon?",
+            "Thank you for shopping here."
+          ],
+          "correctIndex": 2,
+          "explanation": "Đây là câu hỏi trực tiếp về giá của dưa hấu.",
+          "hint": "Tìm câu bắt đầu bằng How much."
+        },
+        {
+          "type": "true_false",
+          "text": "Người mua chỉ mua táo và không mua thêm gì khác.",
+          "correct": false,
+          "explanation": "Sai vì người mua còn mua cà chua và thêm một quả dưa hấu.",
+          "hint": "Đếm lại các món trong toàn bộ đoạn hội thoại."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: 'How much is the _____?'",
+          "answer": "watermelon",
+          "explanation": "Người mua hỏi giá quả dưa hấu nên từ đúng là watermelon.",
+          "hint": "Đây là loại quả to, xanh bên ngoài và đỏ bên trong."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-lis-x001-q1",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Người mua muốn bao nhiêu quả táo?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Một quả"
+            },
+            {
+              "id": "B",
+              "text": "Hai quả"
+            },
+            {
+              "id": "C",
+              "text": "Ba quả"
+            },
+            {
+              "id": "D",
+              "text": "Bốn quả"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Buyer nói rõ: 'two apples'.",
+          "hint": "Đọc dòng đầu tiên của người mua."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q2",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Người mua muốn thêm bao nhiêu cà chua?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hai ki-lô"
+            },
+            {
+              "id": "B",
+              "text": "Ba quả"
+            },
+            {
+              "id": "C",
+              "text": "Một túi nhỏ"
+            },
+            {
+              "id": "D",
+              "text": "Một ki-lô"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Buyer nói 'a kilo of tomatoes'.",
+          "hint": "Tìm đơn vị đi với tomatoes."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q3",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Táo giá bao nhiêu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20,000 đồng"
+            },
+            {
+              "id": "B",
+              "text": "30,000 đồng"
+            },
+            {
+              "id": "C",
+              "text": "40,000 đồng"
+            },
+            {
+              "id": "D",
+              "text": "50,000 đồng"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Seller nói apples are 20,000 dong.",
+          "hint": "Đọc câu trả lời đầu tiên của người bán."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q4",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Người mua hỏi giá của món nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Táo"
+            },
+            {
+              "id": "B",
+              "text": "Cà chua"
+            },
+            {
+              "id": "C",
+              "text": "Dưa hấu"
+            },
+            {
+              "id": "D",
+              "text": "Nước cam"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Buyer hỏi: 'How much is the watermelon?'",
+          "hint": "Đọc dòng thứ ba của người mua."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q5",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Dưa hấu hôm nay giá bao nhiêu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20,000 đồng"
+            },
+            {
+              "id": "B",
+              "text": "40,000 đồng"
+            },
+            {
+              "id": "C",
+              "text": "30,000 đồng"
+            },
+            {
+              "id": "D",
+              "text": "60,000 đồng"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Seller trả lời watermelon is 40,000 dong today.",
+          "hint": "Tìm con số ở lời thoại thứ tư."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q6",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Người mua quyết định làm gì sau khi nghe giá dưa hấu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bỏ luôn cả cà chua"
+            },
+            {
+              "id": "B",
+              "text": "Chỉ mua táo thôi"
+            },
+            {
+              "id": "C",
+              "text": "Xin giảm giá"
+            },
+            {
+              "id": "D",
+              "text": "Lấy thêm một quả dưa hấu"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Buyer nói: 'I will take one watermelon too.'",
+          "hint": "Đọc dòng thứ năm."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q7",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Từ 'seller' trong hội thoại nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Người bán"
+            },
+            {
+              "id": "B",
+              "text": "Người mua"
+            },
+            {
+              "id": "C",
+              "text": "Người chở hàng"
+            },
+            {
+              "id": "D",
+              "text": "Người trồng cây"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Seller là người bán hàng ở chợ.",
+          "hint": "Nhìn tên người nói đứng trong ngoặc vuông."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q8",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào là cách hỏi giá lịch sự trong đoạn hội thoại?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Can I have two apples?"
+            },
+            {
+              "id": "B",
+              "text": "I will take one watermelon too."
+            },
+            {
+              "id": "C",
+              "text": "How much is the watermelon?"
+            },
+            {
+              "id": "D",
+              "text": "Thank you for shopping here."
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Đây là câu hỏi trực tiếp về giá của dưa hấu.",
+          "hint": "Tìm câu bắt đầu bằng How much."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q9",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Người mua chỉ mua táo và không mua thêm gì khác.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì người mua còn mua cà chua và thêm một quả dưa hấu.",
+          "hint": "Đếm lại các món trong toàn bộ đoạn hội thoại."
+        },
+        {
+          "id": "boy-g4-en-lis-x001-q10",
+          "lessonId": "boy-g4-en-lis-x001",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống: 'How much is the _____?'",
+          "options": [],
+          "correctAnswer": "watermelon",
+          "explanation": "Người mua hỏi giá quả dưa hấu nên từ đúng là watermelon.",
+          "hint": "Đây là loại quả to, xanh bên ngoài và đỏ bên trong."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-lis-x002",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 49,
+      "title": "Sau giờ học đã làm gì",
+      "learningObjective": "Sau bài này bé sẽ hiểu một đoạn hội thoại về các việc đã làm sau giờ học và trả lời các câu hỏi ở thì quá khứ đơn.",
+      "shortExplanation": "Bé hãy chú ý xem hai người bạn đã làm gì, ở đâu và vào thời điểm nào.",
+      "storyContext": "Johnny và Ben đang kể cho nhau nghe buổi chiều hôm qua của mình.",
+      "content": "# After School 🎧\n\n> 🎧 Nghe đoạn hội thoại sau.\n\n---\n\n## Đoạn hội thoại (Transcript)\n\n[Ben]: \"Hi Johnny! What did you do after school yesterday?\"\n[Johnny]: \"I played football for an hour and then I visited my grandma.\"\n[Ben]: \"Nice! Did you walk to her house?\"\n[Johnny]: \"No, I didn't. Dad drove me there because it started to rain.\"\n[Ben]: \"I stayed at home and finished my science project.\"\n[Johnny]: \"That was a busy afternoon for both of us!\"\n\n---\n\n## Từ mới (New Words)\n\n| English | Vietnamese | Heard in dialogue |\n|---|---|---|\n| after school | sau giờ học | \"after school yesterday\" |\n| visited | đã thăm | \"I visited my grandma\" |\n| drove | đã chở bằng xe | \"Dad drove me there\" |\n| stayed | đã ở lại | \"I stayed at home\" |\n| finished | đã hoàn thành | \"finished my science project\" |\n| busy | bận rộn | \"a busy afternoon\" |\n\n---\n\n## Ghi nhớ sau khi nghe\n\n- Johnny chơi bóng và thăm bà.\n- Trời mưa nên bố chở Johnny đi.\n- Ben ở nhà để hoàn thành dự án khoa học.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Ben hỏi Johnny về thời gian nào?",
+          "options": [
+            "Sáng nay",
+            "Cuối tuần trước",
+            "Sau giờ học hôm qua",
+            "Ngày mai"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ben hỏi: 'What did you do after school yesterday?'",
+          "hint": "Đọc câu hỏi đầu tiên của Ben."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny nói mình đã chơi môn gì?",
+          "options": [
+            "Bóng đá",
+            "Cầu lông",
+            "Bóng rổ",
+            "Cờ vua"
+          ],
+          "correctIndex": 0,
+          "explanation": "Johnny trả lời: 'I played football for an hour.'",
+          "hint": "Tìm hoạt động đầu tiên Johnny nhắc tới."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi chơi bóng, Johnny đã đi đâu?",
+          "options": [
+            "Về thư viện",
+            "Ra chợ",
+            "Tới công viên",
+            "Đến thăm bà"
+          ],
+          "correctIndex": 3,
+          "explanation": "Johnny nói sau đó mình visited my grandma.",
+          "hint": "Đọc hết câu trả lời đầu tiên của Johnny."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny có đi bộ đến nhà bà không?",
+          "options": [
+            "Có",
+            "Không",
+            "Chỉ đi nửa đường",
+            "Bài không nói"
+          ],
+          "correctIndex": 1,
+          "explanation": "Johnny trả lời 'No, I didn't.'",
+          "hint": "Đọc câu trả lời cho câu hỏi của Ben."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao bố chở Johnny đi?",
+          "options": [
+            "Vì bà ở quá gần",
+            "Vì Johnny quên giày",
+            "Vì trời bắt đầu mưa",
+            "Vì bố muốn mua đồ"
+          ],
+          "correctIndex": 2,
+          "explanation": "Johnny nói Dad drove me there because it started to rain.",
+          "hint": "Tìm mệnh đề bắt đầu bằng because."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ben đã làm gì ở nhà?",
+          "options": [
+            "Hoàn thành dự án khoa học",
+            "Nấu bữa tối",
+            "Chơi điện tử",
+            "Đạp xe quanh hồ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ben nói mình stayed at home and finished my science project.",
+          "hint": "Đọc lời thoại thứ năm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ 'drove' trong đoạn hội thoại nghĩa là gì?",
+          "options": [
+            "Đã đi bộ",
+            "Đã đứng chờ",
+            "Đã chạy nhanh",
+            "Đã chở hoặc lái xe"
+          ],
+          "correctIndex": 3,
+          "explanation": "Drove là quá khứ của drive, nghĩa là lái hoặc chở bằng xe.",
+          "hint": "Đó là việc bố làm vì trời mưa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào cho thấy cả hai đều bận vào buổi chiều?",
+          "options": [
+            "Hi Johnny!",
+            "That was a busy afternoon for both of us!",
+            "Did you walk to her house?",
+            "I stayed at home."
+          ],
+          "correctIndex": 1,
+          "explanation": "Johnny kết luận rằng đó là một buổi chiều bận rộn cho cả hai.",
+          "hint": "Tìm câu cuối cùng của đoạn hội thoại."
+        },
+        {
+          "type": "true_false",
+          "text": "Ben ra ngoài chơi bóng cùng Johnny sau giờ học.",
+          "correct": false,
+          "explanation": "Sai vì Ben ở nhà và hoàn thành dự án khoa học.",
+          "hint": "So sánh hoạt động của Johnny và Ben."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống theo lời thoại: 'Dad drove me there because it started to _____.'",
+          "answer": "rain",
+          "explanation": "Lý do bố chở Johnny là vì trời bắt đầu mưa.",
+          "hint": "Đây là động từ chỉ thời tiết xấu có nước từ trời rơi xuống."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-lis-x002-q1",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Ben hỏi Johnny về thời gian nào?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sáng nay"
+            },
+            {
+              "id": "B",
+              "text": "Cuối tuần trước"
+            },
+            {
+              "id": "C",
+              "text": "Sau giờ học hôm qua"
+            },
+            {
+              "id": "D",
+              "text": "Ngày mai"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Ben hỏi: 'What did you do after school yesterday?'",
+          "hint": "Đọc câu hỏi đầu tiên của Ben."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q2",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Johnny nói mình đã chơi môn gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bóng đá"
+            },
+            {
+              "id": "B",
+              "text": "Cầu lông"
+            },
+            {
+              "id": "C",
+              "text": "Bóng rổ"
+            },
+            {
+              "id": "D",
+              "text": "Cờ vua"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Johnny trả lời: 'I played football for an hour.'",
+          "hint": "Tìm hoạt động đầu tiên Johnny nhắc tới."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q3",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Sau khi chơi bóng, Johnny đã đi đâu?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Về thư viện"
+            },
+            {
+              "id": "B",
+              "text": "Ra chợ"
+            },
+            {
+              "id": "C",
+              "text": "Tới công viên"
+            },
+            {
+              "id": "D",
+              "text": "Đến thăm bà"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Johnny nói sau đó mình visited my grandma.",
+          "hint": "Đọc hết câu trả lời đầu tiên của Johnny."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q4",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Johnny có đi bộ đến nhà bà không?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Có"
+            },
+            {
+              "id": "B",
+              "text": "Không"
+            },
+            {
+              "id": "C",
+              "text": "Chỉ đi nửa đường"
+            },
+            {
+              "id": "D",
+              "text": "Bài không nói"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Johnny trả lời 'No, I didn't.'",
+          "hint": "Đọc câu trả lời cho câu hỏi của Ben."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q5",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Vì sao bố chở Johnny đi?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vì bà ở quá gần"
+            },
+            {
+              "id": "B",
+              "text": "Vì Johnny quên giày"
+            },
+            {
+              "id": "C",
+              "text": "Vì trời bắt đầu mưa"
+            },
+            {
+              "id": "D",
+              "text": "Vì bố muốn mua đồ"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Johnny nói Dad drove me there because it started to rain.",
+          "hint": "Tìm mệnh đề bắt đầu bằng because."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q6",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Ben đã làm gì ở nhà?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hoàn thành dự án khoa học"
+            },
+            {
+              "id": "B",
+              "text": "Nấu bữa tối"
+            },
+            {
+              "id": "C",
+              "text": "Chơi điện tử"
+            },
+            {
+              "id": "D",
+              "text": "Đạp xe quanh hồ"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Ben nói mình stayed at home and finished my science project.",
+          "hint": "Đọc lời thoại thứ năm."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q7",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Từ 'drove' trong đoạn hội thoại nghĩa là gì?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Đã đi bộ"
+            },
+            {
+              "id": "B",
+              "text": "Đã đứng chờ"
+            },
+            {
+              "id": "C",
+              "text": "Đã chạy nhanh"
+            },
+            {
+              "id": "D",
+              "text": "Đã chở hoặc lái xe"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Drove là quá khứ của drive, nghĩa là lái hoặc chở bằng xe.",
+          "hint": "Đó là việc bố làm vì trời mưa."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q8",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Câu nào cho thấy cả hai đều bận vào buổi chiều?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hi Johnny!"
+            },
+            {
+              "id": "B",
+              "text": "That was a busy afternoon for both of us!"
+            },
+            {
+              "id": "C",
+              "text": "Did you walk to her house?"
+            },
+            {
+              "id": "D",
+              "text": "I stayed at home."
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Johnny kết luận rằng đó là một buổi chiều bận rộn cho cả hai.",
+          "hint": "Tìm câu cuối cùng của đoạn hội thoại."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q9",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Ben ra ngoài chơi bóng cùng Johnny sau giờ học.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "false",
+          "explanation": "Sai vì Ben ở nhà và hoàn thành dự án khoa học.",
+          "hint": "So sánh hoạt động của Johnny và Ben."
+        },
+        {
+          "id": "boy-g4-en-lis-x002-q10",
+          "lessonId": "boy-g4-en-lis-x002",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền vào chỗ trống theo lời thoại: 'Dad drove me there because it started to _____.'",
+          "options": [],
+          "correctAnswer": "rain",
+          "explanation": "Lý do bố chở Johnny là vì trời bắt đầu mưa.",
+          "hint": "Đây là động từ chỉ thời tiết xấu có nước từ trời rơi xuống."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-en-spe-x001",
+      "subjectId": "english",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "review",
+      "orderIndex": 50,
+      "title": "Phát âm /θ/ và /ð/ với th",
+      "learningObjective": "Sau bài này bé sẽ phân biệt tốt hơn hai âm /θ/ và /ð/ trong các từ think, three, mouth và the, this, that.",
+      "shortExplanation": "Cả hai âm đều đặt lưỡi gần răng, nhưng /θ/ bật hơi mạnh hơn còn /ð/ có tiếng rung nhẹ hơn.",
+      "storyContext": "Johnny đang luyện đọc một đoạn giới thiệu khoa học trước lớp.",
+      "content": "# /θ/ and /ð/ 🗣️\n\n## Quy tắc phát âm\n\nÂm **/θ/** là âm gió, không rung cổ họng, như trong **think**, **three**, **mouth**. Âm **/ð/** có rung nhẹ ở cổ họng, như trong **the**, **this**, **that**. Cả hai âm thường viết bằng **th**.\n\n---\n\n## Hướng dẫn phát âm\n\n| English word | Gợi ý phát âm (Vietnamese) | Ví dụ câu |\n|---|---|---|\n| think | /thinh gió/ | \"Think about the answer.\" |\n| three | /thrii gió/ | \"I have three books.\" |\n| mouth | /mao-th gió/ | \"Open your mouth.\" |\n| the | /dờ nhẹ/ | \"The cat is black.\" |\n| this | /đis nhẹ/ | \"This is my pen.\" |\n| that | /đat nhẹ/ | \"That toy is mine.\" |\n\n---\n\n## Cặp từ dễ nhầm\n\n| Word A | Word B | Khác nhau ở |\n|---|---|---|\n| think | this | /θ/ gió vs /ð/ rung |\n| three | the | /θ/ gió vs /ð/ rung |\n| mouth | that | cuối từ /θ/ vs đầu từ /ð/ |\n\n---\n\n## Hội thoại mẫu\n\n[Johnny]: \"This is the third thing I want to show.\"\n[Ben]: \"I think that is a good idea.\"\n[Johnny]: \"Put your thumb near your mouth and say three.\"\n[Ben]: \"Then say this and that more softly.\"\n\nLuyện đọc chậm từng từ rồi đặt tay lên cổ để cảm nhận âm /ð/ có rung nhẹ hơn.",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào có âm /θ/ gió?",
+          "options": [
+            "this",
+            "the",
+            "that",
+            "think"
+          ],
+          "correctIndex": 3,
+          "explanation": "Think có âm /θ/ không rung cổ họng.",
+          "hint": "Chọn từ mở đầu bằng th nhưng nghe như hơi gió."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào có âm /ð/ rung nhẹ?",
+          "options": [
+            "three",
+            "this",
+            "mouth",
+            "think"
+          ],
+          "correctIndex": 1,
+          "explanation": "This có âm /ð/ rung nhẹ ở đầu từ.",
+          "hint": "Đặt tay lên cổ để nhớ nhóm từ này."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cặp từ nào cho thấy rõ sự khác nhau giữa /θ/ và /ð/?",
+          "options": [
+            "think / this",
+            "cat / cut",
+            "ship / sheep",
+            "pen / pan"
+          ],
+          "correctIndex": 0,
+          "explanation": "Think dùng /θ/, còn this dùng /ð/ nên là cặp so sánh tốt.",
+          "hint": "Chọn cặp có cả hai âm th khác nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Theo bài học, âm /ð/ có điểm gì khác âm /θ/?",
+          "options": [
+            "Âm /ð/ luôn rất dài",
+            "Âm /ð/ không cần dùng lưỡi",
+            "Âm /ð/ có rung nhẹ ở cổ họng",
+            "Âm /ð/ không viết bằng th"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài giải thích /ð/ là âm có rung nhẹ, còn /θ/ là âm gió.",
+          "hint": "So sánh phần quy tắc đầu bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào trong hội thoại mẫu chứa âm /θ/?",
+          "options": [
+            "this",
+            "third",
+            "that",
+            "the"
+          ],
+          "correctIndex": 1,
+          "explanation": "Third có âm /θ/ ở đầu.",
+          "hint": "Đọc dòng đầu của Johnny."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Từ nào có cùng âm đầu với 'the'?",
+          "options": [
+            "think",
+            "three",
+            "mouth",
+            "that"
+          ],
+          "correctIndex": 3,
+          "explanation": "The và that đều bắt đầu bằng /ð/.",
+          "hint": "Chọn từ cùng nhóm với this, the, that."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào nên dùng để luyện cả hai âm /θ/ và /ð/?",
+          "options": [
+            "I think that is the third toy.",
+            "This cat is small.",
+            "She sees three trees.",
+            "The dog runs fast."
+          ],
+          "correctIndex": 0,
+          "explanation": "Câu này có think /θ/ và that, the /ð/, third /θ/.",
+          "hint": "Tìm câu chứa nhiều từ có th nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu muốn luyện âm cuối /θ/, từ nào phù hợp nhất?",
+          "options": [
+            "this",
+            "the",
+            "mouth",
+            "that"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mouth kết thúc bằng âm /θ/ rõ ràng.",
+          "hint": "Chọn từ mà âm th nằm ở cuối."
+        },
+        {
+          "type": "true_false",
+          "text": "Các từ the, this, that thường thuộc nhóm âm /ð/.",
+          "correct": true,
+          "explanation": "Đúng. Đây là ba ví dụ cơ bản của âm /ð/ trong bài.",
+          "hint": "Nhìn lại bảng phát âm."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Điền từ còn thiếu trong cặp luyện âm: think / _____",
+          "answer": "this",
+          "explanation": "Think / this là cặp so sánh hai âm th rất quen thuộc.",
+          "hint": "Từ cần điền nghĩa là 'này'."
+        }
+      ],
+      "questions": [
+        {
+          "id": "boy-g4-en-spe-x001-q1",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "Từ nào có âm /θ/ gió?",
+          "options": [
+            {
+              "id": "A",
+              "text": "this"
+            },
+            {
+              "id": "B",
+              "text": "the"
+            },
+            {
+              "id": "C",
+              "text": "that"
+            },
+            {
+              "id": "D",
+              "text": "think"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Think có âm /θ/ không rung cổ họng.",
+          "hint": "Chọn từ mở đầu bằng th nhưng nghe như hơi gió."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q2",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Từ nào có âm /ð/ rung nhẹ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "three"
+            },
+            {
+              "id": "B",
+              "text": "this"
+            },
+            {
+              "id": "C",
+              "text": "mouth"
+            },
+            {
+              "id": "D",
+              "text": "think"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "This có âm /ð/ rung nhẹ ở đầu từ.",
+          "hint": "Đặt tay lên cổ để nhớ nhóm từ này."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q3",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "Cặp từ nào cho thấy rõ sự khác nhau giữa /θ/ và /ð/?",
+          "options": [
+            {
+              "id": "A",
+              "text": "think / this"
+            },
+            {
+              "id": "B",
+              "text": "cat / cut"
+            },
+            {
+              "id": "C",
+              "text": "ship / sheep"
+            },
+            {
+              "id": "D",
+              "text": "pen / pan"
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Think dùng /θ/, còn this dùng /ð/ nên là cặp so sánh tốt.",
+          "hint": "Chọn cặp có cả hai âm th khác nhau."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q4",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Theo bài học, âm /ð/ có điểm gì khác âm /θ/?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Âm /ð/ luôn rất dài"
+            },
+            {
+              "id": "B",
+              "text": "Âm /ð/ không cần dùng lưỡi"
+            },
+            {
+              "id": "C",
+              "text": "Âm /ð/ có rung nhẹ ở cổ họng"
+            },
+            {
+              "id": "D",
+              "text": "Âm /ð/ không viết bằng th"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Bài giải thích /ð/ là âm có rung nhẹ, còn /θ/ là âm gió.",
+          "hint": "So sánh phần quy tắc đầu bài."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q5",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "Từ nào trong hội thoại mẫu chứa âm /θ/?",
+          "options": [
+            {
+              "id": "A",
+              "text": "this"
+            },
+            {
+              "id": "B",
+              "text": "third"
+            },
+            {
+              "id": "C",
+              "text": "that"
+            },
+            {
+              "id": "D",
+              "text": "the"
+            }
+          ],
+          "correctAnswer": "B",
+          "explanation": "Third có âm /θ/ ở đầu.",
+          "hint": "Đọc dòng đầu của Johnny."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q6",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "Từ nào có cùng âm đầu với 'the'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "think"
+            },
+            {
+              "id": "B",
+              "text": "three"
+            },
+            {
+              "id": "C",
+              "text": "mouth"
+            },
+            {
+              "id": "D",
+              "text": "that"
+            }
+          ],
+          "correctAnswer": "D",
+          "explanation": "The và that đều bắt đầu bằng /ð/.",
+          "hint": "Chọn từ cùng nhóm với this, the, that."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q7",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Câu nào nên dùng để luyện cả hai âm /θ/ và /ð/?",
+          "options": [
+            {
+              "id": "A",
+              "text": "I think that is the third toy."
+            },
+            {
+              "id": "B",
+              "text": "This cat is small."
+            },
+            {
+              "id": "C",
+              "text": "She sees three trees."
+            },
+            {
+              "id": "D",
+              "text": "The dog runs fast."
+            }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Câu này có think /θ/ và that, the /ð/, third /θ/.",
+          "hint": "Tìm câu chứa nhiều từ có th nhất."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q8",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Nếu muốn luyện âm cuối /θ/, từ nào phù hợp nhất?",
+          "options": [
+            {
+              "id": "A",
+              "text": "this"
+            },
+            {
+              "id": "B",
+              "text": "the"
+            },
+            {
+              "id": "C",
+              "text": "mouth"
+            },
+            {
+              "id": "D",
+              "text": "that"
+            }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Mouth kết thúc bằng âm /θ/ rõ ràng.",
+          "hint": "Chọn từ mà âm th nằm ở cuối."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q9",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Các từ the, this, that thường thuộc nhóm âm /ð/.",
+          "options": [
+            {
+              "id": "true",
+              "text": "True"
+            },
+            {
+              "id": "false",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "true",
+          "explanation": "Đúng. Đây là ba ví dụ cơ bản của âm /ð/ trong bài.",
+          "hint": "Nhìn lại bảng phát âm."
+        },
+        {
+          "id": "boy-g4-en-spe-x001-q10",
+          "lessonId": "boy-g4-en-spe-x001",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "Điền từ còn thiếu trong cặp luyện âm: think / _____",
+          "options": [],
+          "correctAnswer": "this",
+          "explanation": "Think / this là cặp so sánh hai âm th rất quen thuộc.",
+          "hint": "Từ cần điền nghĩa là 'này'."
+        }
+      ]
+    }
+  ]
+}

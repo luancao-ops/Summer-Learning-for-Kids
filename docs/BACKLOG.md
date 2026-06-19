@@ -1176,3 +1176,46 @@ Cho phép học sinh đánh dấu câu hỏi có vấn đề ngay trong lúc là
 - [x] "Đã xem & xử lý" marks resolved and removes from list
 - [x] `npx tsc --noEmit` zero errors
 - [x] Migration applied successfully
+
+---
+
+## Epic 23 — Science & Life Skills Subject (Sprint 9)
+
+> **Yêu cầu từ phụ huynh (2026-06-18):** Thêm môn học thứ 4 "Kỹ năng sống" (`science_life_skills`) cho cả 2 học sinh. Nội dung tập trung vào kỹ năng sống và hiểu biết về thế giới xung quanh phù hợp lứa tuổi 8-10.
+
+**P1** `TICKET-055` ✅ **Science & Life Skills Subject Activation** *(Done — Sprint 9, 2026-06-18)*
+
+Thêm môn học `science_life_skills` (Kỹ năng sống) vào hệ thống. Không có migration schema — Subject model đã chấp nhận bất kỳ string ID nào.
+
+**DB changes (targeted upsert, no data wiped):**
+- `Subject` record inserted: `{id: 'science_life_skills', label: 'Kỹ năng sống', emoji: '🌱', orderIndex: 4}`
+- `Badge` record inserted: `{id: 'subject_science_life_skills_5', name: 'Nhà Khám Phá Kỹ Năng', xpReward: 40}`
+
+**Files modified:**
+- `summer-quest/lib/content-import.ts` — added `science_life_skills` to `SubjectId` union type
+- `summer-quest/prisma/seed.ts` — added subject + badge definitions (not re-run; reference only)
+- `docs/00_AGENT_INDEX.md` — Subject IDs updated
+- `docs/TECHNICAL.md` — Subject table updated
+- `docs/AI_DATA_STANDARDS.md` — subjectId field updated
+- `docs/CONTENT_IMPORT.md` — troubleshooting FK fix updated
+- `docs/ARCHITECTURE_BASELINE.md` — Subject row, Limitations table, Current Subjects table updated
+- `docs/LESSON_CREATION_GUIDE.md` — Section 5 filled + pre-creation checklist updated
+
+**New files:**
+- `modules/science_life_skills/MODULE.md` — module status
+- `modules/science_life_skills/README.md` — developer guide
+- `modules/science_life_skills/LESSON_CREATION_GUIDE.md` — full content creation guide
+
+**How it works:**
+- Dashboard is fully data-driven — queries all subjects from DB dynamically
+- No UI code changes needed; new subject card auto-appears when DB record exists
+- Lesson ID pattern: `{target}-g{N}-sls-x{NNN}` (e.g. `girl-g5-sls-x001`)
+- Batch file pattern: `batch-{target}-g{N}-sls-{n}.json`
+- Badge auto-awards when student completes 5 lessons (rewards.ts builds badge ID dynamically)
+
+**Acceptance criteria:** ✅ All met
+- [x] `science_life_skills` subject record in DB with Vietnamese label
+- [x] Badge `subject_science_life_skills_5` in DB
+- [x] TypeScript `SubjectId` type updated — compiles without errors
+- [x] Dashboard shows "Kỹ năng sống 🌱" card for both students
+- [x] No student progress records modified

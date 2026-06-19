@@ -12,7 +12,7 @@ Every lesson in a manifest must include:
 | Field | Type | Rule |
 |---|---|---|
 | `id` | string | Stable, unique. Format: `{studentTarget}-{grade}-{subject}-{slug}`. Never reuse. |
-| `subjectId` | string | One of: `math`, `vietnamese`, `english` |
+| `subjectId` | string | One of: `math`, `vietnamese`, `english`, `science_life_skills` |
 | `studentTarget` | string | `"girl"` or `"boy"` |
 | `grade` | int | Current grade (e.g. `4` for Grade 4) |
 | `phase` | string | `"review"` for review lessons; `"new"` for new curriculum content |
@@ -76,19 +76,21 @@ Write each question so the correct answer is whichever option letter genuinely c
 
 ## Manifest File Format
 
+> ⚠️ **Use `checks`, not `questions`.** The import script (`lib/content-import.ts`) reads a `checks` array with `options: string[]` and `correctIndex`/`correct`/`answer`. The old `questions` format with `correctAnswer: "A"` does NOT work and causes import failure.
+
 ```json
 {
   "version": 1,
-  "batchId": "batch-{subject}-{studentTarget}-{grade}-{n}",
+  "batchId": "batch-{studentTarget}-g{grade}-{subject}-{n}",
   "defaults": {
-    "approved": true,
+    "approved": false,
     "minimumQuestions": 10
   },
   "lessons": [
     {
-      "id": "...",
-      "subjectId": "...",
-      "studentTarget": "...",
+      "id": "{studentTarget}-g{grade}-{subject}-x{NNN}",
+      "subjectId": "math",
+      "studentTarget": "girl",
       "grade": 4,
       "phase": "review",
       "orderIndex": 10,
@@ -96,13 +98,48 @@ Write each question so the correct answer is whichever option letter genuinely c
       "learningObjective": "...",
       "shortExplanation": "...",
       "content": "...",
-      "storyContext": null,
-      "rewardConfig": "{\"xp\":10,\"coins\":5}",
-      "questions": [ ... ]
+      "storyContext": "...",
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Question text?",
+          "options": ["Option A text", "Option B text", "Option C text", "Option D text"],
+          "correctIndex": 1,
+          "explanation": "Why B is correct...",
+          "hint": "Optional hint..."
+        },
+        {
+          "type": "true_false",
+          "text": "True/false statement?",
+          "correct": false,
+          "explanation": "Why this is false...",
+          "hint": "Optional hint..."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Con cần uống ___ ly nước mỗi ngày.",
+          "answer": "6 đến 8",
+          "explanation": "The correct answer is...",
+          "hint": "Optional hint..."
+        }
+      ]
     }
   ]
 }
 ```
+
+### Manifest field notes
+
+| Field | Notes |
+|---|---|
+| `batchId` | Unique batch identifier. Naming convention: `batch-{studentTarget}-g{grade}-{subject}-{n}` |
+| `defaults.approved` | `false` for all AI-generated content (parent must approve at `/parent/review`) |
+| `storyContext` | **Must be a non-empty string.** The import validator rejects empty or null storyContext. |
+| `checks[].options` | **Array of strings** for MC — NOT objects. `["Option A", "Option B", "Option C", "Option D"]` |
+| `checks[].correctIndex` | **0-based integer** for MC: `0`=A, `1`=B, `2`=C, `3`=D |
+| `checks[].correct` | **Boolean** for true_false: `true` or `false` |
+| `checks[].answer` | **String** for fill_blank — the exact expected answer text |
+| `rewardConfig` | Not a manifest field — the import script computes this from `defaults.coins` / `defaults.bonusCoins` |
 
 ---
 
@@ -139,5 +176,101 @@ Write each question so the correct answer is whichever option letter genuinely c
 | boy-g4-vi | boy-g4-vi-x001 to x025 | 32–56 |
 | boy-g3-en | boy-g3-en-x001 to x025 | 12–36 |
 | boy-g4-en | boy-g4-en-x001 to x025 | 37–61 |
+| girl-g5-sls | girl-g5-sls-x001 to x010 | 1–10 |
+| boy-g4-sls | boy-g4-sls-x001 to x010 | 1–10 |
 
 When adding new batches, start IDs and orderIndex values after the highest reserved value above.
+
+---
+
+## Knowledge Package Standard
+
+A Knowledge Package is the structured, permanent form of an imported textbook. It lives at:
+
+```
+imports/{subject}/grade{N}/{BookSlug}/
+```
+
+All 6 files are required before a Knowledge Package is considered complete:
+
+| File | Purpose | Required |
+|---|---|---|
+| `manifest.json` | Package identity, source metadata, completeness status, parent review record | ✅ |
+| `curriculum.json` | Unit/chapter map — titles, page ranges, topics, learning objectives, skills | ✅ |
+| `vocabulary.json` | All vocabulary words: `word`, `partOfSpeech`, `definition`, `example`, `vietnameseHint` | ✅ |
+| `grammar.json` | All grammar structures: form tables, examples, common errors, teaching notes, Vietnamese notes | ✅ |
+| `assessment_seed.json` | Question topics and stems per unit — input for quiz generation, NOT actual quizzes | ✅ |
+| `assets.json` | Asset inventory: descriptions, types, page estimates, extraction status | ✅ |
+
+### manifest.json Schema
+
+```json
+{
+  "packageId": "{subject}-g{N}-{BookSlug}",
+  "sourceId": "src-{subject}-g{N}-{title-slug}",
+  "title": "Book Title",
+  "subject": "{subject}",
+  "grade": {N},
+  "publisher": "Publisher Name",
+  "targetStudents": ["girl", "boy"],
+  "extractedAt": "YYYY-MM-DD",
+  "status": "knowledge-extracted",
+  "files": {
+    "curriculum": true,
+    "vocabulary": true,
+    "grammar": true,
+    "assessmentSeed": true,
+    "assets": true
+  },
+  "parentReview": {
+    "reviewedAt": "YYYY-MM-DD",
+    "approvedUnits": [1, 2, 3, 4],
+    "skippedUnits": [],
+    "notes": ""
+  },
+  "lessonsGenerated": {
+    "count": 0,
+    "importedToDb": false,
+    "importedAt": null,
+    "manifestFiles": []
+  }
+}
+```
+
+### assessment_seed.json Schema
+
+Per-unit seed data for quiz generation. This is NOT a quiz manifest — it is source material for writing questions.
+
+```json
+{
+  "packageId": "{subject}-g{N}-{BookSlug}",
+  "units": [
+    {
+      "unit": 1,
+      "unitTitle": "Unit title",
+      "assessmentTopics": [
+        "Topic 1 — describe what concept to assess",
+        "Topic 2"
+      ],
+      "questionStems": [
+        "Stem question 1?",
+        "Stem question 2 — ___ is the answer.",
+        "True or false: statement here."
+      ],
+      "vocabularyPriority": ["word1", "word2", "word3"],
+      "grammarPatterns": ["Pattern 1 name", "Pattern 2 name"],
+      "skillAreas": ["vocabulary-meaning", "grammar-application", "reading-comprehension"]
+    }
+  ]
+}
+```
+
+### Rules
+
+| Rule | Detail |
+|---|---|
+| Use KP, not PDF | Once a Knowledge Package exists, all lesson generation reads from `imports/`, not the PDF |
+| Vietnamese hints required | Every vocabulary word must have `vietnameseHint` — students are native Vietnamese speakers |
+| assessment_seed ≠ quiz | Stems in assessment_seed are inputs for generating questions, never stored in the DB directly |
+| Assets may be unextracted | Set `extracted: false` when PDF rendering tools are unavailable; catalogue expected assets anyway |
+| Incomplete KP = blocked | Do not generate lessons from a KP that is missing any of the 6 required files |

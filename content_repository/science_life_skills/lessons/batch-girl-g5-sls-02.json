@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "batchId": "batch-girl-g5-sls-02",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-sls-x006",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 6,
+      "title": "Ăn chậm và nhai kỹ",
+      "learningObjective": "Sau bài này Yumi sẽ hiểu vì sao cần ăn chậm, nhai kỹ và biết cách tạo thói quen ăn uống lành mạnh.",
+      "shortExplanation": "Ăn chậm và nhai kỹ giúp cơ thể tiêu hóa tốt hơn và con cảm thấy no đúng lúc. Đây là bí quyết ăn ngon và giữ sức khỏe!",
+      "content": "## 🍱 Tình huống\n\nYumi vừa về nhà đã thấy đói bụng. Yumi ăn thật nhanh để còn đi chơi. Sau đó Yumi thấy bụng khó chịu và đau. Tại sao vậy?\n\n## 🌸 Điều quan trọng\n\nKhi con ăn quá nhanh, dạ dày không có đủ thời gian báo cho não biết là đã đủ no. Vì vậy con có thể ăn quá nhiều mà không biết. Nhai kỹ giúp thức ăn được nghiền nhuyễn trước, giúp dạ dày làm việc dễ dàng hơn.\n\nNước bọt trong miệng chứa enzyme bắt đầu tiêu hóa thức ăn ngay từ khi con nhai. Nhai kỹ càng giúp enzyme hoạt động tốt hơn.\n\n## ✨ Cách ăn đúng\n\n- Nhai ít nhất 20 lần trước khi nuốt mỗi miếng\n- Đặt đũa hoặc muỗng xuống giữa các miếng\n- Uống nước từng ngụm nhỏ trong bữa ăn\n- Không xem điện thoại hay tivi khi ăn\n- Ăn cùng gia đình và trò chuyện vui vẻ\n\n## 💝 Lợi ích\n\n- Tiêu hóa tốt, không bị đau bụng sau ăn\n- Nhận ra khi đủ no để không ăn quá nhiều\n- Cảm nhận được hương vị món ăn ngon hơn\n- Không bị nghẹn hay sặc thức ăn\n- Cơ thể hấp thụ chất dinh dưỡng đầy đủ\n\n## 🌟 Thực hành\n\nBữa tối hôm nay con hãy thử đặt đũa xuống sau mỗi miếng ăn và nhai thật kỹ. Con sẽ thấy bữa ăn ngon hơn và no lâu hơn đấy!",
+      "storyContext": "Công chúa Yumi khám phá bí mật của bữa sáng ngon lành giúp cô luôn tràn đầy năng lượng suốt cả ngày dài.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao ăn quá nhanh có thể khiến con ăn quá nhiều mà không biết?",
+          "options": [
+            "Vì não cần thời gian để nhận tín hiệu no từ dạ dày",
+            "Vì thức ăn nhanh tan trong dạ dày",
+            "Vì ăn nhanh giúp thức ăn ngon hơn",
+            "Vì ăn nhanh giúp cơ thể hấp thụ nhiều chất hơn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Não cần khoảng 20 phút để nhận tín hiệu no từ dạ dày. Nếu ăn quá nhanh, con sẽ ăn nhiều hơn mức cần trước khi cảm thấy no.",
+          "hint": "Nghĩ về thời gian não cần để nhận tín hiệu từ dạ dày."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nhai kỹ có lợi gì cho tiêu hóa?",
+          "options": [
+            "Giúp thức ăn trông đẹp hơn",
+            "Không có lợi ích gì đặc biệt",
+            "Giúp thức ăn được nghiền nhuyễn và enzyme trong nước bọt bắt đầu tiêu hóa",
+            "Giúp thức ăn đi qua cổ họng nhanh hơn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhai kỹ giúp thức ăn được nghiền nhỏ và enzyme trong nước bọt bắt đầu tiêu hóa tinh bột ngay từ trong miệng.",
+          "hint": "Nước bọt có chứa chất gì đặc biệt giúp tiêu hóa?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách nào giúp con ăn chậm hơn trong bữa ăn?",
+          "options": [
+            "Xem điện thoại để bớt nhớ đến việc ăn",
+            "Ăn một mình để không bị phân tâm",
+            "Ăn thật nhanh để còn đi làm việc khác",
+            "Đặt đũa xuống giữa các miếng và nhai đủ 20 lần"
+          ],
+          "correctIndex": 3,
+          "explanation": "Đặt đũa xuống giữa các miếng ăn là cách đơn giản để tạo khoảng dừng và nhai kỹ hơn.",
+          "hint": "Cần tạo khoảng dừng giữa các miếng ăn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì có thể xảy ra nếu con ăn quá nhanh?",
+          "options": [
+            "Con sẽ hấp thụ dinh dưỡng tốt hơn",
+            "Bụng đau, khó chịu và có thể bị nghẹn",
+            "Con sẽ không cảm thấy đói nữa",
+            "Không có gì xảy ra cả"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ăn quá nhanh có thể gây đau bụng, khó tiêu và nguy cơ bị nghẹn thức ăn vào cổ họng.",
+          "hint": "Dạ dày cần thời gian để xử lý thức ăn đúng cách."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao không nên xem điện thoại hay tivi khi ăn?",
+          "options": [
+            "Vì khi phân tâm con dễ ăn quá nhanh và không cảm nhận được hương vị",
+            "Vì điện thoại làm hỏng thức ăn",
+            "Vì ba mẹ không thích",
+            "Vì màn hình sẽ bị dính dầu mỡ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi mắt tập trung vào màn hình, con ít chú ý đến việc nhai và dễ ăn vô thức quá nhanh, không thưởng thức được bữa ăn.",
+          "hint": "Sự chú ý ảnh hưởng đến cách con ăn như thế nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ăn chậm và nhai kỹ giúp con nhận ra điều gì quan trọng trong bữa ăn?",
+          "options": [
+            "Biết khi nào đã đủ no để dừng ăn",
+            "Ăn được nhiều hơn mỗi bữa",
+            "Bữa ăn kết thúc nhanh hơn",
+            "Không cần uống nước khi ăn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ăn chậm giúp não nhận được tín hiệu no đúng lúc, giúp con dừng ăn khi vừa đủ và không ăn quá nhiều.",
+          "hint": "Tín hiệu no từ dạ dày mất thời gian để truyền lên não."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nên nhai tối thiểu bao nhiêu lần trước khi nuốt mỗi miếng?",
+          "options": [
+            "2 đến 3 lần",
+            "Khoảng 20 lần",
+            "50 lần",
+            "Không cần đếm, nuốt ngay là được"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nhai khoảng 20 lần giúp thức ăn được nghiền nhuyễn đủ để dạ dày tiêu hóa dễ dàng hơn.",
+          "hint": "Số lần nhai đủ để thức ăn mịn và dễ tiêu hóa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ăn cùng gia đình và trò chuyện trong bữa ăn có lợi gì?",
+          "options": [
+            "Giúp bữa ăn kết thúc nhanh hơn",
+            "Giúp con ăn nhiều hơn",
+            "Tự nhiên ăn chậm hơn và cả nhà gắn kết với nhau",
+            "Giúp thức ăn ngon hơn về mặt mùi vị"
+          ],
+          "correctIndex": 2,
+          "explanation": "Khi trò chuyện trong bữa ăn, con tự nhiên ăn chậm hơn và có thời gian nhai kỹ. Bữa ăn cũng trở thành thời gian vui vẻ của cả nhà.",
+          "hint": "Trò chuyện tạo ra khoảng dừng tự nhiên giữa các miếng ăn."
+        },
+        {
+          "type": "true_false",
+          "text": "Ăn nhanh giúp cơ thể hấp thụ chất dinh dưỡng tốt hơn so với ăn chậm.",
+          "correct": false,
+          "explanation": "Ăn chậm và nhai kỹ giúp cơ thể hấp thụ dinh dưỡng tốt hơn vì thức ăn được nghiền nhuyễn và enzyme có thể hoạt động đúng cách.",
+          "hint": "Tiêu hóa bắt đầu ngay trong miệng khi con nhai."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Nhai kỹ và ăn chậm giúp dạ dày ___ tốt hơn và con không bị đau bụng sau ăn.",
+          "answer": "tiêu hóa",
+          "explanation": "Nhai kỹ giúp thức ăn được nghiền nhỏ để dạ dày tiêu hóa dễ dàng, giúp con tránh được cảm giác đau bụng khó chịu.",
+          "hint": "Dạ dày cần làm gì với thức ăn sau khi con nuốt?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x007",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 7,
+      "title": "Giữ bàn học gọn gàng",
+      "learningObjective": "Sau bài này Yumi sẽ biết cách sắp xếp bàn học ngăn nắp và hiểu tại sao bàn học gọn giúp con học tốt hơn.",
+      "shortExplanation": "Bàn học gọn gàng giúp đầu óc tập trung hơn. Khi mọi thứ đúng chỗ, con tìm đồ dùng nhanh và học bài hiệu quả hơn!",
+      "content": "## 📚 Tình huống\n\nYumi cần làm bài tập nhưng bàn học thì đầy sách vở chồng chất, bút chì lăn đầy và còn có cả đồ chơi và bánh kẹo trên đó. Yumi mất 10 phút chỉ để tìm cây bút! Làm thế nào để không bị như vậy nữa?\n\n## ✨ Điều quan trọng\n\nBàn học là không gian của tư duy và học tập. Khi bàn bừa bộn, não của con phải xử lý quá nhiều thông tin cùng lúc — điều này làm con mau mệt và khó tập trung.\n\nNghiên cứu cho thấy người làm việc trong không gian gọn gàng tập trung tốt hơn và hoàn thành công việc nhanh hơn.\n\n## 🌟 Cách sắp xếp bàn học\n\n**Mỗi thứ có một chỗ cố định:**\n- Sách và vở: xếp thẳng đứng theo môn học\n- Bút bút chì: đặt trong hộp bút\n- Thước và tẩy: ngăn kéo nhỏ\n- Máy tính casio: cạnh bên phải\n- Đèn bàn: góc trên bên trái\n\n**Dọn bàn sau mỗi buổi học:**\n1. Bỏ sách vở vào cặp\n2. Để bút vào hộp\n3. Xếp các đồ dùng về đúng chỗ\n\n## 💝 Lợi ích\n\n- Tìm đồ dùng nhanh, không mất thời gian tìm kiếm\n- Tập trung học bài tốt hơn\n- Cảm thấy hứng khởi khi ngồi vào bàn học\n- Không lo mất đồ hay nhầm bài\n\n## 🌟 Thực hành\n\nHôm nay con hãy dọn bàn học và tìm một chỗ cố định cho từng loại đồ dùng. Chụp một tấm ảnh bàn học gọn gàng và so với trước đây nhé!",
+      "storyContext": "Vương quốc học tập của Yumi cần một chiếc bàn được sắp xếp như một thư phòng hoàng gia!",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao bàn học bừa bộn khiến con khó tập trung?",
+          "options": [
+            "Vì bàn bẩn làm bài viết bị xấu",
+            "Vì nhìn thấy nhiều đồ vật cùng lúc làm não phải xử lý nhiều thứ, dễ mệt và xao nhãng",
+            "Vì bàn bẩn gây dị ứng",
+            "Vì đèn bàn không đủ sáng khi bàn bừa"
+          ],
+          "correctIndex": 2,
+          "explanation": "Khi bàn bừa bộn, não phải xử lý nhiều thông tin thị giác không cần thiết, làm con mau phân tâm và khó tập trung học bài.",
+          "hint": "Não phản ứng thế nào khi thấy nhiều đồ vật lộn xộn?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nguyên tắc nào giúp bàn học luôn gọn gàng nhất?",
+          "options": [
+            "Mỗi đồ vật có một chỗ cố định và luôn trả về đúng chỗ sau khi dùng",
+            "Chỉ dọn bàn một lần mỗi tuần",
+            "Xếp hết đồ vào một hộp lớn",
+            "Để tất cả đồ dùng trên bàn cho tiện"
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi mỗi thứ có chỗ cố định và con có thói quen trả về đúng chỗ, bàn học luôn gọn gàng mà không cần dọn nhiều.",
+          "hint": "Bí quyết đơn giản nhất để không bao giờ bị bừa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau mỗi buổi học xong, con nên làm gì với bàn học?",
+          "options": [
+            "Để nguyên vì mai còn học tiếp",
+            "Xếp sách vở vào cặp và đặt đồ dùng về đúng chỗ",
+            "Phủ khăn lên cho đỡ bụi",
+            "Dọn vào ngăn kéo tất cả mọi thứ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dọn bàn sau mỗi buổi học giúp sẵn sàng cho buổi học tiếp theo và tạo thói quen ngăn nắp.",
+          "hint": "Dọn sau khi học giúp buổi học sau bắt đầu dễ dàng hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bút chì và bút bi nên được để ở đâu trên bàn học?",
+          "options": [
+            "Nằm rải rác trên mặt bàn cho tiện",
+            "Trong hộp bút hoặc cốc đựng bút cố định",
+            "Trong ngăn kéo sâu nhất",
+            "Treo trên tường"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hộp bút hoặc cốc đựng bút giúp bút luôn ngăn nắp, dễ lấy khi cần và không bị lăn xuống sàn.",
+          "hint": "Dụng cụ dùng thường xuyên cần ở chỗ dễ lấy và gọn gàng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Có thể để đồ ăn vặt trên bàn học khi làm bài tập không?",
+          "options": [
+            "Có, giúp con hứng hơn khi học",
+            "Có, miễn là dọn sạch sau",
+            "Không nên, vì dễ làm bẩn sách vở và phân tâm khi học",
+            "Chỉ được để nước uống"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đồ ăn trên bàn học dễ làm bẩn sách vở và mùi thức ăn hay hình ảnh đồ ăn dễ làm con mất tập trung.",
+          "hint": "Đồ ăn và học tập không phải là bạn tốt của nhau."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bàn học gọn gàng mang lại lợi ích gì trực tiếp cho việc học?",
+          "options": [
+            "Tăng điểm số ngay lập tức",
+            "Giúp tập trung tốt hơn và tìm đồ dùng nhanh hơn",
+            "Không cần học bài nhiều",
+            "Làm bài về nhà nhanh hơn gấp đôi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bàn gọn gàng giúp não tập trung vào bài học thay vì bị phân tâm bởi đồ vật xung quanh, và tìm đồ dùng ngay khi cần.",
+          "hint": "Gọn gàng giúp não và tay làm việc hiệu quả hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nên sắp xếp sách vở trên bàn học như thế nào?",
+          "options": [
+            "Xếp chồng lên nhau thật cao",
+            "Vứt vào ngăn kéo tất cả",
+            "Rải ra khắp mặt bàn để dễ lấy",
+            "Xếp thẳng đứng theo từng môn học hoặc bỏ vào cặp"
+          ],
+          "correctIndex": 3,
+          "explanation": "Xếp sách theo môn và để trong cặp giúp dễ tìm, không bị lộn xộn và bảo vệ sách khỏi bị cong vênh.",
+          "hint": "Sách được sắp xếp theo nhóm giúp tìm nhanh hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi nào là thời điểm tốt nhất để dọn bàn học?",
+          "options": [
+            "Mỗi cuối tuần một lần",
+            "Khi bàn đã quá bừa mới dọn",
+            "Sau mỗi buổi học và trước khi bắt đầu buổi học mới",
+            "Chỉ dọn trước kỳ thi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dọn bàn sau mỗi buổi học và trước khi học buổi mới giúp bàn luôn sạch sẽ và con luôn sẵn sàng học bài.",
+          "hint": "Dọn thường xuyên thì mỗi lần chỉ cần ít thời gian."
+        },
+        {
+          "type": "true_false",
+          "text": "Bàn học bừa bộn không ảnh hưởng đến khả năng tập trung của con.",
+          "correct": false,
+          "explanation": "Bàn bừa bộn làm não phân tâm vì phải xử lý nhiều kích thích thị giác cùng lúc. Không gian gọn gàng giúp tập trung tốt hơn rõ rệt.",
+          "hint": "Não người phản ứng với môi trường xung quanh như thế nào?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi mỗi đồ vật có ___ riêng trên bàn học, con dễ tìm và bàn luôn gọn gàng.",
+          "answer": "chỗ",
+          "explanation": "Nguyên tắc 'mỗi thứ có một chỗ' giúp bàn học luôn gọn gàng mà không cần dọn nhiều.",
+          "hint": "Mỗi đồ vật nên có... gì của riêng nó trên bàn?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x008",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 8,
+      "title": "Nói lời cảm ơn",
+      "learningObjective": "Sau bài này Yumi sẽ biết khi nào cần nói cảm ơn và cách nói cảm ơn chân thành trong các tình huống hàng ngày.",
+      "shortExplanation": "Lời cảm ơn chân thành giống như một bông hoa tặng người đã giúp mình. Chỉ hai từ nhỏ nhưng mang lại niềm vui lớn cho cả hai bên!",
+      "content": "## 🌸 Tình huống\n\nBạn cho Yumi mượn tẩy để sửa bài. Yumi dùng xong trả lại rồi đi chơi không nói gì. Bạn cảm thấy hơi buồn. Yumi đã bỏ lỡ điều gì?\n\n## 💐 Điều quan trọng\n\nLời cảm ơn là cách con thể hiện mình nhận ra sự giúp đỡ của người khác và trân trọng điều đó. Khi con nói cảm ơn chân thành, người đó cảm thấy công sức của họ được ghi nhận và vui lòng giúp con thêm những lần sau.\n\nCảm ơn không cần phức tạp. Chỉ cần nhìn vào mắt và nói thật lòng.\n\n## ✨ Khi nào cần nói cảm ơn?\n\n- Khi ai đó giúp con một việc dù lớn hay nhỏ\n- Khi nhận quà hoặc đồ ăn từ ai\n- Khi thầy cô giải thích bài cho con\n- Khi bạn cho mượn đồ dùng\n- Khi ba mẹ nấu ăn, mua đồ hoặc đưa đón con\n- Khi người lớn giữ cửa chờ con\n\n## 💝 Cách nói cảm ơn hay\n\n**Đơn giản:** 'Cảm ơn bạn nhé!' / 'Cảm ơn thầy ạ!'\n\n**Cụ thể hơn:** 'Cảm ơn bạn đã cho mình mượn tẩy!'\n\n**Thêm cảm xúc:** 'Cảm ơn bạn rất nhiều, mình vui lắm!'\n\n## 🌟 Thực hành\n\nHôm nay con hãy để ý và nói cảm ơn mỗi khi ai đó giúp mình. Con sẽ thấy mọi người mỉm cười và cả con cũng cảm thấy vui hơn!",
+      "storyContext": "Yumi học cách làm mọi người vui bằng hai từ nhỏ nhưng có sức mạnh lớn.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Bạn nhặt cây bút rơi và trả lại cho con. Con nên làm gì?",
+          "options": [
+            "Cầm lại bút và tiếp tục học bình thường",
+            "Nói 'Cảm ơn bạn!' và mỉm cười",
+            "Gật đầu không nói gì",
+            "Hỏi tại sao bút lại rơi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nói cảm ơn và mỉm cười là cách thể hiện sự trân trọng với người đã giúp mình dù việc nhỏ.",
+          "hint": "Dù việc nhỏ, lời cảm ơn vẫn quan trọng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao cần nói cảm ơn khi nhận được sự giúp đỡ?",
+          "options": [
+            "Vì đó là quy định bắt buộc ở trường",
+            "Vì người giúp mình sẽ đòi đồ lại nếu không cảm ơn",
+            "Vì người giúp mình không thích bị bỏ qua",
+            "Vì cảm ơn thể hiện con trân trọng công sức của người đã giúp"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nói cảm ơn cho người kia biết con nhận ra và trân trọng sự giúp đỡ của họ — điều này làm cả hai đều vui.",
+          "hint": "Cảm ơn nói lên điều gì trong lòng con?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi ba mẹ nấu bữa tối xong và bưng lên bàn, con nên làm gì?",
+          "options": [
+            "Nhìn xem có món nào mình thích không",
+            "Bắt đầu ăn ngay",
+            "Nói 'Cảm ơn ba/mẹ đã nấu ăn cho con ạ!'",
+            "Hỏi ba mẹ nấu món này mất bao lâu"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ba mẹ bỏ thời gian và công sức nấu ăn cho con. Lời cảm ơn đơn giản khiến ba mẹ vui lòng và cảm thấy được trân trọng.",
+          "hint": "Ba mẹ đã dành thời gian và công sức cho con mỗi bữa ăn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách nói cảm ơn nào hay nhất và chân thành nhất?",
+          "options": [
+            "'Ừ.'",
+            "Gật đầu và bỏ đi",
+            "Nhìn vào mắt người đó và nói 'Cảm ơn bạn/cô/thầy rất nhiều ạ!'",
+            "Nhắn tin cảm ơn thay vì nói trực tiếp"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhìn vào mắt và nói cảm ơn trực tiếp là cách chân thành nhất. Ánh mắt và giọng nói thể hiện cảm xúc thật của con.",
+          "hint": "Cảm ơn chân thành cần cả lời nói và ánh mắt."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thầy giáo dành thêm giờ giải thích bài toán khó cho con. Con nên nói gì?",
+          "options": [
+            "'Xong rồi ạ.'",
+            "'Con hiểu rồi ạ, cảm ơn thầy nhiều ạ!'",
+            "'Thầy giải thích được rồi đó.'",
+            "Không nói gì, gật đầu và đi về chỗ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thầy cô bỏ thêm thời gian giúp con — lời cảm ơn chân thành thể hiện con trân trọng sự cố gắng đó.",
+          "hint": "Cảm ơn thầy cô cần kèm theo thể hiện sự tôn trọng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra khi con hay nói cảm ơn với mọi người?",
+          "options": [
+            "Mọi người thấy con lịch sự và vui lòng giúp đỡ con thêm những lần sau",
+            "Mọi người nghĩ con yếu đuối",
+            "Không có gì thay đổi",
+            "Con sẽ mắc nợ mọi người"
+          ],
+          "correctIndex": 0,
+          "explanation": "Người được cảm ơn cảm thấy vui và được trân trọng, họ sẽ vui lòng giúp đỡ con thêm trong tương lai.",
+          "hint": "Cảm ơn tạo ra mối quan hệ tốt đẹp hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Có cần nói cảm ơn với những việc nhỏ như người giữ cửa chờ con không?",
+          "options": [
+            "Không cần, đó là việc bình thường",
+            "Chỉ cảm ơn khi người đó quen biết",
+            "Không cần vì người ta tự nguyện làm",
+            "Có, mỗi hành động tốt dù nhỏ đều xứng đáng được ghi nhận bằng lời cảm ơn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Cảm ơn với mọi hành động tốt bụng, dù lớn hay nhỏ, thể hiện con là người lịch sự và trân trọng mọi người xung quanh.",
+          "hint": "Không có lời cảm ơn nào là quá nhỏ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con nhận quà sinh nhật từ bà. Con nên nói gì?",
+          "options": [
+            "'Ồ, quà gì vậy bà?'",
+            "'Con không thích màu này.'",
+            "'Sao nhỏ vậy bà?'",
+            "'Cảm ơn bà yêu quý của con ạ! Con thích lắm!'"
+          ],
+          "correctIndex": 3,
+          "explanation": "Khi nhận quà, luôn nói cảm ơn chân thành trước. Bà đã nghĩ đến con và chọn quà cho con — điều đó xứng đáng được trân trọng.",
+          "hint": "Người tặng quà muốn biết con có vui không và có trân trọng không."
+        },
+        {
+          "type": "true_false",
+          "text": "Chỉ cần nói cảm ơn khi nhận quà lớn hoặc khi ai đó giúp việc quan trọng mới cần.",
+          "correct": false,
+          "explanation": "Nói cảm ơn với mọi hành động tốt bụng dù lớn hay nhỏ. Việc nhỏ như giữ cửa, cho mượn bút hay giải thích một câu hỏi đều xứng đáng được cảm ơn.",
+          "hint": "Hành động tốt bụng dù nhỏ đều cần được ghi nhận."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi ai đó giúp đỡ con, hãy nhìn vào mắt họ và nói '___ ' một cách chân thành.",
+          "answer": "Cảm ơn",
+          "explanation": "Hai từ 'Cảm ơn' nói thật lòng có sức mạnh lớn — làm người kia vui và tạo nên mối quan hệ tốt đẹp.",
+          "hint": "Hai từ đơn giản nhất để thể hiện lòng biết ơn là gì?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x009",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 9,
+      "title": "Tắm rửa và thay quần áo sạch",
+      "learningObjective": "Sau bài này Yumi sẽ biết cách vệ sinh cơ thể đúng cách và hiểu vì sao giữ cơ thể sạch sẽ quan trọng cho sức khỏe và sự tự tin.",
+      "shortExplanation": "Tắm rửa mỗi ngày và thay quần áo sạch giúp cơ thể khỏe mạnh, không có mùi khó chịu và con tự tin hơn khi tiếp xúc với mọi người.",
+      "content": "## 🌸 Tình huống\n\nSau một ngày chạy nhảy vui chơi, Yumi cảm thấy người đổ mồ hôi và bụi bẩn. Mẹ nhắc: 'Yumi ơi, vào tắm rửa thay đồ đi con!' Đây là lúc thực hiện thói quen quan trọng nhất cuối ngày.\n\n## ✨ Điều quan trọng\n\nMỗi ngày cơ thể sản xuất mồ hôi, bã nhờn và tiếp xúc với bụi bẩn. Nếu không tắm rửa, vi khuẩn trên da sinh sôi và có thể gây mùi cơ thể, viêm da hay nhiễm trùng nhỏ.\n\n**Tắm mỗi ngày là thói quen vệ sinh cơ bản không thể bỏ qua.**\n\n## 🌊 Cách tắm đúng\n\n1. Điều chỉnh nhiệt độ nước vừa phải\n2. Làm ướt toàn thân\n3. Thoa sữa tắm hoặc xà phòng và chà nhẹ toàn thân\n4. Chú ý vùng nách, cổ, tai và bẹn\n5. Xả sạch xà phòng\n6. Lau khô bằng khăn sạch\n7. Thay quần áo sạch\n\n## 💝 Quần áo sạch\n\n- Thay quần áo mỗi ngày hoặc khi bị ướt hay bẩn\n- Quần áo đã mặc cần giặt trước khi mặc lại\n- Quần áo sạch giúp da không bị kích ứng và người không có mùi\n\n## 🌟 Thực hành\n\nTối nay sau khi tắm, con hãy xếp quần áo bẩn vào giỏ giặt và chọn sẵn quần áo sạch cho ngày mai nhé!",
+      "storyContext": "Công chúa Yumi chăm sóc vẻ ngoài và sức khỏe của mình mỗi ngày.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Nên tắm rửa bao nhiêu lần mỗi ngày trong thời tiết bình thường?",
+          "options": [
+            "1 lần mỗi ngày",
+            "Mỗi tuần 1 lần",
+            "Chỉ khi thấy người bẩn",
+            "3 đến 4 lần mỗi ngày"
+          ],
+          "correctIndex": 3,
+          "explanation": "Tắm ít nhất 1 lần mỗi ngày là thói quen vệ sinh cơ bản. Nếu vận động nhiều hay trời nóng, có thể tắm 2 lần.",
+          "hint": "Tần suất tắm phù hợp cho trẻ em trong điều kiện bình thường."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao cần chú ý vùng nách và cổ khi tắm?",
+          "options": [
+            "Vì những vùng này dễ bị lạnh",
+            "Vì vi khuẩn và mồ hôi tích tụ nhiều ở những vùng này và gây mùi",
+            "Vì những vùng này hay bị ngứa",
+            "Vì những vùng này dễ bị cháy nắng"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vùng nách, cổ và bẹn tích tụ nhiều mồ hôi và vi khuẩn. Chà kỹ những nơi này giúp cơ thể sạch sẽ và không có mùi.",
+          "hint": "Những vùng kín hơn tích tụ mồ hôi nhiều hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi tắm xong, con nên làm gì với quần áo đã mặc cả ngày?",
+          "options": [
+            "Bỏ vào giỏ giặt để giặt sạch",
+            "Gấp lại và mặc thêm ngày mai",
+            "Để trên sàn nhà cho thoáng",
+            "Treo lên mắc áo để dùng lại"
+          ],
+          "correctIndex": 2,
+          "explanation": "Quần áo đã mặc qua ngày cần được giặt sạch trước khi mặc lại. Bỏ vào giỏ giặt giúp quần áo không bị lẫn với đồ sạch.",
+          "hint": "Quần áo đã mặc cần được xử lý gì trước khi dùng lại?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra nếu con không tắm sau một ngày chạy nhảy và đổ mồ hôi?",
+          "options": [
+            "Không có gì xảy ra cả",
+            "Vi khuẩn sinh sôi trên da, gây mùi cơ thể và có thể gây kích ứng da",
+            "Da sẽ tự sạch khi ngủ",
+            "Con sẽ bị cảm lạnh ngay"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vi khuẩn trong mồ hôi và bụi bẩn sinh sôi trên da khi không được tắm rửa, gây mùi khó chịu và có thể làm da bị kích ứng.",
+          "hint": "Điều gì xảy ra khi vi khuẩn trong mồ hôi không được làm sạch?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thứ tự đúng các bước tắm là gì?",
+          "options": [
+            "Lau khô → thoa xà phòng → làm ướt người → xả nước",
+            "Thoa xà phòng → làm ướt → xả nước → lau khô",
+            "Làm ướt toàn thân → thoa xà phòng và chà → xả sạch → lau khô",
+            "Xả nước → lau khô → thoa xà phòng → làm ướt"
+          ],
+          "correctIndex": 3,
+          "explanation": "Thứ tự đúng: làm ướt người trước → thoa xà phòng và chà kỹ → xả sạch hoàn toàn → lau khô người.",
+          "hint": "Cần làm ướt người trước khi thoa xà phòng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tắm rửa và mặc quần áo sạch mỗi ngày mang lại lợi ích gì cho con?",
+          "options": [
+            "Giúp con học giỏi hơn ngay lập tức",
+            "Giúp cơ thể sạch sẽ, không có mùi và con tự tin khi tiếp xúc với mọi người",
+            "Giúp con ăn ngon hơn",
+            "Giúp con ngủ ít hơn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cơ thể sạch sẽ giúp con cảm thấy thoải mái, tự tin khi gặp bạn bè và người lớn, đồng thời bảo vệ sức khỏe da.",
+          "hint": "Cảm giác của con khi biết mình sạch sẽ và thơm tho."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi tắm xong, con nên dùng gì để lau khô người?",
+          "options": [
+            "Khăn sạch riêng của con",
+            "Khăn dùng chung của cả nhà",
+            "Quần áo cũ để lau",
+            "Giấy báo hoặc khăn giấy"
+          ],
+          "correctIndex": 3,
+          "explanation": "Khăn tắm riêng sạch của con giúp tránh lây vi khuẩn từ người khác và giữ vệ sinh cá nhân tốt hơn.",
+          "hint": "Khăn tắm nên là của riêng mỗi người."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi nào nên thay quần áo ngoài việc thay sau khi tắm?",
+          "options": [
+            "Chỉ thay khi quần áo rách",
+            "Khi quần áo bị ướt hoặc bẩn dù chưa đến giờ tắm",
+            "Chỉ thay vào cuối tuần",
+            "Không cần thay thêm ngoài giờ tắm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Khi quần áo bị ướt bởi mưa hay mồ hôi nhiều, hoặc dính bẩn, cần thay ngay để tránh vi khuẩn sinh sôi và gây khó chịu cho da.",
+          "hint": "Quần áo ướt hay bẩn cần được xử lý thế nào?"
+        },
+        {
+          "type": "true_false",
+          "text": "Có thể mặc lại quần áo đã mặc qua ngày vì trông vẫn còn sạch.",
+          "correct": false,
+          "explanation": "Quần áo đã mặc một ngày đã hấp thụ mồ hôi và vi khuẩn dù nhìn có vẻ còn sạch. Cần giặt sạch trước khi mặc lại.",
+          "hint": "Vi khuẩn trong mồ hôi không nhìn thấy được bằng mắt thường."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Tắm rửa mỗi ngày và thay quần áo sạch giúp cơ thể con luôn ___ và tự tin hơn.",
+          "answer": "sạch sẽ và thơm tho",
+          "explanation": "Cơ thể sạch sẽ và thơm tho là nền tảng của sự tự tin và sức khỏe tốt mỗi ngày.",
+          "hint": "Hai tính chất quan trọng của cơ thể sau khi tắm rửa sạch sẽ."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x010",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 10,
+      "title": "Nói cảm xúc của mình bình tĩnh",
+      "learningObjective": "Sau bài này Yumi sẽ biết cách nhận ra cảm xúc của mình và diễn đạt bằng lời nói thay vì hành động bột phát.",
+      "shortExplanation": "Khi con nói được cảm xúc bằng lời, mọi người hiểu con hơn và con cũng cảm thấy nhẹ lòng hơn. Đây là kỹ năng quan trọng để sống vui vẻ!",
+      "content": "## 🌸 Tình huống\n\nYumi và bạn cùng chơi thì cãi nhau. Yumi tức giận và đẩy bạn rồi bỏ đi. Bạn bị ngã và khóc. Yumi cảm thấy rất tệ. Lẽ ra Yumi có thể làm gì khác?\n\n## 💭 Điều quan trọng\n\nTất cả mọi người đều có cảm xúc: vui, buồn, tức giận, sợ hãi, xấu hổ... Cảm xúc không xấu hay tốt — cảm xúc chỉ là tín hiệu cơ thể gửi cho con. Quan trọng là con **làm gì** với cảm xúc đó.\n\nNói cảm xúc ra bằng lời giúp người khác hiểu con và tìm giải pháp cùng nhau.\n\n## ✨ Cách nói cảm xúc\n\n**Công thức đơn giản:** 'Mình ___ vì ___'\n\nVí dụ:\n- 'Mình buồn vì bạn không chờ mình cùng chơi.'\n- 'Mình hơi tức vì bạn lấy đồ của mình mà không hỏi.'\n- 'Mình lo vì mình chưa làm bài tập.'\n\n## 🌟 Các bước khi tức giận\n\n1. **Dừng lại** — không làm gì ngay\n2. **Hít thở sâu** 3 lần\n3. **Nhận ra cảm xúc** — 'Mình đang tức giận'\n4. **Nói ra bằng lời** thay vì hành động\n5. **Lắng nghe** phản hồi của bạn\n\n## 💝 Lợi ích\n\n- Bạn bè và gia đình hiểu con hơn\n- Không xảy ra xung đột không cần thiết\n- Con cảm thấy nhẹ lòng hơn\n- Mọi người học cách giải quyết vấn đề cùng nhau\n\n## 🌟 Thực hành\n\nHôm nay khi con cảm thấy một cảm xúc mạnh, hãy thử nói ra bằng công thức 'Mình ___ vì ___' và xem điều gì xảy ra nhé!",
+      "storyContext": "Yumi học cách dùng lời nói thay vì hành động để thể hiện cảm xúc.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Khi con cảm thấy tức giận với bạn, điều tốt nhất con nên làm là gì?",
+          "options": [
+            "Hít thở sâu và nói ra cảm xúc bằng lời",
+            "Đẩy hoặc đánh bạn để giải tỏa",
+            "Bỏ đi không nói gì",
+            "La hét thật to cho bạn sợ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Hít thở sâu giúp con bình tĩnh lại, sau đó nói cảm xúc bằng lời giúp bạn hiểu vấn đề mà không gây ra xung đột.",
+          "hint": "Lời nói bình tĩnh giải quyết được nhiều hơn hành động bột phát."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Công thức nào giúp con nói cảm xúc một cách rõ ràng?",
+          "options": [
+            "'Mình không thích bạn!'",
+            "'Mình ___ vì ___'",
+            "'Bạn sai rồi!'",
+            "'Lỗi của bạn!'"
+          ],
+          "correctIndex": 2,
+          "explanation": "Công thức 'Mình ___ vì ___' giúp con diễn đạt rõ cảm xúc và lý do mà không đổ lỗi cho người khác.",
+          "hint": "Công thức nào nói về cảm xúc của mình thay vì tấn công người kia?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi cảm thấy buồn vì bạn không rủ mình chơi cùng, con nên nói gì?",
+          "options": [
+            "'Bạn xấu lắm, không cho mình chơi!'",
+            "'Mình buồn vì bạn không rủ mình chơi cùng.'",
+            "Im lặng và khóc một mình",
+            "Giả vờ không quan tâm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nói rõ cảm xúc và lý do giúp bạn hiểu vấn đề. Bạn có thể không biết mình đã làm con buồn nếu con không nói ra.",
+          "hint": "Nói cụ thể về cảm xúc và lý do giúp bạn hiểu hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều đầu tiên cần làm khi cảm thấy rất tức giận là gì?",
+          "options": [
+            "Ngay lập tức nói ra mọi thứ mình nghĩ",
+            "Tìm người để trách móc",
+            "Đập đồ vật cho đỡ tức",
+            "Dừng lại và hít thở sâu 3 lần để bình tĩnh trước"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dừng lại và hít thở sâu giúp cơn tức giận dịu bớt. Khi đã bình tĩnh hơn, con sẽ nói chuyện hiệu quả hơn nhiều.",
+          "hint": "Cần bình tĩnh trước khi nói để không nói những điều con không muốn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao nói cảm xúc bằng lời tốt hơn là hành động bột phát?",
+          "options": [
+            "Vì lời nói giúp người khác hiểu con và tìm giải pháp cùng nhau",
+            "Vì hành động làm con mệt hơn",
+            "Vì ba mẹ sẽ phạt nếu con làm gì đó",
+            "Vì nói chuyện ngắn hơn hành động"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lời nói bình tĩnh giúp người kia hiểu con đang cảm thấy gì và tại sao, từ đó cả hai có thể tìm ra giải pháp không ai bị tổn thương.",
+          "hint": "Lời nói mang lại điều gì mà hành động không thể?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cảm xúc như tức giận, buồn bã có phải là thứ xấu cần bỏ đi không?",
+          "options": [
+            "Có, con không nên cảm thấy tức giận hay buồn",
+            "Có, cảm xúc tiêu cực cần được giấu đi",
+            "Không, cảm xúc là tín hiệu tự nhiên của cơ thể, quan trọng là con làm gì với chúng",
+            "Không, con nên la hét để giải phóng cảm xúc"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cảm xúc không xấu — chúng chỉ là tín hiệu. Điều quan trọng là con chọn cách biểu đạt chúng một cách lành mạnh như dùng lời nói.",
+          "hint": "Cảm xúc là tín hiệu từ bên trong, không phải thứ để xấu hổ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con cảm thấy lo lắng khi có bài kiểm tra. Con nên nói gì với ba mẹ?",
+          "options": [
+            "'Con không muốn đi học nữa!'",
+            "'Con lo lắng vì bài kiểm tra khó, con cần ba/mẹ giúp con ôn bài.'",
+            "Không nói gì, tự chịu đựng",
+            "'Bài kiểm tra vô nghĩa quá!'"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nói rõ cảm xúc lo lắng và lý do giúp ba mẹ hiểu con cần gì và có thể giúp con chuẩn bị tốt hơn cho bài kiểm tra.",
+          "hint": "Nói rõ cảm xúc và nhu cầu giúp ba mẹ hỗ trợ con."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra khi con nói cảm xúc bằng lời bình tĩnh với bạn?",
+          "options": [
+            "Bạn sẽ càng tức hơn",
+            "Không có gì thay đổi",
+            "Con trông yếu đuối hơn",
+            "Bạn hiểu vấn đề hơn và hai bạn có thể giải quyết cùng nhau"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lời nói bình tĩnh và rõ ràng giúp bạn hiểu chính xác con đang cảm thấy gì, từ đó hai bạn cùng tìm cách giải quyết tốt đẹp.",
+          "hint": "Lời nói rõ ràng giúp người nghe hiểu và phản ứng phù hợp."
+        },
+        {
+          "type": "true_false",
+          "text": "Khi con tức giận, tốt nhất là giữ im lặng hoàn toàn và không nói gì cả.",
+          "correct": false,
+          "explanation": "Giữ im lặng hoàn toàn không giải quyết được vấn đề. Cần hít thở sâu để bình tĩnh trước, rồi nói ra cảm xúc bằng lời một cách bình tĩnh.",
+          "hint": "Im lặng mãi mãi hay nói ra bình tĩnh — cái nào giải quyết được vấn đề?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi cảm thấy tức giận, hãy ___ sâu 3 lần để bình tĩnh trước khi nói chuyện.",
+          "answer": "hít thở",
+          "explanation": "Hít thở sâu kích hoạt hệ thần kinh bình tĩnh, giúp cơn tức giận dịu bớt để con có thể nói chuyện hiệu quả hơn.",
+          "hint": "Động tác đơn giản nhất giúp cơ thể bình tĩnh lại."
+        }
+      ]
+    }
+  ]
+}

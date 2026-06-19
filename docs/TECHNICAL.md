@@ -14,7 +14,7 @@
 | Database | SQLite | local file `prisma/dev.db` |
 | Testing | Vitest | ^4 |
 
-**Important config:** `distDir: ".next-build6"` in `next.config.ts` — `.next` through `.next-build5` all have NTFS permission issues (locked by running server at time of build). Do NOT change back to any of those.
+**Important config:** `distDir: ".next-build9"` in `next.config.ts` — `.next` through `.next-build8` all have NTFS permission issues (locked by running server at time of build). Do NOT change back to any of those.
 
 **Launcher:** `Start Summer Quest.cmd` uses `next start` (production mode). See `docs/INCIDENTS.md` for why dev mode cannot be used on LAN devices.
 
@@ -49,7 +49,8 @@ summer-quest/
 │       ├── parent/reset-data/route.ts
 │       ├── parent/student-access/route.ts
 │       ├── student/lock/route.ts
-│       └── student/unlock/route.ts
+│       ├── student/unlock/route.ts
+│       └── report-question/route.ts              ← Submit question flag (Sprint 8)
 ├── components/
 │   ├── QuizEngine.tsx
 │   ├── QuestionRenderer.tsx
@@ -57,7 +58,8 @@ summer-quest/
 │   ├── ParentChorePlanner.tsx
 │   ├── ContentReviewCard.tsx
 │   ├── FeedbackMessage.tsx
-│   └── RewardBanner.tsx
+│   ├── RewardBanner.tsx
+│   └── ResolveReportButton.tsx                  ← Resolve QuestionReport (client, Sprint 8)
 ├── lib/
 │   ├── prisma.ts                                 ← Prisma singleton
 │   ├── themes.ts                                 ← Theme configs (source of truth for colors)
@@ -83,7 +85,7 @@ summer-quest/
 |---|---|
 | `Student` | Profile, XP, coins, streak, readingStreak, accessCodeHash |
 | `ThemeConfig` | Theme visual config (stored in DB, seeded at startup) |
-| `Subject` | Static: math / vietnamese / english |
+| `Subject` | Static: math / vietnamese / english / science_life_skills |
 | `Lesson` | Content + quiz questions, `approved` flag |
 | `Question` | Quiz questions belonging to a Lesson |
 | `Attempt` | Each completed quiz attempt (score, XP earned) |
@@ -96,6 +98,7 @@ summer-quest/
 | `ChoreCompletion` | Student's self-report on a completed chore |
 | `ReadingEntry` | Daily reading journal entry |
 | `SiteConfig` | Key-value app settings (e.g. `parentPinHash`) |
+| `QuestionReport` | Student/parent flag on a quiz question — `reason`, `note`, `resolved`; Sprint 8 |
 
 **Key schema facts:**
 - `Lesson.approved` defaults to **`true`** (seed data is pre-approved). AI-imported content must explicitly set `approved: false`.
@@ -103,6 +106,7 @@ summer-quest/
 - `Student.id` is a plain string (`"girl"` / `"boy"`) — not auto-generated.
 - Dates are stored as `"YYYY-MM-DD"` strings, never `DateTime` for date-only fields.
 - No `onDelete: Cascade` on most relations — delete child records manually before parent (see INCIDENTS.md #4).
+- `SiteConfig` and `QuestionReport` must use `$queryRaw`/`$executeRaw` — `prisma generate` not re-run after Sprint 8 (EPERM while server running).
 
 ---
 

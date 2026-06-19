@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "batchId": "batch-girl-g5-sls-01",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-sls-x001",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 1,
+      "title": "Uống đủ nước mỗi ngày",
+      "learningObjective": "Sau bài này Yumi sẽ hiểu vì sao cơ thể cần nước mỗi ngày và biết cách uống đủ nước để luôn khỏe mạnh.",
+      "shortExplanation": "Nước chiếm hơn 70% cơ thể của con. Uống đủ nước giúp da tươi sáng, đầu óc sáng suốt và cơ thể khỏe mạnh mỗi ngày.",
+      "content": "## 🌊 Tình huống\n\nMột buổi chiều nóng, Yumi về nhà sau khi chạy nhảy cùng bạn. Yumi thấy môi khô, miệng đắng và người mệt mỏi. Mẹ nói: 'Con ơi, uống nước đi!' Vì sao uống nước lại quan trọng như vậy?\n\n## 💧 Điều quan trọng\n\nCơ thể con người gồm hơn 70% là nước. Nước có mặt trong máu, tế bào, cơ bắp và mọi cơ quan trong cơ thể. Mỗi ngày cơ thể mất nước qua hơi thở, mồ hôi và khi đi vệ sinh. Vì vậy con cần uống nước đều đặn để bổ sung lượng nước đã mất.\n\nMột công chúa nhỏ khỏe mạnh mỗi ngày nên uống từ **6 đến 8 ly nước lọc sạch**.\n\n## 🌱 Nên và không nên\n\n**Nên uống:**\n- Nước lọc sạch\n- Nước đun sôi để nguội\n- Nước canh hoặc súp\n\n**Hạn chế:**\n- Nước ngọt có gas\n- Nước trái cây đóng hộp nhiều đường\n- Trà đặc\n\n## ✨ Lợi ích của uống đủ nước\n\nKhi Yumi uống đủ nước mỗi ngày:\n- Da mềm mại và tươi sáng như công chúa\n- Đầu óc tập trung và sáng suốt hơn\n- Tiêu hóa tốt, bụng không bị khó chịu\n- Thận hoạt động khỏe, thải chất cặn bã ra ngoài\n- Ít bị nhức đầu hay mệt mỏi\n\n## 🌟 Thực hành hôm nay\n\nHôm nay con hãy đặt một bình nước nhỏ trên bàn học và uống từng ngụm nhỏ trong khi học bài. Cuối ngày đếm xem con đã uống được mấy ly nhé!",
+      "storyContext": "Yumi, công chúa nhỏ của vương quốc, học cách chăm sóc cơ thể để luôn tươi vui và tràn đầy năng lượng.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Con cần uống khoảng bao nhiêu ly nước mỗi ngày để cơ thể khỏe mạnh?",
+          "options": [
+            "1 đến 2 ly",
+            "6 đến 8 ly",
+            "15 đến 20 ly",
+            "Không cần uống nếu không khát"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cơ thể cần khoảng 6 đến 8 ly nước mỗi ngày để các cơ quan hoạt động tốt, da khỏe và đầu óc sáng suốt.",
+          "hint": "Nghĩ về số ly nước vừa đủ để cơ thể không thiếu cũng không thừa."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dấu hiệu nào cho thấy cơ thể đang thiếu nước?",
+          "options": [
+            "Môi khô và cảm thấy khát",
+            "Bụng đau nhói",
+            "Đau nhức xương khớp",
+            "Ngứa da tay"
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi môi khô và cảm thấy khát, đó là cơ thể đang báo hiệu cần được uống thêm nước ngay.",
+          "hint": "Chú ý đến cảm giác ở miệng và môi khi thiếu nước."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Loại nước nào tốt nhất cho cơ thể mỗi ngày?",
+          "options": [
+            "Nước ngọt có gas",
+            "Nước trái cây đóng hộp",
+            "Nước lọc sạch hoặc nước đun sôi để nguội",
+            "Trà đặc nhiều đường"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nước lọc sạch không chứa đường hay chất phụ gia, giúp cơ thể hấp thụ tốt nhất và an toàn cho sức khỏe.",
+          "hint": "Loại nước tốt nhất là loại đơn giản và không có gì thêm vào."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao nên uống nước đều đặn cả ngày thay vì uống một lúc thật nhiều?",
+          "options": [
+            "Vì uống nhiều một lúc làm đau dạ dày ngay lập tức",
+            "Vì nước chỉ có tác dụng vào buổi sáng",
+            "Vì uống ít mỗi lần giúp ngủ ngon hơn",
+            "Vì cơ thể hấp thụ nước hiệu quả hơn khi uống từng ít một suốt ngày"
+          ],
+          "correctIndex": 3,
+          "explanation": "Uống đều đặn giúp cơ thể luôn đủ nước, thay vì bị thiếu rồi bổ sung ồ ạt không kịp hấp thụ.",
+          "hint": "Cơ thể hấp thụ nước tốt nhất khi được cung cấp từ từ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thời điểm nào trong ngày nên uống nước?",
+          "options": [
+            "Chỉ sau bữa ăn",
+            "Buổi sáng khi thức dậy, trong ngày, khi vận động và sau ăn",
+            "Chỉ khi cảm thấy rất khát",
+            "Chỉ vào buổi tối trước khi ngủ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Uống nước vào nhiều thời điểm trong ngày giúp cơ thể luôn đủ nước và hoạt động tốt.",
+          "hint": "Không nên đợi đến khi khát mới uống."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nước giúp ích gì cho da của con?",
+          "options": [
+            "Làm da sạm lại",
+            "Làm da bị khô hơn",
+            "Giữ da mềm mại và tươi sáng",
+            "Làm da dày và cứng hơn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nước giúp duy trì độ ẩm tự nhiên của da. Uống đủ nước mỗi ngày giúp da mềm mại và tươi sáng như công chúa.",
+          "hint": "Nghĩ xem da sẽ trông như thế nào khi được cung cấp đủ độ ẩm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con nên mang theo gì để uống nước ở trường?",
+          "options": [
+            "Bình nước sạch có nắp đậy chắc chắn",
+            "Chai nước ngọt",
+            "Ly thủy tinh không có nắp",
+            "Bình cũ đã dùng lâu ngày không rửa"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bình nước sạch có nắp đậy chắc chắn giúp nước bên trong luôn sạch sẽ và an toàn khi uống.",
+          "hint": "Chọn loại bình giữ nước sạch và tiện lợi nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi trời nóng hoặc con đang chạy nhảy nhiều, con cần làm gì với việc uống nước?",
+          "options": [
+            "Uống ít hơn bình thường",
+            "Dừng uống nước để không bị đau bụng",
+            "Chỉ uống nước ngọt lạnh cho mát",
+            "Uống nhiều hơn vì cơ thể mất nước qua mồ hôi"
+          ],
+          "correctIndex": 3,
+          "explanation": "Khi vận động hoặc trời nóng, cơ thể mất nước qua mồ hôi nhiều hơn nên cần uống bổ sung thêm.",
+          "hint": "Khi đổ mồ hôi, cơ thể mất đi thứ gì?"
+        },
+        {
+          "type": "true_false",
+          "text": "Nước ngọt có gas có thể thay thế hoàn toàn nước lọc để bổ sung nước cho cơ thể.",
+          "correct": false,
+          "explanation": "Nước ngọt chứa nhiều đường và khí carbonic, không tốt bằng nước lọc sạch. Uống nhiều nước ngọt còn có hại cho răng và sức khỏe lâu dài.",
+          "hint": "Nghĩ xem nước ngọt có thành phần gì khác so với nước lọc."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Uống đủ nước giúp cơ thể khỏe mạnh và da luôn ___ mỗi ngày.",
+          "answer": "tươi sáng và mềm mại",
+          "explanation": "Nước giữ cho da đủ độ ẩm, giúp da tươi sáng và mềm mại — đây là bí quyết đẹp tự nhiên đơn giản nhất!",
+          "hint": "Nghĩ về làn da khi được uống đủ nước."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x002",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 2,
+      "title": "Đánh răng đúng cách",
+      "learningObjective": "Sau bài này Yumi sẽ biết cách đánh răng đúng kỹ thuật và hiểu vì sao cần đánh răng 2 lần mỗi ngày.",
+      "shortExplanation": "Đánh răng đúng cách bảo vệ răng khỏi sâu và giúp hơi thở thơm tho. Công chúa nhỏ luôn có nụ cười rạng rỡ khi chăm sóc răng tốt!",
+      "content": "## 🦷 Tình huống\n\nYumi ăn kẹo xong rồi đi ngủ mà không đánh răng. Sáng hôm sau, Yumi thấy răng ê buốt và miệng có mùi khó chịu. Tại sao vậy? Và làm thế nào để không bị như vậy nữa?\n\n## ✨ Điều quan trọng\n\nSau khi ăn, thức ăn còn sót lại trong miệng tạo điều kiện cho vi khuẩn phát triển. Vi khuẩn tạo ra axit làm mòn men răng gây sâu răng. Đánh răng giúp làm sạch thức ăn và vi khuẩn, bảo vệ răng chắc khỏe.\n\n**Công chúa nhỏ cần đánh răng 2 lần mỗi ngày:**\n- Buổi sáng sau khi thức dậy\n- Buổi tối trước khi đi ngủ\n\n## 🌸 Cách đánh răng đúng\n\n1. Lấy bàn chải và kem đánh răng (lượng bằng hạt đậu)\n2. Chải răng nhẹ nhàng theo chiều tròn hoặc lên xuống\n3. Chải mặt ngoài, mặt trong và mặt nhai của răng\n4. Chải nhẹ lưỡi để loại bỏ vi khuẩn\n5. Súc miệng sạch với nước\n6. Rửa bàn chải và để ngược lên giá\n\n## 💝 Lợi ích\n\n- Hơi thở thơm tho, tự tin khi nói chuyện\n- Răng trắng sáng và chắc khỏe\n- Không bị đau răng hay sâu răng\n- Tiết kiệm tiền chữa răng sau này\n\n## 🌟 Thực hành\n\nTối nay con hãy đánh răng trong 2 phút và kể lại con đã chải được mấy bề mặt răng!",
+      "storyContext": "Công chúa Yumi muốn có hàm răng trắng sáng như ngọc trai để nụ cười luôn tỏa sáng khắp vương quốc.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Con nên đánh răng mấy lần mỗi ngày?",
+          "options": [
+            "1 lần vào buổi sáng là đủ",
+            "3 đến 4 lần mỗi ngày",
+            "2 lần — buổi sáng sau khi thức dậy và buổi tối trước khi ngủ",
+            "Chỉ khi nào thấy răng bẩn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đánh răng 2 lần mỗi ngày giúp làm sạch vi khuẩn tích tụ sau khi ngủ và sau cả ngày ăn uống.",
+          "hint": "Buổi sáng và buổi tối là 2 thời điểm quan trọng nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con cần chải răng trong bao lâu để đảm bảo sạch?",
+          "options": [
+            "10 giây là đủ",
+            "Khoảng 2 phút",
+            "30 giây",
+            "5 phút"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chải khoảng 2 phút đảm bảo đủ thời gian làm sạch tất cả các bề mặt răng từ trước ra sau.",
+          "hint": "Thời gian đủ để chải kỹ từng phần của hàm răng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thứ tự đúng các bước đánh răng là gì?",
+          "options": [
+            "Lấy bàn chải và kem → chải răng nhẹ nhàng → súc miệng → rửa và cất bàn chải",
+            "Súc miệng → lấy bàn chải → chải răng → cất bàn chải",
+            "Chải răng → lấy kem → súc miệng → bỏ bàn chải",
+            "Lấy bàn chải → súc miệng → chải răng → để bàn chải lên bồn rửa"
+          ],
+          "correctIndex": 0,
+          "explanation": "Thứ tự đúng giúp việc đánh răng sạch sẽ: chuẩn bị → chải kỹ → súc sạch → vệ sinh bàn chải.",
+          "hint": "Bước nào cần làm trước để bàn chải có kem đúng không?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao nên chải răng nhẹ nhàng thay vì chải thật mạnh?",
+          "options": [
+            "Vì chải mạnh tốn nhiều kem đánh răng",
+            "Vì chải mạnh làm hỏng bàn chải nhanh hơn",
+            "Vì chải nhẹ tiết kiệm thời gian",
+            "Vì chải mạnh có thể tổn thương nướu và làm mòn men răng"
+          ],
+          "correctIndex": 3,
+          "explanation": "Chải nhẹ nhàng theo chiều tròn hoặc lên xuống giúp làm sạch mà không làm đau nướu hay mòn men răng.",
+          "hint": "Nghĩ đến phần mềm xung quanh chân răng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bàn chải đánh răng nên được thay sau bao lâu?",
+          "options": [
+            "Sau 3 năm",
+            "Sau 5 năm hoặc khi hỏng hẳn",
+            "Sau 3 tháng hoặc khi lông bàn chải xòe ra",
+            "Không cần thay, rửa sạch là được"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lông bàn chải cũ và xòe ra không còn làm sạch tốt nữa. Thay bàn chải mới sau 3 tháng giúp đánh răng hiệu quả hơn.",
+          "hint": "Nhìn vào lông bàn chải, khi nào biết cần thay?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi đánh răng xong, con nên để bàn chải như thế nào?",
+          "options": [
+            "Rửa sạch và để ngược bàn chải lên giá cho khô",
+            "Bỏ vào túi nhựa kín",
+            "Để ngay xuống mà không rửa",
+            "Đặt nằm ngang trên bồn rửa"
+          ],
+          "correctIndex": 0,
+          "explanation": "Rửa sạch bàn chải và để ngược lên giúp bàn chải khô ráo nhanh, không bị vi khuẩn sinh sôi.",
+          "hint": "Bàn chải cần được khô ráo sau khi dùng."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao đặc biệt quan trọng phải đánh răng trước khi đi ngủ?",
+          "options": [
+            "Vì đánh răng giúp ngủ ngon hơn do mùi bạc hà",
+            "Vì ban đêm không cần ăn",
+            "Vì ba mẹ yêu cầu",
+            "Vì vi khuẩn hoạt động mạnh trong miệng khi ngủ và thức ăn còn sót gây sâu răng"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ban đêm miệng ít tiết nước bọt hơn, vi khuẩn trong thức ăn còn sót dễ tấn công răng. Đánh răng trước ngủ bảo vệ răng suốt đêm.",
+          "hint": "Điều gì xảy ra với thức ăn còn sót trong miệng khi con ngủ?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lượng kem đánh răng phù hợp cho trẻ em là bao nhiêu?",
+          "options": [
+            "Nửa ống kem mỗi lần",
+            "Một lượng bằng hạt đậu",
+            "Phủ đầy bàn chải",
+            "Không cần kem, chỉ cần nước"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lượng kem bằng hạt đậu là đủ để làm sạch răng hiệu quả và an toàn cho trẻ em.",
+          "hint": "Lượng nhỏ vừa đủ để làm sạch mà không lãng phí."
+        },
+        {
+          "type": "true_false",
+          "text": "Chỉ cần đánh răng vào buổi sáng là đủ để giữ răng luôn khỏe mạnh.",
+          "correct": false,
+          "explanation": "Cần đánh răng cả buổi sáng lẫn buổi tối. Vi khuẩn từ thức ăn cả ngày cần được làm sạch trước khi ngủ để bảo vệ răng.",
+          "hint": "Nghĩ về điều gì xảy ra trong miệng trong suốt cả ngày dài."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Đánh răng đúng cách giúp hơi thở của con luôn ___ và răng khỏe mạnh hơn.",
+          "answer": "thơm tho",
+          "explanation": "Đánh răng làm sạch thức ăn còn sót và vi khuẩn gây mùi, giúp hơi thở thơm tho và tự tin hơn khi nói chuyện.",
+          "hint": "Hơi thở sẽ như thế nào sau khi đánh răng sạch?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x003",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 3,
+      "title": "Rửa tay đúng lúc",
+      "learningObjective": "Sau bài này Yumi sẽ biết những lúc cần rửa tay và cách rửa tay đúng kỹ thuật để phòng bệnh.",
+      "shortExplanation": "Bàn tay tiếp xúc với rất nhiều thứ mỗi ngày. Rửa tay đúng lúc và đúng cách giúp con phòng ngừa nhiều bệnh nguy hiểm.",
+      "content": "## 🌸 Tình huống\n\nYumi từ ngoài sân chạy vào nhà, nhặt ngay một miếng bánh lên ăn. Mẹ gọi: 'Yumi! Con rửa tay chưa?' Tại sao mẹ lại nhắc con điều đó?\n\n## 🧼 Điều quan trọng\n\nBàn tay tiếp xúc với nhiều bề mặt mỗi ngày: lan can, đồ chơi, sàn nhà, cửa tay nắm... Những nơi này có thể có vi khuẩn rất nhỏ mà mắt không nhìn thấy được. Khi con đưa tay lên miệng hoặc cầm thức ăn, vi khuẩn có thể vào cơ thể gây bệnh.\n\n## 👐 Khi nào cần rửa tay?\n\n**Bắt buộc rửa tay:**\n- Trước khi ăn cơm hay đồ ăn\n- Sau khi đi vệ sinh\n- Sau khi chơi ngoài sân hoặc tiếp xúc đất bụi\n- Sau khi chạm vào thú vật\n- Sau khi hắt hơi hoặc ho vào tay\n- Trước khi sờ vào mắt hay mũi\n\n## ✨ Cách rửa tay đúng (6 bước)\n\n1. Làm ướt tay dưới vòi nước sạch\n2. Xoa xà phòng vào lòng bàn tay\n3. Chà kỹ lòng bàn tay, mu bàn tay, kẽ ngón tay trong ít nhất 20 giây\n4. Rửa sạch xà phòng dưới vòi nước\n5. Lau khô tay bằng khăn sạch\n6. Không chạm vào vòi nước bằng tay vừa rửa sạch\n\n## 🌟 Thực hành\n\nHôm nay con hãy đếm xem mình rửa tay được mấy lần. Mục tiêu: ít nhất 5 lần nhé!",
+      "storyContext": "Công chúa Yumi học cách rửa tay đúng cách để giữ sức khỏe và bảo vệ cả vương quốc khỏi bệnh tật.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Trước khi ăn cơm, việc đầu tiên con cần làm là gì?",
+          "options": [
+            "Rửa tay sạch bằng xà phòng và nước",
+            "Lau tay vào áo cho nhanh",
+            "Chạy ngay đến bàn ăn vì đói",
+            "Uống một ly nước trước"
+          ],
+          "correctIndex": 0,
+          "explanation": "Rửa tay trước khi ăn giúp loại bỏ vi khuẩn và bụi bẩn, bảo vệ con khỏi các bệnh đường tiêu hóa.",
+          "hint": "Vi khuẩn trên tay có thể theo thức ăn vào cơ thể."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cần chà xà phòng trong bao lâu để rửa tay sạch vi khuẩn?",
+          "options": [
+            "3 giây",
+            "10 giây",
+            "Ít nhất 20 giây",
+            "2 phút"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chà xà phòng ít nhất 20 giây đảm bảo đủ thời gian để xà phòng loại bỏ vi khuẩn trên tay hiệu quả.",
+          "hint": "Đủ thời gian để xà phòng hoạt động diệt vi khuẩn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ngoài trước khi ăn, con còn bắt buộc phải rửa tay ngay sau khi làm gì?",
+          "options": [
+            "Sau khi ngủ dậy buổi sáng",
+            "Sau khi đi vệ sinh",
+            "Sau khi đọc sách",
+            "Sau khi uống nước"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sau khi đi vệ sinh, tay tiếp xúc với vi khuẩn gây bệnh. Rửa tay ngay là cách bảo vệ sức khỏe bản thân và mọi người xung quanh.",
+          "hint": "Đây là thời điểm quan trọng nhất cần rửa tay."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu nhìn thấy tay có vẻ sạch, con có cần rửa tay trước khi ăn không?",
+          "options": [
+            "Không, mắt thấy sạch là được rồi",
+            "Không, chỉ rửa khi tay dính bẩn nhìn thấy được",
+            "Chỉ cần lau bằng khăn giấy là xong",
+            "Có, vì vi khuẩn rất nhỏ và mắt không nhìn thấy được"
+          ],
+          "correctIndex": 3,
+          "explanation": "Vi khuẩn vô hình với mắt thường. Tay trông có vẻ sạch vẫn có thể có hàng triệu vi khuẩn bám trên đó.",
+          "hint": "Vi khuẩn không thể nhìn thấy bằng mắt thường."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thứ tự đúng khi rửa tay là gì?",
+          "options": [
+            "Làm ướt tay → thoa xà phòng → chà kỹ 20 giây → xả nước → lau khô",
+            "Thoa xà phòng → làm ướt tay → xả nước → chà tay",
+            "Lau khô → rửa nước → thoa xà phòng",
+            "Xả nước → lau khô → thoa xà phòng"
+          ],
+          "correctIndex": 0,
+          "explanation": "Thứ tự đúng giúp xà phòng hoạt động hiệu quả nhất: ướt tay → xà phòng → chà kỹ → xả sạch → lau khô.",
+          "hint": "Tay phải ướt trước khi thoa xà phòng để xà phòng tan đều."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Rửa tay thường xuyên giúp phòng ngừa bệnh gì?",
+          "options": [
+            "Bệnh về xương khớp",
+            "Bệnh về mắt cận thị",
+            "Bệnh về tai",
+            "Các bệnh đường tiêu hóa như tiêu chảy và đau bụng"
+          ],
+          "correctIndex": 3,
+          "explanation": "Rất nhiều bệnh tiêu hóa lây qua tay bẩn. Rửa tay đúng cách là cách phòng ngừa đơn giản và hiệu quả nhất.",
+          "hint": "Vi khuẩn từ tay bẩn hay vào cơ quan nào của cơ thể?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi chơi ngoài sân về, con phải làm gì trước khi cầm đồ ăn?",
+          "options": [
+            "Lau tay vào quần áo",
+            "Rửa tay sạch bằng xà phòng và nước",
+            "Uống nước trước",
+            "Rửa mặt"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sau khi chơi ngoài, tay bám bụi bẩn và vi khuẩn. Rửa tay bằng xà phòng trước khi cầm đồ ăn bảo vệ sức khỏe.",
+          "hint": "Ngoài sân có nhiều bụi bẩn bám vào tay."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu tạm thời không có xà phòng, con nên làm gì?",
+          "options": [
+            "Không rửa tay và ăn bình thường",
+            "Chỉ lau bằng khăn giấy khô",
+            "Rửa tay bằng nước sạch và chà kỹ, sau đó tìm xà phòng sớm nhất",
+            "Dùng kem dưỡng da thay thế"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nước sạch giúp rửa trôi một phần bụi bẩn. Nhưng hãy tìm xà phòng sớm nhất có thể để rửa lại cho thật sạch vi khuẩn.",
+          "hint": "Nước sạch cũng giúp được một phần dù không có xà phòng."
+        },
+        {
+          "type": "true_false",
+          "text": "Chỉ cần lau tay vào khăn là đủ để loại bỏ vi khuẩn trên tay.",
+          "correct": false,
+          "explanation": "Khăn lau không loại bỏ được vi khuẩn và còn có thể lây thêm vi khuẩn từ khăn lên tay. Cần rửa bằng xà phòng và nước sạch.",
+          "hint": "Khăn lau chỉ thấm nước chứ không diệt vi khuẩn."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Rửa tay bằng xà phòng giúp loại bỏ ___ và bảo vệ sức khỏe của con.",
+          "answer": "vi khuẩn",
+          "explanation": "Xà phòng có tác dụng tiêu diệt vi khuẩn và bụi bẩn, bảo vệ con khỏi nhiều loại bệnh lây qua tay bẩn.",
+          "hint": "Thứ nhỏ bé mà mắt không nhìn thấy nhưng gây bệnh."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x004",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 4,
+      "title": "Dọn giường sau khi ngủ dậy",
+      "learningObjective": "Sau bài này Yumi sẽ biết cách dọn giường gọn gàng mỗi sáng và hiểu lợi ích của thói quen này.",
+      "shortExplanation": "Dọn giường sau khi ngủ dậy chỉ mất 2 đến 3 phút nhưng giúp phòng luôn đẹp và bắt đầu ngày mới tràn đầy năng lượng!",
+      "content": "## 🌸 Tình huống\n\nMỗi sáng thức dậy, phòng ngủ của Yumi luôn bừa bộn với chăn gối vứt lung tung. Mẹ nói: 'Công chúa nhỏ ơi, dọn giường đi con!' Yumi hỏi: 'Con dọn để làm gì ạ?'\n\n## ✨ Điều quan trọng\n\nDọn giường là một trong những thói quen đơn giản nhưng có sức mạnh lớn. Khi con dọn giường ngay sau khi ngủ dậy, con đã hoàn thành công việc đầu tiên trong ngày. Cảm giác này giúp con có động lực làm tiếp những việc khác.\n\n**Một căn phòng gọn gàng giúp vương quốc nhỏ của Yumi luôn sáng đẹp.**\n\n## 🌟 Cách dọn giường đơn giản\n\n1. Vuốt phẳng tờ ga trải giường\n2. Gấp hoặc cuộn gọn chăn và để ở đầu giường\n3. Xếp gối ngay ngắn\n4. Đặt thú nhồi bông hoặc đồ chơi gọn vào góc\n\nChỉ cần 2 đến 3 phút là xong!\n\n## 💝 Lợi ích\n\n- Phòng ngủ trông sạch sẽ và dễ chịu\n- Tâm trạng vui vẻ khi bắt đầu ngày mới\n- Dễ tìm đồ vật hơn khi phòng gọn gàng\n- Con tập tính tự lập và chịu trách nhiệm\n- Ít bụi bẩn tích tụ trên chăn gối\n\n## 🌟 Thực hành\n\nSáng mai sau khi thức dậy, con hãy dọn giường trước khi ăn sáng. Thử làm trong 3 phút xem có xong không nhé!",
+      "storyContext": "Yumi học cách biến căn phòng của mình thành vương quốc nhỏ gọn gàng và sạch đẹp.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Việc đầu tiên nên làm sau khi thức dậy buổi sáng là gì?",
+          "options": [
+            "Bật tivi xem phim hoạt hình ngay",
+            "Chạy ngay xuống nhà ăn sáng",
+            "Nằm thêm một chút",
+            "Dọn lại giường cho gọn gàng"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dọn giường ngay sau khi thức dậy giúp buổi sáng bắt đầu gọn gàng và tạo thói quen tốt cho cả ngày.",
+          "hint": "Hoàn thành một việc nhỏ đầu tiên giúp con có động lực cho cả ngày."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Các bước dọn giường bao gồm những gì?",
+          "options": [
+            "Vuốt phẳng ga, gấp chăn gọn, xếp gối ngay ngắn",
+            "Kéo chăn lên che giường là xong",
+            "Lấy hết đồ trên giường ra ngoài sàn",
+            "Chỉ xếp lại gối rồi thôi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dọn giường đúng cách gồm vuốt phẳng ga, gấp gọn chăn và xếp gối — chỉ mất 2 đến 3 phút.",
+          "hint": "Có 3 phần chính của chiếc giường cần được sắp xếp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Phòng ngủ gọn gàng mang lại lợi ích gì?",
+          "options": [
+            "Giúp con học giỏi môn Toán ngay lập tức",
+            "Giúp con không cần dọn thêm nữa",
+            "Giúp tâm trạng thoải mái và dễ tìm đồ vật hơn",
+            "Giúp con ngủ ít hơn và dậy sớm hơn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Căn phòng gọn gàng giúp con cảm thấy dễ chịu, thoải mái và dễ tập trung hơn khi học bài.",
+          "hint": "Nghĩ về cảm giác khi ở trong phòng sạch sẽ so với phòng lộn xộn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu không dọn giường mỗi ngày, điều gì có thể xảy ra?",
+          "options": [
+            "Giường sẽ tự động sạch theo thời gian",
+            "Giường trở nên bừa bộn và bụi bẩn tích tụ trên chăn gối",
+            "Không có gì thay đổi cả",
+            "Giường sẽ ngày càng rộng hơn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Giường không được dọn sẽ tích tụ bụi và vi khuẩn. Sống trong phòng lộn xộn cũng làm con khó tập trung.",
+          "hint": "Bụi và vi khuẩn tích tụ ở đâu khi chăn gối không được sắp xếp?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con có thể nhờ ai khi mới học dọn giường lần đầu?",
+          "options": [
+            "Chỉ làm một mình, không nhờ ai",
+            "Nhờ bạn đến nhà làm thay",
+            "Để ba mẹ làm thay mãi mãi",
+            "Nhờ ba mẹ hướng dẫn lần đầu, sau đó tự làm mỗi sáng"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ba mẹ có thể dạy con cách gấp chăn và vuốt ga đúng cách. Sau đó con tự làm mỗi sáng sẽ ngày càng thành thục.",
+          "hint": "Học từ ba mẹ rồi tự lập dần dần là cách tốt nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi dọn giường, gối nên được đặt ở đâu?",
+          "options": [
+            "Dưới sàn nhà cho thoáng",
+            "Xếp ngay ngắn ở đầu giường",
+            "Bỏ vào tủ đồ",
+            "Vứt ra ngoài cửa phòng"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gối xếp ngay ngắn ở đầu giường giúp giường trông gọn đẹp và sẵn sàng cho buổi tối.",
+          "hint": "Vị trí nào trên giường phù hợp nhất cho gối?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mất bao lâu để dọn xong một chiếc giường nếu làm thường xuyên?",
+          "options": [
+            "Chỉ 2 đến 3 phút",
+            "Nửa tiếng đồng hồ",
+            "Cả buổi sáng",
+            "Phải đợi đến cuối tuần mới dọn được"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dọn giường mỗi sáng chỉ mất 2 đến 3 phút. Làm thường xuyên giúp con làm nhanh và quen tay hơn.",
+          "hint": "Việc nhỏ làm mỗi ngày sẽ ngày càng nhanh hơn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Dọn giường mỗi sáng giúp hình thành điều tốt gì cho con?",
+          "options": [
+            "Giúp con ăn nhiều hơn",
+            "Giúp con cao thêm vài centimét",
+            "Giúp con hình thành thói quen ngăn nắp và tự lập",
+            "Giúp con chạy nhanh hơn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Thói quen nhỏ như dọn giường mỗi sáng giúp con học cách chịu trách nhiệm với không gian sống và trở nên tự lập.",
+          "hint": "Thói quen nhỏ tích tụ thành tính cách lớn."
+        },
+        {
+          "type": "true_false",
+          "text": "Phòng ngủ gọn gàng chỉ quan trọng khi có khách đến thăm nhà.",
+          "correct": false,
+          "explanation": "Phòng ngủ gọn gàng giúp con cảm thấy dễ chịu và thoải mái mỗi ngày — không chỉ khi có khách. Sống trong không gian sạch sẽ tốt cho tâm trạng và sức khỏe.",
+          "hint": "Con sống trong phòng đó mỗi ngày, không chỉ khi có khách."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Dọn giường mỗi sáng giúp phòng ngủ luôn ___ và con cảm thấy thoải mái hơn.",
+          "answer": "gọn gàng sạch sẽ",
+          "explanation": "Chỉ 2 đến 3 phút dọn giường mỗi sáng đã giúp phòng gọn gàng sạch sẽ và bắt đầu ngày mới vui vẻ hơn.",
+          "hint": "Từ nào mô tả trạng thái của phòng sau khi dọn dẹp?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x005",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 5,
+      "title": "Chào hỏi lễ phép",
+      "learningObjective": "Sau bài này Yumi sẽ biết cách chào hỏi đúng cách với người lớn và bạn bè trong các tình huống khác nhau.",
+      "shortExplanation": "Một lời chào lễ phép như một bông hoa dễ thương — làm mọi người vui lòng và cho thấy con là một cô bé ngoan và có giáo dục.",
+      "content": "## 🌸 Tình huống\n\nYumi cùng mẹ đến thăm nhà cô bạn. Khi vào nhà, Yumi thấy bố mẹ bạn đang ngồi trong phòng khách. Yumi nên làm gì trong tình huống này?\n\n## 💐 Điều quan trọng\n\nChào hỏi lễ phép là cách con thể hiện sự tôn trọng và tình cảm với mọi người xung quanh. Trong văn hóa Việt Nam, chào hỏi đúng cách rất được coi trọng và thể hiện con được gia đình giáo dục tốt.\n\n**Khi con chào lễ phép, mọi người cảm thấy được trân trọng và yêu mến con hơn.**\n\n## 👑 Cách chào trong các tình huống\n\n**Gặp ông bà:**\n'Con chào ông/bà ạ!' — cúi đầu nhẹ\n\n**Gặp thầy cô:**\n'Con chào thầy/cô ạ!' — cúi đầu và mỉm cười\n\n**Gặp hàng xóm lớn tuổi:**\n'Con chào bác/chú/cô ạ!' — khoanh tay\n\n**Gặp bạn bè:**\n'Chào bạn!' hoặc 'Xin chào!' — mỉm cười thân thiện\n\n## ✨ Điều cần nhớ\n\n- Chủ động chào trước khi người lớn chào mình\n- Nhìn vào mắt người mình chào\n- Nói đủ to, rõ ràng, không ngọng nghịu\n- Mỉm cười chân thành\n\n## 🌟 Thực hành\n\nHôm nay con hãy chủ động chào ít nhất 3 người lớn mà con gặp và quan sát xem họ phản ứng như thế nào nhé!",
+      "storyContext": "Yumi, công chúa nhỏ, học cách làm mọi người vui lòng bằng những lời chào dễ thương.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Khi gặp thầy cô giáo ở trường, con nên làm gì?",
+          "options": [
+            "Đi nhanh qua mà không nói gì",
+            "Cúi đầu chào và nói 'Con chào thầy/cô ạ'",
+            "Chỉ cười mà không nói gì",
+            "Vẫy tay từ xa là đủ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cúi đầu và nói lời chào thể hiện sự tôn trọng thầy cô — đây là cách chào lễ phép trong văn hóa Việt Nam.",
+          "hint": "Chào thầy cô cần cả hành động và lời nói."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi con đến nhà bạn chơi và gặp bố mẹ bạn, con nên làm gì?",
+          "options": [
+            "Đi thẳng vào phòng bạn ngay",
+            "Hỏi ngay bạn đang ở đâu",
+            "Đứng chờ bạn ra gọi",
+            "Chào lễ phép bố mẹ bạn trước khi vào nhà"
+          ],
+          "correctIndex": 3,
+          "explanation": "Chào hỏi bố mẹ bạn khi đến nhà chơi là phép lịch sự cơ bản, thể hiện con được giáo dục tốt.",
+          "hint": "Người lớn trong nhà cần được chào trước khi con vào."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lời chào nào phù hợp nhất khi con gặp ông bà vào buổi sáng?",
+          "options": [
+            "'Con chào ông/bà ạ, ông/bà ngủ ngon không ạ?'",
+            "'Ông/bà ơi cho con ăn sáng đi'",
+            "'Ông/bà đang làm gì đó?'",
+            "Không nói gì, đi thẳng vào bàn ăn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Lời chào hỏi thăm ông bà thể hiện sự quan tâm và yêu thương trong gia đình, đây là nét đẹp của trẻ em ngoan.",
+          "hint": "Chào kết hợp với hỏi thăm sức khỏe ông bà là cách lịch sự nhất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đang chơi mà người lớn chào mình, con nên làm gì?",
+          "options": [
+            "Tiếp tục chơi, không nhìn lên",
+            "Trả lời nhanh mà không dừng chơi",
+            "Dừng lại, nhìn vào mặt người lớn và đáp lại lời chào",
+            "Nhờ bạn trả lời thay mình"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dừng lại và đáp lại lời chào cho thấy con tôn trọng người lớn và biết cách giao tiếp lịch sự.",
+          "hint": "Tôn trọng người lớn nghĩa là dành sự chú ý cho họ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Con gặp hàng xóm lớn tuổi trên đường về nhà. Con nên làm gì?",
+          "options": [
+            "Đi nhanh về nhà không nói gì",
+            "Khoanh tay cúi đầu chào và nói 'Con chào bác/chú/cô ạ'",
+            "Chỉ nhìn và mỉm cười không nói",
+            "Chờ họ chào trước rồi mới chào lại"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chủ động chào trước khi gặp người lớn là biểu hiện của đứa trẻ ngoan và lễ phép, làm mọi người vui lòng.",
+          "hint": "Chủ động chào trước mà không cần chờ người lớn chào mình."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra khi con chào hỏi lễ phép mọi người?",
+          "options": [
+            "Mọi người cảm thấy được tôn trọng và yêu mến con hơn",
+            "Con sẽ được nhiều quà hơn",
+            "Con sẽ không cần học nữa",
+            "Không có gì thay đổi cả"
+          ],
+          "correctIndex": 0,
+          "explanation": "Lời chào đúng lúc đúng cách tạo ấn tượng tốt và khiến mọi người cảm thấy được trân trọng.",
+          "hint": "Lời chào tạo ra cảm xúc tốt đẹp cho người nhận."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi khách đến nhà, con cần làm gì đầu tiên?",
+          "options": [
+            "Trốn vào phòng vì ngại",
+            "Tiếp tục xem tivi",
+            "Bước ra chào hỏi khách lễ phép",
+            "Nhờ ba mẹ ra chào thay"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chào hỏi khách khi đến nhà thể hiện con biết phép lịch sự và hiếu khách — đây là nét đẹp văn hóa Việt Nam.",
+          "hint": "Chủ nhà cần chào đón khách khi họ đến."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao chào hỏi lễ phép lại quan trọng trong cuộc sống?",
+          "options": [
+            "Vì nếu không chào sẽ bị phạt ở trường",
+            "Vì người lớn sẽ tức giận nếu không chào",
+            "Vì đó là quy định bắt buộc phải nhớ",
+            "Vì chào hỏi thể hiện sự tôn trọng và là cách con bày tỏ tình cảm với mọi người"
+          ],
+          "correctIndex": 3,
+          "explanation": "Lời chào không chỉ là quy tắc mà còn là cách con thể hiện tình cảm, sự tôn trọng và lòng biết ơn với mọi người.",
+          "hint": "Chào hỏi xuất phát từ tình cảm chân thật, không chỉ là quy tắc."
+        },
+        {
+          "type": "true_false",
+          "text": "Chỉ cần chào thầy cô ở trường, không cần chào người lớn ở ngoài hay hàng xóm.",
+          "correct": false,
+          "explanation": "Chào hỏi lễ phép nên thực hiện với tất cả người lớn mà con gặp — dù ở trường, ở nhà hay ngoài đường.",
+          "hint": "Phép lịch sự không giới hạn chỉ ở trường học."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi gặp thầy cô hay người lớn, con nên ___ và nói lời chào lễ phép.",
+          "answer": "cúi đầu",
+          "explanation": "Cúi đầu khi chào là nét đẹp văn hóa Việt Nam, thể hiện sự kính trọng với người lớn tuổi hơn.",
+          "hint": "Hành động gì thể hiện sự cúi mình tôn trọng?"
+        }
+      ]
+    }
+  ]
+}

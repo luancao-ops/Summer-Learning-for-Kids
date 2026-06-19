@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g4-family-and-friends-4",
+    "title": "Family and Friends 4 — Curriculum Map",
+    "publisher": "Oxford University Press",
+    "extractedAt": "2026-06-09",
+    "targetStudents": ["girl", "boy"],
+    "targetGrades": [3, 4],
+    "note": "Covers Grade 3→4 transition. All 8 units + 4 review sections catalogued."
+  },
+
+  "structure": {
+    "mainUnits": 8,
+    "reviewSections": 4,
+    "fluencyTimeSections": 4,
+    "cultureSections": 8,
+    "skillsPerUnit": ["vocabulary", "grammar", "reading", "writing", "listening", "speaking", "phonics", "values", "project"]
+  },
+
+  "units": [
+    {
+      "unitNumber": 1,
+      "title": "Free time!",
+      "estimatedPages": "4–15",
+      "topic": "Hobbies and free-time activities",
+      "vocabularySets": [
+        "Hobbies (skateboarding, cycling, hiking, photography, gardening, birdwatching, collecting, doing puzzles, painting, cooking)",
+        "Opinions and feelings about activities (love, enjoy, like, don't mind, dislike, hate)"
+      ],
+      "grammar": "like / love / hate / enjoy + -ing (gerunds); How often...? + frequency adverbs (always, usually, often, sometimes, rarely, never)",
+      "phonics": "Long a sound (rain, play, day, eight, they, break, weight)",
+      "values": "Making the most of free time and trying new activities",
+      "readingSkill": "Reading a hobbies survey or profile",
+      "writingSkill": "Writing about your hobbies and free time",
+      "speakingTask": "Interview a partner about their favourite hobbies",
+      "listeningTask": "Listen to children talking about hobbies and complete notes",
+      "project": "Make a 'My Hobby' poster or mini-book",
+      "cultureLink": "Popular free-time activities in English-speaking countries",
+      "keyLearningObjectives": [
+        "Name at least 8 different hobbies and activities",
+        "Express likes and dislikes using gerunds",
+        "Ask and answer 'How often do you...?' questions",
+        "Use frequency adverbs correctly in sentences"
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "title": "Wild weather!",
+      "estimatedPages": "16–27",
+      "topic": "Weather, seasons, and climate",
+      "vocabularySets": [
+        "Weather adjectives (foggy, icy, stormy, humid, boiling, freezing, mild, breezy, overcast, drizzly)",
+        "Extreme weather events (flood, drought, hurricane, blizzard, heatwave, thunderstorm, tornado, avalanche)"
+      ],
+      "grammar": "Comparative adjectives (hotter than, more dangerous than, less cold than); as...as",
+      "phonics": "Long e sound (sea, green, easy, these, theme, even, between)",
+      "values": "Being aware of weather safety and climate change",
+      "readingSkill": "Reading a weather report or climate fact file",
+      "writingSkill": "Writing a comparison of two seasons or cities",
+      "speakingTask": "Compare weather in different places using comparatives",
+      "listeningTask": "Listen to a weather forecast and note key information",
+      "project": "Create a weather diary or climate comparison chart",
+      "cultureLink": "Extreme weather events around the world",
+      "keyLearningObjectives": [
+        "Name at least 8 weather conditions and describe them",
+        "Name and describe extreme weather events",
+        "Form and use comparative adjectives correctly",
+        "Compare two things using as...as"
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "title": "On the move!",
+      "estimatedPages": "28–39",
+      "topic": "Transport, travel, and current activities",
+      "vocabularySets": [
+        "Means of transport (train, tram, ferry, cable car, hot air balloon, motorbike, scooter, submarine, speedboat)",
+        "Travel verbs and phrases (depart, arrive, board, get on/off, check in, fasten seatbelt, miss, catch)"
+      ],
+      "grammar": "Present continuous (is/are + -ing): actions happening now AND scheduled future arrangements",
+      "phonics": "Long i sound (night, write, sky, fly, high, light, bright, find)",
+      "values": "Travelling safely and respecting the environment while travelling",
+      "readingSkill": "Reading a travel itinerary or transport timetable",
+      "writingSkill": "Writing about a journey or travel plan",
+      "speakingTask": "Describe what people are doing in a busy transport scene",
+      "listeningTask": "Listen to travel announcements and note details",
+      "project": "Plan a dream trip — create a travel poster with transport info",
+      "cultureLink": "Public transport systems in the UK, USA, and Australia",
+      "keyLearningObjectives": [
+        "Name at least 8 types of transport",
+        "Use present continuous for current actions and future plans",
+        "Ask and answer questions in the present continuous",
+        "Understand and use travel vocabulary in context"
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "title": "Let's go shopping!",
+      "estimatedPages": "40–51",
+      "topic": "Clothes, shopping, and future plans",
+      "vocabularySets": [
+        "Clothes and accessories (coat, scarf, gloves, boots, tracksuit, uniform, dungarees, cap, belt, earrings)",
+        "Shopping language (price, discount, receipt, change, afford, try on, size, fit, in stock, out of stock)"
+      ],
+      "grammar": "be going to (plans and intentions); going to questions: What are you going to...?",
+      "phonics": "Long o sound (road, know, home, show, boat, old, most, phone)",
+      "values": "Spending money wisely and buying only what you need",
+      "readingSkill": "Reading a shopping dialogue or advertisement",
+      "writingSkill": "Writing a shopping list or description of an outfit",
+      "speakingTask": "Role-play a shopping conversation in a clothes store",
+      "listeningTask": "Listen to a shopping dialogue and note the items bought",
+      "project": "Design and describe your dream outfit or school uniform",
+      "cultureLink": "Shopping habits and fashion trends in different countries",
+      "keyLearningObjectives": [
+        "Name at least 8 clothes and accessories",
+        "Use shopping language in a role-play context",
+        "Form going to sentences for future plans",
+        "Ask and answer questions with going to"
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "title": "Yummy food!",
+      "estimatedPages": "52–63",
+      "topic": "Food groups, cooking, and healthy eating",
+      "vocabularySets": [
+        "Food groups and types (grains, dairy, protein, legumes, vegetables, fruit; cereal, yoghurt, tofu, lentils, spinach, mango)",
+        "Cooking methods and kitchen equipment (boil, fry, bake, grill, steam, roast, blend; pot, pan, oven, frying pan, knife, chopping board)"
+      ],
+      "grammar": "Countable and uncountable nouns; some / any; How much...? / How many...?",
+      "phonics": "Long u sound (cube, huge, music, view, beautiful, fuel, February)",
+      "values": "Eating healthily and reducing food waste",
+      "readingSkill": "Reading a recipe with step-by-step instructions",
+      "writingSkill": "Writing a simple recipe or daily meal plan",
+      "speakingTask": "Plan a healthy meal — discuss ingredients and quantities",
+      "listeningTask": "Listen to a cooking programme and note the ingredients used",
+      "project": "Create a class recipe card for a favourite dish",
+      "cultureLink": "Traditional dishes and eating habits in English-speaking countries",
+      "keyLearningObjectives": [
+        "Name foods from all main food groups",
+        "Distinguish countable from uncountable nouns",
+        "Use some, any, how much, and how many correctly",
+        "Write and follow a simple recipe"
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "title": "What a day!",
+      "estimatedPages": "64–75",
+      "topic": "Memorable events and past experiences",
+      "vocabularySets": [
+        "Irregular past simple verbs (went/go, came/come, saw/see, ate/eat, bought/buy, rode/ride, swam/swim, ran/run, fell/fall, won/win)",
+        "Time expressions for the past (yesterday, last week, last month, ago, the day before yesterday, in the past, once upon a time)"
+      ],
+      "grammar": "Past simple (regular and irregular verbs); past simple negatives and questions (didn't, Did you...? / What did you...?)",
+      "phonics": "ar sound (car, farm, hard, start, large, heart, dark, sharp)",
+      "values": "Cherishing good memories and learning from the past",
+      "readingSkill": "Reading a diary entry or recount of a past event",
+      "writingSkill": "Writing a diary entry or recount of a memorable day",
+      "speakingTask": "Tell a partner about a fun day out using past simple",
+      "listeningTask": "Listen to someone recounting a memorable event and answer questions",
+      "project": "Make a 'My Best Day Ever' scrapbook page",
+      "cultureLink": "Holidays and special events in English-speaking countries",
+      "keyLearningObjectives": [
+        "Form and use past simple (regular and irregular) correctly",
+        "Make past simple negatives and questions",
+        "Use time expressions for the past accurately",
+        "Write a structured recount of a past event"
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "title": "Stay healthy!",
+      "estimatedPages": "76–87",
+      "topic": "Body, health problems, and giving advice",
+      "vocabularySets": [
+        "Parts of the body (shoulder, elbow, wrist, ankle, knee, hip, thumb, spine, chest, heel)",
+        "Health problems and treatments (cut, bruise, blister, sprain, rash, fever, headache, stomachache; bandage, plaster, ice pack, medicine, rest)"
+      ],
+      "grammar": "should / shouldn't (giving and receiving advice); What's the matter? / You should... / You shouldn't...",
+      "phonics": "or sound (corn, form, short, horse, sword, ward, court, thought)",
+      "values": "Taking care of your body and helping others when they are unwell",
+      "readingSkill": "Reading a health advice article or first-aid leaflet",
+      "writingSkill": "Writing advice for a friend with a health problem",
+      "speakingTask": "Role-play: a friend is ill — give advice using should/shouldn't",
+      "listeningTask": "Listen to a doctor giving advice and note the recommendations",
+      "project": "Make a 'First Aid Tips' poster or booklet",
+      "cultureLink": "Healthcare and healthy living tips from around the world",
+      "keyLearningObjectives": [
+        "Name at least 8 parts of the body",
+        "Describe common health problems",
+        "Give advice using should and shouldn't",
+        "Role-play a health consultation"
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "title": "Our planet!",
+      "estimatedPages": "88–99",
+      "topic": "Nature, wildlife, and environmental protection",
+      "vocabularySets": [
+        "Natural wonders and landforms (rainforest, coral reef, glacier, volcano, canyon, waterfall, cave, delta, tundra)",
+        "Environmental problems and solutions (pollution, deforestation, global warming, habitat loss, recycling, solar energy, conservation, reforestation)"
+      ],
+      "grammar": "can / can't (present ability and possibility); could / couldn't (past ability)",
+      "phonics": "er/ur/ir sounds (bird, girl, work, turn, heard, earth, early, journey)",
+      "values": "Caring for the planet and taking action to protect wildlife",
+      "readingSkill": "Reading an environmental article or wildlife conservation report",
+      "writingSkill": "Writing a short report on an environmental issue and solution",
+      "speakingTask": "Debate: what can we do to help the planet?",
+      "listeningTask": "Listen to a nature documentary clip and answer questions",
+      "project": "Create an 'I Can Help the Planet' action plan poster",
+      "cultureLink": "Environmental movements and conservation projects worldwide",
+      "keyLearningObjectives": [
+        "Name natural wonders and landforms",
+        "Describe environmental problems and suggest solutions",
+        "Use can/can't for present ability and possibility",
+        "Use could/couldn't for past ability"
+      ]
+    }
+  ],
+
+  "reviewSections": [
+    {
+      "section": "Review A",
+      "afterUnit": 2,
+      "covers": ["Unit 1", "Unit 2"],
+      "activitiesIncluded": ["vocabulary review", "grammar consolidation", "skills check", "self-assessment"]
+    },
+    {
+      "section": "Review B",
+      "afterUnit": 4,
+      "covers": ["Unit 3", "Unit 4"],
+      "activitiesIncluded": ["vocabulary review", "grammar consolidation", "skills check", "self-assessment"]
+    },
+    {
+      "section": "Review C",
+      "afterUnit": 6,
+      "covers": ["Unit 5", "Unit 6"],
+      "activitiesIncluded": ["vocabulary review", "grammar consolidation", "skills check", "self-assessment"]
+    },
+    {
+      "section": "Review D",
+      "afterUnit": 8,
+      "covers": ["Unit 7", "Unit 8"],
+      "activitiesIncluded": ["vocabulary review", "grammar consolidation", "skills check", "self-assessment"]
+    }
+  ],
+
+  "fluencyTimeSections": [
+    { "section": "Fluency Time 1", "afterUnit": 2, "scenario": "Talking to a new friend about hobbies and favourite activities" },
+    { "section": "Fluency Time 2", "afterUnit": 4, "scenario": "Planning a shopping trip with a friend" },
+    { "section": "Fluency Time 3", "afterUnit": 6, "scenario": "Telling a story about a memorable day out" },
+    { "section": "Fluency Time 4", "afterUnit": 8, "scenario": "Discussing ways to help protect the environment" }
+  ],
+
+  "lessonGenerationNotes": {
+    "recommendedLessonsPerUnit": 5,
+    "totalRecommendedLessons": 40,
+    "suggestedSplitGirlGrade4": ["Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5", "Unit 6", "Unit 7", "Unit 8"],
+    "suggestedSplitBoyGrade4": ["Unit 1", "Unit 2", "Unit 3", "Unit 4", "Unit 5"],
+    "suggestedSplitBoyGrade3": ["Unit 1", "Unit 2", "Unit 3"],
+    "lessonIdRangeGirlGrade4": "girl-g4-en-x026 onwards (x001–x025 already used)"
+  }
+}

@@ -18,7 +18,7 @@ SQLite database. No cloud. No accounts. Server: http://127.0.0.1:3000 (LAN: http
 
 Next.js 16 App Router + React 19 + Prisma 6 + SQLite.
 Server Components for pages. Client Components for quiz/forms. Server Actions for mutations.
-`distDir: ".next-build6"` — never change back to `.next`–`.next-build5` (all NTFS-locked).
+`distDir: ".next-build9"` — never change back to `.next`–`.next-build7` (all NTFS-locked).
 
 ---
 
@@ -29,7 +29,7 @@ Server Components for pages. Client Components for quiz/forms. Server Actions fo
 | Yumi | `girl` | 4→5 | Princess Craft Kingdom |
 | Johnny | `boy` | 3→4 | Robot Sport Lab |
 
-Subjects: `math` · `vietnamese` · `english`
+Subjects: `math` · `vietnamese` · `english` · `science_life_skills`
 
 ---
 
@@ -61,15 +61,20 @@ Subjects: `math` · `vietnamese` · `english`
 | Understand DB schema | `prisma/schema.prisma` |
 | Setup / deployment / distDir | `docs/TECHNICAL.md` |
 | UX flows, user journeys | `docs/UX_FLOW.md` |
-| Content generation workflow | `docs/AGENTS.md` |
+| Content generation workflow | `docs/AGENTS.md` · `summer-quest/content/README.md` |
+| Question flag/report system | `docs/ARCHITECTURE_BASELINE.md` → Sprint 8 section |
 | Project goals / children's profiles | `docs/PROJECT.md` |
 | Compressed critical rules | `docs/01_RULES.md` |
 | Full architecture baseline | `docs/ARCHITECTURE_BASELINE.md` |
 | Subject module definitions | `modules/{subject}/MODULE.md` |
+| Subject lesson creation (quick ref) | `modules/{subject}/LESSON_CREATION_GUIDE.md` |
+| Subject import guide (IDs, counts, steps) | `modules/{subject}/IMPORT_GUIDE.md` |
 | Module architecture (future) | `docs/MODULE_ARCHITECTURE.md` |
 | Curriculum hierarchy (Grade 3–6) | `docs/CURRICULUM_STRUCTURE.md` |
-| AI content data standards | `docs/AI_DATA_STANDARDS.md` |
+| AI content data standards + manifest schema | `docs/AI_DATA_STANDARDS.md` |
+| Lesson creation rules (all subjects) | `docs/LESSON_CREATION_GUIDE.md` |
 | Content import pipeline | `docs/CONTENT_IMPORT.md` |
+| Import a book (PDF → Knowledge Package) | `docs/01_RULES.md` · `tools/import_book/README.md` · `tools/import_book/import_workflow.md` · `docs/CONTENT_IMPORT.md` |
 | Asset model (future) | `docs/ASSET_MODEL.md` |
 | RAG architecture (future) | `docs/RAG_ARCHITECTURE.md` |
 | Asset repository | `assets/README.md` + `assets/{subject}/catalog.json` |
@@ -84,12 +89,14 @@ Subjects: `math` · `vietnamese` · `english`
 |---|---|
 | Bug affecting children now (P0) | Read `INCIDENTS.md` → fix directly if < 15 min |
 | New feature request | Add ticket to `BACKLOG.md` first, then implement |
-| Add new lessons | Write JSON manifest → `npm run content:import` |
+| Add new lessons (any subject) | Read `modules/{subject}/IMPORT_GUIDE.md` → write manifest → `npm run content:import` |
+| Create lesson content | Read `modules/{subject}/LESSON_CREATION_GUIDE.md` → `docs/LESSON_CREATION_GUIDE.md` §{N} |
 | Build fails with EPERM | Bump distDir in 6 files (see `INCIDENTS.md`) |
 | `prisma generate` EPERM | Use `$queryRaw`/`$executeRaw` (see `INCIDENTS.md`) |
 | Parent PIN / auth change | Read `lib/parent-access.ts` + `INCIDENTS.md` |
 | Schema change needed | Edit `schema.prisma` + run migration + update `TECHNICAL.md` |
 | Import content | Manifest in `content/manifests/` → `npm run content:import` |
+| Import a book / PDF | Read `tools/import_book/README.md` → follow `tools/import_book/import_workflow.md` |
 
 ---
 
@@ -97,10 +104,10 @@ Subjects: `math` · `vietnamese` · `english`
 
 | Item | Value |
 |---|---|
-| distDir | `.next-build6` |
+| distDir | `.next-build9` |
 | DB file | `summer-quest/prisma/dev.db` |
 | Student IDs | `"girl"`, `"boy"` |
-| Subject IDs | `"math"`, `"vietnamese"`, `"english"` |
+| Subject IDs | `"math"`, `"vietnamese"`, `"english"`, `"science_life_skills"` |
 | Parent PIN key | `SiteConfig` table, key `"parentPinHash"` |
 | Parent cookie | `sq_parent_access` (httpOnly, 8h) |
 | Launcher | `Start Summer Quest.cmd` → always `next start` |

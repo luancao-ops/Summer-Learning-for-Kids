@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "batchId": "batch-girl-g5-en-06",
+  "sourceReference": "Family and Friends 5 (Oxford University Press) — Unit 2: Amazing Animals!",
+  "checks": {
+    "answerDistribution": "Q1=B Q2=A Q3=C Q4=D Q5=C Q6=D Q7=C Q8=B — A×1 B×2 C×3 D×2, no consecutive repeats",
+    "noConsecutiveSameAnswer": true,
+    "languageLevel": "grade-appropriate Grade 5",
+    "contentOriginal": true
+  },
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-en-x026",
+      "subjectId": "english",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "review",
+      "orderIndex": 62,
+      "title": "Amazing Animals! 🐘🦁",
+      "learningObjective": "After this lesson, Yumi will know vocabulary for endangered animals and habitats, and can use 'Have you ever...?' to talk about experiences.",
+      "shortExplanation": "Learn about amazing animals around the world and where they live! Practice the question: 'Have you ever seen a gorilla?'",
+      "storyContext": "Yumi is reading a nature magazine called 'Amazing Animals Around the World'. She discovers incredible facts about animals and their homes!",
+      "rewardConfig": "{\"xp\":10,\"coins\":5}",
+      "content": "# Amazing Animals! 🐘🦁\n\n## New Words (Từ mới)\n\n| English | Vietnamese | Example |\n|---|---|---|\n| **habitat** | môi trường sống | The panda's habitat is the bamboo forest. |\n| **endangered** | có nguy cơ tuyệt chủng | Tigers are endangered animals. |\n| **extinct** | tuyệt chủng hoàn toàn | Dinosaurs are extinct. |\n| **rainforest** | rừng nhiệt đới | Many animals live in the rainforest. |\n| **Arctic** | Bắc Cực | Polar bears live in the Arctic. |\n| **predator** | động vật săn mồi | A lion is a predator. |\n| **primate** | linh trưởng | Gorillas and chimpanzees are primates. |\n\n---\n\n## Reading: Animals and Their Habitats 🌍\n\nAnimals live in different **habitats** around the world. A habitat is the natural home of an animal — the place where it finds food, water, and shelter.\n\nWhen a habitat is destroyed, animals can become **endangered**. This means there are very few of them left in the world. If we do not protect them, they can become **extinct** — like the dinosaurs.\n\n### 🐻‍❄️ Polar Bears — The Arctic\n\nPolar bears live in the **Arctic**, where it is extremely cold and icy. They are powerful swimmers and hunt seals for food. Their thick white fur keeps them warm. Today, polar bears are **endangered** because the Arctic ice is melting.\n\n### 🦍 Gorillas — The Rainforest\n\n**Gorillas** are the largest primates in the world. They live in the tropical **rainforest** in Africa, eating leaves, fruits, and bamboo shoots. They are gentle animals and live in family groups. Mountain gorillas are critically endangered — there are fewer than 1,100 left!\n\n### 🐪 Camels — The Desert\n\n**Camels** live in the **desert**, where it is very hot and dry. They can go for many days without water. They store energy (not water!) in their humps, which gives them strength during long journeys.\n\n### 🐬 Dolphins — The Ocean\n\n**Dolphins** are highly intelligent animals that live in the **ocean**. They communicate with each other using clicks and whistles. They often swim in groups called pods and help each other when one is injured.\n\n---\n\n## Grammar: Have you ever...? 🌟\n\nWe use the **present perfect** to talk about our life experiences:\n\n✅ **Have** you **ever seen** a gorilla? — Bạn đã từng nhìn thấy con khỉ đột chưa?\n✅ **Yes, I have.** (Rồi.) / **No, I haven't.** (Chưa.)\n✅ **I have never seen** a polar bear in real life. — Tôi chưa bao giờ nhìn thấy gấu Bắc Cực ngoài đời thật.\n\n💡 **Remember:**\n- Use **'ever'** in questions: *Have you **ever** tried sushi?*\n- Use **'never'** in negative sentences: *I have **never** been to Africa.*\n- The verb after have/has is always the **past participle**: see → **seen**, go → **gone**, eat → **eaten**\n\n---\n\n## Let's Practice! ✏️\n\nMatch the animals to their habitats:\n🐻‍❄️ Polar bear → ❄️ **Arctic**\n🦍 Gorilla → 🌿 **Rainforest**\n🐪 Camel → 🏜️ **Desert**\n🐬 Dolphin → 🌊 **Ocean**\n\n**Did you know?** 🐼 There are fewer than 1,900 giant pandas left in the wild. Scientists and zoos around the world are working hard to protect them. What can YOU do to help endangered animals?",
+      "questions": [
+        {
+          "id": "girl-g5-en-x026-q1",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 1,
+          "type": "multiple_choice",
+          "text": "What is a 'habitat'?",
+          "options": [
+            { "id": "A", "text": "A type of food that animals eat" },
+            { "id": "B", "text": "The natural home of an animal" },
+            { "id": "C", "text": "A special skill that animals have" },
+            { "id": "D", "text": "A group of animals living together" }
+          ],
+          "correctAnswer": "B",
+          "explanation": "A habitat is the natural home of an animal — the place where it finds food, water, and shelter. For example, the Arctic is the habitat of polar bears.",
+          "hint": "Think about where animals live naturally."
+        },
+        {
+          "id": "girl-g5-en-x026-q2",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 2,
+          "type": "multiple_choice",
+          "text": "Where do polar bears live?",
+          "options": [
+            { "id": "A", "text": "The Arctic" },
+            { "id": "B", "text": "The desert" },
+            { "id": "C", "text": "The rainforest" },
+            { "id": "D", "text": "The ocean" }
+          ],
+          "correctAnswer": "A",
+          "explanation": "Polar bears live in the Arctic, where it is extremely cold and icy. Their thick white fur keeps them warm in the freezing temperatures.",
+          "hint": "Polar bears need ice and snow — which habitat is very cold?"
+        },
+        {
+          "id": "girl-g5-en-x026-q3",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 3,
+          "type": "multiple_choice",
+          "text": "What does 'endangered' mean?",
+          "options": [
+            { "id": "A", "text": "Very fast" },
+            { "id": "B", "text": "Very dangerous to other animals" },
+            { "id": "C", "text": "At risk of dying out — very few left" },
+            { "id": "D", "text": "Very large in size" }
+          ],
+          "correctAnswer": "C",
+          "explanation": "'Endangered' means an animal is at risk of becoming extinct because there are very few left. Tigers and mountain gorillas are examples of endangered animals.",
+          "hint": "Think about the word 'danger' inside 'endangered'."
+        },
+        {
+          "id": "girl-g5-en-x026-q4",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 4,
+          "type": "multiple_choice",
+          "text": "Which animal lives in the rainforest?",
+          "options": [
+            { "id": "A", "text": "Camel" },
+            { "id": "B", "text": "Dolphin" },
+            { "id": "C", "text": "Polar bear" },
+            { "id": "D", "text": "Gorilla" }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Gorillas live in the tropical rainforest in Africa. They eat leaves, fruits, and bamboo shoots and are the largest primates in the world.",
+          "hint": "Which of these animals lives in Africa and eats plants?"
+        },
+        {
+          "id": "girl-g5-en-x026-q5",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 5,
+          "type": "multiple_choice",
+          "text": "How do dolphins communicate with each other?",
+          "options": [
+            { "id": "A", "text": "By changing their colour" },
+            { "id": "B", "text": "By wagging their tails" },
+            { "id": "C", "text": "Using clicks and whistles" },
+            { "id": "D", "text": "By jumping out of the water" }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Dolphins communicate using clicks and whistles. They are highly intelligent animals and use these sounds to talk to each other and find food.",
+          "hint": "Dolphins make special sounds — what are they called?"
+        },
+        {
+          "id": "girl-g5-en-x026-q6",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 6,
+          "type": "multiple_choice",
+          "text": "What are gorillas?",
+          "options": [
+            { "id": "A", "text": "The fastest animals in the world" },
+            { "id": "B", "text": "The most intelligent ocean animals" },
+            { "id": "C", "text": "Animals that live in the Arctic" },
+            { "id": "D", "text": "The largest primates in the world" }
+          ],
+          "correctAnswer": "D",
+          "explanation": "Gorillas are the largest primates in the world. A primate is a group of animals that includes monkeys, apes, and humans. Gorillas can weigh up to 200 kg!",
+          "hint": "Primates are animals like monkeys and apes. Which is the biggest?"
+        },
+        {
+          "id": "girl-g5-en-x026-q7",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 7,
+          "type": "multiple_choice",
+          "text": "Which animals are completely extinct?",
+          "options": [
+            { "id": "A", "text": "Polar bears" },
+            { "id": "B", "text": "Giant pandas" },
+            { "id": "C", "text": "Dinosaurs" },
+            { "id": "D", "text": "Mountain gorillas" }
+          ],
+          "correctAnswer": "C",
+          "explanation": "Dinosaurs are extinct — they disappeared from Earth about 66 million years ago. Polar bears, giant pandas, and gorillas are still alive but endangered.",
+          "hint": "Extinct means completely gone from Earth forever. Which of these animals no longer exists?"
+        },
+        {
+          "id": "girl-g5-en-x026-q8",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 8,
+          "type": "multiple_choice",
+          "text": "Which sentence uses 'Have you ever...?' correctly?",
+          "options": [
+            { "id": "A", "text": "Have you ever go to the zoo?" },
+            { "id": "B", "text": "Have you ever been to the zoo?" },
+            { "id": "C", "text": "Have you ever went to the zoo?" },
+            { "id": "D", "text": "Do you ever been to the zoo?" }
+          ],
+          "correctAnswer": "B",
+          "explanation": "The correct form is 'Have you ever BEEN to the zoo?' — we use the past participle after 'have'. 'Been' is the past participle of 'be/go'. Options A, C, and D all use wrong verb forms.",
+          "hint": "After 'Have you ever', we need the past participle form of the verb."
+        },
+        {
+          "id": "girl-g5-en-x026-q9",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 9,
+          "type": "true_false",
+          "text": "Gorillas are carnivores — they mainly eat other animals for food.",
+          "options": [
+            { "id": "true", "text": "True" },
+            { "id": "false", "text": "False" }
+          ],
+          "correctAnswer": "false",
+          "explanation": "False! Gorillas are herbivores — they eat plants, leaves, fruits, and bamboo shoots. They do not hunt other animals for food.",
+          "hint": "Think about what the lesson says gorillas eat."
+        },
+        {
+          "id": "girl-g5-en-x026-q10",
+          "lessonId": "girl-g5-en-x026",
+          "orderIndex": 10,
+          "type": "fill_blank",
+          "text": "A place where an animal naturally lives — where it finds food, water, and shelter — is called its _____.",
+          "options": [],
+          "correctAnswer": "habitat",
+          "explanation": "The answer is 'habitat'. A habitat is the natural home of an animal. We learned that the Arctic is the polar bear's habitat, and the rainforest is the gorilla's habitat.",
+          "hint": "This word starts with 'h'. We learned it at the very beginning of the lesson!"
+        }
+      ]
+    }
+  ]
+}

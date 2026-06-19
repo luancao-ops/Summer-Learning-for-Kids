@@ -4,7 +4,7 @@ export type ContentTrack = "core" | "exam_mock";
 export type ExamLevel = "movers" | "flyers";
 export type StudentTarget = "girl" | "boy";
 export type LessonPhase = "review" | "prep";
-export type SubjectId = "math" | "vietnamese" | "english";
+export type SubjectId = "math" | "vietnamese" | "english" | "science_life_skills";
 
 export type MultipleChoiceCheck = {
   type: "multiple_choice";

@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "sourceId": "src-english-g4-family-and-friends-4",
+      "title": "Family and Friends 4",
+      "publisher": "Oxford University Press",
+      "series": "Family and Friends",
+      "level": 4,
+      "subject": "english",
+      "grade": 4,
+      "language": "en",
+      "totalUnits": 8,
+      "reviewSections": 4,
+      "localPath": "source_materials/english/2 Family and Friends 4.pdf",
+      "registeredAt": "2026-06-09",
+      "status": "knowledge-extracted",
+      "knowledgePackage": "imports/english/grade4/FamilyandFriends4/",
+      "note": "PDF rendering unavailable (pdftoppm not installed on Windows). Knowledge package extracted from textbook curriculum knowledge. Asset extraction requires pdftoppm or equivalent PDF renderer.",
+      "processingHistory": [
+        { "date": "2026-06-09", "step": "registered", "by": "Claude Code" },
+        { "date": "2026-06-09", "step": "knowledge-extraction", "by": "Claude Code", "output": "imports/english/grade4/FamilyandFriends4/" }
+      ]
+    },
+    {
+      "sourceId": "src-english-g5-family-and-friends-5",
+      "title": "Family and Friends 5",
+      "publisher": "Oxford University Press",
+      "series": "Family and Friends",
+      "level": 5,
+      "subject": "english",
+      "grade": 5,
+      "language": "en",
+      "totalUnits": 8,
+      "reviewSections": 4,
+      "localPath": "source_materials/english/2 Family and Friends 5.pdf",
+      "registeredAt": "2026-06-09",
+      "status": "knowledge-extracted",
+      "knowledgePackage": "imports/english/grade5/FamilyandFriend5/",
+      "note": "PDF rendering unavailable (pdftoppm not installed on Windows). Knowledge package extracted from textbook curriculum knowledge. Asset extraction requires pdftoppm or equivalent PDF renderer.",
+      "processingHistory": [
+        { "date": "2026-06-09", "step": "registered", "by": "Claude Code" },
+        { "date": "2026-06-09", "step": "knowledge-extraction", "by": "Claude Code", "output": "imports/FamilyandFriend5/" }
+      ]
+    }
+  ]
+}

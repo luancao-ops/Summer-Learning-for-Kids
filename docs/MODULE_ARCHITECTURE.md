@@ -123,6 +123,30 @@ When approved (separate approval required), modules will:
 
 ---
 
+## Book Import Ownership
+
+Each subject module owns its import pipeline — PDFs for a subject go to that module's import folder.
+
+| Subject | PDF Source | Knowledge Package Location | Module Guide |
+|---|---|---|---|
+| English | `source_materials/english/` | `imports/english/grade{N}/{BookSlug}/` | `modules/english/MODULE.md` |
+| Math | `source_materials/math/` | `imports/math/grade{N}/{BookSlug}/` | `modules/math/MODULE.md` |
+| Vietnamese | `source_materials/vietnamese/` | `imports/vietnamese/grade{N}/{BookSlug}/` | `modules/vietnamese/MODULE.md` |
+| Science | `source_materials/science/` | `imports/science/grade{N}/{BookSlug}/` | `modules/science/MODULE.md` |
+
+**Rules:**
+- A module may not import content from another module's Knowledge Package
+- Grade folders (`grade3/`, `grade4/`, `grade5/`) are mandatory — they scope materials to the correct year group
+- Import process: `tools/import_book/README.md` (overview) → `tools/import_book/import_workflow.md` (steps)
+
+**Current Knowledge Packages:**
+
+| Package | Subject | Grade | Status | Path |
+|---|---|---|---|---|
+| Family and Friends 5 | English | 5 | ✅ Extracted | `imports/english/grade5/FamilyandFriend5/` |
+
+---
+
 ## Relationship to Other Docs
 
 | Doc | Relationship |

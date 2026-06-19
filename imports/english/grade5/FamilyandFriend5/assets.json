@@ -1,0 +1,309 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g5-family-and-friends-5",
+    "title": "Family and Friends 5 — Asset Inventory",
+    "extractedAt": "2026-06-09",
+    "extractionStatus": "PARTIAL — catalog only",
+    "extractionNote": "PDF rendering unavailable on this machine (pdftoppm not installed). This file catalogs EXPECTED asset types by unit based on Oxford F&F5 textbook structure. Actual image extraction requires: (1) install poppler-utils on Windows, or (2) use Python pdfplumber/PyMuPDF on any machine. See docs/CONTENT_IMPORT.md Part 4 for extraction workflow.",
+    "toolRequired": "pdftoppm (poppler-utils) OR pdfplumber (Python) OR PyMuPDF (Python)",
+    "installInstructions": {
+      "windows": "Download Poppler for Windows from: https://github.com/oschwartz10612/poppler-windows/releases — extract and add bin/ to PATH",
+      "python": "pip install pdfplumber pymupdf pillow"
+    }
+  },
+
+  "assetTypesSummary": {
+    "storyComicStrips": { "countEstimated": 8, "perUnit": 1, "description": "Full-page comic-strip story with 6-8 panels per unit" },
+    "vocabularyIllustrations": { "countEstimated": 64, "perUnit": 8, "description": "Individual illustrations for each vocabulary word (both sets)" },
+    "characterPhotos": { "countEstimated": 8, "description": "Photos of real-world items for vocabulary sets" },
+    "grammarDiagrams": { "countEstimated": 16, "perUnit": 2, "description": "Grammar structure diagrams and example tables" },
+    "culturePagesPhotos": { "countEstimated": 24, "perUnit": 3, "description": "Photos from English-speaking countries for culture sections" },
+    "projectTemplates": { "countEstimated": 8, "perUnit": 1, "description": "Template layouts for student project activities" },
+    "reviewGameBoards": { "countEstimated": 4, "total": 4, "description": "Game board illustrations for review sections" },
+    "mapIllustrations": { "countEstimated": 3, "description": "World maps and regional maps" }
+  },
+
+  "byUnit": [
+    {
+      "unit": 1,
+      "unitTitle": "That's a big family!",
+      "assets": [
+        {
+          "assetId": "english-illustration-family-tree-01",
+          "type": "illustration",
+          "description": "A large family tree showing grandparents, parents, aunts, uncles, cousins — used to introduce extended family vocabulary",
+          "page": "~5",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary introduction — extended family members",
+          "extracted": false
+        },
+        {
+          "assetId": "english-comic-family-reunion-01",
+          "type": "comic-strip",
+          "description": "Comic strip: children visit a large family reunion and meet relatives. 6-panel story.",
+          "page": "~4-5",
+          "priority": "MEDIUM",
+          "lessonUse": "story context — comprehension",
+          "extracted": false
+        },
+        {
+          "assetId": "english-illustration-appearance-adjectives-01",
+          "type": "illustration",
+          "description": "Portraits of 6-8 people with different hair types and body types — labels: curly, straight, wavy, bald, slim, elderly",
+          "page": "~7",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — physical appearance",
+          "extracted": false
+        },
+        {
+          "assetId": "english-photo-family-uk-01",
+          "type": "photo",
+          "description": "Culture page: photo of a multi-generational British family",
+          "page": "~14",
+          "priority": "LOW",
+          "lessonUse": "culture section",
+          "extracted": false
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "unitTitle": "Amazing animals!",
+      "assets": [
+        {
+          "assetId": "english-illustration-animal-habitats-map-01",
+          "type": "illustration",
+          "description": "World map with animals positioned in their habitats — polar bear in Arctic, gorilla in Africa, camel in desert, dolphin in ocean",
+          "page": "~17",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — habitats + animal placement",
+          "extracted": false
+        },
+        {
+          "assetId": "english-photo-polar-bear-01",
+          "type": "photo",
+          "description": "Photograph of a polar bear in the Arctic ice",
+          "page": "~18",
+          "priority": "HIGH",
+          "lessonUse": "reading section — polar bear",
+          "extracted": false
+        },
+        {
+          "assetId": "english-photo-gorilla-01",
+          "type": "photo",
+          "description": "Photograph of a mountain gorilla in a rainforest",
+          "page": "~19",
+          "priority": "HIGH",
+          "lessonUse": "reading section — gorilla",
+          "extracted": false
+        },
+        {
+          "assetId": "english-photo-camel-desert-01",
+          "type": "photo",
+          "description": "Photograph of a camel in a desert landscape",
+          "page": "~19",
+          "priority": "MEDIUM",
+          "lessonUse": "reading section — camel",
+          "extracted": false
+        },
+        {
+          "assetId": "english-photo-dolphin-ocean-01",
+          "type": "photo",
+          "description": "Photograph of dolphins jumping in the ocean",
+          "page": "~20",
+          "priority": "MEDIUM",
+          "lessonUse": "reading section — dolphin",
+          "extracted": false
+        },
+        {
+          "assetId": "english-comic-amazing-animals-01",
+          "type": "comic-strip",
+          "description": "Comic strip: children visit a wildlife sanctuary and learn about endangered animals",
+          "page": "~16",
+          "priority": "MEDIUM",
+          "lessonUse": "story context",
+          "extracted": false
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "unitTitle": "Hard work!",
+      "assets": [
+        {
+          "assetId": "english-illustration-chores-set-01",
+          "type": "illustration",
+          "description": "Grid of 9 illustrations showing different household chores with labels: vacuum, mop, dust, sweep, polish, iron, rake, weed, tidy",
+          "page": "~29",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — chore verbs",
+          "extracted": false
+        },
+        {
+          "assetId": "english-illustration-chore-schedule-01",
+          "type": "illustration",
+          "description": "A weekly chore schedule template/illustration showing which chores are done on which days",
+          "page": "~32",
+          "priority": "MEDIUM",
+          "lessonUse": "reading + grammar section",
+          "extracted": false
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "unitTitle": "Feeling good!",
+      "assets": [
+        {
+          "assetId": "english-illustration-ailments-body-01",
+          "type": "illustration",
+          "description": "Body diagram with arrows pointing to headache, earache, toothache, sore throat, stomachache, backache",
+          "page": "~41",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — ailments on body map",
+          "extracted": false
+        },
+        {
+          "assetId": "english-illustration-doctor-visit-01",
+          "type": "illustration",
+          "description": "Illustration of a doctor's surgery with patient describing symptoms and doctor giving advice",
+          "page": "~44",
+          "priority": "MEDIUM",
+          "lessonUse": "grammar — should/shouldn't conversation context",
+          "extracted": false
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "unitTitle": "Let's have lunch",
+      "assets": [
+        {
+          "assetId": "english-illustration-food-containers-01",
+          "type": "illustration",
+          "description": "Illustrations of 10 food containers with contents: jar of honey, tin of soup, bag of flour, box of cereal, bottle of oil, carton of juice, packet of biscuits, tube of tomato paste, bunch of bananas, loaf of bread",
+          "page": "~53",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — food containers",
+          "extracted": false
+        },
+        {
+          "assetId": "english-photo-international-food-01",
+          "type": "photo",
+          "description": "Photo spread of food from different countries — UK, USA, Australia, India",
+          "page": "~62",
+          "priority": "MEDIUM",
+          "lessonUse": "culture section — food traditions",
+          "extracted": false
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "unitTitle": "Be safe!",
+      "assets": [
+        {
+          "assetId": "english-illustration-safety-equipment-01",
+          "type": "illustration",
+          "description": "Illustrations of 7 safety equipment items with labels: helmet, seatbelt, life jacket, safety goggles, knee pads, reflective vest, first aid kit",
+          "page": "~65",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — safety equipment",
+          "extracted": false
+        },
+        {
+          "assetId": "english-illustration-safety-poster-01",
+          "type": "illustration",
+          "description": "A sample safety rules poster (swimming pool rules or road safety) showing must/mustn't rules",
+          "page": "~68",
+          "priority": "HIGH",
+          "lessonUse": "grammar — must/mustn't in context",
+          "extracted": false
+        },
+        {
+          "assetId": "english-illustration-hazard-symbols-01",
+          "type": "illustration",
+          "description": "Warning symbols for: flammable, poisonous, fragile, slippery — used with hazard vocabulary",
+          "page": "~66",
+          "priority": "MEDIUM",
+          "lessonUse": "vocabulary — hazard adjectives",
+          "extracted": false
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "unitTitle": "Technology",
+      "assets": [
+        {
+          "assetId": "english-illustration-technology-items-01",
+          "type": "illustration",
+          "description": "Illustrations of 7 technology items: robot, solar panel, electric car, drone, 3D printer, virtual reality headset, tablet",
+          "page": "~77",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — technology items",
+          "extracted": false
+        },
+        {
+          "assetId": "english-illustration-future-city-01",
+          "type": "illustration",
+          "description": "A futuristic city illustration showing flying cars, solar panels, robots — context for 'will' predictions",
+          "page": "~79",
+          "priority": "MEDIUM",
+          "lessonUse": "grammar — will/won't — future context",
+          "extracted": false
+        },
+        {
+          "assetId": "english-photo-tech-inventions-01",
+          "type": "photo",
+          "description": "Photos of real technology inventions from tech companies (Google, Apple, etc.)",
+          "page": "~86",
+          "priority": "LOW",
+          "lessonUse": "culture section",
+          "extracted": false
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "unitTitle": "Art and music",
+      "assets": [
+        {
+          "assetId": "english-illustration-art-forms-01",
+          "type": "illustration",
+          "description": "Gallery of 8 small images showing different art forms: sculpture, photography, pottery, portrait, landscape, abstract, collage, watercolour",
+          "page": "~89",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — art forms",
+          "extracted": false
+        },
+        {
+          "assetId": "english-illustration-instruments-01",
+          "type": "illustration",
+          "description": "Illustrations of 8 musical instruments with labels: violin, trumpet, drums, flute, saxophone, harp, cello, clarinet",
+          "page": "~90",
+          "priority": "HIGH",
+          "lessonUse": "vocabulary — musical instruments",
+          "extracted": false
+        },
+        {
+          "assetId": "english-photo-famous-art-01",
+          "type": "photo",
+          "description": "Photos of famous artworks and musicians from English-speaking countries",
+          "page": "~98",
+          "priority": "LOW",
+          "lessonUse": "culture section",
+          "extracted": false
+        }
+      ]
+    }
+  ],
+
+  "extractionPriorityQueue": [
+    { "priority": 1, "assetId": "english-illustration-animal-habitats-map-01", "reason": "Most lessons on animals need this map" },
+    { "priority": 2, "assetId": "english-illustration-ailments-body-01", "reason": "Body diagram highly reusable across health lessons" },
+    { "priority": 3, "assetId": "english-illustration-family-tree-01", "reason": "Foundation asset for Unit 1 vocabulary" },
+    { "priority": 4, "assetId": "english-illustration-food-containers-01", "reason": "High visual value for countable/uncountable lessons" },
+    { "priority": 5, "assetId": "english-illustration-safety-poster-01", "reason": "Must/mustn't grammar context" }
+  ]
+}

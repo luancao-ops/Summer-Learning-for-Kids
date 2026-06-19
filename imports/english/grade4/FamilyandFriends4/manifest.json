@@ -1,0 +1,52 @@
+{
+  "packageId": "english-g4-FamilyandFriends4",
+  "sourceId": "src-english-g4-family-and-friends-4",
+  "title": "Family and Friends 4",
+  "publisher": "Oxford University Press",
+  "subject": "english",
+  "grade": 4,
+  "language": "en",
+  "targetStudents": ["girl", "boy"],
+  "extractedAt": "2026-06-09",
+  "status": "knowledge-extracted",
+  "extractionNote": "PDF rendering unavailable (pdftoppm not installed on Windows). Knowledge Package built from textbook curriculum knowledge. Assets marked extracted:false until Poppler installed.",
+
+  "files": {
+    "curriculum": true,
+    "vocabulary": true,
+    "grammar": true,
+    "assessmentSeed": true,
+    "assets": true
+  },
+
+  "coverage": {
+    "units": 8,
+    "vocabularyWords": 144,
+    "grammarStructures": 8,
+    "phonicsUnits": 8,
+    "assessmentSeedUnits": 8,
+    "assetsExpected": 30,
+    "assetsExtracted": 0
+  },
+
+  "parentReview": {
+    "reviewedAt": null,
+    "approvedUnits": [],
+    "skippedUnits": [],
+    "notes": "Pending parent review. See curriculum.json for full unit list."
+  },
+
+  "lessonsGenerated": {
+    "count": 0,
+    "importedToDb": false,
+    "importedAt": null,
+    "manifestFiles": []
+  },
+
+  "relatedDocs": {
+    "importWorkflow": "tools/import_book/import_workflow.md",
+    "contentStandards": "docs/AI_DATA_STANDARDS.md",
+    "subjectModule": "modules/english/MODULE.md",
+    "sourceRegistry": "content_repository/english/metadata/sources.json"
+  }
+}

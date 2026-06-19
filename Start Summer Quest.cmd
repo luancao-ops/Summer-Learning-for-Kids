@@ -27,7 +27,7 @@ if defined RUNNING_PID if not defined RESTART_LAN (
 
   echo Summer Quest is already running.
   echo Local URL: http://127.0.0.1:3000
-  echo LAN URL:   http://192.168.0.7:3000
+  echo LAN URL:   http://192.168.0.18:3000
   pause
   exit /b 0
 )
@@ -53,7 +53,7 @@ if defined RESTART_LAN (
 
 cd /d "%~dp0summer-quest"
 
-if not exist ".next-build6\BUILD_ID" (
+if not exist ".next-build9\BUILD_ID" (
   echo.
   echo =====================================================
   echo  First run: building Summer Quest (about 1 minute)
@@ -72,7 +72,7 @@ if not exist ".next-build6\BUILD_ID" (
 echo.
 echo Starting Summer Quest...
 echo Local URL: http://127.0.0.1:3000
-echo LAN URL:   http://192.168.0.7:3000
+echo LAN URL:   http://192.168.0.18:3000
 echo Keep this window open while using the app.
 echo.
 call npm.cmd run start:lan

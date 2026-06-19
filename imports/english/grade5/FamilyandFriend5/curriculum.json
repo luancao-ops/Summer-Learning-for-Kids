@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "sourceId": "src-english-g5-family-and-friends-5",
+    "title": "Family and Friends 5 — Curriculum Map",
+    "publisher": "Oxford University Press",
+    "extractedAt": "2026-06-09",
+    "targetStudents": ["girl", "boy"],
+    "targetGrades": [4, 5],
+    "note": "Covers Grade 4→5 transition. All 8 units + 4 review sections catalogued."
+  },
+
+  "structure": {
+    "mainUnits": 8,
+    "reviewSections": 4,
+    "fluencyTimeSections": 4,
+    "cultureSections": 8,
+    "skillsPerUnit": ["vocabulary", "grammar", "reading", "writing", "listening", "speaking", "phonics", "values", "project"]
+  },
+
+  "units": [
+    {
+      "unitNumber": 1,
+      "title": "That's a big family!",
+      "estimatedPages": "4–15",
+      "topic": "Extended family and describing people",
+      "vocabularySets": [
+        "Extended family members (aunt, uncle, cousin, nephew, niece, grandparents)",
+        "Physical appearance (curly, straight, wavy, bald, tall, slim, elderly)"
+      ],
+      "grammar": "Present perfect with 'just'",
+      "phonics": "oy sound (boy, toy, enjoy, annoy, destroy)",
+      "values": "Respect for family members",
+      "readingSkill": "Reading a family tree and profile descriptions",
+      "writingSkill": "Writing a description of a family member",
+      "speakingTask": "Describe a relative to a partner without naming them",
+      "listeningTask": "Identify family members from audio descriptions",
+      "project": "Make a class family tree poster",
+      "cultureLink": "Family life in English-speaking countries",
+      "keyLearningObjectives": [
+        "Name at least 8 extended family members",
+        "Use adjectives to describe physical appearance",
+        "Form present perfect sentences with 'just'",
+        "Read and understand a family profile"
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "title": "Amazing animals!",
+      "estimatedPages": "16–27",
+      "topic": "Endangered animals and natural habitats",
+      "vocabularySets": [
+        "Animal classification (endangered, extinct, predator, prey, mammal, reptile, amphibian, insect)",
+        "Habitats (ocean, rainforest, desert, Arctic, Antarctic, grassland, mountain)"
+      ],
+      "grammar": "Present perfect with 'ever' and 'never'",
+      "phonics": "air sound (chair, hair, fair, there, wear, care, share)",
+      "values": "Caring for the environment and wildlife",
+      "readingSkill": "Reading an animal fact report",
+      "writingSkill": "Writing an animal fact file",
+      "speakingTask": "Ask and answer 'Have you ever...?' questions about animals",
+      "listeningTask": "Listen to animal descriptions and match to habitats",
+      "project": "Create an endangered animal awareness poster",
+      "cultureLink": "Wildlife conservation projects in the UK and Australia",
+      "keyLearningObjectives": [
+        "Classify animals by type and habitat",
+        "Describe what makes an animal endangered",
+        "Form and respond to 'Have you ever...?' questions",
+        "Write a structured fact file"
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "title": "Hard work!",
+      "estimatedPages": "28–39",
+      "topic": "Household chores and responsibilities",
+      "vocabularySets": [
+        "Chore verbs (vacuum, mop, dust, sweep, polish, iron, rake, weed, tidy)",
+        "Frequency adverbs (always, usually, often, sometimes, rarely, never)"
+      ],
+      "grammar": "have to / don't have to (obligation and lack of obligation)",
+      "phonics": "ear sound (ear, hear, near, fear, clear, weird, here)",
+      "values": "Taking responsibility and helping at home",
+      "readingSkill": "Reading a survey about household chores",
+      "writingSkill": "Writing about your daily chores routine",
+      "speakingTask": "Survey classmates about their chores",
+      "listeningTask": "Listen and complete a chore schedule",
+      "project": "Design a family chore chart",
+      "cultureLink": "Children's responsibilities in different cultures",
+      "keyLearningObjectives": [
+        "Name and describe at least 8 household chores",
+        "Use frequency adverbs correctly in sentences",
+        "Express obligation and lack of obligation with have to/don't have to",
+        "Read and extract information from a survey"
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "title": "Feeling good!",
+      "estimatedPages": "40–51",
+      "topic": "Health, illness, and giving advice",
+      "vocabularySets": [
+        "Ailments (headache, stomachache, backache, earache, toothache, sore throat, cold, fever, rash, sprain)",
+        "Health actions (rest, drink fluids, take medicine, see a doctor, apply ice, stay in bed)"
+      ],
+      "grammar": "should / shouldn't (giving and receiving advice)",
+      "phonics": "ure sound (sure, cure, pure, future, picture, nature, creature)",
+      "values": "Taking care of your health and helping others",
+      "readingSkill": "Reading a health advice article",
+      "writingSkill": "Writing an advice letter to a friend who is ill",
+      "speakingTask": "Role-play a doctor–patient conversation",
+      "listeningTask": "Listen to health complaints and match to advice",
+      "project": "Make a 'Stay Healthy' tips booklet",
+      "cultureLink": "Healthcare systems in English-speaking countries",
+      "keyLearningObjectives": [
+        "Name at least 8 common illnesses and ailments",
+        "Give appropriate health advice using should/shouldn't",
+        "Role-play a doctor–patient interaction",
+        "Write a structured advice letter"
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "title": "Let's have lunch",
+      "estimatedPages": "52–63",
+      "topic": "Food, containers, and shopping",
+      "vocabularySets": [
+        "Food containers (jar, can/tin, bag, box, bottle, carton, packet, tube, bunch, loaf)",
+        "Food adjectives (fresh, organic, frozen, tinned, dried, raw, cooked, spicy, mild, sweet, sour)"
+      ],
+      "grammar": "Countable and uncountable nouns; some/any; how much/how many",
+      "phonics": "Long oo (food, moon, school, blue) vs short oo (book, foot, cook, good)",
+      "values": "Healthy eating and reducing food waste",
+      "readingSkill": "Reading a recipe with instructions",
+      "writingSkill": "Writing a shopping list and simple recipe",
+      "speakingTask": "Plan a meal using a budget — discuss what to buy",
+      "listeningTask": "Listen to a shopping conversation and note items",
+      "project": "Create a class recipe book page",
+      "cultureLink": "Food traditions in the UK, USA, and Australia",
+      "keyLearningObjectives": [
+        "Name food containers and the foods they hold",
+        "Distinguish countable and uncountable nouns",
+        "Use some/any and how much/how many correctly",
+        "Read and write a simple recipe"
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "title": "Be safe!",
+      "estimatedPages": "64–75",
+      "topic": "Safety rules and hazard awareness",
+      "vocabularySets": [
+        "Safety equipment (helmet, seatbelt, life jacket, safety goggles, knee pads, reflective vest, first aid kit)",
+        "Hazard words (dangerous, risky, slippery, fragile, poisonous, flammable, sharp, unstable, toxic)"
+      ],
+      "grammar": "must / mustn't (rules, obligation, prohibition)",
+      "phonics": "ow (now, town, brown, crowd) vs ow (show, know, grow, blow)",
+      "values": "Personal safety and looking out for others",
+      "readingSkill": "Reading a safety rules poster/leaflet",
+      "writingSkill": "Writing safety rules for a place (playground, kitchen, road)",
+      "speakingTask": "Discuss safety rules for different activities",
+      "listeningTask": "Listen to safety announcements and note the rules",
+      "project": "Design a safety poster for school",
+      "cultureLink": "Road safety rules in different countries",
+      "keyLearningObjectives": [
+        "Name safety equipment and explain when to use it",
+        "Identify and describe hazards",
+        "Use must/mustn't to express rules and prohibition",
+        "Write a clear set of safety rules"
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "title": "Technology",
+      "estimatedPages": "76–87",
+      "topic": "Modern technology and predictions about the future",
+      "vocabularySets": [
+        "Technology items (robot, tablet, laptop, smartphone, solar panel, electric car, drone, 3D printer, virtual reality headset)",
+        "Technology verbs (download, upload, charge, connect, install, recharge, stream, search, programme, control)"
+      ],
+      "grammar": "will / won't (predictions and future plans)",
+      "phonics": "tion suffix (action, station, invention, information, education, pollution, solution)",
+      "values": "Using technology wisely and responsibly",
+      "readingSkill": "Reading a technology magazine article",
+      "writingSkill": "Writing predictions about technology in 50 years",
+      "speakingTask": "Debate: Is technology good or bad for children?",
+      "listeningTask": "Listen to a technology news report",
+      "project": "Draw and describe your invention of the future",
+      "cultureLink": "Tech companies and inventions from English-speaking countries",
+      "keyLearningObjectives": [
+        "Name and describe at least 8 technology items",
+        "Use technology action verbs correctly",
+        "Make predictions using will/won't",
+        "Write a paragraph of future predictions"
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "title": "Art and music",
+      "estimatedPages": "88–99",
+      "topic": "Art forms, musical instruments, and creative expression",
+      "vocabularySets": [
+        "Art forms (sculpture, photography, pottery, street art, watercolour, portrait, landscape, abstract, collage)",
+        "Musical instruments (violin, trumpet, drums, guitar, flute, piano, saxophone, harp, cello, clarinet)"
+      ],
+      "grammar": "Defining relative clauses with who / which / that",
+      "phonics": "Silent letters: k (knife, know, knight, kneel); b (climb, comb, thumb, lamb)",
+      "values": "Appreciating art and music in all its forms",
+      "readingSkill": "Reading an artist or musician biography",
+      "writingSkill": "Writing a short biography",
+      "speakingTask": "Present a famous artist or musician to the class",
+      "listeningTask": "Listen to music samples and identify instruments",
+      "project": "Create an art exhibition with descriptions",
+      "cultureLink": "Famous artists and musicians from English-speaking countries",
+      "keyLearningObjectives": [
+        "Name and describe at least 6 art forms and 8 instruments",
+        "Use defining relative clauses with who/which/that",
+        "Read and understand a biography",
+        "Write a structured biography"
+      ]
+    }
+  ],
+
+  "reviewSections": [
+    {
+      "section": "Review A",
+      "afterUnit": 2,
+      "covers": ["Unit 1", "Unit 2"],
+      "activitiesIncluded": ["vocabulary review", "grammar consolidation", "skills check", "self-assessment"]
+    },
+    {
+      "section": "Review B",
+      "afterUnit": 4,
+      "covers": ["Unit 3", "Unit 4"],
+      "activitiesIncluded": ["vocabulary review", "grammar consolidation", "skills check", "self-assessment"]
+    },
+    {
+      "section": "Review C",
+      "afterUnit": 6,
+      "covers": ["Unit 5", "Unit 6"],
+      "activitiesIncluded": ["vocabulary review", "grammar consolidation", "skills check", "self-assessment"]
+    },
+    {
+      "section": "Review D",
+      "afterUnit": 8,
+      "covers": ["Unit 7", "Unit 8"],
+      "activitiesIncluded": ["vocabulary review", "grammar consolidation", "skills check", "self-assessment"]
+    }
+  ],
+
+  "fluencyTimeSections": [
+    { "section": "Fluency Time 1", "afterUnit": 2, "scenario": "Meeting someone new at a family reunion" },
+    { "section": "Fluency Time 2", "afterUnit": 4, "scenario": "Visiting a doctor / giving health advice" },
+    { "section": "Fluency Time 3", "afterUnit": 6, "scenario": "Shopping at a supermarket or market" },
+    { "section": "Fluency Time 4", "afterUnit": 8, "scenario": "Visiting a museum or gallery" }
+  ],
+
+  "lessonGenerationNotes": {
+    "recommendedLessonsPerUnit": 5,
+    "totalRecommendedLessons": 40,
+    "suggestedSplitGirlGrade4": ["Unit 1", "Unit 2", "Unit 3", "Unit 4"],
+    "suggestedSplitGirlGrade5": ["Unit 5", "Unit 6", "Unit 7", "Unit 8"],
+    "suggestedSplitBoyGrade3": ["Unit 1", "Unit 2"],
+    "suggestedSplitBoyGrade4": ["Unit 3", "Unit 4", "Unit 5"]
+  }
+}

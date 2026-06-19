@@ -31,6 +31,7 @@ For full incident history and root causes: `docs/INCIDENTS.md`
 |---|---|
 | Lesson visibility | `approved: true` on all student-facing queries — safety gate, never skip |
 | `SiteConfig` access | Use `prisma.$queryRaw` / `$executeRaw` — typed client not yet regenerated |
+| `QuestionReport` access | Use `prisma.$queryRaw` / `$executeRaw` — added Sprint 8 while server was running; `prisma generate` EPERM |
 | `Question.options` | Stored as JSON string — always `JSON.parse()` before use |
 | `Student.id` | Plain string (`"girl"` / `"boy"`) — not auto-generated |
 | Migrations | Edit `schema.prisma` → run `npm run prisma:migrate` → update `docs/TECHNICAL.md` |
@@ -41,7 +42,7 @@ For full incident history and root causes: `docs/INCIDENTS.md`
 
 | Rule | Value |
 |---|---|
-| distDir | `.next-build6` — NEVER revert to `.next` through `.next-build5` |
+| distDir | `.next-build9` — NEVER revert to `.next` through `.next-build8` |
 | Launcher | `next start` (production) — NEVER `next dev` for family use |
 | Build EPERM | Bump distDir name in all 6 files — do NOT fix NTFS permissions |
 | 6 distDir files | `next.config.ts` · `.gitignore` · `Start Summer Quest.cmd` · `docs/TECHNICAL.md` · `summer-quest/AGENTS.md` · `summer-quest/README.md` |
@@ -57,6 +58,18 @@ For full incident history and root causes: `docs/INCIDENTS.md`
 | Answer distribution | Balance A/B/C/D evenly across 8 MC questions; no consecutive same position |
 | Content language | Vietnamese, child-friendly, age 8–10 |
 | Textbook copying | Never — use original examples with real-life context |
+
+## PDF / Knowledge Package Rules
+
+| Rule | Detail |
+|---|---|
+| PDFs are source material only | A PDF is a one-time input. It is never read again after the Knowledge Package is created. |
+| PDFs must never be used as runtime content | Never store, serve, or embed PDFs in the app database or content pipeline |
+| After import, use the Knowledge Package | AI agents generating lessons MUST read `imports/{subject}/grade{N}/{BookSlug}/` — NOT the PDF |
+| Never repeatedly read imported PDFs | If a Knowledge Package exists at `imports/`, use it. Reading the PDF again wastes tokens and is forbidden. |
+| PDF storage | PDFs live in `source_materials/{subject}/` only. Gitignored. Never in `content_repository/` or `imports/`. |
+| Knowledge Package completeness | A KP is incomplete until all 6 files exist: `manifest.json`, `curriculum.json`, `vocabulary.json`, `grammar.json`, `assessment_seed.json`, `assets.json` |
+| How to import | See `tools/import_book/README.md` (overview) and `tools/import_book/import_workflow.md` (step-by-step) |
 
 ---
 

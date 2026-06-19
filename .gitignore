@@ -40,6 +40,13 @@ summer-quest/.env.*
 summer-quest/prisma/dev.db
 summer-quest/prisma/dev.db-*
 
+# Source materials (PDFs, textbooks — process locally, never commit)
+source_materials/**/*.pdf
+source_materials/**/*.docx
+source_materials/**/*.doc
+content_repository/**/*.pdf
+content_repository/**/*.docx
+
 # OS / tooling
 .DS_Store
 Thumbs.db
