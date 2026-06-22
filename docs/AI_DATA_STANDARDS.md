@@ -154,6 +154,14 @@ Write each question so the correct answer is whichever option letter genuinely c
 - [ ] `approved` field matches intent (parent has reviewed if `true`)
 - [ ] Content is in Vietnamese (except English subject lessons)
 
+**Question answer cross-check (mandatory — added 2026-06-19 after 16-question audit):**
+
+- [ ] **Explanation letter = correctIndex**: For every MC question, read the explanation to find which letter it names (e.g., "đáp án C"). Confirm `correctIndex` matches: A=0, B=1, C=2, D=3. Any mismatch means the wrong answer will be marked correct.
+- [ ] **"Find the WRONG sentence" questions**: For "Câu nào SAI?" questions, `correctIndex` must point to the option that IS wrong/incorrect, NOT one of the correct options.
+- [ ] **True/False inversion check**: For every `true_false` question where the statement is FALSE (contains negation like "không đúng", "là sai"), verify `correct: false` — NOT `true`.
+- [ ] **No two-blank fill questions**: Each `fill_blank` question may have only ONE `___`. Two blanks with a single `answer` string is an error — rewrite the question.
+- [ ] **Translation questions**: For "Câu A có nghĩa là gì?" questions, verify the `correctIndex` option text is semantically equivalent to the question's source sentence. Pay extra attention to negative sentences ("don't", "không", "phủ định").
+
 **After import — mandatory:**
 - [ ] Run `node scripts/validate-answers.js` — must report zero flagged questions
   - Any question where `explanation` starts with "Nhầm rồi" or "Sai -" has a wrong `correctAnswer` field and must be fixed before children can use the lesson
@@ -178,6 +186,8 @@ Write each question so the correct answer is whichever option letter genuinely c
 | boy-g4-en | boy-g4-en-x001 to x025 | 37–61 |
 | girl-g5-sls | girl-g5-sls-x001 to x010 | 1–10 |
 | boy-g4-sls | boy-g4-sls-x001 to x010 | 1–10 |
+| girl-g5-sls (batch-03) | girl-g5-sls-x011 to x015 | 11–15 |
+| boy-g4-sls (batch-03) | boy-g4-sls-x011 to x015 | 11–15 |
 
 When adding new batches, start IDs and orderIndex values after the highest reserved value above.
 

@@ -2,8 +2,8 @@
 
 **Date:** 2026-06-19
 **Reviewed by:** AI Agent (Claude Sonnet 4.6)
-**Input:** 35 open QuestionReport records from the Parent Dashboard
-**Outcome:** 16 questions fixed, 30 reports resolved, 5 reports left open for parent review
+**Input:** 35 open QuestionReport records from the Parent Dashboard + `scripts/validate-answers.js` auto-detection
+**Outcome:** 17 questions fixed, 30 reports resolved, 5 reports left open for parent review
 
 ---
 
@@ -73,6 +73,12 @@ The math and Vietnamese errors are a mix of:
 |---|---|---|---|---|
 | q9 | "Mặt trời là từ đơn" → True/False? | true | **false** | Explanation said "Sai!" but stored as true; "mặt trời" is từ ghép |
 
+### Subject: Vietnamese — Lesson girl-g5-vi-x024 (auto-detected, not human-reported)
+
+| Q# | Question (short) | Was | Now | Root cause |
+|---|---|---|---|---|
+| q6 | Nhận định nào ĐÚNG về vườn hoa phép thuật? | A (hoa xanh = sức mạnh — WRONG) | **C** (hoa vàng = sức mạnh, hoa xanh = tàng hình — CORRECT) | correctIndex off; explanation correctly identified C but stored A |
+
 ---
 
 ## Remaining Open Reports (5) — Parent Review Required
@@ -128,4 +134,10 @@ See updated versions of:
 
 ## Validate-Answers Output After Fix
 
-Run `node scripts/validate-answers.js` from `summer-quest/` to confirm no new errors. The 5 remaining open reports are known issues — do not re-flag them as errors.
+```
+Total checked: 2554 MC questions
+  Auto-detected errors : 0   ✅
+  Human-flagged (open) : 5   (intentionally left for parent review — see above)
+```
+
+The 5 remaining open reports are known issues where the stored answer is correct or defensible. Do not re-flag them as auto-detected errors.

@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "batchId": "batch-girl-g5-sls-03",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "girl-g5-sls-x011",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 11,
+      "title": "Tập trung học bài — sức mạnh của sự chú ý",
+      "learningObjective": "Sau bài này Yumi sẽ hiểu vì sao học tập trung quan trọng hơn học nhiều giờ và biết cách tạo môi trường giúp não tập trung tốt nhất.",
+      "shortExplanation": "Não người chỉ có thể làm tốt một việc tại một thời điểm. Khi Yumi tập trung hoàn toàn vào bài học, não ghi nhớ sâu hơn và học nhanh hơn nhiều!",
+      "content": "## 🌸 Tình huống\n\nYumi ngồi học Toán nhưng vừa nhìn điện thoại, vừa nghe nhạc. Sau 1 tiếng, Yumi không nhớ được bao nhiêu. Hôm sau Yumi thử tắt tất cả, học 30 phút rồi nghỉ. Kết quả khác hẳn! Vì sao vậy?\n\n## 🧠 Bí mật của não bộ\n\nNão người không thể thực sự làm hai việc cùng lúc. Khi Yumi vừa học vừa nhìn điện thoại, não phải liên tục chuyển đổi qua lại — giống như một cô bé chạy từ cửa này sang cửa kia mà không vào được phòng nào. Kết quả là không việc nào được làm tốt.\n\nKhi **tập trung hoàn toàn**, não ghi thông tin trực tiếp vào bộ nhớ dài hạn — nghĩa là nhớ lâu hơn, hiểu sâu hơn.\n\n## ✨ Bí quyết học tập trung\n\n**Trước khi học:**\n- Cất điện thoại ra xa (không chỉ úp mặt xuống)\n- Tắt tivi và tiếng ồn lớn\n- Chuẩn bị đủ sách vở để không phải đứng dậy tìm kiếm\n- Uống một ly nước và đi vệ sinh trước\n\n**Khi học:**\n- Học theo chu kỳ 25 phút tập trung, sau đó nghỉ 5 phút\n- Không trả lời tin nhắn giữa chừng\n- Nếu nghĩ ra việc khác, ghi nhanh vào giấy rồi tiếp tục học\n\n## 💝 Lợi ích của việc học tập trung\n\n- Học 30 phút tập trung = học 2 giờ không tập trung\n- Nhớ bài lâu hơn và làm bài kiểm tra tốt hơn\n- Có nhiều thời gian tự do hơn vì làm bài nhanh hơn\n- Ít bị căng thẳng vì không cảm thấy học mãi không xong\n\n## 🌟 Thực hành hôm nay\n\nHôm nay con hãy thử học 25 phút hoàn toàn không có điện thoại hay tivi. Sau đó nghỉ 5 phút. Con sẽ ngạc nhiên vì mình học được bao nhiêu!",
+      "storyContext": "Công chúa Yumi khám phá sức mạnh bí ẩn của sự tập trung — bí quyết giúp cô trở thành học sinh giỏi nhất vương quốc.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Học tập trung có nghĩa là gì?",
+          "options": [
+            "Học thật nhanh để xong bài sớm",
+            "Dành toàn bộ sự chú ý vào bài học, không bị phân tâm",
+            "Ngồi học nhiều giờ liên tục không nghỉ",
+            "Đọc thuộc lòng tất cả nội dung trong sách"
+          ],
+          "correctIndex": 1,
+          "explanation": "Học tập trung nghĩa là dành toàn bộ sự chú ý vào bài học — đây là cách học hiệu quả nhất dù học trong thời gian ngắn.",
+          "hint": "Điều quan trọng không phải là học bao lâu, mà là học như thế nào."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi Yumi vừa học vừa xem tivi, điều gì xảy ra với não bộ của Yumi?",
+          "options": [
+            "Não học được hai việc cùng lúc, hiệu quả gấp đôi",
+            "Không có gì thay đổi, não vẫn học bình thường",
+            "Não bị chia đôi sự chú ý, học kém hiệu quả hơn nhiều",
+            "Xem tivi giúp não thư giãn để học tốt hơn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Não không thể làm tốt hai việc cùng lúc. Khi vừa học vừa xem tivi, não liên tục phải chuyển đổi và không thể ghi nhớ bài học hiệu quả.",
+          "hint": "Não người cũng như con — không thể chạy hai hướng khác nhau cùng một lúc."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Không gian học tập nào giúp Yumi tập trung tốt nhất?",
+          "options": [
+            "Phòng yên tĩnh, gọn gàng, không có điện thoại hay tivi",
+            "Căng tin đông người để có không khí vui vẻ",
+            "Phòng khách đang bật tivi cho bớt buồn",
+            "Nằm trên giường vì tư thế thoải mái giúp nhớ lâu hơn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Phòng yên tĩnh và gọn gàng giúp não tập trung hoàn toàn vào bài học mà không bị âm thanh hay hình ảnh xung quanh làm phân tâm.",
+          "hint": "Môi trường nào loại bỏ được nhiều thứ làm phân tâm nhất?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu học 25 phút tập trung sau đó nghỉ 5 phút, lợi ích là gì?",
+          "options": [
+            "Không có lợi gì, học liên tục mới tốt",
+            "Chỉ tốt cho người lớn, trẻ em cần học liên tục",
+            "Giúp học nhanh hơn nhưng quên cũng nhanh hơn",
+            "Não được phục hồi sau mỗi chu kỳ, giúp tập trung lâu bền hơn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Học theo chu kỳ 25 phút rồi nghỉ ngắn giúp não phục hồi năng lượng. Cách này giúp tập trung tốt hơn và nhớ lâu hơn so với học liên tục nhiều giờ.",
+          "hint": "Não cũng cần nghỉ ngơi ngắn giống như cơ thể cần thở."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bạn của Yumi hay quên bài ngay sau khi thi xong. Nguyên nhân có thể là gì?",
+          "options": [
+            "Bạn không học đủ nhiều giờ",
+            "Bạn học khi đang mệt hoặc không tập trung nên không ghi nhớ sâu",
+            "Bạn học quá kỹ nên não bị quá tải",
+            "Điều này bình thường, ai cũng quên ngay sau khi thi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Học không tập trung khiến thông tin không được ghi sâu vào bộ nhớ dài hạn. Kết quả là nhớ tạm để thi rồi quên ngay sau đó.",
+          "hint": "Học mà não không thực sự chú ý thì thông tin chỉ đọng lại ngắn hạn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì NÊN làm trước khi bắt đầu học bài?",
+          "options": [
+            "Cất điện thoại và tắt tivi để loại bỏ phân tâm",
+            "Bật nhạc to để có hứng học",
+            "Ăn thật no rồi ngồi học ngay lập tức",
+            "Nằm xuống giường vì tư thế thoải mái giúp nhớ lâu hơn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cất điện thoại và tắt tivi giúp loại bỏ các nguồn phân tâm. Khi không có gì làm sao nhãng, não tập trung hoàn toàn vào bài học.",
+          "hint": "Bước chuẩn bị quan trọng nhất là loại bỏ những gì có thể làm con mất tập trung."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi học tập trung, điều gì giúp Yumi nhớ lại kiến thức tốt hơn?",
+          "options": [
+            "Ngủ ngay lập tức để não nghỉ ngơi",
+            "Học thêm môn khác ngay sau đó",
+            "Ôn lại bài trong vài phút trước khi nghỉ",
+            "Xem tivi để giải trí ngay sau khi học"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ôn lại bài ngắn gọn sau khi học giúp củng cố kiến thức, chuyển thông tin từ bộ nhớ ngắn hạn sang bộ nhớ dài hạn.",
+          "hint": "Một bước nhỏ sau khi học giúp thông tin 'in' sâu hơn vào não."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao học tập trung 30 phút có thể hiệu quả hơn học phân tâm 2 giờ?",
+          "options": [
+            "Vì bài học ngắn hơn thì dễ hơn",
+            "Vì người học ít giờ luôn thông minh hơn",
+            "Vì học ít giờ giúp tiết kiệm điện và thời gian",
+            "Vì não chỉ ghi nhớ tốt khi đang thực sự tập trung, không phải khi ngồi học nhưng không chú ý"
+          ],
+          "correctIndex": 3,
+          "explanation": "Não ghi nhớ thông tin hiệu quả nhất khi đang tập trung. 30 phút học nghiêm túc có thể mang lại kết quả tốt hơn 2 giờ ngồi học nhưng đầu óc phân tâm.",
+          "hint": "Chất lượng của sự chú ý quan trọng hơn số giờ ngồi trước sách."
+        },
+        {
+          "type": "true_false",
+          "text": "Học nhiều giờ mỗi ngày dù không tập trung vẫn tốt hơn học ít giờ nhưng tập trung hoàn toàn.",
+          "correct": false,
+          "explanation": "Điều này sai. Chất lượng của sự tập trung quan trọng hơn số giờ ngồi học. Học ít nhưng tập trung giúp não ghi nhớ sâu và hiệu quả hơn học nhiều nhưng phân tâm.",
+          "hint": "Nghĩ về bạn của Yumi hay quên bài — bạn ấy học nhiều hay ít?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi Yumi tập trung hoàn toàn vào bài học, não sẽ ghi nhớ kiến thức ___ và lâu hơn so với khi phân tâm.",
+          "answer": "sâu hơn",
+          "explanation": "Sự tập trung giúp thông tin được xử lý sâu hơn trong não, tạo ra ký ức bền vững và dễ nhớ lại khi cần thiết.",
+          "hint": "Từ nào mô tả mức độ ghi nhớ khi não hoạt động hết công suất?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x012",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 12,
+      "title": "Học mỗi ngày một ít — bí quyết trở thành học sinh giỏi",
+      "learningObjective": "Sau bài này Yumi sẽ hiểu sức mạnh của việc học đều đặn mỗi ngày và biết cách xây dựng thói quen học tập tích lũy kiến thức bền vững.",
+      "shortExplanation": "Học 20 phút mỗi ngày trong 1 tuần = hơn 2 tiếng học tập. Kiến thức tích lũy từng ngày như tiết kiệm tiền — nhỏ thôi nhưng sau một thời gian sẽ rất nhiều!",
+      "content": "## 🌸 Tình huống\n\nCó hai bạn: Lan học dồn trước khi thi, còn Mai học 20 phút mỗi ngày. Sau kỳ thi, Lan quên ngay, còn Mai vẫn nhớ rõ. Vì sao vậy?\n\n## 🌱 Sức mạnh của việc tích lũy\n\nNão người học tốt nhất khi được tiếp xúc với thông tin nhiều lần, trải qua nhiều ngày. Mỗi lần con ôn lại, não củng cố thêm đường kết nối thần kinh — giống như mỗi lần đi qua một con đường, đường đó ngày càng rõ hơn và dễ đi hơn.\n\nHọc dồn trước thi (nhồi nhét) chỉ lưu thông tin vào bộ nhớ ngắn hạn. Sau thi, não xóa đi vì nghĩ không cần thiết nữa.\n\n## 📊 Tính toán đơn giản\n\n- Học 20 phút/ngày × 7 ngày = **140 phút** (hơn 2 tiếng!)\n- Học 20 phút/ngày × 30 ngày = **600 phút** (10 tiếng!)\n- Học 20 phút/ngày × 1 năm = **121 giờ học**\n\nVà vì học đều đặn, não củng cố mỗi ngày nên **nhớ gấp nhiều lần** so với học dồn.\n\n## ✨ Cách bắt đầu\n\n1. Chọn một giờ cố định mỗi ngày (ví dụ: 7 giờ tối)\n2. Bắt đầu bằng 15-20 phút — đừng cố học quá nhiều ngay từ đầu\n3. Ôn lại bài hôm qua trong 5 phút trước khi học bài mới\n4. Ghi chép ngắn những gì đã học để não xử lý thêm\n\n## 💝 Câu chuyện về cây tùng\n\nCây tùng không lớn vì được tưới nhiều một lần. Nó lớn vì được tưới **đều đặn mỗi ngày**. Não của Yumi cũng vậy — không cần tưới thật nhiều một lúc, chỉ cần đều đặn mỗi ngày.\n\n## 🌟 Thực hành\n\nTối nay con hãy học 20 phút một môn con thích. Ngày mai học thêm 20 phút nữa. Sau 1 tuần con sẽ ngạc nhiên về lượng kiến thức mình tích lũy được!",
+      "storyContext": "Công chúa Yumi học bí quyết của các học giả vương quốc: mỗi ngày học một ít, kiến thức tích lũy như kho báu không bao giờ cạn.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao học đều đặn mỗi ngày một ít lại hiệu quả hơn học dồn vào một ngày?",
+          "options": [
+            "Vì học ít thì bài sẽ dễ hơn và ngắn hơn",
+            "Vì học nhiều một lúc khiến sách bị hỏng",
+            "Vì não cần thời gian củng cố kiến thức, học đều đặn giúp nhớ lâu hơn",
+            "Vì học nhiều một ngày tốn quá nhiều sức"
+          ],
+          "correctIndex": 2,
+          "explanation": "Não người cần thời gian để củng cố và tổ chức thông tin mới. Học đều đặn mỗi ngày giúp kiến thức được lưu vào bộ nhớ dài hạn tốt hơn học dồn một lúc.",
+          "hint": "Nghĩ về bộ nhớ ngắn hạn và dài hạn của não."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu Yumi học Tiếng Anh 20 phút mỗi ngày, sau 1 tuần Yumi sẽ học được tổng cộng bao nhiêu phút?",
+          "options": [
+            "140 phút — hơn 2 tiếng đồng hồ",
+            "20 phút vì mỗi ngày chỉ học 20 phút",
+            "60 phút",
+            "200 phút"
+          ],
+          "correctIndex": 0,
+          "explanation": "20 phút × 7 ngày = 140 phút. Tích lũy nhỏ mỗi ngày tạo ra kết quả lớn sau một khoảng thời gian — đây là sức mạnh của sự kiên trì!",
+          "hint": "Nhân 20 với số ngày trong một tuần."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bạn học sinh nào sẽ tiến bộ và nhớ bài tốt hơn sau 1 tháng?",
+          "options": [
+            "Bạn học 4 tiếng liên tục mỗi Thứ Bảy nhưng không học ngày nào khác",
+            "Bạn chỉ học khi gần có bài kiểm tra",
+            "Bạn học theo tâm trạng — khi thích thì học, không thích thì thôi",
+            "Bạn học 30 phút mỗi ngày đều đặn suốt 30 ngày"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bạn học đều đặn 30 phút mỗi ngày sẽ học được 15 giờ trong tháng và kiến thức được củng cố mỗi ngày — hiệu quả và nhớ lâu hơn nhiều so với học dồn không đều.",
+          "hint": "Ai học được nhiều giờ nhất sau 1 tháng và còn được não củng cố mỗi ngày?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ví dụ nào dưới đây giống nhất với việc học mỗi ngày một ít?",
+          "options": [
+            "Uống một lần thật nhiều nước để khỏi khát cả tuần",
+            "Tưới cây mỗi ngày một ít để cây lớn khỏe dần dần",
+            "Ăn một bữa thật nhiều để nhịn suốt cả ngày",
+            "Chạy một cuộc đua dài nhất có thể trong một ngày duy nhất"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cây cần được tưới đều đặn mỗi ngày để lớn khỏe — giống như não cần được học đều đặn mỗi ngày để tích lũy kiến thức. Không thể tưới dồn một lần cho cả tuần!",
+          "hint": "Thứ nào cần được chăm sóc đều đặn mới lớn khỏe, không thể chăm dồn một lần?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi Yumi cảm thấy lười không muốn học, Yumi nên làm gì?",
+          "options": [
+            "Bỏ học hôm đó hoàn toàn và học bù vào ngày khác",
+            "Học suốt cả ngày để bù vào những ngày đã lười",
+            "Học dù chỉ 10 đến 15 phút — chút ít còn hơn không có gì",
+            "Chờ đến khi có tâm trạng tốt và hứng thú mới học"
+          ],
+          "correctIndex": 2,
+          "explanation": "Học dù chỉ một ít còn hơn không học gì. Thậm chí 10 phút học giúp duy trì thói quen và não vẫn tiếp thu thêm kiến thức mới mỗi ngày.",
+          "hint": "Điều quan trọng là không phá vỡ chuỗi ngày liên tiếp học bài."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra khi Yumi ôn lại bài học hôm qua vào đầu mỗi buổi học mới?",
+          "options": [
+            "Mất thời gian mà không học được bài mới",
+            "Làm cho não mệt mỏi và căng thẳng thêm",
+            "Chỉ có ích khi gần ngày thi",
+            "Giúp củng cố kiến thức cũ và kết nối với kiến thức mới học"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ôn lại bài cũ giúp não nhớ lại và củng cố kiến thức. Khi học bài mới, não dễ dàng kết nối thông tin mới với kiến thức đã có, giúp hiểu sâu hơn.",
+          "hint": "Ôn bài cũ giúp tạo 'móc treo' để kiến thức mới bám vào."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau bao lâu học đều đặn mỗi ngày, Yumi sẽ bắt đầu thấy sự tiến bộ rõ ràng?",
+          "options": [
+            "Sau vài tuần đến vài tháng học đều đặn",
+            "Ngay trong ngày đầu tiên",
+            "Sau chính xác 100 ngày",
+            "Sau 1 giờ học là thấy ngay"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sự tiến bộ từ việc học đều đặn cần thời gian tích lũy. Sau vài tuần đến vài tháng, Yumi sẽ thấy mình nhớ nhiều hơn, hiểu sâu hơn và làm bài tốt hơn rõ rệt.",
+          "hint": "Giống như tưới cây — cần nhiều ngày mới thấy cây cao lên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Học dồn trước thi (nhồi nhét) có nhược điểm gì lớn nhất?",
+          "options": [
+            "Tốn quá nhiều thời gian và công sức",
+            "Khó làm được khi không có bài tập về nhà",
+            "Làm mắt mỏi vì phải nhìn sách nhiều giờ liên tục",
+            "Chỉ lưu thông tin vào bộ nhớ ngắn hạn nên quên rất nhanh sau thi"
+          ],
+          "correctIndex": 3,
+          "explanation": "Học nhồi nhét chỉ đẩy thông tin vào bộ nhớ ngắn hạn. Sau kỳ thi, não xóa đi vì nghĩ không cần thiết nữa. Đây là lý do tại sao nhiều bạn quên bài ngay sau thi.",
+          "hint": "Bộ nhớ ngắn hạn giống như RAM máy tính — tắt máy là mất hết."
+        },
+        {
+          "type": "true_false",
+          "text": "Học dồn tất cả vào một ngày trước khi thi sẽ giúp nhớ bài tốt và lâu bền hơn học đều đặn mỗi ngày.",
+          "correct": false,
+          "explanation": "Điều này sai. Học dồn có thể giúp vượt qua kỳ thi nhưng kiến thức sẽ quên rất nhanh. Học đều đặn mỗi ngày giúp kiến thức được ghi sâu vào bộ nhớ dài hạn và nhớ lâu bền hơn nhiều.",
+          "hint": "Nghĩ về bạn Lan và bạn Mai trong câu chuyện — ai nhớ bài lâu hơn?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Học mỗi ngày một ít giúp kiến thức ___ theo thời gian, giống như tích tiền vào ngân hàng.",
+          "answer": "tích lũy dần",
+          "explanation": "Mỗi ngày học một ít, kiến thức tích lũy dần như tiền gửi ngân hàng. Sau một thời gian, con sẽ có rất nhiều kiến thức mà không cần nỗ lực một lúc quá nhiều.",
+          "hint": "Từ nào mô tả quá trình tăng lên từng ít một qua nhiều ngày?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x013",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 13,
+      "title": "Thói quen học tập — chìa khóa của học sinh giỏi",
+      "learningObjective": "Sau bài này Yumi sẽ hiểu thói quen là gì, cách hình thành thói quen học tập tốt và vì sao thói quen tốt giúp con trở thành học sinh giỏi và đứa trẻ ngoan.",
+      "shortExplanation": "Thói quen là những việc con làm tự động, không cần cố gắng. Khi Yumi có thói quen học tập tốt, học bài trở thành điều tự nhiên như đánh răng hay rửa tay!",
+      "content": "## 🌸 Tình huống\n\nYumi nhận thấy: mỗi tối lúc 7 giờ, Yumi tự động vào phòng đánh răng mà không cần ba mẹ nhắc. Nhưng việc học bài thì vẫn cần nhắc. Làm thế nào để việc học cũng trở nên tự động như đánh răng?\n\n## 🧠 Thói quen là gì?\n\nThói quen là hành động được não **tự động hóa** sau khi lặp lại nhiều lần. Khi một hành động trở thành thói quen:\n- Não không cần dùng nhiều năng lượng để nghĩ về nó\n- Con thực hiện gần như tự động\n- Không cần cố gắng hay nhắc nhở nhiều\n\nVí dụ: Khi mới học đi xe đạp, con phải nghĩ từng bước. Sau khi quen, con đạp xe mà không cần nghĩ gì cả.\n\n## ⏰ Bao lâu để hình thành thói quen?\n\nNghiên cứu khoa học cho thấy cần lặp lại khoảng **21 đến 66 ngày** để một hành động trở thành thói quen. Vì vậy con cần kiên nhẫn trong giai đoạn đầu — đây là thời gian thử thách nhất!\n\n## ✨ Những thói quen học tập tốt\n\n- Học bài lúc giờ cố định mỗi ngày\n- Chuẩn bị sách vở và đồ dùng từ tối hôm trước\n- Ôn lại bài cũ 5 phút trước khi học bài mới\n- Ngủ đúng giờ để não phục hồi và ghi nhớ tốt\n- Đọc sách hoặc ôn từ vựng trong thời gian chờ đợi\n\n## 💝 Thói quen tốt tạo ra con người tốt\n\nThói quen không chỉ ảnh hưởng đến điểm số. Khi Yumi quen tự giác làm việc tốt mỗi ngày, Yumi trở thành người:\n- **Có kỷ luật**: làm việc đúng lúc đúng chỗ\n- **Có trách nhiệm**: tự lo việc của mình không cần nhắc\n- **Đáng tin cậy**: ba mẹ và thầy cô yên tâm giao việc cho Yumi\n\n## 🌟 Thực hành\n\nChọn một thói quen nhỏ để bắt đầu: học bài lúc 7 giờ tối trong 21 ngày liên tiếp. Đánh dấu lịch mỗi ngày — con sẽ thấy rất tự hào!",
+      "storyContext": "Công chúa Yumi quyết tâm lập trình lại thói quen của mình để trở thành học sinh giỏi nhất và đứa con ngoan nhất vương quốc.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Thói quen là gì?",
+          "options": [
+            "Điều con làm chỉ khi ba mẹ nhắc nhở",
+            "Hành động con làm tự động vì đã lặp lại nhiều lần, không cần cố gắng nhiều",
+            "Điều con thích làm khi có thời gian rảnh rỗi",
+            "Việc con làm mỗi tuần một lần vào cuối tuần"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thói quen là hành động đã trở nên tự động sau khi được lặp lại nhiều lần. Khi đã thành thói quen, con không cần nhắc nhở hay cố gắng nhiều nữa.",
+          "hint": "Đánh răng mỗi tối là thói quen — con có cần ai nhắc không?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thường cần bao lâu để một hành động mới trở thành thói quen?",
+          "options": [
+            "1 đến 3 ngày là đủ",
+            "Đúng 1 tuần",
+            "Chỉ cần làm 1 lần với quyết tâm cao",
+            "Thường từ 21 đến 66 ngày lặp lại đều đặn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nghiên cứu cho thấy cần lặp lại khoảng 21 đến 66 ngày để một hành động trở thành thói quen tự nhiên. Vì vậy cần kiên nhẫn khi bắt đầu thói quen mới.",
+          "hint": "Con có thấy những tuần đầu tiên bắt đầu thói quen nào đó rất khó không?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi Yumi đã có thói quen học bài lúc 7 giờ tối mỗi ngày, điều gì sẽ xảy ra?",
+          "options": [
+            "Yumi sẽ tự ngồi học mà không cần ba mẹ nhắc, như phản xạ tự nhiên",
+            "Yumi sẽ học giỏi hơn ngay lập tức trong ngày đầu tiên",
+            "Ba mẹ sẽ không cần theo dõi Yumi nữa mãi mãi trong cuộc đời",
+            "Yumi sẽ không bao giờ quên bài học nào cả"
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi hành động trở thành thói quen, não thực hiện gần như tự động. Yumi sẽ tự ngồi vào bàn học lúc 7 giờ mà không cần ai nhắc hay ép buộc.",
+          "hint": "Giống như đánh răng — Yumi có cần ai nhắc mỗi tối không?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thói quen tốt nào giúp Yumi trở thành học sinh giỏi hơn?",
+          "options": [
+            "Thức khuya học bài sau khi cả nhà ngủ để yên tĩnh",
+            "Học dồn tất cả trước mỗi kỳ thi lớn",
+            "Ôn bài mỗi ngày, ngủ đúng giờ và chuẩn bị đồ dùng từ tối hôm trước",
+            "Chỉ học những môn mình yêu thích và bỏ qua môn khó"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tổ hợp thói quen tốt như ôn bài đều đặn, ngủ đúng giờ và chuẩn bị sẵn sàng giúp Yumi luôn trong trạng thái tốt nhất để học và ghi nhớ kiến thức.",
+          "hint": "Não ghi nhớ tốt nhất khi được ngủ đủ giấc và học đều đặn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao thói quen tốt giúp con trở thành người có trách nhiệm hơn?",
+          "options": [
+            "Vì thói quen tốt giúp con nhận được nhiều phần thưởng từ ba mẹ",
+            "Vì khi tự giác làm việc tốt mỗi ngày, con trở thành người có kỷ luật và trách nhiệm",
+            "Vì giáo viên sẽ không cho điểm kém nếu con có thói quen tốt",
+            "Vì thói quen tốt chỉ liên quan đến việc học, không ảnh hưởng đến tính cách"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thói quen không chỉ ảnh hưởng đến kết quả học tập mà còn hình thành tính cách. Khi con tự giác làm việc tốt mỗi ngày, con trở thành người có trách nhiệm và kỷ luật.",
+          "hint": "Tính cách được hình thành qua những điều con làm mỗi ngày."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bước đầu tiên để xây dựng thói quen học tập tốt là gì?",
+          "options": [
+            "Bắt đầu từ những việc nhỏ và dễ làm, lặp lại đều đặn mỗi ngày",
+            "Học thật nhiều ngay trong ngày đầu để tạo đà và hứng khởi",
+            "Chờ đến đầu năm học mới hoặc đầu tháng mới bắt đầu",
+            "Nhờ ba mẹ nhắc nhở con mỗi ngày cho đến khi thành thói quen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Xây dựng thói quen bắt đầu từ những bước nhỏ và đơn giản. Điều quan trọng nhất là làm đều đặn mỗi ngày, dù chỉ là học 10 phút, hơn là làm hoành tráng một lần rồi bỏ.",
+          "hint": "Bắt đầu nhỏ và làm đều đặn quan trọng hơn bắt đầu lớn mà không duy trì được."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu Yumi lỡ bỏ 1 ngày không học trong tuần, Yumi nên làm gì?",
+          "options": [
+            "Bỏ luôn cả tuần vì đã lỡ mất chuỗi liên tiếp rồi",
+            "Học bù suốt cả ngày hôm sau để lấy lại",
+            "Trách bản thân mình là người không có ý chí",
+            "Không sao, bình tĩnh và tiếp tục trở lại thói quen vào ngày hôm sau"
+          ],
+          "correctIndex": 3,
+          "explanation": "Một ngày lỡ không học không phá vỡ thói quen. Điều quan trọng là quay trở lại ngay hôm sau. Đừng trách bản thân quá nhiều — chỉ cần tiếp tục!",
+          "hint": "Thất bại một lần không có nghĩa là thất bại mãi mãi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi xây dựng được thói quen học tập tốt, Yumi cần làm gì để duy trì?",
+          "options": [
+            "Nghỉ hoàn toàn để não được nghỉ ngơi và nạp lại năng lượng",
+            "Chỉ duy trì trong năm học, nghỉ hè có thể bỏ qua",
+            "Tiếp tục lặp lại đều đặn, kể cả những ngày không muốn",
+            "Tìm thêm nhiều thói quen mới hơn để thay thế thói quen cũ"
+          ],
+          "correctIndex": 2,
+          "explanation": "Thói quen cần được duy trì qua việc lặp lại đều đặn, kể cả những ngày không có hứng. Đây chính là sức mạnh của kỷ luật bản thân.",
+          "hint": "Thói quen giống như ngọn lửa — cần được thêm nhiên liệu mỗi ngày để không tắt."
+        },
+        {
+          "type": "true_false",
+          "text": "Một khi đã có thói quen học tập tốt, con không cần cố gắng hay nỗ lực gì nữa để duy trì.",
+          "correct": false,
+          "explanation": "Dù thói quen giúp việc học trở nên dễ dàng và tự nhiên hơn, con vẫn cần duy trì bằng cách thực hiện đều đặn. Nếu bỏ lâu ngày, thói quen có thể mất đi.",
+          "hint": "Nghĩ về cây trong vườn — nếu không tưới nhiều ngày, cây sẽ héo không?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Khi hành động tốt được lặp lại mỗi ngày, nó sẽ trở thành ___ giúp Yumi học tốt và sống ngăn nắp hơn.",
+          "answer": "thói quen",
+          "explanation": "Hành động lặp lại nhiều lần sẽ trở thành thói quen — điều con làm tự động không cần cố gắng. Đây là bí quyết của những người thành công và có tổ chức!",
+          "hint": "Từ này chỉ điều con làm tự động mỗi ngày như đánh răng hay rửa tay."
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x014",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 14,
+      "title": "Trái cây và rau xanh — nguồn sức mạnh tự nhiên",
+      "learningObjective": "Sau bài này Yumi sẽ hiểu lợi ích của việc ăn trái cây và rau xanh đối với sức khỏe và biết cách bổ sung đủ rau quả vào bữa ăn hàng ngày.",
+      "shortExplanation": "Trái cây và rau xanh chứa đầy vitamin, khoáng chất và chất xơ — những 'siêu năng lực' tự nhiên giúp Yumi khỏe mạnh, da đẹp và não hoạt động tốt hơn!",
+      "content": "## 🌸 Tình huống\n\nYumi thấy rằng khi ăn nhiều rau quả, da Yumi mịn hơn, ít bị cảm và tràn đầy năng lượng hơn. Còn những tuần ăn ít rau quả, Yumi hay mệt mỏi và dễ bị ho. Điều gì trong rau quả tạo ra sự khác biệt đó?\n\n## 🌈 Bí mật trong từng màu sắc\n\nMỗi màu rau quả chứa các loại vitamin và khoáng chất khác nhau:\n\n- **Đỏ** (cà chua, dưa hấu): lycopene bảo vệ tế bào, tốt cho tim\n- **Cam-vàng** (cà rốt, bí đỏ, xoài): vitamin A tốt cho mắt và da\n- **Xanh đậm** (rau muống, cải bó xôi, súp lơ xanh): sắt, canxi, vitamin K\n- **Tím** (nho, thanh long ruột đỏ): chất chống oxy hóa bảo vệ não\n- **Trắng** (tỏi, hành): kháng khuẩn tự nhiên, tăng miễn dịch\n\n## 💊 Vitamin quan trọng\n\n- **Vitamin C** (cam, ổi, bưởi): tăng đề kháng, chống ốm vặt\n- **Vitamin A** (cà rốt, bí đỏ): bảo vệ mắt, da khỏe\n- **Chất xơ**: giúp tiêu hóa trơn tru, không bị táo bón\n- **Kali** (chuối, khoai lang): tốt cho tim và cơ bắp\n\n## ✨ Mỗi ngày cần bao nhiêu?\n\nCác chuyên gia dinh dưỡng khuyến nghị trẻ em nên ăn **ít nhất 3 đến 5 phần rau quả** mỗi ngày. Một phần có thể là:\n- 1 quả táo hoặc chuối\n- 1 bát rau xào nhỏ\n- 1 ly nước ép trái cây tươi không đường\n\n## 🌟 Thực hành\n\nHôm nay con hãy cố gắng ăn ít nhất 2 loại rau và 1 loại trái cây. Chọn trái cây là bữa phụ thay vì bánh kẹo nhé!",
+      "storyContext": "Công chúa Yumi khám phá kho báu màu sắc của thiên nhiên — những siêu thực phẩm giúp cô luôn rạng rỡ, khỏe mạnh và thông minh.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao trái cây và rau xanh lại quan trọng với cơ thể của Yumi?",
+          "options": [
+            "Vì chúng có màu sắc đẹp và hấp dẫn",
+            "Vì chúng rẻ hơn thức ăn nhanh và dễ tìm mua",
+            "Vì chúng giúp Yumi no bụng lâu hơn các thức ăn khác",
+            "Vì chúng cung cấp vitamin, khoáng chất và chất xơ giúp cơ thể khỏe mạnh"
+          ],
+          "correctIndex": 3,
+          "explanation": "Rau quả chứa vitamin (A, C, E), khoáng chất (sắt, canxi, kali) và chất xơ — tất cả đều cần thiết để cơ thể phát triển và hệ miễn dịch hoạt động tốt.",
+          "hint": "Rau quả có những chất dinh dưỡng đặc biệt mà thức ăn nhanh không có."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Loại trái cây nào dưới đây giàu vitamin C, giúp Yumi không bị ốm vặt?",
+          "options": [
+            "Khoai lang",
+            "Cam, quýt, bưởi và ổi",
+            "Bánh mì nguyên cám",
+            "Cơm trắng"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cam, quýt, bưởi và ổi đều rất giàu vitamin C — loại vitamin giúp tăng cường hệ miễn dịch, bảo vệ cơ thể khỏi cảm cúm và bệnh vặt.",
+          "hint": "Loại quả nào có vị chua và chứa nhiều vitamin C nhất?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao nên ăn rau quả có nhiều màu sắc khác nhau trong ngày?",
+          "options": [
+            "Mỗi màu cung cấp các loại vitamin và khoáng chất khác nhau, bổ sung đầy đủ cho cơ thể",
+            "Để bữa ăn trông đẹp và chụp ảnh đưa lên mạng xã hội",
+            "Vì rau màu xanh đắng còn rau màu đỏ thì ngọt hơn",
+            "Để không bị nhàm chán khi ăn cùng một loại mãi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Rau quả màu đỏ giàu lycopene; màu vàng-cam giàu vitamin A; màu xanh đậm giàu sắt và canxi. Ăn đa dạng màu sắc = bổ sung đầy đủ nhiều loại dưỡng chất khác nhau.",
+          "hint": "Mỗi màu chứa các chất dinh dưỡng riêng biệt mà màu khác không có."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chất xơ trong rau quả có lợi ích gì cho cơ thể Yumi?",
+          "options": [
+            "Giúp cơ thể cao hơn nhanh hơn",
+            "Giúp tóc dài và bóng hơn",
+            "Giúp tiêu hóa tốt, ngăn ngừa táo bón và nuôi vi khuẩn có lợi trong ruột",
+            "Giúp da trở nên sáng hơn ngay lập tức trong một ngày"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chất xơ giúp đường tiêu hóa hoạt động trơn tru, ngăn ngừa táo bón và giúp vi khuẩn có lợi trong ruột phát triển. Đây là lý do vì sao ăn rau quả giúp bụng luôn khỏe.",
+          "hint": "Chất xơ không tiêu hóa được — vậy nó có tác dụng gì trong ruột?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thực phẩm nào là bữa phụ lành mạnh nhất cho Yumi?",
+          "options": [
+            "Khoai tây chiên từ cửa hàng thức ăn nhanh",
+            "Bánh kẹo ngọt nhiều đường",
+            "Mì ăn liền vị cay",
+            "Một quả chuối hoặc một miếng dưa hấu tươi"
+          ],
+          "correctIndex": 3,
+          "explanation": "Trái cây tươi như chuối hay dưa hấu cung cấp đường tự nhiên, vitamin và khoáng chất — là bữa phụ lý tưởng không có hóa chất hay đường tinh luyện.",
+          "hint": "Bữa phụ tốt nhất là thứ tự nhiên, không qua nhiều chế biến."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vitamin A có trong cà rốt và bí đỏ có tác dụng gì với cơ thể?",
+          "options": [
+            "Giúp Yumi chạy nhanh hơn các bạn cùng lớp",
+            "Giúp tóc mọc dài và bóng hơn mỗi tuần",
+            "Giúp mắt nhìn rõ hơn trong ánh sáng yếu và tăng cường sức đề kháng",
+            "Giúp giọng nói trong trẻo và hay hơn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vitamin A rất quan trọng cho sức khỏe của mắt — giúp mắt nhìn rõ trong điều kiện ánh sáng yếu và bảo vệ niêm mạc mắt, mũi, họng khỏi vi khuẩn xâm nhập.",
+          "hint": "Cà rốt có tốt cho mắt không? Đó là nhờ chất vitamin gì?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi ngày Yumi nên ăn khoảng bao nhiêu phần rau quả?",
+          "options": [
+            "1 phần nhỏ là đủ nếu ăn đúng loại",
+            "Không cần ăn nếu đã uống thuốc bổ vitamin",
+            "Chỉ cần ăn khi bị ốm để bổ sung vitamin",
+            "Ít nhất 3 đến 5 phần rau quả tươi mỗi ngày"
+          ],
+          "correctIndex": 3,
+          "explanation": "Các chuyên gia dinh dưỡng khuyến nghị trẻ em nên ăn ít nhất 3-5 phần rau quả mỗi ngày để đảm bảo cơ thể nhận đủ vitamin và khoáng chất cần thiết.",
+          "hint": "Một phần nhỏ mỗi ngày không đủ — cơ thể cần nhiều hơn!"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi Yumi ăn rau quả đều đặn mỗi ngày, lợi ích nào dưới đây Yumi sẽ nhận được?",
+          "options": [
+            "Chỉ giúp da đẹp hơn, không có lợi ích nào khác đáng kể",
+            "Da khỏe, ít bệnh vặt, tiêu hóa tốt và cơ thể tràn đầy năng lượng",
+            "Giúp học giỏi môn Toán và Tiếng Anh hơn trực tiếp",
+            "Giúp ngủ ít hơn nhưng vẫn không cảm thấy mệt"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ăn rau quả đều đặn mang lại nhiều lợi ích: hệ miễn dịch mạnh (ít bệnh), da và tóc khỏe, tiêu hóa tốt và cơ thể tràn đầy năng lượng mỗi ngày.",
+          "hint": "Rau quả ảnh hưởng đến nhiều bộ phận của cơ thể cùng một lúc."
+        },
+        {
+          "type": "true_false",
+          "text": "Uống nước ép trái cây đóng hộp mua ở cửa hàng có lợi ích dinh dưỡng giống như ăn trái cây tươi nguyên trái.",
+          "correct": false,
+          "explanation": "Nước ép đóng hộp thường được thêm đường và mất nhiều chất xơ, vitamin trong quá trình chế biến và bảo quản. Ăn trái cây tươi nguyên trái tốt hơn vì giữ nguyên chất xơ và vitamin tự nhiên.",
+          "hint": "Quá trình đóng hộp và bảo quản có ảnh hưởng gì đến chất dinh dưỡng trong nước ép không?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Rau xanh và trái cây cung cấp ___ và khoáng chất giúp cơ thể Yumi phát triển khỏe mạnh và tăng sức đề kháng.",
+          "answer": "vitamin",
+          "explanation": "Vitamin là chất dinh dưỡng thiết yếu trong rau quả — có mặt trong từng miếng rau, từng quả cam, giúp cơ thể hoạt động đúng chức năng và tăng cường sức đề kháng.",
+          "hint": "Chất dinh dưỡng quan trọng có tên viết tắt bắt đầu bằng chữ V trong rau quả là gì?"
+        }
+      ]
+    },
+    {
+      "id": "girl-g5-sls-x015",
+      "subjectId": "science_life_skills",
+      "studentTarget": "girl",
+      "grade": 5,
+      "phase": "new",
+      "orderIndex": 15,
+      "title": "Thực phẩm công nghiệp — cẩn thận với gà rán và nước ngọt",
+      "learningObjective": "Sau bài này Yumi sẽ hiểu thực phẩm công nghiệp là gì, vì sao gà rán và nước ngọt không tốt cho sức khỏe và biết chọn thực phẩm lành mạnh hơn.",
+      "shortExplanation": "Gà rán và nước ngọt có thể ngon miệng nhưng ẩn chứa nhiều chất không tốt cho cơ thể. Biết về chúng giúp Yumi đưa ra lựa chọn thông minh hơn cho sức khỏe của mình!",
+      "content": "## 🌸 Tình huống\n\nYumi rất thích gà rán và nước ngọt. Nhưng Yumi nhận ra: những tuần ăn nhiều gà rán, Yumi thấy da bóng dầu và mệt mỏi hơn. Còn những tuần uống nhiều nước ngọt, răng Yumi ê buốt. Vì sao vậy?\n\n## 🔍 Thực phẩm công nghiệp là gì?\n\nThực phẩm công nghiệp là những thức ăn đã trải qua nhiều bước **chế biến công nghiệp** và thường chứa thêm:\n- Đường tinh luyện (nhiều hơn mức cần thiết)\n- Muối (natri) với lượng cao\n- Chất béo bão hòa và trans-fat\n- Chất bảo quản và phụ gia nhân tạo\n- Chất tạo màu và hương vị nhân tạo\n\nVí dụ: gà rán, xúc xích, mì ăn liền, khoai tây chiên, bánh snack, nước ngọt.\n\n## 🍗 Gà rán — sự thật đằng sau\n\nMột miếng gà rán chiên ngập dầu chứa:\n- Lượng chất béo bão hòa rất cao (không tốt cho tim)\n- Muối và gia vị nhiều hơn cần thiết (hại thận)\n- Calo cao nhưng ít vitamin và khoáng chất thực sự\n\nĂn thường xuyên làm tăng cân, tăng cholesterol và thiếu hụt dưỡng chất quan trọng.\n\n## 🥤 Nước ngọt — kẻ thù của răng\n\nMột lon nước ngọt chứa khoảng **7 đến 10 thìa cà phê đường** — nhiều hơn lượng đường khuyến nghị cho cả ngày!\n\nHậu quả:\n- Axit trong nước ngọt ăn mòn men răng → sâu răng\n- Đường dư thừa chuyển thành mỡ → tăng cân\n- Uống thường xuyên tăng nguy cơ bệnh tiểu đường\n\n## 💚 Lựa chọn thông minh hơn\n\n| Thay vì | Chọn |\n|---|---|\n| Nước ngọt | Nước lọc, nước dừa tươi |\n| Gà rán | Gà hấp, gà luộc hoặc nướng |\n| Khoai tây chiên | Trái cây tươi hoặc hạt |\n| Bánh snack | Chuối, táo, sữa chua |\n\n## 🌟 Thực hành\n\nTuần này con hãy thử thay một lần uống nước ngọt bằng nước lọc hoặc nước dừa. Con sẽ cảm thấy sự khác biệt!",
+      "storyContext": "Công chúa Yumi học cách nhìn xuyên qua vẻ ngon miệng của thức ăn nhanh để bảo vệ sức khỏe và vẻ đẹp của mình.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Thực phẩm công nghiệp là gì?",
+          "options": [
+            "Thức ăn được sản xuất qua nhiều bước chế biến, thêm đường, muối và chất bảo quản",
+            "Thức ăn được làm bằng công nghệ hiện đại, rất tốt cho sức khỏe",
+            "Thức ăn được làm từ rau quả tươi theo quy trình sạch và an toàn",
+            "Thức ăn được chế biến đặc biệt dành riêng cho trẻ em"
+          ],
+          "correctIndex": 0,
+          "explanation": "Thực phẩm công nghiệp là những thức ăn đã qua nhiều bước chế biến công nghiệp, thường chứa thêm đường, muối, chất béo và chất bảo quản nhân tạo — như gà rán, xúc xích, mì gói, bánh snack.",
+          "hint": "Thực phẩm công nghiệp khác với thức ăn tươi và tự nhiên như thế nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Gà rán bán ở cửa hàng thức ăn nhanh có điều gì đáng lo ngại nhất cho sức khỏe?",
+          "options": [
+            "Gà rán rất khó nhai nên dễ bị nghẹn khi ăn",
+            "Gà rán không ngon bằng gà luộc ở nhà",
+            "Gà rán chứa nhiều chất béo bão hòa và muối, không tốt cho tim và cân nặng",
+            "Gà rán làm từ nguyên liệu không rõ nguồn gốc"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gà rán chiên ngập dầu chứa nhiều chất béo bão hòa và trans-fat. Khi ăn nhiều làm tăng cholesterol và gây hại cho tim. Lượng muối cao cũng gây hại cho thận.",
+          "hint": "Việc chiên ngập dầu ở nhiệt độ cao thêm vào gà những chất gì không tốt?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một lon nước ngọt có gas chứa khoảng bao nhiêu đường?",
+          "options": [
+            "Không có đường vì có vị chua từ khí gas",
+            "Rất ít, khoảng 1 thìa cà phê đường",
+            "Khoảng 2 đến 3 thìa cà phê đường",
+            "Khoảng 7 đến 10 thìa cà phê đường — nhiều hơn lượng khuyến nghị cả ngày"
+          ],
+          "correctIndex": 3,
+          "explanation": "Một lon nước ngọt thông thường chứa khoảng 35-40g đường — tương đương 7-10 thìa cà phê. Đây nhiều hơn lượng đường khuyến nghị cho cả ngày của trẻ em!",
+          "hint": "Con thử tưởng tượng xem 7 thìa cà phê đường nhiều đến mức nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Uống nước ngọt có gas thường xuyên gây hại gì cho cơ thể Yumi?",
+          "options": [
+            "Làm giọng nói trở nên trầm và khàn hơn",
+            "Gây sâu răng, tăng cân và tăng nguy cơ bệnh tiểu đường",
+            "Làm tóc rụng nhiều hơn mức bình thường",
+            "Làm mắt mờ dần theo thời gian"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đường trong nước ngọt tấn công men răng gây sâu răng. Lượng đường dư thừa chuyển thành mỡ gây tăng cân. Uống thường xuyên còn làm tăng nguy cơ bệnh tiểu đường khi lớn lên.",
+          "hint": "Đường nhiều ảnh hưởng đến răng, cân nặng và đường huyết như thế nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thay vì uống nước ngọt, Yumi nên chọn đồ uống nào tốt nhất?",
+          "options": [
+            "Nước lọc, nước dừa tươi hoặc nước ép trái cây tươi không thêm đường",
+            "Nước cam ép đóng hộp thêm đường và bảo quản",
+            "Trà sữa trân châu mỗi ngày",
+            "Bất kỳ đồ uống nào miễn là không có gas"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nước lọc là tốt nhất. Nước dừa tươi và nước ép trái cây tươi không đường cũng là lựa chọn tốt vì cung cấp vitamin tự nhiên mà không có đường tinh luyện.",
+          "hint": "Đồ uống tốt nhất là thứ gần với tự nhiên nhất, không qua nhiều chế biến."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ăn thức ăn nhanh như gà rán quá thường xuyên ảnh hưởng gì đến sức khỏe lâu dài của Yumi?",
+          "options": [
+            "Không có hại gì vì thức ăn nhanh được kiểm tra an toàn thực phẩm",
+            "Chỉ làm da bị nhờn và mụn tạm thời, không có hại gì khác",
+            "Chỉ ảnh hưởng đến người lớn, trẻ em cơ thể khỏe nên không sao",
+            "Tăng nguy cơ béo phì, bệnh tim và làm cơ thể thiếu dưỡng chất quan trọng"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ăn thức ăn nhanh nhiều dầu mỡ thường xuyên cung cấp nhiều calo rỗng (ít vitamin) và ít chất dinh dưỡng thực sự. Lâu dài dẫn đến béo phì, bệnh tim và thiếu hụt vitamin.",
+          "hint": "Ảnh hưởng của thực phẩm không lành mạnh không chỉ thấy ngay — nó tích lũy theo thời gian."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Câu nào mô tả đúng cách ăn uống lành mạnh nhất?",
+          "options": [
+            "Không bao giờ được ăn bất kỳ thức ăn nhanh nào trong cuộc đời",
+            "Ăn thức ăn nhanh đôi khi là được, nhưng không nên ăn mỗi ngày",
+            "Ăn thức ăn nhanh mỗi ngày vì có đủ protein từ thịt gà",
+            "Chỉ ăn salad và rau luộc mới được gọi là ăn lành mạnh"
+          ],
+          "correctIndex": 1,
+          "explanation": "Không cần kiêng hoàn toàn thức ăn nhanh — ăn đôi khi (1 lần/tuần hoặc ít hơn) là chấp nhận được. Điều quan trọng là không để nó trở thành thực phẩm ăn mỗi ngày.",
+          "hint": "Sự cân bằng là quan trọng — không quá nghiêm ngặt nhưng cũng không ăn bừa bãi."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Để thay thế gà rán, bữa ăn nào dưới đây lành mạnh và cân bằng hơn?",
+          "options": [
+            "Pizza nhiều pho mát và xúc xích",
+            "Khoai tây chiên với sốt mayonnaise béo",
+            "Cơm với cá hấp hoặc thịt luộc kèm rau xanh",
+            "Mì ăn liền thêm trứng chiên"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cơm với cá hoặc thịt luộc và rau xanh cung cấp tinh bột, protein lành mạnh, vitamin và khoáng chất — đây là bữa ăn cân bằng và tốt cho sức khỏe của Yumi.",
+          "hint": "Bữa ăn lành mạnh bao gồm tinh bột, đạm và rau — không qua chiên ngập dầu."
+        },
+        {
+          "type": "true_false",
+          "text": "Nước ngọt không đường (diet/zero) hoàn toàn an toàn và tốt cho sức khỏe, có thể uống thoải mái mỗi ngày.",
+          "correct": false,
+          "explanation": "Nước ngọt diet dùng chất tạo ngọt nhân tạo — dù không có đường nhưng chất axit trong đó vẫn gây hại cho men răng và có thể ảnh hưởng đến hệ tiêu hóa khi uống nhiều.",
+          "hint": "Không có đường không có nghĩa là không có hại gì — còn thành phần nào khác trong nước ngọt diet?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Thay vì uống nước ngọt có gas, Yumi nên uống ___ để cơ thể khỏe mạnh và răng không bị sâu.",
+          "answer": "nước lọc",
+          "explanation": "Nước lọc là lựa chọn tốt nhất cho sức khỏe — không chứa đường, không có axit, không có chất bảo quản và hoàn toàn tự nhiên cho cơ thể.",
+          "hint": "Đồ uống đơn giản nhất, tự nhiên nhất và tốt nhất cho cơ thể là gì?"
+        }
+      ]
+    }
+  ]
+}

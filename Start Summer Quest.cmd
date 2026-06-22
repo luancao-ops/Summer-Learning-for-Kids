@@ -6,6 +6,19 @@ set "RUNNING_PID="
 set "RUNNING_BIND="
 set "RESTART_LAN="
 
+:: Detect current LAN IP dynamically (picks 192.168.x.x if present, else first IPv4)
+set "LAN_IP="
+for /f "tokens=2 delims=:" %%A in ('ipconfig ^| findstr /r "IPv4.*192\.168"') do (
+  if not defined LAN_IP (
+    set "LAN_IP=%%A"
+  )
+)
+if defined LAN_IP (
+  set "LAN_IP=%LAN_IP: =%"
+) else (
+  set "LAN_IP=127.0.0.1"
+)
+
 if /I "%~1"=="restart-lan" set "RESTART_LAN=1"
 
 for /f "tokens=2,5" %%A in ('netstat -ano ^| findstr /r /c:"LISTENING .*:3000"') do (
@@ -27,7 +40,7 @@ if defined RUNNING_PID if not defined RESTART_LAN (
 
   echo Summer Quest is already running.
   echo Local URL: http://127.0.0.1:3000
-  echo LAN URL:   http://192.168.0.18:3000
+  echo LAN URL:   http://%LAN_IP%:3000
   pause
   exit /b 0
 )
@@ -72,7 +85,7 @@ if not exist ".next-build9\BUILD_ID" (
 echo.
 echo Starting Summer Quest...
 echo Local URL: http://127.0.0.1:3000
-echo LAN URL:   http://192.168.0.18:3000
+echo LAN URL:   http://%LAN_IP%:3000
 echo Keep this window open while using the app.
 echo.
 call npm.cmd run start:lan

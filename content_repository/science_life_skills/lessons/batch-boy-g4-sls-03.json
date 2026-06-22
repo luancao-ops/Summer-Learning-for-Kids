@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "batchId": "batch-boy-g4-sls-03",
+  "defaults": {
+    "approved": false,
+    "minimumQuestions": 10
+  },
+  "lessons": [
+    {
+      "id": "boy-g4-sls-x011",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 11,
+      "title": "Tập trung học bài — siêu năng lực của kỹ sư nhỏ",
+      "learningObjective": "Sau bài này Johnny sẽ hiểu vì sao học tập trung hiệu quả hơn học nhiều giờ phân tâm và biết cách tối ưu hóa môi trường học tập để não hoạt động hết công suất.",
+      "shortExplanation": "Não người hoạt động như CPU máy tính — khi chạy nhiều chương trình cùng lúc, mỗi chương trình đều chậm lại. Kỹ sư nhỏ Johnny học cách chạy một chương trình duy nhất: HỌC BÀI!",
+      "content": "## 🔧 Tình huống\n\nJohnny đang giải Toán nhưng vừa nhìn điện thoại, vừa nghe nhạc. Sau 1 tiếng, bài vẫn chưa xong. Hôm sau Johnny thử tắt tất cả thiết bị, học 30 phút thì xong bài nhanh hơn và nhớ hơn. Vì sao?\n\n## ⚙️ Nguyên lý CPU của não\n\nNão người không thể thực sự xử lý hai việc cùng lúc. Khi Johnny vừa học vừa nhìn điện thoại, não phải liên tục **chuyển đổi ngữ cảnh** — giống như CPU máy tính phải đổi giữa các tiến trình. Mỗi lần chuyển đổi mất thời gian và năng lượng.\n\nKết quả: không việc nào được làm tốt, và não tiêu tốn nhiều năng lượng hơn cho việc chuyển đổi hơn là cho việc học thật sự.\n\n## 🚀 Kỹ thuật Pomodoro\n\nCác kỹ sư và nhà khoa học thường dùng kỹ thuật này:\n- Học **25 phút** tập trung hoàn toàn\n- Nghỉ **5 phút** (đứng dậy, uống nước)\n- Lặp lại 4 chu kỳ rồi nghỉ dài 15-20 phút\n\nKỹ thuật này giúp não duy trì độ tập trung cao liên tục.\n\n## 🛠️ Thiết lập môi trường học tập tối ưu\n\n**Trước khi học:**\n- Cất điện thoại vào ngăn kéo hoặc phòng khác\n- Tắt tivi và tiếng ồn không cần thiết\n- Chuẩn bị đủ đồ dùng để không phải đứng dậy\n- Uống nước và đi vệ sinh trước\n\n**Khi học:**\n- Đặt đồng hồ bấm giờ 25 phút\n- Nếu có ý tưởng khác, ghi nhanh vào giấy, không dừng lại xử lý ngay\n\n## 💡 Lợi ích\n\n- Học 30 phút tập trung = học 2 giờ mất tập trung\n- Giải bài nhanh hơn, có nhiều thời gian chơi hơn\n- Nhớ bài lâu hơn và điểm kiểm tra tốt hơn\n\n## 🌟 Thực hành\n\nHôm nay Johnny hãy thử kỹ thuật Pomodoro: học 25 phút, nghỉ 5 phút. Đặt điện thoại vào ngăn kéo trong lúc học nhé!",
+      "storyContext": "Kỹ sư nhỏ Johnny khám phá cách tối ưu hóa bộ xử lý não bộ để học bài hiệu quả như siêu máy tính.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao não người không thể học tốt khi vừa học vừa nhìn điện thoại?",
+          "options": [
+            "Vì ánh sáng màn hình điện thoại làm mắt mỏi và đau đầu",
+            "Vì điện thoại phát ra sóng radio ảnh hưởng đến não",
+            "Vì não phải liên tục chuyển đổi giữa hai việc, tiêu tốn năng lượng và làm cả hai kém hiệu quả",
+            "Vì điện thoại làm mất điện cho máy tính học bài"
+          ],
+          "correctIndex": 2,
+          "explanation": "Não phải liên tục chuyển đổi ngữ cảnh giống như CPU chạy nhiều tiến trình. Mỗi lần chuyển đổi mất thời gian và năng lượng, khiến không việc nào được làm tốt.",
+          "hint": "CPU máy tính khi chạy nhiều chương trình cùng lúc sẽ như thế nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Kỹ thuật Pomodoro hoạt động như thế nào?",
+          "options": [
+            "Học 25 phút tập trung hoàn toàn rồi nghỉ 5 phút, lặp lại nhiều chu kỳ",
+            "Học 5 phút rồi chơi 25 phút, lặp lại cả ngày",
+            "Học 1 tiếng liên tục không nghỉ để đạt hiệu quả cao nhất",
+            "Học tất cả các môn trong 10 phút mỗi buổi tối"
+          ],
+          "correctIndex": 0,
+          "explanation": "Kỹ thuật Pomodoro: học 25 phút tập trung → nghỉ 5 phút → lặp lại. Cách này giúp não duy trì độ tập trung cao và phục hồi năng lượng đều đặn.",
+          "hint": "Bí quyết là cân bằng giữa thời gian tập trung và thời gian nghỉ ngắn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Học 30 phút tập trung hoàn toàn so với học 2 giờ phân tâm thì kết quả như thế nào?",
+          "options": [
+            "Học 2 giờ luôn tốt hơn vì có nhiều thời gian hơn",
+            "Học 30 phút tập trung thường hiệu quả hơn vì não ghi nhớ khi đang chú ý",
+            "Kết quả hoàn toàn như nhau, thời gian không quan trọng",
+            "Học 2 giờ tốt hơn vì não cần thời gian dài để xử lý thông tin"
+          ],
+          "correctIndex": 1,
+          "explanation": "Não ghi nhớ thông tin hiệu quả nhất khi đang tập trung. 30 phút học nghiêm túc có thể mang lại kết quả tốt hơn 2 giờ ngồi học nhưng đầu óc phân tâm.",
+          "hint": "Chất lượng của sự chú ý quan trọng hơn số giờ ngồi trước sách."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trước khi bắt đầu học, Johnny nên làm gì đầu tiên?",
+          "options": [
+            "Bật nhạc yêu thích để có hứng học bài",
+            "Kiểm tra điện thoại lần cuối rồi mới cất đi",
+            "Ăn thật no rồi ngồi vào bàn học ngay lập tức",
+            "Cất điện thoại, tắt tivi và chuẩn bị đủ đồ dùng học tập"
+          ],
+          "correctIndex": 3,
+          "explanation": "Loại bỏ mọi nguồn phân tâm trước khi học là bước quan trọng nhất. Khi môi trường học tập được tối ưu hóa, não tập trung hoàn toàn vào bài học.",
+          "hint": "Bước chuẩn bị quan trọng nhất là thiết lập môi trường học tập không có phân tâm."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi đang học mà nghĩ ra một ý tưởng khác (ví dụ: nhớ ra muốn nhắn tin cho bạn), Johnny nên làm gì?",
+          "options": [
+            "Dừng lại ngay và nhắn tin để không quên",
+            "Ghi nhanh ý tưởng đó vào giấy rồi tiếp tục học, xử lý sau",
+            "Cố gắng nhớ trong đầu vừa học vừa nhớ",
+            "Bỏ học luôn vì đã mất tập trung rồi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ghi nhanh ý tưởng ra giấy rồi tiếp tục học là cách tốt nhất. Não không còn phải cố nhớ nữa nên tập trung trở lại được ngay mà không bị gián đoạn.",
+          "hint": "Ghi ra giấy giúp não 'thả' ý tưởng đó ra và tập trung trở lại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Lợi ích thực tế nào mà Johnny nhận được khi học tập trung?",
+          "options": [
+            "Học tập trung giúp Johnny nổi tiếng ở trường hơn",
+            "Học tập trung giúp Johnny không cần ôn bài trước khi thi",
+            "Học tập trung giúp Johnny xong bài nhanh hơn và có nhiều thời gian chơi hơn",
+            "Học tập trung giúp Johnny không cần ngủ nhiều như các bạn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Khi học tập trung, Johnny làm bài nhanh và hiệu quả hơn nhiều. Điều đó có nghĩa là còn nhiều thời gian tự do để chơi và nghỉ ngơi sau khi xong việc.",
+          "hint": "Làm bài nhanh và tốt có lợi ích gì cho thời gian còn lại trong ngày?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sau khi học xong một chu kỳ 25 phút, Johnny nên làm gì trong 5 phút nghỉ?",
+          "options": [
+            "Đứng dậy, uống nước, vận động nhẹ để não và cơ thể phục hồi",
+            "Tiếp tục học bài thêm vì 25 phút chưa đủ",
+            "Ngồi yên nhìn vào màn hình điện thoại để não nghỉ",
+            "Ngủ ngắn 5 phút để tích lũy năng lượng"
+          ],
+          "correctIndex": 0,
+          "explanation": "Trong thời gian nghỉ, đứng dậy vận động nhẹ và uống nước giúp máu lưu thông và não được phục hồi thực sự — sẵn sàng cho chu kỳ tập trung tiếp theo.",
+          "hint": "Nghỉ ngơi thực sự nghĩa là không nhìn màn hình và cho cơ thể được vận động."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bạn học của Johnny hay quên bài ngay sau khi kiểm tra xong. Điều này cho thấy điều gì?",
+          "options": [
+            "Bạn ấy không đủ thông minh để nhớ bài",
+            "Bạn ấy cần học thêm nhiều giờ hơn mỗi ngày",
+            "Bạn ấy có vấn đề về trí nhớ cần đi khám bác sĩ",
+            "Bạn ấy học không tập trung nên thông tin chỉ vào bộ nhớ ngắn hạn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Quên bài ngay sau thi là dấu hiệu của việc học không tập trung — thông tin chỉ vào bộ nhớ ngắn hạn (RAM) và bị xóa đi khi không cần nữa.",
+          "hint": "RAM máy tính mất dữ liệu khi tắt nguồn — bộ nhớ ngắn hạn của não cũng vậy."
+        },
+        {
+          "type": "true_false",
+          "text": "Nghe nhạc có lời khi học bài giúp não tập trung tốt hơn và học hiệu quả hơn so với học trong im lặng.",
+          "correct": false,
+          "explanation": "Nhạc có lời tạo thêm đầu vào ngôn ngữ cạnh tranh với việc đọc và suy nghĩ bằng lời. Điều này chia sẻ tài nguyên não và làm giảm hiệu quả học tập, đặc biệt với môn yêu cầu suy luận.",
+          "hint": "Não phải xử lý cả lời bài hát lẫn nội dung bài học — điều đó có tốt không?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Kỹ thuật học 25 phút tập trung rồi nghỉ 5 phút được gọi là kỹ thuật ___.",
+          "answer": "Pomodoro",
+          "explanation": "Kỹ thuật Pomodoro (đặt theo tên cái đồng hồ hình quả cà chua) giúp duy trì sự tập trung cao độ qua các chu kỳ ngắn xen kẽ với nghỉ ngơi — được nhiều kỹ sư và học giả sử dụng.",
+          "hint": "Kỹ thuật này được đặt tên theo một loại quả màu đỏ phổ biến trong nhà bếp."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x012",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 12,
+      "title": "Học mỗi ngày một ít — chiến lược tích lũy của nhà phát minh",
+      "learningObjective": "Sau bài này Johnny sẽ hiểu sức mạnh của việc học tích lũy mỗi ngày và biết tại sao những nhà khoa học vĩ đại đều học từng ngày nhỏ chứ không học dồn một lần.",
+      "shortExplanation": "Thomas Edison thực hiện hơn 1000 thí nghiệm nhỏ trước khi phát minh ra bóng đèn. Không ai thành công bằng một lần cố gắng — tất cả đều tích lũy từng ngày!",
+      "content": "## ⚡ Tình huống\n\nJohnny muốn giỏi lập trình. Tuần đầu Johnny học 3 tiếng liền một lúc rồi nghỉ cả tuần. Tuần sau lại học 3 tiếng rồi nghỉ. Sau 1 tháng, kết quả không như mong đợi. Bạn cùng lớp học 20 phút mỗi ngày thì tiến bộ nhanh hơn nhiều. Vì sao?\n\n## 🧠 Khoa học về trí nhớ\n\nKhi não tiếp xúc với thông tin mới:\n1. Thông tin vào **bộ nhớ ngắn hạn** (như RAM) — dễ bị xóa\n2. Nếu được ôn lại nhiều lần → chuyển sang **bộ nhớ dài hạn** (như ổ cứng) — nhớ lâu\n\nMỗi lần ôn lại kiến thức, não củng cố thêm đường kết nối thần kinh — đường kết nối càng nhiều lần được dùng thì càng mạnh và khó bị xóa.\n\n## 📈 Hiệu ứng tích lũy\n\nNếu mỗi ngày Johnny tiến bộ thêm 1%, sau 1 năm:\n- 1 × 1.01^365 ≈ **37.8** — tức là giỏi hơn gần **38 lần**!\n\nNgược lại, nếu mỗi ngày thụt lùi 1% (không học), sau 1 năm chỉ còn 0.03 — gần như bằng không.\n\n## ✨ Chiến lược học hiệu quả\n\n1. **Giờ cố định**: học 20-30 phút mỗi ngày, cùng giờ\n2. **Ôn bài cũ**: dành 5 phút ôn lại bài hôm qua trước khi học mới\n3. **Ghi chép ngắn**: viết 2-3 điểm quan trọng nhất sau mỗi buổi học\n4. **Kiên trì**: đừng bỏ khi chưa thấy kết quả ngay\n\n## 🚀 Lợi ích thực tế\n\n- Nhớ bài lâu hơn và vào kỳ thi không cần nhồi nhét\n- Hiểu sâu hơn vì kiến thức được kết nối qua nhiều ngày\n- Tự tin hơn khi phát biểu và làm bài\n\n## 🌟 Thực hành\n\nThử thách cho Johnny: học 20 phút mỗi tối trong 14 ngày liên tiếp và đánh dấu lịch mỗi ngày!",
+      "storyContext": "Kỹ sư nhỏ Johnny áp dụng chiến lược tích lũy của Edison và Newton để xây dựng kho kiến thức không giới hạn.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao học đều đặn mỗi ngày giúp nhớ bài lâu hơn học dồn một lần?",
+          "options": [
+            "Vì học ít mỗi ngày có nghĩa là bài học đơn giản hơn",
+            "Vì mỗi lần ôn lại, não củng cố đường kết nối thần kinh, chuyển thông tin từ bộ nhớ ngắn hạn sang bộ nhớ dài hạn",
+            "Vì học ít mỗi ngày tiết kiệm điện và thời gian hơn",
+            "Vì não người không thể xử lý nhiều thông tin trong một ngày"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mỗi lần ôn lại, não củng cố thêm đường kết nối thần kinh. Học đều đặn giúp kiến thức chuyển từ bộ nhớ ngắn hạn (dễ quên) sang bộ nhớ dài hạn (nhớ lâu).",
+          "hint": "Đường kết nối thần kinh trong não giống như cơ bắp — càng dùng nhiều càng mạnh."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu Johnny học 20 phút mỗi ngày trong 1 tuần, tổng thời gian học là bao nhiêu?",
+          "options": [
+            "20 phút vì mỗi ngày chỉ học 20 phút",
+            "60 phút",
+            "100 phút",
+            "140 phút — hơn 2 tiếng học có chất lượng"
+          ],
+          "correctIndex": 3,
+          "explanation": "20 phút × 7 ngày = 140 phút. Và vì học đều đặn, não củng cố mỗi ngày nên kiến thức được ghi nhớ lâu hơn nhiều so với học 140 phút một lúc.",
+          "hint": "Nhân 20 phút với 7 ngày trong tuần."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao chiến lược của kỹ sư nhỏ Johnny — học 20 phút mỗi ngày — lại hiệu quả hơn học 3 tiếng mỗi cuối tuần?",
+          "options": [
+            "Vì 20 phút ngắn hơn và ít tốn công sức hơn 3 tiếng",
+            "Vì não được tiếp xúc với kiến thức 7 lần thay vì 1 lần, củng cố ghi nhớ tốt hơn nhiều",
+            "Vì học ngắn mỗi ngày nghĩa là bài ít và dễ hơn trong tuần",
+            "Vì cuối tuần không nên học bài mà nên nghỉ ngơi hoàn toàn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Não tiếp xúc với kiến thức 7 lần (7 ngày) thay vì 1 lần (cuối tuần). Mỗi lần học, đường kết nối thần kinh được củng cố thêm, tạo ra ký ức bền vững hơn rất nhiều.",
+          "hint": "Bao nhiêu lần tiếp xúc với thông tin thì não ghi nhớ tốt hơn?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Ví dụ nào trong cuộc sống giống nhất với nguyên tắc học tích lũy mỗi ngày?",
+          "options": [
+            "Nâng tạ 100kg trong một ngày để luyện tập cơ bắp",
+            "Ăn một bữa thật lớn để nhịn cả tuần",
+            "Tập thể dục 20 phút mỗi ngày đều đặn để cơ bắp phát triển dần",
+            "Chạy marathon mỗi tháng một lần"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cơ bắp phát triển qua tập luyện đều đặn mỗi ngày — không thể tập dồn một lần cho cả tháng. Não và kiến thức cũng hoạt động theo nguyên lý tương tự.",
+          "hint": "Cơ thể phát triển tốt nhất qua luyện tập đều đặn — não cũng vậy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi Johnny cảm thấy lười và không muốn học tối nay, Johnny nên làm gì?",
+          "options": [
+            "Bỏ hôm nay hoàn toàn và học bù gấp đôi vào ngày mai",
+            "Chờ đến khi có hứng và cảm thấy sẵn sàng mới học",
+            "Bỏ cả tuần vì đã mất đà rồi, bắt đầu lại tuần sau",
+            "Học ít nhất 10 đến 15 phút — duy trì chuỗi ngày học quan trọng hơn lượng thời gian"
+          ],
+          "correctIndex": 3,
+          "explanation": "Học dù chỉ 10-15 phút giúp duy trì thói quen và giữ chuỗi ngày liên tiếp. Chuỗi ngày không bị đứt là yếu tố quan trọng nhất trong việc xây dựng thói quen học tập.",
+          "hint": "Một kỹ sư tốt không bỏ cuộc chỉ vì một ngày khó khăn."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thomas Edison thực hiện hơn 1000 thí nghiệm trước khi phát minh ra bóng đèn. Bài học nào liên quan đến việc học của Johnny?",
+          "options": [
+            "Sự tích lũy từng bước nhỏ mỗi ngày tạo ra kết quả lớn theo thời gian",
+            "Chỉ những thiên tài mới có thể kiên trì lâu như Edison",
+            "Cần phải thất bại 1000 lần trước khi thành công trong học tập",
+            "Học nhiều môn một lúc giống như Edison làm nhiều thí nghiệm"
+          ],
+          "correctIndex": 0,
+          "explanation": "Edison không phát minh bóng đèn trong một ngày. Sự thành công của ông là kết quả của hàng nghìn bước nhỏ tích lũy. Học mỗi ngày một ít cũng tạo ra kiến thức lớn theo thời gian.",
+          "hint": "Edison không từ bỏ sau thất bại — ông coi mỗi thất bại là một bước tích lũy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Học nhồi nhét trước khi thi có nhược điểm lớn nhất là gì?",
+          "options": [
+            "Tốn quá nhiều thời gian và làm mắt mỏi",
+            "Rất khó thực hiện khi không có bài tập về nhà",
+            "Thông tin chỉ lưu trong bộ nhớ ngắn hạn và quên rất nhanh sau thi",
+            "Làm sách vở bị hỏng vì phải đọc quá nhiều"
+          ],
+          "correctIndex": 2,
+          "explanation": "Học nhồi nhét đẩy thông tin vào bộ nhớ ngắn hạn. Sau thi, não xóa đi vì không còn cần. Đây là lý do nhiều học sinh giỏi khi thi nhưng quên hết sau đó.",
+          "hint": "Bộ nhớ ngắn hạn như RAM — tắt máy thì mất hết dữ liệu."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Điều gì xảy ra khi Johnny ôn lại bài học của ngày hôm qua vào đầu mỗi buổi học mới?",
+          "options": [
+            "Chỉ mất thời gian mà không giúp học bài mới tốt hơn",
+            "Chỉ có ích khi ôn bài trước ngày kiểm tra lớn",
+            "Làm não mệt mỏi và khó tiếp thu bài học mới hơn",
+            "Giúp củng cố kiến thức cũ và tạo nền tảng để hiểu bài mới tốt hơn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ôn bài cũ 5 phút mỗi đầu buổi học giúp não nhớ lại, củng cố kiến thức và tạo 'móc treo' để kiến thức mới bám vào. Đây là chiến lược học hiệu quả của các nhà khoa học.",
+          "hint": "Kiến thức mới cần được kết nối với kiến thức cũ để dễ nhớ hơn."
+        },
+        {
+          "type": "true_false",
+          "text": "Học dồn tất cả vào đêm trước khi thi (nhồi nhét) là cách học hiệu quả nhất vì não được nhận nhiều thông tin cùng lúc.",
+          "correct": false,
+          "explanation": "Học nhồi nhét chỉ đẩy thông tin vào bộ nhớ ngắn hạn. Sau thi, não xóa đi vì nghĩ không cần thiết nữa. Học đều đặn mỗi ngày mới giúp kiến thức vào bộ nhớ dài hạn.",
+          "hint": "Bộ nhớ ngắn hạn và dài hạn của não hoạt động rất khác nhau."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Học mỗi ngày một ít giúp kiến thức được ___ vào bộ nhớ dài hạn của não, giống như lưu file vào ổ cứng.",
+          "answer": "củng cố",
+          "explanation": "Mỗi lần học lại, não củng cố thêm đường kết nối thần kinh. Kiến thức được củng cố nhiều lần sẽ vào bộ nhớ dài hạn và không dễ bị quên.",
+          "hint": "Từ nào mô tả quá trình làm cho đường kết nối thần kinh trở nên chắc chắn hơn qua việc lặp lại?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x013",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 13,
+      "title": "Thói quen học tập — lập trình não bộ cho thành công",
+      "learningObjective": "Sau bài này Johnny sẽ hiểu cách não bộ hình thành thói quen, biết xây dựng thói quen học tập tốt và hiểu vì sao thói quen tốt hình thành nên tính cách của một học sinh giỏi.",
+      "shortExplanation": "Thói quen là những 'chương trình' não tự chạy mà không cần suy nghĩ. Kỹ sư nhỏ Johnny học cách lập trình những thói quen tốt để não tự động thực hiện!",
+      "content": "## ⚙️ Tình huống\n\nJohnny nhận ra: mỗi tối lúc 7 giờ, Johnny tự động đánh răng mà không cần ba mẹ nhắc. Nhưng việc học bài thì vẫn cần nhắc. Johnny muốn học bài cũng trở nên tự động như đánh răng. Làm thế nào?\n\n## 🧠 Vòng lặp thói quen\n\nCác nhà khoa học tìm ra rằng thói quen hình thành theo **3 bước**:\n1. **Tín hiệu** (Trigger): điều gì đó kích hoạt thói quen (ví dụ: đồng hồ chỉ 7 giờ)\n2. **Hành động** (Routine): việc con làm (ví dụ: ngồi vào bàn học)\n3. **Phần thưởng** (Reward): não nhận được tín hiệu tốt (ví dụ: cảm giác tự hào khi xong bài)\n\nKhi ba bước này lặp lại đủ nhiều lần, hành động trở thành **tự động**.\n\n## ⏰ Bao lâu để hình thành thói quen?\n\nNghiên cứu khoa học cho thấy cần lặp lại khoảng **21 đến 66 ngày** tùy người và tùy thói quen. Giai đoạn đầu (2-3 tuần đầu) là khó nhất — não chưa quen và sẽ muốn bỏ cuộc.\n\n**Bí quyết**: không bỏ quá 1 ngày liên tiếp trong giai đoạn xây dựng.\n\n## 🛠️ Cách xây dựng thói quen học tập\n\n1. **Chọn giờ cố định**: ví dụ 7:00 tối mỗi ngày\n2. **Bắt đầu nhỏ**: chỉ 15-20 phút ban đầu, không cố học quá nhiều\n3. **Tín hiệu rõ ràng**: đặt đồng hồ báo thức hoặc uống nước trước khi học\n4. **Theo dõi tiến trình**: đánh dấu X vào lịch mỗi ngày hoàn thành\n\n## 💝 Thói quen tốt tạo ra tính cách tốt\n\nKhi Johnny tự giác học bài mỗi ngày mà không cần ai nhắc, Johnny đang xây dựng:\n- **Kỷ luật bản thân**: làm đúng điều cần làm\n- **Trách nhiệm**: tự lo việc của mình\n- **Kiên nhẫn**: tiếp tục dù có ngày khó khăn\n\nĐây là những tính cách của người thành công — không chỉ ở trường học mà trong cả cuộc đời.\n\n## 🌟 Thực hành\n\nHôm nay Johnny hãy đặt tín hiệu học bài: đặt đồng hồ báo lúc 7 giờ tối với tiêu đề 'Giờ học của kỹ sư nhỏ'!",
+      "storyContext": "Kỹ sư nhỏ Johnny lập trình bộ não của mình bằng cách cài đặt những thói quen tốt — như lập trình một robot để tự động hoạt động hiệu quả.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Ba bước hình thành thói quen theo khoa học là gì?",
+          "options": [
+            "Nghĩ — Làm — Nghỉ",
+            "Tín hiệu (Trigger) — Hành động (Routine) — Phần thưởng (Reward)",
+            "Nhớ — Quên — Nhớ lại",
+            "Học — Thi — Nghỉ hè"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thói quen hình thành qua vòng lặp: Tín hiệu kích hoạt → Hành động được thực hiện → Não nhận phần thưởng. Lặp lại đủ nhiều lần, hành động trở nên tự động.",
+          "hint": "Ba bước của vòng lặp thói quen: cái gì kích hoạt, việc làm, và kết quả nhận được."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thường cần bao lâu để một hành động mới trở thành thói quen?",
+          "options": [
+            "1 đến 3 ngày là hình thành thói quen",
+            "Đúng 1 tuần học liên tiếp",
+            "Chỉ cần làm 1 lần với quyết tâm thật cao",
+            "Thường từ 21 đến 66 ngày lặp lại đều đặn"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nghiên cứu cho thấy cần lặp lại khoảng 21 đến 66 ngày để một hành động trở thành thói quen tự động. Giai đoạn đầu là khó nhất — cần kiên nhẫn!",
+          "hint": "Hình thành thói quen cần nhiều thời gian và sự kiên trì hơn ta nghĩ."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Khi Johnny đã có thói quen học bài lúc 7 giờ tối, điều gì sẽ xảy ra?",
+          "options": [
+            "Johnny tự ngồi vào bàn học mà không cần ba mẹ nhắc, gần như tự động",
+            "Johnny sẽ học giỏi nhất lớp ngay lập tức",
+            "Ba mẹ sẽ không bao giờ cần nhắc Johnny làm bất cứ việc gì nữa",
+            "Johnny sẽ không bao giờ quên bài kiểm tra nào trong cả năm học"
+          ],
+          "correctIndex": 0,
+          "explanation": "Khi hành động trở thành thói quen, não thực hiện gần như tự động khi nhận tín hiệu. Johnny sẽ tự ngồi vào bàn học lúc 7 giờ mà không cần ai nhắc hay ép buộc.",
+          "hint": "Giống như đánh răng tối — Johnny có cần ba mẹ nhắc mỗi đêm không?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Đâu là ví dụ tốt nhất về 'tín hiệu' (trigger) để bắt đầu thói quen học bài?",
+          "options": [
+            "Chờ khi cảm thấy thực sự muốn học rồi mới ngồi vào bàn",
+            "Nhờ ba mẹ nhắc mỗi tối cho đến khi quen",
+            "Đặt đồng hồ báo lúc 7 giờ tối hoặc đặt sách vở lên bàn như một tín hiệu",
+            "Chờ đến khi bạn bè nhắn tin hỏi bài rồi mới học"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tín hiệu rõ ràng và nhất quán (như đồng hồ báo hoặc đặt sách lên bàn) giúp não nhận diện 'đây là lúc học bài' và kích hoạt hành động tự động.",
+          "hint": "Tín hiệu tốt nhất là điều xảy ra đều đặn, không phụ thuộc vào cảm xúc hay người khác."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vì sao thói quen học tập tốt giúp Johnny trở thành người có kỷ luật hơn?",
+          "options": [
+            "Vì thói quen giúp Johnny nhận được nhiều điểm thưởng từ giáo viên",
+            "Vì khi tự giác làm việc cần làm mỗi ngày mà không cần nhắc, Johnny rèn tính kỷ luật và trách nhiệm",
+            "Vì kỷ luật là quy định của trường học cần phải tuân theo",
+            "Vì thói quen học tập chỉ ảnh hưởng đến điểm số, không ảnh hưởng đến tính cách"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tự giác làm việc tốt mỗi ngày mà không cần ai nhắc hình thành tính kỷ luật và trách nhiệm. Đây là tính cách cốt lõi của người thành công trong cuộc sống.",
+          "hint": "Tính cách được hình thành qua những việc con làm tự giác mỗi ngày."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Bước đầu tiên khi muốn xây dựng thói quen học tập là gì?",
+          "options": [
+            "Bắt đầu nhỏ với 15-20 phút cùng giờ mỗi ngày, sau đó tăng dần",
+            "Chờ đến đầu năm học mới bắt đầu cho chắc ăn",
+            "Nhờ bạn cùng học để có người nhắc nhở",
+            "Học thật nhiều ngay ngày đầu để tạo đà mạnh mẽ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bắt đầu nhỏ và nhất quán quan trọng hơn bắt đầu lớn mà không duy trì được. Sau khi thói quen đã hình thành, Johnny có thể tăng thời gian và độ khó dần dần.",
+          "hint": "Kỹ sư tốt không xây tòa nhà 100 tầng ngay từ đầu — họ xây từng tầng một."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu Johnny lỡ bỏ 1 ngày không học, Johnny nên làm gì?",
+          "options": [
+            "Bỏ cả tuần vì chuỗi liên tiếp đã bị phá vỡ rồi",
+            "Học bù suốt cả ngày hôm sau để lấy lại những gì đã mất",
+            "Tự trách bản thân là thiếu ý chí và không có khả năng",
+            "Bình tĩnh, không sao, và tiếp tục thói quen vào ngày hôm sau"
+          ],
+          "correctIndex": 3,
+          "explanation": "Một ngày lỡ không phá vỡ thói quen. Điều quan trọng là không bỏ 2 ngày liên tiếp. Kỹ sư giỏi không từ bỏ sau một sự cố nhỏ — họ tiếp tục ngay.",
+          "hint": "Một ngày lỡ là chấp nhận được — bỏ luôn mới là vấn đề thực sự."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Cách nào giúp Johnny theo dõi và duy trì thói quen học tập hiệu quả nhất?",
+          "options": [
+            "Nhớ trong đầu mà không cần ghi chép hay theo dõi",
+            "Đặt mục tiêu học thật cao để có động lực",
+            "Đánh dấu X vào lịch mỗi ngày hoàn thành để thấy chuỗi ngày liên tiếp",
+            "Kể cho bạn bè nghe mỗi ngày về việc học của mình"
+          ],
+          "correctIndex": 2,
+          "explanation": "Đánh dấu X vào lịch tạo ra bằng chứng hữu hình của sự kiên trì. Nhìn thấy chuỗi ngày liên tiếp tạo động lực không muốn phá vỡ nó — đây là kỹ thuật nhiều nhà khoa học dùng.",
+          "hint": "Thấy chuỗi X dài trên lịch tạo ra áp lực tích cực để không phá vỡ nó."
+        },
+        {
+          "type": "true_false",
+          "text": "Một khi đã hình thành thói quen học tập tốt, Johnny không cần làm gì thêm để duy trì — thói quen sẽ tự duy trì mãi mãi.",
+          "correct": false,
+          "explanation": "Thói quen vẫn cần được thực hiện đều đặn để duy trì. Nếu bỏ lâu ngày (hơn 2 tuần), thói quen có thể mờ dần và cần được xây dựng lại từ đầu.",
+          "hint": "Thói quen như ngọn lửa — cần được thêm nhiên liệu thường xuyên để không tắt."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Thói quen học tập tốt không chỉ giúp Johnny học giỏi mà còn hình thành tính ___ — tự làm việc cần làm mà không cần ai nhắc nhở.",
+          "answer": "kỷ luật",
+          "explanation": "Kỷ luật bản thân là khả năng tự giác làm điều đúng đắn ngay cả khi không có ai giám sát. Đây là tính cách quan trọng nhất của người thành công và là kết quả của thói quen tốt.",
+          "hint": "Tính cách nào được hình thành khi con tự giác làm việc cần làm mỗi ngày?"
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x014",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 14,
+      "title": "Trái cây và rau xanh — nhiên liệu siêu cấp cho não bộ",
+      "learningObjective": "Sau bài này Johnny sẽ hiểu các chất dinh dưỡng trong rau quả, lợi ích với não bộ và cơ thể, và biết lý do khoa học vì sao cần ăn rau quả mỗi ngày.",
+      "shortExplanation": "Não bộ của Johnny cần vitamin và khoáng chất từ rau quả để hoạt động ở hiệu suất cao nhất — giống như CPU cần nguồn điện chất lượng để xử lý ở tốc độ tối đa!",
+      "content": "## 🔧 Tình huống\n\nJohnny thấy rằng những ngày ăn nhiều rau quả, Johnny tập trung và phản xạ tốt hơn. Còn những ngày chỉ ăn mì gói và bánh snack, Johnny hay mệt và khó tập trung. Điều gì trong rau quả tạo ra sự khác biệt này?\n\n## ⚡ Rau quả — nhiên liệu cho não và cơ thể\n\nNão bộ chiếm 2% trọng lượng cơ thể nhưng tiêu thụ **20% tổng năng lượng**. Để hoạt động tốt, não cần:\n\n- **Glucose** (từ trái cây): năng lượng cho tế bào thần kinh\n- **Vitamin C** (cam, ổi, bưởi): bảo vệ tế bào não khỏi tổn thương\n- **Vitamin B** (rau xanh đậm): giúp dẫn truyền thần kinh\n- **Sắt** (rau bina, cải xoong): vận chuyển oxy đến não\n- **Kali** (chuối, khoai lang): ổn định điện thế tế bào thần kinh\n\n## 🌈 Mã màu dinh dưỡng\n\n| Màu | Thực phẩm | Chứa gì |\n|---|---|---|\n| Đỏ | Cà chua, dưa hấu | Lycopene (chống oxy hóa) |\n| Cam | Cà rốt, bí đỏ | Vitamin A (mắt, da) |\n| Xanh đậm | Rau muống, cải bó xôi | Sắt, canxi, vitamin K |\n| Vàng | Chuối, xoài | Kali, vitamin B6 |\n| Tím | Nho, thanh long đỏ | Anthocyanin (bảo vệ não) |\n\n## 📊 Khuyến nghị hàng ngày\n\nBộ Y tế khuyến nghị trẻ em ăn ít nhất **3 đến 5 phần** rau quả mỗi ngày. Một phần = 1 quả táo, hoặc 1 bát rau xào, hoặc 1 cốc nước ép tươi.\n\n## 🚀 Lợi ích với kỹ sư nhỏ\n\n- Não tập trung tốt hơn và phản xạ nhanh hơn\n- Ít bị cảm cúm và bệnh vặt\n- Cơ bắp và xương phát triển khỏe mạnh\n- Tiêu hóa tốt, có nhiều năng lượng cả ngày\n\n## 🌟 Thực hành\n\nHôm nay Johnny hãy ăn 1 quả chuối hoặc táo làm bữa phụ thay vì bánh snack. Ghi nhận sự khác biệt về năng lượng!",
+      "storyContext": "Kỹ sư nhỏ Johnny phân tích thành phần dinh dưỡng của rau quả và phát hiện đây là nguồn nhiên liệu siêu cấp cho não bộ của mình.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Não bộ của Johnny tiêu thụ bao nhiêu phần trăm tổng năng lượng của cơ thể?",
+          "options": [
+            "1% — não rất nhỏ nên dùng ít năng lượng",
+            "5% — não dùng ít hơn cơ bắp",
+            "10% — bằng với tim",
+            "20% — dù chỉ chiếm 2% khối lượng cơ thể"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dù não chỉ chiếm 2% khối lượng cơ thể, nó tiêu thụ tới 20% tổng năng lượng. Đây là lý do tại sao cần cung cấp đủ dưỡng chất để não hoạt động tốt nhất.",
+          "hint": "CPU máy tính mạnh thường tiêu thụ nhiều điện — não cũng tương tự."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Vitamin C trong cam, ổi và bưởi giúp ích gì cho cơ thể Johnny?",
+          "options": [
+            "Giúp cơ thể Johnny cao hơn và to hơn nhanh hơn",
+            "Tăng cường hệ miễn dịch, bảo vệ tế bào và giúp cơ thể chống bệnh vặt",
+            "Giúp tóc mọc dài và đen bóng hơn",
+            "Giúp giọng nói trở nên to và rõ hơn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vitamin C là chất chống oxy hóa mạnh, tăng cường hệ miễn dịch và bảo vệ tế bào (kể cả tế bào não) khỏi tổn thương. Thiếu vitamin C dễ bị cảm cúm và ốm vặt.",
+          "hint": "Vitamin C nổi tiếng là 'vitamin đề kháng' — nó bảo vệ cơ thể như thế nào?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Chuối và khoai lang chứa nhiều kali — kali quan trọng thế nào với não bộ?",
+          "options": [
+            "Kali giúp não lớn hơn về kích thước",
+            "Kali giúp tóc đen bóng và không rụng",
+            "Kali giúp ổn định điện thế tế bào thần kinh, cần thiết cho não hoạt động đúng",
+            "Kali chỉ tốt cho cơ bắp, không liên quan đến não"
+          ],
+          "correctIndex": 2,
+          "explanation": "Kali là khoáng chất thiết yếu giúp ổn định điện thế màng tế bào thần kinh — cần thiết để các tín hiệu thần kinh truyền đúng cách. Thiếu kali ảnh hưởng đến cơ bắp và tim.",
+          "hint": "Tế bào thần kinh hoạt động dựa trên tín hiệu điện — khoáng chất nào giúp điều này?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao nên ăn rau quả có nhiều màu sắc khác nhau mỗi ngày?",
+          "options": [
+            "Để bữa ăn trông đẹp và hấp dẫn hơn khi chụp ảnh",
+            "Vì rau quả màu sắc đắt tiền hơn và tốt hơn",
+            "Vì rau quả màu xanh đắng, đỏ ngọt và vàng chua — cần đa dạng vị",
+            "Mỗi màu chứa các vitamin và khoáng chất riêng biệt, ăn đa dạng giúp bổ sung đầy đủ dưỡng chất"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mỗi màu sắc của rau quả tương ứng với các chất dinh dưỡng khác nhau: đỏ (lycopene), cam (vitamin A), xanh (sắt, canxi), tím (anthocyanin). Ăn đa màu = bổ sung đầy đủ.",
+          "hint": "Màu sắc trong rau quả không chỉ là vẻ bề ngoài — nó phản ánh thành phần dinh dưỡng bên trong."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thực phẩm nào là bữa phụ tốt nhất cho kỹ sư nhỏ Johnny?",
+          "options": [
+            "Khoai tây chiên giòn từ túi đóng gói sẵn",
+            "Một quả táo, chuối hoặc một nắm hạt hỗn hợp",
+            "Bánh snack và nước ngọt để có năng lượng nhanh",
+            "Mì ăn liền vị gà thêm trứng chiên"
+          ],
+          "correctIndex": 1,
+          "explanation": "Trái cây tươi và hạt cung cấp đường tự nhiên, vitamin, khoáng chất và chất béo tốt — là nhiên liệu chất lượng cao cho não bộ, khác với bánh snack chứa đường tinh luyện và chất phụ gia.",
+          "hint": "Nhiên liệu tốt cho CPU là điện sạch — nhiên liệu tốt cho não là thực phẩm tự nhiên."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Sắt trong rau xanh đậm (rau muống, cải bó xôi) có tác dụng gì quan trọng với não?",
+          "options": [
+            "Làm răng chắc khỏe và trắng sáng hơn",
+            "Giúp da không bị bỏng khi ngoài nắng",
+            "Vận chuyển oxy trong máu đến não, giúp não hoạt động tốt và không bị mệt mỏi",
+            "Chỉ có tác dụng với cơ bắp, không liên quan đến não"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sắt là thành phần của hemoglobin trong hồng cầu, vận chuyển oxy đến não và các cơ quan. Thiếu sắt khiến não thiếu oxy, gây mệt mỏi, khó tập trung và học kém hiệu quả.",
+          "hint": "Oxy cần thiết cho não như điện cần thiết cho máy tính — sắt giúp vận chuyển oxy."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Nếu Johnny chỉ ăn mì gói và bánh snack mà không ăn rau quả, điều gì có thể xảy ra?",
+          "options": [
+            "Không có vấn đề gì vì mì gói cũng có đủ chất dinh dưỡng cần thiết",
+            "Chỉ ảnh hưởng đến cân nặng, không ảnh hưởng đến trí tuệ",
+            "Chỉ tốt cho người lớn cần ăn rau, trẻ em không cần nhiều rau",
+            "Cơ thể thiếu vitamin và khoáng chất, gây mệt mỏi, giảm tập trung và dễ ốm"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mì gói và bánh snack cung cấp calo nhưng rất ít vitamin và khoáng chất. Thiếu các dưỡng chất này làm cơ thể mệt mỏi, não hoạt động kém và hệ miễn dịch suy yếu.",
+          "hint": "Mì gói cho năng lượng nhưng không có vitamin — giống như pin điện không đủ điện áp."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Mỗi ngày Johnny nên ăn khoảng bao nhiêu phần rau quả theo khuyến nghị?",
+          "options": [
+            "Ít nhất 3 đến 5 phần rau quả tươi mỗi ngày",
+            "1 phần nhỏ là đủ nếu ăn đúng loại vitamin",
+            "Không cần ăn nếu đã uống vitamin bổ sung dạng viên",
+            "Chỉ ăn khi cảm thấy thiếu sức và mệt mỏi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bộ Y tế khuyến nghị trẻ em ăn ít nhất 3-5 phần rau quả mỗi ngày. Một phần có thể là 1 quả táo, 1 bát rau xào nhỏ, hoặc 1 cốc nước ép tươi.",
+          "hint": "Cơ thể cần nhiều loại vitamin khác nhau — không phải chỉ một vài phần nhỏ là đủ."
+        },
+        {
+          "type": "true_false",
+          "text": "Nước ép trái cây đóng hộp mua sẵn ở siêu thị có đủ dưỡng chất như ăn trái cây tươi nguyên trái.",
+          "correct": false,
+          "explanation": "Quá trình chế biến và bảo quản phá hủy nhiều vitamin (đặc biệt vitamin C) và loại bỏ chất xơ. Nước ép đóng hộp còn thường được thêm đường và chất bảo quản.",
+          "hint": "Quá trình đun nóng để đóng hộp có ảnh hưởng gì đến vitamin C không?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Cà rốt và bí đỏ giàu vitamin ___ giúp bảo vệ mắt của Johnny và tăng cường hệ miễn dịch.",
+          "answer": "A",
+          "explanation": "Vitamin A (có nhiều trong thực phẩm màu cam như cà rốt, bí đỏ, xoài) rất quan trọng cho sức khỏe của mắt, da và hệ miễn dịch. Thiếu vitamin A có thể gây quáng gà.",
+          "hint": "Đây là vitamin đầu tiên trong bảng chữ cái, có nhiều trong rau quả màu cam."
+        }
+      ]
+    },
+    {
+      "id": "boy-g4-sls-x015",
+      "subjectId": "science_life_skills",
+      "studentTarget": "boy",
+      "grade": 4,
+      "phase": "new",
+      "orderIndex": 15,
+      "title": "Thực phẩm công nghiệp — kẻ thù bí mật của sức khỏe",
+      "learningObjective": "Sau bài này Johnny sẽ hiểu thực phẩm công nghiệp là gì, tại sao gà rán và nước ngọt gây hại cho cơ thể và biết chọn thực phẩm lành mạnh hơn.",
+      "shortExplanation": "Thực phẩm công nghiệp chứa nhiều đường, muối và chất béo xấu — những 'virus' làm hỏng cơ thể chậm chạp mà không báo hiệu ngay. Kỹ sư nhỏ cần biết để bảo vệ 'phần cứng' cơ thể của mình!",
+      "content": "## 🔧 Tình huống\n\nJohnny rất thích gà rán và uống nước ngọt sau khi đá bóng. Một ngày Johnny đọc thông tin dinh dưỡng trên lon nước ngọt và ngạc nhiên: 1 lon chứa 39g đường! Johnny muốn hiểu rõ hơn về những gì mình đang đưa vào cơ thể.\n\n## 🔬 Phân tích thực phẩm công nghiệp\n\nThực phẩm công nghiệp trải qua nhiều bước chế biến và thường chứa:\n\n- **Đường tinh luyện**: nhiều hơn nhu cầu cơ thể, phần dư thành mỡ\n- **Trans-fat**: loại chất béo nhân tạo gây hại cho tim mạch\n- **Natri (muối) cao**: gây tăng huyết áp, hại thận\n- **Chất bảo quản**: kéo dài hạn dùng nhưng gây gánh nặng cho gan\n- **Chất tạo hương vị**: làm cơ thể thèm ăn thêm không kiểm soát được\n\n## 🍗 Mổ xẻ miếng gà rán\n\nMột miếng đùi gà rán chứa:\n- ~400-500 calo (nhiều hơn cơm trắng trung bình)\n- Trans-fat và chất béo bão hòa cao\n- Natri gấp 2-3 lần lượng cần thiết\n- Gần như không có vitamin hay chất xơ\n\nCalo cao nhưng ít dưỡng chất = **calo rỗng** (empty calories).\n\n## 🥤 Mổ xẻ lon nước ngọt\n\nMột lon nước ngọt (330ml) chứa:\n- ~35-40g đường = **7-10 thìa cà phê đường**\n- Nhiều hơn lượng đường khuyến nghị cả ngày cho trẻ em\n- Axit phosphoric: ăn mòn men răng\n- Không có vitamin, khoáng chất hay chất xơ\n\n## 💚 Nâng cấp thực đơn\n\n| Thay vì | Nâng cấp thành |\n|---|---|\n| Nước ngọt | Nước lọc, nước dừa tươi |\n| Gà rán | Gà luộc, hấp hoặc nướng |\n| Bánh snack | Trái cây, hạt rang không muối |\n| Khoai chiên | Khoai lang hấp, ngô luộc |\n\n## 🌟 Thực hành\n\nJohnny hãy đọc nhãn dinh dưỡng trên bao bì của 3 thứ con thường ăn/uống và xem lượng đường trong mỗi thứ là bao nhiêu!",
+      "storyContext": "Kỹ sư nhỏ Johnny phân tích thành phần hóa học của thực phẩm công nghiệp và phát hiện những 'lỗ hổng bảo mật' nguy hiểm cho cơ thể của mình.",
+      "approved": false,
+      "checks": [
+        {
+          "type": "multiple_choice",
+          "text": "Thực phẩm công nghiệp khác với thực phẩm tươi tự nhiên như thế nào?",
+          "options": [
+            "Thực phẩm công nghiệp được sản xuất bằng máy móc hiện đại nên an toàn hơn",
+            "Thực phẩm công nghiệp qua nhiều bước chế biến, thêm đường, muối, chất béo và chất bảo quản nhân tạo",
+            "Thực phẩm công nghiệp chỉ khác về hình thức đóng gói, không khác về dinh dưỡng",
+            "Thực phẩm công nghiệp được kiểm tra kỹ hơn nên dinh dưỡng tốt hơn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thực phẩm công nghiệp trải qua nhiều bước chế biến và được thêm đường, muối, chất béo và chất bảo quản nhân tạo để tăng hương vị và kéo dài hạn sử dụng — nhưng mất đi nhiều giá trị dinh dưỡng tự nhiên.",
+          "hint": "Thực phẩm càng qua nhiều chế biến thì còn lại bao nhiêu dưỡng chất tự nhiên?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Trans-fat trong gà rán chiên ngập dầu gây hại gì cho cơ thể Johnny?",
+          "options": [
+            "Làm tóc bị thưa và rụng nhiều hơn",
+            "Làm giọng nói trở nên khàn khàn",
+            "Làm giảm thị lực và gây mờ mắt",
+            "Tăng cholesterol xấu, giảm cholesterol tốt, gây hại cho tim mạch"
+          ],
+          "correctIndex": 3,
+          "explanation": "Trans-fat là loại chất béo nhân tạo xuất hiện khi chiên ở nhiệt độ cao. Nó làm tăng LDL (cholesterol xấu) và giảm HDL (cholesterol tốt), gây hại cho tim mạch theo thời gian.",
+          "hint": "Trans-fat ảnh hưởng đến cholesterol như thế nào — nó tăng loại xấu hay tốt?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Một lon nước ngọt chứa khoảng bao nhiêu đường?",
+          "options": [
+            "Khoảng 7 đến 10 thìa cà phê — nhiều hơn lượng đường khuyến nghị cả ngày",
+            "Khoảng 1 thìa cà phê",
+            "Khoảng 3 thìa cà phê",
+            "Không có đường vì vị chua từ khí gas CO2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Một lon nước ngọt (330ml) chứa khoảng 35-40g đường, tương đương 7-10 thìa cà phê. Đây nhiều hơn lượng đường khuyến nghị cho cả ngày của trẻ em (khoảng 25g).",
+          "hint": "Thử tưởng tượng xem 9 thìa cà phê đường nhiều đến mức nào khi gộp lại."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Calo rỗng (empty calories) trong gà rán có nghĩa là gì?",
+          "options": [
+            "Gà rán không có calo nào cả, không ảnh hưởng đến cân nặng",
+            "Gà rán chứa calo cao nhưng rất ít vitamin, khoáng chất và chất xơ có ích",
+            "Calo trong gà rán nhanh bị đốt cháy nên không có hại",
+            "Gà rán chứa calo thấp nên không đủ năng lượng cho cơ thể"
+          ],
+          "correctIndex": 1,
+          "explanation": "Calo rỗng nghĩa là nhiều năng lượng (calo) nhưng ít dưỡng chất thực sự. Gà rán cung cấp nhiều calo từ chất béo nhưng rất ít vitamin, khoáng chất hay chất xơ mà cơ thể cần.",
+          "hint": "Rỗng ở đây không phải là không có calo — mà là calo không đi kèm với dưỡng chất."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Thay vì uống nước ngọt sau khi đá bóng, Johnny nên chọn gì để bổ sung nước và khoáng chất tốt nhất?",
+          "options": [
+            "Nước lọc hoặc nước dừa tươi — bổ sung nước và khoáng chất tự nhiên",
+            "Nước cam ép đóng hộp thêm đường",
+            "Trà sữa trân châu lạnh",
+            "Bất kỳ đồ uống nào không có gas đều tốt"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nước lọc bổ sung nước mà không có gì có hại. Nước dừa tươi tự nhiên bổ sung kali và khoáng chất mất qua mồ hôi — là lựa chọn hoàn hảo sau khi vận động.",
+          "hint": "Sau khi vận động, cơ thể cần bổ sung nước và khoáng chất — không cần đường."
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Axit phosphoric trong nước ngọt gây hại gì cho cơ thể?",
+          "options": [
+            "Làm dạ dày khó tiêu thức ăn hơn bình thường",
+            "Làm tóc mất màu và bạc sớm hơn",
+            "Ăn mòn men răng theo thời gian, gây sâu răng và ê buốt",
+            "Làm xương to hơn và nặng hơn không cần thiết"
+          ],
+          "correctIndex": 2,
+          "explanation": "Axit phosphoric trong nước ngọt làm giảm pH trong miệng, tạo môi trường axit ăn mòn men răng. Uống thường xuyên gây sâu răng và ê buốt theo thời gian.",
+          "hint": "Axit ăn mòn kim loại — nó làm gì với men răng?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Johnny muốn ăn gà mà vẫn lành mạnh. Cách chế biến nào tốt hơn gà rán?",
+          "options": [
+            "Gà chiên ít dầu hơn thay vì ngập dầu",
+            "Tất cả cách trên đều tốt như nhau vì đều là gà",
+            "Gà rán nhưng bỏ lớp vỏ giòn",
+            "Gà luộc, hấp hoặc nướng mà không chiên ngập dầu"
+          ],
+          "correctIndex": 3,
+          "explanation": "Luộc, hấp hoặc nướng giữ nguyên protein của gà mà không thêm lượng chất béo lớn từ việc chiên ngập dầu. Đây là cách chế biến giữ được nhiều dưỡng chất hơn.",
+          "hint": "Phương pháp nào không thêm lượng chất béo bên ngoài vào thịt gà?"
+        },
+        {
+          "type": "multiple_choice",
+          "text": "Tại sao chất tạo hương vị nhân tạo trong thực phẩm công nghiệp lại đáng lo ngại?",
+          "options": [
+            "Chúng làm thức ăn có màu sắc không tự nhiên và khó nhìn",
+            "Chúng làm cơ thể thèm ăn thêm không kiểm soát được và muốn ăn mãi",
+            "Chúng làm thức ăn nấu nhanh hơn trong lò vi sóng",
+            "Chúng chỉ ảnh hưởng đến người bị dị ứng thực phẩm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chất tạo hương vị nhân tạo được thiết kế để kích thích não muốn ăn thêm, làm cơ thể khó dừng lại. Đây là lý do tại sao khó chỉ ăn một ít bánh snack mà không ăn hết cả gói.",
+          "hint": "Tại sao con khó dừng lại khi đang ăn bánh snack — có phải ngẫu nhiên không?"
+        },
+        {
+          "type": "true_false",
+          "text": "Nước ngọt diet (zero sugar) hoàn toàn không gây hại và có thể uống thoải mái thay thế nước lọc hàng ngày.",
+          "correct": false,
+          "explanation": "Nước ngọt diet dùng chất tạo ngọt nhân tạo thay đường, nhưng vẫn chứa axit phosphoric và axit carbonic gây hại cho men răng. Một số nghiên cứu cũng lo ngại về chất tạo ngọt nhân tạo khi dùng lâu dài.",
+          "hint": "Không có đường không có nghĩa là không có hại — còn những thành phần nào khác trong nước ngọt diet?"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Gà rán và thức ăn nhanh chứa nhiều ___ rỗng — nhiều calo nhưng rất ít vitamin và khoáng chất cơ thể cần.",
+          "answer": "calo",
+          "explanation": "Calo rỗng nghĩa là năng lượng (calo) không đi kèm với dưỡng chất thực sự. Ăn nhiều calo rỗng khiến cơ thể tăng cân nhưng vẫn thiếu vitamin và khoáng chất cần thiết.",
+          "hint": "Từ nào chỉ đơn vị đo năng lượng trong thực phẩm?"
+        }
+      ]
+    }
+  ]
+}

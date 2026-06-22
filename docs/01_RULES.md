@@ -59,6 +59,21 @@ For full incident history and root causes: `docs/INCIDENTS.md`
 | Content language | Vietnamese, child-friendly, age 8–10 |
 | Textbook copying | Never — use original examples with real-life context |
 
+---
+
+## Question Validation Rules (MANDATORY before import)
+
+These rules were added after a batch audit found 16 questions with wrong answers in English lessons x002–x004 and several math/Vietnamese lessons. All errors were avoidable with a single cross-check step.
+
+| Rule | Check |
+|---|---|
+| **Explanation letter must match correctIndex** | Read the explanation. Find which letter it names (e.g., "đáp án C"). Verify that letter matches `correctIndex` (C=2). This single check catches the most common AI generation error. |
+| **"Find the WRONG sentence" questions** | For "Câu nào SAI?" / "Câu nào không đúng?", `correctIndex` must point to the option that IS wrong/incorrect. The explanation should describe why that option is wrong. |
+| **True/False with negative statements** | For TF questions where the statement is factually false, `correct` must be `false`. If the explanation begins with "Sai!" or "Không đúng!", double-check that `correct: false` in the manifest. |
+| **No two-blank fill questions** | A `fill_blank` question may have exactly ONE `___`. If the question text has two blanks, rewrite to one blank or split into two questions. Single `answer` field cannot satisfy two blanks. |
+| **Explanation contradicts answer** | Read the explanation and verify it is consistent with the stored `correctAnswer`. If the explanation says "Câu đúng: X" but `correctAnswer` points to Y, one of them is wrong — fix before import. |
+| **Translation questions** | For "Câu A có nghĩa là gì?" (what does sentence A mean?), verify the correct option is semantically equivalent to the sentence being translated — especially for negatives ("don't", "không", "phủ định"). |
+
 ## PDF / Knowledge Package Rules
 
 | Rule | Detail |
